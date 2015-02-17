@@ -1,4 +1,6 @@
 import httplib2
+import pdb
+import inspect
 
 from apiclient.discovery import build
 from apiclient import errors
@@ -79,7 +81,7 @@ def get_message(service, user_id, msg_id):
     message = service.users().messages().get(userId=user_id, id=msg_id).execute()
 
     print 'Message snippet: %s' % message['snippet']
-
+    pdb.set_trace()
     return message
 
   except errors.HttpError, error:
