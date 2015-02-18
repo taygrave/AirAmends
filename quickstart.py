@@ -1,6 +1,8 @@
 import httplib2
 import pdb
 import inspect
+import base64
+import model
 
 from apiclient.discovery import build
 from apiclient import errors
@@ -75,27 +77,34 @@ def get_message(service, user_id, msg_id):
     msg_id: The ID of the Message required.
 
   Returns:
-    A Message.
+    A Message, decoded.
   """
   try:
-    message = service.users().messages().get(userId=user_id, id=msg_id).execute()
+    message = service.users().messages().get(userId=user_id, id=msg_id, format="raw").execute()
+    msg_string = base64.urlsafe_b64decode(message['raw'].encode('ASCII'))
 
-    print 'Message snippet: %s' % message['snippet']
-    pdb.set_trace()
-    return message
+    return msg_string
 
   except errors.HttpError, error:
     print 'An error occurred: %s' % error
 
-def testing():
+def add_msgs_to_db():
     #added 'southwest' to query to start with managable list of results
     query1 = "itinerary, confirmation, flight, number, departure, taxes, southwest"
     msg_list = query_messages(gmail_service,"me", query1)
-    msg_obj_list = []
+    s = model.connect()
 
     for i in range(len(msg_list)):
         msg_id = msg_list[i]['id']
-        msg_obj = get_message(gmail_service,'me', msg_id)
-        msg_obj_list.append(msg_obj)
+        msg_thrd_id = msg_list[i]['threadId'] #often same as msg_id, may not need, uncertain
+        msg_str = get_message(gmail_service,'me', msg_id)
 
-    return msg_obj_list
+        # add to db the id and the text
+        #FIXME: actually add the current user to the Users table (w/ all info) and input user_id as actual user_id
+        entry = model.Email(user_id=1, msg_id=msg_id, thread_id=msg_thrd_id, body=msg_str)
+        s.add(entry)
+
+    s.commit() 
+
+    print "Successfully added emails to the db"
+
