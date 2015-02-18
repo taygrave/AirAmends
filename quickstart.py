@@ -20,7 +20,7 @@ CLIENT_SECRET_FILE = 'client_secret.json'
 OAUTH_SCOPE = 'https://www.googleapis.com/auth/gmail.readonly'
 
 # Location of the current user's credentials storage file
-#change this to keep in same place as the client_secret_file??
+# change this to keep in same place as the client_secret_file??
 STORAGE = Storage('gmail.storage')
 
 # Start the OAuth flow to retrieve credentials

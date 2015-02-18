@@ -11,6 +11,7 @@ fnum = 0
 for msg in msg_list:
     body = msg.body
     soup = BeautifulSoup(body)
+    #import incase this is not your itinerary
     passenger = soup.find('name')
     date = soup.find('traveldate')
     depart = soup.find('depart')
