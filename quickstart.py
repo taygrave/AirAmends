@@ -1,6 +1,4 @@
 import httplib2
-import pdb
-import inspect
 import base64
 import model
 
@@ -10,6 +8,9 @@ from oauth2client.client import flow_from_clientsecrets
 from oauth2client.file import Storage
 from oauth2client.tools import run
 
+#FIXME: clean this UP! 
+#FIXME: this process takes so long, way to speed it up? 
+
 #exmaple provided by: https://developers.google.com/gmail/api/quickstart/quickstart-python
 
 # Path to the client_secret.json file downloaded from the Developer Console
@@ -18,7 +19,8 @@ CLIENT_SECRET_FILE = 'client_secret.json'
 # Check https://developers.google.com/gmail/api/auth/scopes for all available scopes
 OAUTH_SCOPE = 'https://www.googleapis.com/auth/gmail.readonly'
 
-# Location of the credentials storage file
+# Location of the current user's credentials storage file
+#change this to keep in same place as the client_secret_file??
 STORAGE = Storage('gmail.storage')
 
 # Start the OAuth flow to retrieve credentials

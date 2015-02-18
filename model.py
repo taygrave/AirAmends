@@ -41,10 +41,6 @@ class User(Base):
 
     def save_new_token(self, access_token):
         """Save new access token in the database."""
-        session.query(User).filter_by(id=self.id).update({"access_token": access_token})
-        session.commit()
-
-    def request_email_ids(self):
         pass
 
     def __repr__(self):
