@@ -1,0 +1,857 @@
+Delivered-To: tkhesselgrave@gmail.com
+Received: by 10.216.47.75 with SMTP id s53csp308448web;
+        Fri, 7 Dec 2012 09:37:59 -0800 (PST)
+Received: by 10.236.9.33 with SMTP id 21mr8622790yhs.98.1354901878460;
+        Fri, 07 Dec 2012 09:37:58 -0800 (PST)
+Return-Path: <bounces@maile.travelpn.com>
+Received: from p977b.travelocity.com (p977b.travelocity.com. [151.193.225.151])
+        by mx.google.com with ESMTP id w4si14358099yhd.120.2012.12.07.09.37.57;
+        Fri, 07 Dec 2012 09:37:58 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces@maile.travelpn.com designates 151.193.225.151 as permitted sender) client-ip=151.193.225.151;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bounces@maile.travelpn.com designates 151.193.225.151 as permitted sender) smtp.mail=bounces@maile.travelpn.com; dkim=pass header.i=@travelocity.com
+Received: from tvl-p-nexe002 ([10.8.0.121])
+	by p977b.travelocity.com (StrongMail Enterprise 5.0.2.1(5.0.2-52869)); Fri, 07 Dec 2012 11:37:57 -0600
+X-VirtualServer: SMTP_VSG, p977b.travelocity.com, 10.8.20.36
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: TKHESSELGRAVE@GMAIL.COM
+X-SMFBL: VEtIRVNTRUxHUkFWRUBHTUFJTC5DT00=
+X-VirtualServerGroup: SMTP_VSG
+DomainKey-Signature: a=rsa-sha1;
+ c=nofws;
+ s=sm;
+ d=travelocity.com;
+ q=dns;
+ b=QKOGhJCyY7auk6IfMWQd0n9xqaqc0JYdnw+jI/eQv9ytnw0tFHg8c5lI506dricKaht5VAPUFxjr52unStxh6nXMdX81U4v5raIJ10eBR1EmMUGV9ZUV/m4Xvtl6DfgKFFV5uL1HYbOANtP2SgOKGrHD+iGPUlFa3Tf7y3vKOzs=
+DKIM-Signature: v=1; a=rsa-sha1; c=simple; d=travelocity.com;
+	s=sm; i=@travelocity.com; h=Date:From:To:Message-ID:Subject:
+	MIME-Version:Content-Type:Content-Transfer-Encoding:X-MailingID;
+	bh=1NHo3e/2zO04n05waEU3Aam8/EY=; b=TTr514jRNu4N9NLJwWqLN+iqpksj6
+	TjVu0y4L9MbbtAt0l8zSpeEI+7mGwT3b0p7krt16UtpKKHTF+c/+0sg4NgHTWSXH
+	Nhcf/KSxcehBkyae6lslXmXEHrmW0gX8NJbTv7hK9K/MmWAnF5NW2dLVeFhPMtCR
+	lIt5NHNRbA/PN8=
+Date: Fri, 07 Dec 2012 11:37:57 -0600
+From: Travelocity Customer Support <travelocity@travelocity.com>
+To: TKHESSELGRAVE@GMAIL.COM
+Message-ID: <12112437.1567645.1354901877252.JavaMail.tvly@tvl-p-nexe002>
+Subject: Travelocity Confirmation
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+X-MailingID: TRAVELOCITY::Checkout.TRAVELOCITY_html_Confirmation::SMTPI::623422731441::04011603447635::
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--67B304E5F81E4C96E1AE166A9EF75E07.pwbap051a-->
+<!--TRAVELOCITY-->
+<html lang="en" xml:lang="en" xmlns= "http://www.w3.org/1999/xhtml">
+<head>
+  <title>Confirmation Email</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body bgcolor="#EBEBEB">
+    <table cellspacing="0" cellpadding="0" width="650" bgcolor="#EBEBEB" border="0">
+    <tbody>
+      <tr>
+        <td style="BORDER-RIGHT: #ebebeb 20px solid; BORDER-TOP: #ebebeb 20px solid; BORDER-LEFT: #ebebeb 20px solid; BORDER-BOTTOM: #ebebeb 20px solid" width="650">
+          <table cellspacing="0" cellpadding="0" width="610" border="0">
+            <tbody>
+                                            <!--begin header image -->
+<tr>  
+  <td style="font-size:0px;" align="left" width="610" height="35">
+  		<img height="35" alt="Travelocity Confirmation Email" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_top_background.gif" width="610" border="0">
+  </td>
+ </tr>
+<!--end header image -->
+                            <tr>
+                <td style="BORDER-RIGHT: #cbcbcb 1px solid; PADDING-RIGHT: 14px; PADDING-LEFT: 14px; PADDING-BOTTOM: 0px; BORDER-LEFT: #cbcbcb 1px solid; PADDING-TOP: 0px; BACKGROUND-COLOR: #ffffff" valign="top" align="left" width="610">
+                  <table cellspacing="0" cellpadding="0" width="580" border="0">
+                    <tbody>
+                      <tr>
+                        <td style="BACKGROUND-COLOR: #ffffff" width="580">
+                          <!--begin content area-->
+                          <table cellspacing="0" cellpadding="0" width="580" border="0">
+                            <tbody>
+                                                              
+<!--begin intro-->
+<tr>
+  <td style="FONT-SIZE: 12px; PADDING-BOTTOM: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" width="580">
+    <table cellspacing="0" cellpadding="0" width="580" border="0">
+      <tbody>
+        <tr>
+          <td style="PADDING-RIGHT: 10px; FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" valign="top" width="325">
+            <img height="50" alt="Travelocity" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_tcy_logo.gif" width="136" border="0">
+            <img height="50" alt="Travel Confirmation" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_travelconfirmation.gif" width="180" border="0"><br />
+            <strong>Taylor,</strong><br />
+                          <br />Thank you for booking your travel with Travelocity.<br />
+                        <br /><strong>Your Travelocity Trip ID is: 6234 2273 1441</strong><br />
+            <br />You can view your Trip Details by logging onto<br />
+            <a style="COLOR: #003466" href="http://travel.travelocity.com/">Travelocity.com</a><br />
+            <br />If any issues arise with your reservation before or during your trip, please contact us immediately.          </td>
+          <td valign="top" width="245">
+            <img height="216" alt="Destination Examples" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_top_polaroidphotos_gnome.jpg" width="240" border="0">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </td>
+</tr>
+<!--end intro-->
+
+                                                                                            
+<!--begin customer support-->
+<tr>
+  <td style="border: 1px solid #dddddd; background-color: #f4f4f4; padding:7px;" width="100%">
+    <table cellspacing="0" cellpadding="0" width="100%" border="0">
+      <tbody>
+        <tr>
+          <td width="75%">
+            <table cellspacing="0" cellpadding="0" width="100%" border="0">
+              <tbody>
+                <tr>
+                  <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" width="30%">
+                    <strong>Customer Support</strong>
+                  </td>
+                  <td width="30%"><br /></td>
+                  <td align="left" width="35%"><br /></td>
+                </tr>
+                <tr>
+                  <!--row one-->
+                  <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+                    In the US                  </td>
+                  <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+                    1.888.872.8356
+                  </td>
+                  <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+                    24 hours/7 days a week                  </td>
+                                                      <td rowspan="3">
+                    <img src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/spacer.gif" width="20" height="1" border="0" alt="Customer Support" />
+                  </td>
+                  <td rowspan="3" style="BORDER-LEFT: #cccccc 1px solid">&nbsp;</td>
+                  <td rowspan="3">
+                    <img src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/spacer.gif" width="20" height="1" border="0" alt="Customer Support" />
+                  </td>
+                </tr>
+                                                <tr>
+                  <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+                    Outside the US                  </td>
+                  <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+                    1.210.521.5871
+                  </td>
+                  <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+                    24 hours/7 days a week                  </td>
+                </tr>
+                                  <tr>
+                    <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+                      En Espa&ntilde;ol                    </td>
+                    <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+                      1.866.828.3933
+                    </td>
+                    <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+                      7am - 10pm CST                    </td>
+                  </tr>
+                              </tbody>
+            </table>
+          </td>
+		  			<!-- begin support links -->
+  <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" valign="bottom" align="left">
+    <a style="COLOR: #003466" href="http://us.custhelp.com/app/answers/detail/a_id/7398/p/41,43">How to change my trip</a><br>
+    <a style="COLOR: #003466" href="http://us.custhelp.com/app/answers/detail/a_id/1039/p/41,43">How to cancel my trip</a><br>
+    <a style="COLOR: #003466" href="http://us.custhelp.com/cgi-bin/us.cfg/php/enduser/home.php?p_sid=&prod_lvl1=41&prod_lvl2=43&p_prods=41%2C43&p_pv=2.43">Email Travelocity</a>
+  </td>
+<!-- end support links -->
+		          </tr>
+      </tbody>
+    </table>
+  </td>
+</tr>
+<!--/end customer support-->
+
+                                                                                            
+<!--begin Paper Ticket Delivery Info-->
+<!--/end Paper Ticket Delivery Info-->
+                                                            <!--begin Itinerary -->
+                                                              
+<!--begin Flights-->
+      <tr>
+    <td style="FONT-SIZE: 12px; PADDING-TOP: 20px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" width="100%">
+      <table cellspacing="0" cellpadding="0" width="100%" border="0">
+        <tbody>
+          <tr>
+            <td style="PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #003366; PADDING-TOP: 5px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #d3deef" width="100%">
+              <h4 style="MARGIN: 0px; COLOR: #003366">
+                <strong>Flights</strong>
+              </h4>
+            </td>
+          </tr>
+          
+                    						  					  		  
+                    
+          <tr>
+            <td style="PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; PADDING-TOP: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+              1
+                                                One-Way Ticket                                            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td colspan="2" style="FONT-SIZE: 12px; PADDING-TOP: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+                    All flight times are local to each city.                  </td>           
+                </tr>
+              </table>
+            </td>
+          </tr>
+                                                                          <tr>
+                                                <td style="PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; PADDING-TOP: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+                                      <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                      <tbody>
+                        <tr>
+                          <td style="FONT-SIZE: 13px; PADDING-TOP: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" width="60%">
+                            <strong>Wed, Dec 26, 2012</strong>
+                          </td>
+                          <td style="FONT-SIZE: 12px; PADDING-TOP: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" align="right" width="40%">
+                                                                                          <a style="COLOR: #003466" href="http://leisure.travelocity.com/Promotions/0,,TRAVELOCITY|1741|air_main,00.html">Online check-in</a>
+                                                            code: MSEPEW
+                                                      </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                                    <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                    <tbody>
+                      <tr>
+                        <td style="FONT-SIZE: 12px; PADDING-TOP: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" width="30%" valign="top">
+                          <strong>Depart:</strong>
+                          07:21 pm<br>
+                                                    <strong>Arrive:</strong>
+                          09:15 pm
+                                                                                                        </td>
+                        <td style="FONT-SIZE: 12px; PADDING-TOP: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" width="35%" valign="top">
+                          Denver, CO (DEN)<br>
+                                                                              Portland, OR (PDX)
+                        </td>
+                        <td style="FONT-SIZE: 12px; PADDING-TOP: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" width="5%" valign="top">
+                                                    <img alt="United" src="http://i.travelocity.com.edgesuite.net/legacy/logos/ag_ualogo_3.gif" onerror="this.src='http://i.travelocity.com.edgesuite.net/legacy/logos/ag_ualogo_3.gif';th;this.alt='';">
+                        </td>
+                        <td style="FONT-SIZE: 12px; PADDING-TOP: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" width="30%" valign="top">
+                          United, Flight 1642<br />
+                          Economy &nbsp; Class <br />
+                                                                                                                                      Non-stop<br />
+                                                                            </td>
+                      </tr>                       
+                       <tr>
+                        <td></td>
+                        <td style="FONT-SIZE: 12px; PADDING-TOP: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" width="30%" valign="top" align="left">                              
+              				              				        <br />          
+              				                 		</td>
+                 		<td></td>
+                 		<td></td>
+                 	  </tr>
+                                      	  
+                      <tr>
+                        <td style="FONT-SIZE: 12px; PADDING-TOP: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" colspan="4">
+                        
+                        									Total Travel Time: 2 hrs 54 mins 
+														
+                                                                            </td>
+                      </tr>
+                      <!-- Commenting the following case which already handled above ( line #217 )-->
+                     <!--    -->
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+                              <tr>
+                  <td style="PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; PADDING-TOP: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">&nbsp;</td>
+                </tr>
+                                          
+                      <tr>
+             <td style="PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BORDER-TOP: #d3deef 1px solid; FONT-SIZE: 12px; PADDING-TOP: 20px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+              <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                <tbody>
+                  <tr>
+                    <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" width="30%" valign="top">
+                     Baggage fees:  In most cases, the applicable baggage fees and allowances for the entire trip will be those of the first carrier listed on your itinerary,                        
+                                                										  								  						United 
+			  									 												                                        .  However, in a limited number of multiple carrier itineraries for international travel, the first carrier may apply the fees and allowances of another carrier listed on your itinerary.  For more information, including detailed baggage allowances and fees by carrier,                 <a href="http://www.travelocity.com/info/info_popup/0,,TRAVELOCITY:EN%7CBAG_FEES,00.html" target="_blank" style="COLOR: #003466">
+	  		    please click here</a>. If you need additional information regarding baggage allowance and fees, please contact the first carrier listed on your itinerary.                </td>
+              </tr>
+              <tr><td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" width="30%" valign="top">&nbsp;</td></tr>
+             </tbody>
+           </table>
+          </td>
+         </tr>
+                  <tr>
+            <td style="PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BORDER-TOP: #d3deef 1px solid; FONT-SIZE: 12px; PADDING-TOP: 20px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+              <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                <tbody>
+                  <tr>
+                    <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" width="30%" valign="top">
+                      <strong>Passengers</strong>
+                    </td>
+                    <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" width="35%" valign="top">
+                                              <strong>E-ticket Numbers</strong>
+                                          </td>
+                    <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" width="35%" valign="top">
+                      <strong>Frequent Flier Information</strong>
+                    </td>
+                  </tr>
+                                                        <tr>
+                      <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" width="30%" valign="top">
+                        TAYLOR HESSELGRAVE
+                      </td>
+                      <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" width="35%" valign="top">
+                                                                                                            0167151679632<br />
+                                                                                                    </td>
+                      <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" width="35%" valign="top">
+                                                                              United Airlines:&nbsp;&nbsp;00154593055<br />
+                                                                        </td>
+                    </tr>
+                                                        <tr>
+                    <td style="FONT-SIZE: 12px; PADDING-TOP: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" colspan="3">
+                      <a style="COLOR: #003466" href="#allpolicies">
+                        Flight policies                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </td>
+  </tr>
+<!--/end Flights-->
+
+                                                                                            <!--begin hotels-->
+<!--/end hotels-->
+                                                                                            
+<!--begin cars-->
+<!--/end cars-->
+                                                                                            
+<!--begin extras-->
+<!--/end extras-->
+                                                                                            <!--begin Travel Protection-->
+<!--/end Travel Protection-->
+                              
+                                                            <!--/end Itinerary -->
+                              <!-- Temporary fix for not showing pricing section for RBC air AVION -->
+                                                            <!-- Temporary fix for not showing pricing section for RBC air AVION -->
+                                                            <!-- Temporary fix for not showing pricing section for RBC air AVION -->
+                                                            <!-- Temporary fix for not showing pricing section for RBC air AVION -->                              
+                                                              
+<!--begin Pricing-->
+<tr>
+  <td style="FONT-SIZE: 12px; PADDING-TOP: 20px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" width="100%">
+    <table cellspacing="0" cellpadding="0" width="100%" border="0">
+      <tbody>
+        <tr>
+          <td style="PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #003366; PADDING-TOP: 5px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #d3deef" width="100%">
+            <h4 style="MARGIN: 0px; COLOR: #003366">
+              <strong>Pricing</strong>
+            </h4>
+          </td>
+        </tr>
+        <tr>
+          <td style="PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; PADDING-TOP: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">          
+          <table border="0">
+	       <tr>
+		    <td width="60%">          
+            <table cellspacing="0" cellpadding="2" border="0" >
+              <tbody>
+                                                                      <tr>
+                    <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" width="60%">
+                      1 Adult:
+                    </td>
+                    <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" align="right">
+                                              $187.00
+                                          </td>
+                    <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+                                          </td>
+                  </tr>
+                                                                <tr>
+                  <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+                    <a href="http://www.travelocity.com/info/legal_popup/0,6735,TRAVELOCITY:EN,00.html">Taxes + Airline &amp; Agency Fees:</a>
+                  </td>
+                  <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" align="right">
+                                          $10.80
+                                      </td>
+                  <td></td>
+                </tr>
+                                                                                                <tr>
+                  <td style="BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+                    <strong>Total:</strong>
+                  </td>
+                  <td style="BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" align="right">
+                    <strong>
+                                              $197.80
+                                          </strong>
+                  </td>
+                  <td></td>
+                </tr>
+                
+                
+              </tbody>
+            </table>
+            </td>
+			<td align="center" style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">&nbsp;&nbsp;&nbsp;&nbsp;<b><a href="http://www.travelocity.com/info/info_popup/0,,TRAVELOCITY:EN%7CBAG_FEES,00.html" target="_blank" style="COLOR: #003466">
+	  		Additional baggage fees may apply</a></b></td>
+			</tr>
+		    </table>           
+          </td>
+        </tr>
+        <tr>
+            <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" colspan="3"><br />
+              We charged a total of                              $197.80
+                            to your                          		            			Visa&reg;            		            	            	xxxx-xxxx-xxxx-4602.
+            </td>
+         </tr>
+      </tbody>
+    </table>
+  </td>
+</tr>
+<!--/end Pricing-->
+                              
+                                                                                            
+                              
+                              
+                              
+                                                              
+
+                                                            
+                                                              
+<!--begin Cross Sell Section-->
+                          <tr>
+    <td style="FONT-SIZE: 12px; PADDING-TOP: 20px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" width="100%">
+      <table cellspacing="0" cellpadding="0" width="100%" border="0">
+        <tbody>
+          <tr>
+            <td style="PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #003366; PADDING-TOP: 5px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #d3deef" width="100%">
+              <h4 style="MARGIN: 0px; COLOR: #003366">
+                <strong>Complete Your Travel Plans for Portland</strong>
+              </h4>
+            </td>
+          </tr>
+          <!--begin Add a Hotel-->
+                      <tr>
+              <td style="PADDING-RIGHT: 5px; BORDER-TOP: #d3deef 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; PADDING-TOP: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+                <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                  <tbody>
+                    <tr>
+                      <td valign="top" width="15%">
+                        <img height="85" alt="Add a Hotel" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_cs_hotel_photo.jpg" width="89" border="0">
+                      </td>
+                                              <td style="PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" valign="top" width="65%">
+                          <span style="FONT-SIZE: 13px">
+                          	<strong>Add a Hotel</strong>
+                          </span>
+                          <br />
+                                                                                                                                                                      <font style="color:#BC5015;">3-Stars</font>:
+                            University Place Hotel and Conference Center from                            <a style="COLOR: #003466" href="                                  http://travel.travelocity.com/relevance/GlobalRedirector.do?Service=TRAVELOCITY&addressURL=http://travel.travelocity.com/hotel/HotelSearch.do?Service=TRAVELOCITY$$searchMode=city$$cityCountryCode=US$$city=PDX$$dateLeavingMonth=12$$dateLeavingDay=26$$dateReturningMonth=12$$dateReturningDay=26$$adults=1$$children=0$$hotelRating=$$WA1=02052&currentPage=Xsell_Email&destCityCode=PDX&LOBSourceCode=Air&campaignId=xsell&transactionTS=2012-12-07 11:37:56&impressionNum=256&productValue=HotelDeal${hotelDealsCount}&productId=1&interactionType=&dealId=200955842509&dealTypeCode=JSF&CRMLeadKey=PDXxsell2012-12-07 09:33:41&WA3=ConfirmEmail&WA8=Air&WA6=HOT
+      "><strong>$79</strong></a>
+                            / night<br>
+                                                                                                                                                                                                  <font style="color:#BC5015;">3-Stars</font>:
+                            Red Lion Hotel Portland Convention Center from                            <a style="COLOR: #003466" href="                                  http://travel.travelocity.com/relevance/GlobalRedirector.do?Service=TRAVELOCITY&addressURL=http://travel.travelocity.com/hotel/HotelSearch.do?Service=TRAVELOCITY$$searchMode=city$$cityCountryCode=US$$city=PDX$$dateLeavingMonth=12$$dateLeavingDay=26$$dateReturningMonth=12$$dateReturningDay=26$$adults=1$$children=0$$hotelRating=$$WA1=02052&currentPage=Xsell_Email&destCityCode=PDX&LOBSourceCode=Air&campaignId=xsell&transactionTS=2012-12-07 11:37:56&impressionNum=256&productValue=HotelDeal${hotelDealsCount}&productId=1&interactionType=&dealId=200955842508&dealTypeCode=JSF&CRMLeadKey=PDXxsell2012-12-07 09:33:41&WA3=ConfirmEmail&WA8=Air&WA6=HOT
+      "><strong>$89</strong></a>
+                            / night<br>
+                                                                                                                                                                                                  <font style="color:#BC5015;">3-Stars</font>:
+                            Shilo Inn Suites Hotel Portland Airport from                            <a style="COLOR: #003466" href="                                  http://travel.travelocity.com/relevance/GlobalRedirector.do?Service=TRAVELOCITY&addressURL=http://travel.travelocity.com/hotel/HotelSearch.do?Service=TRAVELOCITY$$searchMode=city$$cityCountryCode=US$$city=PDX$$dateLeavingMonth=12$$dateLeavingDay=26$$dateReturningMonth=12$$dateReturningDay=26$$adults=1$$children=0$$hotelRating=$$WA1=02052&currentPage=Xsell_Email&destCityCode=PDX&LOBSourceCode=Air&campaignId=xsell&transactionTS=2012-12-07 11:37:56&impressionNum=256&productValue=HotelDeal${hotelDealsCount}&productId=1&interactionType=&dealId=200955842461&dealTypeCode=JSF&CRMLeadKey=PDXxsell2012-12-07 09:33:41&WA3=ConfirmEmail&WA8=Air&WA6=HOT
+      "><strong>$79</strong></a>
+                            / night<br>
+                                                                              </td>
+                        <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" valign="center" width="20%">
+                          <a style="COLOR: #003466" href="                                  http://travel.travelocity.com/relevance/GlobalRedirector.do?Service=TRAVELOCITY&addressURL=http://travel.travelocity.com/hotel/HotelSearch.do?Service=TRAVELOCITY$$searchMode=city$$cityCountryCode=US$$city=PDX$$dateLeavingMonth=12$$dateLeavingDay=26$$dateReturningMonth=12$$dateReturningDay=26$$adults=1$$children=0$$hotelRating=$$WA1=02052&currentPage=Xsell_Email&destCityCode=PDX&LOBSourceCode=Air&campaignId=xsell&transactionTS=2012-12-07 11:37:56&impressionNum=250&productValue=MoreHotels&productId=1&interactionType=&dealId=&dealTypeCode=&CRMLeadKey=&WA3=ConfirmEmail&WA8=Air&WA6=HOT
+      ">More hotel deals</a>
+                        </td>
+                                          </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+                    <!--/end Add a Hotel-->
+          <!--begin Add a Car-->
+                                              <tr>
+              <td style="PADDING-RIGHT: 5px; BORDER-TOP: #d3deef 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; PADDING-TOP: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+                <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                  <tbody>
+                    <tr>
+                      <td valign="top" width="15%">
+                        <img height="85" alt="Add a Car" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_cs_car_photo.jpg" width="89" border="0">
+                      </td>
+                      
+                                              <td style="PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" valign="top" width="35%">
+                          <span style="FONT-SIZE: 13px">
+                            <strong>Add a Car</strong>
+                          </span>
+                          <br />
+                                                                                                                                                                                                                                                        Intermediate Car from                            <a style="COLOR: #003466" href="                                  http://travel.travelocity.com/relevance/GlobalRedirector.do?Service=TRAVELOCITY&addressURL=http://travel.travelocity.com/car/PostFrontDoor.do?Service=TRAVELOCITY$$flightNumber=1642$$flightName=UA$$rdoCarType=specific$$rdoLocPickup=pu_air$$pickupCity=PDX$$pickupMonth=12$$pickupDayOfMonth=26$$dropoffMonth=12$$dropoffDayOfMonth=26$$carTypes=IC$$WA1=02052&currentPage=Xsell_Email&destCityCode=PDX&LOBSourceCode=Air&campaignId=xsell&transactionTS=2012-12-07 11:37:56&impressionNum=242&productValue=CarDeal1&productId=3&interactionType=&dealId=100157275569&dealTypeCode=LOW-C&CRMLeadKey=PDXxsell2012-12-07 09:33:41&WA3=ConfirmEmail&WA8=Air&WA6=CAR
+      "><strong>$81</strong></a>
+                            /day
+                            <br>
+                                                                                                                                                                                                                              Compact Car from                            <a style="COLOR: #003466" href="                                  http://travel.travelocity.com/relevance/GlobalRedirector.do?Service=TRAVELOCITY&addressURL=http://travel.travelocity.com/car/PostFrontDoor.do?Service=TRAVELOCITY$$flightNumber=1642$$flightName=UA$$rdoCarType=specific$$rdoLocPickup=pu_air$$pickupCity=PDX$$pickupMonth=12$$pickupDayOfMonth=26$$dropoffMonth=12$$dropoffDayOfMonth=26$$carTypes=CC$$WA1=02052&currentPage=Xsell_Email&destCityCode=PDX&LOBSourceCode=Air&campaignId=xsell&transactionTS=2012-12-07 11:37:56&impressionNum=242&productValue=CarDeal1&productId=3&interactionType=&dealId=100157275570&dealTypeCode=LOW-C&CRMLeadKey=PDXxsell2012-12-07 09:33:41&WA3=ConfirmEmail&WA8=Air&WA6=CAR
+      "><strong>$77</strong></a>
+                            /day
+                            <br>
+                                                                                                                                                                                                                              Economy Car from                            <a style="COLOR: #003466" href="                                  http://travel.travelocity.com/relevance/GlobalRedirector.do?Service=TRAVELOCITY&addressURL=http://travel.travelocity.com/car/PostFrontDoor.do?Service=TRAVELOCITY$$flightNumber=1642$$flightName=UA$$rdoCarType=specific$$rdoLocPickup=pu_air$$pickupCity=PDX$$pickupMonth=12$$pickupDayOfMonth=26$$dropoffMonth=12$$dropoffDayOfMonth=26$$carTypes=EC$$WA1=02052&currentPage=Xsell_Email&destCityCode=PDX&LOBSourceCode=Air&campaignId=xsell&transactionTS=2012-12-07 11:37:56&impressionNum=242&productValue=CarDeal1&productId=3&interactionType=&dealId=100157275571&dealTypeCode=LOW-C&CRMLeadKey=PDXxsell2012-12-07 09:33:41&WA3=ConfirmEmail&WA8=Air&WA6=CAR
+      "><strong>$46</strong></a>
+                            /day
+                            <br>
+                                                  </td>
+                                                                        <td valign="middle" align="left" width="30%">
+                          <img src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/nocarvendor_logo_eml.gif" width="100" height="35" border="0" />
+                        </td>
+                        <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" valign="center" width="20%">
+                          <a style="COLOR: #003466" href="                                  http://travel.travelocity.com/relevance/GlobalRedirector.do?Service=TRAVELOCITY&addressURL=http://travel.travelocity.com/car/PostFrontDoor.do?Service=TRAVELOCITY$$flightNumber=1642$$flightName=UA$$rdoCarType=specific$$rdoLocPickup=pu_air$$pickupCity=PDX$$pickupMonth=12$$pickupDayOfMonth=26$$dropoffMonth=12$$dropoffDayOfMonth=26$$carTypes=TB$$WA1=02052&currentPage=Xsell_Email&destCityCode=PDX&LOBSourceCode=Air&campaignId=xsell&transactionTS=2012-12-07 11:37:56&impressionNum=240&productValue=MoreCars&productId=3&interactionType=&dealId=&dealTypeCode=&CRMLeadKey=&WA3=ConfirmEmail&WA8=Air&WA6=CAR
+      ">More car deals</a>
+                        </td>
+                                          </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+                    <!--/end Add a Car-->
+          <!--begin Add a Flight-->
+                    <!--/end Add a Flight-->
+          <!--begin Add an Activity-->
+                      <tr>
+              <td style="PADDING-RIGHT: 5px; BORDER-TOP: #d3deef 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; PADDING-TOP: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+                <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                  <tbody>
+                    <tr>
+                      <td valign="top" width="15%">
+                        <img height="85" alt="Add an Activity" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_cs_activity_photo_left.jpg" width="89" border="0">
+                      </td>
+                                              <td style="PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" valign="top" width="65%">
+                          <span style="FONT-SIZE: 13px">
+                            <strong>Add an Activity</strong>
+                          </span>
+                          <br>
+                                                                                                                                        Tandem Skydive from                            <a style="COLOR: #003466" href="                            http://travel.travelocity.com/relevance/GlobalRedirector.do?Service=TRAVELOCITY&addressURL=http://activities.travelocity.com/nexres/activities/availability.cgi?src=10010405$$airport_code=PDX$$supplier_id=21227$$WA1=02052&currentPage=Xsell_Email&destCityCode=PDX&LOBSourceCode=Air&campaignId=xsell&transactionTS=2012-12-07 11:37:56&impressionNum=262&productValue=ActivityDeal1&productId=16&interactionType=&dealId=300000004020&dealTypeCode=ACTY&CRMLeadKey=PDXxsell2012-12-07 09:33:41&WA3=ConfirmEmail&WA8=Air&WA6=ACT
+      "><strong>$219</strong></a>
+                            <br />
+                                                  </td>
+                        <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" valign="center" width="20%">
+                          <a style="COLOR: #003466" href="                            http://travel.travelocity.com/relevance/GlobalRedirector.do?Service=TRAVELOCITY&addressURL=http://activities.travelocity.com/nexres/activities/search_results.cgi?src=10010405$$airport_code=PDX$$city=Portland$$from_mm=12$$from_dd=26$$from_yy=2012$$to_mm=12$$to_dd=26$$to_yy=2012$$WA1=02052&currentPage=Xsell_Email&destCityCode=PDX&LOBSourceCode=Air&campaignId=xsell&transactionTS=2012-12-07 11:37:56&impressionNum=260&productValue=MoreActivities&productId=16&interactionType=&dealId=&dealTypeCode=&CRMLeadKey=&WA3=ConfirmEmail&WA8=Air&WA6=ACT
+      ">More things to do</a>
+                        </td>
+                                          </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+                    <!--/end Add an Activity-->
+        </tbody>
+      </table>
+    </td>
+  </tr>
+<!--/end Cross Sell Section-->
+
+	                                                                                        
+                              
+                              							   
+<!--begin Ad Placement and Travelocity Guarantee-->
+<tr>
+  <td style="FONT-SIZE: 12px; PADDING-TOP: 20px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" width="100%">
+    <table cellspacing="0" cellpadding="0" width="100%" border="0">
+      <tbody>
+        <tr>
+          <td style="PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BORDER-TOP: #d3deef 1px solid; FONT-SIZE: 12px; PADDING-TOP: 20px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+            <table cellspacing="0" cellpadding="0" width="100%" border="0">
+              <tbody>
+                <tr>
+                  <td style="BORDER-RIGHT: #d3deef 1px solid; PADDING-RIGHT: 5px; FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" valign="top" align="left">
+                    <h4 style="FONT-SIZE: 15px; COLOR: #004384">
+                      <strong>The Travelocity Guarantee</strong>
+                    </h4><br>
+                    <br>We look out for you all trip long, and even before you go.<br>
+                    <br>The Travelocity Guarantee is our commitment to you that we are here for you.<br>
+                    <br>We stand behind everything we sell, everything about your booking will be right, or we'll work with our partners to make it right, right away.<br>
+                    <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                      <tbody>
+                        <tr>
+                          <td style="FONT-SIZE: 12px; PADDING-TOP: 7px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" valign="top">
+                            <a style="COLOR: #003466" href="http://leisure.travelocity.com/Promotions/0,,TRAVELOCITY|4818|mkt_main,00.html">
+                              Learn more                            </a>
+                          </td>
+                          <td style="PADDING-RIGHT: 20px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; PADDING-TOP: 7px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" align="right">
+                            <img height="77" alt="Travelocity Guarantee" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_tvlyguarantee_logo.gif" width="155" border="0">
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+
+                  				  				   				                      <!--had to split these as the parameters vary for lob.-->
+                                       
+                                      				                      	<td style="PADDING-LEFT: 15px" valign="top" align="right">
+				   						 <a href="http://dm.travelocity.com/click.ng/site=travelocity&amp;cobrand=TRAVELOCITY&amp;adsize=300x250&amp;area=econfirm&amp;ecorig=DEN&amp;ecdest=PDX&amp;air_seg=1&amp;car_seg=0&amp;hot_seg=0&amp;transactionID=04011603447635">
+				   						  <img nosend="1" border="0" width="300" height="250" src="http://dm.travelocity.com/image.ng/site=travelocity&amp;cobrand=TRAVELOCITY&amp;adsize=300x250&amp;area=econfirm&amp;ecorig=DEN&amp;ecdest=PDX&amp;air_seg=1&amp;car_seg=0&amp;hot_seg=0&amp;transactionID=04011603447635" alt="Click Here">
+				   						</a>
+				   						</td>
+                                   </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </td>
+</tr>
+<!--/end Ad Placement and Travelocity Guarantee-->
+
+                                                            <!--begin Additional Info-->
+                              <tr>
+                                <td style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" width="100%">
+                                  <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                                    <tbody>
+                                      <tr>
+                                        <td style="PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #003366; PADDING-TOP: 5px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #d3deef" width="100%">
+                                          <h4 style="MARGIN: 0px; COLOR: #003366">
+                                            <strong>Additional Information</strong>
+                                          </h4>
+                                        </td>
+                                      </tr>
+                                                                              
+<!--begin Online Support-->
+<tr>
+  <td style="PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; PADDING-TOP: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+    <table cellspacing="0" cellpadding="0" border="0">
+      <tbody>
+        <tr>
+          <td style="FONT-SIZE: 12px; PADDING-BOTTOM: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+            <strong>Online Support</strong>
+          </td>
+        </tr>
+        <tr>
+          <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+                          <img height="7" alt="carrot" src="https://a248.e.akamai.net/f/248/5879/1h/i.travelocity.com/images/partners/rbc/eml-rbc-carrot.gif" width="5" border="0">
+              <a style="COLOR: #003466" href="http://us.custhelp.com/cgi-bin/us.cfg/php/enduser/std_adp.php?p_faqid=910&p_created=1209262972&p_sid=XDTEE7qj&p_accessibility=&p_redirect=&p_lva=&p_sp=&p_li=&p_topview=1&prod_lvl1=41&prod_lvl2=43&p_prods=41%2C43&p_pv=2.43">What if my flight schedule changes?</a>
+              <img width="0" height="0" alt="window" src="" border="0">
+              <br />
+                        <img height="7" alt="carrot" src="https://a248.e.akamai.net/f/248/5879/1h/i.travelocity.com/images/partners/rbc/eml-rbc-carrot.gif" width="5" border="0">
+            <a style="COLOR: #003466" href="http://leisure.travelocity.com/Promotions/0,,TRAVELOCITY|4818|mkt_main,00.html">What if I experience a problem during my trip?</a>
+            <img width="0" height="0" alt="window" src="" border="0">
+            
+            <br />
+                                                <img height="7" alt="carrot" src="https://a248.e.akamai.net/f/248/5879/1h/i.travelocity.com/images/partners/rbc/eml-rbc-carrot.gif" width="5" border="0">
+            <a style="COLOR: #003466" href="http://us.custhelp.com/cgi-bin/us.cfg/php/enduser/std_adp.php?p_faqid=1039&p_created=1209684621&p_sid=9U8eDzj&p_accessibility=&p_redirect=&p_lva=&p_sp=&p_li=&p_topview=1&prod_lvl1=41&prod_lvl2=43&p_prods=41%2C43&p_pv=2.43" target="_blank">How can I change or cancel my trip?</a>
+            <img width="0" height="0" alt="window" src="" border="0">
+            
+            <br />
+                          <img height="7" alt="carrot" src="https://a248.e.akamai.net/f/248/5879/1h/i.travelocity.com/images/partners/rbc/eml-rbc-carrot.gif" width="5" border="0">
+              <a style="COLOR: #003466" href="http://us.custhelp.com/cgi-bin/us.cfg/php/enduser/std_alp.php?p_sid=qQR4Zmrj&p_accessibility=&p_redirect=&p_lva=1696&p_sp=&p_li=&p_cv=1.882&p_cats=882&p_hidden_prods=&p_page=&p_allorg=&advsearchmode=0&p_search_text=&p_new_search=1&cat_lvl1=882&p_search_type=answers.search_nl&p_sort_by=dflt%3A1&prod_lvl1=41&prod_lvl2=43&p_prods=41%2C43&p_pv=2.43">View all Travel Alerts</a>
+              <img width="0" height="0" alt="window" src="" border="0">             
+              <br />
+                        <img height="7" alt="carrot" src="https://a248.e.akamai.net/f/248/5879/1h/i.travelocity.com/images/partners/rbc/eml-rbc-carrot.gif" width="5" border="0">
+            <a style="COLOR: #003466" href="http://svc.travelocity.com/custsvc/0,,TRAVELOCITY,00.html">View Frequently Asked Questions</a>
+            <img width="0" height="0" alt="window" src="" border="0">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </td>
+</tr>
+<!--/end Online Support-->
+
+                                                                                                                    <!--begin Travel Checklist-->
+<tr>
+
+
+  <td style="PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; PADDING-TOP: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+    <table cellspacing="0" cellpadding="0" border="0">
+      <tbody>
+        <tr>
+          <td style="FONT-SIZE: 12px; PADDING-BOTTOM: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" colspan="2">
+            <strong>Travel Checklist</strong>
+          </td>
+
+        </tr>
+        <tr>
+          <td style="padding:5px 7px 0px 0px;" valign="top">
+          <img height="5" alt="bullet" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_bullet.gif" width="5" border="0"></td>
+          <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+            <strong>Printed itinerary</strong>
+            - Please print this information and take it with you on your trip.                      </td>
+        </tr>
+        <tr>
+          <td style="padding:5px 7px 0px 0px;" valign="top">
+          <img height="5" alt="bullet" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_bullet.gif" width="5" border="0"></td>
+          <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+            <strong>Photo ID</strong> -
+                          Every air passenger must have a valid government-issued photo ID (e.g. driver's license or passport). The name on the photo ID must match the passenger name in the reservation. Once the ticket has been issued the name on the ticket cannot be changed.                      </td>
+        </tr>
+                                                  <tr>
+              <td style="padding:5px 7px 0px 0px;" valign="top">
+              <img height="5" alt="bullet" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_bullet.gif" width="5" border="0"></td>
+              <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+
+                <strong>TSA Secure Flight Information</strong>
+                - Any information you provided has been added to your reservation.              </td>
+            </tr>
+                                              <tr>
+            <td style="padding:5px 7px 0px 0px;" valign="top">
+            <img height="5" alt="bullet" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_bullet.gif" width="5" border="0"></td>
+            <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+
+              <strong>Flight information</strong>
+              - Check for                              <a style="COLOR: #003466" href="http://dps1.travelocity.com/dparrqst.ctl?Service=TRAVELOCITY">flight and gate updates</a>
+                            prior to your departure. Some airlines allow you to pre-print your boarding pass with an                              <a style="COLOR: #003466" href="http://leisure.travelocity.com/Promotions/0,,TRAVELOCITY|1741|air_main,00.html">online check-in</a>
+                            feature.            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:5px 7px 0px 0px;" valign="top">
+            <img height="5" alt="bullet" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_bullet.gif" width="5" border="0"></td>
+            <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+              <strong>Schedule changes</strong>
+              - The airline may change your flight itinerary at any time. If we are notified of an itinerary change, we will contact you by email and/or phone. If the airline has not provided you with an acceptable alternative itinerary, our agents will try to re-accommodate you according to the airline's policy and availability.            </td>
+          </tr>
+          <tr>
+            <td style="padding:5px 7px 0px 0px;" valign="top">
+            <img height="5" alt="bullet" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_bullet.gif" width="5" border="0"></td>
+
+            <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+              <strong>Security Procedures</strong>
+              - Check the TSA Web site              (<a style="COLOR: #003466" href="http://www.tsa.gov">www.tsa.gov</a>)
+              for the most up-to-date information about security procedures. If you are departing from a non-U.S. airport, be sure to check that airport's security policies and pack accordingly.            </td>
+          </tr>
+          <tr>
+            <td style="padding:5px 7px 0px 0px;" valign="top">
+            <img height="5" alt="bullet" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_bullet.gif" width="5" border="0"></td>
+            <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+
+              <strong>Baggage guidelines</strong>
+              - Check with your airline for rules and prices for carry-on and checked baggage. Please review the carry-on baggage guidelines from the              <a style="COLOR: #003466" href="http://www.tsa.gov/travelers/airtravel/assistant/editorial_1052.shtm">Transportation Security Administration</a>.
+            </td>
+          </tr>
+          
+        
+                      </tbody>
+    </table>
+  </td>
+</tr>
+<!--/end Travel Checklist-->
+
+                                                                                                                                                          
+<!--begin Policies-->
+
+<tr>
+  <td style="PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; PADDING-TOP: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+    <table cellspacing="0" cellpadding="0" border="0">
+      <tbody>
+        <tr>
+          <td style="FONT-SIZE: 12px; PADDING-BOTTOM: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;" colspan="2">
+            <strong>Policies</strong>
+          </td>
+        </tr>
+                <tr>
+            <td style="padding:5px 7px 0px 0px;" valign="top"><img height="5" alt="bullet" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_bullet.gif" width="5" border="0"></td>
+            <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+Tickets cannot be refunded or transferred unless otherwise noted. Name changes are not permitted. </td>
+</tr>
+<tr>
+            <td style="padding:5px 7px 0px 0px;" valign="top"><img height="5" alt="bullet" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_bullet.gif" width="5" border="0"></td>
+            <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+<a href="http://www.tsa.gov/travelers/airtravel/acceptable_documents.shtm" target="_blank">Valid, government-issued ID</a> is mandatory for you to get through security and board your flight.  </td>
+</tr>
+<tr>
+            <td style="padding:5px 7px 0px 0px;" valign="top"><img height="5" alt="bullet" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_bullet.gif" width="5" border="0"></td>
+            <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+Initial prices subject to change before final payment. Post-purchase increases of government-imposed taxes or fees may apply.<tr>
+            <td style="padding:5px 7px 0px 0px;" valign="top"><img height="5" alt="bullet" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_bullet.gif" width="5" border="0"></td>
+            <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+            Prices do not include any applicable <a href="http://www.travelocity.com/info/info_popup/0,,TRAVELOCITY:EN%7CBAG_FEES,00.html" target="_blank">baggage fees</a>.</td>
+</tr>
+<tr>
+            <td style="padding:5px 7px 0px 0px;" valign="top"><img height="5" alt="bullet" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_bullet.gif" width="5" border="0"></td>
+            <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+International flights may be treated with insecticides. <a href="http://ostpxweb.ost.dot.gov/policy/safetyenergyenv/disinsection.htm" target="_blank">Details</a>.</td>
+</tr>
+<tr>
+            <td style="padding:5px 7px 0px 0px;" valign="top"><img height="5" alt="bullet" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_bullet.gif" width="5" border="0"></td>
+            <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+Other rules and restrictions may apply to this fare. Read <a href="http://travel.travelocity.com/flights/AirFareRules.do;?fare_basis_cd=TA7CN&dep_arp_cd=DEN&arr_arp_cd=PDX&aln_cd=UA&dep_dt=12/26/2012" target="_blank">fare rules</a>.</td>
+</tr>
+<tr>
+            <td style="padding:5px 7px 0px 0px;" valign="top"><img height="5" alt="bullet" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_bullet.gif" width="5" border="0"></td>
+            <td style="FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#333333;">
+Please review important <a href="http://www.travelocity.com/info/info_popup/0,,TRAVELOCITY:EN%7CABOUT_ETKT,00.html" target="_blank">terms & conditions of travel</a> which may limit your legal rights.</td>
+</tr>
+              </tbody>
+    </table>
+  </td>
+</tr>
+<!--/end Policies-->                                                                          </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+<!--                               /end Additional Info -->
+                            </tbody>
+                          </table>
+<!--                           /end content area -->
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <!--begin bottom background rounded corners-->
+                              <!--begin footer image -->
+              <tr>
+                <td valign="top" align="left" width="610" height="35">
+                  <img height="35" alt="Travelocity Confirmation Email" src="http://i.travelocity.com.edgesuite.net/images/graphics_prod/email/elements/eml_bottom_background.gif" width="610" border="0">
+                </td>
+              </tr>
+<!--end footer image -->
+                            <!--/end bottom backgound rounded corners-->
+                                            <!--begin Detailed Policies-->
+<tr>
+  <td style="PADDING-LEFT: 5px; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial, Helvetica, sans-serif" width="100%">
+    <a name="allpolicies" id="allpolicies">
+      <strong>General Policies</strong>
+    </a>
+    <br />
+          Ticket is      <strong>non-refundable.</strong><br />
+        If Travel Protection has been purchased it is <strong>non-refundable.</strong><br />
+    <strong>Please review your itinerary immediately.</strong> If any issues arise before or during your trip you must call us right away. Why? We work with our suppliers to resolve your concerns, so the only opportunity we have to help you is before your trip ends. If you wait until you return, it's too late.<br />
+    There are times when we are unable to confirm a reservation. In the rare event that this occurs, we will attempt to reach you by phone and email so that we can re-accommodate you. You must call us back within 48 hours or we may not be able to honor your original booking price.<br />
+    Travelocity fees and airline charges will be shown as separate items on your credit card statement. Airline charges may also be listed separately for each passenger.<br /><br />
+	  The total price for your booking may increase after your purchase due to an increase of a government-imposed tax or fee.<br />
+    <a name="changepolicies" id="changepolicies">
+      <strong>Change Policies</strong><br />
+    </a>
+    Some tickets do not allow any changes.  Ticket changes also have airline penalties and/or increased fares.  If your ticket is changeable, any changes must be made        prior to departure.  Airlines will charge a fee to use your ticket as credit for a new ticket purchase. This fee varies by airline, market, and specific fare rules, and may be $150 or more for domestic tickets and $200 or more for international tickets.<br />
+    If you fail to show up for any segment of your flight itinerary, the airline will automatically cancel the remainder of your flights and they will lose all monetary value.  You will not be entitled to a refund for any unused portions of your flight travel.<br /><br />
+
+    <a name="cancellationpolicies" id="cancellationpolicies">
+      <strong>Cancellation Policies</strong>
+    </a><br />
+          If you cancel you will not receive a refund.  You must cancel your reservation prior to departure to retain any ticket value. Depending on the airline and fare rules,  the residual value that is remaining may be eligible to be applied to future travel, providing the cancellation, rebooking, and re-ticketing of your reservation is at least one day prior to your originally scheduled date of departure.<br />
+      Airlines usually deduct $150 or more for domestic tickets and $200 or more for international tickets before determining if there is any value that can be applied toward future travel.<br /><br />
+    
+    <a name="domesticpolicies" id="domesticpolicies"></a>
+<strong>Domestic Flight Notice</strong>
+<br/>
+Air transportation to be provided between points in the U.S. (including its overseas territories and possessions) is subject to the individual contract terms (including rules, regulations, tariffs and conditions) of the transporting air carriers, which are herein incorporated by reference and made part of the contract of carriage.<br/>
+Where this coupon is issued for transportation or services other than air travel, specific terms and conditions may apply. These terms and conditions may be included in the ticket set or may be obtained from the issuing company or agent.<br/>
+Please make sure you have reviewed the important legal notice entitled "Conditions of Contract", "Notice of Incorporated Terms", "Notice of Baggage Liability Limitations", and "Notice of Overbooking" in<a style="COLOR: #003466" href="http://svc.travelocity.com/info/info_popup_sa/0,,TRAVELOCITY:EN|ABOUT_ETKT,00.html">
+	Terms &amp; Conditions of Travel</a>
+or the specific terms and conditions relating to non-air transportation or services.<br/>
+The<a style="COLOR: #003466" href="http://svc.travelocity.com/info/info_popup_sa/0,,TRAVELOCITY:EN|ABOUT_ETKT,00.html">
+	Terms &amp; Conditions of Travel</a>
+will also be available at the airport prior to your flight departure.<br/>
+<br/>    <a name="internationalpolicies" id="internationalpolicies"></a>
+<strong>International Flight (Warsaw Convention) Notice</strong>
+<br/>
+If the passenger's journey involves an ultimate destination or stop in a country other than the country of departure, the Warsaw Convention may be applicable and the Convention governs and in most cases limits the liability of carriers for death or personal injury and for the loss of or damage to baggage.<br/>
+See also the notices entitled "Advice to International Passengers on Limitation of Liability" and "notice of Baggage Liability Limitations"<a style="COLOR: #003466" href="http://svc.travelocity.com/info/info_popup_sa/0,,TRAVELOCITY:EN|ABOUT_ETKT,00.html">
+	Terms &amp; Conditions of Travel</a>
+.
+  </td>
+</tr>
+<!--/end Detailed Policies-->
+                          </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
+<IMG SRC="http://go6.travelpn.com/track?mailingid=Checkout.TRAVELOCITY_html_Confirmation&messageid=623422731441&databaseid=SMTPI&type=open&serial=TRAVELOCITY&emailid=TKHESSELGRAVE@GMAIL.COM&userid=04011603447635&extra=&&&" WIDTH="1" HEIGHT="1" BORDER="0" />
+
+

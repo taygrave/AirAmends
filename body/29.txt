@@ -1,43 +1,43 @@
 Delivered-To: tkhesselgrave@gmail.com
-Received: by 10.216.59.206 with SMTP id s56csp7670wec;
-        Sat, 17 Nov 2012 22:33:12 -0800 (PST)
-Received: by 10.66.81.199 with SMTP id c7mr26624418pay.19.1353220391804;
-        Sat, 17 Nov 2012 22:33:11 -0800 (PST)
+Received: by 10.216.235.166 with SMTP id u38csp792132weq;
+        Sat, 1 Sep 2012 11:53:08 -0700 (PDT)
+Received: by 10.68.213.195 with SMTP id nu3mr25838436pbc.81.1346525587561;
+        Sat, 01 Sep 2012 11:53:07 -0700 (PDT)
 Return-Path: <SouthwestAirlines@luv.southwest.com>
-Received: from omptrans.luv.southwest.com (omptrans.luv.southwest.com. [12.130.138.99])
-        by mx.google.com with ESMTP id yl9si9198226pbc.62.2012.11.17.22.33.11;
-        Sat, 17 Nov 2012 22:33:11 -0800 (PST)
-Received-SPF: pass (google.com: domain of SouthwestAirlines@luv.southwest.com designates 12.130.138.99 as permitted sender) client-ip=12.130.138.99;
-Authentication-Results: mx.google.com; spf=pass (google.com: domain of SouthwestAirlines@luv.southwest.com designates 12.130.138.99 as permitted sender) smtp.mail=SouthwestAirlines@luv.southwest.com; dkim=pass (test mode) header.i=SouthwestAirlines@luv.southwest.com
+Received: from omptrans.luv.southwest.com (omptrans.luv.southwest.com. [204.212.186.69])
+        by mx.google.com with ESMTP id op6si14919436pbc.204.2012.09.01.11.53.06;
+        Sat, 01 Sep 2012 11:53:07 -0700 (PDT)
+Received-SPF: pass (google.com: domain of SouthwestAirlines@luv.southwest.com designates 204.212.186.69 as permitted sender) client-ip=204.212.186.69;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of SouthwestAirlines@luv.southwest.com designates 204.212.186.69 as permitted sender) smtp.mail=SouthwestAirlines@luv.southwest.com; dkim=pass (test mode) header.i=SouthwestAirlines@luv.southwest.com
 DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=southwest; d=luv.southwest.com;
  h=MIME-Version:Content-Type:Content-Transfer-Encoding:Date:From:Reply-To:Subject:To:Message-ID; i=SouthwestAirlines@luv.southwest.com;
- bh=tVb6cFUMkkI8Lxm7fkp/SBeAv/Y=;
- b=LWldtm1nbY3p+9UyqENDEZ9W3yKl7ii8BwdUFuhO+Ki34PEPmkyke2fN9ea4HYqORY665EW6bZBu
-   t7pGEaTKRP4aLV/YqGVdzQPfVHqag+vktMOQINxWwj3qgKXqCdmz0ifh0RSm6izX8ZTdkZQ0/r+K
-   8/PGlls8S0/ow8i43gc=
+ bh=6489hnt4oiW6OJV2AaVN6BwwEbM=;
+ b=W6YlUlZ2cNrDoUsgQMDLYKZ6y041teJNxIAarNCzNKS4TowEn+dTpU5e+5Zyqzv5hpha2+FzHYb6
+   dhyFQd46iyeylzoR5ibHyDlG+BTRnSAmOlRV4PbCIAaetd1441rXqZ2R9or2pxXa9Y1lzYGRSSW5
+   2wrkodywfo+hWbhdqFw=
 DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=southwest; d=luv.southwest.com;
- b=kwLN+RTJkZDPV10CMq7Svn15j+x/2aIE+mHKNuVeQNa0QCEpw9/Y/11kwEA1E7IKYhmLajFRk/JH
-   SVa/CTn4hS/m/kabicZVH877SBl0IKjUGULo7/U7TwHD4WZ5+dnU2Jr2jCG8oozZbkOZn+9SxYMI
-   30b/AFukRd6b0E2L8E8=;
-Received: by omptrans.luv.southwest.com id hl20ie160jom for <TKHESSELGRAVE@GMAIL.COM>; Sat, 17 Nov 2012 22:33:10 -0800 (envelope-from <SouthwestAirlines@luv.southwest.com>)
+ b=PTjvpsTWKYU3PyEhoxZ+Tn1hA79sVtu5SxtVYMk9sSqXbx90yD4N086lRdON9wLY84DTETxmSFhP
+   HirnmgL8Dfxcta1mI/LevgTeIHMHaRBbldDb0r8d9q9InWwzq7qilXWs8a91bi58tnovcPQG373f
+   Ppu6gjDlD1TYB1JFwms=;
+Received: by omptrans.luv.southwest.com (PowerMTA(TM) v3.5r17) id h89cp60morcq for <TKHESSELGRAVE@GMAIL.COM>; Sat, 1 Sep 2012 11:53:06 -0700 (envelope-from <SouthwestAirlines@luv.southwest.com>)
 MIME-Version: 1.0
 Content-Type: text/html;
 	charset="UTF-8"
 Content-Transfer-Encoding: quoted-printable
-Date: Sat, 17 Nov 2012 22:33:10 -0800
+Date: Sat, 1 Sep 2012 11:53:06 -0700
 From: "Southwest Airlines" <SouthwestAirlines@luv.southwest.com>
 Reply-To: "Southwest Airlines" <no-reply@luv.southwest.com>
 Subject: Southwest Airlines Confirmation-HESSELGRAVE/TAYLOR-Confirmation: 4BHN98
-X-cid: swair.4938.-6
+X-cid: swair.4616.-6
 X-sgxh1: 2daG11GeE06zeGxEf6beQ8wf
 To: TKHESSELGRAVE@GMAIL.COM
 X-valueof-_TRIGGERED_: YES
-X-valueof-TM_CAMPAIGN_ID_: 13589
-X-valueof-TM_ACCOUNT_ID_: 257
-X-valueof-TM_REQUEST_MS_: 1353220385423
-X-valueof-TM_REQUEST_DT_: 2012-11-17 22:33:05.423
-X-valueof-TMID_: RI4.TMWS1.257.h9o9mi6n.988053
-Message-ID: <0.1.5.D6.1CDC5569407DA12.0@omptrans.luv.southwest.com>
+X-valueof-TM_CAMPAIGN_ID_: 11165
+X-valueof-TM_ACCOUNT_ID_: 513
+X-valueof-TM_REQUEST_MS_: 1346525582993
+X-valueof-TM_REQUEST_DT_: 2012-09-01 11:53:02.993
+X-valueof-TMID_: RI4.TMWS12-RI4.513.h6lhkhsh.5296909
+Message-ID: <0.0.0.3A.1CD887305D150D6.0@omptrans.luv.southwest.com>
 
 <html>
   <head>
@@ -53,7 +53,7 @@ Message-ID: <0.1.5.D6.1CDC5569407DA12.0@omptrans.luv.southwest.com>
 <AirReceipt>
   <Email>TKHESSELGRAVE=40GMAIL=2ECOM</Email>  <ConfirmationDate>
 
-2012-11-18
+2012-09-01
         </ConfirmationDate>
   <ConfirmationNumber>
 
@@ -62,12 +62,14 @@ Message-ID: <0.1.5.D6.1CDC5569407DA12.0@omptrans.luv.southwest.com>
 
 <ItineraryType>
 
-CHANGE
+INITIAL
         </ItineraryType>
 
 <FareCalculations>
 
-
+<FareCalculation>PDX WN DEN145=2E12WLNUPNR WN PDX171=2E16HLN7PNR 316=2E28 E=
+ND ZPPDXDEN XFPDX4=2E5DEN4=2E5 AY5=2E00=24PDX2=2E50 DEN2=2E50</FareCalculat=
+ion>
         </FareCalculations>
 
 <Passengers>
@@ -75,7 +77,7 @@ CHANGE
 <Passenger>
       <Name>HESSELGRAVE/TAYLOR</Name>
       <AccountNumber>00020056936616</AccountNumber>
-      <TicketNumber>5262481401622</TicketNumber>
+      <TicketNumber>5262465335739</TicketNumber>
       <ExpirationDate>2013-09-01</ExpirationDate>
     </Passenger>
        =20
@@ -87,11 +89,11 @@ CHANGE
 
 
 <Flight>
-      <Number>4408</Number>
+      <Number>3952</Number>
       <TravelDate>2012-11-21</TravelDate>
-      <Depart>Depart PORTLAND OR (PDX) at 1:25 PM on Southwest Airlines</De=
+      <Depart>Depart PORTLAND OR (PDX) at 6:50 PM on Southwest Airlines</De=
 part>
-      <Arrive>Arrive in DENVER CO (DEN) at 4:45 PM</Arrive>
+      <Arrive>Arrive in DENVER CO (DEN) at 10:10 PM</Arrive>
     </Flight>
 
 
@@ -244,12 +246,12 @@ aseSiteLogo/header_logo=2Egif=22 /></a></div>
                       <div style=3D=22line-height: 12px; font-family: arial=
 ,verdana; margin-bottom: 3px; color: =231f6af6; font-size: 10px; font-weigh=
 t: bold=22><a style=3D=22color: =231f6af6=22 href=3D=22http://luv=2Esouthwe=
-st=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVRVLuHptV2daG1=
-1GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22><u>My Accoun=
-t</u></a> =7C <a style=3D=22color: =231f6af6=22 href=3D=22http://luv=2Esout=
-hwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSVLuHptV2d=
-aG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22><u>View M=
-y Itinerary Online</u></a>
+st=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVRVLuHptV2daG1=
+1GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXLX=22><u>My =
+Account</u></a> =7C <a style=3D=22color: =231f6af6=22 href=3D=22http://luv=
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVSVL=
+uHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXLX=
+=22><u>View My Itinerary Online</u></a>
                       </div>
 <br>
                       </td>
@@ -287,9 +289,9 @@ er=22>
                       <div style=3D=22line-height: 12px; font-family: arial=
 ,verdana; color: =23ffffff; font-size: 11px; font-weight: bold; margin-righ=
 t: 17px=22><a style=3D=22color: =23ffffff; text-decoration: none=22 href=3D=
-=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf=
-6beQ8wfVaVTVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCC=
-RYUVXLX=22>Check In Online</a></div>
+=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf=
+6beQ8wfVaVTVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosok=
+oQYTDADRDVXLX=22>Check In Online</a></div>
                       </td>
                       <td><img border=3D=220=22 alt=3D=22=22 width=3D=222=
 =22 height=3D=2234=22 style=3D=22display: block=22 src=3D=22http://a248=2Ee=
@@ -299,9 +301,9 @@ _RTM_Purchase_V3/AirNavHeader/nav_div=2Egif=22 /></td>
                       <div style=3D=22line-height: 12px; font-family: arial=
 ,verdana; color: =23ffffff; margin-left: 17px; font-size: 11px; font-weight=
 : bold; margin-right: 20px=22><a style=3D=22color: =23ffffff; text-decorati=
-on: none=22 href=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQq=
+on: none=22 href=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQq=
 AV2daG11GeE06zeGxEf6beQ8wfVaVUVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f4=
-1SQTYBQoDhDupAgQDCCRYUVXLX=22>Check Flight Status</a></div>
+1STq0bWQYSUQoAtosokoQYTDADRDVXLX=22>Check Flight Status</a></div>
                       </td>
                       <td><img border=3D=220=22 alt=3D=22=22 width=3D=222=
 =22 height=3D=2234=22 style=3D=22display: block=22 src=3D=22http://a248=2Ee=
@@ -568,7 +570,7 @@ ily: arial,verdana; color: =23666666; font-size: 11px=22>
                                     Confirmation Date:=20
 
 
-11/18/2012
+09/1/2012
        =20
                                  </div>
                             </td>
@@ -696,7 +698,7 @@ na; color: =23000000; font-size: 11px=22>
             <td valign=3D=22top=22 width=3D=22100=22 align=3D=22left=22>
                 <div style=3D=22line-height: 13px; font-family: arial,verda=
 na; color: =23000000; font-size: 11px=22>
-                    5262481401622</div>
+                    5262465335739</div>
             </td>
             <td valign=3D=22top=22 width=3D=2267=22 align=3D=22left=22>
                 <div style=3D=22line-height: 13px; font-family: arial,verda=
@@ -706,7 +708,7 @@ Sep 1, 2013</div>
             <td valign=3D=22top=22 width=3D=2297=22 align=3D=22left=22>
                 <div style=3D=22line-height: 13px; font-family: arial,verda=
 na; color: =23000000; font-size: 11px=22>
-                    1650</div>
+                    2040</div>
             </td>
         </tr>
     </tbody>
@@ -734,7 +736,9 @@ ily: arial,verdana; color: =23666666; font-size: 9px=22>
                                 <br>
 
 
-
+Rapid Rewards points earned are only estimates=2E Visit your (MySouthwest, =
+Southwest=2Ecom or Rapid Rewards) account for the most accurate totals - in=
+cluding A-List & A-List Preferred bonus points=2E
 
 
 
@@ -884,7 +888,7 @@ Wed Nov 21
                 <div style=3D=22line-height: 14px; font-family: arial,verda=
 na; color: =23000000; font-size: 11px=22>
 
-                    4408<br />
+                    3952<br />
 <div style=3D=22color:=23888=22>
                    =20
                     </div>
@@ -894,13 +898,13 @@ na; color: =23000000; font-size: 11px=22>
                 <div style=3D=22line-height: 14px; font-family: arial,verda=
 na; color: =23000000; font-size: 11px=22>
                     <div>
-Depart&nbsp;<b>PORTLAND OR</b>&nbsp;&=2340;PDX&=2341;&nbsp;at&nbsp;<b>1:25 =
+Depart&nbsp;<b>PORTLAND OR</b>&nbsp;&=2340;PDX&=2341;&nbsp;at&nbsp;<b>6:50 =
 PM</b>
                      </div>
                                        =20
                     <div>
-Arrive in <b>DENVER CO</b>&nbsp;&=2340;DEN&=2341;&nbsp;at&nbsp;<b>4:45 PM</=
-b>
+Arrive in <b>DENVER CO</b>&nbsp;&=2340;DEN&=2341;&nbsp;at&nbsp;<b>10:10 PM<=
+/b>
                     </div>
                     <div>
 <div>
@@ -1082,7 +1086,7 @@ ily: arial,verdana; color: =23666666; font-size: 11px;
 
        =20
 
-296=2E60
+361=2E60
        =20
                                 </div>
                             </td>
@@ -1147,7 +1151,10 @@ argin-top:10px=22>
 
        =20
 
-=20
+
+
+5262465335739: NONREF/NONTRANSFERABLE/STANDBY REQ UPGRADE TO Y=2E
+<br/>=20
 
                                   <=21-- end Fare rules--> =20
 
@@ -1159,7 +1166,11 @@ s to this itinerary may result in a fare increase=2E
 
                                    <=21-- start Fare calc--> =20
                                  <br/><br/>
-=20
+
+
+PDX WN DEN145=2E12WLNUPNR WN PDX171=2E16HLN7PNR 316=2E28 END ZPPDXDEN XFPDX=
+4=2E5DEN4=2E5 AY5=2E00=24PDX2=2E50 DEN2=2E50
+<br/>=20
                                   <=21-- end Fare calc--> =20
 
                                  </div>
@@ -1314,8 +1325,8 @@ M_Purchase_V3/AirPurchaseFooter/arw1=2Egif=22 /></a></div>
                                 <td valign=3D=22bottom=22 align=3D=22left=
 =22>
                                     <a href=3D=22http://luv=2Esouthwest=2Ec=
-om/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVWVLuHptV2daG11GeE06=
-zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>
+om/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVWVLuHptV2daG11GeE06=
+zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXLX=22>
                                         <img border=3D=220=22 alt=3D=22Earl=
 yBird Check&=2345;in &=2345; A More Convenient Way To Travel=22 width=3D=22=
 96=22
@@ -1331,8 +1342,8 @@ splay: block=22 src=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=
                                         font-size: 11px=22>
                                         <a style=3D=22color: =231f6af6; tex=
 t-decoration: none=22 href=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kO=
-HpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVWVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb=
-9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>
+HpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVWVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb=
+9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXLX=22>
                                             Get EarlyBird<br />
                                             Check	&=2345;In<span style=3D=
 =22 font-size: 8px=22><sup>TM</sup></span> Details<img border=3D=220=22 alt=
@@ -1505,7 +1516,7 @@ d>
         <td width=3D=2219%=22 align=3D=22right=22 style=3D=22line-height: 1=
 4px; font-family: arial,verdana; color: =23666666; font-size: 11px;text-ali=
 gn:right=22>
-                      255=2E83
+                       316=2E28
         </td>
     </tr>
 
@@ -1526,7 +1537,7 @@ d>
         <td width=3D=2219%=22 align=3D=22right=22 style=3D=22line-height: 1=
 4px; font-family: arial,verdana; color: =23666666; font-size: 11px;text-ali=
 gn:right=22>
-                      19=2E17
+                       23=2E72
         </td>
     </tr>
 
@@ -1600,7 +1611,7 @@ d>
         <td width=3D=2219%=22 align=3D=22right=22 style=3D=22line-height: 1=
 4px; font-family: arial,verdana; color: =23666666; font-size: 11px;text-ali=
 gn:right=22>
-                      7=2E60
+                       7=2E60
         </td>
     </tr>
 
@@ -1621,7 +1632,7 @@ d>
         <td width=3D=2219%=22 align=3D=22right=22 style=3D=22line-height: 1=
 4px; font-family: arial,verdana; color: =23666666; font-size: 11px;text-ali=
 gn:right=22>
-                      9=2E00
+                       9=2E00
         </td>
     </tr>
 
@@ -1642,7 +1653,7 @@ d>
         <td width=3D=2219%=22 align=3D=22right=22 style=3D=22line-height: 1=
 4px; font-family: arial,verdana; color: =23666666; font-size: 11px;text-ali=
 gn:right=22>
-                      5=2E00
+                       5=2E00
         </td>
     </tr>
 
@@ -1688,7 +1699,7 @@ dana; color: =23666666; font-size: 11px;text-align:right=22>
 
        =20
 
-296=2E60
+361=2E60
         </b>
                             </td>                           =20
                         </tr>                       =20
@@ -1716,17 +1727,9 @@ na; color: =23666666; font-size: 11px;=22>
 
 
 
-Payment Type: Ticket Exchange <br/>
-   Date: Nov 18, 2012 <br/>
-   Payment Amount:&nbsp;&=2336;296=2E60 <br/>
-<br>
-
-
-
-
-
-Tkls funds remaining in conf=234BHN98&nbsp;for future travel&nbsp;&=2336;65=
-=2E00 <br/>
+Payment Type: Visa XXXXXXXXXXXX4602 <br/>
+   Date: Sep 1, 2012 <br/>
+   Payment Amount:&nbsp;&=2336;361=2E60 <br/>
 <br>
 
                                            =20
@@ -1740,14 +1743,10 @@ Tkls funds remaining in conf=234BHN98&nbsp;for future travel&nbsp;&=2336;65=
 
 
  =20
-Exchange Detail
+
                    </div>
 
 
-
-
-
-Sep 1, 2012 From ticket =23 5262465335739 to ticket =23 5262481401622<br/>
 
                 </div>
             </td>
@@ -1914,9 +1913,9 @@ _Purchase_V3/PurchaseMiscModule/box1_img1b=2Egif=22 /></td>
                                         <div style=3D=22line-height: 16px; =
 font-family: arial,verdana; margin-bottom: 2px; color: =231f6af6; margin-le=
 ft: 8px; font-size: 15px; font-weight: bold=22><a href=3D=22http://luv=2Eso=
-uthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSUVLuHpt=
-V2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>Flight=
- Status Alerts</a></div>
+uthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVSUVLuHpt=
+V2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXLX=22>=
+Flight Status Alerts</a></div>
                                         </td>
                                       </tr>
                                       <tr>
@@ -1946,12 +1945,12 @@ align=3D=22right=22>
                                   <div style=3D=22line-height: 14px; font-f=
 amily: arial,verdana; color: =231f6af6; font-size: 12px; margin-right: 10px=
 =22><a style=3D=22color: =231f6af6; text-decoration: none=22 href=3D=22http=
-://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wf=
-VaVSUVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXL=
-X=22><b>Subscribe Now</b><img border=3D=220=22 alt=3D=22=22 width=3D=2213=
-=22 height=3D=227=22 style=3D=22display: inline=22 src=3D=22http://a248=2Ee=
-=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair/PROD=
-_RTM_Purchase_V3/PurchaseMiscModule/arw1=2Egif=22 /></a></div>
+://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wf=
+VaVSUVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDA=
+DRDVXLX=22><b>Subscribe Now</b><img border=3D=220=22 alt=3D=22=22 width=3D=
+=2213=22 height=3D=227=22 style=3D=22display: inline=22 src=3D=22http://a24=
+8=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair=
+/PROD_RTM_Purchase_V3/PurchaseMiscModule/arw1=2Egif=22 /></a></div>
                                   </td>
                                 </tr>
                               </tbody>
@@ -1997,12 +1996,13 @@ e/box_244px_top=2Egif=22 /></td>
                                   <td height=3D=2259=22 valign=3D=22bottom=
 =22 align=3D=22left=22>
                                   <div style=3D=22margin-left: 19px=22><a h=
-ref=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06=
-zeGxEf6beQ8wfVaVSWVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDu=
-pAgQDCCRYUVXLX=22><img border=3D=220=22 alt=3D=22Download DING=21=22 width=
-=3D=22202=22 height=3D=2245=22 style=3D=22display: block=22 src=3D=22http:/=
-/a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/s=
-wair/PROD_RTM_Purchase_V3/PurchaseMiscModule/box2_img=2Egif=22 /></a></div>
+ref=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06=
+zeGxEf6beQ8wfVaVSWVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQ=
+oAtosokoQYTDADRDVXLX=22><img border=3D=220=22 alt=3D=22Download DING=21=22 =
+width=3D=22202=22 height=3D=2245=22 style=3D=22display: block=22 src=3D=22h=
+ttp://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysima=
+ges/swair/PROD_RTM_Purchase_V3/PurchaseMiscModule/box2_img=2Egif=22 /></a><=
+/div>
                                   </td>
                                 </tr>
                                 <tr>
@@ -2028,12 +2028,12 @@ align=3D=22right=22>
                                   <div style=3D=22line-height: 14px; font-f=
 amily: arial,verdana; color: =231f6af6; font-size: 12px; margin-right: 10px=
 =22><a style=3D=22color: =231f6af6; text-decoration: none=22 href=3D=22http=
-://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wf=
-VaVSWVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXL=
-X=22><b>Download DING=21</b><img border=3D=220=22 alt=3D=22=22 width=3D=221=
-3=22 height=3D=227=22 style=3D=22display: inline=22 src=3D=22http://a248=2E=
-e=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair/PRO=
-D_RTM_Purchase_V3/PurchaseMiscModule/arw1=2Egif=22 /></a></div>
+://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wf=
+VaVSWVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDA=
+DRDVXLX=22><b>Download DING=21</b><img border=3D=220=22 alt=3D=22=22 width=
+=3D=2213=22 height=3D=227=22 style=3D=22display: inline=22 src=3D=22http://=
+a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/sw=
+air/PROD_RTM_Purchase_V3/PurchaseMiscModule/arw1=2Egif=22 /></a></div>
                                   </td>
                                 </tr>
                               </tbody>
@@ -2112,48 +2112,48 @@ dth=3D=22496=22>
  arial,verdana; color: =23666666; font-size: 10px=22>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
-=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTVL=
-uHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>Ch=
-eck-In Online</a></div>
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVTVL=
+uHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXLX=
+=22>Check-In Online</a></div>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
-=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVWVL=
-uHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>Ea=
-rly Bird Check-In</a></div>
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVWVL=
+uHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXLX=
+=22>Early Bird Check-In</a></div>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
-=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSVL=
-uHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>Vi=
-ew/Share Itinerary</a></div>
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVSVL=
+uHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXLX=
+=22>View/Share Itinerary</a></div>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
-=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSYV=
-LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>C=
-hange Air Reservation</a></div>
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVSYV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXL=
+X=22>Change Air Reservation</a></div>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://www=
 =2Esouthwest=2Ecom/travel_center/cancelAir=2Ehtml=22>Cancel Air Reservation=
 </a></div>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
-=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVUVL=
-uHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>Ch=
-eck Flight Status</a></div>
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVUVL=
+uHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXLX=
+=22>Check Flight Status</a></div>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
-=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSUV=
-LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>F=
-light Status Notification</a></div>
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVSUV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXL=
+X=22>Flight Status Notification</a></div>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
-=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSAV=
-LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>B=
-ook a Car</a></div>
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVSAV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXL=
+X=22>Book a Car</a></div>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
-=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSBV=
-LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>B=
-ook a Hotel</a></div>
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVSBV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXL=
+X=22>Book a Hotel</a></div>
                             </div>
                             </div>
                             </td>
@@ -2178,39 +2178,39 @@ ook a Hotel</a></div>
  arial,verdana; color: =23666666; font-size: 10px=22>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
-=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSCV=
-LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>I=
-n the Airport</a></div>
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVSCV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXL=
+X=22>In the Airport</a></div>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
-=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSDV=
-LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>B=
-aggage Policies</a></div>
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVSDV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXL=
+X=22>Baggage Policies</a></div>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
-=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTRV=
-LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>S=
-uggested Airport Arrival Times</a></div>
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVTRV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXL=
+X=22>Suggested Airport Arrival Times</a></div>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
-=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTSV=
-LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>S=
-ecurity Procedures</a></div>
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVTSV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXL=
+X=22>Security Procedures</a></div>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
-=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTTV=
-LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>C=
-ustomers of Size</a></div>
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVTTV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXL=
+X=22>Customers of Size</a></div>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
-=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTUV=
-LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>I=
-n the Air</a></div>
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVTUV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXL=
+X=22>In the Air</a></div>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
-=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTWV=
-LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>P=
-urchasing and Refunds</a></div>
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVTWV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXL=
+X=22>Purchasing and Refunds</a></div>
                             </div>
                             </div>
                             </td>
@@ -2235,29 +2235,29 @@ urchasing and Refunds</a></div>
  arial,verdana; color: =23666666; font-size: 10px=22>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
-=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTYV=
-LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>T=
-raveling with Children</a></div>
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVTYV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXL=
+X=22>Traveling with Children</a></div>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
-=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTAV=
-LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>T=
-raveling with Pets</a></div>
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVTAV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXL=
+X=22>Traveling with Pets</a></div>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
-=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTBV=
-LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>U=
-naccompanied Minors</a></div>
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVTBV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXL=
+X=22>Unaccompanied Minors</a></div>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
-=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTCV=
-LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>B=
-aby on Board</a></div>
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVTCV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXL=
+X=22>Baby on Board</a></div>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
-=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTDV=
-LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>C=
-ustomers with Disabilities</a></div>
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVTDV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXL=
+X=22>Customers with Disabilities</a></div>
                             </div>
                             </div>
                             </td>
@@ -2340,9 +2340,9 @@ n=3D=223=22 align=3D=22left=22>
  arial,verdana; color: =23666666; font-size: 10px=22>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
-=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVURV=
-LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>P=
-rivacy Policy</a></div>
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVURV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXL=
+X=22>Privacy Policy</a></div>
                             <div style=3D=22margin-bottom: 6px=22><a style=
 =3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://www=
 =2Esouthwest=2Ecom/html/about-southwest/terms-and-conditions/incorporated-t=
@@ -2417,21 +2417,22 @@ if=22 /></td>
 na; color: =23aaaaaa; margin-left: 8px; font-size: 9px=22><a style=3D=22col=
 or: =233883f6=22 href=3D=22http://www=2Esouthwest=2Ecom/cgi-bin/buildItiner=
 ary2=22>Book Air</a>&=23160;=7C&=23160;<a style=3D=22color: =233883f6=22 hr=
-ef=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06z=
-eGxEf6beQ8wfVaVSBVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDup=
-AgQDCCRYUVXLX=22>Book Hotel</a>&=23160;=7C&=23160;<a style=3D=22color: =233=
-883f6=22 href=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2=
-daG11GeE06zeGxEf6beQ8wfVaVSAVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41S=
-QTYBQoDhDupAgQDCCRYUVXLX=22>Book Car</a>&=23160;=7C&=23160;<a style=3D=22co=
-lor: =233883f6=22 href=3D=22http://leisure=2Esouthwest=2Etravelpn=2Ecom/Vac=
-ations/Cruise/Finder/0,,SWA,00=2Ehtml=22>Book Cruises</a>&=23160;=7C&=23160=
-;<a style=3D=22color: =233883f6=22 href=3D=22http://www=2Esouthwestvacation=
-s=2Ecom=22>Book Vacation Packages</a>&=23160;=7C&=23160;<a style=3D=22color=
-: =233883f6=22 href=3D=22http://travel=2Esouthwest=2Ecom/specialoffers/topO=
-ffers=2Ehtml=22>See Special Offers</a>&=23160;=7C&=23160;<a style=3D=22colo=
-r: =233883f6=22 href=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWD=
-UCQqAV2daG11GeE06zeGxEf6beQ8wfVaVRVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bW=
-Q2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>Manage My Account</a></div>
+ef=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06z=
+eGxEf6beQ8wfVaVSBVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQo=
+AtosokoQYTDADRDVXLX=22>Book Hotel</a>&=23160;=7C&=23160;<a style=3D=22color=
+: =233883f6=22 href=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWAS=
+AQqAV2daG11GeE06zeGxEf6beQ8wfVaVSAVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bW=
+Q2f41STq0bWQYSUQoAtosokoQYTDADRDVXLX=22>Book Car</a>&=23160;=7C&=23160;<a s=
+tyle=3D=22color: =233883f6=22 href=3D=22http://leisure=2Esouthwest=2Etravel=
+pn=2Ecom/Vacations/Cruise/Finder/0,,SWA,00=2Ehtml=22>Book Cruises</a>&=2316=
+0;=7C&=23160;<a style=3D=22color: =233883f6=22 href=3D=22http://www=2Esouth=
+westvacations=2Ecom=22>Book Vacation Packages</a>&=23160;=7C&=23160;<a styl=
+e=3D=22color: =233883f6=22 href=3D=22http://travel=2Esouthwest=2Ecom/specia=
+loffers/topOffers=2Ehtml=22>See Special Offers</a>&=23160;=7C&=23160;<a sty=
+le=3D=22color: =233883f6=22 href=3D=22http://luv=2Esouthwest=2Ecom/servlet/=
+cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVRVLuHptV2daG11GeE06zeGxEf6beQ8=
+wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXLX=22>Manage My Account</a></=
+div>
                 </td>
               </tr>
             </tbody>
@@ -2466,9 +2467,9 @@ lor: =23999999; font-size: 10px; margin-right: 8px=22>This is a post-only m=
 ailing from Southwest Airlines=2E Please do not attempt to respond to this =
 message=2E Your privacy is important to us, Please read our <a style=3D=22c=
 olor: =23999999; text-decoration: underline=22 href=3D=22http://luv=2Esouth=
-west=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVURVLuHptV2d=
-aG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22>Privacy P=
-olicy</a>=2E&=23160;<br />
+west=2Ecom/servlet/cc6?kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVURVLuHptV2d=
+aG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXLX=22>Pri=
+vacy Policy</a>=2E&=23160;<br />
           <br />
           <sup>1</sup> All travel involving funds from this&=23160;Confirma=
 tion Number must be completed by the expiration date=2E</div>
@@ -2515,12 +2516,11 @@ simages/swair/PROD_RTM_Purchase_V3/PurchaseFooterNav/sw_40th_logo=2Egif=22 =
 
                 <=21-- Start Right Rail -->
 
-
-
-<a href=3D=22http://ox-d=2Esouthwest=2Ecom/e/1=2E0/rc?cs=3D17696=22 ><img s=
-rc=3D=22http://ox-d=2Esouthwest=2Ecom/e/1=2E0/ai?auid=3D276365&cs=3D17696&c=
-=2Edest=3DDEN=22 border=3D=220=22 alt=3D=22=22/></a>
-
+<=21--V2--><div align=3D=22right=22><a href=3D=22http://www=2Esouthwest=2Ec=
+om/html/promotions/cars-avis-2xPts30off=2Ehtml?src=3DMAILTXNCONF0EMAIL11071=
+5 =22><img src=3D=22http://www=2Esouthwest=2Ecom/assets/images/ads/purchase=
+d/car/avis_v1=2Egif=22vspace=3D=223=22 hspace=3D=223=22 border=3D=220=22> <=
+/a></div>
 
                <table cellspacing=3D=220=22 cellpadding=3D=220=22>
                   <tbody>
@@ -2530,13 +2530,13 @@ rc=3D=22http://ox-d=2Esouthwest=2Ecom/e/1=2E0/ai?auid=3D276365&cs=3D17696&c=
                   </tbody>
                 </table>
 
-<div><a href=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2d=
-aG11GeE06zeGxEf6beQ8wfVaVWVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQT=
-YBQoDhDupAgQDCCRYUVXLX=22><img border=3D=220=22 alt=3D=22EarlyBird Check-in=
- - A More Convenient Way To Travel=22 width=3D=22180=22 height=3D=22170=22 =
-style=3D=22display: block=22 src=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/=
-47562/14d/ig=2Ersys4=2Enet/responsysimages/swair/PROD_RTM_Purchase_V3/AirEB=
-Ads/ad_eb_180x168=2Ejpg=22 /></a></div>
+<div><a href=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2d=
+aG11GeE06zeGxEf6beQ8wfVaVWVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41STq=
+0bWQYSUQoAtosokoQYTDADRDVXLX=22><img border=3D=220=22 alt=3D=22EarlyBird Ch=
+eck-in - A More Convenient Way To Travel=22 width=3D=22180=22 height=3D=221=
+70=22 style=3D=22display: block=22 src=3D=22http://a248=2Ee=2Eakamai=2Enet/=
+f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair/PROD_RTM_Purchase_V3=
+/AirEBAds/ad_eb_180x168=2Ejpg=22 /></a></div>
 
 
                <=21-- car & hotel ads-->
@@ -2717,13 +2717,13 @@ simages/swair/PROD_RTM_Purchase_V3/PurchaseCarHotelAds/rail_ad_btm=2Egif=22=
                 </table>
            =20
           <=21-- Start ads  -->
-<div><a href=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2d=
-aG11GeE06zeGxEf6beQ8wfVaVUSVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQ=
-TYBQoDhDupAgQDCCRYUVXLX=22><img border=3D=220=22 alt=3D=22Sign Up 'n Save=
-=22 width=3D=22180=22 height=3D=22170=22 style=3D=22display: block=22 src=
-=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/respo=
-nsysimages/swair/PROD_RTM_Purchase_V3/PurchaseAds/rail_ad_clicknsave=2Ejpg=
-=22 /></a></div>
+<div><a href=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWASAQqAV2d=
+aG11GeE06zeGxEf6beQ8wfVaVUSVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41ST=
+q0bWQYSUQoAtosokoQYTDADRDVXLX=22><img border=3D=220=22 alt=3D=22Sign Up 'n =
+Save=22 width=3D=22180=22 height=3D=22170=22 style=3D=22display: block=22 s=
+rc=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/res=
+ponsysimages/swair/PROD_RTM_Purchase_V3/PurchaseAds/rail_ad_clicknsave=2Ejp=
+g=22 /></a></div>
                 <table cellspacing=3D=220=22 cellpadding=3D=220=22>
                   <tbody>
                     <tr>
@@ -2732,12 +2732,12 @@ nsysimages/swair/PROD_RTM_Purchase_V3/PurchaseAds/rail_ad_clicknsave=2Ejpg=
                   </tbody>
                 </table>
                 <div><a href=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?=
-kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVUTVLuHptV2daG11GeE06zeGxEf6beQ8wfV=
-2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX=22><img border=3D=220=22 alt=3D=22J=
-oin Rapid Rewards=22 width=3D=22181=22 height=3D=22170=22 style=3D=22displa=
-y: block=22 src=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ers=
-ys4=2Enet/responsysimages/swair/PROD_RTM_Purchase_V3/PurchaseAds/rail_ad_ra=
-pidrewards=2Ejpg=22 /></a></div>
+kOHpjQWASAQqAV2daG11GeE06zeGxEf6beQ8wfVaVUTVLuHptV2daG11GeE06zeGxEf6beQ8wfV=
+2fb9XV0bWQ2f41STq0bWQYSUQoAtosokoQYTDADRDVXLX=22><img border=3D=220=22 alt=
+=3D=22Join Rapid Rewards=22 width=3D=22181=22 height=3D=22170=22 style=3D=
+=22display: block=22 src=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14=
+d/ig=2Ersys4=2Enet/responsysimages/swair/PROD_RTM_Purchase_V3/PurchaseAds/r=
+ail_ad_rapidrewards=2Ejpg=22 /></a></div>
           <=21-- End ads  -->
 
  <=21-- misc ads=20
@@ -2775,14 +2775,15 @@ niversal=2Ejpg=22 />
       </tbody>
       </center>
     </table><br><img border=3D=220=22 width=3D=223=22 height=3D=223=22 src=
-=3D=22http://luv=2Esouthwest=2Ecom/servlet/eof?lPHpkDXCWBD-ZE0da=2E26zz=2E2=
-6e=2E3dy72=2E26F=2E3df7beD9vfEaEvE0fb=2E2e_EybXD0f3zUDVYADoChCtpZgDCBBTYWE0=
-fb=2E2e_EybXD0f3zUDVYADoChCtpZgDCBBTYWE0f_y=2E26x1=2E26z0_=2E2e0_EVTUV-UU-U=
-A=2E25VTVV:WW:TYDXVWE0f_y=2E26x1=2E26z0_fz_EUWYWVVTWBYXVWE0f_799v1u0_b=2E2e=
-_EVYAE0f_97fw7b=2E3du_b=2E2e_EUWYBCE_0yb=2E3d=2E3d=2E26y=2E26=2E2e_E5=2E26z=
-E_L_=22>
+=3D=22http://luv=2Esouthwest=2Ecom/servlet/eof?lPHpkDXZUZD-ZE0da=2E26zz=2E2=
+6e=2E3dy72=2E26F=2E3df7beD9vfEaEvE0fb=2E2e_EybXD0f3zUV-ybXDYUWDoZsoroloDYVC=
+ZCTCE0fb=2E2e_EybXD0f3zUV-ybXDYUWDoZsoroloDYVCZCTCE0f_y=2E26x1=2E26z0_=2E2e=
+0_EVTUV-TC-TU=2E25VTUU:YW:TVDCCWE0f_y=2E26x1=2E26z0_fz_EUWXZYVYYBVCCWE0f_79=
+9v1u0_b=2E2e_EYUWE0f_97fw7b=2E3du_b=2E2e_EUUUZYE_0yb=2E3d=2E3d=2E26y=2E26=
+=2E2e_E5=2E26zE_L_=22>
 
   </body>
 </html>
+
 
 

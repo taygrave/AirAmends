@@ -1,0 +1,1793 @@
+Delivered-To: tkhesselgrave@gmail.com
+Received: by 10.217.5.136 with SMTP id w8csp149166wes;
+        Fri, 28 Nov 2014 16:04:47 -0800 (PST)
+Return-Path: <n.hesselgrave@gmail.com>
+Received-SPF: pass (google.com: domain of n.hesselgrave@gmail.com designates 10.50.6.112 as permitted sender) client-ip=10.50.6.112
+Authentication-Results: mr.google.com;
+       spf=pass (google.com: domain of n.hesselgrave@gmail.com designates 10.50.6.112 as permitted sender) smtp.mail=n.hesselgrave@gmail.com;
+       dkim=pass header.i=@gmail.com
+X-Received: from mr.google.com ([10.50.6.112])
+        by 10.50.6.112 with SMTP id z16mr30159149igz.43.1417219486835 (num_hops = 1);
+        Fri, 28 Nov 2014 16:04:46 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to
+         :content-type;
+        bh=46SyAN9IvHvzZIrrQUP4IFP7KfaTshh3zEeh6ATlfuA=;
+        b=J1CigSxoVqC4hG1frfhc01IA/RvVg6bcIB3fnGcEZCXZlkiWxQxtxE0PEycKS54Xu2
+         1sVF/GAPxqXqKLSF72XoDbExDUggnA1AXKzdOQU5wJQg/BKy8uOHMJzeJPL1rfZVP14H
+         fA6QC1z5UUqFupKuDWlms+7YcHURdI760qMKPm2bDNuidOzg6jmK2napDvP2ORVBSIKZ
+         fnkLCL8M+fpkdDbfFzjhJJ99CI/Zic/B9nFaqjFLqoFXnlo58964NmIbjDGZsF3fdzjX
+         20TXeuyvr9CJTEXnzrZOb6TPv/FKZYT4QmwfpFJFjlrG48EJR6xyTzX70bSzizT5MbQm
+         l+9A==
+X-Received: by 10.50.6.112 with SMTP id z16mr35461196igz.43.1417219486431;
+ Fri, 28 Nov 2014 16:04:46 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.107.8.10 with HTTP; Fri, 28 Nov 2014 16:04:26 -0800 (PST)
+In-Reply-To: <260126545.26727511417216001380.JavaMail.ems@emshlp2003.sabre.com>
+References: <260126545.26727511417216001380.JavaMail.ems@emshlp2003.sabre.com>
+From: Nicholas Hesselgrave <n.hesselgrave@gmail.com>
+Date: Fri, 28 Nov 2014 19:04:26 -0500
+Message-ID: <CABWkPh_myvpEDrjCTWafvk=VaQMnDAzPtL9n-4ZvGwv8g1CKyw@mail.gmail.com>
+Subject: Fwd: Itinerary for your upcoming trip
+To: Taylor Hesselgrave <tkhesselgrave@gmail.com>, Mom <phesselgrave@live.com>
+Content-Type: multipart/alternative; boundary=047d7bdca0900ebe390508f420a5
+
+--047d7bdca0900ebe390508f420a5
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+My florida stuff
+
+
+---------- Forwarded message ----------
+From: JetBlue Reservations <reservations@jetblue.com>
+Date: Fri, Nov 28, 2014 at 6:06 PM
+Subject: Itinerary for your upcoming trip
+To: n.hesselgrave@gmail.com
+
+
+       [image: JetBlue] <http://www.jetblue.com/>  *You're set to jet.*
+*Your confirmation number is HXSIXU*
+ Scan this barcode to check in at any JetBlue kiosk  [image: HXSIXU]
+    [image:
+Flight status]
+<http://www.jetblue.com/flightstatus/?source=3Demitin_flightstatus>   [imag=
+e:
+Change/cancel] <http://myflights.jetblue.com/B6.myb/>   [image: Manage
+flights] <http://myflights.jetblue.com/B6.myb/>   [image: Seats]
+<http://myflights.jetblue.com/B6.myb/>   [image: Baggage info]
+<http://www.jetblue.com/flying-on-jetblue/first-bag-free/>
+<http://www.jetblue.com/flying-on-jetblue/directv/>         *Your
+confirmation number is HXSIXU*
+Scan the barcode at the top of this page to check in at any JetBlue
+kiosk.             *Your
+itinerary*       Date Departs/
+arrives Route Flight/
+operated by Travelers Frequent Flyer1 Seats2 Terminal   Tue,
+Dec 23  9:45 a.m.
+12:52 p.m.  NEWARK, NJ (EWR)  to
+FT LAUDERDALE, FL (FLL)  5
+[image: B6]  Nicholas Hesselgrave  N/A    24A   A
+
+For a detailed receipt, select a customer
+
+Ticket number(s)
+   Nicholas Hesselgrave
+<https://www.virtuallythere.com/new/eticketPrint.html?pnr=3DAB5GHO78R0OC&pc=
+c=3DA0A0&aaaCity=3DNIH&language=3D0&name=3DHESSELGRAVE&host=3DB6&ETNBR1=3D2=
+792121989008&ETSTC1=3Dnull&ETDTE1=3D28NOV&ETISS1=3DNIH5SSW&ETTOT=3D1&SCOS=
+=3Dfalse&action=3DprintEticket>
+2792121989008        Please click here
+<http://help.jetblue.com/SRVS/CGI-BIN/webisapi.dll?New,Kb=3DaskBlue,case=3D=
+obj(383871)>
+for details regarding change and cancel policies.
+*1* To provide a frequent flier number please call 1-800-JETBLUE (538-2583)
+*2* Seats requests on other airlines are not guaranteed until confirmed by
+the operating carrier.             [image: Even More Space]  *From roomy to
+roomier.*
+ Upgrade to an Even More Space seat and get extra legroom, early boarding
+and early access to overhead bins.   [image: Let's go]
+<http://myflights.jetblue.com/B6.myb/>
+<http://www.carbonfund.org>    Reduce what you can
+offset what you can't  <http://www.carbonfund.org>    We're working to
+protect and preserve the environment. By choosing to offset your travel,
+you too are making a pledge to protect the environment.
+<http://www.carbonfund.org>      [image: Allianz]
+<http://www.etravelprotection.com/jbancillaryemail>     Travel insurance
+<http://www.etravelprotection.com/jbancillaryemail>     For Allianz Global
+Assistance flight insurance inquiries, please call 1-800-496-0329.
+<http://www.etravelprotection.com/jbancillaryemail>      [image: JetBlue]
+<https://www262.americanexpress.com/dapply/web/applycard/us/personal-card/a=
+pi/jal/jetblue-personal-card/jal-eml-ips>
+    Get
+20,000 TrueBlue=C2=AE points
+<https://www262.americanexpress.com/dapply/web/applycard/us/personal-card/a=
+pi/jal/jetblue-personal-card/jal-eml-ips>
+    After
+you spend $1,000 in purchases on the Card within your first 3 months of
+Card Membership.1Learn more
+<https://www262.americanexpress.com/dapply/web/applycard/us/personal-card/a=
+pi/jal/jetblue-personal-card/jal-eml-ips>
+                     [image:
+Hotels.com]
+<http://hotels.jetblue.com/templates/233124?showOptions=3Dfalse&mdpcid=3D23=
+3124.hp.hot.nav.lp>
+    Great
+hotel offers
+with our partner
+<http://hotels.jetblue.com/templates/233124?showOptions=3Dfalse&mdpcid=3D23=
+3124.hp.hot.nav.lp>
+    Special
+Internet Rate Price Match Guarantee2, no Change or Cancel Fee3, no phone
+fee and TripAdvisor=C2=AE customer reviews.
+<http://hotels.jetblue.com/templates/233124?showOptions=3Dfalse&mdpcid=3D23=
+3124.hp.hot.nav.lp>
+     [image:
+Car] <http://www.jetblue.com/cars>     Car rentals
+<http://www.jetblue.com/cars>     Save up to 35% and earn double TrueBlue
+points with Hertz.4 <http://www.jetblue.com/cars>      [image: GroundLink]
+<http://limos.jetblue.com/jetblue/lux-car-service.html>     Your driver is
+here <http://limos.jetblue.com/jetblue/lux-car-service.html>     Guaranteed
+on-time car service providing easy, reliable ground transportation for
+travelers worldwide. Book your ride now.5
+<http://limos.jetblue.com/jetblue/lux-car-service.html>
+<http://www.facebook.com/JetBlue>   <http://twitter.com/jetblue>
+<http://www.youtube.com/jetblue>      <http://blog.jetblue.com/>  BlueTales
+Blog <http://blog.jetblue.com/>      <http://www.jetblue.com/mobile>  Same
+smart app. More smartphones. <http://www.jetblue.com/mobile>
+ Download the JetBlue mobile app for iPhone
+and Android now! <http://www.jetblue.com/mobile>        Help
+<http://www.jetblue.com/help/?intcmp=3Dhd_help>  Corporate Travel
+<http://www.jetblue.com/corporate/?intcmp=3Dft_corporate>  Privacy
+<http://www.jetblue.com/legal/privacy/?intcmp=3Dft_privacy>  About JetBlue
+<http://www.jetblue.com/about/?intcmp=3Dft_aboutus>
+
+=E2=80=A0DIRECTV=C2=AE and XM Radio=C2=AE services are not available outsid=
+e the continental
+U.S.; however, where applicable, movies from JetBlue Features=E2=84=A2 are =
+offered
+complimentary on these routes.
+
+1. *Welcome bonus offer not available to applicants who have or have had
+this product. * To qualify for the 20,000 TrueBlue points, you must make
+purchases with your JetBlue Card from American Express that total $1,000 or
+more within your first three months of Card Membership starting from the
+date your account is approved. Qualifying purchases can be made by the
+Basic Card Member and any Additional Card Members on a single Card account.
+Purchases to meet the spend requirement do NOT include fees or interest
+charges, balance transfers, cash advances, purchase of travelers checks,
+purchase or reloading of prepaid cards, or other cash equivalents.
+Additional Card Members on your account are not eligible for this offer.
+TrueBlue points will be credited to your TrueBlue account 6 to 8 weeks
+after the spend requirement has been reached. All TrueBlue points are
+subject to the TrueBlue Terms and Conditions: see
+www.jetblue.com/trueblueterms.
+
+In rare instances, your period to spend $1,000 may be shorter than three
+months if there is a delay in mailing your Card. Also, purchases may fall
+outside of the three month period in some cases, such as a delay in
+merchants submitting transactions to us or if the purchase date differs
+from the date you made the transaction. (For example, if you buy goods
+online, the purchase date may be the date the goods are shipped).
+
+To receive the 20,000 TrueBlue points, your Card account must be active, in
+good standing, and not in default at the time of fulfillment. American
+Express reserves the right to modify or revoke offer at any time. For
+questions regarding your Card account, please call the number on the back
+of your Card.
+
+2. Price Match Guarantee: If you find the same hotel and dates of stay at a
+lower rate, Hotels.com will, at its choice, either match the lower rate or
+cancel the reservation without a cancellation fee. See
+http://hotels.jetblue.com/index.jsp?pageName=3Dguarantee.
+
+3. No Change/Cancel Fees: Hotels.com does not charge a change or cancel
+fee; however, each property has independent penalties for
+changes/cancellations. See full hotel details and descriptions for details.
+
+4. Your discount CDP 1790143 and PC 107844 for Weekends will be
+automatically applied to your quote when the "learn more" button is
+clicked. Advance reservation is required. Maximum discount on Weekend
+rentals is $5 per day up to $15. Minimum rental period is one day.
+Promotion Code (PC) must be provided at time of reservation or offer is
+void. Subject to availability, this offer is redeemable at participating
+Hertz locations in the U.S., Puerto Rico and Canada. Hertz age, driver and
+credit qualifications and leisure rate restrictions for the renting
+location apply. Standard rental qualifications, rental period and return
+restrictions apply. This offer has no cash value, may not be used with
+Pre-Pay Rates, Tour Rates or Insurance Replacement Rates and cannot be
+combined with each other or with any other certificate, voucher, offer or
+promotion. Modifying your reservation may result in a change in your rate
+and/or invalidate this offer. Offer applies only to the time and mileage
+charges, and not to taxes, tax reimbursement, governmental surcharges and
+optional services, such as refueling. Discounts in local currency on
+redemption. Frequent Flyer Surcharge of up to $0.75 per day, up to a
+maximum of $5.25 per rental, may apply. Points will not be awarded on
+travel industry rates, wholesale tour packages, insurance/dealer
+replacement, and any other promotional rates or group travel. Double
+TrueBlue points may not be granted retroactively. Double TrueBlue points
+consist of: 100 TrueBlue points for one day rentals or 300 TrueBlue points
+for rentals of 2 to 4 days. Rental must be completed to receive Double
+TrueBlue points.
+
+5. Advertised rates are based on trips between airports and downtown
+metropolitan area locations in an economy class vehicle. Rates do not
+include additional charges that may be applicable, such as charges for
+tolls, extra stops, parking fees, telephone usage, pets, extra in-car bags,
+car seats, waiting time, or custom requests. Rates include local and state
+taxes and fees, except in NY, NJ, and CT; passengers in these states are
+responsible for taxes and fees (including, in NY, a 2% NYC workmen=E2=80=99=
+s
+compensation charge and 8.875% state and local sales taxes). Rates include
+gratuity, except in NY, NJ, and CT; passengers traveling in these states
+are encouraged to provide appropriate gratuity based on the service
+received. Economy pricing may not be available at all times during the day
+or during certain weather conditions. Advertised rates only apply for
+bookings made online at limos.jetblue.com or by calling 1-888-478-8190.
+
+CUSTOMER CONCERNS
+Any customer inquiries or concerns can be addressed here,
+<http://www.jetblue.com/help/contactus/> emailed to dearjetblue@jetblue.com=
+,
+or sent to JetBlue Airways, 6322 South 3000 East, Suite G10, Salt Lake
+City, UT 84121.
+
+NOTICE OF INCORPORATED TERMS
+All travel on JetBlue, whether it is domestic or international travel, is
+subject to JetBlue's Contract of Carriage, the terms of which are
+incorporated herein by reference. International travel may also be subject
+to JetBlue's international passenger rules tariffs on file with the U.S.
+and other governments, and, where applicable, the Montreal Convention or
+the Warsaw Convention and its amendments and special contracts.
+Incorporated terms include, but are not restricted to:
+
+NOTICE OF INCREASED GOVERNMENT TAX OR FEE
+JetBlue reserves the right to collect additional payment after a fare has
+been paid in full and tickets issued for any additional government taxes or
+fees assessed or imposed.
+
+1. Liability limitations for baggage, including special rules for fragile
+and perishable goods and the availability of excess valuation.
+2. Liability limitations for personal injury or death.
+3. Claims restrictions, including time periods within which passengers must
+file a claim or bring an action against JetBlue.
+4. Rights of JetBlue to change the terms of contract.
+5. Rules on reservations, check-in, and refusal to carry.
+6. JetBlue's rights and limits on its liability for delay or failure to
+perform service, including schedule changes, substitution of aircraft or
+alternate air carriers, and rerouting.
+7. Non-refundability of reservations.
+8. The Contract of Carriage and tariffs may be inspected at all JetBlue
+airport customer service counters, and upon request you have the right to
+receive by mail a copy of the full text of the Contract of Carriage or
+tariffs. Additional information on items one through seven can be obtained
+on JetBlue's website at www.JetBlue.com
+<http://www.jetblue.com/about/legal/legal.asp?source=3Demitin_coc> or at an=
+y
+U.S. location where JetBlue transportation is sold.
+
+CARRY-ON BAGGAGE RULES
+JetBlue flights - Each customer may bring one bag that fits in the overhead
+bin plus one personal item (purse, briefcase, laptop, etc.) that fits under
+the seat in front free of charge.  Any excess carry-on baggage will be
+checked baggage. Visit http://www.jetblue.com/bags  and http://www.tsa.gov
+for more information. Connecting on our partner airlines (including Cape
+Air) =E2=80=93 The carry-on rules of a partner airline apply when checking =
+in to a
+JetBlue flight that is connecting to the partner.  See
+http://www.jetblue.com/partners for more information.  While JetBlue may
+allow additional carry-ons as a courtesy to customers connecting to our
+partner airline, JetBlue cannot guarantee that those bags will be accepted
+for in-cabin travel on the partner.  Customers are encouraged to abide by
+partner=E2=80=99s rules for their entire journey to avoid additional checke=
+d
+baggage fees if their carry-ons do not meet size/weight restrictions.
+
+CHECKED BAGGAGE ALLOWANCE/FEES
+Domestic JetBlue flights - JetBlue allows one free checked bag, subject to
+size/weight restrictions. For flights booked on or after May 21st, 2014 a
+$50.00 fee applies to a second checked bag ($40.00 for flights booked
+before May 21, 2014) and a $100 fee applies to a third checked bag ($75 for
+flights booked before May 21, 2014), subject to size/weight restrictions..
+Other fees apply for additional baggage and oversized or overweight
+baggage. Visit http://www.jetblue.com/bags for more information.
+International JetBlue flights - JetBlue allows one free checked bag,
+subject to size/weight restrictions. For flights booked on or after May
+21st, 2014 a $50.00 fee applies to a second checked bag ($40.00 for flights
+booked before May 21, 2014). Excess baggage rules and size/weight
+restrictions may vary depending on load availability and country
+restrictions. See www.jetblue.com/bags for more information. Travel on our
+partner airlines (excluding Cape Air*) =E2=80=93 Baggage rules and fees var=
+y by
+partner airline and destination. JetBlue will follow our partner airlines'
+fees when customers are traveling on an itinerary including one of our
+partner airlines. Excess baggage rules and size/weight restrictions may
+vary depending on load availability. See www.jetblue.com/bags for more
+information. Travel on our partner airlines (excluding Cape Air*) =E2=80=93=
+ Baggage
+rules and fees vary by partner airline and destination. JetBlue will follow
+our partner airlines' fees when customers are traveling on an itinerary
+including one of our partner airlines. Excess baggage rules and size/weight
+restrictions may vary depending on load availability. See
+http://www.jetblue.com/partners for more information.
+
+*For itineraries with a connection only to/from Cape Air, JetBlue's
+standard fees apply.
+
+CHECK-IN TIMES
+For domestic flights, customers traveling without checked baggage must
+obtain a boarding pass twenty (20) minutes prior to scheduled departure and
+customers traveling with checked baggage must obtain a boarding pass thirty
+minutes prior to scheduled departure. Customers must be present in the
+boarding gate are fifteen (15) minutes prior to scheduled departure or the
+posted aircraft departure time. For international flights, customers
+traveling with or without checked bags must obtain a boarding pass sixty
+(60) minutes prior to scheduled departure. Customers must be present in the
+boarding gate twenty (20) minutes prior to scheduled departure or the
+posted aircraft departure time.
+
+DOCUMENTATION REQUIREMENTS
+For domestic travel, customers over the age of 18 will be required to show
+a U.S. federal or state-issued photo ID that contains the following
+information: name, date of birth, gender, expiration date and a
+tamper-resistant feature. Customers traveling to/from an international
+destination are required to present proper documentation at the time of
+check-in. Documents required for travel vary according to citizenship,
+residency, country of travel, age (for minors), length of stay, purpose of
+visit, student status, etc. Please check for specific requirements for the
+country, or countries, you are visiting to make sure you have the correct
+documents. In addition, Customers traveling to a country other than their
+country of citizenship or residency are required to hold proof of return or
+onward travel. Failure to present proper documentation could result in
+denied boarding.
+
+ADVICE TO INTERNATIONAL PASSENGERS ON LIMITATION OF LIABILITY
+Where a passenger's journey involves an ultimate destination or a stop in a
+country other than the country of departure, either the Warsaw Convention
+and the Hague Protocol, their amendments, and any special contracts of
+carriage embodied in applicable tariffs that waive Warsaw/Hague limits, or
+the Montreal Convention may apply to the entire journey including the
+portion within the countries of departure or destination and, in some
+cases, may limit the liability of the carrier for death or personal injury,
+delay, and for loss of or damage to baggage. The Montreal Convention, where
+applicable, does not impose, and special contracts voluntarily entered into
+by many carriers, including JetBlue, waive, the Warsaw/Hague limitations
+for compensatory damages arising out of personal injury or wrongful death
+caused by an accident, as defined by the applicable treaty. The names of
+carriers party to the special contracts are available at all ticket offices
+of such carriers and may be examined upon request.
+
+NOTICE OF BAGGAGE LIABILITY LIMITS
+For international transportation (including domestic portions) governed by
+the Montreal Convention, JetBlue's liability for baggage is limited to
+1,131 SDRs (see, http://www.imf.org for current value) per passenger unless
+a higher value is declared and an extra charge is paid. For international
+transportation governed by the Warsaw Convention and the Hague Protocol and
+their amendments, JetBlue's liability for baggage is limited to $9.07 per
+pound for checked baggage and $400 per passenger for unchecked baggage
+unless a higher value is declared and an extra charge is paid. Special
+rules may apply to valuable articles. For domestic transportation,
+JetBlue's liability for baggage is limited to $3,300 per passenger. General
+baggage rules: As set forth more fully in its Contract of Carriage and
+international passenger rules tariffs, JetBlue will not be responsible for
+fragile or perishable goods. JetBlue assumes no liability for oversized,
+overweight or overpacked baggage, or for loss of or damage to baggage parts
+such as wheels, straps, pockets, pull handles, zippers, hanger hooks or
+other items attached to baggage. JetBlue will not be responsible for the
+following items in checked or unchecked baggage: money, jewelry including
+watches, cameras, camcorders, any type of electronic equipment, including
+computers, valuable papers or documents and other similar items as
+described in more detail in the Contract of Carriage.
+
+NOTICE OF OVERBOOKING OF FLIGHTS
+Although JetBlue does not intentionally overbook its flights, there is a
+slight chance that a seat will not be available on a flight for which a
+person has a confirmed reservation. If the flight is overbooked, no one
+will be denied a seat until airline personnel first ask for volunteers
+willing to give up their reservation in exchange for compensation of the
+airline's choosing. If there are not enough volunteers, JetBlue will deny
+boarding to other persons in accordance with its particular boarding
+priority. With few exceptions, including failure to comply with JetBlue's
+check-in deadline (which are available upon request from JetBlue), persons
+denied boarding involuntarily are entitled to compensation. The complete
+rules for the payment of compensation and JetBlue's boarding priorities are
+available at all airport ticket counters and boarding locations. Some
+airlines do not apply these consumer protections to travel from some
+foreign countries, although other consumer protections may be available.
+Check with your airline or your travel agent.
+
+
+
+--=20
+Nicholas A. Hesselgrave
+Columbia University
+USMC Veteran
+760-672-4732
+
+--047d7bdca0900ebe390508f420a5
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>My florida stuff</div><div><br></div><br><div class=
+=3D"gmail_quote">---------- Forwarded message ----------<br>From: <b class=
+=3D"gmail_sendername">JetBlue Reservations</b> <span dir=3D"ltr">&lt;<a hre=
+f=3D"mailto:reservations@jetblue.com">reservations@jetblue.com</a>&gt;</spa=
+n><br>Date: Fri, Nov 28, 2014 at 6:06 PM<br>Subject: Itinerary for your upc=
+oming trip<br>To: <a href=3D"mailto:n.hesselgrave@gmail.com">n.hesselgrave@=
+gmail.com</a><br><br><br>
+
+
+
+   =20
+   =20
+   =20
+
+
+
+
+
+
+
+
+
+
+
+
+   =20
+       =20
+   =20
+                                   =20
+       =20
+
+
+
+<u></u>
+
+
+
+
+
+
+<div>
+    <table align=3D"center" width=3D"640" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0">
+        <tbody><tr><td height=3D"10" style=3D"line-height:0px"></td></tr>
+        <tr>
+            <td width=3D"10" style=3D"line-height:0px"></td>
+            <td>
+                <table align=3D"center" width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0">
+                    <tbody><tr>
+                        <td>
+                            <table align=3D"center" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tbody><tr>
+        <td width=3D"107">
+            <a href=3D"http://www.jetblue.com/" target=3D"_blank">
+                <img src=3D"http://www.jetblue.com/email/img/svt/logo.jpg" =
+width=3D"107" height=3D"38" border=3D"0" alt=3D"JetBlue">
+            </a>
+        </td>
+        <td align=3D"right" style=3D"font-family:Arial Bold,Helvetica,sans-=
+serif;font-size:12px;line-height:16px;color:#454545">
+            <strong><span>You&#39;re set to jet.</span></strong>
+            <br>
+            <span><strong>Your confirmation number is
+                <span style=3D"color:#4d90cd;text-decoration:none">HXSIXU</=
+span></strong>
+            </span>
+            <br>
+            <span style=3D"font-family:Arial">
+            Scan this barcode to check in at any JetBlue kiosk
+            </span>
+        </td>
+        <td width=3D"123">
+            <img src=3D"https://www.jetblue.com/itinerarybarcode/barcode.as=
+px?value=3DHXSIXU" alt=3D"HXSIXU" width=3D"123" height=3D"49">
+        </td>
+    </tr>
+</tbody></table>                        </td>
+                    </tr>
+                    <tr><td height=3D"10" style=3D"line-height:0px"></td></=
+tr>
+                    <tr>
+                        <td>
+                            <table align=3D"center" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tbody><tr>
+        <td width=3D"120">
+            <a href=3D"http://www.jetblue.com/flightstatus/?source=3Demitin=
+_flightstatus" target=3D"_blank">
+                <img src=3D"http://www.jetblue.com/email/img/svt/flight_sta=
+tus.jpg" width=3D"120" height=3D"44" border=3D"0" alt=3D"Flight status">
+            </a>
+        </td>
+        <td width=3D"5" style=3D"line-height:0px"></td>
+        <td width=3D"120">
+            <a href=3D"http://myflights.jetblue.com/B6.myb/" target=3D"_bla=
+nk">
+                <img src=3D"http://www.jetblue.com/email/img/svt/change_can=
+cel.jpg" width=3D"120" height=3D"44" border=3D"0" alt=3D"Change/cancel">
+            </a>
+        </td>
+        <td width=3D"5" style=3D"line-height:0px"></td>
+        <td width=3D"120">
+            <a href=3D"http://myflights.jetblue.com/B6.myb/" target=3D"_bla=
+nk">
+                <img src=3D"http://www.jetblue.com/email/img/svt/manage_fli=
+ghts.jpg" width=3D"120" height=3D"44" border=3D"0" alt=3D"Manage flights">
+            </a>
+        </td>
+        <td width=3D"5" style=3D"line-height:0px"></td>
+        <td width=3D"120">
+            <a href=3D"http://myflights.jetblue.com/B6.myb/" target=3D"_bla=
+nk">
+                <img src=3D"http://www.jetblue.com/email/img/svt/seats.jpg"=
+ width=3D"120" height=3D"44" border=3D"0" alt=3D"Seats">
+            </a>
+        </td>
+        <td width=3D"5" style=3D"line-height:0px"></td>
+        <td width=3D"120">
+            <a href=3D"http://www.jetblue.com/flying-on-jetblue/first-bag-f=
+ree/" target=3D"_blank">
+                <img src=3D"http://www.jetblue.com/email/img/svt/baggage_in=
+fo.jpg" width=3D"120" height=3D"44" border=3D"0" alt=3D"Baggage info">
+            </a>
+        </td>
+    </tr>
+</tbody></table>                        </td>
+                    </tr>
+                    <tr><td height=3D"10" style=3D"line-height:0px"></td></=
+tr>
+                    <tr>
+                        <td>
+                            <table align=3D"center" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tbody><tr>
+        <td height=3D"275" style=3D"font-family:Arial,Helvetica,sans-serif;=
+font-size:11px;line-height:18px;color:#666666;background-color:#f1f5f8">
+                                            <a href=3D"http://www.jetblue.c=
+om/flying-on-jetblue/directv/" target=3D"_blank"><img width=3D"620" height=
+=3D"275" src=3D"http://www.jetblue.com/email/img/svt/direct_tv_promo_1.png"=
+ alt=3D"" border=3D"0" style=3D"display:block"></a>
+                    </td>
+    </tr>
+</tbody></table>                        </td>
+                    </tr>
+                    <tr><td height=3D"10" style=3D"line-height:0px"></td></=
+tr>
+                    <tr>
+                        <td>
+                            <table align=3D"center" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tbody><tr>
+        <td width=3D"620" height=3D"2" style=3D"line-height:0px">
+            <img width=3D"620" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/top1.jpg" border=3D"0" style=3D"display:block">
+        </td>
+    </tr>
+    <tr>
+        <td style=3D"font-family:Arial,Helvetica,sans-serif;font-size:11px;=
+line-height:18px;color:#666666;padding:22px;background-color:#f1f5f8">
+            <span style=3D"font-family:Arial Bold,Helvetica Bold,sans-serif=
+;font-size:16px;line-height:20px;color:#004990"><strong>Your confirmation n=
+umber is <span style=3D"color:#4d90cd;text-decoration:none">HXSIXU</span></=
+strong></span><br>
+            <span style=3D"font-family:Arial,Helvetica,sans-serif;font-size=
+:12px;line-height:20px;color:#454545">Scan the barcode at the top of this p=
+age to check in at any JetBlue kiosk.</span>
+        </td>
+    </tr>
+    <tr>
+        <td width=3D"620" height=3D"2" style=3D"line-height:0px">
+            <img width=3D"620" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/bottom1.jpg" border=3D"0" style=3D"display:block">
+        </td>
+    </tr>
+</tbody></table>                        </td>
+                    </tr>
+                    <tr><td height=3D"10" style=3D"line-height:0px"></td></=
+tr>
+                    <tr>
+                        <td>
+                            <table align=3D"center" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tbody><tr>
+        <td width=3D"620" height=3D"11" style=3D"line-height:0px;margin:0px=
+ 0 0 0;padding:0px;background-color:#004890" border=3D"0">
+            <img width=3D"620" height=3D"11" src=3D"http://www.jetblue.com/=
+email/img/svt/itinerary_top.png" alt=3D"" border=3D"0" style=3D"display:blo=
+ck">
+        </td>
+    </tr>
+    <tr>
+        <td style=3D"background-color:#004890" align=3D"left" border=3D"0">
+            <table width=3D"100%">
+                <tbody><tr>
+                    <td width=3D"110px" border=3D"0" style=3D"font-family:A=
+rial Bold,Helvetica,sans-serif;font-size:16px;line-height:18px;color:#fffff=
+f;padding-left:20px;padding-bottom:9px">
+                        <b>Your itinerary</b>
+                    </td>
+                    <td align=3D"left" height=3D"16px" style=3D"padding-rig=
+ht:430px;padding-bottom:9px" border=3D"0">
+                        <img width=3D"17" height=3D"16" src=3D"http://www.j=
+etblue.com/email/img/svt/itinerary_box.png" alt=3D"" style=3D"display:block=
+" border=3D"0">
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+    </tr>
+    <tr style=3D"background-color:#f1f5f8">
+        <td>
+            <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=
+=3D"margin:0px 0 0 0" border=3D"0">
+                <tbody><tr width=3D"100%" align=3D"left" valign=3D"top">
+                    <th align=3D"left" style=3D"font-family:Arial Bold,Helv=
+etica,sans-serif;font-size:13px;font-weight:bold;text-align:left;line-heigh=
+t:18px;color:#024795;padding-bottom:13px;padding-top:13px;padding-left:20px=
+;width:60px">Date</th>
+                    <th align=3D"left" style=3D"font-family:Arial Bold,Helv=
+etica,sans-serif;font-size:13px;font-weight:bold;text-align:left;line-heigh=
+t:18px;color:#024795;padding-bottom:13px;padding-top:13px;padding-left:10px=
+;width:70px">Departs/<br>arrives</th>
+                    <th align=3D"left" style=3D"font-family:Arial Bold,Helv=
+etica,sans-serif;font-size:13px;font-weight:bold;text-align:left;line-heigh=
+t:18px;color:#024795;padding-bottom:13px;padding-top:13px;padding-left:10px=
+;width:90px">Route</th>
+                    <th align=3D"left" style=3D"font-family:Arial Bold,Helv=
+etica,sans-serif;font-size:13px;font-weight:bold;text-align:left;line-heigh=
+t:18px;color:#024795;padding-bottom:13px;padding-top:13px;padding-left:10px=
+;width:80px">Flight/<br>operated=C2=A0by</th>
+                    <th align=3D"left" style=3D"font-family:Arial Bold,Helv=
+etica,sans-serif;font-size:13px;font-weight:bold;text-align:left;line-heigh=
+t:18px;color:#024795;padding-bottom:13px;padding-top:13px;padding-left:10px=
+;width:90px">Travelers</th>
+                    <th align=3D"left" style=3D"font-family:Arial Bold,Helv=
+etica,sans-serif;font-size:13px;font-weight:bold;text-align:left;line-heigh=
+t:18px;color:#024795;padding-bottom:13px;padding-top:13px;padding-left:10px=
+;width:70px">Frequent Flyer<sup>1</sup></th>
+                    <th align=3D"left" style=3D"font-family:Arial Bold,Helv=
+etica,sans-serif;font-size:13px;font-weight:bold;text-align:left;line-heigh=
+t:18px;color:#024795;padding-bottom:13px;padding-top:13px;padding-left:10px=
+;width:55px">Seats<sup style=3D"line-height:0">2</sup></th>
+                    <th align=3D"left" style=3D"font-family:Arial Bold,Helv=
+etica,sans-serif;font-size:13px;font-weight:bold;text-align:left;line-heigh=
+t:18px;color:#024795;padding-bottom:13px;padding-top:13px;padding-left:10px=
+;padding-right:15px;width:65px">Terminal</th>
+                </tr>
+               =20
+                               =20
+                               =20
+                               =20
+                                       =20
+                   =20
+                                                               =20
+                                       =20
+                                                           =20
+                                                                           =
+                =20
+                    				=09
+                <tr><td height=3D"1" style=3D"line-height:0px;background-co=
+lor:#ffffff" colspan=3D"8"></td></tr>
+                <tr>
+                    <td align=3D"left" rowspan=3D"1" style=3D"font-family:A=
+rial Regular,Helvetica,sans-serif;font-size:12px;line-height:17px;color:#45=
+4545;padding-left:20px;width:60px;vertical-align:top;padding-top:10px;paddi=
+ng-bottom:10px">
+                        Tue,<br>Dec=C2=A023
+                    </td>
+                    <td align=3D"left" rowspan=3D"1" style=3D"font-family:A=
+rial Regular,Helvetica,sans-serif;font-size:12px;line-height:17px;color:#45=
+4545;padding-left:10px;width:70px;vertical-align:top;padding-top:10px;paddi=
+ng-bottom:10px">
+                      <span>9:45=C2=A0a.m.</span><br>
+                      <span>12:52=C2=A0p.m.</span>
+                    </td>
+                    <td align=3D"left" rowspan=3D"1" style=3D"font-family:A=
+rial Bold,Helvetica,sans-serif;font-size:12px;line-height:17px;color:#45454=
+5;font-weight:bold;padding-left:5px;width:90px;vertical-align:top;padding-t=
+op:10px;padding-bottom:10px">
+                       =20
+                        <span>NEWARK, NJ</span>
+                        <span>(EWR)</span>=C2=A0
+                        <span style=3D"font-family:Arial;font-weight:normal=
+">to</span><br>
+                        <span>FT LAUDERDALE, FL</span>
+                        <span>(FLL)</span>
+                    </td>
+                    <td align=3D"left" rowspan=3D"1" style=3D"font-family:A=
+rial Regular,Helvetica,sans-serif;font-size:12px;line-height:17px;color:#45=
+4545;padding-left:10px;vertical-align:top;text-align:left;padding-top:10px;=
+padding-bottom:10px">
+                        <span>5</span><br>
+                        <img src=3D"http://www.jetblue.com/email/img/svt/B6=
+.png" alt=3D"B6" title=3D"B6">
+                    </td>
+                       =20
+                                                                           =
+                                                                           =
+                                                                         =
+=20
+                                                                           =
+    =20
+                                                                           =
+             <td align=3D"left" style=3D"font-family:Arial Regular,Helvetic=
+a,sans-serif;font-size:12px;line-height:17px;color:#454545;padding-left:10p=
+x;vertical-align:top;width:90px;padding-top:10px;padding-bottom:10px">
+                                    Nicholas=C2=A0Hesselgrave
+                                </td>
+                                                                    <td ali=
+gn=3D"left" style=3D"font-family:Arial Regular,Helvetica,sans-serif;font-si=
+ze:12px;line-height:17px;color:#454545;padding-left:10px;vertical-align:top=
+;width:70px;text-align:left;padding-top:10px;padding-bottom:10px">
+                                        <span style=3D"font-family:Arial Re=
+gular,Helvetica,sans-serif;font-size:12px;line-height:17px;color:#454545">N=
+/A</span>
+                                    </td>
+                                                               =20
+                                <td align=3D"left" style=3D"font-family:Ari=
+al Regular,Helvetica,sans-serif;font-size:12px;line-height:17px;color:#4545=
+45;padding-left:10px;vertical-align:top;width:55px;text-align:left;padding-=
+top:10px;padding-bottom:10px">
+                                                                    <table =
+width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" valign=3D"top" style=3D"=
+margin:0px 0 0 0" border=3D"0">
+                                                                           =
+     <tbody><tr width=3D"100%" align=3D"left">
+                                        <td align=3D"left" style=3D"font-fa=
+mily:Arial Regular,Helvetica,sans-serif;font-size:12px;line-height:17px;col=
+or:#454545;vertical-align:top;width:55px;vertical-align:top">
+                                        <span style=3D"color:#518fca">
+                                        24A
+                                                                           =
+     </span></td></tr>
+                                    </tbody></table>
+                               =20
+                               </td>
+                                                                           =
+                             <td align=3D"left" rowspan=3D"1" style=3D"font=
+-family:Arial Regular,Helvetica,sans-serif;font-size:12px;line-height:17px;=
+color:#454545;padding-left:10px;vertical-align:top;text-align:left;width:65=
+px;padding-top:10px;padding-bottom:10px">
+                            A =C2=A0
+                        </td>
+                </tr>
+
+                                                                     =20
+                                                 </tbody></table>
+        </td>
+    </tr>
+</tbody></table>                        </td>
+                    </tr>
+                    <tr><td height=3D"1" style=3D"line-height:0px"></td></t=
+r>
+                    <tr>
+                        <td>
+                           =20
+
+
+
+<table align=3D"center" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+       =20
+            <tbody><tr style=3D"background-color:#f1f5f8;padding-bottom:1px=
+;padding-top:20px">
+                <td align=3D"left" style=3D"font-family:Arial,Helvetica,san=
+s-serif;font-size:11px;line-height:18px;color:#666666;padding-left:20px;ver=
+tical-align:top;text-align:left" width=3D"100%; " nowrap>
+                    <p align=3D"left" style=3D"font-family:Arial,Helvetica,=
+sans-serif;font-size:11px;line-height:18px;color:#666666;white-space:nowrap=
+;padding-bottom:5px">
+                        For a detailed receipt, select a customer
+                    </p>
+                </td>
+                <td align=3D"right" style=3D"font-family:Arial,Helvetica,sa=
+ns-serif;font-size:11px;line-height:18px;color:#666666;padding-right:20px;v=
+ertical-align:top;text-align:right" nowrap>
+                    <p align=3D"right" style=3D"font-family:Arial,Helvetica=
+,sans-serif;font-size:11px;line-height:18px;color:#666666;white-space:nowra=
+p;padding-bottom:5px">
+                        Ticket number(s)
+                    </p>
+                </td>
+            </tr>
+                       =20
+                               =20
+                                                    <tr style=3D"background=
+-color:#f1f5f8">
+                        <td align=3D"left" style=3D"font-family:Arial,Helve=
+tica,sans-serif;font-size:11px;line-height:18px;color:#666666;padding-left:=
+20px;vertical-align:top;text-align:left">
+                            <a style=3D"color:#518fca;text-decoration:none"=
+ href=3D"https://www.virtuallythere.com/new/eticketPrint.html?pnr=3DAB5GHO7=
+8R0OC&amp;pcc=3DA0A0&amp;aaaCity=3DNIH&amp;language=3D0&amp;name=3DHESSELGR=
+AVE&amp;host=3DB6&amp;ETNBR1=3D2792121989008&amp;ETSTC1=3Dnull&amp;ETDTE1=
+=3D28NOV&amp;ETISS1=3DNIH5SSW&amp;ETTOT=3D1&amp;SCOS=3Dfalse&amp;action=3Dp=
+rintEticket" target=3D"_blank">
+                                Nicholas=C2=A0Hesselgrave
+                            </a>=20
+                        </td>
+                        <td align=3D"right" style=3D"font-family:Arial,Helv=
+etica,sans-serif;font-size:11px;line-height:18px;color:#666666;padding-righ=
+t:20px;vertical-align:top;text-align:right">
+                            2792121989008
+                        </td>
+                    </tr>
+                                               =20
+   =20
+    <tr style=3D"background-color:#f1f5f8;padding-bottom:10px">
+       <td width=3D"100%" style=3D"line-height:0px">
+       </td>
+    </tr>
+</tbody></table>
+                        </td>
+                    </tr>
+                    <tr><td height=3D"1" style=3D"line-height:0px"></td></t=
+r>
+                    <tr>
+                        <td>
+                            <table align=3D"center" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tbody><tr>
+        <td style=3D"font-family:Arial,Helvetica,sans-serif;font-size:11px;=
+line-height:18px;color:#666666;padding:22px;background-color:#f1f5f8">
+            Please
+            <a href=3D"http://help.jetblue.com/SRVS/CGI-BIN/webisapi.dll?Ne=
+w,Kb=3DaskBlue,case=3Dobj(383871)" style=3D"color:#4d90cd;text-decoration:n=
+one" target=3D"_blank">click here</a>
+            for details regarding change and cancel policies.<br>
+                        <b><sup>1</sup></b> To provide a frequent flier num=
+ber please call 1-800-JETBLUE (538-2583)<br>
+            <b><sup>2</sup></b> Seats requests on other airlines are not gu=
+aranteed until confirmed by the operating carrier.
+        </td>
+    </tr>
+    <tr>
+        <td width=3D"620" height=3D"2" style=3D"line-height:0px">
+            <img width=3D"620" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/bottom1.jpg" border=3D"0" style=3D"display:block">
+        </td>
+    </tr>
+</tbody></table>                        </td>
+                    </tr>
+                    <tr><td height=3D"10" style=3D"line-height:0px"></td></=
+tr>
+                                            <tr>
+                            <td>
+                                <table align=3D"center" width=3D"100%" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tbody><tr>
+        <td width=3D"620" height=3D"2" style=3D"line-height:0px">
+            <img width=3D"620" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/top1.jpg" border=3D"0" style=3D"display:block">
+        </td>
+    </tr>
+    <tr>
+        <td style=3D"padding:22px;background-color:#f1f5f8">
+            <table align=3D"center" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+                <tbody><tr>
+                    <td align=3D"center" valign=3D"middle" width=3D"124">
+                        <img width=3D"124" height=3D"49" src=3D"http://www.=
+jetblue.com/email/img/svt/ems.jpg" border=3D"0" style=3D"display:block" alt=
+=3D"Even More Space">
+                    </td>
+                    <td valign=3D"middle" style=3D"font-family:Arial,Helvet=
+ica,sans-serif;font-size:11px;line-height:18px;color:#666666;padding-left:3=
+0px;padding-right:30px">
+                        <span style=3D"font-family:Arial Bold,Helvetica,san=
+s-serif;font-size:16px;line-height:20px;color:#004990;padding-bottom:15px">=
+<strong>From roomy to roomier.</strong></span><br>
+                        <span style=3D"font-family:Arial Regular,Helvetica,=
+sans-serif;font-size:12px;line-height:20px;color:#454545">
+                        Upgrade to an Even More Space seat and get extra le=
+groom, early boarding
+                        and early access to overhead bins.
+                        </span>
+                    </td>
+                    <td align=3D"center" valign=3D"middle" width=3D"93">
+                        <a href=3D"http://myflights.jetblue.com/B6.myb/" ta=
+rget=3D"_blank">
+                            <img width=3D"93" height=3D"32" src=3D"http://w=
+ww.jetblue.com/email/img/svt/lets_go.jpg" border=3D"0" style=3D"display:blo=
+ck" alt=3D"Let&#39;s go">
+                        </a>
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+    </tr>
+    <tr>
+        <td width=3D"620" height=3D"2" style=3D"line-height:0px">
+            <img width=3D"620" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/bottom1.jpg" border=3D"0" style=3D"display:block">
+        </td>
+    </tr>
+</tbody></table>                            </td>
+                        </tr>
+                        <tr><td height=3D"10" style=3D"line-height:0px"></t=
+d></tr>
+                                                            <tr>
+                        <td>
+                            <table align=3D"center" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tbody><tr>
+        <td width=3D"200" height=3D"2" style=3D"line-height:0px">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/top3.jpg" border=3D"0" style=3D"display:block">
+        </td>
+        <td width=3D"10" style=3D"line-height:0px"></td>
+
+        <td width=3D"200" height=3D"2" style=3D"line-height:0px">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/top3.jpg" border=3D"0" style=3D"display:block">
+        </td>
+        <td width=3D"10" style=3D"line-height:0px"></td>
+        <td width=3D"200" height=3D"2" style=3D"line-height:0px">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/top3.jpg" border=3D"0" style=3D"display:block">
+        </td>
+    </tr>
+    <tr>
+        <td valign=3D"top" width=3D"156" style=3D"padding:16px;background-c=
+olor:#f1f5f8">
+            <table align=3D"center" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+                <tbody><tr>
+                    <td height=3D"104" align=3D"center" valign=3D"middle">
+                        <a href=3D"http://www.carbonfund.org" style=3D"text=
+-decoration:none" target=3D"_blank">
+                            <img src=3D"http://www.jetblue.com/email/img/sv=
+t/carbonfund.jpg" width=3D"150" height=3D"31" align=3D"Carbonfund.org">
+                        </a>
+                    </td>
+                </tr>
+                <tr><td height=3D"10" style=3D"line-height:0px"></td></tr>
+                <tr>
+                    <td>
+                        <a href=3D"http://www.carbonfund.org" style=3D"text=
+-decoration:none" target=3D"_blank">
+                            <span style=3D"font-family:Arial Bold,Helvetica=
+ Bold,sans-serif;font-size:16px;line-height:20px;color:#004990;font-weight:=
+bold">
+                            Reduce what you can<br>
+                            offset what you can&#39;t
+                            </span>
+                        </a>
+                    </td>
+                </tr>
+                <tr><td height=3D"10" style=3D"line-height:0px"></td></tr>
+                <tr>
+                    <td>
+                        <a href=3D"http://www.carbonfund.org" style=3D"text=
+-decoration:none" target=3D"_blank">
+                            <span style=3D"font-family:Arial Regular,Helvet=
+ica,sans-serif;font-size:12px;line-height:20px;color:#454545">We&#39;re wor=
+king to protect and preserve the environment.
+                            By choosing to offset your travel, you too are =
+making a pledge to protect the environment.</span>
+                        </a>
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+        <td width=3D"10" style=3D"line-height:0px"></td>
+        <td valign=3D"top" width=3D"156" style=3D"padding:16px;background-c=
+olor:#f1f5f8">
+            <table align=3D"center" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+                <tbody><tr>
+                    <td height=3D"104" align=3D"center" valign=3D"middle">
+                        <a href=3D"http://www.etravelprotection.com/jbancil=
+laryemail" style=3D"text-decoration:none" target=3D"_blank">
+                        <img src=3D"http://www.jetblue.com/email/img/svt/al=
+lianz.jpg" width=3D"112" height=3D"29" alt=3D"Allianz">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height=3D"10" style=3D"line-height:0px"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=3D"http://www.etravelprotection.com/jbancil=
+laryemail" style=3D"text-decoration:none" target=3D"_blank">
+                        <span style=3D"font-family:Arial Bold,Helvetica Bol=
+d,sans-serif;font-size:16px;line-height:20px;color:#004990;font-weight:bold=
+">Travel insurance</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height=3D"10" style=3D"line-height:0px"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=3D"http://www.etravelprotection.com/jbancil=
+laryemail" style=3D"text-decoration:none" target=3D"_blank">
+                        <span style=3D"font-family:Arial Regular,Helvetica,=
+sans-serif;font-size:12px;line-height:20px;color:#454545">For Allianz Globa=
+l Assistance flight insurance inquiries, please call 1-800-496-0329.</span>
+                        </a>
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+        <td width=3D"10" style=3D"line-height:0px"></td>
+        <td valign=3D"top" width=3D"156" style=3D"padding:14px;background-c=
+olor:#f1f5f8">
+            <table align=3D"center" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+                <tbody><tr>
+                    <td height=3D"104" align=3D"center" valign=3D"middle">
+                        <a href=3D"https://www262.americanexpress.com/dappl=
+y/web/applycard/us/personal-card/api/jal/jetblue-personal-card/jal-eml-ips"=
+ style=3D"text-decoration:none" target=3D"_blank">
+                        <img src=3D"http://www.jetblue.com/email/img/svt/tr=
+ueblue.jpg" width=3D"88" height=3D"55" alt=3D"JetBlue">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height=3D"10" style=3D"line-height:0px"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=3D"https://www262.americanexpress.com/dappl=
+y/web/applycard/us/personal-card/api/jal/jetblue-personal-card/jal-eml-ips"=
+ style=3D"text-decoration:none" target=3D"_blank">
+                            <span style=3D"font-family:Arial Bold,Helvetica=
+ Bold,sans-serif;font-size:16px;line-height:20px;color:#004990;font-weight:=
+bold">
+                            Get 20,000 TrueBlue<sup>=C2=AE</sup> points
+                            </span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height=3D"10" style=3D"line-height:0px"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=3D"https://www262.americanexpress.com/dappl=
+y/web/applycard/us/personal-card/api/jal/jetblue-personal-card/jal-eml-ips"=
+ style=3D"text-decoration:none" target=3D"_blank">
+                        <span style=3D"font-family:Arial Regular,Helvetica,=
+sans-serif;font-size:12px;line-height:20px;color:#454545">After you spend $=
+1,000 in purchases on the Card within your first 3 months of Card Membershi=
+p.<span style=3D"color:#4d90cd;text-decoration:none"><sup>1</sup>Learn more=
+</span></span>
+                        </a>
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+    </tr>
+    <tr>
+        <td width=3D"200" height=3D"2" style=3D"line-height:0px">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/bottom3.jpg" border=3D"0" style=3D"display:block">
+        </td>
+        <td width=3D"10" style=3D"line-height:0px"></td>
+
+        <td width=3D"200" height=3D"2" style=3D"line-height:0px">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/bottom3.jpg" border=3D"0" style=3D"display:block">
+        </td>
+        <td width=3D"10" style=3D"line-height:0px"></td>
+        <td width=3D"200" height=3D"2" style=3D"line-height:0px">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/bottom3.jpg" border=3D"0" style=3D"display:block">
+        </td>
+    </tr>
+</tbody></table>
+
+<table align=3D"center" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+    <tbody><tr><td height=3D"10" style=3D"line-height:0px"></td></tr>
+</tbody></table>
+
+<table align=3D"center" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+    <tbody><tr>
+        <td width=3D"200" height=3D"2" style=3D"line-height:0px">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/top3.jpg" border=3D"0" style=3D"display:block">
+        </td>
+        <td width=3D"10" style=3D"line-height:0px"></td>
+
+        <td width=3D"200" height=3D"2" style=3D"line-height:0px">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/top3.jpg" border=3D"0" style=3D"display:block">
+        </td>
+        <td width=3D"10" style=3D"line-height:0px"></td>
+        <td width=3D"200" height=3D"2" style=3D"line-height:0px">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/top3.jpg" border=3D"0" style=3D"display:block">
+        </td>
+    </tr>
+    <tr>
+        <td valign=3D"top" width=3D"156" style=3D"padding:16px;background-c=
+olor:#f1f5f8">
+            <table align=3D"center" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+                <tbody><tr>
+                    <td height=3D"104" align=3D"center" valign=3D"middle">
+                        <a href=3D"http://hotels.jetblue.com/templates/2331=
+24?showOptions=3Dfalse&amp;mdpcid=3D233124.hp.hot.nav.lp" style=3D"text-dec=
+oration:none" target=3D"_blank">
+                        <img src=3D"http://www.jetblue.com/email/img/svt/ho=
+tels_com.jpg" width=3D"136" height=3D"25" alt=3D"Hotels.com">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height=3D"10" style=3D"line-height:0px"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=3D"http://hotels.jetblue.com/templates/2331=
+24?showOptions=3Dfalse&amp;mdpcid=3D233124.hp.hot.nav.lp" style=3D"text-dec=
+oration:none" target=3D"_blank">
+                            <span style=3D"font-family:Arial Bold,Helvetica=
+ Bold,sans-serif;font-size:16px;line-height:20px;color:#004990;font-weight:=
+bold">Great hotel offers<br>
+                            with our partner
+                                </span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height=3D"10" style=3D"line-height:0px"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=3D"http://hotels.jetblue.com/templates/2331=
+24?showOptions=3Dfalse&amp;mdpcid=3D233124.hp.hot.nav.lp" style=3D"text-dec=
+oration:none" target=3D"_blank">
+                            <span style=3D"font-family:Arial Regular,Helvet=
+ica,sans-serif;font-size:12px;line-height:20px;color:#454545">
+                            Special Internet Rate Price Match Guarantee<sup=
+>2</sup>, no Change or Cancel Fee<sup>3</sup>,
+                            no phone fee and TripAdvisor<sup>=C2=AE</sup> c=
+ustomer reviews.
+                            </span>
+                        </a>
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+        <td width=3D"10" style=3D"line-height:0px"></td>
+        <td valign=3D"top" width=3D"156" style=3D"padding:16px;background-c=
+olor:#f1f5f8">
+            <table align=3D"center" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+                <tbody><tr>
+                    <td height=3D"104" align=3D"center" valign=3D"middle">
+                        <a href=3D"http://www.jetblue.com/cars" style=3D"te=
+xt-decoration:none" target=3D"_blank">
+                        <img src=3D"http://www.jetblue.com/email/img/svt/ca=
+r.jpg" width=3D"97" height=3D"39" alt=3D"Car">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height=3D"10" style=3D"line-height:0px"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=3D"http://www.jetblue.com/cars" style=3D"te=
+xt-decoration:none" target=3D"_blank">
+                        <span style=3D"font-family:Arial Bold,Helvetica Bol=
+d,sans-serif;font-size:16px;line-height:20px;color:#004990;font-weight:bold=
+">Car rentals</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height=3D"10" style=3D"line-height:0px"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=3D"http://www.jetblue.com/cars" style=3D"te=
+xt-decoration:none" target=3D"_blank">
+                        <span style=3D"font-family:Arial Regular,Helvetica,=
+sans-serif;font-size:12px;line-height:20px;color:#454545">Save up to 35% an=
+d earn double TrueBlue points with Hertz.<sup>4</sup></span>
+                        </a>
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+        <td width=3D"10" style=3D"line-height:0px"></td>
+        <td valign=3D"top" width=3D"156" style=3D"padding:16px;background-c=
+olor:#f1f5f8">
+            <table align=3D"center" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+                <tbody><tr>
+                    <td height=3D"104" align=3D"center" valign=3D"middle">
+                        <a href=3D"http://limos.jetblue.com/jetblue/lux-car=
+-service.html" style=3D"text-decoration:none" target=3D"_blank">
+                        <img src=3D"http://www.jetblue.com/email/img/svt/gr=
+oundlink.jpg" width=3D"141" height=3D"42" alt=3D"GroundLink">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height=3D"10" style=3D"line-height:0px"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=3D"http://limos.jetblue.com/jetblue/lux-car=
+-service.html" style=3D"text-decoration:none" target=3D"_blank">
+                        <span style=3D"font-family:Arial Bold,Helvetica Bol=
+d,sans-serif;font-size:16px;line-height:20px;color:#004990;font-weight:bold=
+">Your driver is here</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height=3D"10" style=3D"line-height:0px"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=3D"http://limos.jetblue.com/jetblue/lux-car=
+-service.html" style=3D"text-decoration:none" target=3D"_blank">
+                        <span style=3D"font-family:Arial Regular,Helvetica,=
+sans-serif;font-size:12px;line-height:20px;color:#454545">Guaranteed on-tim=
+e car service providing easy, reliable ground transportation for travelers =
+worldwide. Book your ride now.<sup>5</sup></span>
+                        </a>
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+    </tr>
+    <tr>
+        <td width=3D"200" height=3D"2" style=3D"line-height:0px">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/bottom3.jpg" border=3D"0" style=3D"display:block">
+        </td>
+        <td width=3D"10" style=3D"line-height:0px"></td>
+
+        <td width=3D"200" height=3D"2" style=3D"line-height:0px">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/bottom3.jpg" border=3D"0" style=3D"display:block">
+        </td>
+        <td width=3D"10" style=3D"line-height:0px"></td>
+        <td width=3D"200" height=3D"2" style=3D"line-height:0px">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/bottom3.jpg" border=3D"0" style=3D"display:block">
+        </td>
+    </tr>
+</tbody></table>                        </td>
+                    </tr>
+                    <tr><td height=3D"10" style=3D"line-height:0px"></td></=
+tr>
+                    <tr>
+                        <td>
+                            <table align=3D"center" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tbody><tr>
+        <td valign=3D"middle" height=3D"40" width=3D"31" style=3D"padding-r=
+ight:10px">
+            <a href=3D"http://www.facebook.com/JetBlue" target=3D"_blank">
+                <img src=3D"http://www.jetblue.com/email/img/svt/fb.jpg" wi=
+dth=3D"31" height=3D"31" border=3D"0" align=3D"Facebook">
+            </a>
+        </td>
+        <td valign=3D"middle" height=3D"40" width=3D"31" style=3D"padding-r=
+ight:10px">
+            <a href=3D"http://twitter.com/jetblue" target=3D"_blank">
+                <img src=3D"http://www.jetblue.com/email/img/svt/twitter.jp=
+g" width=3D"31" height=3D"31" border=3D"0" align=3D"Twitter">
+            </a>
+        </td>
+        <td valign=3D"middle" height=3D"40" width=3D"31">
+            <a href=3D"http://www.youtube.com/jetblue" target=3D"_blank">
+                <img src=3D"http://www.jetblue.com/email/img/svt/youtube.jp=
+g" width=3D"31" height=3D"31" border=3D"0" align=3D"Youtube">
+            </a>
+        </td>
+
+        <td valign=3D"middle" height=3D"40" style=3D"padding-left:20px;padd=
+ing-right:20px">
+            <table align=3D"center" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+                <tbody><tr><td height=3D"32" width=3D"1" style=3D"border-le=
+ft:1px solid #dbe8f1;line-height:0px"></td></tr>
+            </tbody></table>
+        </td>
+
+        <td valign=3D"middle" height=3D"40" width=3D"28">
+            <a href=3D"http://blog.jetblue.com/" target=3D"_blank">
+                <img src=3D"http://www.jetblue.com/email/img/svt/bluetails.=
+jpg" width=3D"28" height=3D"29" border=3D"0" align=3D"BlueTails">
+            </a>
+        </td>
+        <td valign=3D"middle" height=3D"40" style=3D"padding-left:10px;font=
+-family:Arial,Verdana,sans-serif;font-size:11px">
+            <a href=3D"http://blog.jetblue.com/" style=3D"color:#4d90cd;tex=
+t-decoration:none;font-weight:bold" target=3D"_blank">
+                BlueTales Blog
+            </a>
+        </td>
+
+        <td valign=3D"middle" height=3D"40" style=3D"padding-left:20px;padd=
+ing-right:20px">
+            <table align=3D"center" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+                <tbody><tr><td height=3D"32" width=3D"1" style=3D"border-le=
+ft:1px solid #dbe8f1"></td></tr>
+            </tbody></table>
+        </td>
+
+        <td valign=3D"middle" height=3D"40" width=3D"37">
+            <a href=3D"http://www.jetblue.com/mobile" target=3D"_blank">
+                <img src=3D"http://www.jetblue.com/email/img/svt/jb_mobile.=
+jpg" width=3D"37" height=3D"37" border=3D"0" align=3D"JetBlue Mobile">
+            </a>
+        </td>
+        <td valign=3D"middle" height=3D"40" style=3D"padding-left:10px;font=
+-family:Arial,Verdana,sans-serif;font-size:10px;color:#666666">
+            <a href=3D"http://www.jetblue.com/mobile" style=3D"font-family:=
+Arial Bold,Helvetica,sans-serif;font-size:11px;line-height:18px;color:#4d8f=
+cd;text-decoration:none" target=3D"_blank">
+                Same smart app. More smartphones.
+            </a><br>
+            <a href=3D"http://www.jetblue.com/mobile" style=3D"text-decorat=
+ion:none;font-family:Arial Regular,Verdana,sans-serif;font-size:10px;color:=
+#999999" target=3D"_blank">
+            Download the JetBlue mobile app for iPhone
+            <br>
+            and Android now!
+            </a>
+        </td>
+    </tr>
+</tbody></table>                        </td>
+                    </tr>
+                    <tr><td height=3D"10" style=3D"line-height:0px"></td></=
+tr>
+                    <tr>
+                        <td>
+                            <table align=3D"center" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tbody><tr>
+        <td style=3D"padding-top:15px;padding-bottom:15px;border-top:1px so=
+lid #dbe8f1;border-bottom:1px solid #dbe8f1">
+            <table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0">
+                <tbody><tr>
+                    <td style=3D"font-family:Arial,Helvetica,sans-serif;fon=
+t-size:11px;line-height:18px;color:#666666;padding-right:15px">
+                        <a href=3D"http://www.jetblue.com/help/?intcmp=3Dhd=
+_help" style=3D"color:#4d90cd;text-decoration:none" target=3D"_blank">
+                            Help
+                        </a>
+                    </td>
+
+                    <td style=3D"font-family:Arial,Helvetica,sans-serif;fon=
+t-size:11px;line-height:18px;color:#666666;padding-right:15px">
+                        <a href=3D"http://www.jetblue.com/corporate/?intcmp=
+=3Dft_corporate" style=3D"color:#4d90cd;text-decoration:none" target=3D"_bl=
+ank">
+                            Corporate Travel
+                        </a>
+                    </td>
+
+                    <td style=3D"font-family:Arial,Helvetica,sans-serif;fon=
+t-size:11px;line-height:18px;color:#666666;padding-right:15px">
+                        <a href=3D"http://www.jetblue.com/legal/privacy/?in=
+tcmp=3Dft_privacy" style=3D"color:#4d90cd;text-decoration:none" target=3D"_=
+blank">
+                            Privacy
+                        </a>
+                    </td>
+
+                    <td style=3D"font-family:Arial,Helvetica,sans-serif;fon=
+t-size:11px;line-height:18px;color:#666666;padding-right:15px">
+                        <a href=3D"http://www.jetblue.com/about/?intcmp=3Df=
+t_aboutus" style=3D"color:#4d90cd;text-decoration:none" target=3D"_blank">
+                            About JetBlue
+                        </a>
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+    </tr>
+</tbody></table>                        </td>
+                    </tr>
+                    <tr><td height=3D"10" style=3D"line-height:0px"></td></=
+tr>
+                    <tr>
+                        <td>
+                            <table align=3D"center" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"color:#999999">
+    <tbody><tr>
+        <td style=3D"font-family:arial,sans-serif;font-size:12px">
+            <p style=3D"font-size:11px">=E2=80=A0DIRECTV=C2=AE and XM Radio=
+=C2=AE services are not available outside the continental U.S.; however, wh=
+ere applicable, movies from JetBlue Features=E2=84=A2 are offered complimen=
+tary on these routes.</p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height:0px"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family:arial,sans-serif;font-size:12px">
+            <p style=3D"font-size:11px">1. <strong>Welcome bonus offer not =
+available to applicants who have or have had this product. </strong> To qua=
+lify for the 20,000 TrueBlue points, you must make purchases with your JetB=
+lue Card from American Express that total $1,000 or more within your first =
+three months of Card Membership starting from the date your account is appr=
+oved. Qualifying purchases can be made by the Basic Card Member and any Add=
+itional Card Members on a single Card account. Purchases to meet the spend =
+requirement do NOT include fees or interest charges, balance transfers, cas=
+h advances, purchase of travelers checks, purchase or reloading of prepaid =
+cards, or other cash equivalents. Additional Card Members on your account a=
+re not eligible for this offer. TrueBlue points will be credited to your Tr=
+ueBlue account 6 to 8 weeks after the spend requirement has been reached. A=
+ll TrueBlue points are subject to the TrueBlue Terms and Conditions: see <a=
+ style=3D"text-decoration:none;color:#4d8fcd" href=3D"http://www.jetblue.co=
+m/trueblueterms" target=3D"_blank">www.jetblue.com/trueblueterms</a>.<br><b=
+r>In rare instances, your period to spend $1,000 may be shorter than three =
+months if there is a delay in mailing your Card. Also, purchases may fall o=
+utside of the three month period in some cases, such as a delay in merchant=
+s submitting transactions to us or if the purchase date differs from the da=
+te you made the transaction. (For example, if you buy goods online, the pur=
+chase date may be the date the goods are shipped).<br><br>To receive the 20=
+,000 TrueBlue points, your Card account must be active, in good standing, a=
+nd not in default at the time of fulfillment. American Express reserves the=
+ right to modify or revoke offer at any time. For questions regarding your =
+Card account, please call the number on the back of your Card.</p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height:0px"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family:arial,sans-serif;font-size:12px">
+            <p style=3D"font-size:11px"><span style=3D"font-size:8pt">2. Pr=
+ice Match Guarantee: If you find the same hotel and dates of stay at a lowe=
+r rate, Hotels.com will, at its choice, either match the lower rate or canc=
+el the reservation without a cancellation fee. See </span><a style=3D"text-=
+decoration:none;color:#4d8fcd;font-size:8pt" href=3D"http://hotels.jetblue.=
+com/index.jsp?pageName=3Dguarantee" target=3D"_blank">http://hotels.jetblue=
+.com/index.jsp?pageName=3Dguarantee</a><span style=3D"font-size:8pt">.</spa=
+n></p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height:0px"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family:arial,sans-serif;font-size:12px">
+            <p style=3D"font-size:11px">3. No Change/Cancel Fees: Hotels.co=
+m does not charge a change or cancel fee; however, each property has indepe=
+ndent penalties for changes/cancellations. See full hotel details and descr=
+iptions for details.</p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height:0px"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family:arial,sans-serif;font-size:12px">
+            <p style=3D"font-size:11px">4. Your discount CDP 1790143 and PC=
+ 107844 for Weekends will be automatically applied to your quote when the &=
+quot;learn more&quot; button is clicked. Advance reservation is required. M=
+aximum discount on Weekend rentals is $5 per day up to $15. Minimum rental =
+period is one day. Promotion Code (PC) must be provided at time of reservat=
+ion or offer is void. Subject to availability, this offer is redeemable at =
+participating Hertz locations in the U.S., Puerto Rico and Canada. Hertz ag=
+e, driver and credit qualifications and leisure rate restrictions for the r=
+enting location apply. Standard rental qualifications, rental period and re=
+turn restrictions apply. This offer has no cash value, may not be used with=
+ Pre-Pay Rates, Tour Rates or Insurance Replacement Rates and cannot be com=
+bined with each other or with any other certificate, voucher, offer or prom=
+otion. Modifying your reservation may result in a change in your rate and/o=
+r invalidate this offer. Offer applies only to the time and mileage charges=
+, and not to taxes, tax reimbursement, governmental surcharges and optional=
+ services, such as refueling. Discounts in local currency on redemption. Fr=
+equent Flyer Surcharge of up to $0.75 per day, up to a maximum of $5.25 per=
+ rental, may apply. Points will not be awarded on travel industry rates, wh=
+olesale tour packages, insurance/dealer replacement, and any other promotio=
+nal rates or group travel. Double TrueBlue points may not be granted retroa=
+ctively. Double TrueBlue points consist of: 100 TrueBlue points for one day=
+ rentals or 300 TrueBlue points for rentals of 2 to 4 days. Rental must be =
+completed to receive Double TrueBlue points.</p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height:0px"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family:arial,sans-serif;font-size:12px">
+            <p style=3D"font-size:11px">5. Advertised rates are based on tr=
+ips between airports and downtown metropolitan area locations in an economy=
+ class vehicle. Rates do not include additional charges that may be applica=
+ble, such as charges for tolls, extra stops, parking fees, telephone usage,=
+ pets, extra in-car bags, car seats, waiting time, or custom requests. Rate=
+s include local and state taxes and fees, except in NY, NJ, and CT; passeng=
+ers in these states are responsible for taxes and fees (including, in NY, a=
+ 2% NYC workmen=E2=80=99s compensation charge and 8.875% state and local sa=
+les taxes). Rates include gratuity, except in NY, NJ, and CT; passengers tr=
+aveling in these states are encouraged to provide appropriate gratuity base=
+d on the service received. Economy pricing may not be available at all time=
+s during the day or during certain weather conditions. Advertised rates onl=
+y apply for bookings made online at <a style=3D"text-decoration:none;color:=
+#4d8fcd" href=3D"http://limos.jetblue.com" target=3D"_blank">limos.jetblue.=
+com</a> or by calling <a href=3D"tel:1-888-478-8190" value=3D"+18884788190"=
+ target=3D"_blank">1-888-478-8190</a>.</p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height:0px"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family:arial,sans-serif;font-size:12px">
+            <p style=3D"font-size:9pt">CUSTOMER CONCERNS<br><span style=3D"=
+font-size:11px"> Any customer inquiries or concerns can be addressed <a sty=
+le=3D"text-decoration:none;color:#4d8fcd" href=3D"http://www.jetblue.com/he=
+lp/contactus/" target=3D"_blank">here,</a> emailed to <a style=3D"text-deco=
+ration:none;color:#4d8fcd" href=3D"mailto:dearjetblue@jetblue.com" target=
+=3D"_blank">dearjetblue@jetblue.com</a>, or sent to JetBlue Airways, 6322 S=
+outh 3000 East, Suite G10, Salt Lake City, UT 84121.</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height:0px"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family:arial,sans-serif;font-size:12px">
+            <p style=3D"font-size:9pt">NOTICE OF INCORPORATED TERMS<br><spa=
+n style=3D"font-size:11px"> All travel on JetBlue, whether it is domestic o=
+r international travel, is subject to JetBlue&#39;s Contract of Carriage, t=
+he terms of which are incorporated herein by reference. International trave=
+l may also be subject to JetBlue&#39;s international passenger rules tariff=
+s on file with the U.S. and other governments, and, where applicable, the M=
+ontreal Convention or the Warsaw Convention and its amendments and special =
+contracts. Incorporated terms include, but are not restricted to:</span></p=
+>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height:0px"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family:arial,sans-serif;font-size:12px">
+            <p style=3D"font-size:9pt">NOTICE OF INCREASED GOVERNMENT TAX O=
+R FEE<br><span style=3D"font-size:11px"> JetBlue reserves the right to coll=
+ect additional payment after a fare has been paid in full and tickets issue=
+d for any additional government taxes or fees assessed or imposed.<br><br> =
+1. Liability limitations for baggage, including special rules for fragile a=
+nd perishable goods and the availability of excess valuation.<br> 2. Liabil=
+ity limitations for personal injury or death.<br> 3. Claims restrictions, i=
+ncluding time periods within which passengers must file a claim or bring an=
+ action against JetBlue.<br> 4. Rights of JetBlue to change the terms of co=
+ntract.<br> 5. Rules on reservations, check-in, and refusal to carry.<br> 6=
+. JetBlue&#39;s rights and limits on its liability for delay or failure to =
+perform service, including schedule changes, substitution of aircraft or al=
+ternate air carriers, and rerouting.<br> 7. Non-refundability of reservatio=
+ns.<br> 8. The Contract of Carriage and tariffs may be inspected at all Jet=
+Blue airport customer service counters, and upon request you have the right=
+ to receive by mail a copy of the full text of the Contract of Carriage or =
+tariffs. Additional information on items one through seven can be obtained =
+on JetBlue&#39;s website at <a style=3D"color:#4b90cd;text-decoration:none"=
+ href=3D"http://www.jetblue.com/about/legal/legal.asp?source=3Demitin_coc" =
+target=3D"_blank">www.JetBlue.com</a> or at any U.S. location where JetBlue=
+ transportation is sold.</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height:0px"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family:arial,sans-serif;font-size:12px">
+            <p style=3D"font-size:9pt">CARRY-ON BAGGAGE RULES<br><span styl=
+e=3D"font-size:11px"> JetBlue flights - Each customer may bring one bag tha=
+t fits in the overhead bin plus one personal item (purse, briefcase, laptop=
+, etc.) that fits under the seat in front free of charge.=C2=A0 Any excess =
+carry-on baggage will be checked baggage. Visit <a style=3D"text-decoration=
+:none;color:#4d8fcd" href=3D"http://www.jetblue.com/bags" target=3D"_blank"=
+>http://www.jetblue.com/bags</a>=C2=A0 and <a style=3D"text-decoration:none=
+;color:#4d8fcd" href=3D"http://www.tsa.gov" target=3D"_blank">http://www.ts=
+a.gov</a> for more information. Connecting on our partner airlines (includi=
+ng Cape Air) =E2=80=93 The carry-on rules of a partner airline apply when c=
+hecking in to a JetBlue flight that is connecting to the partner.=C2=A0 See=
+ <a style=3D"text-decoration:none;color:#4d8fcd" href=3D"http://www.jetblue=
+.com/partners" target=3D"_blank">http://www.jetblue.com/partners</a> for mo=
+re information.=C2=A0 While JetBlue may allow additional carry-ons as a cou=
+rtesy to customers connecting to our partner airline, JetBlue cannot guaran=
+tee that those bags will be accepted for in-cabin travel on the partner.=C2=
+=A0 Customers are encouraged to abide by partner=E2=80=99s rules for their =
+entire journey to avoid additional checked baggage fees if their carry-ons =
+do not meet size/weight restrictions.</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height:0px"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family:arial,sans-serif;font-size:12px">
+            <p style=3D"font-size:9pt">CHECKED BAGGAGE ALLOWANCE/FEES<br><s=
+pan style=3D"font-size:11px"> Domestic JetBlue flights - JetBlue allows one=
+ free checked bag, subject to size/weight restrictions. For flights booked =
+on or after May 21st, 2014 a $50.00 fee applies to a second checked bag ($4=
+0.00 for flights booked before May 21, 2014) and a $100 fee applies to a th=
+ird checked bag ($75 for flights booked before May 21, 2014), subject to si=
+ze/weight restrictions.. Other fees apply for additional baggage and oversi=
+zed or overweight baggage. Visit <a style=3D"text-decoration:none;color:#4d=
+8fcd" href=3D"http://www.jetblue.com/bags" target=3D"_blank">http://www.jet=
+blue.com/bags</a> for more information. International JetBlue flights - Jet=
+Blue allows one free checked bag, subject to size/weight restrictions. For =
+flights booked on or after May 21st, 2014 a $50.00 fee applies to a second =
+checked bag ($40.00 for flights booked before May 21, 2014). Excess baggage=
+ rules and size/weight restrictions may vary depending on load availability=
+ and country restrictions. See <a style=3D"text-decoration:none;color:#4d8f=
+cd" href=3D"http://www.jetblue.com/bags" target=3D"_blank">www.jetblue.com/=
+bags</a> for more information. Travel on our partner airlines (excluding Ca=
+pe Air*) =E2=80=93 Baggage rules and fees vary by partner airline and desti=
+nation. JetBlue will follow our partner airlines&#39; fees when customers a=
+re traveling on an itinerary including one of our partner airlines. Excess =
+baggage rules and size/weight restrictions may vary depending on load avail=
+ability. See <a style=3D"text-decoration:none;color:#4d8fcd" href=3D"http:/=
+/www.jetblue.com/bags" target=3D"_blank">www.jetblue.com/bags</a> for more =
+information. Travel on our partner airlines (excluding Cape Air*) =E2=80=93=
+ Baggage rules and fees vary by partner airline and destination. JetBlue wi=
+ll follow our partner airlines&#39; fees when customers are traveling on an=
+ itinerary including one of our partner airlines. Excess baggage rules and =
+size/weight restrictions may vary depending on load availability. See <a st=
+yle=3D"text-decoration:none;color:#4d8fcd" href=3D"http://www.jetblue.com/p=
+artners" target=3D"_blank">http://www.jetblue.com/partners</a> for more inf=
+ormation.=C2=A0</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height:0px"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family:arial,sans-serif;font-size:12px">
+            <p style=3D"font-size:9pt"><span style=3D"font-size:11px">*For =
+itineraries with a connection only to/from Cape Air, JetBlue&#39;s standard=
+ fees apply.=C2=A0=C2=A0</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height:0px"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family:arial,sans-serif;font-size:12px">
+            <p style=3D"font-size:9pt">CHECK-IN TIMES<br><span style=3D"fon=
+t-size:11px"> For domestic flights, customers traveling without checked bag=
+gage must obtain a boarding pass twenty (20) minutes prior to scheduled dep=
+arture and customers traveling with checked baggage must obtain a boarding =
+pass thirty minutes prior to scheduled departure. Customers must be present=
+ in the boarding gate are fifteen (15) minutes prior to scheduled departure=
+ or the posted aircraft departure time. For international flights, customer=
+s traveling with or without checked bags must obtain a boarding pass sixty =
+(60) minutes prior to scheduled departure. Customers must be present in the=
+ boarding gate twenty (20) minutes prior to scheduled departure or the post=
+ed aircraft departure time.</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height:0px"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family:arial,sans-serif;font-size:12px">
+            <p style=3D"font-size:9pt">DOCUMENTATION REQUIREMENTS<br><span =
+style=3D"font-size:11px"> For domestic travel, customers over the age of 18=
+ will be required to show a U.S. federal or state-issued photo ID that cont=
+ains the following information: name, date of birth, gender, expiration dat=
+e and a tamper-resistant feature. Customers traveling to/from an internatio=
+nal destination are required to present proper documentation at the time of=
+ check-in. Documents required for travel vary according to citizenship, res=
+idency, country of travel, age (for minors), length of stay, purpose of vis=
+it, student status, etc. Please check for specific requirements for the cou=
+ntry, or countries, you are visiting to make sure you have the correct docu=
+ments. In addition, Customers traveling to a country other than their count=
+ry of citizenship or residency are required to hold proof of return or onwa=
+rd travel. Failure to present proper documentation could result in denied b=
+oarding.</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height:0px"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family:arial,sans-serif;font-size:12px">
+            <p style=3D"font-size:9pt">ADVICE TO INTERNATIONAL PASSENGERS O=
+N LIMITATION OF LIABILITY<br><span style=3D"font-size:11px"> Where a passen=
+ger&#39;s journey involves an ultimate destination or a stop in a country o=
+ther than the country of departure, either the Warsaw Convention and the Ha=
+gue Protocol, their amendments, and any special contracts of carriage embod=
+ied in applicable tariffs that waive Warsaw/Hague limits, or the Montreal C=
+onvention may apply to the entire journey including the portion within the =
+countries of departure or destination and, in some cases, may limit the lia=
+bility of the carrier for death or personal injury, delay, and for loss of =
+or damage to baggage. The Montreal Convention, where applicable, does not i=
+mpose, and special contracts voluntarily entered into by many carriers, inc=
+luding JetBlue, waive, the Warsaw/Hague limitations for compensatory damage=
+s arising out of personal injury or wrongful death caused by an accident, a=
+s defined by the applicable treaty. The names of carriers party to the spec=
+ial contracts are available at all ticket offices of such carriers and may =
+be examined upon request.</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height:0px"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family:arial,sans-serif;font-size:12px">
+            <p style=3D"font-size:9pt">NOTICE OF BAGGAGE LIABILITY LIMITS<b=
+r><span style=3D"font-size:11px"> For international transportation (includi=
+ng domestic portions) governed by the Montreal Convention, JetBlue&#39;s li=
+ability for baggage is limited to 1,131 SDRs (see, <a style=3D"text-decorat=
+ion:none;color:#4d8fcd" href=3D"http://www.imf.org" target=3D"_blank">http:=
+//www.imf.org</a> for current value) per passenger unless a higher value is=
+ declared and an extra charge is paid. For international transportation gov=
+erned by the Warsaw Convention and the Hague Protocol and their amendments,=
+ JetBlue&#39;s liability for baggage is limited to $9.07 per pound for chec=
+ked baggage and $400 per passenger for unchecked baggage unless a higher va=
+lue is declared and an extra charge is paid. Special rules may apply to val=
+uable articles. For domestic transportation, JetBlue&#39;s liability for ba=
+ggage is limited to $3,300 per passenger. General baggage rules: As set for=
+th more fully in its Contract of Carriage and international passenger rules=
+ tariffs, JetBlue will not be responsible for fragile or perishable goods. =
+JetBlue assumes no liability for oversized, overweight or overpacked baggag=
+e, or for loss of or damage to baggage parts such as wheels, straps, pocket=
+s, pull handles, zippers, hanger hooks or other items attached to baggage. =
+JetBlue will not be responsible for the following items in checked or unche=
+cked baggage: money, jewelry including watches, cameras, camcorders, any ty=
+pe of electronic equipment, including computers, valuable papers or documen=
+ts and other similar items as described in more detail in the Contract of C=
+arriage.</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height:0px"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family:arial,sans-serif;font-size:12px">
+            <p style=3D"font-size:9pt">NOTICE OF OVERBOOKING OF FLIGHTS<br>=
+<span style=3D"font-size:11px"> Although JetBlue does not intentionally ove=
+rbook its flights, there is a slight chance that a seat will not be availab=
+le on a flight for which a person has a confirmed reservation. If the fligh=
+t is overbooked, no one will be denied a seat until airline personnel first=
+ ask for volunteers willing to give up their reservation in exchange for co=
+mpensation of the airline&#39;s choosing. If there are not enough volunteer=
+s, JetBlue will deny boarding to other persons in accordance with its parti=
+cular boarding priority. With few exceptions, including failure to comply w=
+ith JetBlue&#39;s check-in deadline (which are available upon request from =
+JetBlue), persons denied boarding involuntarily are entitled to compensatio=
+n. The complete rules for the payment of compensation and JetBlue&#39;s boa=
+rding priorities are available at all airport ticket counters and boarding =
+locations. Some airlines do not apply these consumer protections to travel =
+from some foreign countries, although other consumer protections may be ava=
+ilable. Check with your airline or your travel agent.</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height:0px"></td>
+    </tr>
+</tbody></table>                        </td>
+                    </tr>
+                                    </tbody></table>
+            </td>
+            <td width=3D"10" style=3D"line-height:0px"></td>
+        </tr>
+        <tr><td height=3D"10" style=3D"line-height:0px"></td></tr>
+    </tbody></table>
+</div>
+</div><br><br clear=3D"all"><div><br></div>-- <br><div class=3D"gmail_signa=
+ture">Nicholas A. Hesselgrave<br>Columbia University<br>USMC Veteran<br>760=
+-672-4732</div>
+</div>
+
+--047d7bdca0900ebe390508f420a5--
+

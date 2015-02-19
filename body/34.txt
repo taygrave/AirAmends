@@ -1,0 +1,478 @@
+Delivered-To: tkhesselgrave@gmail.com
+Received: by 10.236.108.39 with SMTP id p27cs1562316yhg;
+        Sun, 9 Jan 2011 09:43:03 -0800 (PST)
+Return-Path: <n.hesselgrave@gmail.com>
+Received-SPF: pass (google.com: domain of n.hesselgrave@gmail.com designates 10.90.103.9 as permitted sender) client-ip=10.90.103.9;
+Authentication-Results: mr.google.com; spf=pass (google.com: domain of n.hesselgrave@gmail.com designates 10.90.103.9 as permitted sender) smtp.mail=n.hesselgrave@gmail.com; dkim=pass header.i=n.hesselgrave@gmail.com
+Received: from mr.google.com ([10.90.103.9])
+        by 10.90.103.9 with SMTP id a9mr5325933agc.165.1294594980571 (num_hops = 1);
+        Sun, 09 Jan 2011 09:43:00 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=domainkey-signature:mime-version:received:received:received
+         :in-reply-to:references:date:message-id:subject:from:to:content-type;
+        bh=xXI+kA1iUXQ57oOjaBjS6Va7/5M0y3hiZ8CsAmZpyfg=;
+        b=mHXvHKWppy1XQX49B7nNze1+9aoWjcA68H1ayYDizG+NHIYP4WxWhxyn/6Bc3qKyPq
+         fHyZlYuQsTitFRweCkJoFYhKuvMOdjWe0LrTxdchZ3DhihjTqioU75L2xKa9cyaqEMr5
+         lgKfH0WQobWoM9n1eAr+vgQ94z+s9k/BlaKHY=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=gmail.com; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=FWlmIsZchvV1GBf58Nq8uzEwW3oMtMv5ZPgmKP/l4QvDMHJKsHlTczl00qiqOVAq4S
+         ZwXsvaL3vtWJGPILelV7iDW19oYy2UcYIUben0U4r/2aQ/WjGsGwRuaXyXtqKh8jZuLT
+         pymmhp24SBMYiY026dGMWcBG3psI+m3A1MYn4=
+MIME-Version: 1.0
+Received: by 10.90.103.9 with SMTP id a9mr5325933agc.165.1294594980561; Sun,
+ 09 Jan 2011 09:43:00 -0800 (PST)
+Received: by 10.90.90.9 with HTTP; Sun, 9 Jan 2011 09:43:00 -0800 (PST)
+Received: by 10.90.90.9 with HTTP; Sun, 9 Jan 2011 09:43:00 -0800 (PST)
+In-Reply-To: <AANLkTikJ45eUHaPw-D2_9pmaahdB5yX+Vu153-cUHD6b@mail.gmail.com>
+References: <AANLkTikJ45eUHaPw-D2_9pmaahdB5yX+Vu153-cUHD6b@mail.gmail.com>
+Date: Sun, 9 Jan 2011 11:43:00 -0600
+Message-ID: <AANLkTin9Ri00xQ_KVukO7vCop83ZzQgBkYG-fpdS90a4@mail.gmail.com>
+Subject: Re: MY ITINERARY!
+From: Nicholas Hesselgrave <n.hesselgrave@gmail.com>
+To: "T. Hesselgrave" <tkhesselgrave@gmail.com>
+Content-Type: multipart/alternative; boundary=00163628357af1c3c604996d61a8
+
+--00163628357af1c3c604996d61a8
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+That's incredible that you found a ticket for that price. Send me an
+itinerary for your schedule once you arrive
+On Dec 15, 2010 6:05 PM, "T. Hesselgrave" <tkhesselgrave@gmail.com> wrote:
+> Here is my flight info - I am not checking luggage, pick me up at La
+> Guardia at 9:10pm or so on Jan 12th, Wednesday
+>
+> YAY!!!!!!!!!!!!
+> *
+> *
+> *
+> *
+> *
+> *
+> *
+> *
+> *
+> *
+> *~*~*~*~*~*~*~*~*
+> *"... if you tried to be path-oriented rather than goal-oriented, how
+might
+> your life change?"*
+>
+>
+>
+> ---------- Forwarded message ----------
+> From: Taylor Hesselgrave <thesselgrave@ecotrust.org>
+> Date: Wed, Dec 15, 2010 at 3:06 PM
+> Subject: FW: Reservation Confirmation
+> To: "T. Hesselgrave" <tkhesselgrave@gmail.com>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> *Taylor Hesselgrave | **Economic Analyst***
+>
+> Ecotrust <http://www.ecotrust.org/> | E3 Network
+> <http://www.e3network.org/>| 503.467.0808
+>
+>
+> *721 NW Ninth Avenue, Portland, OR 97209**
+>
+> *
+>
+>
+>
+> *From:* Frontier Airlines [mailto:no-reply@flyfrontier.com]
+> *Sent:* Wednesday, December 15, 2010 09:58
+> *To:* Taylor Hesselgrave
+> *Subject:* Reservation Confirmation
+>
+>
+>
+> Frontier Airlines Inc.
+> 7001 Tower Road
+> Denver, CO 80249-7312
+>
+>
+>
+> Thank you for choosing FrontierAirlines.com for your travel plans. Please
+> read these important details carefully regarding your purchase and
+> itinerary:
+> Booking Confirmation
+>
+> Reference:
+>
+> *NXNIAU*
+>
+> Issue Date:
+>
+> Wed, 15 Dec 2010
+>
+> Main contact:
+>
+> Taylor Hesselgrave
+>
+> E-mail:
+>
+> thesselgrave@ecotrust.org
+>
+> Home phone:
+>
+> 503-828-6783
+> Passengers
+>
+> *Taylor Hesselgrave*
+>
+> *Flight*
+>
+> *PDX-LGA, LGA-DEN-PDX*
+>
+> Ticket Number
+>
+> 4222167053488
+>
+> Seat
+>
+> 23F,22F,15F
+> Air Itinerary DetailsFlights
+>
+>
+>
+> *Portland OR (PDX), US*
+> Wed, 12 Jan 2011, *11:00 AM*
+>
+> *New York/LaGuardia NY (LGA), US*
+> Wed, 12 Jan 2011, *08:55 PM*
+>
+> F9 516
+> Frontier Airlines Inc.
+>
+> Fare Type : Economy
+> 1
+> Seats: 23F
+>
+> Airbus 320.
+>
+>
+>
+> *New York/LaGuardia NY (LGA), US*
+> Tue, 18 Jan 2011, *08:40 AM*
+>
+> *Denver CO (DEN), US*
+> Tue, 18 Jan 2011, *11:15 AM*
+>
+> F9 505
+> Frontier Airlines Inc.
+>
+> Fare Type : Economy
+> Non stop
+> Seats: 22F
+>
+> Airbus 320.
+>
+> *Denver CO (DEN), US*
+> Tue, 18 Jan 2011, *12:20 PM*
+>
+> *Portland OR (PDX), US*
+> Tue, 18 Jan 2011, *01:59 PM*
+>
+> F9 795
+> Frontier Airlines Inc.
+>
+> Fare Type : Economy
+> Non stop
+> Seats: 15F
+>
+> Airbus 319.
+> Fare Breakdown
+>
+> *Passenger Type *
+>
+> *Base Fare
+> per person *
+>
+> *Taxes
+> per person *
+>
+> *Total Fare
+> per person *
+>
+> *Number of
+> passengers *
+>
+> *Total Fare*
+>
+> Passenger
+>
+> 240.00 USD
+>
+> 53.80 USD
+>
+> 293.80 USD
+>
+> x 1
+>
+> *293.80 USD*
+>
+> *PDX-NYC: Economy Fare Benefits*
+>
+> 1. Advance Seat Assignment: Included
+>
+> 2. 1st & 2nd Checked Bags: $20 each
+>
+> 3. Anytime Change Fee: $100 + fare difference
+>
+> 4. STRETCH Seating*: $25/segment
+>
+> 5. EarlyReturns=AE Mileage Credit: 100%
+>
+> 6. * Based upon availability
+>
+> *NYC-PDX: Economy Fare Benefits*
+>
+> 1. Advance Seat Assignment: Included
+>
+> 2. 1st & 2nd Checked Bags: $20 each
+>
+> 3. Anytime Change Fee: $100 + fare difference
+>
+> 4. STRETCH Seating*: $25/segment
+>
+> 5. EarlyReturns=AE Mileage Credit: 100%
+>
+> 6. * Based upon availability
+>
+> *TOTAL AIR FARE: 293.80 USD*
+> GRAND TOTAL
+>
+> *Charged to Mastercard .... 9319*
+>
+> *TOTAL: 293.80 USD*
+> Delivery Information
+>
+> Delivery Option: E-Ticket
+>
+>
+> Important information
+>
+> Be sure to review what's included in your Fare Type before arriving at th=
+e
+> airport. CLICK HERE<
+http://www.frontierairlines.com/frontier/content/pages/plan-and-book/popups=
+/datalex.html
+>for
+> fare attributes.
+> To assist with your travel planning:
+>
+> - Economy tickets must be cancelled or changed prior to the scheduled
+> departure time to retain ticket value.
+> - Frontier recommends that you arrive at the airport at least two hours
+> prior to your scheduled departure time.
+> - Passengers are required to have their boarding pass in hand 45 minutes
+> prior to departure for domestic flights and 60 minutes for international
+> flights in order to allow sufficient time to clear airport security;
+> otherwise, they may need to be accommodated on another Frontier Airlines
+> flight.
+> - Passengers must be at the designated gate 20 minutes prior to departure
+> or they may need to be accommodated on another Frontier Airlines flight.
+> - Tickets are non-transferrable.
+> - Tickets are non-refundable unless otherwise specified.
+> - Itinerary changes may result in a change fee of up to a $100 and any
+> applicable fare difference.
+> - To file a compliment or complaint, visit
+> www.FrontierAirlines.com/CustomerRelations
+> <http://www.frontierairlines.com/CustomerRelations>or mail to: *Attn:
+> Customer Relations,* Frontier Center One, 7001 Tower Road, Denver, CO
+> 80249
+>
+>
+>
+> *Save time at the airport:* check in
+> online<
+http://www.frontierairlines.com/frontier/plan-book/online-check-in.do>withi=
+n
+> 24 hours of your departure.
+>
+>
+>
+> *Want more legroom?* We have it! STRETCH seating is now available on all
+> Airbus and E190 aircraft. Learn
+> More.<
+http://www.frontierairlines.com/frontier/flight-info/stretch-seating.do>
+>
+>
+>
+> *Rental Cars:* Choose from a variety of US and worldwide rental car
+> suppliers as low as $15/day, all from one easy search! Book
+> Now.<
+https://booking.frontierairlines.com/InternetBooking/CarSearchExternalForwa=
+rd.do
+>
+>
+>
+>
+> *Frontier MasterCard:* Apply for the Frontier MasterCard=AE today and ear=
+n
+up
+> to 20,000 miles; enough for a round-trip award ticket! Terms and
+conditions
+> apply. Learn More.<
+http://www.frontierairlines.com/frontier/frequent-flyers/member-offers/onli=
+ne-offers-details.do?name=3Dmastercard
+>
+>
+>
+>
+> Frontier Airlines www.frontierairlines.com
+
+--00163628357af1c3c604996d61a8
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<p>That&#39;s incredible that you found a ticket for that price. Send me an=
+ itinerary for your schedule once you arrive </p>
+<div class=3D"gmail_quote">On Dec 15, 2010 6:05 PM, &quot;T. Hesselgrave&qu=
+ot; &lt;<a href=3D"mailto:tkhesselgrave@gmail.com">tkhesselgrave@gmail.com<=
+/a>&gt; wrote:<br type=3D"attribution">&gt; Here is my flight info -  I am =
+not checking luggage, pick me up at La<br>
+&gt; Guardia at 9:10pm or so on Jan 12th, Wednesday<br>&gt; <br>&gt; YAY!!!=
+!!!!!!!!!<br>&gt; *<br>&gt; *<br>&gt; *<br>&gt; *<br>&gt; *<br>&gt; *<br>&g=
+t; *<br>&gt; *<br>&gt; *<br>&gt; *<br>&gt; *~*~*~*~*~*~*~*~*<br>&gt; *&quot=
+;... if you tried to be path-oriented rather than goal-oriented, how might<=
+br>
+&gt; your life change?&quot;*<br>&gt; <br>&gt; <br>&gt; <br>&gt; ----------=
+ Forwarded message ----------<br>&gt; From: Taylor Hesselgrave &lt;<a href=
+=3D"mailto:thesselgrave@ecotrust.org">thesselgrave@ecotrust.org</a>&gt;<br>
+&gt; Date: Wed, Dec 15, 2010 at 3:06 PM<br>&gt; Subject: FW: Reservation Co=
+nfirmation<br>&gt; To: &quot;T. Hesselgrave&quot; &lt;<a href=3D"mailto:tkh=
+esselgrave@gmail.com">tkhesselgrave@gmail.com</a>&gt;<br>&gt; <br>&gt; <br>
+&gt; <br>&gt; <br>&gt; <br>&gt; <br>&gt; <br>&gt; <br>&gt; <br>&gt; <br>&gt=
+; <br>&gt; <br>&gt; *Taylor Hesselgrave | **Economic Analyst***<br>&gt; <br=
+>&gt; Ecotrust &lt;<a href=3D"http://www.ecotrust.org/">http://www.ecotrust=
+.org/</a>&gt; | E3 Network<br>
+&gt; &lt;<a href=3D"http://www.e3network.org/">http://www.e3network.org/</a=
+>&gt;| 503.467.0808<br>&gt; <br>&gt; <br>&gt; *721 NW Ninth Avenue, Portlan=
+d, OR 97209**<br>&gt; <br>&gt; *<br>&gt; <br>&gt; <br>&gt; <br>&gt; *From:*=
+ Frontier Airlines [mailto:<a href=3D"mailto:no-reply@flyfrontier.com">no-r=
+eply@flyfrontier.com</a>]<br>
+&gt; *Sent:* Wednesday, December 15, 2010 09:58<br>&gt; *To:* Taylor Hessel=
+grave<br>&gt; *Subject:* Reservation Confirmation<br>&gt; <br>&gt; <br>&gt;=
+ <br>&gt; Frontier Airlines Inc.<br>&gt; 7001 Tower Road<br>&gt; Denver, CO=
+ 80249-7312<br>
+&gt; <br>&gt; <br>&gt; <br>&gt; Thank you for choosing FrontierAirlines.com=
+ for your travel plans. Please<br>&gt; read these important details careful=
+ly regarding your purchase and<br>&gt; itinerary:<br>&gt; Booking Confirmat=
+ion<br>
+&gt; <br>&gt; Reference:<br>&gt; <br>&gt; *NXNIAU*<br>&gt; <br>&gt; Issue D=
+ate:<br>&gt; <br>&gt; Wed, 15 Dec 2010<br>&gt; <br>&gt; Main contact:<br>&g=
+t; <br>&gt; Taylor Hesselgrave<br>&gt; <br>&gt; E-mail:<br>&gt; <br>&gt; <a=
+ href=3D"mailto:thesselgrave@ecotrust.org">thesselgrave@ecotrust.org</a><br=
+>
+&gt; <br>&gt; Home phone:<br>&gt; <br>&gt; 503-828-6783<br>&gt; Passengers<=
+br>&gt; <br>&gt; *Taylor Hesselgrave*<br>&gt; <br>&gt; *Flight*<br>&gt; <br=
+>&gt; *PDX-LGA, LGA-DEN-PDX*<br>&gt; <br>&gt; Ticket Number<br>&gt; <br>
+&gt; 4222167053488<br>&gt; <br>&gt; Seat<br>&gt; <br>&gt; 23F,22F,15F<br>&g=
+t; Air Itinerary DetailsFlights<br>&gt; <br>&gt; <br>&gt; <br>&gt; *Portlan=
+d OR (PDX), US*<br>&gt; Wed, 12 Jan 2011, *11:00 AM*<br>&gt; <br>&gt; *New =
+York/LaGuardia NY (LGA), US*<br>
+&gt; Wed, 12 Jan 2011, *08:55 PM*<br>&gt; <br>&gt; F9 516<br>&gt; Frontier =
+Airlines Inc.<br>&gt; <br>&gt; Fare Type : Economy<br>&gt; 1<br>&gt; Seats:=
+ 23F<br>&gt; <br>&gt; Airbus 320.<br>&gt; <br>&gt; <br>&gt; <br>&gt; *New Y=
+ork/LaGuardia NY (LGA), US*<br>
+&gt; Tue, 18 Jan 2011, *08:40 AM*<br>&gt; <br>&gt; *Denver CO (DEN), US*<br=
+>&gt; Tue, 18 Jan 2011, *11:15 AM*<br>&gt; <br>&gt; F9 505<br>&gt; Frontier=
+ Airlines Inc.<br>&gt; <br>&gt; Fare Type : Economy<br>&gt; Non stop<br>
+&gt; Seats: 22F<br>&gt; <br>&gt; Airbus 320.<br>&gt; <br>&gt; *Denver CO (D=
+EN), US*<br>&gt; Tue, 18 Jan 2011, *12:20 PM*<br>&gt; <br>&gt; *Portland OR=
+ (PDX), US*<br>&gt; Tue, 18 Jan 2011, *01:59 PM*<br>&gt; <br>&gt; F9 795<br=
+>
+&gt; Frontier Airlines Inc.<br>&gt; <br>&gt; Fare Type : Economy<br>&gt; No=
+n stop<br>&gt; Seats: 15F<br>&gt; <br>&gt; Airbus 319.<br>&gt; Fare Breakdo=
+wn<br>&gt; <br>&gt; *Passenger Type *<br>&gt; <br>&gt; *Base Fare<br>&gt; p=
+er person *<br>
+&gt; <br>&gt; *Taxes<br>&gt; per person *<br>&gt; <br>&gt; *Total Fare<br>&=
+gt; per person *<br>&gt; <br>&gt; *Number of<br>&gt; passengers *<br>&gt; <=
+br>&gt; *Total Fare*<br>&gt; <br>&gt; Passenger<br>&gt; <br>&gt; 240.00 USD=
+<br>
+&gt; <br>&gt; 53.80 USD<br>&gt; <br>&gt; 293.80 USD<br>&gt; <br>&gt; x  1<b=
+r>&gt; <br>&gt; *293.80 USD*<br>&gt; <br>&gt; *PDX-NYC: Economy Fare Benefi=
+ts*<br>&gt; <br>&gt; 1.     Advance Seat Assignment: Included<br>&gt; <br>
+&gt; 2.     1st &amp; 2nd Checked Bags: $20 each<br>&gt; <br>&gt; 3.     An=
+ytime Change Fee: $100 + fare difference<br>&gt; <br>&gt; 4.     STRETCH Se=
+ating*: $25/segment<br>&gt; <br>&gt; 5.     EarlyReturns=AE Mileage Credit:=
+ 100%<br>
+&gt; <br>&gt; 6.     * Based upon availability<br>&gt; <br>&gt; *NYC-PDX: E=
+conomy Fare Benefits*<br>&gt; <br>&gt; 1.     Advance Seat Assignment: Incl=
+uded<br>&gt; <br>&gt; 2.     1st &amp; 2nd Checked Bags: $20 each<br>&gt; <=
+br>
+&gt; 3.     Anytime Change Fee: $100 + fare difference<br>&gt; <br>&gt; 4. =
+    STRETCH Seating*: $25/segment<br>&gt; <br>&gt; 5.     EarlyReturns=AE M=
+ileage Credit: 100%<br>&gt; <br>&gt; 6.     * Based upon availability<br>
+&gt; <br>&gt; *TOTAL AIR FARE: 293.80 USD*<br>&gt; GRAND TOTAL<br>&gt; <br>=
+&gt; *Charged to Mastercard .... 9319*<br>&gt; <br>&gt; *TOTAL: 293.80 USD*=
+<br>&gt; Delivery Information<br>&gt; <br>&gt; Delivery Option: E-Ticket<br=
+>
+&gt; <br>&gt; <br>&gt; Important information<br>&gt; <br>&gt; Be sure to re=
+view what&#39;s included in your Fare Type before arriving at the<br>&gt; a=
+irport. CLICK HERE&lt;<a href=3D"http://www.frontierairlines.com/frontier/c=
+ontent/pages/plan-and-book/popups/datalex.html">http://www.frontierairlines=
+.com/frontier/content/pages/plan-and-book/popups/datalex.html</a>&gt;for<br=
+>
+&gt; fare attributes.<br>&gt; To assist with your travel planning:<br>&gt; =
+<br>&gt;    - Economy tickets must be cancelled or changed prior to the sch=
+eduled<br>&gt;    departure time to retain ticket value.<br>&gt;    - Front=
+ier recommends that you arrive at the airport at least two hours<br>
+&gt;    prior to your scheduled departure time.<br>&gt;    - Passengers are=
+ required to have their boarding pass in hand 45 minutes<br>&gt;    prior t=
+o departure for domestic flights and 60 minutes for international<br>&gt;  =
+  flights in order to allow sufficient time to clear airport security;<br>
+&gt;    otherwise, they may need to be accommodated on another Frontier Air=
+lines<br>&gt;    flight.<br>&gt;    - Passengers must be at the designated =
+gate 20 minutes prior to departure<br>&gt;    or they may need to be accomm=
+odated on another Frontier Airlines flight.<br>
+&gt;    - Tickets are non-transferrable.<br>&gt;    - Tickets are non-refun=
+dable unless otherwise specified.<br>&gt;    - Itinerary changes may result=
+ in a change fee of up to a $100 and any<br>&gt;    applicable fare differe=
+nce.<br>
+&gt;    - To file a compliment or complaint, visit<br>&gt; <a href=3D"http:=
+//www.FrontierAirlines.com/CustomerRelations">www.FrontierAirlines.com/Cust=
+omerRelations</a><br>&gt;    &lt;<a href=3D"http://www.frontierairlines.com=
+/CustomerRelations">http://www.frontierairlines.com/CustomerRelations</a>&g=
+t;or mail to: *Attn:<br>
+&gt;    Customer Relations,* Frontier Center One, 7001 Tower Road, Denver, =
+CO<br>&gt;    80249<br>&gt; <br>&gt; <br>&gt; <br>&gt; *Save time at the ai=
+rport:* check in<br>&gt; online&lt;<a href=3D"http://www.frontierairlines.c=
+om/frontier/plan-book/online-check-in.do">http://www.frontierairlines.com/f=
+rontier/plan-book/online-check-in.do</a>&gt;within<br>
+&gt; 24 hours of your departure.<br>&gt; <br>&gt; <br>&gt; <br>&gt; *Want m=
+ore legroom?* We have it! STRETCH seating is now available on all<br>&gt; A=
+irbus and E190 aircraft. Learn<br>&gt; More.&lt;<a href=3D"http://www.front=
+ierairlines.com/frontier/flight-info/stretch-seating.do">http://www.frontie=
+rairlines.com/frontier/flight-info/stretch-seating.do</a>&gt;<br>
+&gt; <br>&gt; <br>&gt; <br>&gt; *Rental Cars:* Choose from a variety of US =
+and worldwide rental car<br>&gt; suppliers as low as $15/day, all from one =
+easy search! Book<br>&gt; Now.&lt;<a href=3D"https://booking.frontierairlin=
+es.com/InternetBooking/CarSearchExternalForward.do">https://booking.frontie=
+rairlines.com/InternetBooking/CarSearchExternalForward.do</a>&gt;<br>
+&gt; <br>&gt; <br>&gt; <br>&gt; *Frontier MasterCard:* Apply for the Fronti=
+er MasterCard=AE today and earn up<br>&gt; to 20,000 miles; enough for a ro=
+und-trip award ticket! Terms and conditions<br>&gt; apply. Learn More.&lt;<=
+a href=3D"http://www.frontierairlines.com/frontier/frequent-flyers/member-o=
+ffers/online-offers-details.do?name=3Dmastercard">http://www.frontierairlin=
+es.com/frontier/frequent-flyers/member-offers/online-offers-details.do?name=
+=3Dmastercard</a>&gt;<br>
+&gt; <br>&gt; <br>&gt; <br>&gt; Frontier Airlines <a href=3D"http://www.fro=
+ntierairlines.com">www.frontierairlines.com</a><br></div>
+
+--00163628357af1c3c604996d61a8--

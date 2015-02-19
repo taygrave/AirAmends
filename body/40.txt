@@ -1,0 +1,1082 @@
+Delivered-To: tkhesselgrave@gmail.com
+Received: by 10.70.55.12 with SMTP id d12cs94363wxa;
+        Wed, 27 Jun 2007 12:12:51 -0700 (PDT)
+Received: by 10.114.126.1 with SMTP id y1mr800423wac.1182971570407;
+        Wed, 27 Jun 2007 12:12:50 -0700 (PDT)
+Return-Path: <taberrachel@gmail.com>
+Received: from mxout1.cac.washington.edu (mxout1.cac.washington.edu [140.142.32.134])
+        by mx.google.com with ESMTP id m31si7867785wag.2007.06.27.12.12.49;
+        Wed, 27 Jun 2007 12:12:50 -0700 (PDT)
+Received-SPF: neutral (google.com: 140.142.32.134 is neither permitted nor denied by domain of taberrachel@gmail.com)
+DomainKey-Status: good (test mode)
+Received: from mxe8.u.washington.edu (mxe8.u.washington.edu [140.142.33.27])
+	by mxout1.cac.washington.edu (8.13.7+UW06.06/8.13.7+UW07.05) with ESMTP id l5RJCmPt002831
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=OK)
+	for <tkhesselgrave@gmail.com>; Wed, 27 Jun 2007 12:12:48 -0700
+Received: from ug-out-1314.google.com (ug-out-1314.google.com [66.249.92.171])
+	by mxe8.u.washington.edu (8.13.7+UW06.06/8.13.7+UW07.06) with ESMTP id l5RJCbhZ018192
+	for <taykah@u.washington.edu>; Wed, 27 Jun 2007 12:12:47 -0700
+Received: by ug-out-1314.google.com with SMTP id z36so466241uge
+        for <taykah@u.washington.edu>; Wed, 27 Jun 2007 12:12:46 -0700 (PDT)
+DKIM-Signature: a=rsa-sha1; c=relaxed/relaxed;
+        d=gmail.com; s=beta;
+        h=domainkey-signature:received:received:message-id:date:from:to:subject:in-reply-to:mime-version:content-type:references;
+        b=pPfEfHrhO/RxsScd9yps73O1yRst6brPFm97kl/c9bujzxeDyN5R39bJQEGAtZazUpYLVCIzEXxHmktY1LMYALBnT9ADtD59Ya/NmUCXv5WYVIQbF5Z43QGti4F5sahtTU7U7VdMuD9I8ErrUw8iNtQe+0WwT3ndgyWhq8kZzIM=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=gmail.com; s=beta;
+        h=received:message-id:date:from:to:subject:in-reply-to:mime-version:content-type:references;
+        b=pwP/xMAZpGx+QlcN3Ibh5ZoOoiwzdm/VsbkXxFz0QEcWZGeMcyHr5fcyBbEppjsi7MZALflBuIbQN9HB5IwElcW3V6JRLk/ApFWMjJa2mc6yXVnyqr9hAs9JpPb8PbCvStpE9Bh84/mv4vEX/vzXLhBCEKa6Gd8Fs8GDomHjorg=
+Received: by 10.78.150.7 with SMTP id x7mr478824hud.1182971566457;
+        Wed, 27 Jun 2007 12:12:46 -0700 (PDT)
+Received: by 10.78.120.1 with HTTP; Wed, 27 Jun 2007 12:12:46 -0700 (PDT)
+Message-ID: <fdedf9ae0706271212p110992a9ra856b903050704d9@mail.gmail.com>
+Date: Wed, 27 Jun 2007 14:12:46 -0500
+From: "Rachel Taber" <taberrachel@gmail.com>
+To: "T. Hesselgrave" <taykah@u.washington.edu>
+Subject: Fwd: Rachel, here is your itinerary confirmation for your 06/28/2007 Denver trip
+In-Reply-To: <W5TH051D4623DD7F4BF0931AB5BEB0.1929.1670.pimailer37.DumpShot.1@expediamail.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_35354_256041.1182971566415"
+References: <W5TH051D4623DD7F4BF0931AB5BEB0.1929.1670.pimailer37.DumpShot.1@expediamail.com>
+X-PMX-Version: 5.3.2.304607, Antispam-Engine: 2.5.1.298604, Antispam-Data: 2007.6.27.113433
+X-Uwash-Spam: Gauge=XIIIIIIIII, Probability=19%, Report='HTML_FONT_INVISIBLE 2.0, HTML_70_90 0.1, __C230066_P5 0, __CP_MEDIA_BODY 0, __CP_NOT_1 0, __CP_URI_IN_BODY 0, __CT 0, __CTYPE_HAS_BOUNDARY 0, __CTYPE_MULTIPART 0, __CTYPE_MULTIPART_ALT 0, __FROM_GMAIL 0, __HASHBUSTER_BLOCK_V2_N1 0, __HAS_MSGID 0, __HELO_GMAIL 0, __HTML_BOLD 0, __LINES_OF_YELLING 0, __MIME_HTML 0, __MIME_VERSION 0, __PHISH_PHRASE7 0, __RATWARE_SIGNATURE_3_N1 0, __RDNS_GMAIL 0, __SANE_MSGID 0, __STOCK_PHRASE_7 0'
+
+------=_Part_35354_256041.1182971566415
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+O myJesus !!!!
+ See youtomorrow! Call me and let me know if you want to pick me up at the
+airport at3am. Otherwise, I will crash there and try to meet up with
+youbeforeyourthing in the morning.
+Rachel
+
+---------- Forwarded message ----------
+From: Expedia Travel Services <usmail@expediamail.com>
+Date: Jun 24, 2007 9:55 PM
+Subject: Rachel, here is your itinerary confirmation for your 06/28/2007
+Denver trip
+To: taberrachel@gmail.com
+
+
+   [image: Expedia.com]<http://expediamail.com/W5RH02F7751CBD7F4BF0931AB5BE=
+B0>
+*Itinerary confirmation for your 06/28/2007 trip to Denver*   [image:
+flights] <http://expediamail.com/W5RH02F774638D7F4BF0931AB5BEB0>[image:
+hotels] <http://expediamail.com/W5RH02F77423BD7F4BF0931AB5BEB0>[image:
+cars]<http://expediamail.com/W5RH02F77433AD7F4BF0931AB5BEB0>[image:
+packages] <http://expediamail.com/W5RH02F774125D7F4BF0931AB5BEB0>[image:
+cruises] <http://expediamail.com/W5RH02F774224D7F4BF0931AB5BEB0>[image:
+activities] <http://expediamail.com/W5RH02F774927D7F4BF0931AB5BEB0>
+*Dear Rachel,*
+
+Here are your itinerary and confirmation numbers for your trip to Denver.
+All the details are confirmed as of 06/24/2007. Please review and print thi=
+s
+e-mail for convenience while traveling.
+
+Need to make any last-minute travel plans? Just use the helpful info listed
+at the right.      Your trip details - as of 06/24/2007
+Itinerary     View
+airline rules &
+regulations<http://expediamail.com/W5RH02F77720ED7F4BF0931AB5BEB0>
+*Expedia.com <http://expedia.com/> itinerary number: 120280857195*
+Airline ticket number(s): 0167056251268
+  US Airways confirmation code: EDE73Z [image: Travel Tip] *Travel tip:* Us=
+e
+this code when you check in for your flight
+  United confirmation code: VZ5NBA [image: Travel Tip] *Travel tip:* Use
+this code when you check in for your flight
+  Alaska Airlines confirmation code: MYIKTQ [image: Travel Tip] *Travel tip=
+:
+* Use this code when you check in for your flight
+*Main contact: Rachel Taber*
+E-mail: taberrachel@gmail.com
+Home Phone: 1-425-2735451
+
+     Traveler      *Rachel Taber*
+Adult
+
+     Flight Summary        Thu 28-Jun-07        *Seattle (SEA)* to *Las
+Vegas (McCarran Intl.)* 868 mi US Airways *Depart 7:50 PM* *Arrive
+10:17 PM* (1,397
+km) Flight: 193   Duration: 2h 27m *Economy/Coach Class* 20F Boeing
+737-300 Total
+distance: 868 mi (1,397 km)     Thu 28-Jun-07        *Las Vegas (McCarran
+Intl.)* to *Denver (Denver Intl.)* 615 mi US Airways *Depart 11:59 PM* *Arr=
+ive
+2:55 AM* (990 km) Flight: 607   Duration: 1h 56m *Economy/Coach Class*
+10A Boeing
+737-300 Total distance: 615 mi (990 km)     Wed 11-Jul-07        *Denver
+(Denver Intl.)* to *Las Vegas (McCarran Intl.)* 615 mi Ted *Depart 8:45 PM*
+*Arrive 9:38 PM* (990 km) Flight: 1583   Duration: 1h 53m *Economy/Coach
+Class* 21A Airbus A319-321 Total distance: 615 mi (990 km)     Wed 11-Jul-0=
+7
+    *Las Vegas (McCarran Intl.)* to *Seattle (SEA)* 868 mi Alaska
+Airlines *Depart
+10:35 PM* *Arrive 12:55 AM* (1,397 km) Flight: 693   Duration: 2h 20m
+*Economy/Coach
+Class* 17A Boeing 737-800 Total distance: 868 mi (1,397 km)
+More...         View
+airline rules &
+regulations<http://expediamail.com/W5RH02F774174D7F4BF0931AB5BEB0>
+Change
+or cancel your itinerary<http://expediamail.com/W5RH02F774877D7F4BF0931AB5B=
+EB0>
+ View
+check-in requirements for this
+flight<http://expediamail.com/W5RH02F774976D7F4BF0931AB5BEB0>
+ *Enjoy your trip.*=99         ...with your Personal Trip Guide   =95
+Maps<http://expediamail.com/W5RH02F774091D7F4BF0931AB5BEB0>
+=95  Weather <http://expediamail.com/W5RH02F774190D7F4BF0931AB5BEB0>
+=95  What to do in
+Denver<http://expediamail.com/W5RH02F774893D7F4BF0931AB5BEB0>
+  Plan your Activities   Save time, bypass long lines, and secure tickets b=
+y
+booking an activity
+<http://expediamail.com/W5RH02F77479DD7F4BF0931AB5BEB0>for your Denver
+trip today.
+[image: Book now]
+<http://expediamail.com/W5RH02F77489CD7F4BF0931AB5BEB0>       Complete
+your trip        [image: car] Roam freely in Denver.
+Rent your own car. <http://expediamail.com/W5RH02F774844D7F4BF0931AB5BEB0>
+[image: Search] <http://expediamail.com/W5RH02F774547D7F4BF0931AB5BEB0> [im=
+age:
+hotel] Find your ideal ideal
+hotel<http://expediamail.com/W5RH02F774646D7F4BF0931AB5BEB0>in Denver
+[image: Search]
+<http://expediamail.com/W5RH02F774141D7F4BF0931AB5BEB0>       Get
+personalized travel e-mail        [image: Get personalized travel
+e-mail] Easily
+update your travel preferences by accessing your
+account<http://expediamail.com/W5RH02F77474ED7F4BF0931AB5BEB0>.
+
+
+Hear about the latest sales and promotions on travel to your favorite
+destinations! Plus, get timely news about upcoming trips, as well as helpfu=
+l
+travel tips and vacation ideas, just by signing up for Expedia e-mail today=
+!
+
+[image: Yes, sign me up]
+<http://expediamail.com/W5RH02F774349D7F4BF0931AB5BEB0>      Helpful
+Links        =95
+ View online itinerary<http://expediamail.com/W5RH02F77452AD7F4BF0931AB5BEB=
+0>
+=95  Contact customer
+support<http://expediamail.com/W5RH02F774455D7F4BF0931AB5BEB0>
+=95  Travel alerts <http://expediamail.com/W5RH02F774554D7F4BF0931AB5BEB0>
+=95  Passport information<http://expediamail.com/W5RH02F774257D7F4BF0931AB5=
+BEB0>
+=95  Airline contact
+information<http://expediamail.com/W5RH02F774356D7F4BF0931AB5BEB0>
+=95  Airport information<http://expediamail.com/W5RH02F774851D7F4BF0931AB5B=
+EB0>
+=95  Driving directions<http://expediamail.com/W5RH02F774950D7F4BF0931AB5BE=
+B0>
+
+        [image:
+flights]<http://expediamail.com/W5RH02F774216D7F4BF0931AB5BEB0>[image:
+hotels] <http://expediamail.com/W5RH02F774711D7F4BF0931AB5BEB0>[image:
+cars]<http://expediamail.com/W5RH02F774810D7F4BF0931AB5BEB0>[image:
+packages] <http://expediamail.com/W5RH02F774513D7F4BF0931AB5BEB0>[image:
+cruises] <http://expediamail.com/W5RH02F774612D7F4BF0931AB5BEB0>[image:
+activities] <http://expediamail.com/W5RH02F77441DD7F4BF0931AB5BEB0>
+
+You are receiving this transactional email based on a recent purchase or
+account-related update on Expedia.com.
+This is a daily email you qualified for based on your recent purchase.
+
+CONTACT US
+Please do not reply to this e-mail as we are not able to respond to message=
+s
+sent to this e-mail address. To contact us or send feedback, please click
+here <http://expediamail.com/W5RH02F7753E6D7F4BF0931AB5BEB0> or contact us
+via postal mail at: Expedia, Inc., attn: EMC Team, 3150 139th Avenue SE,
+Bellevue, WA 98005. For additional assistance, visit the Expedia.com Custom=
+er
+Support Center <http://expediamail.com/W5RH02F7758E1D7F4BF0931AB5BEB0>, or
+call 1-800-Expedia.
+
+A NOTE ABOUT PRICES
+Prices are subject to availability and subject to change without notice.
+
+All prices were current at the time this e-mail was published.
+
+Hotel, vacation package, and cruise prices on Expedia.com are constantly
+updated. Please refer to the site for the most current pricing. Vacation
+package prices shown are for one adult, economy class, based on double
+occupancy, and vary by dates, availability, and departure city. Additional
+taxes, fees, and charges may apply. Airfare is subject to, without
+limitation: (1) Sept. 11 Security Fee of $2.50 for each flight segment
+originating at a U.S. airport, up to $5 per one way or $10 per roundtrip;
+(2) up to $18 per roundtrip in local airport charges; (3) Federal Excise Ta=
+x
+of $3.20 per U.S. domestic flight segment; (4) a Travel Facilities Tax of u=
+p
+to $14 per roundtrip for domestic flights beginning or ending in Alaska or
+Hawaii; and (5) for international and Puerto Rico/U.S. Virgin Islands
+destinations, government taxes and fees of up to $200 per roundtrip,
+depending on routing and destination (may vary slightly depending on
+currency exchange rates at time of booking). A segment is defined as a
+takeoff and a landing.
+
+CST# 2029030-40
+
+(c) 2007  Expedia, Inc. All rights reserved. Expedia, Expedia.com and the
+Airplane logo are registered trademarks, or trademarks, of Expedia, Inc. in
+the U.S. and/or other countries. Other product and company names mentioned
+herein may be trademarks of their respective owners.
+
+(EMID: ETM_TG_PT_01)(MD: 20070624185546)(EPID: 100853069)(BIID:
+38177576_192230234)
+
+------=_Part_35354_256041.1182971566415
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+<div>O myJesus !!!!</div>
+<div>&nbsp;See youtomorrow! Call me and let me know if you want to pick me =
+up at the airport at3am. Otherwise, I will crash there and try to meet up w=
+ith youbeforeyourthing in the morning.</div>
+<div>Rachel<br><br>---------- Forwarded message ----------<br><span class=
+=3D"gmail_quote">From: <b class=3D"gmail_sendername">Expedia Travel Service=
+s</b> &lt;<a href=3D"mailto:usmail@expediamail.com">usmail@expediamail.com<=
+/a>
+&gt;<br>Date: Jun 24, 2007 9:55 PM<br>Subject: Rachel, here is your itinera=
+ry confirmation for your 06/28/2007 Denver trip<br>To: <a href=3D"mailto:ta=
+berrachel@gmail.com">taberrachel@gmail.com</a><br><br>&nbsp;</span></div>
+<div>
+<center>
+<center>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"801" border=3D"0">
+<tbody>
+<tr>
+<td><a onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"htt=
+p://expediamail.com/W5RH02F7751CBD7F4BF0931AB5BEB0" target=3D"_blank"><img =
+height=3D"70" alt=3D"Expedia.com" width=3D"266" border=3D"0"></a></td>
+<td><img height=3D"70" width=3D"30" border=3D"0"></td>
+<td width=3D"100%" bgcolor=3D"#336799"><font style=3D"FONT-SIZE: 11px; COLO=
+R: #ffffff; FONT-FAMILY: arial,verdana,helvetica,sans-serif"><strong>Itiner=
+ary confirmation for your 06/28/2007 trip to Denver</strong> </font></td></=
+tr>
+</tbody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"803" border=3D"0">
+<tbody>
+<tr>
+<td><img height=3D"23" width=3D"102" border=3D"0"></td>
+<td nowrap width=3D"100%"><a onclick=3D"return top.js.OpenExtLink(window,ev=
+ent,this)" href=3D"http://expediamail.com/W5RH02F774638D7F4BF0931AB5BEB0" t=
+arget=3D"_blank"><img height=3D"23" alt=3D"flights" width=3D"54" border=3D"=
+0"></a><a onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"=
+http://expediamail.com/W5RH02F77423BD7F4BF0931AB5BEB0" target=3D"_blank">
+<img height=3D"23" alt=3D"hotels" width=3D"53" border=3D"0"></a><a onclick=
+=3D"return top.js.OpenExtLink(window,event,this)" href=3D"http://expediamai=
+l.com/W5RH02F77433AD7F4BF0931AB5BEB0" target=3D"_blank"><img height=3D"23" =
+alt=3D"cars" width=3D"39" border=3D"0">
+</a><a onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"htt=
+p://expediamail.com/W5RH02F774125D7F4BF0931AB5BEB0" target=3D"_blank"><img =
+height=3D"23" alt=3D"packages" width=3D"74" border=3D"0"></a><a onclick=3D"=
+return top.js.OpenExtLink(window,event,this)" href=3D"http://expediamail.co=
+m/W5RH02F774224D7F4BF0931AB5BEB0" target=3D"_blank">
+<img height=3D"23" alt=3D"cruises" width=3D"57" border=3D"0"></a><a onclick=
+=3D"return top.js.OpenExtLink(window,event,this)" href=3D"http://expediamai=
+l.com/W5RH02F774927D7F4BF0931AB5BEB0" target=3D"_blank"><img height=3D"23" =
+alt=3D"activities" width=3D"67" border=3D"0">
+</a></td></tr></tbody></table>
+<table cellspacing=3D"0" cellpadding=3D"1" width=3D"800" bgcolor=3D"#dee7f0=
+" border=3D"0">
+<tbody>
+<tr>
+<td>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" bgcolor=3D"#f1f5f=
+8" border=3D"0">
+<tbody>
+<tr>
+<td valign=3D"top">
+<table cellspacing=3D"0" cellpadding=3D"1" bgcolor=3D"#dee7f0" border=3D"0"=
+>
+<tbody>
+<tr>
+<td>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" bgcolor=3D"#f1f5f=
+8" border=3D"0">
+<tbody>
+<tr>
+<td valign=3D"top">
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" bgcolor=3D"#fffff=
+f" border=3D"0">
+<tbody>
+<tr>
+<td bgcolor=3D"#f1f5f8" rowspan=3D"5"><img height=3D"1" width=3D"4" border=
+=3D"0"></td>
+<td bgcolor=3D"#f1f5f8" colspan=3D"4"><img height=3D"4" width=3D"1" border=
+=3D"0"></td></tr>
+<tr>
+<td rowspan=3D"4"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td valign=3D"top" bgcolor=3D"#f1f5f8" rowspan=3D"4"><img height=3D"139" wi=
+dth=3D"39" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"5" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td><img height=3D"130" width=3D"11" border=3D"0"></td>
+<td valign=3D"top" width=3D"100%"><font style=3D"FONT-SIZE: 11px; COLOR: #0=
+00000; FONT-FAMILY: arial,verdana,helvetica,sans-serif"><strong>Dear Rachel=
+,</strong> <br><br>Here are your itinerary and confirmation numbers for you=
+r trip to Denver. All the details are confirmed as of 06/24/2007. Please re=
+view and print this e-mail for convenience while traveling.=20
+<br><br>Need to make any last-minute travel plans? Just use the helpful inf=
+o listed at the right. </font></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#f1f5f8" colspan=3D"5"><img height=3D"5" width=3D"1" border=
+=3D"0"></td></tr></tbody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td><img height=3D"25" width=3D"10" border=3D"0"></td>
+<td width=3D"100%"><font style=3D"FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR=
+: #ffffff; FONT-FAMILY: arial,verdana,helvetica,sans-serif">Your trip detai=
+ls - as of 06/24/2007</font></td>
+<td valign=3D"top"><img height=3D"7" width=3D"6" border=3D"0"></td>
+<td><img height=3D"1" width=3D"4" border=3D"0"></td></tr></tbody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tbody>
+<tr>
+<td rowspan=3D"5"><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td bgcolor=3D"#ffffff" rowspan=3D"4"><img height=3D"1" width=3D"1" border=
+=3D"0"></td>
+<td bgcolor=3D"#ffffff" rowspan=3D"4"><img height=3D"1" width=3D"10" border=
+=3D"0"></td>
+<td bgcolor=3D"#ffffff"><img height=3D"6" width=3D"1" border=3D"0"></td>
+<td bgcolor=3D"#ffffff" rowspan=3D"4">&nbsp;</td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
+<tr>
+<td width=3D"100%" bgcolor=3D"#ffffff"><font style=3D"FONT-WEIGHT: bold; FO=
+NT-SIZE: 16px; COLOR: #008000; FONT-FAMILY: arial,verdana,helvetica,sans-se=
+rif">Itinerary</font></td></tr>
+<tr>
+<td align=3D"left" bgcolor=3D"#ffffff">
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"3"><img height=3D"5" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td><img height=3D"18" width=3D"18" border=3D"0"></td>
+<td><img height=3D"1" width=3D"4" border=3D"0"></td>
+<td width=3D"100%"><font style=3D"FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR=
+: #333399; FONT-FAMILY: arial,verdana,helvetica,sans-serif"><a onclick=3D"r=
+eturn top.js.OpenExtLink(window,event,this)" href=3D"http://expediamail.com=
+/W5RH02F77720ED7F4BF0931AB5BEB0" target=3D"_blank">
+View airline rules &amp; regulations</a></font></td></tr>
+<tr>
+<td colspan=3D"3"><img height=3D"5" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"3"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif"><strong><a onclick=3D"return top.js=
+.OpenExtLink(window,event,this)" href=3D"http://expedia.com/" target=3D"_bl=
+ank">
+Expedia.com</a> itinerary number: 120280857195</strong><br>Airline ticket n=
+umber(s): 0167056251268<br>
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tbody>
+<tr>
+<td valign=3D"top"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAM=
+ILY: arial,verdana,helvetica,sans-serif">US Airways confirmation code: EDE7=
+3Z</font></td>
+<td><img height=3D"1" width=3D"7" border=3D"0"></td>
+<td valign=3D"top"><img height=3D"16" alt=3D"Travel Tip" width=3D"14" borde=
+r=3D"0"></td>
+<td width=3D"200"><font style=3D"FONT-SIZE: 11px; COLOR: #cc6600; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif"><strong>Travel tip:</strong> Use th=
+is code when you check in for your flight</font></td></tr></tbody></table>
+<br>
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tbody>
+<tr>
+<td valign=3D"top"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAM=
+ILY: arial,verdana,helvetica,sans-serif">United confirmation code: VZ5NBA</=
+font></td>
+<td><img height=3D"1" width=3D"7" border=3D"0"></td>
+<td valign=3D"top"><img height=3D"16" alt=3D"Travel Tip" width=3D"14" borde=
+r=3D"0"></td>
+<td width=3D"200"><font style=3D"FONT-SIZE: 11px; COLOR: #cc6600; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif"><strong>Travel tip:</strong> Use th=
+is code when you check in for your flight</font></td></tr></tbody></table>
+<br>
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tbody>
+<tr>
+<td valign=3D"top"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAM=
+ILY: arial,verdana,helvetica,sans-serif">Alaska Airlines confirmation code:=
+ MYIKTQ</font></td>
+<td><img height=3D"1" width=3D"7" border=3D"0"></td>
+<td valign=3D"top"><img height=3D"16" alt=3D"Travel Tip" width=3D"14" borde=
+r=3D"0"></td>
+<td width=3D"200"><font style=3D"FONT-SIZE: 11px; COLOR: #cc6600; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif"><strong>Travel tip:</strong> Use th=
+is code when you check in for your flight</font></td></tr></tbody></table>
+<br><strong>Main contact: <font style=3D"FONT-WEIGHT: bold; FONT-SIZE: 11px=
+; COLOR: #008000; FONT-FAMILY: arial,verdana,helvetica,sans-serif">Rachel T=
+aber</font></strong><br>E-mail: <a onclick=3D"return top.js.OpenExtLink(win=
+dow,event,this)" href=3D"mailto:taberrachel@gmail.com" target=3D"_blank">
+taberrachel@gmail.com</a><br>Home Phone: 1-425-2735451<br><br></font></td><=
+/tr></tbody></table></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff"><img height=3D"5" width=3D"1" border=3D"0"></td></t=
+r>
+<tr>
+<td colspan=3D"4"><img height=3D"1" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td rowspan=3D"6"><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td rowspan=3D"6"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td><img height=3D"25" width=3D"10" border=3D"0"></td>
+<td width=3D"100%"><font style=3D"FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR=
+: #ffffff; FONT-FAMILY: arial,verdana,helvetica,sans-serif">Traveler</font>=
+</td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"6"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff" rowspan=3D"3">&nbsp;</td>
+<td bgcolor=3D"#ffffff"><img height=3D"6" width=3D"1" border=3D"0"></td></t=
+r>
+<tr>
+<td bgcolor=3D"#ffffff"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FON=
+T-FAMILY: arial,verdana,helvetica,sans-serif"><strong>Rachel Taber</strong>=
+<br>Adult<br><br></font></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff"><img height=3D"8" width=3D"1" border=3D"0"></td></t=
+r>
+<tr>
+<td colspan=3D"3"><img height=3D"1" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td rowspan=3D"4"><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td rowspan=3D"4"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td><img height=3D"25" width=3D"10" border=3D"0"></td>
+<td width=3D"100%"><font style=3D"FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR=
+: #ffffff; FONT-FAMILY: arial,verdana,helvetica,sans-serif">Flight Summary<=
+/font></td>
+<td rowspan=3D"4"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"4"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff" colspan=3D"2"><img height=3D"9" width=3D"1" border=
+=3D"0"></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td rowspan=3D"5"><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td bgcolor=3D"#fffaee"><img height=3D"25" width=3D"10" border=3D"0"></td>
+<td width=3D"100%" bgcolor=3D"#fffaee"><font style=3D"FONT-WEIGHT: bold; FO=
+NT-SIZE: 13px; COLOR: #006600; FONT-FAMILY: arial,verdana,helvetica,sans-se=
+rif">Thu 28-Jun-07</font></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff" colspan=3D"2"><img height=3D"7" width=3D"1" border=
+=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff">&nbsp;</td>
+<td bgcolor=3D"#ffffff"><font style=3D"FONT-SIZE: 10px; COLOR: #000000; FON=
+T-FAMILY: arial,verdana,helvetica,sans-serif">
+<table width=3D"100%">
+<tbody>
+<tr>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Seattle (SEA)</strong></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">to <strong>Las Vegas (McCarran Intl.)</strong></f=
+ont></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">868 mi</font></td>
+<td></td></tr></tbody></table></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">US Airways</font></td></tr>
+<tr>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #008000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Depart 7:50 PM</strong></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #008000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Arrive 10:17 PM</strong></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">(1,397 km)</font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">Flight: 193</font></td></tr>
+<tr>
+<td colspan=3D"2">&nbsp;</td>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Duration: 2h 27m</font></td></tr>
+<tr>
+<td colspan=3D"4"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif"><strong>Economy/Coach Class</strong=
+>&nbsp;20F</font></td></tr>
+<tr>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Boeing 737-300</font></td>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Total distance:&nbsp;868&nbsp;mi&nb=
+sp;(1,397&nbsp;km)</font></td></tr></tbody></table></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td rowspan=3D"5"><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td bgcolor=3D"#fffaee"><img height=3D"25" width=3D"10" border=3D"0"></td>
+<td width=3D"100%" bgcolor=3D"#fffaee"><font style=3D"FONT-WEIGHT: bold; FO=
+NT-SIZE: 13px; COLOR: #006600; FONT-FAMILY: arial,verdana,helvetica,sans-se=
+rif">Thu 28-Jun-07</font></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff" colspan=3D"2"><img height=3D"7" width=3D"1" border=
+=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff">&nbsp;</td>
+<td bgcolor=3D"#ffffff"><font style=3D"FONT-SIZE: 10px; COLOR: #000000; FON=
+T-FAMILY: arial,verdana,helvetica,sans-serif">
+<table width=3D"100%">
+<tbody>
+<tr>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Las Vegas (McCarran Intl.)</strong></font=
+></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">to <strong>Denver (Denver Intl.)</strong></font><=
+/td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">615 mi</font></td>
+<td></td></tr></tbody></table></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">US Airways</font></td></tr>
+<tr>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #008000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Depart 11:59 PM</strong></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #008000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Arrive 2:55 AM</strong></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">(990 km)</font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">Flight: 607</font></td></tr>
+<tr>
+<td colspan=3D"2">&nbsp;</td>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Duration: 1h 56m</font></td></tr>
+<tr>
+<td colspan=3D"4"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif"><strong>Economy/Coach Class</strong=
+>&nbsp;10A</font></td></tr>
+<tr>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Boeing 737-300</font></td>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Total distance:&nbsp;615&nbsp;mi&nb=
+sp;(990&nbsp;km)</font></td></tr></tbody></table></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td rowspan=3D"5"><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td bgcolor=3D"#fffaee"><img height=3D"25" width=3D"10" border=3D"0"></td>
+<td width=3D"100%" bgcolor=3D"#fffaee"><font style=3D"FONT-WEIGHT: bold; FO=
+NT-SIZE: 13px; COLOR: #006600; FONT-FAMILY: arial,verdana,helvetica,sans-se=
+rif">Wed 11-Jul-07</font></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff" colspan=3D"2"><img height=3D"7" width=3D"1" border=
+=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff">&nbsp;</td>
+<td bgcolor=3D"#ffffff"><font style=3D"FONT-SIZE: 10px; COLOR: #000000; FON=
+T-FAMILY: arial,verdana,helvetica,sans-serif">
+<table width=3D"100%">
+<tbody>
+<tr>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Denver (Denver Intl.)</strong></font></td=
+>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">to <strong>Las Vegas (McCarran Intl.)</strong></f=
+ont></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">615 mi</font></td>
+<td></td></tr></tbody></table></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">Ted</font></td></tr>
+<tr>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #008000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Depart 8:45 PM</strong></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #008000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Arrive 9:38 PM</strong></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">(990 km)</font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">Flight: 1583</font></td></tr>
+<tr>
+<td colspan=3D"2">&nbsp;</td>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Duration: 1h 53m</font></td></tr>
+<tr>
+<td colspan=3D"4"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif"><strong>Economy/Coach Class</strong=
+>&nbsp;21A</font></td></tr>
+<tr>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Airbus A319-321</font></td>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Total distance:&nbsp;615&nbsp;mi&nb=
+sp;(990&nbsp;km)</font></td></tr></tbody></table></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td rowspan=3D"5"><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td bgcolor=3D"#fffaee"><img height=3D"25" width=3D"10" border=3D"0"></td>
+<td width=3D"100%" bgcolor=3D"#fffaee"><font style=3D"FONT-WEIGHT: bold; FO=
+NT-SIZE: 13px; COLOR: #006600; FONT-FAMILY: arial,verdana,helvetica,sans-se=
+rif">Wed 11-Jul-07</font></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff" colspan=3D"2"><img height=3D"7" width=3D"1" border=
+=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff">&nbsp;</td>
+<td bgcolor=3D"#ffffff"><font style=3D"FONT-SIZE: 10px; COLOR: #000000; FON=
+T-FAMILY: arial,verdana,helvetica,sans-serif">
+<table width=3D"100%">
+<tbody>
+<tr>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Las Vegas (McCarran Intl.)</strong></font=
+></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">to <strong>Seattle (SEA)</strong></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">868 mi</font></td>
+<td></td></tr></tbody></table></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">Alaska Airlines</font></td></tr>
+<tr>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #008000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Depart 10:35 PM</strong></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #008000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Arrive 12:55 AM</strong></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">(1,397 km)</font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">Flight: 693</font></td></tr>
+<tr>
+<td colspan=3D"2">&nbsp;</td>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Duration: 2h 20m</font></td></tr>
+<tr>
+<td colspan=3D"4"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif"><strong>Economy/Coach Class</strong=
+>&nbsp;17A</font></td></tr>
+<tr>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Boeing 737-800</font></td>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Total distance:&nbsp;868&nbsp;mi&nb=
+sp;(1,397&nbsp;km)</font></td></tr></tbody></table></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td rowspan=3D"4"><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td rowspan=3D"4"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td bgcolor=3D"#d8dce8"><img height=3D"25" width=3D"10" border=3D"0"></td>
+<td width=3D"100%" bgcolor=3D"#d8dce8"><font style=3D"FONT-WEIGHT: bold; FO=
+NT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: arial,verdana,helvetica,sans-se=
+rif">More...</font></td>
+<td rowspan=3D"4"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"4"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff">&nbsp;</td>
+<td bgcolor=3D"#ffffff">
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"400" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"3"><img height=3D"20" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td><img height=3D"18" width=3D"18" border=3D"0"></td>
+<td><img height=3D"1" width=3D"4" border=3D"0"></td>
+<td width=3D"100%"><a onclick=3D"return top.js.OpenExtLink(window,event,thi=
+s)" href=3D"http://expediamail.com/W5RH02F774174D7F4BF0931AB5BEB0" target=
+=3D"_blank"><font style=3D"FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #3333=
+99; FONT-FAMILY: arial,verdana,helvetica,sans-serif">
+View airline rules &amp; regulations</font></a></td></tr>
+<tr>
+<td><img height=3D"18" width=3D"18" border=3D"0"></td>
+<td><img height=3D"30" width=3D"4" border=3D"0"></td>
+<td><a onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"htt=
+p://expediamail.com/W5RH02F774877D7F4BF0931AB5BEB0" target=3D"_blank"><font=
+ style=3D"FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #333399; FONT-FAMILY: =
+arial,verdana,helvetica,sans-serif">
+Change or cancel your itinerary</font></a></td></tr>
+<tr>
+<td><img height=3D"18" width=3D"18" border=3D"0"></td>
+<td><img height=3D"1" width=3D"4" border=3D"0"></td>
+<td><a onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"htt=
+p://expediamail.com/W5RH02F774976D7F4BF0931AB5BEB0" target=3D"_blank"><font=
+ style=3D"FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #333399; FONT-FAMILY: =
+arial,verdana,helvetica,sans-serif">
+View check-in requirements for this flight</font></a></td></tr>
+<tr>
+<td colspan=3D"3"><img height=3D"20" width=3D"1" border=3D"0"></td></tr></t=
+body></table></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"6"><img height=3D"6" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table>
+<table>
+<tbody>
+<tr>
+<td valign=3D"top">
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"260" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"4"><img height=3D"4" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td width=3D"100%">&nbsp;<font style=3D"FONT-SIZE: 13px; COLOR: #000000; FO=
+NT-FAMILY: arial,verdana,helvetica,sans-serif"><strong>Enjoy your trip.</st=
+rong>=99</font></td>
+<td><img height=3D"23" width=3D"5" border=3D"0"></td>
+<td><img height=3D"1" width=3D"4" border=3D"0"></td></tr></tbody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"260" border=3D"0">
+<tbody>
+<tr>
+<td><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td width=3D"100%" bgcolor=3D"#ffffff">
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"2"><img height=3D"5" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td valign=3D"top" colspan=3D"2">&nbsp;&nbsp;<font style=3D"FONT-WEIGHT: bo=
+ld; FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: arial,verdana,helvetica,s=
+ans-serif">...with your Personal Trip Guide</font></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"5" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td><img height=3D"68" width=3D"72" border=3D"0"></td>
+<td width=3D"100%"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAM=
+ILY: arial,verdana,helvetica,sans-serif">=95&nbsp; <a onclick=3D"return top=
+.js.OpenExtLink(window,event,this)" href=3D"http://expediamail.com/W5RH02F7=
+74091D7F4BF0931AB5BEB0" target=3D"_blank">
+Maps</a><br>=95&nbsp; <a onclick=3D"return top.js.OpenExtLink(window,event,=
+this)" href=3D"http://expediamail.com/W5RH02F774190D7F4BF0931AB5BEB0" targe=
+t=3D"_blank">Weather</a><br>=95&nbsp; <a onclick=3D"return top.js.OpenExtLi=
+nk(window,event,this)" href=3D"http://expediamail.com/W5RH02F774893D7F4BF09=
+31AB5BEB0" target=3D"_blank">
+What to do in Denver</a> </font></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"6" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"2">&nbsp;&nbsp;<font style=3D"FONT-WEIGHT: bold; FONT-SIZE: =
+13px; COLOR: #000000; FONT-FAMILY: arial,verdana,helvetica,sans-serif">Plan=
+ your Activities</font></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"5" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td valign=3D"top"><img height=3D"68" width=3D"72" border=3D"0"></td>
+<td width=3D"100%"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAM=
+ILY: arial,verdana,helvetica,sans-serif"><font style=3D"FONT-SIZE: 11px; CO=
+LOR: #000000; FONT-FAMILY: arial,verdana,helvetica,sans-serif">Save time, b=
+ypass long lines, and secure tickets by=20
+<a onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"http://=
+expediamail.com/W5RH02F77479DD7F4BF0931AB5BEB0" target=3D"_blank">booking a=
+n activity</a> for your Denver trip today. </font><br><a onclick=3D"return =
+top.js.OpenExtLink(window,event,this)" href=3D"http://expediamail.com/W5RH0=
+2F77489CD7F4BF0931AB5BEB0" target=3D"_blank">
+<img height=3D"51" alt=3D"Book now" width=3D"108" border=3D"0"></a> </font>=
+</td></tr></tbody></table></td>
+<td bgcolor=3D"#ffffff"><img height=3D"1" width=3D"10" border=3D"0"></td>
+<td><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"2"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"4"><img height=3D"1" width=3D"4" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"260" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"5"><img height=3D"4" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td><img height=3D"1" width=3D"10" border=3D"0"></td>
+<td width=3D"100%"><font style=3D"FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR=
+: #ffffff; FONT-FAMILY: arial,verdana,helvetica,sans-serif">Complete your t=
+rip</font></td>
+<td><img height=3D"23" width=3D"1" border=3D"0"></td>
+<td valign=3D"top" align=3D"right"><img height=3D"4" width=3D"6" border=3D"=
+0"></td>
+<td rowspan=3D"3"><img height=3D"1" width=3D"4" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"260" border=3D"0">
+<tbody>
+<tr>
+<td><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td width=3D"100%" bgcolor=3D"#ffffff">
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"3"><img height=3D"10" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td rowspan=3D"2"><img height=3D"1" width=3D"8" border=3D"0"></td>
+<td valign=3D"top"><img height=3D"34" alt=3D"car" width=3D"63" border=3D"0"=
+></td>
+<td width=3D"100%"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAM=
+ILY: arial,verdana,helvetica,sans-serif">Roam freely in Denver.<br><a oncli=
+ck=3D"return top.js.OpenExtLink(window,event,this)" href=3D"http://expediam=
+ail.com/W5RH02F774844D7F4BF0931AB5BEB0" target=3D"_blank">
+Rent your own car.</a></font><br><a onclick=3D"return top.js.OpenExtLink(wi=
+ndow,event,this)" href=3D"http://expediamail.com/W5RH02F774547D7F4BF0931AB5=
+BEB0" target=3D"_blank"><img height=3D"26" alt=3D"Search" width=3D"94" vspa=
+ce=3D"10" border=3D"0">
+</a></td></tr>
+<tr>
+<td valign=3D"top"><img height=3D"34" alt=3D"hotel" width=3D"63" border=3D"=
+0"></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">Find your ideal <a onclick=3D"return top.js.OpenE=
+xtLink(window,event,this)" href=3D"http://expediamail.com/W5RH02F774646D7F4=
+BF0931AB5BEB0" target=3D"_blank">
+ideal hotel</a> in Denver</font><br><a onclick=3D"return top.js.OpenExtLink=
+(window,event,this)" href=3D"http://expediamail.com/W5RH02F774141D7F4BF0931=
+AB5BEB0" target=3D"_blank"><img height=3D"26" alt=3D"Search" width=3D"94" v=
+space=3D"8" border=3D"0">
+</a></td></tr>
+<tr>
+<td colspan=3D"3"><img height=3D"5" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table></td>
+<td bgcolor=3D"#ffffff"><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"2"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"4"><img height=3D"1" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"260" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"5"><img height=3D"4" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td><img height=3D"1" width=3D"10" border=3D"0"></td>
+<td width=3D"100%"><font style=3D"FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR=
+: #000000; FONT-FAMILY: arial,verdana,helvetica,sans-serif">Get personalize=
+d travel e-mail</font></td>
+<td><img height=3D"23" width=3D"1" border=3D"0"></td>
+<td valign=3D"top" align=3D"right"><img height=3D"4" width=3D"6" border=3D"=
+0"></td>
+<td rowspan=3D"3"><img height=3D"1" width=3D"4" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"260" border=3D"0">
+<tbody>
+<tr>
+<td><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td width=3D"100%" bgcolor=3D"#ffffff">
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"3"><img height=3D"10" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td rowspan=3D"2"><img height=3D"1" width=3D"3" border=3D"0"></td>
+<td valign=3D"top"><img height=3D"34" alt=3D"Get personalized travel e-mail=
+" width=3D"63" align=3D"left" border=3D"0"></td>
+<td width=3D"100%"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAM=
+ILY: arial,verdana,helvetica,sans-serif">Easily update your travel preferen=
+ces by <a onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"=
+http://expediamail.com/W5RH02F77474ED7F4BF0931AB5BEB0" target=3D"_blank">
+accessing your account</a>. <br><br>Hear about the latest sales and promoti=
+ons on travel to your favorite destinations! Plus, get timely news about up=
+coming trips, as well as helpful travel tips and vacation ideas, just by si=
+gning up for Expedia e-mail today!=20
+</font><br><a onclick=3D"return top.js.OpenExtLink(window,event,this)" href=
+=3D"http://expediamail.com/W5RH02F774349D7F4BF0931AB5BEB0" target=3D"_blank=
+"><img height=3D"24" alt=3D"Yes, sign me up" width=3D"115" vspace=3D"10" bo=
+rder=3D"0">=20
+</a></td></tr></tbody></table></td>
+<td bgcolor=3D"#ffffff"><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"2"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"4"><img height=3D"1" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"260" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"5"><img height=3D"4" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td><img height=3D"1" width=3D"10" border=3D"0"></td>
+<td width=3D"100%"><font style=3D"FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR=
+: #000000; FONT-FAMILY: arial,verdana,helvetica,sans-serif">Helpful Links</=
+font></td>
+<td><img height=3D"23" width=3D"1" border=3D"0"></td>
+<td valign=3D"top" align=3D"right"><img height=3D"4" width=3D"6" border=3D"=
+0"></td>
+<td rowspan=3D"3"><img height=3D"1" width=3D"4" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"260" border=3D"0">
+<tbody>
+<tr>
+<td><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td width=3D"100%" bgcolor=3D"#ffffff">
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"2"><img height=3D"10" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td valign=3D"top"><img height=3D"1" width=3D"52" border=3D"0"></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">=95 &nbsp;<a onclick=3D"return top.js.OpenExtLink=
+(window,event,this)" href=3D"http://expediamail.com/W5RH02F77452AD7F4BF0931=
+AB5BEB0" target=3D"_blank">
+View online itinerary</a><br>=95 &nbsp;<a onclick=3D"return top.js.OpenExtL=
+ink(window,event,this)" href=3D"http://expediamail.com/W5RH02F774455D7F4BF0=
+931AB5BEB0" target=3D"_blank">Contact customer support</a><br>=95 &nbsp;<a =
+onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"http://exp=
+ediamail.com/W5RH02F774554D7F4BF0931AB5BEB0" target=3D"_blank">
+Travel alerts</a><br>=95 &nbsp;<a onclick=3D"return top.js.OpenExtLink(wind=
+ow,event,this)" href=3D"http://expediamail.com/W5RH02F774257D7F4BF0931AB5BE=
+B0" target=3D"_blank">Passport information</a><br>=95 &nbsp;<a onclick=3D"r=
+eturn top.js.OpenExtLink(window,event,this)" href=3D"http://expediamail.com=
+/W5RH02F774356D7F4BF0931AB5BEB0" target=3D"_blank">
+Airline contact information</a><br>=95 &nbsp;<a onclick=3D"return top.js.Op=
+enExtLink(window,event,this)" href=3D"http://expediamail.com/W5RH02F774851D=
+7F4BF0931AB5BEB0" target=3D"_blank">Airport information</a><br>=95 &nbsp;<a=
+ onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"http://ex=
+pediamail.com/W5RH02F774950D7F4BF0931AB5BEB0" target=3D"_blank">
+Driving directions</a><br></font><br></td></tr></tbody></table></td>
+<td bgcolor=3D"#ffffff"><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"2"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"4"><img height=3D"1" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"4"><img height=3D"4" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table></td></tr></tbody></table>
+<table>
+<tbody>
+<tr>
+<td bgcolor=3D"#f1f5f8" colspan=3D"2">
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"801" border=3D"0">
+<tbody>
+<tr>
+<td><img height=3D"23" width=3D"102" border=3D"0"></td>
+<td nowrap width=3D"100%"><a onclick=3D"return top.js.OpenExtLink(window,ev=
+ent,this)" href=3D"http://expediamail.com/W5RH02F774216D7F4BF0931AB5BEB0" t=
+arget=3D"_blank"><img height=3D"23" alt=3D"flights" width=3D"54" border=3D"=
+0"></a><a onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"=
+http://expediamail.com/W5RH02F774711D7F4BF0931AB5BEB0" target=3D"_blank">
+<img height=3D"23" alt=3D"hotels" width=3D"53" border=3D"0"></a><a onclick=
+=3D"return top.js.OpenExtLink(window,event,this)" href=3D"http://expediamai=
+l.com/W5RH02F774810D7F4BF0931AB5BEB0" target=3D"_blank"><img height=3D"23" =
+alt=3D"cars" width=3D"39" border=3D"0">
+</a><a onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"htt=
+p://expediamail.com/W5RH02F774513D7F4BF0931AB5BEB0" target=3D"_blank"><img =
+height=3D"23" alt=3D"packages" width=3D"74" border=3D"0"></a><a onclick=3D"=
+return top.js.OpenExtLink(window,event,this)" href=3D"http://expediamail.co=
+m/W5RH02F774612D7F4BF0931AB5BEB0" target=3D"_blank">
+<img height=3D"23" alt=3D"cruises" width=3D"57" border=3D"0"></a><a onclick=
+=3D"return top.js.OpenExtLink(window,event,this)" href=3D"http://expediamai=
+l.com/W5RH02F77441DD7F4BF0931AB5BEB0" target=3D"_blank"><img height=3D"23" =
+alt=3D"activities" width=3D"67" border=3D"0">
+</a></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"23" width=3D"1" border=3D"0"></td></tr></t=
+body></table></td></tr></tbody></table><br>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"780" border=3D"0">
+<tbody>
+<tr>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">
+<blockquote>You are receiving this transactional email based on a recent pu=
+rchase or account-related update on <a href=3D"http://Expedia.com">Expedia.=
+com</a>. <br>This is a daily email you qualified for based on your recent p=
+urchase.=20
+<br><br>CONTACT US<br>Please do not reply to this e-mail as we are not able=
+ to respond to messages sent to this e-mail address. To contact us or send =
+feedback, please <a onclick=3D"return top.js.OpenExtLink(window,event,this)=
+" href=3D"http://expediamail.com/W5RH02F7753E6D7F4BF0931AB5BEB0" target=3D"=
+_blank">
+<font color=3D"#666666">click here</font></a> or contact us via postal mail=
+ at: Expedia, Inc., attn: EMC Team, 3150 139th Avenue SE, Bellevue, WA 9800=
+5. For additional assistance, visit the <a href=3D"http://Expedia.com">Expe=
+dia.com
+</a> <a onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"ht=
+tp://expediamail.com/W5RH02F7758E1D7F4BF0931AB5BEB0" target=3D"_blank"><fon=
+t color=3D"#666666">Customer Support Center</font></a>, or call 1-800-Exped=
+ia.=20
+<br><br>A NOTE ABOUT PRICES<br>Prices are subject to availability and subje=
+ct to change without notice. <br><br>All prices were current at the time th=
+is e-mail was published. <br><br>Hotel, vacation package, and cruise prices=
+ on=20
+<a href=3D"http://Expedia.com">Expedia.com</a> are constantly updated. Plea=
+se refer to the site for the most current pricing. Vacation package prices =
+shown are for one adult, economy class, based on double occupancy, and vary=
+ by dates, availability, and departure city. Additional taxes, fees, and ch=
+arges may apply. Airfare is subject to, without limitation: (1) Sept. 11 Se=
+curity Fee of $2.50 for each flight segment originating at a=20
+U.S. airport, up to $5 per one way or $10 per roundtrip; (2) up to $18 per =
+roundtrip in local airport charges; (3) Federal Excise Tax of $3.20 per U.S=
+. domestic flight segment; (4) a Travel Facilities Tax of up to $14 per rou=
+ndtrip for domestic flights beginning or ending in Alaska or Hawaii; and (5=
+) for international and Puerto Rico/U.S. Virgin Islands destinations, gover=
+nment taxes and fees of up to $200 per roundtrip, depending on routing and =
+destination (may vary slightly depending on currency exchange rates at time=
+ of booking). A segment is defined as a takeoff and a landing.=20
+<br><br>CST# 2029030-40 <br><br>&copy;&nbsp;2007&nbsp; Expedia, Inc. All ri=
+ghts reserved. Expedia, <a href=3D"http://Expedia.com">Expedia.com</a> and =
+the Airplane logo are registered trademarks, or trademarks, of Expedia, Inc=
+. in the U.S. and/or other countries. Other product and company names menti=
+oned herein may be trademarks of their respective owners.=20
+<br><br>(EMID: ETM_TG_PT_01)(MD: 20070624185546)(EPID: 100853069)(BIID: 381=
+77576_192230234) </blockquote></font></td></tr></tbody></table></center><im=
+g> </center></div>
+
+------=_Part_35354_256041.1182971566415--
+

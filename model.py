@@ -54,7 +54,8 @@ class Email(Base):
     user_id = Column(Integer, ForeignKey('Users.id'), nullable=False)
     msg_id = Column(String(64), nullable=False)
     thread_id = Column(String(64), nullable=False)
-    body = Column(Text, nullable=False)
+    body_raw = Column(Text, nullable=False)
+    body_full = Column(Text, nullable=False)
 
     user = relationship("User", backref="emails")
 

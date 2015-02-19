@@ -1,0 +1,2320 @@
+Delivered-To: tkhesselgrave@gmail.com
+Received: by 10.217.127.6 with SMTP id do6csp106519web;
+        Sun, 4 May 2014 21:46:21 -0700 (PDT)
+Return-Path: <pillocelot@gmail.com>
+Received-SPF: pass (google.com: domain of pillocelot@gmail.com designates 10.60.54.228 as permitted sender) client-ip=10.60.54.228
+Authentication-Results: mr.google.com;
+       spf=pass (google.com: domain of pillocelot@gmail.com designates 10.60.54.228 as permitted sender) smtp.mail=pillocelot@gmail.com;
+       dkim=pass header.i=@gmail.com
+X-Received: from mr.google.com ([10.60.54.228])
+        by 10.60.54.228 with SMTP id m4mr30400409oep.29.1399265180735 (num_hops = 1);
+        Sun, 04 May 2014 21:46:20 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:date:message-id:subject
+         :from:to:content-type;
+        bh=nHt732CC+eyGm0vJkDClCaqDZGwtjGyybaNI8hBomVc=;
+        b=UFQIhjjbCcThNigX7OvND0IYoMVpQJYyUvrLg9kX2aXofn599c9oMops/DCGCgziLg
+         dU9ylS+xVhg3VszQPsacKkY/xrk0We5lkWUcxy/5b5aNUXgRmDjU7Kqu4o/pL0h/SAXb
+         GrM0UfP2bbE+WkPXAgxo7qyGpnu7S01QmJbIR5QTFobl+FTZ71gcArDpr9uaiJl7IMR3
+         NUH9bSxkBoORtWkxyCLZTbpshb+RpRiRYELFJBHhxMmmOPAeM1me+RshWHDnw8HSgxxr
+         ijnz+cAEQzY2Wv/TSPUiaMrVcl+gol5gMOZBnk8+05NnKfZnnAgT/7FORiu/mfUGeFdP
+         n0iQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:date:message-id:subject
+         :from:to:content-type;
+        bh=nHt732CC+eyGm0vJkDClCaqDZGwtjGyybaNI8hBomVc=;
+        b=UFQIhjjbCcThNigX7OvND0IYoMVpQJYyUvrLg9kX2aXofn599c9oMops/DCGCgziLg
+         dU9ylS+xVhg3VszQPsacKkY/xrk0We5lkWUcxy/5b5aNUXgRmDjU7Kqu4o/pL0h/SAXb
+         GrM0UfP2bbE+WkPXAgxo7qyGpnu7S01QmJbIR5QTFobl+FTZ71gcArDpr9uaiJl7IMR3
+         NUH9bSxkBoORtWkxyCLZTbpshb+RpRiRYELFJBHhxMmmOPAeM1me+RshWHDnw8HSgxxr
+         ijnz+cAEQzY2Wv/TSPUiaMrVcl+gol5gMOZBnk8+05NnKfZnnAgT/7FORiu/mfUGeFdP
+         n0iQ==
+MIME-Version: 1.0
+X-Received: by 10.60.54.228 with SMTP id m4mr30400409oep.29.1399265180697;
+ Sun, 04 May 2014 21:46:20 -0700 (PDT)
+Sender: pillocelot@gmail.com
+Received: by 10.182.96.132 with HTTP; Sun, 4 May 2014 21:46:20 -0700 (PDT)
+In-Reply-To: <CAF_LNAtRARCDuNgFTGF=xdO70is7fyik2QeTXSwM2bAkvrkQpA@mail.gmail.com>
+References: <946350925.1398141550651.JavaMail.dets@ny-dets-002>
+	<CAF_LNAtRARCDuNgFTGF=xdO70is7fyik2QeTXSwM2bAkvrkQpA@mail.gmail.com>
+Date: Sun, 4 May 2014 21:46:20 -0700
+X-Google-Sender-Auth: DHa3XBvydZBZtCfDnED6nhL2__k
+Message-ID: <CAF_LNAvLxJJJjvSMy=Db=8V2Uf6tRLZs89+QG3fOySFwjuo=yQ@mail.gmail.com>
+Subject: Fwd: Your priceline itinerary for Tokyo, JA - May 9th, 2014
+ (Itinerary# 205-318-110-11)
+From: Carla Hudson <CarlaYHudson@gmail.com>
+To: Kanna Hudson <kannamarie@gmail.com>, Taylor Hesselgrave <tkhesselgrave@gmail.com>, 
+	Leanne Weiss <leanneweiss@gmail.com>
+Content-Type: multipart/alternative; boundary=089e0115ffc60b2aaa04f89fd0a3
+
+--089e0115ffc60b2aaa04f89fd0a3
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hey ladies,
+
+Attached are my flight details for Japan :)
+
+Loves,
+C
+
+---------- Forwarded message ----------
+From: Carla Hudson <CarlaYHudson@gmail.com>
+Date: Mon, Apr 21, 2014 at 9:41 PM
+Subject: Fwd: Your priceline itinerary for Tokyo, JA - May 9th, 2014
+(Itinerary# 205-318-110-11)
+To: Jeff Hudson <jeffhudson92@gmail.com>, "Janice Hudson (Text)" <
+janice@creativelive.com>
+
+
+
+
+---------- Forwarded message ----------
+From: Priceline.com Customer Service <ItineraryAir@trans.priceline.com>
+Date: Mon, Apr 21, 2014 at 9:39 PM
+Subject: Your priceline itinerary for Tokyo, JA - May 9th, 2014 (Itinerary#
+205-318-110-11)
+To: CARLAYHUDSON@gmail.com
+
+
+To view this email as web page, go
+here<http://jump.priceline.com/sharedapps/evs?x=3DTPO8AFM&from=3DDINC&refid=
+=3DTMtransact&refclickid=3D20140422%7C%7COFFER%7CACCEPT_INTERCEPT%7CVIEW_AS=
+_WEBPAGE%7C16%7CANY&sendId=3D32002812406&batchId=3D290506&ea=3D8235F30253A4=
+59DFB6B021E68311D6DF261D4D5CD663813A&utm_medium=3Demail&utm_source=3Dtransa=
+ctional&utm_campaign=3D%7COFFER%7CACCEPT_INTERCEPT&email_subject_line=3DYou=
+r%20priceline%20itinerary%20for%20Tokyo%2C%20JA%20-%20May%209th%2C%202014%2=
+0(Itinerary%20205-318-110-11)&email_preview_line=3D>
+         Follow Us [image:
+Facebook]<http://jump.priceline.com/default.asp?refid=3DTMTRANSACT&sendId=
+=3D32002812406&email_subject_line=3DYour+priceline+itinerary+for+Tokyo%2C+J=
+A+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&batchId=3D290506&refc=
+lickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CHEADER_FACEBOOK_LINK=
+&ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&utm_medium=3Demail&u=
+tm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_=
+32002812406&url=3Dhttp://www.facebook.com/priceline>
+[image:
+Twitter]<http://jump.priceline.com/default.asp?refid=3DTMTRANSACT&sendId=3D=
+32002812406&email_subject_line=3DYour+priceline+itinerary+for+Tokyo%2C+JA+-=
++May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&batchId=3D290506&refclic=
+kid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CHEADER_TWITTER_LINK&ea=
+=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&utm_medium=3Demail&utm_=
+source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_320=
+02812406&url=3Dhttps://twitter.com/priceline>
+[image:
+Google+]<http://jump.priceline.com/default.asp?refid=3DTMTRANSACT&sendId=3D=
+32002812406&email_subject_line=3DYour+priceline+itinerary+for+Tokyo%2C+JA+-=
++May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&batchId=3D290506&refclic=
+kid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CHEADER_GOOGLEPLUS_LINK&=
+ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&utm_medium=3Demail&ut=
+m_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_3=
+2002812406&url=3Dhttps://plus.google.com/%2Bpriceline>
+[image:
+YouTube]<http://jump.priceline.com/default.asp?refid=3DTMTRANSACT&sendId=3D=
+32002812406&email_subject_line=3DYour+priceline+itinerary+for+Tokyo%2C+JA+-=
++May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&batchId=3D290506&refclic=
+kid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CHEADER_YOUTUBE_LINK&ea=
+=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&utm_medium=3Demail&utm_=
+source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_320=
+02812406&url=3Dhttp://www.youtube.com/user/priceline>
+  <http://jump.priceline.com/download-priceline-negotiator-app?refid=3DTMTR=
+ANSACT&sendId=3D32002812406&email_subject_line=3DYour+priceline+itinerary+f=
+or+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&batchId=
+=3D290506&refclickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CDOWNLO=
+AD_APP_LINK&ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&utm_mediu=
+m=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT=
+_INTERCEPT_32002812406>
+[image:
+Priceline.com]<http://jump.priceline.com/?refid=3DTMTRANSACT&sendId=3D32002=
+812406&email_subject_line=3DYour+priceline+itinerary+for+Tokyo%2C+JA+-+May+=
+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&batchId=3D290506&refclickid=
+=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CTOPNAV_LOGO_LINK&ea=3D8235=
+F30253A459DFB6B021E68311D6DF261D4D5CD663813A&utm_medium=3Demail&utm_source=
+=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_320028124=
+06>
+Flights<https://offers.priceline.com/lr/r.php?lr=3Dair_search&refid=3DTMTRA=
+NSACT&sendId=3D32002812406&email_subject_line=3DYour+priceline+itinerary+fo=
+r+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&batchId=
+=3D290506&refclickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CTOPNAV=
+_FLIGHT_LINK&ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&utm_medi=
+um=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEP=
+T_INTERCEPT_32002812406>
+Hotels<https://offers.priceline.com/lr/r.php?lr=3Dhtl_rtl3&refid=3DTMTRANSA=
+CT&sendId=3D32002812406&email_subject_line=3DYour+priceline+itinerary+for+T=
+okyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&batchId=3D29=
+0506&refclickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CTOPNAV_HOTE=
+LS_LINK&ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&utm_medium=3D=
+email&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INT=
+ERCEPT_32002812406>
+Cars<https://offers.priceline.com/lr/r.php?lr=3Drc_search&refid=3DTMTRANSAC=
+T&sendId=3D32002812406&email_subject_line=3DYour+priceline+itinerary+for+To=
+kyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&batchId=3D290=
+506&refclickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CTOPNAV_RC_LI=
+NK&ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&utm_medium=3Demail=
+&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEP=
+T_32002812406>
+Packages<http://jump.priceline.com/vacationpackages/?refid=3DTMTRANSACT&sen=
+dId=3D32002812406&email_subject_line=3DYour+priceline+itinerary+for+Tokyo%2=
+C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&batchId=3D290506&r=
+efclickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CTOPNAV_VP_LINK&ea=
+=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&utm_medium=3Demail&utm_=
+source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_320=
+02812406>
+Cruises<http://jump.priceline.com/default.asp?url=3Dhttp://cruises.pricelin=
+e.com/default.asp%3f&refid=3DTMTRANSACT&sendId=3D32002812406&email_subject_=
+line=3DYour+priceline+itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itiner=
+ary%23+205-318-110-11%29&batchId=3D290506&refclickid=3D20140422%7C1%7COFFER=
+%7CACCEPT_INTERCEPT_CTL%7CTOPNAV_CRUISE_LINK&ea=3D8235F30253A459DFB6B021E68=
+311D6DF261D4D5CD663813A&utm_medium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTER=
+CEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002812406>
+   Flight Confirmation  Your trip number is *205-318-110-11*.
+View full itinerary<http://jump.priceline.com/status/310A50185A69020B957595=
+45373E8A68BDAD61891095518B408E232E179DAC6F?plf=3DPCLN&from=3DDINC&refid=3DT=
+MTRANSACT&sendId=3D32002812406&email_subject_line=3DYour+priceline+itinerar=
+y+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&batch=
+Id=3D290506&refclickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CAIR_=
+RTL_ACCEPT_ITINERARY_LINK&ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663=
+813A&utm_medium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=
+=3DTM_AIR_ACCEPT_INTERCEPT_32002812406>
+.
+
+
+<http://jump.priceline.com/status/310A50185A69020B95759545373E8A68BDAD61891=
+095518B408E232E179DAC6F?plf=3DPCLN&from=3DDINC&refid=3DTMTRANSACT&sendId=3D=
+32002812406&email_subject_line=3DYour+priceline+itinerary+for+Tokyo%2C+JA+-=
++May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&batchId=3D290506&refclic=
+kid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CAIR_RTL_ACCEPT_PRINT_IT=
+INERARY_LINK&ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&utm_medi=
+um=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEP=
+T_INTERCEPT_32002812406>
+<http://jump.priceline.com/status/310A50185A69020B95759545373E8A68BDAD61891=
+095518B408E232E179DAC6F?plf=3DPCLN&from=3DDINC&refid=3DTMTRANSACT&sendId=3D=
+32002812406&email_subject_line=3DYour+priceline+itinerary+for+Tokyo%2C+JA+-=
++May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&batchId=3D290506&refclic=
+kid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CAIR_RTL_ACCEPT_EMAIL_IT=
+INERARY_LINK&ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&utm_medi=
+um=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEP=
+T_INTERCEPT_32002812406>
+     Airline Confirmation Numbers
+Delta Air Lines: GT3NBP      Please review the itinerary and passenger
+details below. If you see an error, contact Priceline Customer Service
+immediately. Flight schedules can change, please confirm your itinerary
+with the operating airline at least 24 hours before departure.     Airline
+baggage fees or other optional services may not be included your trip
+cost.
+<http://jump.priceline.com/status/310A50185A69020B95759545373E8A68BDAD61891=
+095518B408E232E179DAC6F?plf=3DPCLN&from=3DDINC&refid=3DTMTRANSACT&sendId=3D=
+32002812406&email_subject_line=3DYour+priceline+itinerary+for+Tokyo%2C+JA+-=
++May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&batchId=3D290506&refclic=
+kid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CAIR_RTL_ACCEPT_PRINT_IT=
+INERARY_LINK&ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&utm_medi=
+um=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEP=
+T_INTERCEPT_32002812406>
+      <http://jump.priceline.com/status/310A50185A69020B95759545373E8A68BDA=
+D61891095518B408E232E179DAC6F?plf=3DPCLN&from=3DDINC&refid=3DTMTRANSACT&sen=
+dId=3D32002812406&email_subject_line=3DYour+priceline+itinerary+for+Tokyo%2=
+C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&batchId=3D290506&r=
+efclickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CAIR_RTL_ACCEPT_EM=
+AIL_ITINERARY_LINK&ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&ut=
+m_medium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR=
+_ACCEPT_INTERCEPT_32002812406>
+   Flight Details
+
+  Round-Trip | 2 Adults
+
+  Seattle, WA (SEA)  to   Tokyo, JA (NRT)
+
+      Seattle, WA (SEA)  to   Portland, OR (PDX)
+
+   Departing  Seattle-Tacoma Intl Airport  Fri, May. 09, 2014 at 10:00 AM
+    Arriving  Portland Intl Airport  Fri, May. 09, 2014 at 10:50 AM
+   Flight
+/ Class  Delta Air Lines 9187  Economy Class  Conf Number: GT3NBP       Thi=
+s
+flight is operated by Alaska Airlines/Horizon Air     Layover Time: 3h and
+26min     Portland, OR (PDX)  to   Tokyo, JA (NRT)
+
+   Departing  Portland Intl Airport  Fri, May. 09, 2014 at 2:16 PM
+Arriving  Narita Intl Airport  Sat, May. 10, 2014 at 4:55 PM       Flight /
+Class  Delta Air Lines 643  Economy Class  Conf Number: GT3NBP          Tok=
+yo,
+JA (NRT)  to   Seattle, WA (SEA)
+
+      Departing  Narita Intl Airport  Mon, May. 19, 2014 at 3:55 PM
+Arriving  Seattle-Tacoma Intl Airport  Mon, May. 19, 2014 at 8:59 AM
+    Flight
+/ Class  Delta Air Lines 166  Economy Class  Conf Number: GT3NBP
+   Passenger Information
+
+         Carla Hudson       Ticketed By  Delta Air Lines           Ticket
+Type  Eticket                Jeffrey Hudson       Ticketed By  Delta Air
+Lines           Ticket Type  Eticket                   We Recommend Trip
+Protection
+
+  Life is uncertain...plan for the unexpected.
+
+   Protection Offer Expires: 04/23/14 at 12:38 AM EST     $34.00
+/person      see
+details<https://jump.priceline.com/toursandattractions/travelInsurance.do?z=
+z=3D310A50185A69020B95759545373E8A68BDAD61891095518B408E232E179DAC6F&plf=3D=
+PCLN&refid=3DTMTRANSACT&sendId=3D32002812406&email_subject_line=3DYour+pric=
+eline+itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-1=
+10-11%29&batchId=3D290506&refclickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERC=
+EPT_CTL%7CTRIP_INSURANCE_BTN&ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD=
+663813A&utm_medium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaig=
+n=3DTM_AIR_ACCEPT_INTERCEPT_32002812406>
+        Summary of Charges
+
+  Flight
+
+        Ticket Cost    $457.60 /ticket
+per ticket
+        Taxes And Fees    $671.50 /ticket
+per ticket
+        Number of Tickets    2         Total Charges    $2,258.20      - Al=
+l
+prices are in USD   - Airline baggage fees or other optional services may
+not be included your trip cost.
+<http://jump.priceline.com/default.asp?refid=3DTMTRANSACT&sendId=3D32002812=
+406&email_subject_line=3DYour+priceline+itinerary+for+Tokyo%2C+JA+-+May+9th=
+%2C+2014+%28Itinerary%23+205-318-110-11%29&batchId=3D290506&refclickid=3D20=
+140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CPCLN_VISA_CARD_LINK&ea=3D8235F3=
+0253A459DFB6B021E68311D6DF261D4D5CD663813A&utm_medium=3Demail&utm_source=3D=
+TM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002812406&=
+url=3Dhttps%3A%2F%2Fwww.pricelinevisa.com%2Fapply%2FLanding.action%3Fcampai=
+gnId%3D1304%26cellNumber%3D2>
+
+ <http://jump.priceline.com/default.asp?refid=3DTMTRANSACT&sendId=3D3200281=
+2406&email_subject_line=3DYour+priceline+itinerary+for+Tokyo%2C+JA+-+May+9t=
+h%2C+2014+%28Itinerary%23+205-318-110-11%29&batchId=3D290506&refclickid=3D2=
+0140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CPCLN_VISA_CARD_LINK&ea=3D8235F=
+30253A459DFB6B021E68311D6DF261D4D5CD663813A&utm_medium=3Demail&utm_source=
+=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_320028124=
+06&url=3Dhttps%3A%2F%2Fwww.pricelinevisa.com%2Fapply%2FLanding.action%3Fcam=
+paignId%3D1304%26cellNumber%3D2>
+
+       Customer Service
+
+  Airline Contact Information
+
+  If you need to check flight status, change your flight, or cancel your
+flight then please contact your flight operator at the number provided
+below.
+
+      Airline Name  Delta Air Lines      Phone Number  1-800-221-1212Domest=
+ic
+   Website  www.delta.com<http://jump.priceline.com/default.asp?url=3Dhttp:=
+//www.delta.com&refid=3DTMTRANSACT&sendId=3D32002812406&email_subject_line=
+=3DYour+priceline+itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%=
+23+205-318-110-11%29&batchId=3D290506&refclickid=3D20140422%7C1%7COFFER%7CA=
+CCEPT_INTERCEPT_CTL%7CAIR_WEBSITE_LINK&ea=3D8235F30253A459DFB6B021E68311D6D=
+F261D4D5CD663813A&utm_medium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&u=
+tm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002812406>
+    Confirmation Number  GT3NBP           Priceline Customer Service
+Information
+
+  If you need assistance with this or any other priceline purchase please
+contact a customer service representative at the number below.
+
+      Customer Service Phone Number       1-800-340-0575 (when calling from
+the United States)
+033 570 8726 (when calling from Japan)
++44 (0)20 7136 8462 (when calling from anywhere else)       Your priceline
+trip number
+205-318-110-11<http://jump.priceline.com/status/310A50185A69020B95759545373=
+E8A68BDAD61891095518B408E232E179DAC6F?plf=3DPCLN&from=3DDINC&refid=3DTMTRAN=
+SACT&sendId=3D32002812406&email_subject_line=3DYour+priceline+itinerary+for=
++Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&batchId=3D=
+290506&refclickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CAIR_ACCEP=
+T_CUST_SERV_TRIP_NUM_LNK&ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD6638=
+13A&utm_medium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3D=
+TM_AIR_ACCEPT_INTERCEPT_32002812406>
+    Phone Number you provided       206-660-7345      Click here to view
+frequently asked
+questions.<http://jump.priceline.com/customerservice/customerservice.do?INI=
+T_SESSION=3Dtrue&plf=3DPCLN&refid=3DTMTRANSACT&sendId=3D32002812406&email_s=
+ubject_line=3DYour+priceline+itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%2=
+8Itinerary%23+205-318-110-11%29&batchId=3D290506&refclickid=3D20140422%7C1%=
+7COFFER%7CACCEPT_INTERCEPT_CTL%7CFAQ_LINK&ea=3D8235F30253A459DFB6B021E68311=
+D6DF261D4D5CD663813A&utm_medium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEP=
+T&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002812406>
+         [image:
+advertisement]<http://ad.doubleclick.net/N3102/jump/priceline.dart/confirm_=
+and_pretrav_air_banner1;city=3DTokyo;state=3DJA;country=3DJA;depcarrier=3DD=
+elta_Air_Lines;retcarrier=3DDelta_Air_Lines;sz=3D300x250;ord=3D1678548697>
+  [image: advertisement]<http://ad.doubleclick.net/N3102/jump/priceline.dar=
+t/confirm_and_pretrav_air_banner2;city=3DTokyo;state=3DJA;country=3DJA;depc=
+arrier=3DDelta_Air_Lines;retcarrier=3DDelta_Air_Lines;sz=3D300x250;ord=3D16=
+78548697>
+        [image: Available on the App
+Store]<http://jump.priceline.com/download-priceline-negotiator-app?refid=3D=
+TMTRANSACT&sendId=3D32002812406&email_subject_line=3DYour+priceline+itinera=
+ry+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&batc=
+hId=3D290506&refclickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CIOS=
+_DOWNLOAD_LINK&ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&utm_me=
+dium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACC=
+EPT_INTERCEPT_32002812406>
+  [image: Android App on Google
+Play]<http://jump.priceline.com/download-priceline-negotiator-app?refid=3DT=
+MTRANSACT&sendId=3D32002812406&email_subject_line=3DYour+priceline+itinerar=
+y+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&batch=
+Id=3D290506&refclickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CANDR=
+OID_DOWNLOAD_LINK&ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&utm=
+_medium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_=
+ACCEPT_INTERCEPT_32002812406>
+  [image:
+Let's Talk Deals]   [image:
+Facebook]<http://jump.priceline.com/default.asp?refid=3DTMTRANSACT&sendId=
+=3D32002812406&email_subject_line=3DYour+priceline+itinerary+for+Tokyo%2C+J=
+A+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&batchId=3D290506&refc=
+lickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CFOOTER_FACEBOOK_LINK=
+&ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&utm_medium=3Demail&u=
+tm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_=
+32002812406&url=3Dhttp://www.facebook.com/priceline>
+[image:
+Twitter]<http://jump.priceline.com/default.asp?refid=3DTMTRANSACT&sendId=3D=
+32002812406&email_subject_line=3DYour+priceline+itinerary+for+Tokyo%2C+JA+-=
++May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&batchId=3D290506&refclic=
+kid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CFOOTER_TWITTER_LINK&ea=
+=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&utm_medium=3Demail&utm_=
+source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_320=
+02812406&url=3Dhttps://twitter.com/priceline>
+[image:
+Google+]<http://jump.priceline.com/default.asp?refid=3DTMTRANSACT&sendId=3D=
+32002812406&email_subject_line=3DYour+priceline+itinerary+for+Tokyo%2C+JA+-=
++May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&batchId=3D290506&refclic=
+kid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CFOOTER_GOOGLEPLUS_LINK&=
+ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&utm_medium=3Demail&ut=
+m_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_3=
+2002812406&url=3Dhttps://plus.google.com/%2Bpriceline>
+[image:
+YouTube]<http://jump.priceline.com/default.asp?refid=3DTMTRANSACT&sendId=3D=
+32002812406&email_subject_line=3DYour+priceline+itinerary+for+Tokyo%2C+JA+-=
++May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&batchId=3D290506&refclic=
+kid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CFOOTER_YOUTUBE_LINK&ea=
+=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&utm_medium=3Demail&utm_=
+source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_320=
+02812406&url=3Dhttp://www.youtube.com/user/priceline>
+      Responses to this e-mail will not go to a customer service
+representative.
+To contact our customer service team directly, please go to the customer
+service<http://jump.priceline.com/customerservice/customerservice.do?INIT_S=
+ESSION=3Dtrue&refid=3DTMTRANSACT&sendId=3D32002812406&email_subject_line=3D=
+Your+priceline+itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+=
+205-318-110-11%29&batchId=3D290506&refclickid=3D20140422%7C1%7COFFER%7CACCE=
+PT_INTERCEPT_CTL%7CDISCLAIMER_CUSTOMER_SERVICE&ea=3D8235F30253A459DFB6B021E=
+68311D6DF261D4D5CD663813A&utm_medium=3Demail&utm_source=3DTM_AIR_ACCEPT_INT=
+ERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002812406>page
+of our website.
+
+This is a transactional email from Priceline.com LLC - 800 Connecticut Ave.
+Norwalk, CT 06854
+
+To: CARLAYHUDSON@GMAIL.COM
+Subject:Your priceline itinerary for Tokyo, JA - May 9th, 2014 (Itinerary#
+205-318-110-11)(Itinerary # 20531811011)
+Sent: Tuesday, April 22, 2014
+MsgId: 10898114205
+
+--089e0115ffc60b2aaa04f89fd0a3
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hey ladies,<div><br></div><div>Attached are my flight deta=
+ils for Japan :)</div><div><br></div><div>Loves,</div><div>C<br><br><div cl=
+ass=3D"gmail_quote">---------- Forwarded message ----------<br>From: <b cla=
+ss=3D"gmail_sendername">Carla Hudson</b> <span dir=3D"ltr">&lt;<a href=3D"m=
+ailto:CarlaYHudson@gmail.com">CarlaYHudson@gmail.com</a>&gt;</span><br>
+Date: Mon, Apr 21, 2014 at 9:41 PM<br>Subject: Fwd: Your priceline itinerar=
+y for Tokyo, JA - May 9th, 2014 (Itinerary# 205-318-110-11)<br>To: Jeff Hud=
+son &lt;<a href=3D"mailto:jeffhudson92@gmail.com">jeffhudson92@gmail.com</a=
+>&gt;, &quot;Janice Hudson (Text)&quot; &lt;<a href=3D"mailto:janice@creati=
+velive.com">janice@creativelive.com</a>&gt;<br>
+<br><br><div dir=3D"ltr"><br><br><div class=3D"gmail_quote"><div><div class=
+=3D"h5">---------- Forwarded message ----------<br>From: <b class=3D"gmail_=
+sendername">Priceline.com Customer Service</b> <span dir=3D"ltr">&lt;<a hre=
+f=3D"mailto:ItineraryAir@trans.priceline.com" target=3D"_blank">ItineraryAi=
+r@trans.priceline.com</a>&gt;</span><br>
+
+Date: Mon, Apr 21, 2014 at 9:39 PM<br>Subject: Your priceline itinerary for=
+ Tokyo, JA - May 9th, 2014 (Itinerary# 205-318-110-11)<br>To: <a href=3D"ma=
+ilto:CARLAYHUDSON@gmail.com" target=3D"_blank">CARLAYHUDSON@gmail.com</a><b=
+r>
+<br><br>To view this email as web page, <a style=3D"color:blue" href=3D"htt=
+p://jump.priceline.com/sharedapps/evs?x=3DTPO8AFM&amp;from=3DDINC&amp;refid=
+=3DTMtransact&amp;refclickid=3D20140422%7C%7COFFER%7CACCEPT_INTERCEPT%7CVIE=
+W_AS_WEBPAGE%7C16%7CANY&amp;sendId=3D32002812406&amp;batchId=3D290506&amp;e=
+a=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&amp;utm_medium=3Demail=
+&amp;utm_source=3Dtransactional&amp;utm_campaign=3D%7COFFER%7CACCEPT_INTERC=
+EPT&amp;email_subject_line=3DYour%20priceline%20itinerary%20for%20Tokyo%2C%=
+20JA%20-%20May%209th%2C%202014%20(Itinerary%20205-318-110-11)&amp;email_pre=
+view_line=3D" target=3D"_blank">go here</a>
+
+
+
+
+
+
+
+</div></div><div style=3D"margin:0;padding:0;width:100%;background:#ffffff"=
+><div><div class=3D"h5">
+
+<img src=3D"http://jump.priceline.com/email_open1x1.gif?refid=3DTMTRANSACT&=
+amp;sendId=3D32002812406&amp;email_subject_line=3DYour+priceline+itinerary+=
+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&amp;bat=
+chId=3D290506&amp;refclickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%=
+7COPEN&amp;ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&amp;utm_me=
+dium=3Demail&amp;utm_source=3DTM_AIR_ACCEPT_INTERCEPT&amp;utm_campaign=3DTM=
+_AIR_ACCEPT_INTERCEPT_32002812406&amp;email_subject_line=3DYour+priceline+i=
+tinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%2=
+9" style=3D"width:1px;min-height:1px;display:block" alt=3D"">
+
+
+<img width=3D"1" height=3D"1" border=3D"0" align=3D"left" style=3D"width:1p=
+x;min-height:1px;display:block" src=3D"http://adadvisor.net/adscores/s.pixe=
+l?sid=3D9111916868&amp;es=3D4ed9a0ff9b6defa82bae548d3d4adbafde66296b">
+
+
+
+<img width=3D"1" height=3D"1" align=3D"left" border=3D"0" hspace=3D"0" vspa=
+ce=3D"0" style=3D"width:1px;min-height:1px;display:block" src=3D"http://ei.=
+rlcdn.com/362246.gif?m=3D6b775d19ab8980696c7003c6d2a622f2&amp;n=3D1">
+<img width=3D"1" height=3D"1" align=3D"left" border=3D"0" hspace=3D"0" vspa=
+ce=3D"0" style=3D"width:1px;min-height:1px;display:block" src=3D"http://ei.=
+rlcdn.com/362246.gif?m=3D6b775d19ab8980696c7003c6d2a622f2&amp;n=3D2">
+<img width=3D"1" height=3D"1" align=3D"left" border=3D"0" hspace=3D"0" vspa=
+ce=3D"0" style=3D"width:1px;min-height:1px;display:block" src=3D"http://ei.=
+rlcdn.com/362246.gif?m=3D6b775d19ab8980696c7003c6d2a622f2&amp;n=3D3">
+<img width=3D"1" height=3D"1" align=3D"left" border=3D"0" hspace=3D"0" vspa=
+ce=3D"0" style=3D"width:1px;min-height:1px;display:block" src=3D"http://ei.=
+rlcdn.com/362246.gif?m=3D6b775d19ab8980696c7003c6d2a622f2&amp;n=3D4">
+
+</div></div><table style=3D"margin-left:auto;margin-right:auto;width:706px;=
+border-collapse:collapse" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0">
+<tbody><tr>
+<td style=3D"border-collapse:collapse" width=3D"4%"><img src=3D"http://imag=
+e.emails.priceline.com/lib/fef51371706d00/m/1/space.gif" style=3D"display:b=
+lock;outline:none;text-decoration:none" alt=3D" " height=3D"1" width=3D"10"=
+></td>
+<td style=3D"border-collapse:collapse" width=3D"92%">
+<table style=3D"border-collapse:collapse" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" width=3D"100%">
+<tbody><tr>
+<td>
+<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr>
+<td style=3D"padding-top:18px">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr>
+<td style=3D"font-family:Arial,Helvetica,sans-serif;font-size:12px;line-hei=
+ght:14px;color:#515050;padding-right:7px">Follow
+Us</td>
+<td style=3D"padding-right:7px"><a href=3D"http://jump.priceline.com/defaul=
+t.asp?refid=3DTMTRANSACT&amp;sendId=3D32002812406&amp;email_subject_line=3D=
+Your+priceline+itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+=
+205-318-110-11%29&amp;batchId=3D290506&amp;refclickid=3D20140422%7C1%7COFFE=
+R%7CACCEPT_INTERCEPT_CTL%7CHEADER_FACEBOOK_LINK&amp;ea=3D8235F30253A459DFB6=
+B021E68311D6DF261D4D5CD663813A&amp;utm_medium=3Demail&amp;utm_source=3DTM_A=
+IR_ACCEPT_INTERCEPT&amp;utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002812406&=
+amp;url=3Dhttp://www.facebook.com/priceline" style=3D"color:#0a84c1;font-si=
+ze:10px" target=3D"_blank"><img src=3D"http://image.emails.priceline.com/li=
+b/fef51371706d00/m/1/icn_facebook_top_2x.gif" alt=3D"Facebook" style=3D"dis=
+play:block" border=3D"0" height=3D"24" width=3D"24"></a></td>
+
+
+<td style=3D"padding-right:7px"><a href=3D"http://jump.priceline.com/defaul=
+t.asp?refid=3DTMTRANSACT&amp;sendId=3D32002812406&amp;email_subject_line=3D=
+Your+priceline+itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+=
+205-318-110-11%29&amp;batchId=3D290506&amp;refclickid=3D20140422%7C1%7COFFE=
+R%7CACCEPT_INTERCEPT_CTL%7CHEADER_TWITTER_LINK&amp;ea=3D8235F30253A459DFB6B=
+021E68311D6DF261D4D5CD663813A&amp;utm_medium=3Demail&amp;utm_source=3DTM_AI=
+R_ACCEPT_INTERCEPT&amp;utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002812406&a=
+mp;url=3Dhttps://twitter.com/priceline" style=3D"color:#0a84c1;font-size:10=
+px" target=3D"_blank"><img src=3D"http://image.emails.priceline.com/lib/fef=
+51371706d00/m/1/icn_twitterz_top_2x.gif" alt=3D"Twitter" style=3D"display:b=
+lock" border=3D"0" height=3D"24" width=3D"24"></a></td>
+
+
+<td style=3D"padding-right:7px"><a href=3D"http://jump.priceline.com/defaul=
+t.asp?refid=3DTMTRANSACT&amp;sendId=3D32002812406&amp;email_subject_line=3D=
+Your+priceline+itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+=
+205-318-110-11%29&amp;batchId=3D290506&amp;refclickid=3D20140422%7C1%7COFFE=
+R%7CACCEPT_INTERCEPT_CTL%7CHEADER_GOOGLEPLUS_LINK&amp;ea=3D8235F30253A459DF=
+B6B021E68311D6DF261D4D5CD663813A&amp;utm_medium=3Demail&amp;utm_source=3DTM=
+_AIR_ACCEPT_INTERCEPT&amp;utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_3200281240=
+6&amp;url=3Dhttps://plus.google.com/%2Bpriceline" style=3D"color:#0a84c1;fo=
+nt-size:10px" target=3D"_blank"><img src=3D"http://image.emails.priceline.c=
+om/lib/fef51371706d00/m/1/icn_googlePlus_top_2x.gif" alt=3D"Google+" style=
+=3D"display:block" border=3D"0" height=3D"24" width=3D"24"></a></td>
+
+
+<td><a href=3D"http://jump.priceline.com/default.asp?refid=3DTMTRANSACT&amp=
+;sendId=3D32002812406&amp;email_subject_line=3DYour+priceline+itinerary+for=
++Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&amp;batchI=
+d=3D290506&amp;refclickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CH=
+EADER_YOUTUBE_LINK&amp;ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813=
+A&amp;utm_medium=3Demail&amp;utm_source=3DTM_AIR_ACCEPT_INTERCEPT&amp;utm_c=
+ampaign=3DTM_AIR_ACCEPT_INTERCEPT_32002812406&amp;url=3Dhttp://www.youtube.=
+com/user/priceline" style=3D"color:#0a84c1;font-size:10px" target=3D"_blank=
+"><img src=3D"http://image.emails.priceline.com/lib/fef51371706d00/m/1/icn_=
+youTube_top_2x.gif" alt=3D"YouTube" style=3D"display:block" border=3D"0" he=
+ight=3D"24" width=3D"24"></a></td>
+
+
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<a href=3D"http://jump.priceline.com/download-priceline-negotiator-app?refi=
+d=3DTMTRANSACT&amp;sendId=3D32002812406&amp;email_subject_line=3DYour+price=
+line+itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-11=
+0-11%29&amp;batchId=3D290506&amp;refclickid=3D20140422%7C1%7COFFER%7CACCEPT=
+_INTERCEPT_CTL%7CDOWNLOAD_APP_LINK&amp;ea=3D8235F30253A459DFB6B021E68311D6D=
+F261D4D5CD663813A&amp;utm_medium=3Demail&amp;utm_source=3DTM_AIR_ACCEPT_INT=
+ERCEPT&amp;utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002812406" target=3D"_b=
+lank"></a>
+<a href=3D"http://jump.priceline.com/?refid=3DTMTRANSACT&amp;sendId=3D32002=
+812406&amp;email_subject_line=3DYour+priceline+itinerary+for+Tokyo%2C+JA+-+=
+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&amp;batchId=3D290506&amp;=
+refclickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CTOPNAV_LOGO_LINK=
+&amp;ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&amp;utm_medium=
+=3Demail&amp;utm_source=3DTM_AIR_ACCEPT_INTERCEPT&amp;utm_campaign=3DTM_AIR=
+_ACCEPT_INTERCEPT_32002812406" target=3D"_blank"><img src=3D"http://image.e=
+mails.priceline.com/lib/fef51371706d00/m/1/pricelineLogo_onWhite2x.gif" alt=
+=3D"Priceline.com" border=3D"0" height=3D"55" width=3D"203"></a>
+</td>
+</tr>
+<tr>
+<td style=3D"padding-bottom:10px">
+<table style=3D"height:33px" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" width=3D"100%">
+<tbody><tr>
+<td style=3D"width:126px;padding:8px 0;border-radius:7px;background:#0e82c4=
+ url(http://image.emails.priceline.com/lib/fef51371706d00/m/1/top_nav_bg.gi=
+f) repeat-x 0 0" align=3D"center" bgcolor=3D"#0e82c4">
+<a href=3D"https://offers.priceline.com/lr/r.php?lr=3Dair_search&amp;refid=
+=3DTMTRANSACT&amp;sendId=3D32002812406&amp;email_subject_line=3DYour+pricel=
+ine+itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110=
+-11%29&amp;batchId=3D290506&amp;refclickid=3D20140422%7C1%7COFFER%7CACCEPT_=
+INTERCEPT_CTL%7CTOPNAV_FLIGHT_LINK&amp;ea=3D8235F30253A459DFB6B021E68311D6D=
+F261D4D5CD663813A&amp;utm_medium=3Demail&amp;utm_source=3DTM_AIR_ACCEPT_INT=
+ERCEPT&amp;utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002812406" style=3D"fon=
+t-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:14px;text-de=
+coration:none;color:#f2f2f2;display:block;font-weight:bold" target=3D"_blan=
+k">Flights</a></td>
+
+
+<td style=3D"width:5px"></td>
+<td style=3D"width:126px;padding:8px 0;border-radius:7px;background:#0e82c4=
+ url(http://image.emails.priceline.com/lib/fef51371706d00/m/1/top_nav_bg.gi=
+f) repeat-x 0 0" align=3D"center" bgcolor=3D"#0e82c4">
+<a href=3D"https://offers.priceline.com/lr/r.php?lr=3Dhtl_rtl3&amp;refid=3D=
+TMTRANSACT&amp;sendId=3D32002812406&amp;email_subject_line=3DYour+priceline=
++itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11=
+%29&amp;batchId=3D290506&amp;refclickid=3D20140422%7C1%7COFFER%7CACCEPT_INT=
+ERCEPT_CTL%7CTOPNAV_HOTELS_LINK&amp;ea=3D8235F30253A459DFB6B021E68311D6DF26=
+1D4D5CD663813A&amp;utm_medium=3Demail&amp;utm_source=3DTM_AIR_ACCEPT_INTERC=
+EPT&amp;utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002812406" style=3D"font-f=
+amily:Arial,Helvetica,sans-serif;font-size:13px;line-height:14px;text-decor=
+ation:none;color:#f2f2f2;display:block;font-weight:bold" target=3D"_blank">=
+Hotels</a></td>
+
+
+<td style=3D"width:5px"></td>
+<td style=3D"width:126px;padding:8px 0;border-radius:7px;background:#0e82c4=
+ url(http://image.emails.priceline.com/lib/fef51371706d00/m/1/top_nav_bg.gi=
+f) repeat-x 0 0" align=3D"center" bgcolor=3D"#0e82c4">
+<a href=3D"https://offers.priceline.com/lr/r.php?lr=3Drc_search&amp;refid=
+=3DTMTRANSACT&amp;sendId=3D32002812406&amp;email_subject_line=3DYour+pricel=
+ine+itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110=
+-11%29&amp;batchId=3D290506&amp;refclickid=3D20140422%7C1%7COFFER%7CACCEPT_=
+INTERCEPT_CTL%7CTOPNAV_RC_LINK&amp;ea=3D8235F30253A459DFB6B021E68311D6DF261=
+D4D5CD663813A&amp;utm_medium=3Demail&amp;utm_source=3DTM_AIR_ACCEPT_INTERCE=
+PT&amp;utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002812406" style=3D"font-fa=
+mily:Arial,Helvetica,sans-serif;font-size:13px;line-height:14px;text-decora=
+tion:none;color:#f2f2f2;display:block;font-weight:bold" target=3D"_blank">C=
+ars</a></td>
+
+
+<td style=3D"width:5px"></td>
+<td style=3D"width:126px;padding:8px 0;border-radius:7px;background:#0e82c4=
+ url(http://image.emails.priceline.com/lib/fef51371706d00/m/1/top_nav_bg.gi=
+f) repeat-x 0 0" align=3D"center" bgcolor=3D"#0e82c4">
+<a href=3D"http://jump.priceline.com/vacationpackages/?refid=3DTMTRANSACT&a=
+mp;sendId=3D32002812406&amp;email_subject_line=3DYour+priceline+itinerary+f=
+or+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&amp;batc=
+hId=3D290506&amp;refclickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7=
+CTOPNAV_VP_LINK&amp;ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&a=
+mp;utm_medium=3Demail&amp;utm_source=3DTM_AIR_ACCEPT_INTERCEPT&amp;utm_camp=
+aign=3DTM_AIR_ACCEPT_INTERCEPT_32002812406" style=3D"font-family:Arial,Helv=
+etica,sans-serif;font-size:13px;line-height:14px;text-decoration:none;color=
+:#f2f2f2;display:block;font-weight:bold" target=3D"_blank">Packages</a></td=
+>
+
+
+<td style=3D"width:5px"></td>
+<td style=3D"width:126px;padding:8px 0;border-radius:7px;background:#0e82c4=
+ url(http://image.emails.priceline.com/lib/fef51371706d00/m/1/top_nav_bg.gi=
+f) repeat-x 0 0" align=3D"center" bgcolor=3D"#0e82c4">
+<a href=3D"http://jump.priceline.com/default.asp?url=3Dhttp://cruises.price=
+line.com/default.asp%3f&amp;refid=3DTMTRANSACT&amp;sendId=3D32002812406&amp=
+;email_subject_line=3DYour+priceline+itinerary+for+Tokyo%2C+JA+-+May+9th%2C=
++2014+%28Itinerary%23+205-318-110-11%29&amp;batchId=3D290506&amp;refclickid=
+=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CTOPNAV_CRUISE_LINK&amp;ea=
+=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&amp;utm_medium=3Demail&=
+amp;utm_source=3DTM_AIR_ACCEPT_INTERCEPT&amp;utm_campaign=3DTM_AIR_ACCEPT_I=
+NTERCEPT_32002812406" style=3D"font-family:Arial,Helvetica,sans-serif;font-=
+size:13px;line-height:14px;text-decoration:none;color:#f2f2f2;display:block=
+;font-weight:bold" target=3D"_blank">Cruises</a></td>
+
+
+</tr>
+</tbody></table>
+</td>
+</tr><tr>
+<td style=3D"border-collapse:collapse">
+<table style=3D"border-top-right-radius:7px;border-top-left-radius:7px;bord=
+er-collapse:collapse" bgcolor=3D"#0a84c1" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding:4px 4px 0 4px;border-collapse:collapse">
+<table style=3D"border-radius:7px;padding:0px;margin:0px;border-collapse:se=
+parate" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody><tr>
+<td style=3D"border-collapse:collapse">
+
+<table style=3D"border-top-right-radius:7px;border-top-left-radius:7px;padd=
+ing:10px;background:#fff;border-collapse:separate" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody><tr>
+<td style=3D"border-collapse:collapse"><div><div class=3D"h5">
+
+<table style=3D"border-bottom:1px solid #dddddd" cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"100%">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding-bottom:10px">
+<table align=3D"left" cellpadding=3D"0" cellspacing=3D"0" width=3D"70%">
+<tbody><tr>
+
+
+
+<td style=3D"font-family:Arial,Helvetica,sans-serif;font-weight:bold;font-s=
+ize:22px;line-height:24px;color:#085397">Flight
+Confirmation</td>
+</tr>                     <tr>
+
+
+
+
+<td style=3D"line-height:16px;font-size:14px;font-family:Arial,Helvetica,sa=
+ns-serif;font-weight:normal">Your trip number is <strong>205-318-110-11</st=
+rong>. <a href=3D"http://jump.priceline.com/status/310A50185A69020B95759545=
+373E8A68BDAD61891095518B408E232E179DAC6F?plf=3DPCLN&amp;from=3DDINC&amp;ref=
+id=3DTMTRANSACT&amp;sendId=3D32002812406&amp;email_subject_line=3DYour+pric=
+eline+itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-1=
+10-11%29&amp;batchId=3D290506&amp;refclickid=3D20140422%7C1%7COFFER%7CACCEP=
+T_INTERCEPT_CTL%7CAIR_RTL_ACCEPT_ITINERARY_LINK&amp;ea=3D8235F30253A459DFB6=
+B021E68311D6DF261D4D5CD663813A&amp;utm_medium=3Demail&amp;utm_source=3DTM_A=
+IR_ACCEPT_INTERCEPT&amp;utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002812406"=
+ style=3D"font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight=
+:normal;line-height:16px;color:#2d94cc;text-decoration:underline" target=3D=
+"_blank">View=C2=A0full=C2=A0itinerary</a>.</td>
+
+
+</tr>
+									 =20
+									  <tr>
+										 =20
+									  	  <td align=3D"center">
+									  	 	<div style=3D"font-size:0;max-height:0;overflow:hidden">
+											<div style=3D"min-height:10px;font-size:10px;line-height:10px;pa=
+dding:0px;margin:0px">=C2=A0</div>				=09
+									    		<a href=3D"http://jump.priceline.com/status/310A50185A69020B=
+95759545373E8A68BDAD61891095518B408E232E179DAC6F?plf=3DPCLN&amp;from=3DDINC=
+&amp;refid=3DTMTRANSACT&amp;sendId=3D32002812406&amp;email_subject_line=3DY=
+our+priceline+itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+2=
+05-318-110-11%29&amp;batchId=3D290506&amp;refclickid=3D20140422%7C1%7COFFER=
+%7CACCEPT_INTERCEPT_CTL%7CAIR_RTL_ACCEPT_PRINT_ITINERARY_LINK&amp;ea=3D8235=
+F30253A459DFB6B021E68311D6DF261D4D5CD663813A&amp;utm_medium=3Demail&amp;utm=
+_source=3DTM_AIR_ACCEPT_INTERCEPT&amp;utm_campaign=3DTM_AIR_ACCEPT_INTERCEP=
+T_32002812406" target=3D"_blank"><div style=3D"border:1px solid #333333;bor=
+der-radius:7px;padding:10px;float:left">
+
+<img src=3D"http://image.emails.priceline.com/lib/fef51371706d00/m/1/print_=
+itin_btn.gif" width=3D"142" height=3D"25" style=3D"display:block;padding:0p=
+x;margin:0px"></div></a>
+
+												<a href=3D"http://jump.priceline.com/status/310A50185A69020B957=
+59545373E8A68BDAD61891095518B408E232E179DAC6F?plf=3DPCLN&amp;from=3DDINC&am=
+p;refid=3DTMTRANSACT&amp;sendId=3D32002812406&amp;email_subject_line=3DYour=
++priceline+itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-=
+318-110-11%29&amp;batchId=3D290506&amp;refclickid=3D20140422%7C1%7COFFER%7C=
+ACCEPT_INTERCEPT_CTL%7CAIR_RTL_ACCEPT_EMAIL_ITINERARY_LINK&amp;ea=3D8235F30=
+253A459DFB6B021E68311D6DF261D4D5CD663813A&amp;utm_medium=3Demail&amp;utm_so=
+urce=3DTM_AIR_ACCEPT_INTERCEPT&amp;utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_3=
+2002812406" target=3D"_blank"><div style=3D"border:1px solid #0a84c1;border=
+-radius:7px;padding:10px;float:right">
+
+<img src=3D"http://image.emails.priceline.com/lib/fef51371706d00/m/1/email_=
+itin_btn.gif" width=3D"142" height=3D"25" style=3D"display:block;padding:0p=
+x;margin:0px"></div></a>
+											</div>
+								    	</td>
+									=09
+								    </tr>                                      <tr>
+<td style=3D"height:10px;font-size:10px;line-height:10px;padding:0px;margin=
+:0px" align=3D"left" height=3D"10" width=3D"100%">=C2=A0</td>
+</tr>
+
+<tr>
+
+
+
+<td style=3D"font-family:Arial,Helvetica,sans-serif;font-weight:normal"><sp=
+an style=3D"font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#08=
+5397">Airline			 Confirmation Numbers</span><br><span style=3D"font-size:14=
+px;display:inline-block;font-family:Arial,Helvetica,sans-serif;font-weight:=
+bold">Delta
+Air Lines: <span style=3D"font-weight:normal">GT3NBP</span></span><span>=C2=
+=A0</span>					</td>
+</tr>
+
+<tr>
+<td style=3D"height:10px;font-size:10px;line-height:10px;padding:0px;margin=
+:0px" align=3D"left" height=3D"10" width=3D"100%">=C2=A0</td>
+</tr>
+
+<tr>
+<td style=3D"line-height:16px;font-size:13px;font-family:Arial,Helvetica,sa=
+ns-serif;font-weight:normal">Please review the itinerary and passenger deta=
+ils below. If you see an error, contact Priceline Customer Service
+immediately. Flight schedules can change, please confirm your itinerary wit=
+h the operating airline at least 24 hours before
+departure.</td>
+</tr>
+									  <tr>
+<td style=3D"height:10px;font-size:10px;line-height:10px;padding:0px;margin=
+:0px" align=3D"left" height=3D"10" width=3D"100%">=C2=A0</td>
+</tr>
+<tr>
+<td style=3D"line-height:16px;font-size:13px;font-family:Arial,Helvetica,sa=
+ns-serif;font-weight:normal">Airline baggage fees or other optional service=
+s may not be included your trip cost. </td>
+</tr>
+</tbody></table>						=09
+									<table align=3D"right" cellpadding=3D"0" cellspacing=3D"0">
+										<tbody><tr>
+											<td align=3D"left" style=3D"border:1px solid #333333;border-radi=
+us:7px">
+											<a href=3D"http://jump.priceline.com/status/310A50185A69020B9575=
+9545373E8A68BDAD61891095518B408E232E179DAC6F?plf=3DPCLN&amp;from=3DDINC&amp=
+;refid=3DTMTRANSACT&amp;sendId=3D32002812406&amp;email_subject_line=3DYour+=
+priceline+itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-3=
+18-110-11%29&amp;batchId=3D290506&amp;refclickid=3D20140422%7C1%7COFFER%7CA=
+CCEPT_INTERCEPT_CTL%7CAIR_RTL_ACCEPT_PRINT_ITINERARY_LINK&amp;ea=3D8235F302=
+53A459DFB6B021E68311D6DF261D4D5CD663813A&amp;utm_medium=3Demail&amp;utm_sou=
+rce=3DTM_AIR_ACCEPT_INTERCEPT&amp;utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32=
+002812406" target=3D"_blank">
+												<table cellspacing=3D"0" cellpadding=3D"0">
+													<tbody><tr>
+														<td style=3D"padding:10px"><img src=3D"http://image.emails.pr=
+iceline.com/lib/fef51371706d00/m/1/print_itin_btn.gif" width=3D"142" height=
+=3D"25" style=3D"display:block;padding:0px;margin:0px"></td>
+													</tr>
+												</tbody></table>
+											</a>
+											</td>
+										</tr>
+										<tr>
+											<td style=3D"height:5px;font-size:5px;line-height:5px;padding:0p=
+x;margin:0px" align=3D"left">=C2=A0</td>
+										</tr>
+										<tr>
+											<td align=3D"left" style=3D"border:1px solid #0a84c1;border-radi=
+us:7px">
+												<a href=3D"http://jump.priceline.com/status/310A50185A69020B957=
+59545373E8A68BDAD61891095518B408E232E179DAC6F?plf=3DPCLN&amp;from=3DDINC&am=
+p;refid=3DTMTRANSACT&amp;sendId=3D32002812406&amp;email_subject_line=3DYour=
++priceline+itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-=
+318-110-11%29&amp;batchId=3D290506&amp;refclickid=3D20140422%7C1%7COFFER%7C=
+ACCEPT_INTERCEPT_CTL%7CAIR_RTL_ACCEPT_EMAIL_ITINERARY_LINK&amp;ea=3D8235F30=
+253A459DFB6B021E68311D6DF261D4D5CD663813A&amp;utm_medium=3Demail&amp;utm_so=
+urce=3DTM_AIR_ACCEPT_INTERCEPT&amp;utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_3=
+2002812406" target=3D"_blank">
+													<table cellspacing=3D"0" cellpadding=3D"0">
+														<tbody><tr>
+															<td style=3D"padding:10px"><img src=3D"http://image.emails.p=
+riceline.com/lib/fef51371706d00/m/1/email_itin_btn.gif" width=3D"142" heigh=
+t=3D"25" style=3D"display:block;padding:0px;margin:0px"></td>
+														</tr>
+													</tbody></table>
+												</a>
+											</td>
+										</tr>
+									</tbody></table>                          </td>
+</tr>
+</tbody></table>					<table style=3D"border-bottom:1px solid #dddddd" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody>
+								<tr>
+<td style=3D"border-collapse:collapse">
+<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody>
+									   <tr>
+<td style=3D"height:10px;font-size:10px;line-height:10px;padding:0px;margin=
+:0px" align=3D"left">=C2=A0</td>
+</tr>
+<tr>
+<td style=3D"font-family:Arial,Helvetica,sans-serif;font-weight:bold;font-s=
+ize:20px;line-height:22px;color:#085397;padding:0px">Flight Details
+<div style=3D"min-height:5px;font-size:5px;line-height:5px;padding:0px;marg=
+in:0px">=C2=A0</div>
+</td>
+</tr>
+<tr>
+<td style=3D"font-family:Arial,Helvetica,sans-serif;font-size:16px;line-hei=
+ght:16px;font-weight:bold" align=3D"left"><span style=3D"line-height:16px;t=
+ext-align:left;font-size:16px;font-family:Arial,Helvetica,sans-serif;font-w=
+eight:normal">Round-Trip</span>=C2=A0|=C2=A0<span style=3D"line-height:16px=
+;text-align:left;font-size:16px;font-family:Arial,Helvetica,sans-serif;font=
+-weight:normal">2 Adults</span>	                               <div style=
+=3D"min-height:10px;font-size:10px;line-height:10px;padding:0px;margin:0px"=
+>
+
+=C2=A0</div>
+</td>
+</tr>                                      <tr>
+<td style=3D"padding:0px" align=3D"left"><span style=3D"line-height:20px;te=
+xt-align:left;font-size:18px;display:inline-block;font-family:Arial,Helveti=
+ca,sans-serif;font-weight:bold">Seattle, WA (SEA) =C2=A0to =C2=A0</span> <s=
+pan style=3D"line-height:20px;text-align:left;font-size:18px;display:inline=
+-block;font-family:Arial,Helvetica,sans-seri f;font-weight:bold">Tokyo, JA
+(NRT)</span>
+<div style=3D"min-height:10px;font-size:10px;line-height:10px;padding:0px;m=
+argin:0px">=C2=A0</div>
+</td>
+</tr>
+          =20
+<tr>
+<td style=3D"padding:0px;margin:0px">
+<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"100%">
+<tbody>
+<tr>
+<td style=3D"padding:10px;border-radius:7px;border:solid 1px #60a4d7" align=
+=3D"center" bgcolor=3D"#eef6fb" width=3D"100%">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%">
+<tbody>								  <tr>
+<td style=3D"padding:0px" align=3D"left"><span style=3D"text-align:left;fon=
+t-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:normal;color=
+:#085397;line-height:16px;display:inline-block">Seattle,
+WA (SEA) =C2=A0to =C2=A0</span> <span style=3D"text-align:left;font-family:=
+Arial,Helvetica,sans-serif;font-size:16px;font-weight:normal;color:#085397;=
+line-height:16px;display:inline-block">Portland, OR (PDX)</span>
+<div style=3D"min-height:5px;font-size:5px;line-height:5px;padding:0px;marg=
+in:0px">=C2=A0</div>
+</td>
+</tr>                                 <tr>
+<td style=3D"padding:0px;margin:0px">
+<table style=3D"border-collapse:collapse" align=3D"left" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"35%">
+<tbody><tr>
+<td style=3D"padding-top:0px!important;line-height:14px;border-collapse:col=
+lapse;font-size:12px;text-decoration:none;font-family:Arial,Helvetica,sans-=
+serif;font-weight:bold" align=3D"left">Departing</td>
+</tr>
+<tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal" =
+align=3D"left">Seattle-Tacoma Intl Airport</td>
+</tr>
+<tr>
+<td style=3D"padding-top:0px;line-height:14px;border-collapse:collapse;font=
+-size:12px;text-decoration:none;font-family:Arial,Helvetica,sans-serif;font=
+-weight:normal" align=3D"left">Fri,
+May. 09, 2014 at 10:00 AM</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse;padding-left:0px" align=3D"left" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
+<tbody><tr style=3D"padding-top:0px;padding-bottom:0px;padding-left:0px;pad=
+ding-right:0px">
+<td>=C2=A0</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse" align=3D"left" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"35%">
+<tbody><tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:bold" al=
+ign=3D"left">Arriving</td>
+</tr>
+<tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal" =
+align=3D"left">Portland Intl Airport</td>
+</tr>
+<tr>
+<td style=3D"padding-top:0px;line-height:14px;border-collapse:collapse;font=
+-size:12px;text-decoration:none;font-family:Arial,Helvetica,sans-serif;font=
+-weight:normal" align=3D"left">Fri,
+May. 09, 2014 at 10:50 AM</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse;padding-left:0px" align=3D"left" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
+<tbody><tr style=3D"padding-top:0px;padding-bottom:0px;padding-left:0px;pad=
+ding-right:0px">
+<td>=C2=A0</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse" align=3D"left" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"25%">
+<tbody><tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:bold" al=
+ign=3D"left">Flight / Class</td>
+</tr>
+<tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal;p=
+adding:0px" align=3D"left">Delta Air Lines 9187</td>
+</tr>
+<tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal;p=
+adding:0px" align=3D"left">Economy Class</td>
+</tr>                                       <tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal;p=
+adding:0px" align=3D"left">Conf Number: GT3NBP</td>
+</tr>                                              </tbody></table>
+</td>
+</tr>
+<tr>
+<td style=3D"height:6px;font-size:6px;line-height:6px;padding:0px;margin:0p=
+x" align=3D"left">=C2=A0</td>
+</tr>
+<tr>
+<td colspan=3D"5" style=3D"border-collapse:collapse;font-family:Arial,Helve=
+tica,sans-serif;font-size:12px;line-height:16px;color:#ec2222;font-weight:n=
+ormal;text-decoration:none" align=3D"left" valign=3D"top"><img src=3D"http:=
+//image.emails.priceline.com/lib/fef51371706d00/m/1/codeshare.gif" align=3D=
+"left" height=3D"16" width=3D"16"><span style=3D"font-size:10px;width:5px">=
+=C2=A0</span>This flight is operated by Alaska Airlines/Horizon Air</td>
+
+
+</tr>
+					  <tr>
+<td style=3D"height:10px;font-size:10px;line-height:10px;padding:0px;margin=
+:0px" align=3D"left">=C2=A0</td>
+</tr>
+<tr>
+<td style=3D"line-height:16px;border-collapse:collapse;font-size:16px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:bold;pad=
+ding:0px" align=3D"left">Layover Time: 3h and 26min</td>
+</tr>
+<tr>
+<td style=3D"height:10px;font-size:10px;line-height:10px;padding:0px;margin=
+:0px" align=3D"left">=C2=A0</td>
+</tr>								  <tr>
+<td style=3D"padding:0px" align=3D"left"><span style=3D"text-align:left;fon=
+t-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:normal;color=
+:#085397;line-height:16px;display:inline-block">Portland,
+OR (PDX) =C2=A0to =C2=A0</span> <span style=3D"text-align:left;font-family:=
+Arial,Helvetica,sans-serif;font-size:16px;font-weight:normal;color:#085397;=
+line-height:16px;display:inline-block">Tokyo, JA (NRT)</span>
+<div style=3D"min-height:5px;font-size:5px;line-height:5px;padding:0px;marg=
+in:0px">=C2=A0</div>
+</td>
+</tr>                                 <tr>
+<td style=3D"padding:0px;margin:0px">
+<table style=3D"border-collapse:collapse" align=3D"left" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"35%">
+<tbody><tr>
+<td style=3D"padding-top:0px!important;line-height:14px;border-collapse:col=
+lapse;font-size:12px;text-decoration:none;font-family:Arial,Helvetica,sans-=
+serif;font-weight:bold" align=3D"left">Departing</td>
+</tr>
+<tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal" =
+align=3D"left">Portland Intl Airport</td>
+</tr>
+<tr>
+<td style=3D"padding-top:0px;line-height:14px;border-collapse:collapse;font=
+-size:12px;text-decoration:none;font-family:Arial,Helvetica,sans-serif;font=
+-weight:normal" align=3D"left">Fri,
+May. 09, 2014 at 2:16 PM</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse;padding-left:0px" align=3D"left" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
+<tbody><tr style=3D"padding-top:0px;padding-bottom:0px;padding-left:0px;pad=
+ding-right:0px">
+<td>=C2=A0</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse" align=3D"left" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"35%">
+<tbody><tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:bold" al=
+ign=3D"left">Arriving</td>
+</tr>
+<tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal" =
+align=3D"left">Narita Intl Airport</td>
+</tr>
+<tr>
+<td style=3D"padding-top:0px;line-height:14px;border-collapse:collapse;font=
+-size:12px;text-decoration:none;font-family:Arial,Helvetica,sans-serif;font=
+-weight:normal" align=3D"left">Sat,
+May. 10, 2014 at 4:55 PM</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse;padding-left:0px" align=3D"left" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
+<tbody><tr style=3D"padding-top:0px;padding-bottom:0px;padding-left:0px;pad=
+ding-right:0px">
+<td>=C2=A0</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse" align=3D"left" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"25%">
+<tbody><tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:bold" al=
+ign=3D"left">Flight / Class</td>
+</tr>
+<tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal;p=
+adding:0px" align=3D"left">Delta Air Lines 643</td>
+</tr>
+<tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal;p=
+adding:0px" align=3D"left">Economy Class</td>
+</tr>                                       <tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal;p=
+adding:0px" align=3D"left">Conf Number: GT3NBP</td>
+</tr>                                              </tbody></table>
+</td>
+</tr> 							</tbody>
+												</table>
+</td>
+</tr>
+</tbody></table>
+
+</td>
+</tr>
+
+
+<tr>
+<td style=3D"height:10px;font-size:10px;line-height:10px;padding:0px;margin=
+:0px" align=3D"left">=C2=A0</td> </tr>
+<tr>
+<td style=3D"padding:0px" align=3D"left"><span style=3D"line-height:20px;te=
+xt-align:left;font-size:18px;display:inline-block;font-family:Arial,Helveti=
+ca,sans-serif;font-weight:bold">Tokyo, JA (NRT)
+=C2=A0to =C2=A0</span> <span style=3D"line-height:20px;text-align:left;font=
+-size:18px;display:inline-block;font-family:Arial,Helvetica,sans-serif;font=
+-weight:bold">Seattle, WA (SEA)</span>
+<div style=3D"min-height:10px;font-size:10px;line-height:10px;padding:0px;m=
+argin:0px">=C2=A0</div>
+</td>
+</tr>
+                    =20
+<tr>
+<td style=3D"padding:0px;margin:0px">
+<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding:10px;border-radius:7px;border:solid 1px #60a4d7" align=
+=3D"center" bgcolor=3D"#eef6fb" width=3D"100%">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%">
+<tbody><tr>
+<td style=3D"padding:0px;margin:0px">
+<table style=3D"border-collapse:collapse" align=3D"left" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"35%">
+<tbody><tr>
+<td style=3D"padding-top:0px!important;line-height:14px;border-collapse:col=
+lapse;font-size:12px;text-decoration:none;font-family:Arial,Helvetica,sans-=
+serif;font-weight:bold" align=3D"left">Departing</td>
+</tr>
+<tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal" =
+align=3D"left">Narita Intl Airport</td>
+</tr>
+<tr>
+<td style=3D"padding-top:0px;line-height:14px;border-collapse:collapse;font=
+-size:12px;text-decoration:none;font-family:Arial,Helvetica,sans-serif;font=
+-weight:normal" align=3D"left">Mon,
+May. 19, 2014 at 3:55 PM</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse;padding-left:0px" align=3D"left" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
+<tbody><tr style=3D"padding-top:0px;padding-bottom:0px;padding-left:0px;pad=
+ding-right:0px">
+<td>=C2=A0</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse" align=3D"left" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"35%">
+<tbody><tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:bold" al=
+ign=3D"left">Arriving</td>
+</tr>
+<tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal" =
+align=3D"left">Seattle-Tacoma Intl Airport</td>
+</tr>
+<tr>
+<td style=3D"padding-top:0px;line-height:14px;border-collapse:collapse;font=
+-size:12px;text-decoration:none;font-family:Arial,Helvetica,sans-serif;font=
+-weight:normal" align=3D"left">Mon,
+May. 19, 2014 at 8:59 AM</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse;padding-left:0px" align=3D"left" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
+<tbody><tr style=3D"padding-top:0px;padding-bottom:0px;padding-left:0px;pad=
+ding-right:0px">
+<td>=C2=A0</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse" align=3D"left" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"25%">
+<tbody><tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:bold" al=
+ign=3D"left">Flight / Class</td>
+</tr>
+<tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal;p=
+adding:0px" align=3D"left">Delta Air Lines 166</td>
+</tr>
+<tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal;p=
+adding:0px" align=3D"left">Economy Class</td>
+</tr>                                       <tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal;p=
+adding:0px" align=3D"left">Conf Number: GT3NBP</td>
+</tr>                                             </tbody></table>
+</td>
+</tr>                                        </tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+										 </td>
+</tr>
+
+<tr>
+<td style=3D"height:10px;font-size:10px;line-height:10px;padding:0px;margin=
+:0px" align=3D"left">=C2=A0</td>
+</tr>                              </tbody>
+</table>
+</td>
+</tr>
+</tbody></table>
+
+<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody><tr>
+<td style=3D"height:10px;font-size:10px;line-height:10px;padding:0px;margin=
+:0px" align=3D"left" height=3D"10" width=3D"100%">=C2=A0</td>
+</tr>
+<tr>
+<td style=3D"line-height:20px;font-size:20px;font-family:Arial,Helvetica,sa=
+ns-serif;font-weight:normal;padding:0px">Passenger Information
+<div style=3D"min-height:10px;font-size:10px;line-height:10px;padding:0px;m=
+argin:0px">=C2=A0</div>
+</td>
+</tr>              =20
+<tr>
+<td style=3D"padding:0px;margin:0px">
+<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding:10px;border-radius:7px;border:solid 1px #dddddd" align=
+=3D"center" width=3D"100%">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%">
+<tbody><tr>
+<td style=3D"padding:0px;margin:0px">
+<table style=3D"border-collapse:collapse" align=3D"left" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"30%">
+<tbody><tr>
+<td style=3D"font-size:5px;line-height:5px;padding:0px;margin:0px" align=3D=
+"left">=C2=A0</td>
+</tr>
+<tr>
+<td style=3D"border-collapse:collapse;font-family:Arial,Helvetica,sans-seri=
+f;font-size:14px;line-height:16px;color:#085397;font-weight:normal;text-dec=
+oration:none" align=3D"left">Carla Hudson</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse;padding-left:0px" align=3D"left" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
+<tbody><tr style=3D"padding-top:0px;padding-bottom:0px;padding-left:0px;pad=
+ding-right:0px">
+<td>=C2=A0</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse" align=3D"left" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"26%">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;font-family:Arial,Helvetica,sans-seri=
+f;font-size:10px;line-height:12px;color:#808080;font-style:normal;text-deco=
+ration:none" align=3D"left">Ticketed By</td>
+</tr>
+<tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal" =
+align=3D"left">Delta Air Lines</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse;padding-left:0px" align=3D"left" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
+<tbody><tr style=3D"padding-top:0px;padding-bottom:0px;padding-left:0px;pad=
+ding-right:0px">
+<td>=C2=A0</td>
+</tr>
+</tbody></table>                                       <table style=3D"bord=
+er-collapse:collapse;padding-left:0px" align=3D"left" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" width=3D"8">
+<tbody><tr style=3D"padding-top:0px;padding-bottom:0px;padding-left:0px;pad=
+ding-right:0px">
+<td>=C2=A0</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse" align=3D"left" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"14%">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;font-family:Arial,Helvetica,sans-seri=
+f;font-size:10px;line-height:12px;color:#808080;font-style:normal;text-deco=
+ration:none" align=3D"left">Ticket Type</td>
+</tr>
+<tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal;p=
+adding:0px;padding-bottom:0px!important" align=3D"left">Eticket</td>
+</tr>
+</tbody></table>
+</td>
+</tr>=20
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+</td>
+</tr>
+       =20
+
+<tr>
+<td style=3D"height:5px;font-size:5px;line-height:5px;padding:0px;margin:0p=
+x" align=3D"left" height=3D"5" width=3D"100%">=C2=A0</td>
+</tr>              =20
+<tr>
+<td style=3D"padding:0px;margin:0px">
+<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding:10px;border-radius:7px;border:solid 1px #dddddd" align=
+=3D"center" width=3D"100%">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%">
+<tbody><tr>
+<td style=3D"padding:0px;margin:0px">
+<table style=3D"border-collapse:collapse" align=3D"left" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"30%">
+<tbody><tr>
+<td style=3D"font-size:5px;line-height:5px;padding:0px;margin:0px" align=3D=
+"left">=C2=A0</td>
+</tr>
+<tr>
+<td style=3D"border-collapse:collapse;font-family:Arial,Helvetica,sans-seri=
+f;font-size:14px;line-height:16px;color:#085397;font-weight:normal;text-dec=
+oration:none" align=3D"left">Jeffrey Hudson</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse;padding-left:0px" align=3D"left" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
+<tbody><tr style=3D"padding-top:0px;padding-bottom:0px;padding-left:0px;pad=
+ding-right:0px">
+<td>=C2=A0</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse" align=3D"left" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"26%">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;font-family:Arial,Helvetica,sans-seri=
+f;font-size:10px;line-height:12px;color:#808080;font-style:normal;text-deco=
+ration:none" align=3D"left">Ticketed By</td>
+</tr>
+<tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal" =
+align=3D"left">Delta Air Lines</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse;padding-left:0px" align=3D"left" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
+<tbody><tr style=3D"padding-top:0px;padding-bottom:0px;padding-left:0px;pad=
+ding-right:0px">
+<td>=C2=A0</td>
+</tr>
+</tbody></table>                                       <table style=3D"bord=
+er-collapse:collapse;padding-left:0px" align=3D"left" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" width=3D"8">
+<tbody><tr style=3D"padding-top:0px;padding-bottom:0px;padding-left:0px;pad=
+ding-right:0px">
+<td>=C2=A0</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse" align=3D"left" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"14%">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;font-family:Arial,Helvetica,sans-seri=
+f;font-size:10px;line-height:12px;color:#808080;font-style:normal;text-deco=
+ration:none" align=3D"left">Ticket Type</td>
+</tr>
+<tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal;p=
+adding:0px;padding-bottom:0px!important" align=3D"left">Eticket</td>
+</tr>
+</tbody></table>
+</td>
+</tr>=20
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+</td>
+</tr>
+                     =20
+							  <tr>
+<td style=3D"height:10px;font-size:10px;line-height:10px;padding:0px;margin=
+:0px" align=3D"left" height=3D"10" width=3D"100%">=C2=A0</td>
+</tr>
+</tbody></table>
+
+			=20
+
+<table style=3D"border-top:1px solid #dddddd" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%">
+<tbody><tr>
+<td style=3D"height:10px;font-size:10px;line-height:10px;padding:0px;margin=
+:0px" align=3D"left" height=3D"10" width=3D"100%">=C2=A0</td>
+</tr>
+<tr>
+<td style=3D"border-collapse:collapse">
+<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody><tr>
+<td style=3D"border-collapse:collapse">
+<table valign=3D"top" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"70">
+<tbody><tr>
+<td style=3D"border-collapse:collapse" align=3D"top">
+<img src=3D"http://image.emails.priceline.com/lib/fef51371706d00/m/1/air-tr=
+ip-protection.jpg" style=3D"padding:0px;margin:0px" border=3D"0" height=3D"=
+63" width=3D"60">
+</td>
+</tr>
+</tbody></table>
+<table valign=3D"top" style=3D"padding:0px" align=3D"left" cellpadding=3D"0=
+" cellspacing=3D"0" width=3D"400">
+<tbody><tr>
+<td style=3D"font-family:Arial,Helvetica,sans-serif;font-size:20px;font-wei=
+ght:bold;line-height:18px;color:#0a84c1;display:block">We Recommend Trip Pr=
+otection
+<div style=3D"min-height:2px;font-size:2px;line-height:2px;padding:0px;marg=
+in:0px">=C2=A0</div>
+</td>
+</tr>
+<tr>
+<td style=3D"line-height:14px;font-size:14px;display:block;font-family:Aria=
+l,Helvetica,sans-serif;font-weight:normal">Life is uncertain...plan for the=
+ unexpected.
+<div style=3D"min-height:2px;font-size:2px;line-height:2px;padding:0px;padd=
+ing-bottom:3px;margin:0px">=C2=A0</div>
+</td>
+</tr>
+<tr>
+<td style=3D"display:block"><img src=3D"http://image.emails.priceline.com/l=
+ib/fef51371706d00/m/1/air-trip-clock.jpg" style=3D"margin:0px" align=3D"lef=
+t" height=3D"16" width=3D"16"><span style=3D"font-size:10px;width:5px">=C2=
+=A0</span><span style=3D"font-family:Arial,Helvetica,sans-serif;font-size:1=
+4px;font-weight:normal;line-height:16px;color:#ec2222;display:inline-block"=
+>Protection Offer Expires:</span> <span style=3D"font-family:Arial,Helvetic=
+a,sans-serif;font-size:14px;font-weight:normal;line-height:16px;color:#ec22=
+22;display:inline-block">04/23/14 at 12:38 AM EST</span>
+</td>
+</tr>
+</tbody></table>								<table valign=3D"center" align=3D"left" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"120">
+	<tbody><tr>
+		<td rowspan=3D"5" style=3D"border-collapse:collapse">
+			<table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+				<tbody><tr>
+					<td style=3D"text-align:left"><span style=3D"font-family:Arial,Helveti=
+ca,sans-serif;font-size:24px;font-weight:bold;color:#47ab04">$34</span><sup=
+ style=3D"font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height=
+:0px;font-weight:bold;text-decoration:none;color:#47ab04;vertical-align:7px=
+">.00</sup><span style=3D"font-family:Arial,Helvetica,sans-serif;font-size:=
+10px;line-height:10px;font-weight:bold;color:#47ab04;display:inline-block;v=
+ertical-align:0px">=C2=A0/person</span></td>
+
+
+				</tr>
+				<tr>
+					<td style=3D"height:4px;font-size:4px;line-height:4px;padding:0px;marg=
+in:0px" align=3D"left" height=3D"4" width=3D"100%">=C2=A0</td>
+				</tr>
+			</tbody></table>
+			<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100" align=3D"center=
+" height=3D"24">
+				<tbody><tr>
+					<td style=3D"border-collapse:collapse;background:#47ab04;border-radius=
+:5px" align=3D"center" height=3D"24" width=3D"100"><a href=3D"https://jump.=
+priceline.com/toursandattractions/travelInsurance.do?zz=3D310A50185A69020B9=
+5759545373E8A68BDAD61891095518B408E232E179DAC6F&amp;plf=3DPCLN&amp;refid=3D=
+TMTRANSACT&amp;sendId=3D32002812406&amp;email_subject_line=3DYour+priceline=
++itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11=
+%29&amp;batchId=3D290506&amp;refclickid=3D20140422%7C1%7COFFER%7CACCEPT_INT=
+ERCEPT_CTL%7CTRIP_INSURANCE_BTN&amp;ea=3D8235F30253A459DFB6B021E68311D6DF26=
+1D4D5CD663813A&amp;utm_medium=3Demail&amp;utm_source=3DTM_AIR_ACCEPT_INTERC=
+EPT&amp;utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002812406" style=3D"font-f=
+amily:Arial,Helvetica,sans-serif;color:#ffffff;text-align:center;font-size:=
+14px;line-height:14px;font-weight:normal;text-align:center;text-decoration:=
+none" target=3D"_blank">see details</a>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>                                </td>
+</tr>
+</tbody></table>
+</td>
+</tr>                        <tr>
+<td style=3D"height:10px;font-size:10px;line-height:10px;padding:0px;margin=
+:0px" align=3D"left" height=3D"10" width=3D"100%">=C2=A0</td>
+</tr>                              </tbody></table>
+
+													=09
+																<table style=3D"border-top:1px solid #dddddd" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%">
+																	<tbody><tr>
+																		<td style=3D"border-collapse:collapse">
+																			<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+																				<tbody><tr>
+																					<td style=3D"height:10px;font-size:10px;line-height:10=
+px;padding:0px;margin:0px" align=3D"left">=C2=A0</td>
+																				</tr>
+																				<tr>
+																					<td style=3D"font-family:Arial,Helvetica,sans-serif;fo=
+nt-weight:bold;font-size:20px;line-height:22px;color:#085397;padding:0px">S=
+ummary of Charges
+																						<div style=3D"min-height:10px;font-size:10px;line-hei=
+ght:10px;padding:0px;margin:0px">=C2=A0</div>
+																					</td>
+																				</tr>																=09
+																				<tr>
+																					<td colspan=3D"4" align=3D"left" valign=3D"top" width=
+=3D"100%">
+																						<span style=3D"line-height:16px;font-size:16px;font-f=
+amily:Arial,Helvetica,sans-serif;font-weight:bold">Flight</span>
+																						<div style=3D"min-height:5px;font-size:5px;line-heigh=
+t:5px;padding:0px;margin:0px">=C2=A0</div>
+																					</td>
+																				</tr>
+																			=09
+
+																			=09
+																				<tr>
+																					<td style=3D"border-collapse:collapse">
+																						<table valign=3D"top" style=3D"border-top:1px solid #=
+dddddd" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+																						=09
+																							<tbody><tr>
+																								<td colspan=3D"3" style=3D"height:3px;font-size:3px=
+;line-height:3px;padding:0px;margin:0px" align=3D"left">=C2=A0</td>
+																							</tr>
+																							<tr>
+																								<td style=3D"border-collapse:collapse;border-bottom=
+:1px solid #f0f0f0;padding-bottom:3px" align=3D"left">
+																									<table valign=3D"top" align=3D"left" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"53%">
+																										<tbody><tr>
+																											<td align=3D"left" valign=3D"top">
+																												<span style=3D"line-height:14px;font-size:14px;=
+font-family:Arial,Helvetica,sans-serif;font-weight:normal">Ticket Cost</spa=
+n>
+																											</td>
+																										</tr>
+																									</tbody></table>
+																									<table valign=3D"top" align=3D"left" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"42%">
+																										<tbody><tr>
+																											<td align=3D"left" valign=3D"top">
+																												=20
+																												<span style=3D"line-height:14px;font-size:14px;=
+font-family:Arial,Helvetica,sans-serif;font-weight:bold">$457.60</span><spa=
+n style=3D"line-height:12px;font-size:12px;font-family:Arial,Helvetica,sans=
+-serif;font-weight:normal">=C2=A0/ticket</span>																				=09
+																											=09
+<div style=3D"font-size:0;max-height:0;overflow:hidden"><span style=3D"font=
+-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:14px;font-wei=
+ght:normal;color:#515050;display:block">per ticket</span></div>
+
+
+																											</td>
+																										</tr>
+																									</tbody></table>
+																								</td>
+																							</tr>
+																						=09
+
+
+<tr>
+<td colspan=3D"3" style=3D"height:3px;font-size:3px;line-height:3px;padding=
+:0px;margin:0px" align=3D"left">=C2=A0</td>
+</tr>
+<tr>
+<td style=3D"border-collapse:collapse;border-bottom:1px solid #f0f0f0;paddi=
+ng-bottom:3px" align=3D"left">
+<table valign=3D"top" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"53%">
+<tbody><tr>
+<td align=3D"left" valign=3D"top">
+<span style=3D"line-height:14px;font-size:14px;font-family:Arial,Helvetica,=
+sans-serif;font-weight:normal">Taxes And Fees</span>
+</td>
+</tr>
+</tbody></table>
+<table valign=3D"top" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"42%">
+<tbody><tr>
+<td align=3D"left" valign=3D"top">
+=20
+<span style=3D"line-height:14px;font-size:14px;font-family:Arial,Helvetica,=
+sans-serif;font-weight:bold">$671.50</span><span style=3D"line-height:12px;=
+font-size:12px;font-family:Arial,Helvetica,sans-serif;font-weight:normal">=
+=C2=A0/ticket</span>
+																											=09
+<div style=3D"font-size:0;max-height:0;overflow:hidden"><span style=3D"font=
+-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:14px;font-wei=
+ght:normal;color:#515050;display:block">per ticket</span></div>
+
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+                                                                          =
+=20
+
+<tr>
+<td colspan=3D"3" style=3D"height:3px;font-size:3px;line-height:3px;padding=
+:0px;margin:0px" align=3D"left">=C2=A0</td>
+</tr>
+<tr>
+<td style=3D"border-collapse:collapse;padding-bottom:3px" align=3D"left">
+<table valign=3D"top" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"53%">
+<tbody><tr>
+<td align=3D"left" valign=3D"top">
+<span style=3D"line-height:14px;font-size:14px;font-family:Arial,Helvetica,=
+sans-serif;font-weight:normal">Number of Tickets</span>
+</td>
+</tr>
+</tbody></table>
+<table valign=3D"top" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"42%">
+<tbody><tr>
+<td align=3D"left" valign=3D"top">
+=20
+<span style=3D"line-height:14px;font-size:14px;font-family:Arial,Helvetica,=
+sans-serif;font-weight:bold">2</span>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+																				=09
+																							<tr>
+																								<td colspan=3D"4" style=3D"height:3px;font-size:3px=
+;line-height:3px;padding:0px;margin:0px;border-top:1px solid #dddddd">=C2=
+=A0</td>
+																							</tr>
+																							<tr>
+																								<td style=3D"border-collapse:collapse" align=3D"lef=
+t">
+																									<table valign=3D"top" align=3D"left" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"53%">
+																										<tbody><tr>
+																											<td align=3D"left" valign=3D"top">
+																												<span style=3D"line-height:16px;font-size:14px;=
+font-family:Arial,Helvetica,sans-serif;font-weight:bold">Total Charges</spa=
+n>
+																											</td>
+																										</tr>
+																									</tbody></table>
+																									<table valign=3D"top" align=3D"left" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"42%">
+																										<tbody><tr>
+																											<td align=3D"left" valign=3D"top">
+																												<span style=3D"font-family:Arial,Helvetica,sans=
+-serif;font-size:16px;font-weight:bold;line-height:16px;color:#47ab04">$2,2=
+58.20</span>
+																											</td>
+																										</tr>
+																									</tbody></table>
+																								</td>
+																							</tr>																				=09
+																						</tbody></table>
+																					</td>
+																				</tr>
+																				                                                       =
+            <tr>
+<td align=3D"left" valign=3D"top" style=3D"padding-top:5px">
+
+<span style=3D"font-family:Arial,Helvetica,sans-serif;font-size:12px;line-h=
+eight:14px;font-weight:normal;color:#515050">-=C2=A0All
+prices are in USD</span>
+</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding-top:5px">
+
+<span style=3D"font-family:Arial,Helvetica,sans-serif;font-size:12px;line-h=
+eight:14px;font-weight:normal;color:#515050">-=C2=A0Airline
+baggage fees or other optional services may not be included your trip cost.=
+ </span>
+</td>
+</tr>
+
+																			=09
+																				<tr>
+																					<td style=3D"height:10px;font-size:10px;line-height:10=
+px;border-collapse:collapse">=C2=A0
+																					</td>
+																				</tr>
+																				<tr>
+																					<td><a href=3D"http://jump.priceline.com/default.asp?r=
+efid=3DTMTRANSACT&amp;sendId=3D32002812406&amp;email_subject_line=3DYour+pr=
+iceline+itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318=
+-110-11%29&amp;batchId=3D290506&amp;refclickid=3D20140422%7C1%7COFFER%7CACC=
+EPT_INTERCEPT_CTL%7CPCLN_VISA_CARD_LINK&amp;ea=3D8235F30253A459DFB6B021E683=
+11D6DF261D4D5CD663813A&amp;utm_medium=3Demail&amp;utm_source=3DTM_AIR_ACCEP=
+T_INTERCEPT&amp;utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002812406&amp;url=
+=3Dhttps%3A%2F%2Fwww.pricelinevisa.com%2Fapply%2FLanding.action%3FcampaignI=
+d%3D1304%26cellNumber%3D2" target=3D"_blank"><img src=3D"http://image.email=
+s.priceline.com/lib/fef51371706d00/m/1/credit-ad.jpg" align=3D"middle" heig=
+ht=3D"69" width=3D"621"></a></td>
+
+
+																				</tr>
+																				<tr>
+																					<td style=3D"height:10px;font-size:10px;line-height:10=
+px;border-collapse:collapse">=C2=A0
+																					</td>
+																				</tr>
+																			=09
+																			</tbody></table>
+																		=09
+																		=09
+																			<div style=3D"font-size:0;max-height:0;overflow:hidden">
+																				<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100=
+%">
+																					<tbody><tr>
+																						<td bgcolor=3D"#dddddd"><a href=3D"http://jump.pricel=
+ine.com/default.asp?refid=3DTMTRANSACT&amp;sendId=3D32002812406&amp;email_s=
+ubject_line=3DYour+priceline+itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%2=
+8Itinerary%23+205-318-110-11%29&amp;batchId=3D290506&amp;refclickid=3D20140=
+422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CPCLN_VISA_CARD_LINK&amp;ea=3D8235F=
+30253A459DFB6B021E68311D6DF261D4D5CD663813A&amp;utm_medium=3Demail&amp;utm_=
+source=3DTM_AIR_ACCEPT_INTERCEPT&amp;utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT=
+_32002812406&amp;url=3Dhttps%3A%2F%2Fwww.pricelinevisa.com%2Fapply%2FLandin=
+g.action%3FcampaignId%3D1304%26cellNumber%3D2" target=3D"_blank"><img src=
+=3D"http://image.emails.priceline.com/lib/fef51371706d00/m/1/credit-ad-mobi=
+le.jpg" align=3D"left" width=3D"100%"></a></td>
+
+
+																					</tr>
+																					<tr>
+																						<td style=3D"height:10px;font-size:10px;line-height:1=
+0px;border-collapse:collapse">=C2=A0
+																						</td>
+																					</tr>
+																				</tbody></table>
+																			</div>
+																		=09
+																		=09
+																		</td>
+																	</tr>
+																</tbody></table>
+																					 =20
+
+</div></div><table style=3D"border-top:1px solid #dddddd" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"100%">
+<tbody><tr>
+<td style=3D"border-collapse:collapse">
+<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody><tr>
+<td style=3D"height:10px;font-size:10px;line-height:10px;padding:0px;margin=
+:0px" align=3D"left">=C2=A0</td>
+</tr>
+<tr>
+<td style=3D"font-family:Arial,Helvetica,sans-serif;font-weight:bold;font-s=
+ize:20px;line-height:22px;color:#085397;padding:0px">Customer Service
+<div style=3D"min-height:10px;font-size:10px;line-height:10px;padding:0px;m=
+argin:0px">=C2=A0</div>
+</td>
+</tr>
+<tr>
+<td style=3D"line-height:20px;font-size:20px;font-family:Arial,Helvetica,sa=
+ns-serif;font-weight:normal;padding:0px">Airline Contact Information
+<div style=3D"min-height:5px;font-size:5px;line-height:5px;padding:0px;marg=
+in:0px">=C2=A0</div>
+</td>
+</tr>
+<tr>
+<td style=3D"line-height:16px;font-size:13px;font-family:Arial,Helvetica,sa=
+ns-serif" align=3D"left" width=3D"100%">If you need to check flight status,=
+ change your flight, or cancel your flight then  please contact your flight
+operator at the number provided below.=20
+<div style=3D"min-height:10px;font-size:10px;line-height:10px;padding:0px;m=
+argin:0px">=C2=A0</div></td>
+</tr>                   =20
+<tr>
+<td style=3D"padding:0px;margin:0px">
+<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding:10px;border-radius:7px;border:solid 1px #dddddd" align=
+=3D"center" width=3D"100%">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%">
+<tbody><tr>
+<td style=3D"padding:0px;margin:0px">
+<table style=3D"border-collapse:collapse" align=3D"left" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"24%">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;font-family:Arial,Helvetica,sans-seri=
+f;font-size:10px;line-height:12px;color:#808080;font-style:normal;text-deco=
+ration:none" align=3D"left">Airline Name</td>
+</tr>
+<tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal" =
+align=3D"left">Delta Air Lines</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse;padding-left:0px" align=3D"left" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
+<tbody><tr style=3D"padding-top:0px;padding-bottom:0px;padding-left:0px;pad=
+ding-right:0px">
+<td>=C2=A0</td>
+</tr>
+</tbody></table><table style=3D"border-collapse:collapse" align=3D"left" bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"22%">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;font-family:Arial,Helvetica,sans-seri=
+f;font-size:10px;line-height:12px;color:#808080;font-style:normal;text-deco=
+ration:none" align=3D"left">Phone Number</td>
+</tr>
+<tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal" =
+align=3D"left"><span><a href=3D"tel:1-800-221-1212" value=3D"+18002211212" =
+target=3D"_blank">1-800-221-1212</a> Domestic</span></td>
+
+
+</tr>
+</tbody></table>                                             <table style=
+=3D"border-collapse:collapse;padding-left:0px" align=3D"left" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
+<tbody><tr style=3D"padding-top:0px;padding-bottom:0px;padding-left:0px;pad=
+ding-right:0px">
+<td>=C2=A0</td>
+</tr>
+</tbody></table><table style=3D"border-collapse:collapse" align=3D"left" bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"26%">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;font-family:Arial,Helvetica,sans-seri=
+f;font-size:10px;line-height:12px;color:#808080;font-style:normal;text-deco=
+ration:none" align=3D"left">Website</td>
+</tr>
+<tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal" =
+align=3D"left"><a href=3D"http://jump.priceline.com/default.asp?url=3Dhttp:=
+//www.delta.com&amp;refid=3DTMTRANSACT&amp;sendId=3D32002812406&amp;email_s=
+ubject_line=3DYour+priceline+itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%2=
+8Itinerary%23+205-318-110-11%29&amp;batchId=3D290506&amp;refclickid=3D20140=
+422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CAIR_WEBSITE_LINK&amp;ea=3D8235F302=
+53A459DFB6B021E68311D6DF261D4D5CD663813A&amp;utm_medium=3Demail&amp;utm_sou=
+rce=3DTM_AIR_ACCEPT_INTERCEPT&amp;utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32=
+002812406" style=3D"color:#2d94cc;text-decoration:underline" target=3D"_bla=
+nk"><span>www.delta.com</span></a></td>
+
+
+</tr>
+</tbody></table>                                             <table style=
+=3D"border-collapse:collapse;padding-left:0px" align=3D"left" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
+<tbody><tr style=3D"padding-top:0px;padding-bottom:0px;padding-left:0px;pad=
+ding-right:0px">
+<td>=C2=A0</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse" align=3D"left" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"20%">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;font-family:Arial,Helvetica,sans-seri=
+f;font-size:10px;line-height:12px;color:#808080;font-style:normal;text-deco=
+ration:none" align=3D"left">Confirmation Number</td>
+</tr>
+<tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:12px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal;p=
+adding-bottom:0px!important" align=3D"left">GT3NBP</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+
+								=09
+<tr>
+<td style=3D"height:5px;font-size:5px;line-height:5px;padding:0px;margin:0p=
+x" align=3D"left">=C2=A0</td>
+</tr><tr>
+<td style=3D"height:5px;font-size:5px;line-height:5px;padding:0px;margin:0p=
+x" align=3D"left">=C2=A0</td>
+</tr>
+<tr>
+<td style=3D"line-height:20px;font-size:20px;font-family:Arial,Helvetica,sa=
+ns-serif;font-weight:normal;padding:0px">Priceline Customer Service Informa=
+tion
+<div style=3D"min-height:5px;font-size:5px;line-height:5px;padding:0px;marg=
+in:0px">=C2=A0</div>
+</td>
+</tr>
+<tr>
+<td style=3D"line-height:16px;font-size:13px;font-family:Arial,Helvetica,sa=
+ns-serif" align=3D"left" width=3D"100%">If you need assistance with this or=
+ any other priceline purchase please contact a customer service representat=
+ive
+at the number below.
+<div style=3D"min-height:10px;font-size:10px;line-height:10px;padding:0px;m=
+argin:0px">=C2=A0</div></td>
+</tr>
+<tr>
+<td style=3D"padding:0px;margin:0px">
+<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding:10px;border-radius:7px;border:solid 1px #dddddd" align=
+=3D"center" width=3D"100%">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%">
+<tbody><tr>
+<td style=3D"padding:0px;margin:0px">
+<table style=3D"border-collapse:collapse" align=3D"left" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"44%">
+<tbody><tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:14px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:bold" al=
+ign=3D"left">Customer Service Phone Number</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse;padding-left:0px" align=3D"left" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"10">
+<tbody><tr style=3D"padding-top:0px;padding-bottom:0px;padding-left:0px;pad=
+ding-right:0px">
+<td>=C2=A0</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse" align=3D"right" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" width=3D"53%">
+<tbody><tr>
+<td style=3D"line-height:16px;border-collapse:collapse;font-size:14px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal" =
+align=3D"left"><span><a href=3D"tel:1-800-340-0575" value=3D"+18003400575" =
+target=3D"_blank">1-800-340-0575</a>	(when calling
+from the United States)<br>033 570 8726 (when calling from Japan)<br><a hre=
+f=3D"tel:%2B44%20%280%2920%207136%208462" value=3D"+442071368462" target=3D=
+"_blank">+44 (0)20 7136 8462</a> (when calling from anywhere else)</span></=
+td>
+
+
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td style=3D"height:10px;font-size:10px;line-height:5px;padding:0px;margin:=
+0px" align=3D"left">=C2=A0</td>
+</tr>
+<tr>
+<td style=3D"padding:0px;margin:0px">
+<table style=3D"border-collapse:collapse" align=3D"left" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"44%">
+<tbody><tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:14px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:bold" al=
+ign=3D"left">Your priceline trip number</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse;padding-left:0px" align=3D"left" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"10">
+<tbody><tr style=3D"padding-top:0px;padding-bottom:0px;padding-left:0px;pad=
+ding-right:0px">
+<td>=C2=A0</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse" align=3D"right" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" width=3D"53%">
+<tbody><tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:14px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal" =
+align=3D"left"><a href=3D"http://jump.priceline.com/status/310A50185A69020B=
+95759545373E8A68BDAD61891095518B408E232E179DAC6F?plf=3DPCLN&amp;from=3DDINC=
+&amp;refid=3DTMTRANSACT&amp;sendId=3D32002812406&amp;email_subject_line=3DY=
+our+priceline+itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+2=
+05-318-110-11%29&amp;batchId=3D290506&amp;refclickid=3D20140422%7C1%7COFFER=
+%7CACCEPT_INTERCEPT_CTL%7CAIR_ACCEPT_CUST_SERV_TRIP_NUM_LNK&amp;ea=3D8235F3=
+0253A459DFB6B021E68311D6DF261D4D5CD663813A&amp;utm_medium=3Demail&amp;utm_s=
+ource=3DTM_AIR_ACCEPT_INTERCEPT&amp;utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_=
+32002812406" style=3D"color:#2d94cc;text-decoration:underline" target=3D"_b=
+lank">205-318-110-11</a></td>
+
+
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td style=3D"height:10px;font-size:10px;line-height:5px;padding:0px;margin:=
+0px" align=3D"left">=C2=A0</td>
+</tr>
+<tr>
+<td style=3D"padding:0px;margin:0px">
+<table style=3D"border-collapse:collapse" align=3D"left" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"44%">
+<tbody><tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:14px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:bold" al=
+ign=3D"left">Phone Number you provided</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse;padding-left:0px" align=3D"left" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"10">
+<tbody><tr style=3D"padding-top:0px;padding-bottom:0px;padding-left:0px;pad=
+ding-right:0px">
+<td>=C2=A0</td>
+</tr>
+</tbody></table>
+<table style=3D"border-collapse:collapse" align=3D"right" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" width=3D"53%">
+<tbody><tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:14px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal" =
+align=3D"left"><span><a href=3D"tel:206-660-7345" value=3D"+12066607345" ta=
+rget=3D"_blank">206-660-7345</a></span></td>
+
+
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td style=3D"height:10px;font-size:10px;line-height:5px;padding:0px;margin:=
+0px" align=3D"left">=C2=A0</td>
+</tr>
+<tr>
+<td style=3D"line-height:14px;border-collapse:collapse;font-size:14px;text-=
+decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:normal" =
+align=3D"left"><a href=3D"http://jump.priceline.com/customerservice/custome=
+rservice.do?INIT_SESSION=3Dtrue&amp;plf=3DPCLN&amp;refid=3DTMTRANSACT&amp;s=
+endId=3D32002812406&amp;email_subject_line=3DYour+priceline+itinerary+for+T=
+okyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&amp;batchId=
+=3D290506&amp;refclickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CFA=
+Q_LINK&amp;ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&amp;utm_me=
+dium=3Demail&amp;utm_source=3DTM_AIR_ACCEPT_INTERCEPT&amp;utm_campaign=3DTM=
+_AIR_ACCEPT_INTERCEPT_32002812406" style=3D"color:#2d94cc;text-decoration:u=
+nderline" target=3D"_blank">Click here to view frequently asked questions.<=
+/a></td>
+
+
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>           =20
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+                            </td>
+</tr>
+</tbody></table>
+
+
+
+<table style=3D"padding:10px;background:#fff;border-collapse:separate" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody><tr>
+<td style=3D"border-collapse:collapse">
+<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody><tr>
+<td align=3D"left" style=3D"padding-top:10px"><a title=3D"advertisement 1" =
+href=3D"http://ad.doubleclick.net/N3102/jump/priceline.dart/confirm_and_pre=
+trav_air_banner1;city=3DTokyo;state=3DJA;country=3DJA;depcarrier=3DDelta_Ai=
+r_Lines;retcarrier=3DDelta_Air_Lines;sz=3D300x250;ord=3D1678548697" target=
+=3D"_blank"><img width=3D"300" height=3D"250" border=3D"0" alt=3D"advertise=
+ment" src=3D"http://ad.doubleclick.net/N3102/ad/priceline.dart/confirm_and_=
+pretrav_air_banner1;city=3DTokyo;state=3DJA;country=3DJA;depcarrier=3DDelta=
+_Air_Lines;retcarrier=3DDelta_Air_Lines;sz=3D300x250;ord=3D1678548697"></a>=
+</td>
+
+
+<td style=3D"width:20px;padding-top:10px">=C2=A0</td>
+<td align=3D"right" style=3D"padding-top:10px"><a title=3D"advertisement 2"=
+ href=3D"http://ad.doubleclick.net/N3102/jump/priceline.dart/confirm_and_pr=
+etrav_air_banner2;city=3DTokyo;state=3DJA;country=3DJA;depcarrier=3DDelta_A=
+ir_Lines;retcarrier=3DDelta_Air_Lines;sz=3D300x250;ord=3D1678548697" target=
+=3D"_blank"><img width=3D"300" height=3D"250" border=3D"0" alt=3D"advertise=
+ment" src=3D"http://ad.doubleclick.net/N3102/ad/priceline.dart/confirm_and_=
+pretrav_air_banner2;city=3DTokyo;state=3DJA;country=3DJA;depcarrier=3DDelta=
+_Air_Lines;retcarrier=3DDelta_Air_Lines;sz=3D300x250;ord=3D1678548697"></a>=
+</td>
+
+
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table> 			=09
+<table style=3D"border-bottom-left-radius:7px;border-bottom-right-radius:7p=
+x;padding-right:10px;padding-left:10px;background:#fff;border-collapse:sepa=
+rate" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody><tr>
+<td style=3D"height:7px;font-size:7px;line-height:7px;border-collapse:colla=
+pse">=C2=A0
+</td>
+</tr>
+</tbody></table>
+
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<table style=3D"border-collapse:collapse;padding:0px" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody><tr>
+<td>
+<table style=3D"background:#0a84c1 url(http://image.emails.priceline.com/li=
+b/fef51371706d00/m/1/social_rays_bg.gif) no-repeat 0 bottom;border-top-righ=
+t-radius:0px;border-top-left-radius:0px;border-bottom-right-radius:7px;bord=
+er-bottom-left-radius:7px;border-collapse:separate" bgcolor=3D"#0a84c1" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+
+
+<tbody><tr>
+<td style=3D"padding:7px 0">
+<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr>
+<td><a href=3D"http://jump.priceline.com/download-priceline-negotiator-app?=
+refid=3DTMTRANSACT&amp;sendId=3D32002812406&amp;email_subject_line=3DYour+p=
+riceline+itinerary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-31=
+8-110-11%29&amp;batchId=3D290506&amp;refclickid=3D20140422%7C1%7COFFER%7CAC=
+CEPT_INTERCEPT_CTL%7CIOS_DOWNLOAD_LINK&amp;ea=3D8235F30253A459DFB6B021E6831=
+1D6DF261D4D5CD663813A&amp;utm_medium=3Demail&amp;utm_source=3DTM_AIR_ACCEPT=
+_INTERCEPT&amp;utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002812406" style=3D=
+"color:#fff;font-size:10px" target=3D"_blank"><img src=3D"http://image.emai=
+ls.priceline.com/lib/fef51371706d00/m/1/SF_app_store.gif" alt=3D"Available =
+on the App Store" style=3D"display:block" border=3D"0" height=3D"40" width=
+=3D"118"></a></td>
+
+
+<td style=3D"width:5px;font-size:5px;line-height:5px" width=3D"5">=C2=A0</t=
+d>
+<td style=3D"padding-right:4px"><a href=3D"http://jump.priceline.com/downlo=
+ad-priceline-negotiator-app?refid=3DTMTRANSACT&amp;sendId=3D32002812406&amp=
+;email_subject_line=3DYour+priceline+itinerary+for+Tokyo%2C+JA+-+May+9th%2C=
++2014+%28Itinerary%23+205-318-110-11%29&amp;batchId=3D290506&amp;refclickid=
+=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CANDROID_DOWNLOAD_LINK&amp;=
+ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813A&amp;utm_medium=3Demai=
+l&amp;utm_source=3DTM_AIR_ACCEPT_INTERCEPT&amp;utm_campaign=3DTM_AIR_ACCEPT=
+_INTERCEPT_32002812406" style=3D"color:#fff;font-size:10px" target=3D"_blan=
+k"><img src=3D"http://image.emails.priceline.com/lib/fef51371706d00/m/1/SF_=
+google_play.gif" alt=3D"Android App on Google Play" style=3D"display:block"=
+ border=3D"0" height=3D"40" width=3D"118"></a></td>
+
+
+</tr>
+</tbody></table>
+<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr>
+<td style=3D"padding:13px 15px 0 20px;color:#fff"><img src=3D"http://image.=
+emails.priceline.com/lib/fef51371706d00/m/1/social_lets_talk_deals.gif" alt=
+=3D"Let&#39;s Talk Deals" height=3D"18" width=3D"141"></td>
+</tr>
+</tbody></table>
+<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr>
+							 <td><a href=3D"http://jump.priceline.com/default.asp?refid=3DTMTRAN=
+SACT&amp;sendId=3D32002812406&amp;email_subject_line=3DYour+priceline+itine=
+rary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&am=
+p;batchId=3D290506&amp;refclickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT=
+_CTL%7CFOOTER_FACEBOOK_LINK&amp;ea=3D8235F30253A459DFB6B021E68311D6DF261D4D=
+5CD663813A&amp;utm_medium=3Demail&amp;utm_source=3DTM_AIR_ACCEPT_INTERCEPT&=
+amp;utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002812406&amp;url=3Dhttp://www=
+.facebook.com/priceline" style=3D"color:#fff;font-size:10px" target=3D"_bla=
+nk"><img src=3D"http://image.emails.priceline.com/lib/fef51371706d00/m/1/ic=
+n_facebook2x.gif" alt=3D"Facebook" style=3D"display:block" border=3D"0" hei=
+ght=3D"40" width=3D"40"></a></td>
+
+
+<td><img src=3D"http://image.emails.priceline.com/lib/fef51371706d00/m/1/sp=
+ace.gif" style=3D"display:block" alt=3D" " height=3D"1" width=3D"5"></td>
+<td><a href=3D"http://jump.priceline.com/default.asp?refid=3DTMTRANSACT&amp=
+;sendId=3D32002812406&amp;email_subject_line=3DYour+priceline+itinerary+for=
++Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&amp;batchI=
+d=3D290506&amp;refclickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CF=
+OOTER_TWITTER_LINK&amp;ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813=
+A&amp;utm_medium=3Demail&amp;utm_source=3DTM_AIR_ACCEPT_INTERCEPT&amp;utm_c=
+ampaign=3DTM_AIR_ACCEPT_INTERCEPT_32002812406&amp;url=3Dhttps://twitter.com=
+/priceline" style=3D"color:#fff;font-size:10px" target=3D"_blank"><img src=
+=3D"http://image.emails.priceline.com/lib/fef51371706d00/m/1/icn_twitter2x.=
+gif" alt=3D"Twitter" style=3D"display:block" border=3D"0" height=3D"40" wid=
+th=3D"40"></a></td>
+
+
+<td><img src=3D"http://image.emails.priceline.com/lib/fef51371706d00/m/1/sp=
+ace.gif" style=3D"display:block" alt=3D" " height=3D"1" width=3D"5"></td>
+<td><a href=3D"http://jump.priceline.com/default.asp?refid=3DTMTRANSACT&amp=
+;sendId=3D32002812406&amp;email_subject_line=3DYour+priceline+itinerary+for=
++Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&amp;batchI=
+d=3D290506&amp;refclickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CF=
+OOTER_GOOGLEPLUS_LINK&amp;ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663=
+813A&amp;utm_medium=3Demail&amp;utm_source=3DTM_AIR_ACCEPT_INTERCEPT&amp;ut=
+m_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002812406&amp;url=3Dhttps://plus.goo=
+gle.com/%2Bpriceline" style=3D"color:#fff;font-size:10px" target=3D"_blank"=
+><img src=3D"http://image.emails.priceline.com/lib/fef51371706d00/m/1/icn_g=
+ooglePlus2x.gif" alt=3D"Google+" style=3D"display:block" border=3D"0" heigh=
+t=3D"40" width=3D"40"></a></td>
+
+
+<td><img src=3D"http://image.emails.priceline.com/lib/fef51371706d00/m/1/sp=
+ace.gif" style=3D"display:block" alt=3D" " height=3D"1" width=3D"5"></td>
+<td><a href=3D"http://jump.priceline.com/default.asp?refid=3DTMTRANSACT&amp=
+;sendId=3D32002812406&amp;email_subject_line=3DYour+priceline+itinerary+for=
++Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&amp;batchI=
+d=3D290506&amp;refclickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_CTL%7CF=
+OOTER_YOUTUBE_LINK&amp;ea=3D8235F30253A459DFB6B021E68311D6DF261D4D5CD663813=
+A&amp;utm_medium=3Demail&amp;utm_source=3DTM_AIR_ACCEPT_INTERCEPT&amp;utm_c=
+ampaign=3DTM_AIR_ACCEPT_INTERCEPT_32002812406&amp;url=3Dhttp://www.youtube.=
+com/user/priceline" style=3D"color:#fff;font-size:10px" target=3D"_blank"><=
+img src=3D"http://image.emails.priceline.com/lib/fef51371706d00/m/1/icn_you=
+Tube2x.gif" alt=3D"YouTube" style=3D"display:block" border=3D"0" height=3D"=
+40" width=3D"40"></a></td>
+
+
+							</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+	<table cellspacing=3D"0" cellpadding=3D"0">
+<tbody><tr>
+<td style=3D"border-collapse:collapse">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody><tr>=20
+<td style=3D"padding:10px 0;border-collapse:collapse" align=3D"left">      =
+       Responses to this e-mail
+will not go to a customer service representative. To contact our customer s=
+ervice team directly, please go to the <a href=3D"http://jump.priceline.com=
+/customerservice/customerservice.do?INIT_SESSION=3Dtrue&amp;refid=3DTMTRANS=
+ACT&amp;sendId=3D32002812406&amp;email_subject_line=3DYour+priceline+itiner=
+ary+for+Tokyo%2C+JA+-+May+9th%2C+2014+%28Itinerary%23+205-318-110-11%29&amp=
+;batchId=3D290506&amp;refclickid=3D20140422%7C1%7COFFER%7CACCEPT_INTERCEPT_=
+CTL%7CDISCLAIMER_CUSTOMER_SERVICE&amp;ea=3D8235F30253A459DFB6B021E68311D6DF=
+261D4D5CD663813A&amp;utm_medium=3Demail&amp;utm_source=3DTM_AIR_ACCEPT_INTE=
+RCEPT&amp;utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002812406" style=3D"colo=
+r:#0a84c1;text-decoration:underline" target=3D"_blank">customer service</a>=
+ page of our website.
+<br><br>
+<span>This is a transactional email from Priceline.com LLC - 800 Connecticu=
+t Ave. Norwalk, CT 06854</span><br><br>
+<span style=3D"color:#515050!important;text-decoration:none!important">To: =
+<a href=3D"mailto:CARLAYHUDSON@GMAIL.COM" target=3D"_blank">CARLAYHUDSON@GM=
+AIL.COM</a><br>
+Subject:Your priceline itinerary for Tokyo, JA - May 9th, 2014 (Itinerary# =
+205-318-110-11)(Itinerary # 20531811011)<br> =20
+Sent: Tuesday, April 22, 2014<br>
+MsgId: 10898114205<br>=20
+</span>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>=20
+		 </td>
+</tr>
+</tbody></table>
+</td>
+<td width=3D"4%"><img src=3D"http://image.emails.priceline.com/lib/fef51371=
+706d00/m/1/space.gif" style=3D"display:block" alt=3D" " height=3D"1" width=
+=3D"10"></td>
+</tr>
+</tbody></table>
+
+
+
+</div>
+</div><br></div>
+</div><br></div></div>
+
+--089e0115ffc60b2aaa04f89fd0a3--
+
