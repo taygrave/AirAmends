@@ -22,10 +22,10 @@ for msg in msg_list:
 
 
 #ideas on how to narrow search:
-    # look at who from (domain matching airline)
+    # write out possible combinations (with a smaller sample) and find the pattern to identify distinct flights
+    # look at who from (domain matching airline) - or better yet, look at who to, then see if user's name appears elsewhere in the email (like as the ticketed passenger) and if not, may not be their flight
     # make sure airport code exists in the world and isn't a time zone abbrv
-    # look at subject, disregard if it is a forward
-    # ideal: find a passenger?  find a date?
+    # ideal: find flight date
 
 #next steps - figure out the flight path from just the airport codes
 

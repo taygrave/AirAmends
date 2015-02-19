@@ -53,8 +53,10 @@ class Email(Base):
     id = Column(Integer, primary_key=True)
     user_id = Column(Integer, ForeignKey('Users.id'), nullable=False)
     msg_id = Column(String(64), nullable=False)
+    # wont need thread_id column 
     thread_id = Column(String(64), nullable=False)
     body_raw = Column(Text, nullable=False)
+    #get rid of this column
     body_full = Column(Text, nullable=False)
 
     user = relationship("User", backref="emails")
