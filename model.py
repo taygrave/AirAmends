@@ -1,6 +1,6 @@
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import create_engine
-from sqlalchemy import Column, Integer, String, ForeignKey, Text, DateTime
+from sqlalchemy import Column, Integer, String, ForeignKey, Text, DateTime, Float
 from sqlalchemy.orm import sessionmaker, scoped_session, relationship, backref
 
 engine = create_engine("sqlite:///airdata.db", echo=True)
@@ -71,17 +71,28 @@ class Flight(Base):
     user_id = Column(Integer, ForeignKey('Users.id'), nullable=False)
     msg_id = Column(Integer, ForeignKey('Emails.id'), nullable=False)  #can this be the same as a trip id or do we need one of those too?
     date = Column(DateTime, nullable=False)
-    depart = Column(String(64), nullable=False)
-    arrive = Column(String(64), nullable=False)
+    depart = Column(String(3), ForeignKey("Airports.id"), nullable=False)
+    arrive = Column(String(3), ForeignKey("Airports.id"), nullable=False)
     #need these for CO2 calc? not sure yet: flying time / distance
+
+    user = relationship("User", backref="flights")
+    email = relationship("Email", backref="flights")
+    # airport = relationship("Airport", backref="flights")
+
 
     def __repr__(self):
         return "<Flight: id=%r, user_id=%s, msg_id=%s, date=%r, depart=%s, arrive=%s>" %(self.id, self.user_id, self.msg_id, self.date, self.depart, self.arrive)
 
+class Airport(Base):
+    __tablename__="Airports"
 
+    id = Column(String(3), primary_key=True)
+    name = Column(String(64), nullable=False)
+    city = Column(String(64), nullable=False)
+    country = Column(String(64), nullable=False)
+    latitude = Column(Float, nullable=False)
+    longitude = Column(Float, nullable=False)
 
-
-
-
-
+    def __repr__(self):
+        return "<Airport: id=%r, city=%s>" %(self.id, self.city)
 

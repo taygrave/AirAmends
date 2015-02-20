@@ -9,7 +9,7 @@ s = model.connect()
 #get a list of the email objects
 msg_list = s.query(model.Email).all()
 
-airport_code = r"\(([A-Z]+)\)"
+airport_code = r"\(([A-Z]{3})\)"
 from_field = r'From:[\w]' #\<([\w]+)\>'
 
 for msg in msg_list:
