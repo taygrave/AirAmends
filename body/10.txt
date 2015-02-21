@@ -1,2615 +1,1083 @@
 Delivered-To: tkhesselgrave@gmail.com
-Received: by 10.217.127.6 with SMTP id do6csp262935web;
-        Mon, 21 Apr 2014 20:57:55 -0700 (PDT)
-X-Received: from mr.google.com ([10.194.63.236])
-        by 10.194.63.236 with SMTP id j12mr32343129wjs.5.1398139075458 (num_hops = 1);
-        Mon, 21 Apr 2014 20:57:55 -0700 (PDT)
-X-Received: by 10.194.63.236 with SMTP id j12mr31573277wjs.5.1398139075436;
-        Mon, 21 Apr 2014 20:57:55 -0700 (PDT)
-X-Forwarded-To: tkhesselgrave@gmail.com
-X-Forwarded-For: thistlegrave@gmail.com tkhesselgrave@gmail.com
-Delivered-To: thistlegrave@gmail.com
-Received: by 10.194.5.39 with SMTP id p7csp207014wjp;
-        Mon, 21 Apr 2014 20:57:54 -0700 (PDT)
-X-Received: by 10.140.85.230 with SMTP id n93mr48478987qgd.26.1398139073840;
-        Mon, 21 Apr 2014 20:57:53 -0700 (PDT)
-Return-Path: <ItineraryAir@trans.priceline.com>
-Received: from ny-smtp-dmz02.dmz.priceline.com (ny-smtp-dmz02.dmz.priceline.com. [64.6.20.6])
-        by mx.google.com with ESMTPS id c8si9890528qab.236.2014.04.21.20.57.52
-        for <THISTLEGRAVE@gmail.com>
+Received: by 10.217.136.199 with SMTP id eh49csp351452web;
+        Wed, 23 Oct 2013 17:55:54 -0700 (PDT)
+X-Received: by 10.60.115.226 with SMTP id jr2mr14116oeb.95.1382576153969;
+        Wed, 23 Oct 2013 17:55:53 -0700 (PDT)
+Return-Path: <reservations@jetblue.com>
+Received: from sgcommg01-out.sabre.com (tcymg01.travelocity.com. [151.193.224.244])
+        by mx.google.com with ESMTPS id sp4si6461840oeb.111.2013.10.23.17.55.53
+        for <TKHESSELGRAVE@gmail.com>
         (version=TLSv1 cipher=RC4-SHA bits=128/128);
-        Mon, 21 Apr 2014 20:57:53 -0700 (PDT)
-Received-SPF: pass (google.com: domain of ItineraryAir@trans.priceline.com designates 64.6.20.6 as permitted sender) client-ip=64.6.20.6;
+        Wed, 23 Oct 2013 17:55:53 -0700 (PDT)
+Received-SPF: neutral (google.com: 151.193.224.244 is neither permitted nor denied by best guess record for domain of reservations@jetblue.com) client-ip=151.193.224.244;
 Authentication-Results: mx.google.com;
-       spf=pass (google.com: domain of ItineraryAir@trans.priceline.com designates 64.6.20.6 as permitted sender) smtp.mail=ItineraryAir@trans.priceline.com;
-       dkim=pass header.i=@priceline.com;
-       dmarc=pass (p=NONE dis=NONE) header.from=trans.priceline.com
-Received: from ash1-smtpcore-401.corp.priceline.com (ash1-smtpcore-401.corp.priceline.com [10.5.115.1])
-	by ny-smtp-dmz02.dmz.priceline.com (8.14.7/8.14.7) with ESMTP id s3M3vq3J000445
-	for <THISTLEGRAVE@GMAIL.COM>; Mon, 21 Apr 2014 23:57:52 -0400
-DKIM-Filter: OpenDKIM Filter v2.8.4 ny-smtp-dmz02.dmz.priceline.com s3M3vq3J000445
-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=priceline.com;
-	s=prod-def2014; t=1398139072;
-	bh=bv6Zk/n0Ak5ZuEhx0jG04j+0zIstW4zSpXYItAjXVXc=;
-	h=Date:From:Reply-To:To:Subject;
-	z=Date:=20Mon,=2021=20Apr=202014=2023:57:52=20-0400=20(EDT)|From:=2
-	 0"Priceline.com=20Customer=20Service"=20<ItineraryAir@trans.pricel
-	 ine.com>|Reply-To:=20ItineraryAir@trans.priceline.com|To:=20THISTL
-	 EGRAVE@GMAIL.COM|Subject:=20Your=20priceline=20itinerary=20for=20W
-	 ashington,=20DC=20-=20May=2027th,=202014=0D=0A=20(Itinerary#=20170
-	 -481-520-41);
-	b=SFYwCTL9eEf9UtAJ9iVzQruKk2crcFvH3BVfIztMcwYPTCAQ3Nw6rJjkhSBWc7YPm
-	 g32zn7LlJkcm6kBpBklN7yFkR78ZWOQgBNrbv/9apYq8BgOkauNz6CpwVhQuU1JMDa
-	 riL7D21l/MvLAaMGkGLURvW5zJoDJDPS/H6vRUmI=
-Received: from ash1-dets-402 (ash1-dets-402.prod.pcln.com [10.5.69.11])
-	by ash1-smtpcore-401.corp.priceline.com (8.14.7/8.14.5) with ESMTP id s3M3vqew011896
-	for <THISTLEGRAVE@GMAIL.COM>; Mon, 21 Apr 2014 23:57:52 -0400
-Message-ID: <70146312.1398139072336.JavaMail.dets@ash1-dets-402>
-Date: Mon, 21 Apr 2014 23:57:52 -0400 (EDT)
-From: "Priceline.com Customer Service" <ItineraryAir@trans.priceline.com>
-Reply-To: ItineraryAir@trans.priceline.com
-To: THISTLEGRAVE@GMAIL.COM
-Subject: Your priceline itinerary for Washington, DC - May 27th, 2014
- (Itinerary# 170-481-520-41)
-Mime-Version: 1.0
-Content-Type: text/html; charset=utf-8
+       spf=neutral (google.com: 151.193.224.244 is neither permitted nor denied by best guess record for domain of reservations@jetblue.com) smtp.mail=reservations@jetblue.com
+Received: from unknown (HELO infhlp008) ([10.209.4.9])
+  by sgcommg01.sabre.com with ESMTP; 23 Oct 2013 19:55:53 -0500
+Date: Wed, 23 Oct 2013 19:55:53 -0500 (CDT)
+From: JetBlue Reservations <reservations@jetblue.com>
+To: TKHESSELGRAVE@GMAIL.COM
+Message-ID: <1282825323.7630311382576153327.JavaMail.ems@infhlp008>
+Subject: Check in for your flight to Portland
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
 Content-Transfer-Encoding: quoted-printable
-X-priceline-ets-request-id: bb7ef87d00000145874df5da26160052
-X-priceline-ets-audit-id: 32657558906
 
-To view this email as web page, <a style=3D"color:blue;" href=3D"http://jum=
-p.priceline.com/sharedapps/evs?x=3DTPNO8JU&amp;from=3DDINC&amp;refid=3DTMtr=
-ansact&amp;refclickid=3D20140421%7C%7COFFER%7CACCEPT_INTERCEPT%7CVIEW_AS_WE=
-BPAGE%7C16%7CANY&amp;sendId=3D32002286206&amp;batchId=3D290506&amp;ea=3DF18=
-D70DD4C3B9DA447F7189D8DC51024261D4D5CD663813A&amp;utm_medium=3Demail&amp;ut=
-m_source=3Dtransactional&amp;utm_campaign=3D%7COFFER%7CACCEPT_INTERCEPT&amp=
-;email_subject_line=3DYour%20priceline%20itinerary%20for%20Washington%2C%20=
-DC%20-%20May%2027th%2C%202014%20(Itinerary%20170-481-520-41)&amp;email_prev=
-iew_line=3D">go here</a><html xmlns=3D"http://www.w3.org/1999/xhtml"><head>
-<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
-<title>ACCEPT AIR</title>
-<meta content=3D"width=3Ddevice-width; initial-scale=3D1.0; maximum-scale=
-=3D1.0; user-scalable=3Dno;" name=3D"viewport">
-<meta name=3D"viewport" content=3D"width=3Ddevice-width">
 
-<style type=3D"text/css">
 
-/* Hotmail/Outlook.com Fixes */
-.ExternalClass {width:100%;}
-.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font,=
- .ExternalClass td, .ExternalClass div {line-height:100%;}
-#backgroundTable {margin:0; padding:0; width:100% !important; line-height: =
-100% !important;}
-/* end Hotmail/Outlook.com Fixes */
 
-.tripNumber strong a, .flightSectionData a, .flightSectionConf a, .mblRCDat=
-e a, .mblRCAirport a, .mblRCTrans a, .mblRCAddress
-a, .impInfo a, .layover a, .passengerInfoSub a, .guestInfoSub a .tripProtec=
-tionOffer a, .littlePrice a, .totalBigPrice a {color:#000001
-!important; text-decoration:none !important;}
-.totalBigPrice a{color:#47ab04!important;}
-.tripProtectionOffer a {color:#ec2222!important; text-decoration:none!impor=
-tant;}
 
-.noLink a {color:#000001!important; text-decoration:none!important;} /* rem=
-ove ios/gmail links */
-.hasLink a{color:#2d94cc; text-decoration:underline;} /* display as mobile =
-link */
-.grayLink a {color:#515050!important; text-decoration:none!important;} /* r=
-emove ios/gmail links */
-@media all and (max-device-width: 720px), all and (min-device-width: 1079px=
-) and (max-device-width: 1080px) {
-=09body {min-width:100% !important;}
-=09table[class=3D"mblHDN"], td[class=3D"mblHDN"], tr[class=3D"mblHDN"], spa=
-n[class=3D"mblHDN"], div[class=3D"mblHDN"], br[class=3D"mblHDN"],
-img[class=3D"mblHDN"]{display:none !important}
-=09div[class=3D"mobile-only"] { display: block !important; max-height: none=
- !important;}
-=09table[class=3D"mainContainer"], table[class=3D"mblFullWidth"], td[class=
-=3D"mblFullWidth"] {width:100% !important}
-=09a[class=3D"mblCTA"]{float:right;margin-top:9px;width:84px !important;hei=
-ght:35px !important;display:block !important;background:url(http://image.em=
-ails.priceline.com/lib/fef51371706d00/m/1/download_app_cta_sm_2x.gif)
-no-repeat 0 0 !important;background-size:84px 35px !important}
-=09table[class=3D"square"],td[class=3D"square"],table[class=3D"topNav"]{-mo=
-z-border-radius:0 !important;-webkit-border-radius:0 !important;border-radi=
-us:0!important;}
-=09table[class=3D"topNav"]{background:#ffffff !important}
-=09td[class=3D"mblBorder"]{padding: 4px 0 !important;}
-=09td[class=3D"navPad"]{padding-left:4px !important;padding-right:4px !impo=
-rtant}
-=09td[class=3D"navItem"]{width:33% !important}
-=09td[class=3D"noPAD"]{padding:0px !important}
 
-=09/* COMMON TYPOGRAPHY */
-=09td[class=3D"header"]{padding-bottom:5px!important;}
-=09td[class=3D"tripNumber"], a[class=3D"tripNumberLink"]{font-size:17px!imp=
-ortant; line-height:18px!important;}
-=09td[class=3D"sectionHeader"]{font-size:22px!important;}
-=09td[class=3D"blackSectionHeader"]{font-weight:bold!important; font-size:1=
-8px!important;}=09=09=09
-=09span[class=3D"sectionSubTitle"]{font-size:18px!important;}
-=09td[class=3D"bodyText"], span[class=3D"bodyText"],td[class=3D"addMargin"]=
-,td[class=3D"addPadding"]{font-size:16px!important; line-height:18px!import=
-ant;}
-=09td[class=3D"addMargin"]{padding-top:3px!important;}
-=09td[class=3D"addPadding"]{padding-top:6px!important;}
-=09img[class=3D"itinBTN"]{width:125px!important; height:auto!important; flo=
-at:none!important; margin:0 auto!important;}
 =09
-=09/* SHARED CSS */
-=09td[class=3D"creditCardAd"]{padding:10px 0 10px 0 !important; background:=
-#ffffff!important;}
-=09table[class=3D"tripInsuranceShift"]{width:160px!important; display:inlin=
-e!important}
-=09table[class=3D"tripInsuranceBTNShift"]{display:inline-block!important; f=
-loat:right!important; padding-top:10px!important;}
-=09td[class=3D"tripProtectionHeader"]{font-size:22px!important; line-height=
-:24px!important;}
-=09td[class=3D"tripProtectionSubHeader"]{font-size:16px!important; line-hei=
-ght:18px!important;}
-=09span[class=3D"tripProtectionOffer"]{font-size:18px!important; line-heigh=
-t:20px!important;}
-=09img[class=3D"tripOffer"]{width:38px!important; height:38px!important; di=
-splay:block!important;padding-top:3px!important; padding-right:10px!importa=
-nt;
-padding-bottom:5px!important;}
-=09td[class=3D"tripInsurancePrice"]{float:left!important; text-align:left!i=
-mportant}
-=09span[class=3D"tripInsuranceText"]{font-size:48px!important}
-=09span[class=3D"miniTripInsuranceText"]{font-size:20px!important}
 
-=09/* AIR SPECIFIC CSS */
-=09td[class=3D"tripType"]{font-size:16px!important;}
-=09span[class=3D"typeTitle"]{font-size:16px!important;}
-=09td[class=3D"flightSectionHeader"]{font-size:16px!important; line-height:=
-16px!important; padding:3px 0 3px 0!important;}
-=09td[class=3D"flightSectionData"]{font-size:14px!important; line-height:16=
-px!important;}
-=09span[class=3D"connectorTitle"]{font-size:18px!important; line-height:20p=
-x!important;}
-=09img[class=3D"codeshare"], img[class=3D"stop"]{height:20px!important; wid=
-th:20px!important; padding-right:3px!important;}
-=09td[class=3D"tripMainBoxCS"]{font-size:16px !important;line-height:18px !=
-important;}
-=09td[class=3D"layover"]{font-size:18px!important; border-top:1px solid #dd=
-dddd !important; border-bottom:1px solid #dddddd !important;
-padding:10px 0 10px 0 !important;}
-=09td[class=3D"passengerName"]{font-size:20px!important; line-height:22px!i=
-mportant; padding-bottom:5px!important;}
-=09td[class=3D"passengerInfoTitle"], td[class=3D"airlineContactTitle"],td[c=
-lass=3D"contactTitle"]{font-size:14px!important; line-height:14px!important=
-;
-padding:3px 0 3px 0!important;}
-=09td[class=3D"passengerInfoSub"], td[class=3D"airlineContactSub"],td[class=
-=3D"contactSub"]{font-size:18px!important; line-height:20px!important;
-padding-bottom:5px!important;}
+=09
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+    <head>
 
-=09/* RC SPECIFIC CSS */
-=09img[class=3D"rcLogo"]{display:block !important;width:130px !important;he=
-ight:auto !important; float:left!important;}
-=09td[class=3D"rentalTitle"]{font-size:28px!important; line-height:28px!imp=
-ortant; padding-bottom:0px!important;}
-=09span[class=3D"rentalCarType"]{font-size:18px!important; line-height:20px=
-!important; padding-top:5px!important;}
-=09img[class=3D"mblICONS"]{width:50px !important; height:50px !important;}
-=09td[class=3D"mblCICO"]{padding-top:10px!important; padding-bottom:5px!imp=
-ortant;}
-=09td[class=3D"mblCICOFIX"]{padding-top:0px!important; padding-bottom:5px!i=
-mportant;}
-=09span[class=3D"mblCICO"]{font-size:18px!important; line-height:20px!impor=
-tant;}
-=09img[class=3D"mblCheckIcon"]{width:25px!important; height:25px!important;=
+    <style type=3D"text/css" media=3D"all">
+
+    /* RESET */
+
+@media all {
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, bl=
+ockquote, pre,
+a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kb=
+d, q, s, samp,
+small, span, strike, strong, sub, tt, var, b, u, i, center, td
+dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption {
+    margin: 0; padding: 0; border: 0; outline: 0;
+    font-size: 100%; vertical-align: baseline;
 }
-=09td[class=3D"mileage"]{font-size:20px!important; padding-top:5px!importan=
-t;}
-=09td[class=3D"mblRCDate"], td[class=3D"mblRCAirport"], td[class=3D"mblRCTr=
-ans"], td[class=3D"mblRCAddress"]{font-size:16px!important;
-line-height:18px!important;}
-=09span[class=3D"mblTitle"]{font-size:18px!important; line-height:20px!impo=
-rtant;}
-=09span[class=3D"mblSubTitle"]{font-size:16px!important; line-height:18px!i=
-mportant; padding-bottom:5px!important;}
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+:focus { outline: 0; }
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
 
-=09/* CROSS-SELL SPECIFIC CSS */
-=09td[class=3D"impInfo"]{font-size:16px !important; font-weight:normal !imp=
-ortant; line-height:18px !important; padding-top: 0px!important;
-padding-bottom:0px!important;}
-=09table[class=3D"hotelFullWidth"]{ width:100%!important; float:left!import=
-ant; padding:10px 0 10px 0!important;}
-=09table[class=3D"mblHotelShift"]{width:100%!important}
-=09table[class=3D"titleFullWidth"], td[class=3D"titleFullWidth"]{width:100%=
- !important;-moz-border-radius:0 !important;-webkit-border-radius:0!importa=
-nt;border-radius:0
-!important; padding-left:0px!important; padding-right:0px!important;}
-=09td[class=3D"mblTitleWhite"]{width:65% !important; font-size: 22px !impor=
-tant; line-height: 24px !important; color:#ffffff !important;
-padding:0px!important;}
-=09td[class=3D"mblTitleCTAWhite"], a[class=3D"mblTitleCTAWhite"]{width:35%!=
-important;font-size: 16px !important; line-height: 24px!important;
-color:#ffffff !important; text-align:right !important;}
-=09td[class=3D"mblTitleCTAWhite"]{padding-right:0px !important}
-=09td[class=3D"mblPriceBTN"],a[class=3D"mblPriceBTN"]{color:#ffffff !import=
-ant; text-align: center !important; font-size:18px !important;
-line-height:17px!important; font-weight:normal !important; !important; widt=
-h:130px !important; padding-top:5px!important;
-padding-bottom:6px!important; border-radius:5px !important;-moz-border-radi=
-us:5px !important; -webkit-border-radius:5px !important;
-background: #47ab04 !important; background: -moz-linear-gradient(top, #47ab=
-04 0%, #3c910e 100%)!important; background: -webkit-gradient(linear,
-left top, left bottom, color-stop(0%,#47ab04), color-stop(100%,#3c910e))!im=
-portant; background: -webkit-linear-gradient(top,#47ab04
-0%,#3c910e 100%)!important; background: -o-linear-gradient(top, #47ab04 0%,=
-#3c910e 100%)!important; background: -ms-linear-gradient(top,#47ab04
-0%,#3c910e 100%)!important; background: linear-gradient(to bottom, #47ab04 =
-0%,#3c910e 100%)!important; filter: progid:DXImageTransform.Microsoft.gradi=
-ent(startColorstr=3D"#47ab04",
-endColorstr=3D"#3c910e",GradientType=3D0 )!important; background-position: =
-center !important; display:block !important;}
-=09td[class=3D"mblCarTitle"]{color:#0a84c1 !important; font-size:18px !impo=
-rtant; font-weight:bold !important; line-height:20px!important;
-padding-top: 0 !important;}
-=09td[class=3D"mblCAR"]{padding:0px !important;}
-=09img[class=3D"mblCAR"]{width:140px !important; height:auto !important; pa=
-dding-bottom:5px !important;}
-=09td[class=3D"mblVendor"]{font-size:12px!important; padding-bottom:4px!imp=
-ortant;}
-=09table[class=3D"mblRCIcons"]{width:100px!important;}
-=09table[class=3D"mblPPL"], table[class=3D"mblBAGS"]{width:45px!important;}
-=09td[class=3D"mblPPL"], td[class=3D"mblBAGS"]{font-size:16px!important; li=
-ne-height:16px!important;}
-=09img[class=3D"mblPPL"], img[class=3D"mblBAGS"]{width:45px !important; hei=
-ght:45px !important; padding-bottom:5px!important;}
 
-=09/* FOOTER CSS */
-=09td[class=3D"mblFooter"]{width:100% !important; padding: 15px 4px !import=
-ant; font-size: 16px !important; line-height: 18px
-!important;}
 }
-/*
-@media all and (min-device-width: 719px) and (max-device-width: 721px), all=
- and (min-device-width: 1079px) and (max-device-width:
-1080px) {
-=09a[class=3D"mblCTA"]{float:right;margin:9px 0;width:170px !important;heig=
-ht:71px !important;display:block !important;background:url(http://image.ema=
-ils.priceline.com/lib/fef51371706d00/m/1/download_app_cta_sm_2x.gif)
-no-repeat 0 0 !important;background-size:cover !important}
-=09a[class=3D"navLink"]{font-size:24px !important;line-height:26px !importa=
-nt}
-=09img[class=3D"logo"]{width:300px !important;height:81px !important}
 
-=09td[class=3D"header"]{font-size:32px!important; line-height:34px!importan=
-t;}
-=09td[class=3D"tripNumber"], a[class=3D"tripNumberLink"]{font-size:24px!imp=
-ortant; line-height:26px!important;}
-=09td[class=3D"sectionHeader"]{font-size:30px!important;}
-=09td[class=3D"blackSectionHeader"]{font-size:28px!important; padding:10px =
-0 10px 0 !important;}
-=09span[class=3D"sectionSubTitle"]{font-size:26px!important;}
-=09td[class=3D"bodyText"], span[class=3D"bodyText"],td[class=3D"addMargin"]=
-,td[class=3D"addPadding"]{font-size:22px!important; line-height:24px!import=
-ant;}
-=09td[class=3D"addMargin"]{padding-top:3px!important;}
-=09td[class=3D"addPadding"]{padding-top:6px!important;}
-
-=09td[class=3D"creditCardAd"]{padding:25px 0 25px 0 !important; background:=
-#ffffff!important;}
-=09table[class=3D"tripInsuranceShift"]{width:180px!important}
-=09table[class=3D"tripInsuranceBTNShift"]{padding-top:8px!important; paddin=
-g-right:60px!important;}
-=09td[class=3D"tripProtectionHeader"]{font-size:30px!important; line-height=
-:32px!important;}
-=09td[class=3D"tripProtectionSubHeader"]{font-size:26px!important; line-hei=
-ght:28px!important;}
-=09span[class=3D"tripProtectionOffer"]{font-size:26px!important; line-heigh=
-t:28px!important;}
-=09img[class=3D"tripOffer"]{width:52px!important; height:52px!important;}
-=09td[class=3D"tripInsurancePrice"]{float:left!important; text-align:left!i=
-mportant}
-=09span[class=3D"tripInsuranceText"]{font-size:65px!important}
-=09span[class=3D"miniTripInsuranceText"]{font-size:30px!important}
-
-=09td[class=3D"tripType"]{font-size:24px!important; padding-top:10px!import=
-ant;}
-=09span[class=3D"typeTitle"]{font-size:24px!important;}
-=09span[class=3D"flightTitle"]{font-size:26px!important; line-height:28px!i=
-mportant;}
-=09td[class=3D"flightSectionHeader"]{font-size:24px!important; line-height:=
-24px!important; padding:5px 0 5px 0!important;}
-=09td[class=3D"flightSectionData"]{font-size:22px!important; line-height:24=
-px!important;}
-=09span[class=3D"connectorTitle"]{font-size:26px !important;line-height:28p=
-x !important;}
-=09img[class=3D"codeshare"], img[class=3D"stop"]{height:30px!important; wid=
-th:30px!important;}
-=09td[class=3D"tripMainBoxCS"]{font-size:26px !important;line-height:28px !=
-important;}
-=09td[class=3D"layover"]{font-size:26px!important; border-top:1px solid #dd=
-dddd !important; border-bottom:1px solid #dddddd !important;
-padding:15px 0 15px 0 !important; margin-top:20px!important; margin-bottom:=
-20px!important;}
-=09td[class=3D"passengerName"]{font-size:26px!important; line-height:28px!i=
-mportant; padding-bottom:10px!important;}
-=09td[class=3D"passengerInfoTitle"], td[class=3D"contactTitle"], td[class=
-=3D"airlineContactTitle"]{font-size:24px!important; line-height:26px!import=
-ant;
-padding:3px 0 3px 0!important;}
-=09td[class=3D"passengerInfoSub"], td[class=3D"contactSub"], td[class=3D"ai=
-rlineContactSub"]{font-size:22px!important; line-height:24px!important;}
-
-=09img[class=3D"rcLogo"]{width:200px !important;height:auto !important;}
-=09td[class=3D"rentalTitle"]{font-size:32px!important; line-height:32px!imp=
-ortant;}
-=09span[class=3D"rentalCarType"]{font-size:24px!important; line-height:26px=
-!important;}
-=09img[class=3D"mblICONS"]{width:60px !important; height:60px !important;}
-=09span[class=3D"mblCICO"]{font-size:24px!important; line-height:24px!impor=
-tant;}
-=09td[class=3D"mblRCDate"], td[class=3D"mblRCAirport"], td[class=3D"mblRCTr=
-ans"], td[class=3D"mblRCAddress"]{font-size:22px!important;
-line-height:24px!important;}
-=09img[class=3D"mblCheckIcon"]{width:40px!important; height:40px!important;=
+body{
+    margin:0;
+    color:#333;
+    font:12px arial,sans-serif;
 }
-=09td[class=3D"mileage"]{font-size:28px!important; padding:0px!important;}
-=09span[class=3D"mblTitle"]{font-size:24px!important; line-height:24px!impo=
-rtant;}
-=09span[class=3D"mblSubTitle"]{font-size:22px!important; line-height:24px!i=
-mportant;}
-
-=09span[class=3D"priceTitle"]{font-size:26px!important; line-height:26px!im=
-portant;}
-=09span[class=3D"priceCategory"]{font-size:24px!important; line-height:24px=
-!important;}
-=09span[class=3D"priceDetail"], span[class=3D"littlePrice"]{font-size:24px!=
-important; line-height:24px!important;}
-=09span[class=3D"totalPrice"], span[class=3D"totalBigPrice"]{font-size:30px=
-!important; line-height:30px!important;}
-
-=09td[class=3D"impInfo"]{font-size:24px !important; font-weight:normal !imp=
-ortant; line-height:26px !important; padding-top: 0px!important;
-padding-bottom:10px!important;}
-=09td[class=3D"mblTitleWhite"]{width:65% !important; font-size: 32px !impor=
-tant; line-height: 34px !important; color:#ffffff !important;}
-=09td[class=3D"mblTitleCTAWhite"], a[class=3D"mblTitleCTAWhite"]{width:35%!=
-important;font-size: 26px !important; line-height: 34px!important;
-color:#ffffff !important; text-align:right !important;}
-=09td[class=3D"mblHotelTitle"]{padding-bottom:0px!important; padding-left:0=
-px!important; padding-right:0px!important;text-align:left!important;
-font-size:26px !important;line-height:26px !important; color:#000000 !impor=
-tant; width:100% !important;}
-=09td[class=3D"mblHotelCity"]{text-align:left !important; color:#000000!imp=
-ortant; padding-top:5px !important; padding-right:0px!important;
-font-size:24px !important;line-height:24px !important; width:100% !importan=
-t;}=20
-=09td[class=3D"mblHotelIMG-1"]{background:url(http://image.emails.priceline=
-.com/lib/fef51371706d00/m/1/hotel-deals-missing-1-320x320.gif)!important;
-background-size:160px 160px !important;}
-=09td[class=3D"mblHotelIMG-2"]{background:url(http://image.emails.priceline=
-.com/lib/fef51371706d00/m/1/hotel-deals-missing-2-320x320.gif)!important;
-background-size:160px 160px !important;}
-=09td[class=3D"mblHotelIMG-3"]{background:url(http://image.emails.priceline=
-.com/lib/fef51371706d00/m/1/hotel-deals-missing-3-320x320.gif)!important;
-background-size:160px 160px !important;}
-=09td[class=3D"mblHotelIMG-4"]{background:url(http://image.emails.priceline=
-.com/lib/fef51371706d00/m/1/hotel-deals-missing-4-320x320.gif)!important;
-background-size:160px 160px !important;}
-=09td[class=3D"mblHotelIMG-1"], td[class=3D"mblHotelIMG-2"], td[class=3D"mb=
-lHotelIMG-3"], td[class=3D"mblHotelIMG-4"], img[class=3D"mblHotelIMG"]{widt=
-h:160px!important;
-height:160px!important;}
-=09img[class=3D"mblSTARS"]{width:120px!important; height:auto!important;}
-=09td[class=3D"mblPriceBTN"],a[class=3D"mblPriceBTN"]{font-size:28px !impor=
-tant; line-height:28px!important; width:180px !important;
-padding:8px!important;}
-=09td[class=3D"mblCarTitle"]{color:#0a84c1 !important; font-size:28px !impo=
-rtant; font-weight:bold !important; line-height:28px
-!important; padding-top: 0 !important;}
-=09td[class=3D"mblCAR"]{padding:0px !important;}
-=09img[class=3D"mblCAR"]{width:220px !important; height:auto !important; pa=
-dding-bottom:5px !important;}
-=09td[class=3D"mblVendor"]{font-size:18px!important; padding-bottom:4px!imp=
-ortant;}
-=09table[class=3D"mblRCIcons"]{width:150px!important;}
-=09table[class=3D"mblPPL"], table[class=3D"mblBAGS"]{width:50%!important;}
-=09td[class=3D"mblPPL"], td[class=3D"mblBAGS"]{font-size:26px!important; li=
-ne-height:26px!important;}
-=09img[class=3D"mblPPL"], img[class=3D"mblBAGS"]{width:75px !important; hei=
-ght:75px !important;}
+img{border-style:none;}
+a{
+    color:#4b90cd;
+    text-decoration:none;
 }
-*/
-</style>
+a:hover{text-decoration:underline;}
+input,
+textarea,
+select{
+    font:100% arial,sans-serif;
+    vertical-align:middle;
+}
+form,fieldset{
+    margin:0;
+    padding:0;
+    border:none;
+}
+/*GENERAL SETTINGS*/
+.holder{
+    overflow:hidden;
+    height:1%;
+}
+.clearfix:after {
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
 
-</head><body style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: =
-100%;margin: 0;padding: 0;width: 100%;background:
-#ffffff;">
+.clearfix, .gain-layout {*zoom:1;}
 
-<img src=3D"http://jump.priceline.com/email_open1x1.gif?refid=3DTMTRANSACT&=
-sendId=3D32002286206&email_subject_line=3DYour+priceline+itinerary+for+Wash=
-ington%2C+DC+-+May+27th%2C+2014+%28Itinerary%23+170-481-520-41%29&batchId=
-=3D290506&refclickid=3D20140421|1|OFFER|ACCEPT_INTERCEPT_TEST|OPEN&ea=3DF18=
-D70DD4C3B9DA447F7189D8DC51024261D4D5CD663813A&utm_medium=3Demail&utm_source=
-=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_320022862=
-06&email_subject_line=3DYour+priceline+itinerary+for+Washington%2C+DC+-+May=
-+27th%2C+2014+%28Itinerary%23+170-481-520-41%29"
-style=3D"width:1px;height:1px;display:block" alt=3D"">
+/* LAYOUT */
+body{text-align:center;}
 
-<!-- AdAdvisor START-->
-<img width=3D"1" height=3D"1" border=3D"0" align=3D"left" style=3D"width:1p=
-x;height:1px;display:block" src=3D"http://adadvisor.net/adscores/s.pixel?si=
-d=3D9111916868&es=3D7ff24fbdbbe2953ce03f6395ae455a5f6cf67cc0"
-/>
-<!-- AdAdvisor END -->
+/* COLORS */
+h1, h2, h3, h4{color:#004a91;}
+hr{height:5px;border:none;color:#ededed;background:#ededed;margin:0;clear:b=
+oth;}
 
-<!-- LIVE RAMP PIXELS START-->
-<img width=3D"1" height=3D"1" align=3D"left" border=3D"0" hspace=3D"0" vspa=
-ce=3D"0" style=3D"width:1px;height:1px;display:block" src=3D"http://ei.rlcd=
-n.com/362246.gif?m=3Dd04c6fbaa3c6fb86f986b6b67cedec7a&n=3D1"/>
-<img width=3D"1" height=3D"1" align=3D"left" border=3D"0" hspace=3D"0" vspa=
-ce=3D"0" style=3D"width:1px;height:1px;display:block" src=3D"http://ei.rlcd=
-n.com/362246.gif?m=3Dd04c6fbaa3c6fb86f986b6b67cedec7a&n=3D2"/>
-<img width=3D"1" height=3D"1" align=3D"left" border=3D"0" hspace=3D"0" vspa=
-ce=3D"0" style=3D"width:1px;height:1px;display:block" src=3D"http://ei.rlcd=
-n.com/362246.gif?m=3Dd04c6fbaa3c6fb86f986b6b67cedec7a&n=3D3"/>
-<img width=3D"1" height=3D"1" align=3D"left" border=3D"0" hspace=3D"0" vspa=
-ce=3D"0" style=3D"width:1px;height:1px;display:block" src=3D"http://ei.rlcd=
-n.com/362246.gif?m=3Dd04c6fbaa3c6fb86f986b6b67cedec7a&n=3D4"/>
-<!-- LIVE RAMP PIXELS END-->
-<table class=3D"mainContainer" style=3D"margin-left: auto;margin-right: aut=
-o;width: 706px;border-collapse: collapse;" align=3D"center"
-border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
-<tbody><tr>
-<td class=3D"mblHDN" style=3D"border-collapse: collapse;" width=3D"4%"><img=
- src=3D"http://image.emails.priceline.com/lib/fef51371706d00/m/1/space.gif"
-style=3D"display: block;outline: none;text-decoration: none;" alt=3D" " hei=
-ght=3D"1" width=3D"10"></td>
-<td class=3D"mblFullWidth" style=3D"border-collapse: collapse;" width=3D"92=
-%">
-<table style=3D"border-collapse: collapse;" border=3D"0" cellpadding=3D"0" =
-cellspacing=3D"0" width=3D"100%">
-<tbody><tr>
-<td class=3D"navPad">
-<table class=3D"mblHDN" align=3D"right" border=3D"0" cellpadding=3D"0" cell=
-spacing=3D"0">
-<tbody><tr>
-<td style=3D"padding-top:18px">
-<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
-<tbody><tr>
-<td style=3D"font-family:Arial, Helvetica, sans-serif;font-size:12px;line-h=
-eight:14px;color:#515050;padding-right:7px;">Follow
-Us</td>
-<td style=3D"padding-right:7px;"><a href=3D"http://jump.priceline.com/defau=
-lt.asp?refid=3DTMTRANSACT&sendId=3D32002286206&email_subject_line=3DYour+pr=
-iceline+itinerary+for+Washington%2C+DC+-+May+27th%2C+2014+%28Itinerary%23+1=
-70-481-520-41%29&batchId=3D290506&refclickid=3D20140421|1|OFFER|ACCEPT_INTE=
-RCEPT_TEST|HEADER_FACEBOOK_LINK&ea=3DF18D70DD4C3B9DA447F7189D8DC51024261D4D=
-5CD663813A&utm_medium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_camp=
-aign=3DTM_AIR_ACCEPT_INTERCEPT_32002286206&amp;url=3Dhttp://www.facebook.co=
-m/priceline"
-style=3D"color:#0a84c1;font-size:10px"><img src=3D"http://image.emails.pric=
-eline.com/lib/fef51371706d00/m/1/icn_facebook_top_2x.gif"
-alt=3D"Facebook" style=3D"display:block" border=3D"0" height=3D"24" width=
-=3D"24"></a></td>
-<td style=3D"padding-right:7px;"><a href=3D"http://jump.priceline.com/defau=
-lt.asp?refid=3DTMTRANSACT&sendId=3D32002286206&email_subject_line=3DYour+pr=
-iceline+itinerary+for+Washington%2C+DC+-+May+27th%2C+2014+%28Itinerary%23+1=
-70-481-520-41%29&batchId=3D290506&refclickid=3D20140421|1|OFFER|ACCEPT_INTE=
-RCEPT_TEST|HEADER_TWITTER_LINK&ea=3DF18D70DD4C3B9DA447F7189D8DC51024261D4D5=
-CD663813A&utm_medium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campa=
-ign=3DTM_AIR_ACCEPT_INTERCEPT_32002286206&amp;url=3Dhttps://twitter.com/pri=
-celine"
-style=3D"color:#0a84c1;font-size:10px"><img src=3D"http://image.emails.pric=
-eline.com/lib/fef51371706d00/m/1/icn_twitterz_top_2x.gif"
-alt=3D"Twitter" style=3D"display:block" border=3D"0" height=3D"24" width=3D=
-"24"></a></td>
-<td style=3D"padding-right:7px;"><a href=3D"http://jump.priceline.com/defau=
-lt.asp?refid=3DTMTRANSACT&sendId=3D32002286206&email_subject_line=3DYour+pr=
-iceline+itinerary+for+Washington%2C+DC+-+May+27th%2C+2014+%28Itinerary%23+1=
-70-481-520-41%29&batchId=3D290506&refclickid=3D20140421|1|OFFER|ACCEPT_INTE=
-RCEPT_TEST|HEADER_GOOGLEPLUS_LINK&ea=3DF18D70DD4C3B9DA447F7189D8DC51024261D=
-4D5CD663813A&utm_medium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_ca=
-mpaign=3DTM_AIR_ACCEPT_INTERCEPT_32002286206&amp;url=3Dhttps://plus.google.=
-com/%2Bpriceline"
-style=3D"color:#0a84c1;font-size:10px"><img src=3D"http://image.emails.pric=
-eline.com/lib/fef51371706d00/m/1/icn_googlePlus_top_2x.gif"
-alt=3D"Google+" style=3D"display:block" border=3D"0" height=3D"24" width=3D=
-"24"></a></td>
-<td><a href=3D"http://jump.priceline.com/default.asp?refid=3DTMTRANSACT&sen=
-dId=3D32002286206&email_subject_line=3DYour+priceline+itinerary+for+Washing=
-ton%2C+DC+-+May+27th%2C+2014+%28Itinerary%23+170-481-520-41%29&batchId=3D29=
-0506&refclickid=3D20140421|1|OFFER|ACCEPT_INTERCEPT_TEST|HEADER_YOUTUBE_LIN=
-K&ea=3DF18D70DD4C3B9DA447F7189D8DC51024261D4D5CD663813A&utm_medium=3Demail&=
-utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT=
-_32002286206&amp;url=3Dhttp://www.youtube.com/user/priceline"
-style=3D"color:#0a84c1;font-size:10px"><img src=3D"http://image.emails.pric=
-eline.com/lib/fef51371706d00/m/1/icn_youTube_top_2x.gif"
-alt=3D"YouTube" style=3D"display:block" border=3D"0" height=3D"24" width=3D=
-"24"></a></td>
-</tr>
-</tbody></table>
-</td>
-</tr>
-</tbody></table>
-<a href=3D"http://jump.priceline.com/download-priceline-negotiator-app?refi=
-d=3DTMTRANSACT&sendId=3D32002286206&email_subject_line=3DYour+priceline+iti=
-nerary+for+Washington%2C+DC+-+May+27th%2C+2014+%28Itinerary%23+170-481-520-=
-41%29&batchId=3D290506&refclickid=3D20140421|1|OFFER|ACCEPT_INTERCEPT_TEST|=
-DOWNLOAD_APP_LINK&ea=3DF18D70DD4C3B9DA447F7189D8DC51024261D4D5CD663813A&utm=
-_medium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_=
-ACCEPT_INTERCEPT_32002286206"
-class=3D"mblCTA"></a>
-<a href=3D"http://jump.priceline.com/?refid=3DTMTRANSACT&sendId=3D320022862=
-06&email_subject_line=3DYour+priceline+itinerary+for+Washington%2C+DC+-+May=
-+27th%2C+2014+%28Itinerary%23+170-481-520-41%29&batchId=3D290506&refclickid=
-=3D20140421|1|OFFER|ACCEPT_INTERCEPT_TEST|TOPNAV_LOGO_LINK&ea=3DF18D70DD4C3=
-B9DA447F7189D8DC51024261D4D5CD663813A&utm_medium=3Demail&utm_source=3DTM_AI=
-R_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002286206"><img
-src=3D"http://image.emails.priceline.com/lib/fef51371706d00/m/1/pricelineLo=
-go_onWhite2x.gif" alt=3D"Priceline.com" class=3D"logo"
-border=3D"0" height=3D"55" width=3D"203"></a>
-</td>
-</tr>
-<tr>
-<td style=3D"padding-bottom:10px" class=3D"navPad">
-<table style=3D"height:33px;" class=3D"topNav" border=3D"0" cellpadding=3D"=
-0" cellspacing=3D"0" width=3D"100%">
-<tbody><tr>
-<td style=3D"width:126px;padding:8px 0;-moz-border-radius:7px;-webkit-borde=
-r-radius:7px;border-radius:7px;text-shadow: 0px -1px
-1px #04517c;background:#0e82c4 url(http://image.emails.priceline.com/lib/fe=
-f51371706d00/m/1/top_nav_bg.gif) repeat-x 0 0"
-class=3D"navItem" align=3D"center" bgcolor=3D"#0e82c4">
-<a href=3D"https://offers.priceline.com/lr/r.php?lr=3Dair_search&amp;refid=
-=3DTMTRANSACT&sendId=3D32002286206&email_subject_line=3DYour+priceline+itin=
-erary+for+Washington%2C+DC+-+May+27th%2C+2014+%28Itinerary%23+170-481-520-4=
-1%29&batchId=3D290506&refclickid=3D20140421|1|OFFER|ACCEPT_INTERCEPT_TEST|T=
-OPNAV_FLIGHT_LINK&ea=3DF18D70DD4C3B9DA447F7189D8DC51024261D4D5CD663813A&utm=
-_medium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_=
-ACCEPT_INTERCEPT_32002286206"
-style=3D"font-family:Arial, Helvetica, sans-serif;font-size:13px;line-heigh=
-t:14px;text-decoration:none;color:#f2f2f2;display:block;font-weight:bold"
-class=3D"navLink">Flights</a></td>
-<td style=3D"width:5px"></td>
-<td style=3D"width:126px;padding:8px 0;-moz-border-radius:7px;-webkit-borde=
-r-radius:7px;border-radius:7px;text-shadow: 0px -1px
-1px #04517c;background:#0e82c4 url(http://image.emails.priceline.com/lib/fe=
-f51371706d00/m/1/top_nav_bg.gif) repeat-x 0 0"
-class=3D"navItem" align=3D"center" bgcolor=3D"#0e82c4">
-<a href=3D"https://offers.priceline.com/lr/r.php?lr=3Dhtl_rtl3&amp;refid=3D=
-TMTRANSACT&sendId=3D32002286206&email_subject_line=3DYour+priceline+itinera=
-ry+for+Washington%2C+DC+-+May+27th%2C+2014+%28Itinerary%23+170-481-520-41%2=
-9&batchId=3D290506&refclickid=3D20140421|1|OFFER|ACCEPT_INTERCEPT_TEST|TOPN=
-AV_HOTELS_LINK&ea=3DF18D70DD4C3B9DA447F7189D8DC51024261D4D5CD663813A&utm_me=
-dium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACC=
-EPT_INTERCEPT_32002286206"
-style=3D"font-family:Arial, Helvetica, sans-serif;font-size:13px;line-heigh=
-t:14px;text-decoration:none;color:#f2f2f2;display:block;font-weight:bold"
-class=3D"navLink">Hotels</a></td>
-<td style=3D"width:5px"></td>
-<td style=3D"width:126px;padding:8px 0;-moz-border-radius:7px;-webkit-borde=
-r-radius:7px;border-radius:7px;text-shadow: 0px -1px
-1px #04517c;background:#0e82c4 url(http://image.emails.priceline.com/lib/fe=
-f51371706d00/m/1/top_nav_bg.gif) repeat-x 0 0"
-class=3D"navItem" align=3D"center" bgcolor=3D"#0e82c4">
-<a href=3D"https://offers.priceline.com/lr/r.php?lr=3Drc_search&amp;refid=
-=3DTMTRANSACT&sendId=3D32002286206&email_subject_line=3DYour+priceline+itin=
-erary+for+Washington%2C+DC+-+May+27th%2C+2014+%28Itinerary%23+170-481-520-4=
-1%29&batchId=3D290506&refclickid=3D20140421|1|OFFER|ACCEPT_INTERCEPT_TEST|T=
-OPNAV_RC_LINK&ea=3DF18D70DD4C3B9DA447F7189D8DC51024261D4D5CD663813A&utm_med=
-ium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCE=
-PT_INTERCEPT_32002286206"
-style=3D"font-family:Arial, Helvetica, sans-serif;font-size:13px;line-heigh=
-t:14px;text-decoration:none;color:#f2f2f2;display:block;font-weight:bold"
-class=3D"navLink">Cars</a></td>
-<td style=3D"width:5px" class=3D"mblHDN"></td>
-<td style=3D"width:126px;padding:8px 0;-moz-border-radius:7px;-webkit-borde=
-r-radius:7px;border-radius:7px;text-shadow: 0px -1px
-1px #04517c;background:#0e82c4 url(http://image.emails.priceline.com/lib/fe=
-f51371706d00/m/1/top_nav_bg.gif) repeat-x 0 0"
-class=3D"mblHDN" align=3D"center" bgcolor=3D"#0e82c4">
-<a href=3D"http://jump.priceline.com/vacationpackages/?refid=3DTMTRANSACT&s=
-endId=3D32002286206&email_subject_line=3DYour+priceline+itinerary+for+Washi=
-ngton%2C+DC+-+May+27th%2C+2014+%28Itinerary%23+170-481-520-41%29&batchId=3D=
-290506&refclickid=3D20140421|1|OFFER|ACCEPT_INTERCEPT_TEST|TOPNAV_VP_LINK&e=
-a=3DF18D70DD4C3B9DA447F7189D8DC51024261D4D5CD663813A&utm_medium=3Demail&utm=
-_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32=
-002286206"
-style=3D"font-family:Arial, Helvetica, sans-serif;font-size:13px;line-heigh=
-t:14px;text-decoration:none;color:#f2f2f2;display:block;font-weight:bold">P=
-ackages</a></td>
-<td style=3D"width:5px" class=3D"mblHDN"></td>
-<td style=3D"width:126px;padding:8px 0;-moz-border-radius:7px;-webkit-borde=
-r-radius:7px;border-radius:7px;text-shadow: 0px -1px
-1px #04517c;background:#0e82c4 url(http://image.emails.priceline.com/lib/fe=
-f51371706d00/m/1/top_nav_bg.gif) repeat-x 0 0"
-class=3D"mblHDN" align=3D"center" bgcolor=3D"#0e82c4">
-<a href=3D"http://jump.priceline.com/default.asp?url=3Dhttp://cruises.price=
-line.com/default.asp%3f&amp;refid=3DTMTRANSACT&sendId=3D32002286206&email_s=
-ubject_line=3DYour+priceline+itinerary+for+Washington%2C+DC+-+May+27th%2C+2=
-014+%28Itinerary%23+170-481-520-41%29&batchId=3D290506&refclickid=3D2014042=
-1|1|OFFER|ACCEPT_INTERCEPT_TEST|TOPNAV_CRUISE_LINK&ea=3DF18D70DD4C3B9DA447F=
-7189D8DC51024261D4D5CD663813A&utm_medium=3Demail&utm_source=3DTM_AIR_ACCEPT=
-_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002286206"
-style=3D"font-family:Arial, Helvetica, sans-serif;font-size:13px;line-heigh=
-t:14px;text-decoration:none;color:#f2f2f2;display:block;font-weight:bold">C=
-ruises</a></td>
-</tr>
-</tbody></table>
-</td>
-</tr><tr>
-<td style=3D"border-collapse: collapse;">
-<table style=3D"-moz-border-top-right-radius:7px; -moz-border-top-left-radi=
-us:7px; -webkit-border-top-right-radius:7px; -webkit-border-top-left-radius=
-:7px;
-border-top-right-radius:7px; border-top-left-radius:7px; mso-table-lspace:0=
-pt; mso-table-rspace:0pt; border-collapse: collapse;"
-class=3D"square" bgcolor=3D"#0a84c1" border=3D"0" cellpadding=3D"0" cellspa=
-cing=3D"0" width=3D"100%">
-<tbody><tr>
-<td class=3D"mblBorder" style=3D"padding: 4px 4px 0 4px;border-collapse: co=
-llapse; mso-padding-alt:4pt 4pt 0pt 4pt;">
-<table class=3D"square" style=3D"-moz-border-radius:7px; -webkit-border-rad=
-ius:7px; border-radius:7px; mso-table-lspace:0pt; mso-table-rspace:0pt;
-padding:0px; margin:0px; border-collapse:separate;" border=3D"0" cellpaddin=
-g=3D"0" cellspacing=3D"0" width=3D"100%">
-<tbody><tr>
-<td style=3D"border-collapse:collapse">
-<!--main content of email-->
-<table class=3D"square" style=3D"-moz-border-top-right-radius:7px; -moz-bor=
-der-top-left-radius:7px; -webkit-border-top-right-radius:7px;
--webkit-border-top-left-radius:7px; border-top-right-radius:7px; border-top=
--left-radius:7px; padding:10px; background:#fff;
-mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:separate;" bord=
-er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
-<tbody><tr>
-<td style=3D"border-collapse:collapse">
-<!--top section-->
-<table style=3D"mso-table-lspace:0pt; mso-table-rspace:0pt; border-bottom:1=
-px solid #dddddd;" cellpadding=3D"0" cellspacing=3D"0"
-width=3D"100%">
-<tbody><tr>
-<td style=3D"border-collapse:collapse; padding-bottom:10px;">
-<table align=3D"left" style=3D"mso-table-lspace:0pt; mso-table-rspace:0pt;"=
- cellpadding=3D"0" cellspacing=3D"0" class=3D"mblFullWidth"
-width=3D"70%">
-<tbody><tr>
+    </style>
 
-<!--replace with proper name-->
+    </head>
 
-<td class=3D"header" style=3D"font-family:Arial, Helvetica, sans-serif; fon=
-t-weight:bold; font-size:22px; line-height:24px; color:#085397;">Flight
-Confirmation</td>
-</tr>                     <tr>
+    <body>
 
-<!--replace with trip number-->
-<!--insert correct link-->
+        <div align=3D"center" style=3D"margin:0 auto;text-align:left;width:=
+606px;">
+            <center><table border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ width=3D"606" align=3D"center">
+               <tr height=3D"5"><td></td></tr>
+                <tr>
+                    <td>
 
-<td class=3D"tripNumber" style=3D"font-family:Arial, Helvetica, sans-serif;=
- font-weight:normal; font-size:14px; line-height:16px;
-color:#000000;">Your trip number is <strong>170-481-520-41</strong>. <a hre=
-f=3D"http://jump.priceline.com/status/414A445407525FB65FAF4FADDAFCA91063023=
-88D72250723408E232E179DAC6F?plf=3DPCLN&from=3DDINC&refid=3DTMTRANSACT&sendI=
-d=3D32002286206&email_subject_line=3DYour+priceline+itinerary+for+Washingto=
-n%2C+DC+-+May+27th%2C+2014+%28Itinerary%23+170-481-520-41%29&batchId=3D2905=
-06&refclickid=3D20140421|1|OFFER|ACCEPT_INTERCEPT_TEST|AIR_RTL_ACCEPT_ITINE=
-RARY_LINK&ea=3DF18D70DD4C3B9DA447F7189D8DC51024261D4D5CD663813A&utm_medium=
-=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_=
-INTERCEPT_32002286206"
-class=3D"tripNumberLink" style=3D"font-family:Arial, Helvetica, sans-serif;=
- font-size:14px; font-weight:normal; line-height:16px;
-color:#2d94cc; text-decoration:underline;">View&nbsp;full&nbsp;itinerary</a=
->.</td>
-</tr>
-=09=09=09=09=09=09=09=09=09  <!--mobile itinerary buttons-->
-=09=09=09=09=09=09=09=09=09  <tr>
-=09=09=09=09=09=09=09=09=09=09  <!--[if !mso]><!-- -->
-=09=09=09=09=09=09=09=09=09  =09  <td align=3D"center" class=3D"mblFullWidt=
-h">
-=09=09=09=09=09=09=09=09=09  =09 =09<div class=3D"mobile-only" style=3D"fon=
-t-size: 0; max-height: 0; overflow: hidden; display: none;">
-=09=09=09=09=09=09=09=09=09=09=09<div style=3D"height:10px; font-size:10px;=
- line-height:10px; padding:0px; margin:0px; mso-padding-alt:0pt 0pt 0pt
-0pt; mso-margin-alt:0pt 0pt 0pt 0pt;">&nbsp;</div>=09=09=09=09=09
-=09=09=09=09=09=09=09=09=09    =09=09<a href=3D"http://jump.priceline.com/s=
-tatus/414A445407525FB65FAF4FADDAFCA9106302388D72250723408E232E179DAC6F?plf=
-=3DPCLN&from=3DDINC&refid=3DTMTRANSACT&sendId=3D32002286206&email_subject_l=
-ine=3DYour+priceline+itinerary+for+Washington%2C+DC+-+May+27th%2C+2014+%28I=
-tinerary%23+170-481-520-41%29&batchId=3D290506&refclickid=3D20140421|1|OFFE=
-R|ACCEPT_INTERCEPT_TEST|AIR_RTL_ACCEPT_PRINT_ITINERARY_LINK&ea=3DF18D70DD4C=
-3B9DA447F7189D8DC51024261D4D5CD663813A&utm_medium=3Demail&utm_source=3DTM_A=
-IR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002286206"><di=
-v
-class=3D"mblHalfWidth" style=3D"border:1px solid #333333; -moz-border-radiu=
-s:7px; -webkit-border-radius:7px; border-radius:7px;
-padding:10px; float:left;"><img class=3D"itinBTN" src=3D"http://image.email=
-s.priceline.com/lib/fef51371706d00/m/1/print_itin_btn.gif"
-width=3D"142" height=3D"25" style=3D"display:block; padding:0px; margin:0px=
-;"></div></a>
+            <div style=3D"text-align:center;border-bottom:1px solid #ccc;">
 
-=09=09=09=09=09=09=09=09=09=09=09=09<a href=3D"http://jump.priceline.com/st=
-atus/414A445407525FB65FAF4FADDAFCA9106302388D72250723408E232E179DAC6F?plf=
-=3DPCLN&from=3DDINC&refid=3DTMTRANSACT&sendId=3D32002286206&email_subject_l=
-ine=3DYour+priceline+itinerary+for+Washington%2C+DC+-+May+27th%2C+2014+%28I=
-tinerary%23+170-481-520-41%29&batchId=3D290506&refclickid=3D20140421|1|OFFE=
-R|ACCEPT_INTERCEPT_TEST|AIR_RTL_ACCEPT_EMAIL_ITINERARY_LINK&ea=3DF18D70DD4C=
-3B9DA447F7189D8DC51024261D4D5CD663813A&utm_medium=3Demail&utm_source=3DTM_A=
-IR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002286206"><di=
-v
-class=3D"mblHalfWidth" style=3D"border:1px solid #0a84c1; -moz-border-radiu=
-s:7px; -webkit-border-radius:7px; border-radius:7px;
-padding:10px; float:right"><img class=3D"itinBTN" src=3D"http://image.email=
-s.priceline.com/lib/fef51371706d00/m/1/email_itin_btn.gif"
-width=3D"142" height=3D"25" style=3D"display:block; padding:0px; margin:0px=
-;"></div></a>
-=09=09=09=09=09=09=09=09=09=09=09</div>
-=09=09=09=09=09=09=09=09    =09</td>
-=09=09=09=09=09=09=09=09=09=09<!--<![endif]-->
-=09=09=09=09=09=09=09=09    </tr>                                      <tr>
-<td style=3D"height:10px; font-size:10px; line-height:10px; padding:0px; ma=
-rgin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;" align=3D"left" height=3D"10" width=3D"100%">&nbsp;</td>
-</tr>
+                <div id=3D"logo" class=3D"clearfix">
+                    <table border=3D"0" width=3D"606" height=3D"100" cellpa=
+dding=3D"0" cellspacing=3D"0" style=3D"border: none;">
+                        <tr>
+                              <td colspan=3D"4" align=3D"left" valign=3D"to=
+p"><img src=3D"https://jetbluereceipt.sabre.com/jb/headert.jpg"/></td>
+                        </tr>
+                        <tr>
+                              <td width=3D"311" align=3D"left"><img src=3D"=
+https://jetbluereceipt.sabre.com/jb/headerl.jpg" /></td>
+                              <td width=3D"137" align=3D"left" style=3D"fon=
+t-size:12px; font-face:arial,sans-serif;">Scan this barcode to check in at =
+any JetBlue check in kiosk.</td>
+                              <td width=3D"133" align=3D"center"><img src=
+=3D"https://www.jetblue.com/itinerarybarcode/barcode.aspx?value=3DQOUHAI" a=
+lt=3D"QOUHAI" /></td>
+                              <td width=3D"25" align=3D"right"><img src=3D"=
+https://jetbluereceipt.sabre.com/jb/headerr.jpg" /></td>
+                        </tr>
+                        <tr>
+                               <td colspan=3D"4" valign=3D"bottom"><img src=
+=3D"https://jetbluereceipt.sabre.com/jb/headerb.jpg" /></td>
+                        </tr>
+                    </table>
+                </div>
 
-<tr>
+                <!-- navigation-->
+                <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" sty=
+le=3D"margin:0 auto;width:565px;">
+                    <tr><td colspan=3D"5" height=3D"8"></td></tr>
+                    <tr>
+                        <td style=3D"float:left;padding:0 24px;font-size:12=
+px;font-weight:bold;border-right:1px solid #ccc;"><a style=3D"color:#4b90cd=
+;" href=3D"https://checkin.jetblue.com/B6WebCheckIn/WebCheckIn.html">Check =
+in</a></td>
+                        <td style=3D"float:left;padding:0 24px;font-size:12=
+px;font-weight:bold;border-right:1px solid #ccc;"><a style=3D"color:#4b90cd=
+;" href=3D"http://www.jetblue.com/flightstatus/?source=3Dempreflight_flight=
+status">Flight status</a></td>
+                        <td style=3D"float:left;padding:0 24px;font-size:12=
+px;font-weight:bold;border-right:1px solid #ccc;"><a style=3D"color:#4b90cd=
+;" href=3D"http://myflights.jetblue.com/B6.myb/">Change/Cancel</a></td>
+                        <td style=3D"float:left;padding:0 24px;font-size:12=
+px;font-weight:bold;border-right:1px solid #ccc;"><a style=3D"color:#4b90cd=
+;" href=3D"http://myflights.jetblue.com/B6.myb/">Seats</a></td>
+                        <td style=3D"float:left;padding:0 24px;font-size:12=
+px;font-weight:bold;"><a style=3D"color:#4b90cd;" href=3D"http://www.jetblu=
+e.com/help/topics/help_topic_baggageinfo.html?source=3Dempreflight_changese=
+at">Baggage info</a></td>
+                    </tr>
+                    <tr><td colspan=3D"5" height=3D"12"></td></tr>
+                </table>
+            </div>
 
-<!--in order of the itinerary, replace with airline: flight confirmation nu=
-mber-->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <!--content-->
+                        <div>
 
-<td class=3D"mblFullWidth" style=3D"font-family:Arial, Helvetica, sans-seri=
-f; font-weight:normal;"><span class=3D"sectionSubTitle"
-style=3D"font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#0=
-85397;">Airline=09=09=09 Confirmation Numbers</span><br><span
-class=3D"bodyText" style=3D"font-family:Arial, Helvetica, sans-serif; font-=
-size:14px; font-weight:bold; color:#000000; display:inline-block">Alaska
-Airlines: <span class=3D"noLink" style=3D"font-weight:normal">VDXDMP</span>=
-</span><span class=3D"mblHDN">,&nbsp;</span><span class=3D"bodyText"
-style=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; font-wei=
-ght:bold; color:#000000; display:inline-block">Frontier
-Airlines: <span class=3D"noLink" style=3D"font-weight:normal">DMCNQD</span>=
-</span><span class=3D"mblHDN">&nbsp;</span>=09=09=09=09=09</td>
-</tr>
+                <div class=3D"clearfix" style=3D"padding:0px 0 0px 0px;" al=
+ign=3D"left">
+                    <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ width=3D"100%">
+                        <tr height=3D"15"><td></td></tr>
+                        <tr>
+                            <td align=3D"left">
+                                <h1 style=3D"font-size:30px;float:left;disp=
+lay:block;">Skip the line, check in now!</h1>
+                            </td>
+                            <td height=3D"33" valign=3D"center" align=3D"ri=
+ght" style=3D"padding-right:20px;padding-top:10px;padding-left:10px" rowspa=
+n=3D"2">
+                                <a href=3D"https://checkin.jetblue.com/B6We=
+bCheckIn/WebCheckIn.html" title=3D"Check in"><img src=3D"https://jetbluerec=
+eipt.sabre.com/jb/btn-check-in.gif" width=3D"104" height=3D"33" border=3D"0=
+"></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p align=3D"left" style=3D"font-size:12px;f=
+loat:left;line-height:18px;">
+                                Check in online by printing your boarding p=
+ass now. When you get to the airport, go straight to security if you have n=
+o bags to check.=20
+                                Please use your confirmation number, not ti=
+cket number, to check in.=20
+                                </p>
+                            </td>
+                        </tr>
+                        <tr height=3D"25"><td></td></tr>
+                    </table>
+                </div>
 
-<tr>
-<td style=3D"height:10px; font-size:10px; line-height:10px; padding:0px; ma=
-rgin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;" align=3D"left" height=3D"10" width=3D"100%">&nbsp;</td>
-</tr>
-
-<tr>
-<td class=3D"bodyText" style=3D"font-family:Arial, Helvetica, sans-serif; f=
-ont-weight:normal; font-size:13px; line-height:16px;
-color:#000000;">Please review the itinerary and passenger details below. If=
- you see an error, contact Priceline Customer Service
-immediately. Flight schedules can change, please confirm your itinerary wit=
-h the operating airline at least 24 hours before
-departure.</td>
-</tr>
-=09=09=09=09=09=09=09=09=09  <tr>
-<td style=3D"height:10px; font-size:10px; line-height:10px; padding:0px; ma=
-rgin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;" align=3D"left" height=3D"10" width=3D"100%">&nbsp;</td>
-</tr>
-<tr>
-<td class=3D"bodyText" style=3D"font-family:Arial, Helvetica, sans-serif; f=
-ont-weight:normal; font-size:13px; line-height:16px;
-color:#000000;">Airline baggage fees or other optional services may not be =
-included your trip cost. </td>
-</tr>
-</tbody></table>=09=09=09=09=09=09=09<!--this table is brand new-->
-=09=09=09=09=09=09=09=09=09<table style=3D"mso-table-lspace:0pt; mso-table-=
-rspace:0pt;" align=3D"right" cellpadding=3D"0" cellspacing=3D"0" class=3D"m=
-blHDN">
-=09=09=09=09=09=09=09=09=09=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09<td align=3D"left" class=3D"mblFullWidth" =
-style=3D"border:1px solid #333333; -moz-border-radius:7px; -webkit-border-r=
-adius:7px;
-border-radius:7px;">
-=09=09=09=09=09=09=09=09=09=09=09<a href=3D"http://jump.priceline.com/statu=
-s/414A445407525FB65FAF4FADDAFCA9106302388D72250723408E232E179DAC6F?plf=3DPC=
-LN&from=3DDINC&refid=3DTMTRANSACT&sendId=3D32002286206&email_subject_line=
-=3DYour+priceline+itinerary+for+Washington%2C+DC+-+May+27th%2C+2014+%28Itin=
-erary%23+170-481-520-41%29&batchId=3D290506&refclickid=3D20140421|1|OFFER|A=
-CCEPT_INTERCEPT_TEST|AIR_RTL_ACCEPT_PRINT_ITINERARY_LINK&ea=3DF18D70DD4C3B9=
-DA447F7189D8DC51024261D4D5CD663813A&utm_medium=3Demail&utm_source=3DTM_AIR_=
-ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002286206">
-=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"mblHalfWidth" style=3D"=
-mso-table-lspace:0pt; mso-table-rspace:0pt;" cellspacing=3D"0" cellpadding=
-=3D"0">
-=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"mblFullWidth" style=
-=3D"padding:10px;"><img class=3D"itinBTN" src=3D"http://image.emails.pricel=
-ine.com/lib/fef51371706d00/m/1/print_itin_btn.gif"
-width=3D"142" height=3D"25" style=3D"display:block; padding:0px; margin:0px=
-;"></td>
-=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
-=09=09=09=09=09=09=09=09=09=09=09=09</table>
-=09=09=09=09=09=09=09=09=09=09=09</a>
-=09=09=09=09=09=09=09=09=09=09=09</td>
-=09=09=09=09=09=09=09=09=09=09</tr>
-=09=09=09=09=09=09=09=09=09=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09<td style=3D"height:5px; font-size:5px; li=
-ne-height:5px; padding:0px; margin:0px; mso-padding-alt:0pt 0pt 0pt 0pt;
-mso-margin-alt:0pt 0pt 0pt 0pt;" align=3D"left">&nbsp;</td>
-=09=09=09=09=09=09=09=09=09=09</tr>
-=09=09=09=09=09=09=09=09=09=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09<td align=3D"left" class=3D"mblFullWidth" =
-style=3D"border:1px solid #0a84c1; -moz-border-radius:7px; -webkit-border-r=
-adius:7px;
-border-radius:7px;">
-=09=09=09=09=09=09=09=09=09=09=09=09<a href=3D"http://jump.priceline.com/st=
-atus/414A445407525FB65FAF4FADDAFCA9106302388D72250723408E232E179DAC6F?plf=
-=3DPCLN&from=3DDINC&refid=3DTMTRANSACT&sendId=3D32002286206&email_subject_l=
-ine=3DYour+priceline+itinerary+for+Washington%2C+DC+-+May+27th%2C+2014+%28I=
-tinerary%23+170-481-520-41%29&batchId=3D290506&refclickid=3D20140421|1|OFFE=
-R|ACCEPT_INTERCEPT_TEST|AIR_RTL_ACCEPT_EMAIL_ITINERARY_LINK&ea=3DF18D70DD4C=
-3B9DA447F7189D8DC51024261D4D5CD663813A&utm_medium=3Demail&utm_source=3DTM_A=
-IR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002286206">
-=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"mblHalfWidth" style=
-=3D"mso-table-lspace:0pt; mso-table-rspace:0pt;" cellspacing=3D"0" cellpadd=
-ing=3D"0">
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"mblFullWidth" sty=
-le=3D"padding:10px;"><img class=3D"itinBTN" src=3D"http://image.emails.pric=
-eline.com/lib/fef51371706d00/m/1/email_itin_btn.gif"
-width=3D"142" height=3D"25" style=3D"display:block; padding:0px; margin:0px=
-;"></td>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09</table>
-=09=09=09=09=09=09=09=09=09=09=09=09</a>
-=09=09=09=09=09=09=09=09=09=09=09</td>
-=09=09=09=09=09=09=09=09=09=09</tr>
-=09=09=09=09=09=09=09=09=09</table>                          </td>
-</tr>
-</tbody></table>=09=09=09=09=09<table style=3D"mso-table-lspace:0pt; mso-ta=
-ble-rspace:0pt; border-bottom:1px solid #dddddd;" cellpadding=3D"0"
-cellspacing=3D"0" width=3D"100%">
-<tbody>
-=09=09=09=09=09=09=09=09<tr>
-<td style=3D"border-collapse:collapse;">
-<table style=3D"mso-table-lspace:0pt; mso-table-rspace:0pt;" cellpadding=3D=
-"0" cellspacing=3D"0" width=3D"100%">
-<tbody>
-=09=09=09=09=09=09=09=09=09   <tr>
-<td style=3D"height:10px; font-size:10px; line-height:10px; padding:0px; ma=
-rgin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;" align=3D"left">&nbsp;</td>
-</tr>
-<tr>
-<td class=3D"sectionHeader" style=3D"font-family:Arial, Helvetica, sans-ser=
-if; font-weight:bold; font-size:20px; line-height:22px;
-color:#085397; padding:0px;">Flight Details
-<div style=3D"height:5px; font-size:5px; line-height:5px; padding:0px; marg=
-in:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;">&nbsp;</div>
-</td>
-</tr>
-<tr>
-<td class=3D"tripType" style=3D"font-family:Arial, Helvetica, sans-serif; f=
-ont-size:16px; line-height:16px; font-weight:bold;"
-align=3D"left"><span style=3D"text-align:left; font-family:Arial, Helvetica=
-, sans-serif; font-size:16px; font-weight:normal; color:#000000;
-line-height:16px;" class=3D"typeTitle">Multi-Destination</span>&nbsp;|&nbsp=
-;<span style=3D"text-align:left; font-family:Arial,
-Helvetica, sans-serif; font-size:16px; font-weight:normal; color:#000000; l=
-ine-height:16px;" class=3D"typeTitle">1 Adult=09 =20
-<div style=3D"height:10px; font-size:10px; line-height:10px; padding:0px; m=
-argin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;">&nbsp;</div>
-</td>
-</tr><!--multi destination fight title-->
-<tr>
-<td class=3D"flightTitle" style=3D"padding:0px;" align=3D"left"><span style=
-=3D"text-align:left; font-family:Arial, Helvetica, sans-serif;
-font-size:18px; font-weight:bold; color:#000000; line-height:20px; display:=
-inline-block" class=3D"flightTitle">Portland, OR
-(PDX) &nbsp;to &nbsp;</span> <span style=3D"text-align:left; font-family:Ar=
-ial, Helvetica, sans-serif; font-size:18px; font-weight:bold;
-color:#000000; line-height:20px; display:inline-block" class=3D"flightTitle=
-">Washington, DC (DCA)</span></span>
-<div style=3D"height:10px; font-size:10px; line-height:10px; padding:0px; m=
-argin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;">&nbsp;</div>
-</td>
-</tr>
-<!--end multi destination flight title-->                     <!--flight in=
-formation box-->
-<tr>
-<td style=3D"padding:0px; margin:0px; mso-padding-alt:0pt 0pt 0pt 0pt;">
-<table class=3D"mblFullWidth" style=3D"mso-table-lspace:0pt; mso-table-rspa=
-ce:0pt;" align=3D"center" bgcolor=3D"#ffffff" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
-<tbody><tr>
-<td style=3D"mso-margin-alt:0pt 0pt 0pt 0pt; padding:10px; -moz-border-radi=
-us:7px; -webkit-border-radius:7px; border-radius:7px;
-border:solid 1px #60a4d7;" align=3D"center" bgcolor=3D"#eef6fb" width=3D"10=
-0%">
-<table style=3D"mso-table-lspace:0pt 0pt 0pt 0pt; mso-table-rspace:0pt 0pt =
-0pt 0pt;" align=3D"center" border=3D"0" cellpadding=3D"0"
-cellspacing=3D"0" width=3D"100%">
-<tbody><tr>
-<td style=3D"padding:0px; margin:0px;">
-<table class=3D"mblFullWidth" style=3D"border-collapse:collapse; mso-table-=
-lspace:0pt; mso-table-rspace:0pt;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"35%">
-<tbody><tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:bold; text-decoration:none; padding-top:0px!important" class=3D=
-"flightSectionHeader" align=3D"left">Departing</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none;" class=3D"flightSectionData" alig=
-n=3D"left">Portland Intl Airport</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none; padding-top:0px; mso-padding-alt:=
-0pt 0pt 0pt 0pt;" class=3D"flightSectionData" align=3D"left">Tue,
-May. 27, 2014 at 9:35 AM</td>
-</tr>
-</tbody></table>
-<table class=3D"mblHDN" style=3D"border-collapse:collapse; padding-left:0px=
-; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;mso-table-lspace:0;mso-table-rspace:0;" align=3D"left" border=
-=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
-<tbody><tr style=3D"padding-top: 0px;padding-bottom:0px; padding-left:0px; =
-padding-right:0px;">
-<td>&nbsp;</td>
-</tr>
-</tbody></table>
-<table class=3D"mblFullWidth" style=3D"border-collapse:collapse; mso-table-=
-lspace:0pt; mso-table-rspace:0pt;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"35%">
-<tbody><tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:bold; text-decoration:none;" class=3D"flightSectionHeader" alig=
-n=3D"left">Arriving</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none;" class=3D"flightSectionData" alig=
-n=3D"left">Ronald Reagan Washington National Airport</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none; padding-top:0px; mso-padding-alt:=
-0pt 0pt 0pt 0pt;" class=3D"flightSectionData" align=3D"left">Tue,
-May. 27, 2014 at 5:40 PM</td>
-</tr>
-</tbody></table>
-<table class=3D"mblHDN" style=3D"border-collapse:collapse; padding-left:0px=
-; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;mso-table-lspace:0;mso-table-rspace:0;" align=3D"left" border=
-=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
-<tbody><tr style=3D"padding-top: 0px;padding-bottom:0px; padding-left:0px; =
-padding-right:0px;">
-<td>&nbsp;</td>
-</tr>
-</tbody></table>
-<table class=3D"mblFullWidth" style=3D"border-collapse:collapse; mso-table-=
-lspace:0pt; mso-table-rspace:0pt;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"25%">
-<tbody><tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:bold; text-decoration:none;" class=3D"flightSectionHeader" alig=
-n=3D"left">Flight / Class</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none; padding:0px;" class=3D"flightSect=
-ionData" align=3D"left">Alaska Airlines 764</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none; padding:0px;" class=3D"flightSect=
-ionData" align=3D"left">Economy Class</td>
-</tr>                                       <tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none; padding:0px;" class=3D"flightSect=
-ionData" align=3D"left">Conf Number: VDXDMP</td>
-</tr>                                             </tbody></table>
-</td>
-</tr>                                        </tbody></table>
-</td>
-</tr>
-</tbody></table>
-<!--end blue table-->
-=09=09=09=09=09=09=09=09=09=09 </td>
-</tr>
-<!--end flight information box-->
-<tr>
-<td style=3D"height:10px; font-size:10px; line-height:10px; padding:0px; ma=
-rgin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;" align=3D"left">&nbsp;</td>
-</tr> <!--multi destination fight title-->
-<tr>
-<td class=3D"flightTitle" style=3D"padding:0px;" align=3D"left"><span style=
-=3D"text-align:left; font-family:Arial, Helvetica, sans-serif;
-font-size:18px; font-weight:bold; color:#000000; line-height:20px; display:=
-inline-block" class=3D"flightTitle">Washington, DC
-(DCA) &nbsp;to &nbsp;</span> <span style=3D"text-align:left; font-family:Ar=
-ial, Helvetica, sans-serif; font-size:18px; font-weight:bold;
-color:#000000; line-height:20px; display:inline-block" class=3D"flightTitle=
-">Denver, CO (DEN)</span></span>
-<div style=3D"height:10px; font-size:10px; line-height:10px; padding:0px; m=
-argin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;">&nbsp;</div>
-</td>
-</tr>
-<!--end multi destination flight title-->                     <!--flight in=
-formation box-->
-<tr>
-<td style=3D"padding:0px; margin:0px; mso-padding-alt:0pt 0pt 0pt 0pt;">
-<table class=3D"mblFullWidth" style=3D"mso-table-lspace:0pt; mso-table-rspa=
-ce:0pt;" align=3D"center" bgcolor=3D"#ffffff" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
-<tbody><tr>
-<td style=3D"mso-margin-alt:0pt 0pt 0pt 0pt; padding:10px; -moz-border-radi=
-us:7px; -webkit-border-radius:7px; border-radius:7px;
-border:solid 1px #60a4d7;" align=3D"center" bgcolor=3D"#eef6fb" width=3D"10=
-0%">
-<table style=3D"mso-table-lspace:0pt 0pt 0pt 0pt; mso-table-rspace:0pt 0pt =
-0pt 0pt;" align=3D"center" border=3D"0" cellpadding=3D"0"
-cellspacing=3D"0" width=3D"100%">
-<tbody><tr>
-<td style=3D"padding:0px; margin:0px;">
-<table class=3D"mblFullWidth" style=3D"border-collapse:collapse; mso-table-=
-lspace:0pt; mso-table-rspace:0pt;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"35%">
-<tbody><tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:bold; text-decoration:none; padding-top:0px!important" class=3D=
-"flightSectionHeader" align=3D"left">Departing</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none;" class=3D"flightSectionData" alig=
-n=3D"left">Ronald Reagan Washington National Airport</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none; padding-top:0px; mso-padding-alt:=
-0pt 0pt 0pt 0pt;" class=3D"flightSectionData" align=3D"left">Sun,
-Jun. 01, 2014 at 8:30 AM</td>
-</tr>
-</tbody></table>
-<table class=3D"mblHDN" style=3D"border-collapse:collapse; padding-left:0px=
-; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;mso-table-lspace:0;mso-table-rspace:0;" align=3D"left" border=
-=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
-<tbody><tr style=3D"padding-top: 0px;padding-bottom:0px; padding-left:0px; =
-padding-right:0px;">
-<td>&nbsp;</td>
-</tr>
-</tbody></table>
-<table class=3D"mblFullWidth" style=3D"border-collapse:collapse; mso-table-=
-lspace:0pt; mso-table-rspace:0pt;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"35%">
-<tbody><tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:bold; text-decoration:none;" class=3D"flightSectionHeader" alig=
-n=3D"left">Arriving</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none;" class=3D"flightSectionData" alig=
-n=3D"left">Denver Intl Airport</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none; padding-top:0px; mso-padding-alt:=
-0pt 0pt 0pt 0pt;" class=3D"flightSectionData" align=3D"left">Sun,
-Jun. 01, 2014 at 10:27 AM</td>
-</tr>
-</tbody></table>
-<table class=3D"mblHDN" style=3D"border-collapse:collapse; padding-left:0px=
-; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;mso-table-lspace:0;mso-table-rspace:0;" align=3D"left" border=
-=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
-<tbody><tr style=3D"padding-top: 0px;padding-bottom:0px; padding-left:0px; =
-padding-right:0px;">
-<td>&nbsp;</td>
-</tr>
-</tbody></table>
-<table class=3D"mblFullWidth" style=3D"border-collapse:collapse; mso-table-=
-lspace:0pt; mso-table-rspace:0pt;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"25%">
-<tbody><tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:bold; text-decoration:none;" class=3D"flightSectionHeader" alig=
-n=3D"left">Flight / Class</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none; padding:0px;" class=3D"flightSect=
-ionData" align=3D"left">Frontier Airlines 721</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none; padding:0px;" class=3D"flightSect=
-ionData" align=3D"left">Economy Class</td>
-</tr>                                       <tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none; padding:0px;" class=3D"flightSect=
-ionData" align=3D"left">Conf Number: DMCNQD</td>
-</tr>                                             </tbody></table>
-</td>
-</tr>                                        </tbody></table>
-</td>
-</tr>
-</tbody></table>
-<!--end blue table-->
-=09=09=09=09=09=09=09=09=09=09 </td>
-</tr>
-<!--end flight information box-->
-<tr>
-<td style=3D"height:10px; font-size:10px; line-height:10px; padding:0px; ma=
-rgin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;" align=3D"left">&nbsp;</td>
-</tr> <!--multi destination fight title-->
-<tr>
-<td class=3D"flightTitle" style=3D"padding:0px;" align=3D"left"><span style=
-=3D"text-align:left; font-family:Arial, Helvetica, sans-serif;
-font-size:18px; font-weight:bold; color:#000000; line-height:20px; display:=
-inline-block" class=3D"flightTitle">Denver, CO (DEN)
-&nbsp;to &nbsp;</span> <span style=3D"text-align:left; font-family:Arial, H=
-elvetica, sans-serif; font-size:18px; font-weight:bold;
-color:#000000; line-height:20px; display:inline-block" class=3D"flightTitle=
-">Portland, OR (PDX)</span></span>
-<div style=3D"height:10px; font-size:10px; line-height:10px; padding:0px; m=
-argin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;">&nbsp;</div>
-</td>
-</tr>
-<!--end multi destination flight title-->                     <!--flight in=
-formation box-->
-<tr>
-<td style=3D"padding:0px; margin:0px; mso-padding-alt:0pt 0pt 0pt 0pt;">
-<table class=3D"mblFullWidth" style=3D"mso-table-lspace:0pt; mso-table-rspa=
-ce:0pt;" align=3D"center" bgcolor=3D"#ffffff" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
-<tbody><tr>
-<td style=3D"mso-margin-alt:0pt 0pt 0pt 0pt; padding:10px; -moz-border-radi=
-us:7px; -webkit-border-radius:7px; border-radius:7px;
-border:solid 1px #60a4d7;" align=3D"center" bgcolor=3D"#eef6fb" width=3D"10=
-0%">
-<table style=3D"mso-table-lspace:0pt 0pt 0pt 0pt; mso-table-rspace:0pt 0pt =
-0pt 0pt;" align=3D"center" border=3D"0" cellpadding=3D"0"
-cellspacing=3D"0" width=3D"100%">
-<tbody><tr>
-<td style=3D"padding:0px; margin:0px;">
-<table class=3D"mblFullWidth" style=3D"border-collapse:collapse; mso-table-=
-lspace:0pt; mso-table-rspace:0pt;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"35%">
-<tbody><tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:bold; text-decoration:none; padding-top:0px!important" class=3D=
-"flightSectionHeader" align=3D"left">Departing</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none;" class=3D"flightSectionData" alig=
-n=3D"left">Denver Intl Airport</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none; padding-top:0px; mso-padding-alt:=
-0pt 0pt 0pt 0pt;" class=3D"flightSectionData" align=3D"left">Sun,
-Jun. 08, 2014 at 12:20 PM</td>
-</tr>
-</tbody></table>
-<table class=3D"mblHDN" style=3D"border-collapse:collapse; padding-left:0px=
-; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;mso-table-lspace:0;mso-table-rspace:0;" align=3D"left" border=
-=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
-<tbody><tr style=3D"padding-top: 0px;padding-bottom:0px; padding-left:0px; =
-padding-right:0px;">
-<td>&nbsp;</td>
-</tr>
-</tbody></table>
-<table class=3D"mblFullWidth" style=3D"border-collapse:collapse; mso-table-=
-lspace:0pt; mso-table-rspace:0pt;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"35%">
-<tbody><tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:bold; text-decoration:none;" class=3D"flightSectionHeader" alig=
-n=3D"left">Arriving</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none;" class=3D"flightSectionData" alig=
-n=3D"left">Portland Intl Airport</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none; padding-top:0px; mso-padding-alt:=
-0pt 0pt 0pt 0pt;" class=3D"flightSectionData" align=3D"left">Sun,
-Jun. 08, 2014 at 2:00 PM</td>
-</tr>
-</tbody></table>
-<table class=3D"mblHDN" style=3D"border-collapse:collapse; padding-left:0px=
-; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;mso-table-lspace:0;mso-table-rspace:0;" align=3D"left" border=
-=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
-<tbody><tr style=3D"padding-top: 0px;padding-bottom:0px; padding-left:0px; =
-padding-right:0px;">
-<td>&nbsp;</td>
-</tr>
-</tbody></table>
-<table class=3D"mblFullWidth" style=3D"border-collapse:collapse; mso-table-=
-lspace:0pt; mso-table-rspace:0pt;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"25%">
-<tbody><tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:bold; text-decoration:none;" class=3D"flightSectionHeader" alig=
-n=3D"left">Flight / Class</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none; padding:0px;" class=3D"flightSect=
-ionData" align=3D"left">Frontier Airlines 791</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none; padding:0px;" class=3D"flightSect=
-ionData" align=3D"left">Economy Class</td>
-</tr>                                       <tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none; padding:0px;" class=3D"flightSect=
-ionData" align=3D"left">Conf Number: DMCNQD</td>
-</tr>                                             </tbody></table>
-</td>
-</tr>                                        </tbody></table>
-</td>
-</tr>
-</tbody></table>
-<!--end blue table-->
-=09=09=09=09=09=09=09=09=09=09 </td>
-</tr>
-<!--end flight information box-->
-<tr>
-<td style=3D"height:10px; font-size:10px; line-height:10px; padding:0px; ma=
-rgin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;" align=3D"left">&nbsp;</td>
-</tr>                              </tbody>
-</table>
-</td>
-</tr>
-</tbody></table><!--passenger and ticket information block-->
-
-<table style=3D"mso-table-lspace:0pt; mso-table-rspace:0pt;" cellpadding=3D=
-"0" cellspacing=3D"0" width=3D"100%">
-<tbody><tr>
-<td style=3D"height:10px; font-size:10px; line-height:10px; padding:0px; ma=
-rgin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;" align=3D"left" height=3D"10" width=3D"100%">&nbsp;</td>
-</tr>
-<tr>
-<td class=3D"blackSectionHeader" style=3D"font-family:Arial, Helvetica, san=
-s-serif; font-weight:normal; font-size:20px; line-height:20px;
-color:#000000; padding:0px;">Passenger Information
-<div style=3D"height:10px; font-size:10px; line-height:10px; padding:0px; m=
-argin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;">&nbsp;</div>
-</td>
-</tr>               <!--first passenger information-->
-<tr>
-<td style=3D"padding:0px; margin:0px; mso-padding-alt:0pt 0pt 0pt 0pt;">
-<table class=3D"mblFullWidth" style=3D"mso-table-lspace:0pt; mso-table-rspa=
-ce:0pt;" align=3D"center" bgcolor=3D"#ffffff" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
-<tbody><tr>
-<td style=3D"mso-margin-alt:0pt 0pt 0pt 0pt; padding:10px; -moz-border-radi=
-us:7px; -webkit-border-radius:7px; border-radius:7px;
-border:solid 1px #dddddd;" align=3D"center" width=3D"100%">
-<table style=3D"mso-table-lspace:0pt 0pt 0pt 0pt; mso-table-rspace:0pt 0pt =
-0pt 0pt;" align=3D"center" border=3D"0" cellpadding=3D"0"
-cellspacing=3D"0" width=3D"100%">
-<tbody><tr>
-<td style=3D"padding:0px; margin:0px;">
-<table class=3D"mblFullWidth" style=3D"border-collapse:collapse; mso-table-=
-lspace:0pt; mso-table-rspace:0pt;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"30%">
-<tbody><tr>
-<td class=3D"mblHDN" style=3D"font-size:5px; line-height:5px; padding:0px; =
-margin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;" align=3D"left">&nbsp;</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:14px; line-height:16px; color:#085397;
-font-weight:normal; text-decoration:none;" class=3D"passengerName" align=3D=
-"left">Taylor Hesselgrave</td>
-</tr>
-</tbody></table>
-<table class=3D"mblHDN" style=3D"border-collapse:collapse; padding-left:0px=
-; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;mso-table-lspace:0;mso-table-rspace:0;" align=3D"left" border=
-=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
-<tbody><tr style=3D"padding-top: 0px;padding-bottom:0px; padding-left:0px; =
-padding-right:0px;">
-<td>&nbsp;</td>
-</tr>
-</tbody></table>
-<table class=3D"mblFullWidth" style=3D"border-collapse:collapse; mso-table-=
-lspace:0pt; mso-table-rspace:0pt;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"26%">
-<tbody><tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:10px; line-height:12px; color:#808080;
-font-style:normal; text-decoration:none;" class=3D"passengerInfoTitle" alig=
-n=3D"left">Ticketed By</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none;" class=3D"passengerInfoSub" align=
-=3D"left">Alaska Airlines</td>
-</tr>
-</tbody></table>
-<table class=3D"mblHDN" style=3D"border-collapse:collapse; padding-left:0px=
-; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;mso-table-lspace:0;mso-table-rspace:0;" align=3D"left" border=
-=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
-<tbody><tr style=3D"padding-top: 0px;padding-bottom:0px; padding-left:0px; =
-padding-right:0px;">
-<td>&nbsp;</td>
-</tr>
-</tbody></table>                                       <table class=3D"mblH=
-DN" style=3D"border-collapse:collapse; padding-left:0px;
-mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt 0pt 0pt 0pt;mso-table-l=
-space:0;mso-table-rspace:0;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
-<tbody><tr style=3D"padding-top: 0px;padding-bottom:0px; padding-left:0px; =
-padding-right:0px;">
-<td>&nbsp;</td>
-</tr>
-</tbody></table>
-<table class=3D"mblFullWidth" style=3D"border-collapse:collapse; mso-table-=
-lspace:0pt; mso-table-rspace:0pt;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"14%">
-<tbody><tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:10px; line-height:12px; color:#808080;
-font-style:normal; text-decoration:none;" class=3D"passengerInfoTitle" alig=
-n=3D"left">Ticket Type</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none; padding:0px; padding-bottom:0px!i=
-mportant" class=3D"passengerInfoSub" align=3D"left">Eticket</td>
-</tr>
-</tbody></table>
-</td>
-</tr>=20
-</tbody></table>
-</td>
-</tr>
-</tbody></table>
-<!--end blue table-->
-</td>
-</tr>
-<!--end first passenger information-->        <!--next passenger informatio=
-n-->
-<!--include the spacer tr tag-->
-<tr>
-<td style=3D"height:5px; font-size:5px; line-height:5px; padding:0px; margi=
-n:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;" align=3D"left" height=3D"5" width=3D"100%">&nbsp;</td>
-</tr>                      <!--end next passenger information-->
-=09=09=09=09=09=09=09  <tr>
-<td style=3D"height:10px; font-size:10px; line-height:10px; padding:0px; ma=
-rgin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;" align=3D"left" height=3D"10" width=3D"100%">&nbsp;</td>
-</tr>
-</tbody></table>
-
-<!--end passenger and ricket information block-->=09=09=09 <!--air trip pro=
-tection block, if they dont have it already and its available-->
-
-<table style=3D"mso-table-lspace:0pt; mso-table-rspace:0pt; border-top:1px =
-solid #dddddd;" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
-<tr>
-<td style=3D"height:10px; font-size:10px; line-height:10px; padding:0px; ma=
-rgin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;" align=3D"left" height=3D"10" width=3D"100%">&nbsp;</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse;">
-<table style=3D"mso-table-lspace:0pt; mso-table-rspace:0pt;" cellpadding=3D=
-"0" cellspacing=3D"0" width=3D"100%">
-<tr>
-<td style=3D"border-collapse:collapse;">
-<table valign=3D"top" class=3D"mblHDN" style=3D"mso-table-lspace:0pt; mso-t=
-able-rspace:0pt;" align=3D"left" cellpadding=3D"0" cellspacing=3D"0"
-width=3D"70">
-<tr>
-<td style=3D"border-collapse:collapse;" align=3D"top">
-<img src=3D"http://image.emails.priceline.com/lib/fef51371706d00/m/1/air-tr=
-ip-protection.jpg" style=3D"padding:0px; margin:0px;"
-border=3D"0" height=3D"63" width=3D"60">
-</td>
-</tr>
-</table>
-<table valign=3D"top" class=3D"mblFullWidth" style=3D"padding:0px; mso-tabl=
-e-lspace:0pt; mso-table-rspace:0pt;" align=3D"left" cellpadding=3D"0"
-cellspacing=3D"0" width=3D"400">
-<tr>
-<td class=3D"tripProtectionHeader" style=3D"font-family:Arial, Helvetica, s=
-ans-serif; font-size:20px; font-weight:bold; line-height:18px;
-color:#0a84c1; display:block;">We Recommend Trip Protection
-<div style=3D"height:2px; font-size:2px; line-height:2px; padding:0px; marg=
-in:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;">&nbsp;</div>
-</td>
-</tr>
-<tr>
-<td class=3D"tripProtectionSubHeader" style=3D"font-family:Arial, Helvetica=
-, sans-serif; font-size:14px; font-weight:normal; line-height:14px;
-color:#000000; display:block;">Life is uncertain...plan for the unexpected.
-<div style=3D"height:2px; font-size:2px; line-height:2px; padding:0px; padd=
-ing-bottom:3px; margin:0px; mso-padding-alt:0pt 0pt
-0pt 0pt; mso-margin-alt:0pt 0pt 0pt 0pt;">&nbsp;</div>
-</td>
-</tr>
-<tr>
-<td class=3D"tripProtectionOffer" style=3D"display:block;"><img src=3D"http=
-://image.emails.priceline.com/lib/fef51371706d00/m/1/air-trip-clock.jpg"
-style=3D"margin:0px;" class=3D"tripOffer" align=3D"left" height=3D"16" widt=
-h=3D"16"><span class=3D"mblHDN" style=3D"font-size:10px; width:5px;
-visiblity:hidden;">&nbsp;</span><span style=3D"font-family:Arial, Helvetica=
-, sans-serif; font-size:14px; font-weight:normal;
-line-height:16px; color:#ec2222; display:inline-block" class=3D"tripProtect=
-ionOffer">Protection Offer Expires:</span> <span
-style=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; font-wei=
-ght:normal; line-height:16px; color:#ec2222;  display:inline-block"
-class=3D"tripProtectionOffer">04/22/14 at 11:57 PM EST</span>
-</td>
-</tr>
-</table>=09=09=09=09=09=09=09=09<table class=3D"mblFullWidth" valign=3D"cen=
-ter" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" width=3D"120">
+                <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" wid=
+th=3D"100%">
+                    <tr valign=3D"center">
+                        <td width=3D"9" height=3D"32"><img src=3D"https://j=
+etbluereceipt.sabre.com/jb/bg-confirmation-left.gif"></td>
+                        <td width=3D"100%" height=3D"32" bgcolor=3D"#d8e8f5=
+" align=3D"left" style=3D"padding:0px 0 0px 2px;font-size:16px;font-weight:=
+bold;color:#004a91;">
+                            Your confirmation number is QOUHAI.
+                        </td>
+                        <td width=3D"9" height=3D"32"><img src=3D"https://j=
+etbluereceipt.sabre.com/jb/bg-confirmation-right.gif"></td>
+                    </tr>
+                    <tr height=3D"26"><td></td></tr>
+                </table>
+=09=09=09=09<div style=3D"border-bottom:5px solid  #e5e5e5;">
+=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09<table border=3D"0">
 =09<tr>
-=09=09<td rowspan=3D"5" style=3D"border-collapse:collapse;">
-=09=09=09<table class=3D"tripInsuranceShift" style=3D"mso-table-lspace:0pt;=
- mso-table-rspace:0pt;" cellpadding=3D"0" cellspacing=3D"0" align=3D"center=
+=09=09<td rowspan=3D"2" width=3D"150" align=3D"left" valign=3D"top"><img sr=
+c=3D"https://www.jetblue.com/email/even-more-space.gif" width=3D"132" heigh=
+t=3D"55" alt=3D"Even more space"/></td>
+=09=09<td align=3D"left"><div style=3D"color:#004A91; font-weight:bold;">Co=
+ngratulations</div></td>
+    </tr>
+    <tr>
+        <td style=3D"font-size: 11px;" align=3D"left" valign=3D"top">You ha=
+ve purchased an Even More Space seat which means you'll have extra legroom =
+to stretch in and you'll get to board early,=20
+=09=09plus have early access to overhead bins. In select cities, your purch=
+ase includes Even More Speed so you can also get to your gate faster with e=
+xpedited security.=20
+=09=09Enjoy! <a href=3D" www.jetblue.com/flying-on-jetblue/onboard/even-mor=
+e.asp" style=3D"color: #4B90CD">More&nbsp;info</a></td>
+    </tr>
+</table>
+<br/>=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09<br/>
+                <div align=3D"left">
+
+                    <h2 style=3D"font-size:18px;margin:0px 0 0;color:#004a9=
+1">Your itinerary</h2>
+
+                    <table cellspacing=3D"0" cellpadding=3D"0" style=3D"mar=
+gin:0px 0 0 0;" border=3D"0">
+                    <tr height=3D"16"><td></td></tr>
+                    <tr style=3D"border-bottom:1px solid #e5e5e5;" align=3D=
+"left">
+                        <th align=3D"left" id=3D"date" style=3D"padding:13p=
+x 11px;background:#f2f2f2;border-bottom:1px solid #e5e5e5;width:70px;">Date=
+</th>
+                        <th align=3D"left" style=3D"padding:13px 11px;backg=
+round:#f2f2f2;border-bottom:1px solid #e5e5e5;width:70px;">Departs/<br/>Arr=
+ives</th>
+                        <th align=3D"left" style=3D"padding:13px 11px;backg=
+round:#f2f2f2;border-bottom:1px solid #e5e5e5;width:150px;" id=3D"route">Ro=
+ute</th>
+                        <th align=3D"left" style=3D"padding:13px 11px;backg=
+round:#f2f2f2;border-bottom:1px solid #e5e5e5;">Flight / Operated&nbsp;by</=
+th>
+                        <th align=3D"left" style=3D"padding:13px 11px;backg=
+round:#f2f2f2;border-bottom:1px solid #e5e5e5;width:107px;" id=3D"travelers=
+">Travelers</th>
+                        <th align=3D"left" style=3D"padding:13px 11px;backg=
+round:#f2f2f2;border-bottom:1px solid #e5e5e5;">Frequent Flyer<sup>1</sup><=
+/th>
+                        <th align=3D"left" style=3D"padding:13px 11px;backg=
+round:#f2f2f2;border-bottom:1px solid #e5e5e5;">Seats<sup>2</sup></th>
+                        <th align=3D"left" style=3D"padding:13px 11px;backg=
+round:#f2f2f2;border-bottom:1px solid #e5e5e5;">Terminal</th>
+                    </tr>
+                                       =20
+                                       =20
+
+                                        <tr>
+                        <td align=3D"left" rowspan=3D"1" style=3D"padding:1=
+3px  11px  0px  11px;vertical-align:top;font-size: 8.5pt;">Thu,&nbsp;Oct&nb=
+sp;24</td>
+                        <td align=3D"left" rowspan=3D"1" style=3D"padding:1=
+3px  11px  0px  11px;vertical-align:top;font-size: 8.5pt;">8:55&nbsp; p.m.<=
+br/>11:59&nbsp; p.m.</td>
+                        <td align=3D"left" rowspan=3D"1" style=3D"padding:1=
+3px  11px  0px  11px;vertical-align:top;font-size: 8.5pt;">
+                            <strong>New York City,&nbsp; NY&nbsp;(JFK)</str=
+ong>&nbsp;to<br>
+                            <strong>Portland,&nbsp; OR&nbsp;(PDX)</strong>
+                        </td>
+                        <td align=3D"left" rowspan=3D"1" style=3D"padding:1=
+3px  11px  0px  11px;vertical-align:top;font-size: 8.5pt;text-align:center;=
+">1205<br/><img src=3D"http://img.ed4.net/jetblue/images/IMG/INT/B6.jpg" al=
+t=3D"B6" title=3D"B6"></td>
+                        <!-- only first passenger info - start -->
+                                               =20
+                                                                           =
+                                     <td align=3D"left" style=3D"font-size:=
+ 8.5pt;padding: 13px  11px  0px  11px;vertical-align:top;width:107px;">Nich=
+olas angelo&nbsp;Hesselgrave</td>
+                               =20
+                                                                <td align=
+=3D"left" style=3D"font-size: 8.5pt;color:#f15722;font-weight:bold;padding:=
+ 13px  11px  0px  11px;vertical-align:top;text-align:center;"><span style=
+=3D"font-size: 8.5pt;color:#f15722;font-weight:bold;">N/A</span></td>
+                                                               =20
+                                <td align=3D"left" style=3D"font-size: 8.5p=
+t;padding:13px 11px 3px 11px ; vertical-align: top;">
+                                <span style=3D"color:#f15722;font-weight:bo=
+ld;">
+                                                                    10A
+                                    &#42;  <!-- Even More Space seat -->
+                                                                </span>
+                               </td>
+                                                                           =
+                                   <td align=3D"left" rowspan=3D"1" style=
+=3D"font-size: 8.5pt;padding:13px  11px  0px  11px;vertical-align:top;text-=
+align:center;">5 &nbsp;</td>
+                    </tr>
+
+                                                                    =20
+                                <tr>
+                        <td align=3D"left" rowspan=3D"1" style=3D"padding:1=
+3px  11px  0px  11px;vertical-align:top;font-size: 8.5pt;">Sun,&nbsp;Oct&nb=
+sp;27</td>
+                        <td align=3D"left" rowspan=3D"1" style=3D"padding:1=
+3px  11px  0px  11px;vertical-align:top;font-size: 8.5pt;">9:21&nbsp; p.m.<=
+br/>5:19&nbsp;a.m.</td>
+                        <td align=3D"left" rowspan=3D"1" style=3D"padding:1=
+3px  11px  0px  11px;vertical-align:top;font-size: 8.5pt;">
+                            <strong>Portland,&nbsp; OR&nbsp;(PDX)</strong>&=
+nbsp;to<br>
+                            <strong>New York City,&nbsp; NY&nbsp;(JFK)</str=
+ong>
+                        </td>
+                        <td align=3D"left" rowspan=3D"1" style=3D"padding:1=
+3px  11px  0px  11px;vertical-align:top;font-size: 8.5pt;text-align:center;=
+">1206<br/><img src=3D"http://img.ed4.net/jetblue/images/IMG/INT/B6.jpg" al=
+t=3D"B6" title=3D"B6"></td>
+                        <!-- only first passenger info - start -->
+                                               =20
+                                                                           =
+                                     <td align=3D"left" style=3D"font-size:=
+ 8.5pt;padding: 13px  11px  0px  11px;vertical-align:top;width:107px;">Nich=
+olas angelo&nbsp;Hesselgrave</td>
+                               =20
+                                                                <td align=
+=3D"left" style=3D"font-size: 8.5pt;color:#f15722;font-weight:bold;padding:=
+ 13px  11px  0px  11px;vertical-align:top;text-align:center;"><span style=
+=3D"font-size: 8.5pt;color:#f15722;font-weight:bold;">N/A</span></td>
+                                                               =20
+                                <td align=3D"left" style=3D"font-size: 8.5p=
+t;padding:13px 11px 3px 11px ; vertical-align: top;">
+                                <span style=3D"color:#f15722;font-weight:bo=
+ld;">
+                                                                    10A
+                                    &#42;  <!-- Even More Space seat -->
+                                                                </span>
+                               </td>
+                                                                           =
+                                   <td align=3D"left" rowspan=3D"1" style=
+=3D"font-size: 8.5pt;padding:13px  11px  0px  11px;vertical-align:top;text-=
+align:center;"> &nbsp;</td>
+                    </tr>
+
+                                                                    =20
+            =20
+                    <tr>
+                        <td class=3D"clearStyle" colspan=3D"8" style=3D"pad=
+ding:5px 0;border-top:1px solid #e5e5e5;" align=3D"left">
+                            <span style=3D"color:#f15722;font-weight:bold;"=
+>*</span> Even More Space
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class=3D"clearStyle" colspan=3D"8" style=3D"pad=
+ding:5px 0;" align=3D"left">
+                            <span style=3D"font-weight:bold;"><sup>1</sup><=
+/span> To provide a frequent flyer number please call 1-800-JETBLUE (538-25=
+83).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class=3D"clearStyle" colspan=3D"8" style=3D"pad=
+ding:5px 0;border-bottom:1px solid #e5e5e5;" align=3D"left">
+                            <span style=3D"font-weight:bold;"><sup>2</sup><=
+/span> Seats requests on other airlines are not guaranteed until confirmed =
+by the operating carrier.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan=3D"8" style=3D"padding: 0 0 20px 0; bor=
+der-bottom:0px solid #e5e5e5;">
+                            <p align=3D"left" style=3D"margin:10px 0;color:=
+#f15722;font-weight:bold;">
+                                 Your ticket numbers are:
+                            </p>
+                                                                           =
+             <table border=3D"0" cellspacing=3D"0" align=3D"left" style=3D"=
+margin:0;">
+                                                                <!-- LESS T=
+HAN 4 TICKETS TO DISPLAY -->
+                                <tr style=3D"color:#f15722;font-weight:bold=
+;" align=3D"left">
+                                    <td style=3D"padding:0;">
+                                                                           =
+                                                                           =
+                  Nicholas angelo&nbsp;Hesselgrave:
+                                                                           =
+                                                                           =
+                                                                           =
+               2792100902446
+                                                                           =
+                                                                           =
+                                                                      </td>
+                                </tr>
+                               =20
+                                                            </table>
+                                                    </td>
+                    </tr>
+
+                </table>
+
+                </div>
+
+
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+
+=09=09=09=09<div style=3D"text-align:left;margin:0 0 0px;border-bottom:5px =
+solid  #e5e5e5;">
+=09=09=09=09=09<div style=3D"color: #004A91; font-size: 18px; font-weight: =
+bold; padding-top: 12px;">Even More&#153; Extras</div>
+=09=09=09=09=09<br/>
+=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" bo=
+rder=3D"0">
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td width=3D"151" align=3D"left" style=3D"padding:7px 7px=
+; font-size:12px; font-weight:bold; vertical-align:top; background:#f2f2f2;=
+ border-bottom:1px solid #e5e5e5;">Even More&#153; Extras</td>
+=09=09=09=09=09=09<td width=3D"232" align=3D"left" style=3D"padding:7px 7px=
+; font-size:12px; font-weight:bold; vertical-align:top; background:#f2f2f2;=
+ border-bottom:1px solid #e5e5e5;">Route</td>
+=09=09=09=09=09=09<td width=3D"51" align=3D"left" style=3D"padding:7px 7px;=
+ font-size:12px; font-weight:bold; vertical-align:top; background:#f2f2f2; =
+border-bottom:1px solid #e5e5e5;">Flight</td>
+=09=09=09=09=09=09<td width=3D"152" align=3D"left" style=3D"padding:7px 7px=
+; font-size:12px; font-weight:bold; vertical-align:top; background:#f2f2f2;=
+ border-bottom:1px solid #e5e5e5;">Travelers</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09=09=09
+=09=09=09
+=09=09=09=09=09=09
+=09=09=09
+=09=09=09 =09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09<td align=3D"left" style=3D"padding:7px 7p=
+x; vertical-align:top; font-size:11px;"><strong>Even More&#153; Speed</stro=
+ng></td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td align=3D"left" style=3D"padding:7px 7px; vertical-=
+align:top; font-size:11px;">
+                                <strong>New York City,&nbsp; NY&nbsp;(JFK)<=
+/strong>&nbsp;to<br>
+                                <strong>Portland,&nbsp; OR&nbsp;(PDX)</stro=
+ng>
+                            </td>
+=09=09=09=09=09=09=09<td align=3D"left" style=3D"padding:7px 7px; vertical-=
+align:top; font-size:11px;">1205</td>
+=09=09=09=09=09=09=09<td align=3D"left" style=3D"padding:7px 7px; vertical-=
+align:top; font-size:11px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09Nicholas angelo&nbsp;Hes=
+selgrave<br/>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09<td></td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td align=3D"left" style=3D"padding:7px 7px; vertical-=
+align:top; font-size:11px;">
+                                <strong>Portland,&nbsp; OR&nbsp;(PDX)</stro=
+ng>&nbsp;to<br>
+                                <strong>New York City,&nbsp; NY&nbsp;(JFK)<=
+/strong>
+                            </td>
+=09=09=09=09=09=09=09<td align=3D"left" style=3D"padding:7px 7px; vertical-=
+align:top; font-size:11px;">1206</td>
+=09=09=09=09=09=09=09<td align=3D"left" style=3D"padding:7px 7px; vertical-=
+align:top; font-size:11px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09Nicholas angelo&nbsp;Hes=
+selgrave<br/>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09
+=09=09=09
+=09=09=09=09=09=09
+=09=09=09
+=09=09=09 =09=09=09=09=09<tr>
+=09=09=09=09=09=09<td colspan=3D"4">&nbsp;</td>
+=09=09=09=09=09</tr>
+        </table>
+
+=09=09=09=09</div>
+=09=09=09=09
+                <div style=3D"text-align:center;margin:0 0 0px;">
+                    <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ height=3D"118">
+                        <tr height=3D"18"><td colspan=3D"3"></td></tr>
+                        <tr><td colspan=3D"3"><a style=3D"float:none;width:=
+100%;text-align:center;text-decoration:none" class=3D"clearfix"><h3 style=
+=3D"font-size:24px;">Before take off</h3></a></td></tr>
+                        <tr height=3D"18"><td colspan=3D"3"></td></tr>
+                        <tr valign=3D"top">
+                        <td width=3D"33%" align=3D"left" style=3D"border-ri=
+ght:1px solid #ccc;height:118px;padding-left:10px;padding-right:10px;">
+                        <a style=3D"margin-left:0;padding-left:0;line-heigh=
+t:16px;text-decoration:none;"><h3 style=3D"font-size:14px;margin:0 0 10px 0=
+;">Helpful travel tips</h3></a>
+                        <ul style=3D"display:block;float:left;text-align:le=
+ft;list-style:disc;">
+                            <li style=3D"margin-left:15px;padding-left:0;li=
+ne-height:16px;"><a href=3D"http://help.jetblue.com/SRVS/CGI-BIN/webisapi.d=
+ll?New,Kb=3DaskBlue,case=3Dobj(2327)">Special needs</a></li>
+                            <li style=3D"margin-left:15px;padding-left:0;li=
+ne-height:16px;"><a href=3D"http://help.jetblue.com/SRVS/CGI-BIN/webisapi.d=
+ll?New,Kb=3DaskBlue,case=3Dobj(1939)">Infants</a></li>
+                            <li style=3D"margin-left:15px;padding-left:0;li=
+ne-height:16px;"><a href=3D"http://help.jetblue.com/SRVS/CGI-BIN/webisapi.d=
+ll?New,Kb=3DaskBlue,case=3Dobj(675)">Unaccompanied minors</a></li>
+                            <li style=3D"margin-left:15px;padding-left:0;li=
+ne-height:16px;"><a href=3D"http://help.jetblue.com/SRVS/CGI-BIN/webisapi.d=
+ll?New,Kb=3DaskBlue,case=3Dobj(2032)">Pets</a></li>
+                        </ul>
+                        </td>
+                        <td width=3D"33%" style=3D"border-right:1px solid #=
+ccc;text-align:left;height:118px;padding-left:10px;padding-right:13px;">
+                        <a style=3D"padding:0 0px;line-height:16px;text-dec=
+oration:none;"><h3 style=3D"font-size:14px;margin:0 0 10px 0px;">Pack, drop=
+, and go!</h3></a>
+                        <p style=3D"line-height:16px;">Check in, get your b=
+oarding pass and have your bags picked up from your hotel, convention or ot=
+her select area several hours before your flight. <a href=3D"http://www.jet=
+blue.com/deals/bags/?source=3Dempreflight_bags">Learn more</a></p>
+                        </td>
+                        <td width=3D"33%" style=3D"height:118px;padding-lef=
+t:10px;padding-right:13px;" align=3D"left">
+                        <a style=3D"padding:10 0px;line-height:16px;text-de=
+coration:none;"><h3 style=3D"font-size:14px;margin:0 0 10px 0px;">We all ha=
+ve baggage</h3></a>
+                            <p style=3D"line-height:16px;">
+                                Find everything you need to know about your=
+s.<br/><a href=3D"http://www.jetblue.com/help/topics/help_topic_baggageinfo=
+.html?source=3Dempreflight_baginfo">Checked and carry-on baggage</a> inform=
+ation.
+                            </p>
+                        </td>
+                        </tr>
+                        <tr height=3D"25"><td colspan=3D"3" style=3D"border=
+-bottom:5px solid  #e5e5e5;">&nbsp;</td></tr>
+                    </table>
+
+                </div>
+
+
+                <div style=3D"margin:0 0 0px 0px">
+                    <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ width=3D"100%" style=3D"border-bottom:5px solid #e5e5e5;">
+                        <tr height=3D"30"><td></td></tr>
+                        <tr><td valign=3D"bottom" colspan=3D"2"><h2 align=
+=3D"left" style=3D"display:block;width:100%;clear:both;font-size:18px;color=
+:#004A91;">Insurance confirmation</h2></td>
+                                                    <td valign=3D"top" rows=
+pan=3D"3">
+                                <table border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+                                    <tr height=3D"17"><td></td></tr>
+                                    <tr><td>
+                                    <img src=3D"https://jetbluereceipt.sabr=
+e.com/jb/allianz_logo.png" width=3D"114" height=3D"32" alt=3D"" align=3D"ri=
+ght"/>
+                                    </td></tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr height=3D"8"><td></td></tr>
+                        <tr><td>
+                        <p align=3D"left">For Allianz Global Assistance fli=
+ght insurance inquiries, please call 1-800-284-8300.</p>
+                        </td>
+                        </tr>
+
+                        <tr height=3D"23"><td></td><td></td></tr>
+                    </table>
+                </div>
+
+                <div align=3D"left">
+
+                    <div style=3D"margin:0 0 0px 0;padding-bottom:15px;">
+
+                            <table border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0">
+                                <tr height=3D"25"><td></td><td></td></tr>
+                                <tr><td colspan=3D"2" align=3D"left"><h2 st=
+yle=3D"font-size:18px;">Special travel deals</h2></td></tr>
+                                <tr height=3D"20"><td colspan=3D"2"></td></=
+tr>
+                                <tr><td>
+                                    <table border=3D"0" width=3D"100%" styl=
+e=3D"border:none;">
+                                        <tr>
+                                            <td width=3D"100" valign=3D"top=
 ">
-=09=09=09=09<tr>
-=09=09=09=09=09<td class=3D"tripInsurancePrice" style=3D"text-align:left;">=
-<span class=3D"tripInsuranceText" style=3D"font-family:Arial, Helvetica,
-sans-serif; font-size:24px; font-weight:bold; color:#47ab04;">$20</span><su=
-p class=3D"cents" style=3D"font-family:Arial,Helvetica,sans-serif;font-size=
-:14px;
-line-height:0px;font-weight:bold;text-decoration:none;color:#47ab04; vertic=
-al-align:7px;">.00</sup><span class=3D"miniTripInsuranceText"
-style=3D"font-family:Arial, Helvetica, sans-serif; font-size:10px; line-hei=
-ght:10px; font-weight:bold; color:#47ab04; display:inline-block;
-vertical-align:0px;">&nbsp;/person</span></td>
-=09=09=09=09</tr>
-=09=09=09=09<tr>
-=09=09=09=09=09<td style=3D"height:4px; font-size:4px; line-height:4px; pad=
-ding:0px; margin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;" align=3D"left" height=3D"4" width=3D"100%">&nbsp;</td>
-=09=09=09=09</tr>
-=09=09=09</table>
-=09=09=09<table class=3D"tripInsuranceBTNShift" style=3D"mso-table-lspace:0=
-pt; mso-table-rspace:0pt;" cellpadding=3D"0" cellspacing=3D"0"
-width=3D"100" align=3D"center" height=3D"24">
-=09=09=09=09<tr>
-=09=09=09=09=09<td class=3D"mblPriceBTN" style=3D"border-collapse:collapse;=
- background: #47ab04; border-radius:5px;-moz-border-radius:5px;
--webkit-border-radius:5px;" align=3D"center" height=3D"24" width=3D"100"><a=
- class=3D"mblPriceBTN" href=3D"https://jump.priceline.com/toursandattractio=
-ns/travelInsurance.do?zz=3D414A445407525FB65FAF4FADDAFCA9106302388D72250723=
-408E232E179DAC6F&plf=3DPCLN&refid=3DTMTRANSACT&sendId=3D32002286206&email_s=
-ubject_line=3DYour+priceline+itinerary+for+Washington%2C+DC+-+May+27th%2C+2=
-014+%28Itinerary%23+170-481-520-41%29&batchId=3D290506&refclickid=3D2014042=
-1|1|OFFER|ACCEPT_INTERCEPT_TEST|TRIP_INSURANCE_BTN&ea=3DF18D70DD4C3B9DA447F=
-7189D8DC51024261D4D5CD663813A&utm_medium=3Demail&utm_source=3DTM_AIR_ACCEPT=
-_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002286206"
-style=3D"font-family:Arial, Helvetica, sans-serif; color:#ffffff; text-alig=
-n: center; font-size:14px; line-height:14px; font-weight:normal;
-text-align:center; text-decoration: none;">see details</a>
-=09=09=09=09=09</td>
-=09=09=09=09</tr>
-=09=09=09</table>
-=09=09</td>
-=09</tr>
-</table>                                </td>
-</tr>
-</table>
-</td>
-</tr>                        <tr>
-<td style=3D"height:10px; font-size:10px; line-height:10px; padding:0px; ma=
-rgin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;" align=3D"left" height=3D"10" width=3D"100%">&nbsp;</td>
-</tr>                              </table>
+                                                <a href=3D"https://www.amer=
+icanexpress.com/applyjetblue316"><img src=3D"http://www.jetblue.com/email/0=
+909/JB_bubblesCard_88x85.gif" border=3D"0"/></a>
+                                            </td>
+                                            <td align=3D"left">
+                                                <div>
+                                                    <b>Get 20,000 TrueBlue&=
+reg; points</b> after spending $1,000 with your Card in your first 3 months=
+ of Cardmembership.<sup>1</sup>=20
+                                                    <a style=3D"color:#4b90=
+cd; text-decoration:none;" href=3D"https://www.americanexpress.com/applyjet=
+blue316">Apply Now</a>.
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td></tr>
+                                <tr><td height=3D"10" style=3D"border-botto=
+m:1px solid #ccc;">&nbsp;</td></tr>
+                                <tr><td>&nbsp;</td></tr>
+                                <tr><td align=3D"left">
+                                    <table border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0">
 
-<!--end air trip protection block-->=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09<!--SUMMARY OF CHARGES + TRIP PROTECTION BLOCK-->
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<table style=3D"mso-table-l=
-space:0pt; mso-table-rspace:0pt; border-top:1px solid #dddddd" cellpadding=
-=3D"0" cellspacing=3D"0"
-width=3D"100%">
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"border-c=
-ollapse:collapse;">
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"mb=
-lFullWidth" style=3D"mso-table-lspace:0pt; mso-table-rspace:0pt;" cellpaddi=
-ng=3D"0" cellspacing=3D"0"
-width=3D"100%">
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D=
-"height:10px; font-size:10px; line-height:10px; padding:0px; margin:0px; ms=
-o-padding-alt:0pt
-0pt 0pt 0pt; mso-margin-alt:0pt 0pt 0pt 0pt;" align=3D"left">&nbsp;</td>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D=
-"sectionHeader" style=3D"font-family:Arial, Helvetica, sans-serif; font-wei=
-ght:bold; font-size:20px;
-line-height:22px; color:#085397; padding:0px;">Summary of Charges
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div styl=
-e=3D"height:10px; font-size:10px; line-height:10px; padding:0px; margin:0px=
-; mso-padding-alt:0pt
-0pt 0pt 0pt; mso-margin-alt:0pt 0pt 0pt 0pt;">&nbsp;</div>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09<!--PRODUCT TITLE-->
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td colspan=
-=3D"4" align=3D"left" valign=3D"top" width=3D"100%">
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span cla=
-ss=3D"mblTitle" style=3D"font-family:Arial, Helvetica, sans-serif; font-siz=
-e:16px; font-weight:bold;
-line-height:16px; color:#000000;">Flight</span>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div styl=
-e=3D"height:5px; font-size:5px; line-height:5px; padding:0px; margin:0px; m=
-so-padding-alt:0pt
-0pt 0pt 0pt; mso-margin-alt:0pt 0pt 0pt 0pt;">&nbsp;</div>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<!--END PRODUCT=
- TITLE-->
+                                <tr valign=3D"top">
+                                    <td width=3D"106" align=3D"left" valign=
+=3D"top" style=3D"padding-left: 0px; padding-top: 0px;" ><a href=3D"http://=
+www.jetblue.com/hotels/?source=3Dempreflight_hotels"><img src=3D"https://je=
+tbluereceipt.sabre.com/jb/hotels.jpg" alt=3D"" border=3D"0" /></a></td>
+                                    <td style=3D"padding-left: 0px; padding=
+-top: 5px;" align=3D"left" valign=3D"top">
+                                        <p>We've teamed up with <a href=3D"=
+http://www.jetblue.com/hotels/?source=3Dempreflight_hotels">hotels.com</a> =
+to offer you a huge selection of hotels.</p>
+                                        <ul style=3D"list-style:disc;margin=
+:10px 0 10px 25px;">
+                                            <li>Special Internet Rate Price=
+ Match Guarantee <sup>2</sup></li>
+                                            <li>No Change or Cancel fee <su=
+p>3</sup></li>
+                                            <li>No phone booking fee</li>
+                                            <li>Thousands of TripAdvisor&re=
+g; customer reviews</li>
+                                        </ul>
+                                        <p><a href=3D"http://www.jetblue.co=
+m/hotels/?source=3Dempreflight_hotels">Click here</a> or call <strong>800-5=
+44-3581</strong> to book your hotel now.</p>
+                                    </td>
+                                </tr>
+                                </table>
+                                </td></tr>
 
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<!--PRICING ROW=
-S-->
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D=
-"border-collapse:collapse;">
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<table va=
-lign=3D"top" style=3D"mso-table-lspace:0pt; mso-table-rspace:0pt; border-to=
-p:1px solid #dddddd"
-align=3D"left" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<!--AI=
-R PRICE CATEGORY ROW + SPACER ROW-->
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td=
- colspan=3D"3" style=3D"height:3px; font-size:3px; line-height:3px; padding=
-:0px; margin:0px; mso-padding-alt:0pt
-0pt 0pt 0pt; mso-margin-alt:0pt 0pt 0pt 0pt;" align=3D"left">&nbsp;</td>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td=
- style=3D"border-collapse:collapse; border-bottom:1px solid #f0f0f0; paddin=
-g-bottom:3px;" align=3D"left">
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-<table valign=3D"top" class=3D"mblHalfWidth" style=3D"mso-table-lspace:0pt;=
- mso-table-rspace:0pt;" align=3D"left"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"53%">
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09=09<td align=3D"left" valign=3D"top">
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09=09=09<span class=3D"mblSubTitle" style=3D"font-family:Arial, Helvetica,=
- sans-serif; font-size:14px; font-weight:normal;
-line-height:14px; color:#000000;">Ticket Cost</span>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09=09</td>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09</tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-</table>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-<table valign=3D"top" class=3D"mblHalfWidth" style=3D"mso-table-lspace:0pt;=
- mso-table-rspace:0pt;" align=3D"left"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"42%">
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09=09<td align=3D"left" valign=3D"top">
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09=09=09<!--TOTAL VALUE-->=20
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09=09=09<span class=3D"mblSubTitle" style=3D"font-family:Arial, Helvetica,=
- sans-serif; font-size:14px; font-weight:bold;
-line-height:14px; color:#000000;" class=3D"noLink">$580.21</span><!--(# OF =
-UNITS x UNIT VALUE)--><span class=3D"mblHDN" style=3D"font-family:Arial,
-Helvetica, sans-serif; font-size:12px; line-height:12px; font-weight:normal=
-; color:#000000;">&nbsp;/ticket</span>=09=09=09=09=09=09=09=09=09=09=09=09=
-=09=09=09=09=09=09=09=09=09
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09=09=09<!--[if !mso]><!-- -->
-<div class=3D"mobile-only" style=3D"font-size: 0; max-height: 0; overflow: =
-hidden; display: none;"><span style=3D"font-family:Arial,
-Helvetica, sans-serif; font-size:12px; line-height:14px; font-weight:normal=
-; color:#515050; display:block;">per ticket</span></div>
-<!--<![endif]-->
-
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09=09</td>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09</tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-</table>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
-d>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<!--EN=
-D AIR PRICE CATEGORY ROW + SPACER ROW-->
-
-<!--AIR PRICE CATEGORY ROW + SPACER ROW-->
-<tr>
-<td colspan=3D"3" style=3D"height:3px; font-size:3px; line-height:3px; padd=
-ing:0px; margin:0px; mso-padding-alt:0pt 0pt 0pt 0pt;
-mso-margin-alt:0pt 0pt 0pt 0pt;" align=3D"left">&nbsp;</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; border-bottom:1px solid #f0f0f0; pad=
-ding-bottom:3px;" align=3D"left">
-<table valign=3D"top" class=3D"mblHalfWidth" style=3D"mso-table-lspace:0pt;=
- mso-table-rspace:0pt;" align=3D"left" cellpadding=3D"0"
-cellspacing=3D"0" width=3D"53%">
-<tr>
-<td align=3D"left" valign=3D"top">
-<span class=3D"mblSubTitle" style=3D"font-family:Arial, Helvetica, sans-ser=
-if; font-size:14px; font-weight:normal; line-height:14px;
-color:#000000;">Taxes And Fees</span>
-</td>
-</tr>
-</table>
-<table valign=3D"top" class=3D"mblHalfWidth" style=3D"mso-table-lspace:0pt;=
- mso-table-rspace:0pt;" align=3D"left" cellpadding=3D"0"
-cellspacing=3D"0" width=3D"42%">
-<tr>
-<td align=3D"left" valign=3D"top">
-<!--TOTAL VALUE-->=20
-<span class=3D"mblSubTitle" style=3D"font-family:Arial, Helvetica, sans-ser=
-if; font-size:14px; font-weight:bold; line-height:14px;
-color:#000000;" class=3D"noLink">$40.00</span><!--(# OF UNITS x UNIT VALUE)=
---><span class=3D"mblHDN" style=3D"font-family:Arial,
-Helvetica, sans-serif; font-size:12px; line-height:12px; font-weight:normal=
-; color:#000000;">&nbsp;/ticket</span>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09=09=09<!--[if !mso]><!-- -->
-<div class=3D"mobile-only" style=3D"font-size: 0; max-height: 0; overflow: =
-hidden; display: none;"><span style=3D"font-family:Arial,
-Helvetica, sans-serif; font-size:12px; line-height:14px; font-weight:normal=
-; color:#515050; display:block;">per ticket</span></div>
-<!--<![endif]-->
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<!--END AIR PRICE CATEGORY ROW + SPACER ROW-->                             =
-                                             =20
-<!--AIR PRICE CATEGORY ROW + SPACER ROW-->
-<tr>
-<td colspan=3D"3" style=3D"height:3px; font-size:3px; line-height:3px; padd=
-ing:0px; margin:0px; mso-padding-alt:0pt 0pt 0pt 0pt;
-mso-margin-alt:0pt 0pt 0pt 0pt;" align=3D"left">&nbsp;</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; padding-bottom:3px;" align=3D"left">
-<table valign=3D"top" class=3D"mblHalfWidth" style=3D"mso-table-lspace:0pt;=
- mso-table-rspace:0pt;" align=3D"left" cellpadding=3D"0"
-cellspacing=3D"0" width=3D"53%">
-<tr>
-<td align=3D"left" valign=3D"top">
-<span class=3D"mblSubTitle" style=3D"font-family:Arial, Helvetica, sans-ser=
-if; font-size:14px; font-weight:normal; line-height:14px;
-color:#000000;">Number of Tickets</span>
-</td>
-</tr>
-</table>
-<table valign=3D"top" class=3D"mblHalfWidth" style=3D"mso-table-lspace:0pt;=
- mso-table-rspace:0pt;" align=3D"left" cellpadding=3D"0"
-cellspacing=3D"0" width=3D"42%">
-<tr>
-<td align=3D"left" valign=3D"top">
-<!--TOTAL VALUE-->=20
-<span class=3D"mblSubTitle" style=3D"font-family:Arial, Helvetica, sans-ser=
-if; font-size:14px; font-weight:bold; line-height:14px;
-color:#000000;">1</span>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<!--END AIR PRICE CATEGORY ROW + SPACER ROW-->=09=09=09=09=09=09=09=09=09=
-=09=09=09=09=09=09=09=09=09=09=09=09<!--AIR TOTAL CHARGES ROW + SPACER ROW-=
-->
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td=
- colspan=3D"4" style=3D"height:3px; font-size:3px; line-height:3px; padding=
-:0px; margin:0px; mso-padding-alt:0pt
-0pt 0pt 0pt; mso-margin-alt:0pt 0pt 0pt 0pt; border-top:1px solid #dddddd;"=
->&nbsp;</td>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td=
- style=3D"border-collapse:collapse;" align=3D"left">
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-<table valign=3D"top" class=3D"mblHalfWidth" style=3D"mso-table-lspace:0pt;=
- mso-table-rspace:0pt;" align=3D"left"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"53%">
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09=09<td align=3D"left" valign=3D"top">
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09=09=09<span class=3D"mblTitle" style=3D"font-family:Arial, Helvetica, sa=
-ns-serif; font-size:14px; font-weight:bold;
-line-height:16px; color:#000000;">Total Charges</span>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09=09</td>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09</tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-</table>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-<table valign=3D"top" class=3D"mblHalfWidth" style=3D"mso-table-lspace:0pt;=
- mso-table-rspace:0pt;" align=3D"left"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"42%">
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09=09<td align=3D"left" valign=3D"top">
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09=09=09<span class=3D"mblTitle" style=3D"font-family:Arial, Helvetica, sa=
-ns-serif; font-size:16px; font-weight:bold;
-line-height:16px; color:#47ab04;">$620.21</span>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09=09</td>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09</tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-</table>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
-d>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>=
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<!--END AIR =
-TOTAL CHARGES ROW + SPACER ROW-->
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</table>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<!--END PRICING=
- ROWS-->                                                                   =
-<tr>
-<td align=3D"left" valign=3D"top" style=3D"padding-top:5px;">
-<!--ONLY SHOW WHEN TRIP PROTECTION IS BOUGHT IN PATH-->
-<span class=3D"USD" style=3D"font-family:Arial, Helvetica, sans-serif; font=
--size:12px; line-height:14px; font-weight:normal; color:#515050;">-&nbsp;Al=
-l
-prices are in USD</span>
-</td>
-</tr>
-<tr>
-<td align=3D"left" valign=3D"top" style=3D"padding-top:5px;">
-<!--ONLY SHOW WHEN TRIP PROTECTION IS BOUGHT IN PATH-->
-<span class=3D"USD" style=3D"font-family:Arial, Helvetica, sans-serif; font=
--size:12px; line-height:14px; font-weight:normal; color:#515050;">-&nbsp;Ai=
-rline
-baggage fees or other optional services may not be included your trip cost.=
- </span>
-</td>
-</tr>
-<!--END TOTAL PRICE-->
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<!--CREDIT CARD=
- AD-->
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D=
-"height: 10px;font-size: 10px;line-height: 10px;border-collapse: collapse;"=
->&nbsp;
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D=
-"mblHDN"><a href=3D"http://jump.priceline.com/default.asp?refid=3DTMTRANSAC=
-T&sendId=3D32002286206&email_subject_line=3DYour+priceline+itinerary+for+Wa=
-shington%2C+DC+-+May+27th%2C+2014+%28Itinerary%23+170-481-520-41%29&batchId=
-=3D290506&refclickid=3D20140421|1|OFFER|ACCEPT_INTERCEPT_TEST|PCLN_VISA_CAR=
-D_LINK&ea=3DF18D70DD4C3B9DA447F7189D8DC51024261D4D5CD663813A&utm_medium=3De=
-mail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTE=
-RCEPT_32002286206&url=3Dhttps%3A%2F%2Fwww.pricelinevisa.com%2Fapply%2FLandi=
-ng.action%3FcampaignId%3D1304%26cellNumber%3D2"
-target=3D"_blank"><img src=3D"http://image.emails.priceline.com/lib/fef5137=
-1706d00/m/1/credit-ad.jpg" align=3D"middle" height=3D"69"
-width=3D"621"></a></td>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D=
-"height: 10px;font-size: 10px;line-height: 10px;border-collapse: collapse;"=
->&nbsp;
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<!--END CREDIT =
-CARD AD-->
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</table>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<!--mobile-->
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<!--[if !mso]><!--=
- -->
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"mobi=
-le-only" style=3D"font-size: 0; max-height: 0; overflow: hidden; display: n=
-one;">
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<table cellpadd=
-ing=3D"0" cellspacing=3D"0" width=3D"100%">
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=
-=3D"creditCardAd" bgcolor=3D"#dddddd"><a href=3D"http://jump.priceline.com/=
-default.asp?refid=3DTMTRANSACT&sendId=3D32002286206&email_subject_line=3DYo=
-ur+priceline+itinerary+for+Washington%2C+DC+-+May+27th%2C+2014+%28Itinerary=
-%23+170-481-520-41%29&batchId=3D290506&refclickid=3D20140421|1|OFFER|ACCEPT=
-_INTERCEPT_TEST|PCLN_VISA_CARD_LINK&ea=3DF18D70DD4C3B9DA447F7189D8DC5102426=
-1D4D5CD663813A&utm_medium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_=
-campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002286206&url=3Dhttps%3A%2F%2Fwww.pric=
-elinevisa.com%2Fapply%2FLanding.action%3FcampaignId%3D1304%26cellNumber%3D2=
-"
-target=3D"_blank"><img src=3D"http://image.emails.priceline.com/lib/fef5137=
-1706d00/m/1/credit-ad-mobile.jpg" align=3D"left"width=3D"100%"></a></td>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td style=
-=3D"height: 10px;font-size: 10px;line-height: 10px;border-collapse: collaps=
-e;">&nbsp;
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</table>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<!--<![endif]-->
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<!--mobile-->
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</table>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<!--END SUMMARY OF CHARGES =
-+ TRIP PROTECTION BLOCK-->=09=09=09=09=09  <!--customer service block-->
-
-<table style=3D"mso-table-lspace:0pt; mso-table-rspace:0pt; border-top:1px =
-solid #dddddd" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
-<tbody><tr>
-<td style=3D"border-collapse:collapse;">
-<table style=3D"mso-table-lspace:0pt; mso-table-rspace:0pt;" cellpadding=3D=
-"0" cellspacing=3D"0" width=3D"100%">
-<tbody><tr>
-<td style=3D"height:10px; font-size:10px; line-height:10px; padding:0px; ma=
-rgin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;" align=3D"left">&nbsp;</td>
-</tr>
-<tr>
-<td class=3D"sectionHeader" style=3D"font-family:Arial, Helvetica, sans-ser=
-if; font-weight:bold; font-size:20px; line-height:22px;
-color:#085397; padding:0px;">Customer Service
-<div style=3D"height:10px; font-size:10px; line-height:10px; padding:0px; m=
-argin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;">&nbsp;</div>
-</td>
-</tr>
-<tr>
-<td class=3D"blackSectionHeader" style=3D"font-family:Arial, Helvetica, san=
-s-serif; font-weight:normal; font-size:20px; line-height:20px;
-color:#000000; padding:0px;">Airline Contact Information
-<div style=3D"height:5px; font-size:5px; line-height:5px; padding:0px; marg=
-in:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;">&nbsp;</div>
-</td>
-</tr>
-<tr>
-<td style=3D"font-family:Arial, Helvetica, sans-serif; font-size:13px; colo=
-r:#000000; line-height:16px;" class=3D"bodyText" align=3D"left"
-width=3D"100%">If you need to check flight status, change your flight, or c=
-ancel your flight then  please contact your flight
-operator at the number provided below.=20
-<div style=3D"height:10px; font-size:10px; line-height:10px; padding:0px; m=
-argin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;">&nbsp;</div></td>
-</tr>                    <!--airline customer service information row-->
-<tr>
-<td style=3D"padding:0px; margin:0px; mso-padding-alt:0pt 0pt 0pt 0pt;">
-<table class=3D"mblFullWidth" style=3D"mso-table-lspace:0pt; mso-table-rspa=
-ce:0pt;" align=3D"center" bgcolor=3D"#ffffff" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
-<tbody><tr>
-<td style=3D"mso-margin-alt:0pt 0pt 0pt 0pt; padding:10px; -moz-border-radi=
-us:7px; -webkit-border-radius:7px; border-radius:7px;
-border:solid 1px #dddddd;" align=3D"center" width=3D"100%">
-<table style=3D"mso-table-lspace:0pt 0pt 0pt 0pt; mso-table-rspace:0pt 0pt =
-0pt 0pt;" align=3D"center" border=3D"0" cellpadding=3D"0"
-cellspacing=3D"0" width=3D"100%">
-<tbody><tr>
-<td style=3D"padding:0px; margin:0px;">
-<table class=3D"mblFullWidth" style=3D"border-collapse:collapse; mso-table-=
-lspace:0pt; mso-table-rspace:0pt;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"24%">
-<tbody><tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:10px; line-height:12px; color:#808080;
-font-style:normal; text-decoration:none;" class=3D"airlineContactTitle" ali=
-gn=3D"left">Airline Name</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none;" class=3D"airlineContactSub" alig=
-n=3D"left">Alaska Airlines</td>
-</tr>
-</tbody></table>
-<table class=3D"mblHDN" style=3D"border-collapse:collapse; padding-left:0px=
-; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;mso-table-lspace:0;mso-table-rspace:0;" align=3D"left" border=
-=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
-<tbody><tr style=3D"padding-top: 0px;padding-bottom:0px; padding-left:0px; =
-padding-right:0px;">
-<td>&nbsp;</td>
-</tr>
-</tbody></table><table class=3D"mblFullWidth" style=3D"border-collapse:coll=
-apse; mso-table-lspace:0pt; mso-table-rspace:0pt;"
-align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"22=
-%">
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:10px; line-height:12px; color:#808080;
-font-style:normal; text-decoration:none;" class=3D"airlineContactTitle" ali=
-gn=3D"left">Phone Number</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none;" class=3D"airlineContactSub" alig=
-n=3D"left"><span class=3D"hasLink">1-800-252-7522</span></td>
-</tr>
-</table>                                             <table class=3D"mblHDN=
-" style=3D"border-collapse:collapse; padding-left:0px;
-mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt 0pt 0pt 0pt;mso-table-l=
-space:0;mso-table-rspace:0;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
-<tbody><tr style=3D"padding-top: 0px;padding-bottom:0px; padding-left:0px; =
-padding-right:0px;">
-<td>&nbsp;</td>
-</tr>
-</tbody></table><table class=3D"mblFullWidth" style=3D"border-collapse:coll=
-apse; mso-table-lspace:0pt; mso-table-rspace:0pt;"
-align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"26=
-%">
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:10px; line-height:12px; color:#808080;
-font-style:normal; text-decoration:none;" class=3D"airlineContactTitle" ali=
-gn=3D"left">Website</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none;" class=3D"airlineContactSub" alig=
-n=3D"left"><a href=3D"http://jump.priceline.com/default.asp?url=3Dhttp://ww=
-w.alaskaair.com&amp;refid=3DTMTRANSACT&sendId=3D32002286206&email_subject_l=
-ine=3DYour+priceline+itinerary+for+Washington%2C+DC+-+May+27th%2C+2014+%28I=
-tinerary%23+170-481-520-41%29&batchId=3D290506&refclickid=3D20140421|1|OFFE=
-R|ACCEPT_INTERCEPT_TEST|AIR_WEBSITE_LINK&ea=3DF18D70DD4C3B9DA447F7189D8DC51=
-024261D4D5CD663813A&utm_medium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT=
-&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002286206"
-target=3D"_blank" style=3D"color:#2d94cc; text-decoration:underline;"><span=
- class=3D"link">www.alaskaair.com</span></a></td>
-</tr>
-</table>                                             <table class=3D"mblHDN=
-" style=3D"border-collapse:collapse; padding-left:0px;
-mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt 0pt 0pt 0pt;mso-table-l=
-space:0;mso-table-rspace:0;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
-<tbody><tr style=3D"padding-top: 0px;padding-bottom:0px; padding-left:0px; =
-padding-right:0px;">
-<td>&nbsp;</td>
-</tr>
-</tbody></table>
-<table class=3D"mblFullWidth" style=3D"border-collapse:collapse; mso-table-=
-lspace:0pt; mso-table-rspace:0pt;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"20%">
-<tbody><tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:10px; line-height:12px; color:#808080;
-font-style:normal; text-decoration:none;" class=3D"airlineContactTitle" ali=
-gn=3D"left">Confirmation Number</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none; padding-bottom:0px!important" cla=
-ss=3D"airlineContactSub" align=3D"left">VDXDMP</td>
-</tr>
-</tbody></table>
-</td>
-</tr>
-</tbody></table>
-</td>
-</tr>
-</tbody></table>
-</td>
-</tr>
-<!--end airline customer service information row-->
-=09=09=09=09=09=09=09=09=09<!--include this <tr> + the <tr> with the actual=
- information-->
-<tr>
-<td style=3D"height:5px; font-size:5px; line-height:5px; padding:0px; margi=
-n:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;" align=3D"left">&nbsp;</td>
-</tr>                    <!--airline customer service information row-->
-<tr>
-<td style=3D"padding:0px; margin:0px; mso-padding-alt:0pt 0pt 0pt 0pt;">
-<table class=3D"mblFullWidth" style=3D"mso-table-lspace:0pt; mso-table-rspa=
-ce:0pt;" align=3D"center" bgcolor=3D"#ffffff" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
-<tbody><tr>
-<td style=3D"mso-margin-alt:0pt 0pt 0pt 0pt; padding:10px; -moz-border-radi=
-us:7px; -webkit-border-radius:7px; border-radius:7px;
-border:solid 1px #dddddd;" align=3D"center" width=3D"100%">
-<table style=3D"mso-table-lspace:0pt 0pt 0pt 0pt; mso-table-rspace:0pt 0pt =
-0pt 0pt;" align=3D"center" border=3D"0" cellpadding=3D"0"
-cellspacing=3D"0" width=3D"100%">
-<tbody><tr>
-<td style=3D"padding:0px; margin:0px;">
-<table class=3D"mblFullWidth" style=3D"border-collapse:collapse; mso-table-=
-lspace:0pt; mso-table-rspace:0pt;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"24%">
-<tbody><tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:10px; line-height:12px; color:#808080;
-font-style:normal; text-decoration:none;" class=3D"airlineContactTitle" ali=
-gn=3D"left">Airline Name</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none;" class=3D"airlineContactSub" alig=
-n=3D"left">Frontier Airlines</td>
-</tr>
-</tbody></table>
-<table class=3D"mblHDN" style=3D"border-collapse:collapse; padding-left:0px=
-; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;mso-table-lspace:0;mso-table-rspace:0;" align=3D"left" border=
-=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
-<tbody><tr style=3D"padding-top: 0px;padding-bottom:0px; padding-left:0px; =
-padding-right:0px;">
-<td>&nbsp;</td>
-</tr>
-</tbody></table><table class=3D"mblFullWidth" style=3D"border-collapse:coll=
-apse; mso-table-lspace:0pt; mso-table-rspace:0pt;"
-align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"22=
-%">
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:10px; line-height:12px; color:#808080;
-font-style:normal; text-decoration:none;" class=3D"airlineContactTitle" ali=
-gn=3D"left">Phone Number</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none;" class=3D"airlineContactSub" alig=
-n=3D"left"><span class=3D"hasLink">1-800-432-1359</span></td>
-</tr>
-</table>                                             <table class=3D"mblHDN=
-" style=3D"border-collapse:collapse; padding-left:0px;
-mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt 0pt 0pt 0pt;mso-table-l=
-space:0;mso-table-rspace:0;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
-<tbody><tr style=3D"padding-top: 0px;padding-bottom:0px; padding-left:0px; =
-padding-right:0px;">
-<td>&nbsp;</td>
-</tr>
-</tbody></table><table class=3D"mblFullWidth" style=3D"border-collapse:coll=
-apse; mso-table-lspace:0pt; mso-table-rspace:0pt;"
-align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"26=
-%">
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:10px; line-height:12px; color:#808080;
-font-style:normal; text-decoration:none;" class=3D"airlineContactTitle" ali=
-gn=3D"left">Website</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none;" class=3D"airlineContactSub" alig=
-n=3D"left"><a href=3D"http://jump.priceline.com/default.asp?url=3Dhttp://ww=
-w.flyfrontier.com&amp;refid=3DTMTRANSACT&sendId=3D32002286206&email_subject=
-_line=3DYour+priceline+itinerary+for+Washington%2C+DC+-+May+27th%2C+2014+%2=
-8Itinerary%23+170-481-520-41%29&batchId=3D290506&refclickid=3D20140421|1|OF=
-FER|ACCEPT_INTERCEPT_TEST|AIR_WEBSITE_LINK&ea=3DF18D70DD4C3B9DA447F7189D8DC=
-51024261D4D5CD663813A&utm_medium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCE=
-PT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002286206"
-target=3D"_blank" style=3D"color:#2d94cc; text-decoration:underline;"><span=
- class=3D"link">www.flyfrontier.com</span></a></td>
-</tr>
-</table>                                             <table class=3D"mblHDN=
-" style=3D"border-collapse:collapse; padding-left:0px;
-mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt 0pt 0pt 0pt;mso-table-l=
-space:0;mso-table-rspace:0;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"8">
-<tbody><tr style=3D"padding-top: 0px;padding-bottom:0px; padding-left:0px; =
-padding-right:0px;">
-<td>&nbsp;</td>
-</tr>
-</tbody></table>
-<table class=3D"mblFullWidth" style=3D"border-collapse:collapse; mso-table-=
-lspace:0pt; mso-table-rspace:0pt;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"20%">
-<tbody><tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:10px; line-height:12px; color:#808080;
-font-style:normal; text-decoration:none;" class=3D"airlineContactTitle" ali=
-gn=3D"left">Confirmation Number</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:12px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none; padding-bottom:0px!important" cla=
-ss=3D"airlineContactSub" align=3D"left">DMCNQD</td>
-</tr>
-</tbody></table>
-</td>
-</tr>
-</tbody></table>
-</td>
-</tr>
-</tbody></table>
-</td>
-</tr>
-<!--end airline customer service information row-->
-=09=09=09=09=09=09=09=09=09<!--include this <tr> + the <tr> with the actual=
- information-->
-<tr>
-<td style=3D"height:5px; font-size:5px; line-height:5px; padding:0px; margi=
-n:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;" align=3D"left">&nbsp;</td>
-</tr><tr>
-<td style=3D"height:5px; font-size:5px; line-height:5px; padding:0px; margi=
-n:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;" align=3D"left">&nbsp;</td>
-</tr>
-<tr>
-<td class=3D"blackSectionHeader" style=3D"font-family:Arial, Helvetica, san=
-s-serif; font-weight:normal; font-size:20px; line-height:20px;
-color:#000000; padding:0px;">Priceline Customer Service Information
-<div style=3D"height:5px; font-size:5px; line-height:5px; padding:0px; marg=
-in:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;">&nbsp;</div>
-</td>
-</tr>
-<tr>
-<td style=3D"font-family:Arial, Helvetica, sans-serif; font-size:13px; colo=
-r:#000000; line-height:16px;" class=3D"bodyText" align=3D"left"
-width=3D"100%">If you need assistance with this or any other priceline purc=
-hase please contact a customer service representative
-at the number below.
-<div style=3D"height:10px; font-size:10px; line-height:10px; padding:0px; m=
-argin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;">&nbsp;</div></td>
-</tr>
-<tr>
-<td style=3D"padding:0px; margin:0px; mso-padding-alt:0pt 0pt 0pt 0pt;">
-<table class=3D"mblFullWidth" style=3D"mso-table-lspace:0pt; mso-table-rspa=
-ce:0pt;" align=3D"center" bgcolor=3D"#ffffff" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
-<tr>
-<td style=3D"mso-margin-alt:0pt 0pt 0pt 0pt; padding:10px; -moz-border-radi=
-us:7px; -webkit-border-radius:7px; border-radius:7px;
-border:solid 1px #dddddd;" align=3D"center" width=3D"100%">
-<table style=3D"mso-table-lspace:0pt 0pt 0pt 0pt; mso-table-rspace:0pt 0pt =
-0pt 0pt;" align=3D"center" border=3D"0" cellpadding=3D"0"
-cellspacing=3D"0" width=3D"100%">
-<tr>
-<td style=3D"padding:0px; margin:0px;">
-<table class=3D"mblFullWidth" style=3D"border-collapse:collapse; mso-table-=
-lspace:0pt; mso-table-rspace:0pt;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"44%">
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:14px; line-height:14px; color:#000000;
-font-weight:bold; text-decoration:none;" class=3D"bodyText" align=3D"left">=
-Customer Service Phone Number</td>
-</tr>
-</table>
-<table class=3D"mblHDN" style=3D"border-collapse:collapse; padding-left:0px=
-; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;mso-table-lspace:0;mso-table-rspace:0;" align=3D"left" border=
-=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"10">
-<tr style=3D"padding-top: 0px;padding-bottom:0px; padding-left:0px; padding=
--right:0px;">
-<td>&nbsp;</td>
-</tr>
-</table>
-<table class=3D"mblFullWidth" style=3D"border-collapse:collapse; mso-table-=
-lspace:0pt; mso-table-rspace:0pt;" align=3D"right" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"53%">
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:14px; line-height:16px; color:#000000;
-font-weight:normal; text-decoration:none;" class=3D"bodyText" align=3D"left=
-"><span class=3D"hasLink">1-800-340-0575=09(when calling
-from the United States)</span></td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td style=3D"height:10px; font-size:10px; line-height:5px; padding:0px; mar=
-gin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;" align=3D"left">&nbsp;</td>
-</tr>
-<tr>
-<td style=3D"padding:0px; margin:0px;">
-<table class=3D"mblFullWidth" style=3D"border-collapse:collapse; mso-table-=
-lspace:0pt; mso-table-rspace:0pt;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"44%">
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:14px; line-height:14px; color:#000000;
-font-weight:bold; text-decoration:none;" class=3D"bodyText" align=3D"left">=
-Your priceline trip number</td>
-</tr>
-</table>
-<table class=3D"mblHDN" style=3D"border-collapse:collapse; padding-left:0px=
-; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;mso-table-lspace:0;mso-table-rspace:0;" align=3D"left" border=
-=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"10">
-<tr style=3D"padding-top: 0px;padding-bottom:0px; padding-left:0px; padding=
--right:0px;">
-<td>&nbsp;</td>
-</tr>
-</table>
-<table class=3D"mblFullWidth" style=3D"border-collapse:collapse; mso-table-=
-lspace:0pt; mso-table-rspace:0pt;" align=3D"right" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"53%">
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:14px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none;" class=3D"bodyText" align=3D"left=
-"><a href=3D"http://jump.priceline.com/status/414A445407525FB65FAF4FADDAFCA=
-9106302388D72250723408E232E179DAC6F?plf=3DPCLN&from=3DDINC&refid=3DTMTRANSA=
-CT&sendId=3D32002286206&email_subject_line=3DYour+priceline+itinerary+for+W=
-ashington%2C+DC+-+May+27th%2C+2014+%28Itinerary%23+170-481-520-41%29&batchI=
-d=3D290506&refclickid=3D20140421|1|OFFER|ACCEPT_INTERCEPT_TEST|AIR_ACCEPT_C=
-UST_SERV_TRIP_NUM_LNK&ea=3DF18D70DD4C3B9DA447F7189D8DC51024261D4D5CD663813A=
-&utm_medium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_=
-AIR_ACCEPT_INTERCEPT_32002286206"
-target=3D"_blank" style=3D"color:#2d94cc; text-decoration:underline;">170-4=
-81-520-41</a></td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td style=3D"height:10px; font-size:10px; line-height:5px; padding:0px; mar=
-gin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;" align=3D"left">&nbsp;</td>
-</tr>
-<tr>
-<td style=3D"padding:0px; margin:0px;">
-<table class=3D"mblFullWidth" style=3D"border-collapse:collapse; mso-table-=
-lspace:0pt; mso-table-rspace:0pt;" align=3D"left" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"44%">
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:14px; line-height:14px; color:#000000;
-font-weight:bold; text-decoration:none;" class=3D"bodyText" align=3D"left">=
-Phone Number you provided</td>
-</tr>
-</table>
-<table class=3D"mblHDN" style=3D"border-collapse:collapse; padding-left:0px=
-; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;mso-table-lspace:0;mso-table-rspace:0;" align=3D"left" border=
-=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"10">
-<tr style=3D"padding-top: 0px;padding-bottom:0px; padding-left:0px; padding=
--right:0px;">
-<td>&nbsp;</td>
-</tr>
-</table>
-<table class=3D"mblFullWidth" style=3D"border-collapse:collapse; mso-table-=
-lspace:0pt; mso-table-rspace:0pt;" align=3D"right" border=3D"0"
-cellpadding=3D"0" cellspacing=3D"0" width=3D"53%">
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:14px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none;" class=3D"bodyText" align=3D"left=
-"><span class=3D"noLink">503-828-6783</span></td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td style=3D"height:10px; font-size:10px; line-height:5px; padding:0px; mar=
-gin:0px; mso-padding-alt:0pt 0pt 0pt 0pt; mso-margin-alt:0pt
-0pt 0pt 0pt;" align=3D"left">&nbsp;</td>
-</tr>
-<tr>
-<td style=3D"border-collapse:collapse; font-family:Arial, Helvetica, sans-s=
-erif; font-size:14px; line-height:14px; color:#000000;
-font-weight:normal; text-decoration:none;" class=3D"bodyText" align=3D"left=
-"><a href=3D"http://jump.priceline.com/customerservice/customerservice.do?I=
-NIT_SESSION=3Dtrue&plf=3DPCLN&refid=3DTMTRANSACT&sendId=3D32002286206&email=
-_subject_line=3DYour+priceline+itinerary+for+Washington%2C+DC+-+May+27th%2C=
-+2014+%28Itinerary%23+170-481-520-41%29&batchId=3D290506&refclickid=3D20140=
-421|1|OFFER|ACCEPT_INTERCEPT_TEST|FAQ_LINK&ea=3DF18D70DD4C3B9DA447F7189D8DC=
-51024261D4D5CD663813A&utm_medium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCE=
-PT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002286206"
-target=3D"_blank" style=3D"color:#2d94cc; text-decoration:underline;">Click=
- here to view frequently asked questions.</a></td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-</td>
-</tr>           =20
-</table>
-</td>
-</tr>
-</table>
-
-<!--end customer service block-->                            </td>
-</tr>
-</tbody></table>
-
-<!-- end top section-->
-<!-- START AIR  AD UNITS -->
-<table class=3D"square" style=3D"padding:10px; background:#fff; mso-table-l=
-space:0pt; mso-table-rspace:0pt; border-collapse:separate;"
-border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
-<tr>
-<td style=3D"border-collapse:collapse">
-<table style=3D"mso-table-lspace:0pt; mso-table-rspace:0pt;" cellpadding=3D=
-"0" cellspacing=3D"0" width=3D"100%">
-<tr>
-<td align=3D"left" style=3D"padding-top:10px"><a title=3D"advertisement 1" =
-href=3D"http://ad.doubleclick.net/N3102/jump/priceline.dart/confirm_and_pre=
-trav_air_banner1;city=3DWashington;state=3DDC;country=3DUS;depcarrier=3DAla=
-ska_Airlines;retcarrier=3DAlaska_Airlines;sz=3D300x250;ord=3D1257081562"><i=
-mg
-width=3D"300" height=3D"250" border=3D"0" alt=3D"advertisement" src=3D"http=
-://ad.doubleclick.net/N3102/ad/priceline.dart/confirm_and_pretrav_air_banne=
-r1;city=3DWashington;state=3DDC;country=3DUS;depcarrier=3DAlaska_Airlines;r=
-etcarrier=3DAlaska_Airlines;sz=3D300x250;ord=3D1257081562"></a></td>
-<td class=3D"mblHDN" style=3D"width:20px; padding-top:10px">&nbsp;</td>
-<td class=3D"mblHDN" align=3D"right" style=3D"padding-top:10px"><a title=3D=
-"advertisement 2" href=3D"http://ad.doubleclick.net/N3102/jump/priceline.da=
-rt/confirm_and_pretrav_air_banner2;city=3DWashington;state=3DDC;country=3DU=
-S;depcarrier=3DAlaska_Airlines;retcarrier=3DAlaska_Airlines;sz=3D300x250;or=
-d=3D1257081562"><img
-width=3D"300" height=3D"250" border=3D"0" alt=3D"advertisement" src=3D"http=
-://ad.doubleclick.net/N3102/ad/priceline.dart/confirm_and_pretrav_air_banne=
-r2;city=3DWashington;state=3DDC;country=3DUS;depcarrier=3DAlaska_Airlines;r=
-etcarrier=3DAlaska_Airlines;sz=3D300x250;ord=3D1257081562"></a></td>
-</tr>
-</table>
-</td>
-</tr>
-</table> =09=09=09=09<!--rounded corner bottom-->
-<table id=3D"bottomCorners" class=3D"mblHDN" style=3D"-moz-border-bottom-le=
-ft-radius:7px; -webkit-border-bottom-left-radius:7px;
-border-bottom-left-radius:7px; -moz-border-bottom-right-radius:7px; -webkit=
--border-bottom-right-radius:7px; border-bottom-right-radius:7px;
-padding-right:10px; padding-left:10px; background:#fff; border-collapse:sep=
-arate;" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"
-width=3D"100%">
-<tbody><tr>
-<td style=3D"height: 7px;font-size: 7px;line-height: 7px;border-collapse: c=
-ollapse;">&nbsp;
-</td>
-</tr>
-</tbody></table>
-<!--end rounded corner bottom-->
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-<!--social footer-->
-<table class=3D"mblHDN" style=3D"border-collapse: collapse; padding:0px;" b=
-order=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
-<tr>
-<td>
-<table style=3D"background:#0a84c1 url(http://image.emails.priceline.com/li=
-b/fef51371706d00/m/1/social_rays_bg.gif) no-repeat
-0 bottom;-moz-border-top-right-radius:0px; -moz-border-top-left-radius:0px;=
- -moz-border-bottom-right-radius:7px; moz-border-bottom-left-radius:7px;-we=
-bkit-border-top-right-radius:0px;
--webkit-border-top-left-radius:0px; -webkit-border-bottom-right-radius:7px;=
- -webkit-border-bottom-left-radius:7px; border-top-right-radius:0px;
-border-top-left-radius:0px; border-bottom-right-radius:7px; border-bottom-l=
-eft-radius:7px; border-collapse:separate" bgcolor=3D"#0a84c1"
-border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
-<tr>
-<td style=3D"padding:7px 0">
-<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
-<tr>
-<td><a href=3D"http://jump.priceline.com/download-priceline-negotiator-app?=
-refid=3DTMTRANSACT&sendId=3D32002286206&email_subject_line=3DYour+priceline=
-+itinerary+for+Washington%2C+DC+-+May+27th%2C+2014+%28Itinerary%23+170-481-=
-520-41%29&batchId=3D290506&refclickid=3D20140421|1|OFFER|ACCEPT_INTERCEPT_T=
-EST|IOS_DOWNLOAD_LINK&ea=3DF18D70DD4C3B9DA447F7189D8DC51024261D4D5CD663813A=
-&utm_medium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_=
-AIR_ACCEPT_INTERCEPT_32002286206"
-style=3D"color:#fff;font-size:10px" target=3D"_blank"><img src=3D"http://im=
-age.emails.priceline.com/lib/fef51371706d00/m/1/SF_app_store.gif"
-alt=3D"Available on the App Store" style=3D"display:block" border=3D"0" hei=
-ght=3D"40" width=3D"118"></a></td>
-<td style=3D"width:5px;font-size:5px;line-height:5px" width=3D"5">&nbsp;</t=
-d>
-<td style=3D"padding-right:4px"><a href=3D"http://jump.priceline.com/downlo=
-ad-priceline-negotiator-app?refid=3DTMTRANSACT&sendId=3D32002286206&email_s=
-ubject_line=3DYour+priceline+itinerary+for+Washington%2C+DC+-+May+27th%2C+2=
-014+%28Itinerary%23+170-481-520-41%29&batchId=3D290506&refclickid=3D2014042=
-1|1|OFFER|ACCEPT_INTERCEPT_TEST|ANDROID_DOWNLOAD_LINK&ea=3DF18D70DD4C3B9DA4=
-47F7189D8DC51024261D4D5CD663813A&utm_medium=3Demail&utm_source=3DTM_AIR_ACC=
-EPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002286206"
-style=3D"color:#fff;font-size:10px" target=3D"_blank"><img src=3D"http://im=
-age.emails.priceline.com/lib/fef51371706d00/m/1/SF_google_play.gif"
-alt=3D"Android App on Google Play" style=3D"display:block" border=3D"0" hei=
-ght=3D"40" width=3D"118"></a></td>
-</tr>
-</table>
-<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
-<tr>
-<td style=3D"padding:13px 15px 0 20px;color:#fff"><img src=3D"http://image.=
-emails.priceline.com/lib/fef51371706d00/m/1/social_lets_talk_deals.gif"
-alt=3D"Let's Talk Deals" height=3D"18" width=3D"141"></td>
-</tr>
-</table>
-<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
-<tr>
-=09=09=09=09=09=09=09 <td><a href=3D"http://jump.priceline.com/default.asp?=
-refid=3DTMTRANSACT&sendId=3D32002286206&email_subject_line=3DYour+priceline=
-+itinerary+for+Washington%2C+DC+-+May+27th%2C+2014+%28Itinerary%23+170-481-=
-520-41%29&batchId=3D290506&refclickid=3D20140421|1|OFFER|ACCEPT_INTERCEPT_T=
-EST|FOOTER_FACEBOOK_LINK&ea=3DF18D70DD4C3B9DA447F7189D8DC51024261D4D5CD6638=
-13A&utm_medium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3D=
-TM_AIR_ACCEPT_INTERCEPT_32002286206&amp;url=3Dhttp://www.facebook.com/price=
-line"
-style=3D"color:#fff;font-size:10px" target=3D"_blank"><img src=3D"http://im=
-age.emails.priceline.com/lib/fef51371706d00/m/1/icn_facebook2x.gif"
-alt=3D"Facebook" style=3D"display:block" border=3D"0" height=3D"40" width=
-=3D"40"></a></td>
-<td><img src=3D"http://image.emails.priceline.com/lib/fef51371706d00/m/1/sp=
-ace.gif" style=3D"display:block" alt=3D" " height=3D"1"
-width=3D"5"></td>
-<td><a href=3D"http://jump.priceline.com/default.asp?refid=3DTMTRANSACT&sen=
-dId=3D32002286206&email_subject_line=3DYour+priceline+itinerary+for+Washing=
-ton%2C+DC+-+May+27th%2C+2014+%28Itinerary%23+170-481-520-41%29&batchId=3D29=
-0506&refclickid=3D20140421|1|OFFER|ACCEPT_INTERCEPT_TEST|FOOTER_TWITTER_LIN=
-K&ea=3DF18D70DD4C3B9DA447F7189D8DC51024261D4D5CD663813A&utm_medium=3Demail&=
-utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT=
-_32002286206&amp;url=3Dhttps://twitter.com/priceline"
-style=3D"color:#fff;font-size:10px" target=3D"_blank"><img src=3D"http://im=
-age.emails.priceline.com/lib/fef51371706d00/m/1/icn_twitter2x.gif"
-alt=3D"Twitter" style=3D"display:block" border=3D"0" height=3D"40" width=3D=
-"40"></a></td>
-<td><img src=3D"http://image.emails.priceline.com/lib/fef51371706d00/m/1/sp=
-ace.gif" style=3D"display:block" alt=3D" " height=3D"1"
-width=3D"5"></td>
-<td><a href=3D"http://jump.priceline.com/default.asp?refid=3DTMTRANSACT&sen=
-dId=3D32002286206&email_subject_line=3DYour+priceline+itinerary+for+Washing=
-ton%2C+DC+-+May+27th%2C+2014+%28Itinerary%23+170-481-520-41%29&batchId=3D29=
-0506&refclickid=3D20140421|1|OFFER|ACCEPT_INTERCEPT_TEST|FOOTER_GOOGLEPLUS_=
-LINK&ea=3DF18D70DD4C3B9DA447F7189D8DC51024261D4D5CD663813A&utm_medium=3Dema=
-il&utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERC=
-EPT_32002286206&amp;url=3Dhttps://plus.google.com/%2Bpriceline"
-style=3D"color:#fff;font-size:10px" target=3D"_blank"><img src=3D"http://im=
-age.emails.priceline.com/lib/fef51371706d00/m/1/icn_googlePlus2x.gif"
-alt=3D"Google+" style=3D"display:block" border=3D"0" height=3D"40" width=3D=
-"40"></a></td>
-<td><img src=3D"http://image.emails.priceline.com/lib/fef51371706d00/m/1/sp=
-ace.gif" style=3D"display:block" alt=3D" " height=3D"1"
-width=3D"5"></td>
-<td><a href=3D"http://jump.priceline.com/default.asp?refid=3DTMTRANSACT&sen=
-dId=3D32002286206&email_subject_line=3DYour+priceline+itinerary+for+Washing=
-ton%2C+DC+-+May+27th%2C+2014+%28Itinerary%23+170-481-520-41%29&batchId=3D29=
-0506&refclickid=3D20140421|1|OFFER|ACCEPT_INTERCEPT_TEST|FOOTER_YOUTUBE_LIN=
-K&ea=3DF18D70DD4C3B9DA447F7189D8DC51024261D4D5CD663813A&utm_medium=3Demail&=
-utm_source=3DTM_AIR_ACCEPT_INTERCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT=
-_32002286206&amp;url=3Dhttp://www.youtube.com/user/priceline"
-style=3D"color:#fff;font-size:10px" target=3D"_blank"><img src=3D"http://im=
-age.emails.priceline.com/lib/fef51371706d00/m/1/icn_youTube2x.gif"
-alt=3D"YouTube" style=3D"display:block" border=3D"0" height=3D"40" width=3D=
-"40"></a></td>
-=09=09=09=09=09=09=09</tr>
-</table>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-<!--end social footer-->
-=09<table cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-table-lspace:0pt=
-; mso-table-rspace:0pt;">
-<tr>
-<td style=3D"border-collapse: collapse;">
-<table style=3D"font-family: arial;color: #515050;font-size: 11px;border-co=
-llapse: collapse;mso-table-lspace: 0pt;mso-table-rspace:
-0pt;" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
-<tr>=20
-<td style=3D"padding: 10px 0;border-collapse: collapse;" class=3D"mblFooter=
-" align=3D"left">             Responses to this e-mail
-will not go to a customer service representative. To contact our customer s=
-ervice team directly, please go to the <a class=3D"hasLink"
-href=3D"http://jump.priceline.com/customerservice/customerservice.do?INIT_S=
-ESSION=3Dtrue&refid=3DTMTRANSACT&sendId=3D32002286206&email_subject_line=3D=
-Your+priceline+itinerary+for+Washington%2C+DC+-+May+27th%2C+2014+%28Itinera=
-ry%23+170-481-520-41%29&batchId=3D290506&refclickid=3D20140421|1|OFFER|ACCE=
-PT_INTERCEPT_TEST|DISCLAIMER_CUSTOMER_SERVICE&ea=3DF18D70DD4C3B9DA447F7189D=
-8DC51024261D4D5CD663813A&utm_medium=3Demail&utm_source=3DTM_AIR_ACCEPT_INTE=
-RCEPT&utm_campaign=3DTM_AIR_ACCEPT_INTERCEPT_32002286206"
-style=3D"color:#0a84c1;text-decoration:underline;">customer service</a> pag=
-e of our website.
-<br><br>
-<span class=3D"grayLink">This is a transactional email from Priceline.com L=
-LC - 800 Connecticut Ave. Norwalk, CT 06854</span><br><br>
-<span class=3D"grayLink" style=3D"color:#515050!important; text-decoration:=
-none!important;">To: THISTLEGRAVE@GMAIL.COM<br>
-Subject:Your priceline itinerary for Washington, DC - May 27th, 2014 (Itine=
-rary# 170-481-520-41)(Itinerary # 17048152041)<br>
-
-Sent: Monday, April 21, 2014<br>
-MsgId: 10897905905<br>=20
-</span>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>=20
-=09=09 </td>
-</tr>
-</table>
-</td>
-<td class=3D"mblHDN" width=3D"4%"><img src=3D"http://image.emails.priceline=
-.com/lib/fef51371706d00/m/1/space.gif" style=3D"display:block"
-alt=3D" " height=3D"1" width=3D"10"></td>
-</tr>
-</table>
+                                <tr height=3D"15"><td></td><td></td></tr>
+                            </table>
 
 
+                    </div>
 
-</body></html>
+                    <div>
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0">
+                            <tr height=3D"16"><td style=3D"border-top:1px s=
+olid #ccc;" colspan=3D"2">&nbsp;</td></tr>
+                            <tr>
+                                <td width=3D"106" valign=3D"top" align=3D"l=
+eft">
+                                    <a href=3D"http://www.jetblue.com/cars/=
+?source=3DEMpreflight_cars">
+                                        <img src=3D"https://jetbluereceipt.=
+sabre.com/jb/cars.jpg" alt=3D"" border=3D"0" />
+                                    </a>
+                                </td>
+                                <td align=3D"left">
+                                <p>Find great car rentals from Hertz, Enter=
+prise, Dollar, Avis and more <a href=3D"http://www.jetblue.com/cars/?source=
+=3DEMpreflight_cars" target=3D"_blank">right here</a> - no need to go websi=
+te hopping.</p>
+                                </td>
+                            </tr>
+                            <tr height=3D"16"><td></td></tr>
+                        </table>
+                    </div>
+                    <div>
+                            <table cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"border-top:1px solid #ccc;">
+                            <tr height=3D"16"><td></td><td></td></tr>
+                            <tr><td valign=3D"top" align=3D"left" width=3D"=
+106">
+                                <a href=3D"http://www.jetblue.com/tools/exi=
+t.asp?intcmp=3DclIMGLimores&uri=3Dhttp://limos.jetblue.com"><img src=3D"htt=
+ps://jetbluereceipt.sabre.com/jb/towncar.gif" width=3D"84" height=3D"35" al=
+t=3D"" align=3D"left" border=3D"0"/></a>
+
+                            </td>
+                            <td align=3D"left">
+                                <p style=3D"margin:5px 0px 0px 0px;">
+                                    Ride in style with private car service =
+to/from the airport from our new partner, LimoRes. It's a&nbsp;lot less tha=
+n you think - rates start at just $49<sup>4</sup>. <a href=3D"http://www.je=
+tblue.com/tools/exit.asp?intcmp=3DclIMGLimores&uri=3Dhttp://limos.jetblue.c=
+om">Book online now</a>.
+                                </p>
+                            </td></tr>
+                            </table>
+                    </div>
+
+                </div>
+
+                    <div align=3D"left" style=3D"margin:30px 0 0;">
+                        <div style=3D"margin-bottom:14px;margin-top:14px;te=
+xt-align:center;">
+                        <map name=3DInflightEntertaimentMap>
+                        <area shape=3DRect coords=3D"25, 35, 125, 165" href=
+=3D"http://www.jetblue.com/about/whyyoulllike/directv/guide/TribuneTVFront/=
+?source=3DPreflight:directv" alt=3DDIRECTV>
+                          <area shape=3DRect coords=3D"165, 35, 280, 155" h=
+ref=3D"http://www.jetblue.com/about/whyyoulllike/about_WhyXMRadio.html?sour=
+ce=3DPreflight:XMSatelilte"  alt=3D"XM radio">
+                          <area shape=3DRect coords=3D"320, 35, 440, 180"  =
+ href=3D"http://www.jetblue.com/about/whyyoulllike/about_whysnacks.html?sou=
+rce=3DPreflight:dunkin" alt=3DSnacks>
+                          <area shape=3DRect coords=3D"475, 35, 590, 170" h=
+ref=3D"http://www.jetblue.com/about/whyyoulllike/about_WhyMoviesandMore.htm=
+l?source=3DPreflight:moviesnmore" alt=3D"JetBlue features">
+                          </map>
+                        <img border=3D"0" src=3D"https://jetbluereceipt.sab=
+re.com/jb/inflight-entertainment.jpg" usemap=3D"#InflightEntertaimentMap"/>=
+</div>
+                        <p style=3D"margin-bottom:15px;font-size:9pt;">&dag=
+ger;DIRECTV&reg; and XM Radio&reg; services are not available outside the c=
+ontinental U.S.; however, where applicable, movies from JetBlue Features&tr=
+ade; are offered complimentary on these routes.</p>
+                    </div>
+
+=09=09=09=09=09<div align=3D"left">
+                        ** Offer ends 8/31/2011, 11:59 PM, ET; valid for Tr=
+ueBlue members in good standing who purchase a full=20
+                        fare JetBlue ticket and who check in via <a href=3D=
+"http://jetblue.com">jetblue.com</a> or mobile check-in=20
+                        (100 TrueBlue points), or at a JetBlue airport kios=
+k (50 TrueBlue points). Offer starts 6/10/2011.
+=09=09=09=09=09</div>
+            <div align=3D"left" style=3D"margin:15px 0 0;">
+                <p style=3D"margin-bottom:20px;font-size:8pt;">
+                    1. <b>Welcome bonus offer not available to applicants w=
+ho have had this product or a Crewmember JetBlue Card account=20
+                    within the last 12 months.</b> You can earn 20,000 True=
+Blue&reg; points after you spend $1,000 on eligible purchases=20
+                    in your first three months of Cardmembership following =
+the time of Card account opening. Eligible purchases are purchases=20
+                    of goods or services minus returns and credits, and do =
+NOT include: fees or interest charges, balance transfers, cash=20
+                    advances, purchases of travelers checks, purchases or r=
+eloading of prepaid cards, or purchases of cash equivalents.=20
+                    TrueBlue points will be credited to your JetBlue TrueBl=
+ue Program account 6 to 8 weeks after the spend requirement has=20
+                    been reached. This offer is not valid for existing JetB=
+lue Cardmembers. You are eligible to receive points for only one=20
+                    Card account. Additional Cardmembers are not eligible.
+                    <br/><br/>
+                    2. Price Match Guarantee: Special Internet Rate reserva=
+tions booked through Hotels.com are guaranteed to be the lowest=20
+                    rate you can find.  If there is a lower rate available =
+for the same dates and the same hotel, you must contact Hotels.com=20
+                    prior to the property's cancellation deadline of your "=
+Special Internet Rate" reservation.  After verifying the lower rate,=20
+                    Hotels.com will, at its choice, either match the lower =
+rate or cancel the reservation without a cancellation fee. =20
+                    This Guarantee only applies to booked prepaid reservati=
+ons of rates indicated as "Special Internet Rates."=20
+                    It does not apply to special events such as New Year's,=
+ the Super Bowl, Mardi Gras, JazzFest, etc. =20
+                    Other restrictions may apply. To learn more or to claim=
+ a Guarantee, see=20
+                    <a href=3D"http://hotels.jetblue.com/index.jsp?pageName=
+=3Dguarantee">http://hotels.jetblue.com/index.jsp?pageName=3Dguarantee</a>.
+                    <br/><br/>
+                    3. No Change/Cancel Fees: Hotels.com does not charge a =
+change or cancel fee; however, each property has independent=20
+                    penalties for changes/cancellations. See full hotel det=
+ails and descriptions for details.
+                    <br/><br/>
+                    4. Advertised rates are based on trips between airports=
+ and downtown metropolitan area locations in an economy=20
+                    class vehicle. Rates do not include additional charges =
+that may be applicable, such as charges for tolls, extra stops,=20
+                    parking fees, telephone usage, pets, extra in-car bags,=
+ car seats, waiting time, or custom requests. Rates include=20
+                    local and state taxes and fees, except in NY, NJ, and C=
+T; passengers in these states are responsible for taxes and=20
+                    fees (including, in NY, a 2% NYC workmen's compensation=
+ charge and 8.875% state and local sales taxes).=20
+                    Rates include gratuity, except in NY, NJ, and CT; passe=
+ngers traveling in these states are encouraged to provide=20
+                    appropriate gratuity based on the service received. Eco=
+nomy pricing may not be available at all times during the=20
+                    day or during certain weather conditions. Advertised ra=
+tes only apply for bookings made online at limos.jetblue.com=20
+                    or by calling 1-888-478-8190.
+                    <br/>
+                </p>
+
+
+                <p style=3D"margin-bottom:15px;font-size:10pt;">
+                    <b>CUSTOMER CONCERNS</b><br />
+                    Any customer inquiries or concerns can be addressed <a =
+href=3D"http://www.jetblue.com/help/contactus/">here</a>,=20
+                    emailed to dearjetblue@jetblue.com, or sent to JetBlue =
+Airways, 6322 South 3000 East, Suite G10, Salt Lake City, UT 84121.
+                </p>
+                <p style=3D"margin-bottom:15px;font-size:10pt;">
+                    <b>NOTICE OF INCORPORATED TERMS</b><br />
+                    All travel on JetBlue, whether it is domestic or intern=
+ational travel, is subject to JetBlue's Contract of Carriage,=20
+                    the terms of which are incorporated herein by reference=
+. International travel may also be subject to JetBlue's=20
+                    international passenger rules tariffs on file with the =
+U.S. and other governments, and, where applicable,=20
+                    the Montreal Convention or the Warsaw Convention and it=
+s amendments and special contracts. Incorporated terms include,=20
+                    but are not restricted to:
+                </p>
+                <p style=3D"margin-bottom:15px;font-size:10pt;">
+                    <b>NOTICE OF INCREASED GOVERNMENT TAX OR FEE</b><br />
+                    JetBlue reserves the right to collect additional paymen=
+t after a fare has been paid in full and tickets issued for=20
+                    any additional government taxes or fees assessed or imp=
+osed.
+                </p>
+
+                <p style=3D"margin-bottom:15px;font-size:10pt;">
+                    1. Liability limitations for baggage, including special=
+ rules for fragile and perishable goods and the availability=20
+                    of excess valuation.<br />
+                    2. Liability limitations for personal injury or death. =
+<br />
+                    3. Claims restrictions, including time periods within w=
+hich passengers must file a claim or bring an action against JetBlue.<br />
+                    4. Rights of JetBlue to change the terms of contract. <=
+br />
+                    5. Rules on reservations, check-in, and refusal to carr=
+y. <br />
+                    6. JetBlue's rights and limits on its liability for del=
+ay or failure to perform service, including schedule changes,=20
+                    substitution of aircraft or alternate air carriers, and=
+ rerouting.<br />
+                    7. Non-refundability of reservations.<br />
+                    8. The Contract of Carriage and tariffs may be inspecte=
+d at all JetBlue airport customer service counters,=20
+                    and upon request you have the right to receive by mail =
+a copy of the full text of the Contract of Carriage or tariffs.=20
+                    Additional information on items one through seven can b=
+e obtained on JetBlue's website at=20
+                    <a href=3D"http://www.jetblue.com/about/legal/legal.asp=
+?source=3Dempreflight_coc">www.JetBlue.com</a> or at any U.S. location wher=
+e=20
+                    JetBlue transportation is sold.
+                </p>
+
+                <p style=3D"margin-bottom:15px;font-size:10pt;">
+                    <b>CARRY-ON BAGGAGE RULES</b> <br />
+                    JetBlue flights - Each customer may bring one bag that =
+fits in the overhead bin plus one personal item (purse,=20
+                    briefcase, laptop, etc.) that fits under the seat in fr=
+ont free of charge. Any excess carry-on baggage will be=20
+                    checked baggage. Visit <a href=3D"http://www.jetblue.co=
+m/bags">http://www.jetblue.com/bags</a>=20
+                    and <a href=3D"http://www.tsa.gov">http://www.tsa.gov</=
+a> for more information. Connecting on our partner airlines=20
+                    (including Cape Air) =E2=80=93 The carry-on rules of a =
+partner airline apply when checking in to a JetBlue flight that is=20
+                    connecting to the partner. See <a href=3D"http://www.je=
+tblue.com/partners">http://www.jetblue.com/partners</a> for=20
+                    more information. While JetBlue may allow additional ca=
+rry-ons as a courtesy to customers connecting to our partner=20
+                    airline, JetBlue cannot guarantee that those bags will =
+be accepted for in-cabin travel on the partner. =20
+                    Customers are encouraged to abide by partner=E2=80=99s =
+rules for their entire journey to avoid additional checked=20
+                    baggage fees if their carry-ons do not meet size/weight=
+ restrictions.
+                </p>
+
+                <p style=3D"margin-bottom:15px;font-size:10pt;">
+                    <b>CHECKED BAGGAGE ALLOWANCE/FEES</b> <br />
+                    Domestic JetBlue flights - JetBlue allows one free chec=
+ked bag, subject to size/weight restrictions. =20
+                    For flights booked on or after February 3, 2012 a $40.0=
+0 fee applies to a second checked bag ($35.00=20
+                    for flights booked before February 3, 2012), subject to=
+ size/weight restrictions. A $75 fee applies for a third checked bag. =20
+                    Other fees apply for additional baggage and oversized o=
+r overweight baggage. Visit=20
+                    <a href=3D"http://www.jetblue.com/bags">http://www.jetb=
+lue.com/bags</a> for more information. International JetBlue=20
+                    flights - JetBlue allows one free checked bag, subject =
+to size/weight restrictions. For flights booked on or after=20
+                    February 3, 2012 a $40.00 fee applies to a second check=
+ed bag ($35.00 for flights booked before February 3, 2012).=20
+                    Excess baggage rules and size/weight restrictions may v=
+ary depending on load availability and country=20
+                    restrictions. See <a href=3D"www.jetblue.com/bags">www.=
+jetblue.com/bags</a> for more information. Travel on our=20
+                    partner airlines (excluding Cape Air*) =E2=80=93 Baggag=
+e rules and fees vary by partner airline and destination. JetBlue=20
+                    will follow our partner airlines' fees when customers a=
+re traveling on an itinerary including one of our partner airlines.=20
+                    Excess baggage rules and size/weight restrictions may v=
+ary depending on load availability. See=20
+                    <a href=3D"http://www.jetblue.com/partners">http://www.=
+jetblue.com/partners</a> for more information.
+                    <br/><br/>
+                    *For itineraries with a connection only to/from Cape Ai=
+r, JetBlue's standard fees apply. =20
+                </p>
+
+                <p style=3D"margin-bottom:15px;font-size:10pt;">
+                    <b>CHECK-IN TIMES</b><br />
+                    For domestic flights, customers traveling without check=
+ed baggage must obtain a boarding pass twenty (20)=20
+                    minutes prior to scheduled departure and customers trav=
+eling with checked baggage must obtain a boarding pass=20
+                    thirty minutes prior to scheduled departure.  Customers=
+ must be present in the boarding gate are fifteen (15)=20
+                    minutes prior to scheduled departure or the posted airc=
+raft departure time. For international flights,=20
+                    customers traveling with or without checked bags must o=
+btain a boarding pass sixty (60) minutes prior to=20
+                    scheduled departure. Customers must be present in the b=
+oarding gate twenty (20) minutes prior to scheduled=20
+                    departure or the posted aircraft departure time.
+                </p>
+
+                <p style=3D"margin-bottom:15px;font-size:10pt;">
+                    <b>DOCUMENTATION REQUIREMENTS</b><br />
+                    For domestic travel, customers over the age of 18 will =
+be required to show a U.S. federal or state-issued photo ID=20
+                    that contains the following information: name, date of =
+birth, gender, expiration date and a tamper-resistant feature. =20
+                    Customers traveling to/from an international destinatio=
+n are required to present proper documentation at the time of=20
+                    check-in. Documents required for travel vary according =
+to citizenship, residency, country of travel, age (for minors),=20
+                    length of stay, purpose of visit, student status, etc. =
+Please check for specific requirements for the country,=20
+                    or countries, you are visiting to make sure you have th=
+e correct documents. In addition, Customers traveling to=20
+                    a country other than their country of citizenship or re=
+sidency are required to hold proof of return or onward travel.=20
+                    Failure to present proper documentation could result in=
+ denied boarding.
+                </p>
+
+                <p style=3D"margin-bottom:15px;font-size:10pt;">
+                    <b>ADVICE TO INTERNATIONAL PASSENGERS ON LIMITATION OF =
+LIABILITY</b><br />
+                    Where a passenger's journey involves an ultimate destin=
+ation or a stop in a country other than the country of departure,=20
+                    either the Warsaw Convention and the Hague Protocol, th=
+eir amendments, and any special contracts of carriage embodied=20
+                    in applicable tariffs that waive Warsaw/Hague limits, o=
+r the Montreal Convention may apply to the entire journey=20
+                    including the portion within the countries of departure=
+ or destination and, in some cases, may limit the liability=20
+                    of the carrier for death or personal injury, delay, and=
+ for loss of or damage to baggage. The Montreal Convention,=20
+                    where applicable, does not impose, and special contract=
+s voluntarily entered into by many carriers, including JetBlue,=20
+                    waive, the Warsaw/Hague limitations for compensatory da=
+mages arising out of personal injury or wrongful death caused by=20
+                    an accident, as defined by the applicable treaty. The n=
+ames of carriers party to the special contracts are available at=20
+                    all ticket offices of such carriers and may be examined=
+ upon request.
+                </p>
+
+                <p style=3D"margin-bottom:15px;font-size:10pt;">
+                    <b>NOTICE OF BAGGAGE LIABILITY LIMITS</b> <br />
+                    For international transportation (including domestic po=
+rtions) governed by the Montreal Convention,=20
+                    JetBlue's liability for baggage is limited to 1,131 SDR=
+s (see, <a href=3D"http://www.imf.org/">www.imf.org</a>=20
+                    for current value) per passenger unless a higher value =
+is declared and an extra charge is paid. For international=20
+                    transportation governed by the Warsaw Convention and th=
+e Hague Protocol and their amendments, JetBlue's liability=20
+                    for baggage is limited to $9.07 per pound for checked b=
+aggage and $400 per passenger for unchecked baggage unless=20
+                    a higher value is declared and an extra charge is paid.=
+ Special rules may apply to valuable articles. For domestic=20
+                    transportation, JetBlue's liability for baggage is limi=
+ted to $3,300 per passenger. General baggage rules: As set=20
+                    forth more fully in its Contract of Carriage and intern=
+ational passenger rules tariffs, JetBlue will not be responsible=20
+                    for fragile or perishable goods. JetBlue assumes no lia=
+bility for oversized, overweight or overpacked baggage, or for=20
+                    loss of or damage to baggage parts such as wheels, stra=
+ps, pockets, pull handles, zippers, hanger hooks or other items=20
+                    attached to baggage. JetBlue will not be responsible fo=
+r the following items in checked or unchecked baggage: money,=20
+                    jewelry including watches, cameras, camcorders, any typ=
+e of electronic equipment, including computers, valuable papers=20
+                    or documents and other similar items as described in mo=
+re detail in the Contract of Carriage.=20
+                </p>
+
+                <p style=3D"margin-bottom:15px;font-size:12pt;">
+                    <b>NOTICE OF OVERBOOKING OF FLIGHTS</b><br />
+                    Although JetBlue does not intentionally overbook its fl=
+ights, there is a slight chance that a seat will not be=20
+                    available on a flight for which a person has a confirme=
+d reservation. If the flight is overbooked, no one will=20
+                    be denied a seat until airline personnel first ask for =
+volunteers willing to give up their reservation in exchange=20
+                    for compensation of the airline's choosing. If there ar=
+e not enough volunteers, JetBlue will deny boarding to other=20
+                    persons in accordance with its particular boarding prio=
+rity. With few exceptions, including failure to comply with=20
+                    JetBlue's check-in deadline (which are available upon r=
+equest from JetBlue), persons denied boarding involuntarily=20
+                    are entitled to compensation. The complete rules for th=
+e payment of compensation and JetBlue's boarding priorities=20
+                    are available at all airport ticket counters and boardi=
+ng locations. <b>Some airlines do not apply these consumer=20
+                    protections to travel from some foreign countries, alth=
+ough other consumer protections may be available.=20
+                    Check with your airline or your travel agent.
+                </b>
+
+                <p style=3D"margin-bottom:15px;font-size:10pt;">
+                    <center>JetBlue Airways, 6322 South 3000 East, Suite G1=
+0, Salt Lake City, UT 84121</center><br />
+                </p>
+            </div>
+
+            <div id=3D"footer">
+            </div>
+        </div>
+                    </td>
+                </tr>
+            </table></center>
+    </body>
+</html>
+
 

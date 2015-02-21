@@ -1,2699 +1,1082 @@
-MIME-Version: 1.0
-Received: by 10.216.59.206 with HTTP; Sat, 17 Nov 2012 22:38:49 -0800 (PST)
-In-Reply-To: <0.1.5.D6.1CDC5569407DA12.0@omptrans.luv.southwest.com>
-References: <0.1.5.D6.1CDC5569407DA12.0@omptrans.luv.southwest.com>
-Date: Sat, 17 Nov 2012 22:38:49 -0800
 Delivered-To: tkhesselgrave@gmail.com
-Message-ID: <CAFxvukbD6p6=0VkySYAOf5rRREZd7bh-t=JHV0aTQWxUP34GXw@mail.gmail.com>
-Subject: Fwd: Southwest Airlines Confirmation-HESSELGRAVE/TAYLOR-Confirmation: 4BHN98
-From: "T. Hesselgrave" <tkhesselgrave@gmail.com>
-To: Taylor Hesselgrave <thesselgrave@ecotrust.org>
-Content-Type: multipart/alternative; boundary=e0cb4e6ff537e543e404cebf405d
+Received: by 10.70.55.12 with SMTP id d12cs94363wxa;
+        Wed, 27 Jun 2007 12:12:51 -0700 (PDT)
+Received: by 10.114.126.1 with SMTP id y1mr800423wac.1182971570407;
+        Wed, 27 Jun 2007 12:12:50 -0700 (PDT)
+Return-Path: <taberrachel@gmail.com>
+Received: from mxout1.cac.washington.edu (mxout1.cac.washington.edu [140.142.32.134])
+        by mx.google.com with ESMTP id m31si7867785wag.2007.06.27.12.12.49;
+        Wed, 27 Jun 2007 12:12:50 -0700 (PDT)
+Received-SPF: neutral (google.com: 140.142.32.134 is neither permitted nor denied by domain of taberrachel@gmail.com)
+DomainKey-Status: good (test mode)
+Received: from mxe8.u.washington.edu (mxe8.u.washington.edu [140.142.33.27])
+	by mxout1.cac.washington.edu (8.13.7+UW06.06/8.13.7+UW07.05) with ESMTP id l5RJCmPt002831
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=OK)
+	for <tkhesselgrave@gmail.com>; Wed, 27 Jun 2007 12:12:48 -0700
+Received: from ug-out-1314.google.com (ug-out-1314.google.com [66.249.92.171])
+	by mxe8.u.washington.edu (8.13.7+UW06.06/8.13.7+UW07.06) with ESMTP id l5RJCbhZ018192
+	for <taykah@u.washington.edu>; Wed, 27 Jun 2007 12:12:47 -0700
+Received: by ug-out-1314.google.com with SMTP id z36so466241uge
+        for <taykah@u.washington.edu>; Wed, 27 Jun 2007 12:12:46 -0700 (PDT)
+DKIM-Signature: a=rsa-sha1; c=relaxed/relaxed;
+        d=gmail.com; s=beta;
+        h=domainkey-signature:received:received:message-id:date:from:to:subject:in-reply-to:mime-version:content-type:references;
+        b=pPfEfHrhO/RxsScd9yps73O1yRst6brPFm97kl/c9bujzxeDyN5R39bJQEGAtZazUpYLVCIzEXxHmktY1LMYALBnT9ADtD59Ya/NmUCXv5WYVIQbF5Z43QGti4F5sahtTU7U7VdMuD9I8ErrUw8iNtQe+0WwT3ndgyWhq8kZzIM=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=gmail.com; s=beta;
+        h=received:message-id:date:from:to:subject:in-reply-to:mime-version:content-type:references;
+        b=pwP/xMAZpGx+QlcN3Ibh5ZoOoiwzdm/VsbkXxFz0QEcWZGeMcyHr5fcyBbEppjsi7MZALflBuIbQN9HB5IwElcW3V6JRLk/ApFWMjJa2mc6yXVnyqr9hAs9JpPb8PbCvStpE9Bh84/mv4vEX/vzXLhBCEKa6Gd8Fs8GDomHjorg=
+Received: by 10.78.150.7 with SMTP id x7mr478824hud.1182971566457;
+        Wed, 27 Jun 2007 12:12:46 -0700 (PDT)
+Received: by 10.78.120.1 with HTTP; Wed, 27 Jun 2007 12:12:46 -0700 (PDT)
+Message-ID: <fdedf9ae0706271212p110992a9ra856b903050704d9@mail.gmail.com>
+Date: Wed, 27 Jun 2007 14:12:46 -0500
+From: "Rachel Taber" <taberrachel@gmail.com>
+To: "T. Hesselgrave" <taykah@u.washington.edu>
+Subject: Fwd: Rachel, here is your itinerary confirmation for your 06/28/2007 Denver trip
+In-Reply-To: <W5TH051D4623DD7F4BF0931AB5BEB0.1929.1670.pimailer37.DumpShot.1@expediamail.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_35354_256041.1182971566415"
+References: <W5TH051D4623DD7F4BF0931AB5BEB0.1929.1670.pimailer37.DumpShot.1@expediamail.com>
+X-PMX-Version: 5.3.2.304607, Antispam-Engine: 2.5.1.298604, Antispam-Data: 2007.6.27.113433
+X-Uwash-Spam: Gauge=XIIIIIIIII, Probability=19%, Report='HTML_FONT_INVISIBLE 2.0, HTML_70_90 0.1, __C230066_P5 0, __CP_MEDIA_BODY 0, __CP_NOT_1 0, __CP_URI_IN_BODY 0, __CT 0, __CTYPE_HAS_BOUNDARY 0, __CTYPE_MULTIPART 0, __CTYPE_MULTIPART_ALT 0, __FROM_GMAIL 0, __HASHBUSTER_BLOCK_V2_N1 0, __HAS_MSGID 0, __HELO_GMAIL 0, __HTML_BOLD 0, __LINES_OF_YELLING 0, __MIME_HTML 0, __MIME_VERSION 0, __PHISH_PHRASE7 0, __RATWARE_SIGNATURE_3_N1 0, __RDNS_GMAIL 0, __SANE_MSGID 0, __STOCK_PHRASE_7 0'
 
---e0cb4e6ff537e543e404cebf405d
-Content-Type: text/plain; charset=ISO-8859-1
+------=_Part_35354_256041.1182971566415
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
 
-------------------------------------------------
-find (and follow) me on twitter at:
-https://twitter.com/guesswhatpeople
-
-
+O myJesus !!!!
+ See youtomorrow! Call me and let me know if you want to pick me up at the
+airport at3am. Otherwise, I will crash there and try to meet up with
+youbeforeyourthing in the morning.
+Rachel
 
 ---------- Forwarded message ----------
-From: Southwest Airlines <SouthwestAirlines@luv.southwest.com>
-Date: Sat, Nov 17, 2012 at 10:33 PM
-Subject: Southwest Airlines Confirmation-HESSELGRAVE/TAYLOR-Confirmation:
-4BHN98
-To: TKHESSELGRAVE@gmail.com
+From: Expedia Travel Services <usmail@expediamail.com>
+Date: Jun 24, 2007 9:55 PM
+Subject: Rachel, here is your itinerary confirmation for your 06/28/2007
+Denver trip
+To: taberrachel@gmail.com
 
 
-      You're all set for your trip!
-   <#13b123883fa978b6_>
-   [image: Southwest Airlines] <http://www.southwest.com>
-   *My Account*<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVRVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>|
-*View My Itinerary
-Online*<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
+   [image: Expedia.com]<http://expediamail.com/W5RH02F7751CBD7F4BF0931AB5BE=
+B0>
+*Itinerary confirmation for your 06/28/2007 trip to Denver*   [image:
+flights] <http://expediamail.com/W5RH02F774638D7F4BF0931AB5BEB0>[image:
+hotels] <http://expediamail.com/W5RH02F77423BD7F4BF0931AB5BEB0>[image:
+cars]<http://expediamail.com/W5RH02F77433AD7F4BF0931AB5BEB0>[image:
+packages] <http://expediamail.com/W5RH02F774125D7F4BF0931AB5BEB0>[image:
+cruises] <http://expediamail.com/W5RH02F774224D7F4BF0931AB5BEB0>[image:
+activities] <http://expediamail.com/W5RH02F774927D7F4BF0931AB5BEB0>
+*Dear Rachel,*
 
-         Check In
-Online<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-  Check Flight Status<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVUVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-  Change Flight<http://www.southwest.com/travel_center/changeItinerary.html>
-  Special Offers <http://travel.southwest.com/specialoffers/topOffers.html>
-  Hotel Deals <http://travel.southwest.com/specialoffers/hotelOffers.html>
-  Car Deals <http://travel.southwest.com/specialoffers/carOffers.html>
-             Ready for takeoff!
-       Thanks for choosing Southwest for your trip! You'll find everything
-you need to know about your reservation below. Happy travels!
-                      AIR Itinerary
-         AIR Confirmation: 4BHN98
-  Confirmation Date: 11/18/2012
-     * *
-  * *
-         *Passenger(s)*
-  *Rapid Rewards #*
-  *Ticket #*
-  *Expiration*
-  *Est. Points Earned*
-       HESSELGRAVE/TAY
-LOR
-  00020056936616
-  5262481401622
-  Sep 1, 2013
-  1650
+Here are your itinerary and confirmation numbers for your trip to Denver.
+All the details are confirmed as of 06/24/2007. Please review and print thi=
+s
+e-mail for convenience while traveling.
 
-           Date
-  Flight
-  Departure/Arrival
-                Wed Nov 21
-  4408
-    Depart *PORTLAND OR* (PDX) at *1:25 PM*
- Arrive in *DENVER CO* (DEN) at *4:45 PM*
- Travel Time 2 hrs 20 mins
- Wanna Get Away<http://www.southwest.com/html/air/fare-information.html#discount>
-               Sun Nov 25
-  231
-    Depart *DENVER CO* (DEN) at *10:25 PM*
- Arrive in *PORTLAND OR* (PDX) at *12:20 AM*
- Travel Time 2 hrs 55 mins
- Wanna Get Away<http://www.southwest.com/html/air/fare-information.html#discount>
-              *Air Cost:* 296.60
-           Carry-on Items: 1 Bag + small personal item are free see full
-details<http://www.southwest.com/html/customer-service/baggage/carryon-bags-pol.html>.
-Checked Items: First and second bags are free, size and weight limits
-apply<http://www.southwest.com/html/customer-service/baggage/checked-bags-pol.html>.
+Need to make any last-minute travel plans? Just use the helpful info listed
+at the right.      Your trip details - as of 06/24/2007
+Itinerary     View
+airline rules &
+regulations<http://expediamail.com/W5RH02F77720ED7F4BF0931AB5BEB0>
+*Expedia.com <http://expedia.com/> itinerary number: 120280857195*
+Airline ticket number(s): 0167056251268
+  US Airways confirmation code: EDE73Z [image: Travel Tip] *Travel tip:* Us=
+e
+this code when you check in for your flight
+  United confirmation code: VZ5NBA [image: Travel Tip] *Travel tip:* Use
+this code when you check in for your flight
+  Alaska Airlines confirmation code: MYIKTQ [image: Travel Tip] *Travel tip=
+:
+* Use this code when you check in for your flight
+*Main contact: Rachel Taber*
+E-mail: taberrachel@gmail.com
+Home Phone: 1-425-2735451
 
- Fare Rule(s): Valid only on Southwest Airlines. All travel involving funds
-from this Confirmation Number must be completed by the expiration date.
-Unused travel funds may only be applied toward the purchase of future
-travel for the individual named on the ticket. Any changes to this
-itinerary may result in a fare increase.
+     Traveler      *Rachel Taber*
+Adult
 
-         Important Check-In Reminder
-         Be sure to arrive at the departure gate with your boarding pass at
-least 10 minutes before your scheduled departure time. Otherwise, your
-reserved space may be cancelled and you won't be eligible for denied
-booking compensation.
-               [image: Go to Boarding
-School]<http://www.southwest.com/html/customer-service/airport-experience/boarding-school/>
- Go to Boarding
-School<http://www.southwest.com/html/customer-service/airport-experience/boarding-school/>
-      [image: EarlyBird Check-in - A More Convenient Way To
-Travel]<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVWVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
- Get EarlyBird
-Check -InTM Details<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVWVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-            Cost and Payment Summary
-           *AIR* - 4BHN98
-         Base Fare
- $ 255.83
-Excise Taxes
- $ 19.17
-Segment Fee
- $ 7.60
-Passenger Facility Charge
- $ 9.00
-September 11th Security Fee
- $ 5.00
-*Total Air Cost*
- *$* * 296.60 *
- Payment Information
-Payment Type: Ticket Exchange
-Date: Nov 18, 2012
-Payment Amount: $296.60
-
-Tkls funds remaining in conf#4BHN98 for future travel $65.00
+     Flight Summary        Thu 28-Jun-07        *Seattle (SEA)* to *Las
+Vegas (McCarran Intl.)* 868 mi US Airways *Depart 7:50 PM* *Arrive
+10:17 PM* (1,397
+km) Flight: 193   Duration: 2h 27m *Economy/Coach Class* 20F Boeing
+737-300 Total
+distance: 868 mi (1,397 km)     Thu 28-Jun-07        *Las Vegas (McCarran
+Intl.)* to *Denver (Denver Intl.)* 615 mi US Airways *Depart 11:59 PM* *Arr=
+ive
+2:55 AM* (990 km) Flight: 607   Duration: 1h 56m *Economy/Coach Class*
+10A Boeing
+737-300 Total distance: 615 mi (990 km)     Wed 11-Jul-07        *Denver
+(Denver Intl.)* to *Las Vegas (McCarran Intl.)* 615 mi Ted *Depart 8:45 PM*
+*Arrive 9:38 PM* (990 km) Flight: 1583   Duration: 1h 53m *Economy/Coach
+Class* 21A Airbus A319-321 Total distance: 615 mi (990 km)     Wed 11-Jul-0=
+7
+    *Las Vegas (McCarran Intl.)* to *Seattle (SEA)* 868 mi Alaska
+Airlines *Depart
+10:35 PM* *Arrive 12:55 AM* (1,397 km) Flight: 693   Duration: 2h 20m
+*Economy/Coach
+Class* 17A Boeing 737-800 Total distance: 868 mi (1,397 km)
+More...         View
+airline rules &
+regulations<http://expediamail.com/W5RH02F774174D7F4BF0931AB5BEB0>
+Change
+or cancel your itinerary<http://expediamail.com/W5RH02F774877D7F4BF0931AB5B=
+EB0>
+ View
+check-in requirements for this
+flight<http://expediamail.com/W5RH02F774976D7F4BF0931AB5BEB0>
+ *Enjoy your trip.*=99         ...with your Personal Trip Guide   =95
+Maps<http://expediamail.com/W5RH02F774091D7F4BF0931AB5BEB0>
+=95  Weather <http://expediamail.com/W5RH02F774190D7F4BF0931AB5BEB0>
+=95  What to do in
+Denver<http://expediamail.com/W5RH02F774893D7F4BF0931AB5BEB0>
+  Plan your Activities   Save time, bypass long lines, and secure tickets b=
+y
+booking an activity
+<http://expediamail.com/W5RH02F77479DD7F4BF0931AB5BEB0>for your Denver
+trip today.
+[image: Book now]
+<http://expediamail.com/W5RH02F77489CD7F4BF0931AB5BEB0>       Complete
+your trip        [image: car] Roam freely in Denver.
+Rent your own car. <http://expediamail.com/W5RH02F774844D7F4BF0931AB5BEB0>
+[image: Search] <http://expediamail.com/W5RH02F774547D7F4BF0931AB5BEB0> [im=
+age:
+hotel] Find your ideal ideal
+hotel<http://expediamail.com/W5RH02F774646D7F4BF0931AB5BEB0>in Denver
+[image: Search]
+<http://expediamail.com/W5RH02F774141D7F4BF0931AB5BEB0>       Get
+personalized travel e-mail        [image: Get personalized travel
+e-mail] Easily
+update your travel preferences by accessing your
+account<http://expediamail.com/W5RH02F77474ED7F4BF0931AB5BEB0>.
 
 
-Exchange Detail
-Sep 1, 2012 From ticket # 5262465335739 to ticket # 5262481401622
+Hear about the latest sales and promotions on travel to your favorite
+destinations! Plus, get timely news about upcoming trips, as well as helpfu=
+l
+travel tips and vacation ideas, just by signing up for Expedia e-mail today=
+!
 
-                       Flight Status
-Alerts<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSUVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-        Stay on your way with flight departure or arrival status via text
-message or email.
-  *Subscribe Now*<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSUVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-              [image: Download
-DING!]<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSWVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-      Get exclusive travel deals straight to your desktop or iPhone.
-  *Download DING!*<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSWVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-                      *Useful Tools*
-     Check-In Online<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-Early Bird Check-In<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVWVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-View/Share Itinerary<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-Change Air Reservation<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSYVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-Cancel Air Reservation<http://www.southwest.com/travel_center/cancelAir.html>
-Check Flight Status<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVUVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-Flight Status Notification<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSUVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-Book a Car<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSAVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-Book a Hotel<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSBVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-   *Know Before You Go*
-     In the Airport<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSCVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-Baggage Policies<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSDVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-Suggested Airport Arrival
-Times<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTRVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-Security Procedures<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTSVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-Customers of Size<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTTVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-In the Air<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTUVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-Purchasing and Refunds<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTWVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-   *Special Travel Needs*
-     Traveling with
-Children<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTYVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-Traveling with Pets<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTAVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-Unaccompanied Minors<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTBVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-Baby on Board<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTCVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-Customers with Disabilities<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTDVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-                     *Legal Policies & Helpful Information*
-        Privacy
-Policy<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVURVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-Notice of Incorporated
-Terms<http://www.southwest.com/html/about-southwest/terms-and-conditions/incorporated-terms.html>
-   Customer Service
-Commitment<http://www.southwest.com/assets/pdfs/corporate-commitments/customer-service-commitment.pdf>
-FAQs <http://www.southwest.com/html/customer-service/faqs.html>
-   Contact Us <https://www.southwest.com/contact-us/contact-us.html>
-             Book Air <http://www.southwest.com/cgi-bin/buildItinerary2> | Book
-Hotel<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSBVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
- | Book Car<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSAVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
- | Book Cruises<http://leisure.southwest.travelpn.com/Vacations/Cruise/Finder/0,,SWA,00.html>
- | Book Vacation Packages <http://www.southwestvacations.com> | See Special
-Offers <http://travel.southwest.com/specialoffers/topOffers.html> | Manage
-My Account<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVRVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-            This is a post-only mailing from Southwest Airlines. Please do
-not attempt to respond to this message. Your privacy is important to us,
-Please read our Privacy
-Policy<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVURVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-.
+[image: Yes, sign me up]
+<http://expediamail.com/W5RH02F774349D7F4BF0931AB5BEB0>      Helpful
+Links        =95
+ View online itinerary<http://expediamail.com/W5RH02F77452AD7F4BF0931AB5BEB=
+0>
+=95  Contact customer
+support<http://expediamail.com/W5RH02F774455D7F4BF0931AB5BEB0>
+=95  Travel alerts <http://expediamail.com/W5RH02F774554D7F4BF0931AB5BEB0>
+=95  Passport information<http://expediamail.com/W5RH02F774257D7F4BF0931AB5=
+BEB0>
+=95  Airline contact
+information<http://expediamail.com/W5RH02F774356D7F4BF0931AB5BEB0>
+=95  Airport information<http://expediamail.com/W5RH02F774851D7F4BF0931AB5B=
+EB0>
+=95  Driving directions<http://expediamail.com/W5RH02F774950D7F4BF0931AB5BE=
+B0>
 
-1 All travel involving funds from this Confirmation Number must be
-completed by the expiration date.
- 2 Security Fee is the government-imposed September 11th Security Fee.
+        [image:
+flights]<http://expediamail.com/W5RH02F774216D7F4BF0931AB5BEB0>[image:
+hotels] <http://expediamail.com/W5RH02F774711D7F4BF0931AB5BEB0>[image:
+cars]<http://expediamail.com/W5RH02F774810D7F4BF0931AB5BEB0>[image:
+packages] <http://expediamail.com/W5RH02F774513D7F4BF0931AB5BEB0>[image:
+cruises] <http://expediamail.com/W5RH02F774612D7F4BF0931AB5BEB0>[image:
+activities] <http://expediamail.com/W5RH02F77441DD7F4BF0931AB5BEB0>
 
-See Southwest Airlines Co. Notice of
-Incorporation<http://www.southwest.com/html/about-southwest/terms-and-conditions/incorporated-terms.html>
-See Southwest Airlines Limit of
-Liability<http://www.southwest.com/html/about-southwest/terms-and-conditions>
+You are receiving this transactional email based on a recent purchase or
+account-related update on Expedia.com.
+This is a daily email you qualified for based on your recent purchase.
 
-Southwest Airlines
-P.O. Box 36647-1CR
-Dallas, TX 75235
+CONTACT US
+Please do not reply to this e-mail as we are not able to respond to message=
+s
+sent to this e-mail address. To contact us or send feedback, please click
+here <http://expediamail.com/W5RH02F7753E6D7F4BF0931AB5BEB0> or contact us
+via postal mail at: Expedia, Inc., attn: EMC Team, 3150 139th Avenue SE,
+Bellevue, WA 98005. For additional assistance, visit the Expedia.com Custom=
+er
+Support Center <http://expediamail.com/W5RH02F7758E1D7F4BF0931AB5BEB0>, or
+call 1-800-Expedia.
 
-Contact Us <https://www.southwest.com/contact-us/contact-us.html>
+A NOTE ABOUT PRICES
+Prices are subject to availability and subject to change without notice.
 
-Copyright 2011 Southwest Airlines Co. All Rights Reserved.
- [image: Southwest Airlines - Celebrating 40 Rockin Years]
-<http://ox-d.southwest.com/e/1.0/rc?cs=17696>
-[image: EarlyBird Check-in - A More Convenient Way To
-Travel]<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVWVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-         <http://travel.southwest.com/specialoffers/hotelOffers.html>
-Find a Hotel
-See ratings, photos and
-rates for over 40,000 hotels.
-   Book a Hotel <http://travel.southwest.com/specialoffers/hotelOffers.html>
-             <http://travel.southwest.com/specialoffers/carOffers.html>
-Rent Some Wheels
-Explore your destination on
-the perfect set of wheels.
-   Rent a Car <http://travel.southwest.com/specialoffers/carOffers.html>
-           [image: Sign Up 'n
-Save]<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVUSVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
-    [image: Join Rapid
-Rewards]<http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVUTVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX>
+All prices were current at the time this e-mail was published.
 
---e0cb4e6ff537e543e404cebf405d
+Hotel, vacation package, and cruise prices on Expedia.com are constantly
+updated. Please refer to the site for the most current pricing. Vacation
+package prices shown are for one adult, economy class, based on double
+occupancy, and vary by dates, availability, and departure city. Additional
+taxes, fees, and charges may apply. Airfare is subject to, without
+limitation: (1) Sept. 11 Security Fee of $2.50 for each flight segment
+originating at a U.S. airport, up to $5 per one way or $10 per roundtrip;
+(2) up to $18 per roundtrip in local airport charges; (3) Federal Excise Ta=
+x
+of $3.20 per U.S. domestic flight segment; (4) a Travel Facilities Tax of u=
+p
+to $14 per roundtrip for domestic flights beginning or ending in Alaska or
+Hawaii; and (5) for international and Puerto Rico/U.S. Virgin Islands
+destinations, government taxes and fees of up to $200 per roundtrip,
+depending on routing and destination (may vary slightly depending on
+currency exchange rates at time of booking). A segment is defined as a
+takeoff and a landing.
+
+CST# 2029030-40
+
+(c) 2007  Expedia, Inc. All rights reserved. Expedia, Expedia.com and the
+Airplane logo are registered trademarks, or trademarks, of Expedia, Inc. in
+the U.S. and/or other countries. Other product and company names mentioned
+herein may be trademarks of their respective owners.
+
+(EMID: ETM_TG_PT_01)(MD: 20070624185546)(EPID: 100853069)(BIID:
+38177576_192230234)
+
+------=_Part_35354_256041.1182971566415
 Content-Type: text/html; charset=ISO-8859-1
 Content-Transfer-Encoding: quoted-printable
-
-<br clear=3D"all"><br><br><br style=3D"color:rgb(180,167,214)"><br style=3D=
-"color:rgb(180,167,214)"><font><br style=3D"color:rgb(142,124,195)"><span s=
-tyle=3D"color:rgb(142,124,195)">-------------------------------------</span=
->-----------<br style=3D"color:rgb(142,124,195)">
-<span style=3D"color:rgb(142,124,195)">find (and follow) me on twitter at:<=
-/span><br style=3D"color:rgb(142,124,195)"><span style=3D"color:rgb(142,124=
-,195)"><a href=3D"https://twitter.com/guesswhatpeople" target=3D"_blank">ht=
-tps://twitter.com/guesswhatpeople</a></span></font><br>
-<br>
-<br><br><div class=3D"gmail_quote">---------- Forwarded message ----------<=
-br>From: <b class=3D"gmail_sendername">Southwest Airlines</b> <span dir=3D"=
-ltr">&lt;<a href=3D"mailto:SouthwestAirlines@luv.southwest.com">SouthwestAi=
-rlines@luv.southwest.com</a>&gt;</span><br>
-Date: Sat, Nov 17, 2012 at 10:33 PM<br>Subject: Southwest Airlines Confirma=
-tion-HESSELGRAVE/TAYLOR-Confirmation: 4BHN98<br>To: <a href=3D"mailto:TKHES=
-SELGRAVE@gmail.com">TKHESSELGRAVE@gmail.com</a><br><br><br>
- =20
-   =20
- =20
-  <div>
-
-               =20
-                               =20
-               =20
-
-
-
-
-
-
-
-=20
-
-
-
-
-
-
-
-
-
-
-
-=20
-
-
-
-                =20
-
-
-
-
-
-
-
-
-    <p></p>
-    <table cellspacing=3D"0" cellpadding=3D"0">
-      <tbody><tr><td><center>
-      </center></td></tr></tbody><tbody>
-        <tr>
-          <td align=3D"center">
-          <table cellspacing=3D"0" cellpadding=3D"0" width=3D"690">
-            <tbody>
-              <tr>
-                <td colspan=3D"2" align=3D"left">
-                <div style=3D"line-height:14px;font-family:arial,verdana;co=
-lor:#999999;font-size:10px">You&#39;re all set for your trip!</div>
-                </td>
-              </tr>
-              <tr>
-                <td valign=3D"top" align=3D"left">
-                <div style=3D"line-height:14px;font-family:arial,verdana;co=
-lor:#999999;font-size:10px"><a style=3D"color:#999999" href=3D"#13b123883fa=
-978b6_"></a></div>
-                </td>
-
-                <td valign=3D"top" rowspan=3D"2" align=3D"right">
-
-
-=20
-
-                </td>
-              </tr>
-              <tr>
-              =20
-
-                <td align=3D"left">
-                <div><a href=3D"http://www.southwest.com" target=3D"_blank"=
-><img border=3D"0" alt=3D"Southwest Airlines" width=3D"144" height=3D"63" s=
-tyle=3D"display:block"></a></div>
-                  </td>
-               =20
-               =20
-
-<td align=3D"right" valign=3D"bottom">
-
-                <table cellspacing=3D"0" cellpadding=3D"0">
-                  <tbody>
-                    <tr>
-                      <td height=3D"25" valign=3D"bottom">
-                      <div style=3D"line-height:12px;font-family:arial,verd=
-ana;margin-bottom:3px;color:#1f6af6;font-size:10px;font-weight:bold"><a sty=
-le=3D"color:#1f6af6" href=3D"http://luv.southwest.com/servlet/cc6?kOHpjQWDU=
-CQqAV2daG11GeE06zeGxEf6beQ8wfVaVRVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ=
-2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank"><u>My Account</u></a> | <a=
- style=3D"color:#1f6af6" href=3D"http://luv.southwest.com/servlet/cc6?kOHpj=
-QWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV=
-0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank"><u>View My Itinerary O=
-nline</u></a>
-                      </div>
-<br>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                </td>
-
-
-              </tr>
-            </tbody>
-          </table>
-         =20
-
-         =20
-
-
-
-          <table cellspacing=3D"0" cellpadding=3D"0" width=3D"690" bgcolor=
-=3D"#0f146f">
-            <tbody>
-              <tr>
-                <td width=3D"5"><img border=3D"0" alt=3D"" width=3D"5" heig=
-ht=3D"44" style=3D"display:block"></td>
-                <td valign=3D"middle" width=3D"680" align=3D"center">
-                <table cellspacing=3D"0" cellpadding=3D"0">
-                  <tbody>
-                    <tr>
-                      <td align=3D"right">
-                      <div style=3D"line-height:12px;font-family:arial,verd=
-ana;color:#ffffff;font-size:11px;font-weight:bold;margin-right:17px"><a sty=
-le=3D"color:#ffffff;text-decoration:none" href=3D"http://luv.southwest.com/=
-servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTVLuHptV2daG11GeE06zeG=
-xEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">Check=
- In Online</a></div>
-
-                      </td>
-                      <td><img border=3D"0" alt=3D"" width=3D"2" height=3D"=
-34" style=3D"display:block"></td>
-                      <td align=3D"center">
-                      <div style=3D"line-height:12px;font-family:arial,verd=
-ana;color:#ffffff;margin-left:17px;font-size:11px;font-weight:bold;margin-r=
-ight:20px"><a style=3D"color:#ffffff;text-decoration:none" href=3D"http://l=
-uv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVUVLuH=
-ptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=
-=3D"_blank">Check Flight Status</a></div>
-
-                      </td>
-                      <td><img border=3D"0" alt=3D"" width=3D"2" height=3D"=
-34" style=3D"display:block"></td>
-                      <td align=3D"center">
-                      <div style=3D"line-height:12px;font-family:arial,verd=
-ana;color:#ffffff;margin-left:17px;font-size:11px;font-weight:bold;margin-r=
-ight:20px"><a style=3D"color:#ffffff;text-decoration:none" href=3D"http://w=
-ww.southwest.com/travel_center/changeItinerary.html" target=3D"_blank">Chan=
-ge Flight</a></div>
-
-                      </td>
-                      <td><img border=3D"0" alt=3D"" width=3D"2" height=3D"=
-34" style=3D"display:block"></td>
-                      <td align=3D"center">
-                      <div style=3D"line-height:12px;font-family:arial,verd=
-ana;color:#ffffff;margin-left:17px;font-size:11px;font-weight:bold;margin-r=
-ight:20px"><a style=3D"color:#ffffff;text-decoration:none" href=3D"http://t=
-ravel.southwest.com/specialoffers/topOffers.html" target=3D"_blank">Special=
- Offers</a></div>
-
-                      </td>
-                      <td><img border=3D"0" alt=3D"" width=3D"2" height=3D"=
-34" style=3D"display:block"></td>
-                      <td align=3D"center">
-                      <div style=3D"line-height:12px;font-family:arial,verd=
-ana;color:#ffffff;margin-left:17px;font-size:11px;font-weight:bold;margin-r=
-ight:20px"><a style=3D"color:#ffffff;text-decoration:none" href=3D"http://t=
-ravel.southwest.com/specialoffers/hotelOffers.html" target=3D"_blank">Hotel=
- Deals</a></div>
-
-                      </td>
-                      <td><img border=3D"0" alt=3D"" width=3D"2" height=3D"=
-34" style=3D"display:block"></td>
-                      <td align=3D"center">
-                      <div style=3D"line-height:12px;font-family:arial,verd=
-ana;color:#ffffff;margin-left:17px;font-size:11px;font-weight:bold"><a styl=
-e=3D"color:#ffffff;text-decoration:none" href=3D"http://travel.southwest.co=
-m/specialoffers/carOffers.html" target=3D"_blank">Car Deals</a></div>
-
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                </td>
-                <td width=3D"5"><img border=3D"0" alt=3D"" width=3D"5" heig=
-ht=3D"44" style=3D"display:block"></td>
-              </tr>
-            </tbody>
-          </table>
-         =20
-
-         =20
-          =20
-
-          <table cellspacing=3D"0" cellpadding=3D"0">
-            <tbody>
-              <tr>
-                <td height=3D"20"></td>
-              </tr>
-            </tbody>
-          </table>
-         =20
-          <table cellspacing=3D"0" cellpadding=3D"0" width=3D"690">
-            <tbody>
-              <tr>
-                <td width=3D"500" align=3D"left">
-               =20
-
-                =20
-                <table cellspacing=3D"0" cellpadding=3D"0" width=3D"500">
-                  <tbody>                 =20
-<tr>
-                      <td colspan=3D"2" align=3D"left">
-                      <div style=3D"line-height:19px;font-size:17px;margin-=
-left:10px;margin-bottom:5px;font-family:arial,verdana;font-weight:bold">
-
-Ready for takeoff!
-
-                       </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td height=3D"2" valign=3D"top" colspan=3D"2"><img bo=
-rder=3D"0" alt=3D"" width=3D"500" height=3D"2" style=3D"display:block"></td=
->
-                    </tr>
-                    <tr>
-                      <td height=3D"10" colspan=3D"2"></td>
-                    </tr>
-                    <tr>
-                      <td>
-
-<img border=3D"0" alt=3D"" width=3D"68" height=3D"32" style=3D"display:bloc=
-k">
-
-                      </td>
-                      <td align=3D"left">
-                      <div style=3D"line-height:14px;font-family:arial,verd=
-ana;color:#535353;margin-left:5px;font-size:11px">Thanks for choosing South=
-west for your trip! You&#39;ll find everything you need to know about your =
-reservation below. Happy travels!</div>
-
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-
-                <table cellspacing=3D"0" cellpadding=3D"0" width=3D"500">
-                  <tbody>
-                 =20
-<tr>
-                      <td height=3D"8" colspan=3D"2"></td>
-                    </tr>
-                    <tr>
-                      <td colspan=3D"2" align=3D"left">
-                      <div style=3D"line-height:19px;font-size:15px;margin-=
-left:10px;font-family:arial,verdana">
-                                           =20
-                      <span style=3D"color:#535353;font-size:11px"></span>
-                      </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td height=3D"2" colspan=3D"2"><img border=3D"0" alt=
-=3D"" width=3D"500" height=3D"2" style=3D"display:block"></td>
-                    </tr>
-                  </tbody>
-                </table>
-               =20
-
-                <table cellspacing=3D"0" cellpadding=3D"0">
-                  <tbody>
-                    <tr>
-                      <td height=3D"16"></td>
-                    </tr>
-                  </tbody>
-                </table>
-
-               =20
-
-
-
-
-  =20
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-       =20
-
-
-
-       =20
-
-
-
-
-
-
-=20
-
-
-
-
-
-
- =20
-
-
-
-
-
-
- =20
-
-
-<table cellspacing=3D"0" cellpadding=3D"0" width=3D"500">
-    <tbody>
-        <tr>
-            <td width=3D"10">
-            </td>
-            <td width=3D"490" align=3D"left">
-                <table cellspacing=3D"0" cellpadding=3D"0" width=3D"490">
-                    <tbody>
-                        <tr>
-                            <td height=3D"24" width=3D"24" align=3D"left">
-                                <img border=3D"0" alt=3D"" width=3D"24" hei=
-ght=3D"24" style=3D"display:block">
-                            </td>
-                            <td width=3D"7">
-                            </td>
-                            <td bgcolor=3D"#323a9f" width=3D"469">
-                                <div style=3D"line-height:14px;font-family:=
-arial,verdana;color:#ffffff;margin-left:10px;font-size:12px;font-weight:bol=
-d">
-                                    AIR Itinerary</div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table cellspacing=3D"0" cellpadding=3D"0">
-                    <tbody>
-                        <tr>
-                            <td height=3D"3">
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table cellspacing=3D"0" cellpadding=3D"0" width=3D"490">
-                    <tbody>
-                        <tr>
-                            <td height=3D"20" valign=3D"bottom" align=3D"le=
-ft">
-                                <div style=3D"line-height:17px;font-size:15=
-px;font-family:arial,verdana;font-weight:bold">
-                                    AIR Confirmation: <span style=3D"color:=
-#fb5608">
-
-
-4BHN98
-        </span></div>
-                            </td>
-                            <td valign=3D"bottom" align=3D"right">
-                                <div style=3D"line-height:14px;font-family:=
-arial,verdana;color:#666666;font-size:11px">
-                                    Confirmation Date:=20
-
-
-11/18/2012
-       =20
-                                 </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-
-            <table cellspacing=3D"0" cellpadding=3D"0" width=3D"490">
-                <tbody>
-                    <tr>
-                        <td height=3D"16" valign=3D"bottom" align=3D"left">
-                            <div style=3D"line-height:13px;font-size:11px;f=
-ont-family:arial,verdana">            =20
-<b>
-
-
-
-
-
-
- =20
-
-
-</b>
-
-
-
-
-       =20
-                            </div>
-                        </td>
-                        <td valign=3D"bottom" align=3D"right">
-                            <div style=3D"line-height:13px;font-size:11px;f=
-ont-family:arial,verdana">            =20
-<b>
-
-
-
-
-
-
- =20
-
-</b>
-
-
-
-
-       =20
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-                <table cellspacing=3D"0" cellpadding=3D"0">
-                    <tbody>
-                        <tr>
-                            <td height=3D"16">
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table cellspacing=3D"0" cellpadding=3D"0" width=3D"490">
-                    <tbody>
-                        <tr>
-                            <td width=3D"125" align=3D"left">
-                                <div style=3D"line-height:13px;font-size:11=
-px;font-family:arial,verdana">
-                                    <b>Passenger(s)</b></div>
-                            </td>
-                            <td width=3D"101" align=3D"left">
-                                <div style=3D"line-height:13px;font-size:11=
-px;font-family:arial,verdana">
-                                    <b>Rapid Rewards #</b></div>
-                            </td>
-                            <td width=3D"100" align=3D"left">
-                                <div style=3D"line-height:13px;font-size:11=
-px;font-family:arial,verdana">
-                                    <b>Ticket #</b></div>
-                            </td>
-                            <td width=3D"67" align=3D"left">
-                                <div style=3D"line-height:13px;font-size:11=
-px;font-family:arial,verdana">
-                                    <b>Expiration</b></div>
-                            </td>
-                            <td width=3D"97" align=3D"left">
-                                <div style=3D"line-height:13px;font-size:11=
-px;font-family:arial,verdana">
-                                    <b>Est. Points Earned</b></div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td height=3D"8" colspan=3D"5">
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-               =20
-
-
-
-
-
-=20
-
-
-<table cellspacing=3D"0" cellpadding=3D"0" width=3D"490">
-    <tbody>
-        <tr>
-            <td height=3D"17" valign=3D"top" width=3D"125" align=3D"left">
-                <div style=3D"line-height:13px;font-size:11px;font-family:a=
-rial,verdana">
-HESSELGRAVE/TAY<br>LOR</div>
-            </td>
-            <td valign=3D"top" width=3D"101" align=3D"left">
-                <div style=3D"line-height:13px;font-size:11px;font-family:a=
-rial,verdana">
-00020056936616</div>
-            </td>
-            <td valign=3D"top" width=3D"100" align=3D"left">
-                <div style=3D"line-height:13px;font-size:11px;font-family:a=
-rial,verdana">
-                    5262481401622</div>
-            </td>
-            <td valign=3D"top" width=3D"67" align=3D"left">
-                <div style=3D"line-height:13px;font-size:11px;font-family:a=
-rial,verdana">
-Sep 1, 2013</div>
-            </td>
-            <td valign=3D"top" width=3D"97" align=3D"left">
-                <div style=3D"line-height:13px;font-size:11px;font-family:a=
-rial,verdana">
-                    1650</div>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-
-
-
-
-
-=20
-               =20
-               =20
-                <table cellspacing=3D"0" cellpadding=3D"0" width=3D"490">
-                    <tbody>
-                        <tr>
-                            <td height=3D"7">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td align=3D"left">
-                                <div style=3D"line-height:14px;font-family:=
-arial,verdana;color:#666666;font-size:9px">
-                                <br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=20
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-               =20
-                <table cellspacing=3D"0" cellpadding=3D"0" width=3D"490">
-                    <tbody>
-                        <tr>
-                            <td align=3D"left">
-                                <img border=3D"0" alt=3D"" width=3D"480" he=
-ight=3D"2" style=3D"display:block">
-                            </td>
-                            <td height=3D"10">
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table cellspacing=3D"0" cellpadding=3D"0" width=3D"490">
-                    <tbody>
-                        <tr>
-                            <td width=3D"75" align=3D"left">
-                                <div style=3D"line-height:14px;font-family:=
-arial,verdana;color:#666666;font-size:11px;font-weight:bold">
-                                    Date</div>
-                            </td>
-                            <td width=3D"71" align=3D"left">
-                                <div style=3D"line-height:14px;font-family:=
-arial,verdana;color:#666666;font-size:11px;font-weight:bold">
-                                    Flight</div>
-                            </td>
-                            <td width=3D"344" align=3D"left">
-                                <div style=3D"line-height:14px;font-family:=
-arial,verdana;color:#666666;font-size:11px;font-weight:bold">
-                                    Departure/Arrival</div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table cellspacing=3D"0" cellpadding=3D"0">
-                    <tbody>
-                        <tr>
-                            <td height=3D"10">
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-
-               =20
-               <table cellspacing=3D"0" cellpadding=3D"0">
-                  <tbody>
-                      <tr>
-                           <td height=3D"10"> </td>            =20
-                     </tr>
-                </tbody>
-               </table>
-
-
-
-
-
-
-
-=20
-
-
-=20
-
-
-
-
-
-=20
-
-
-=20
-
-
-
-
-
-
-=20
-
-
-
-
-=20
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table cellspacing=3D"0" cellpadding=3D"0" width=3D"490">
-    <tbody>
-
-
-<tr>
-<td colspan=3D"3">
- <div style=3D"line-height:8px;font-size:8px;font-family:arial,verdana">
-               =20
-</div>
-</td>
-</tr>
-
-        <tr>
-            <td valign=3D"top" width=3D"75" align=3D"left">
-                <div style=3D"line-height:14px;font-size:11px;font-family:a=
-rial,verdana">
-Wed Nov 21
-
-
-
-</div>
-
-            </td>
-            <td valign=3D"top" width=3D"71" align=3D"left">
-                <div style=3D"line-height:14px;font-size:11px;font-family:a=
-rial,verdana">
-
-                    4408<br>
-<div style=3D"color:#888">
-                   =20
-                    </div>
-                </div>
-            </td>
-            <td valign=3D"top" width=3D"344" align=3D"left">
-                <div style=3D"line-height:14px;font-size:11px;font-family:a=
-rial,verdana">
-                    <div>
-Depart=A0<b>PORTLAND OR</b>=A0(PDX)=A0at=A0<b>1:25 PM</b>
-                     </div>
-                                       =20
-                    <div>
-Arrive in <b>DENVER CO</b>=A0(DEN)=A0at=A0<b>4:45 PM</b>
-                    </div>
-                    <div>
+Content-Disposition: inline
+
+<div>O myJesus !!!!</div>
+<div>&nbsp;See youtomorrow! Call me and let me know if you want to pick me =
+up at the airport at3am. Otherwise, I will crash there and try to meet up w=
+ith youbeforeyourthing in the morning.</div>
+<div>Rachel<br><br>---------- Forwarded message ----------<br><span class=
+=3D"gmail_quote">From: <b class=3D"gmail_sendername">Expedia Travel Service=
+s</b> &lt;<a href=3D"mailto:usmail@expediamail.com">usmail@expediamail.com<=
+/a>
+&gt;<br>Date: Jun 24, 2007 9:55 PM<br>Subject: Rachel, here is your itinera=
+ry confirmation for your 06/28/2007 Denver trip<br>To: <a href=3D"mailto:ta=
+berrachel@gmail.com">taberrachel@gmail.com</a><br><br>&nbsp;</span></div>
 <div>
-Travel Time=A02 hrs 20 mins
-  </div>
-                    </div>
-                    <div>
-<a href=3D"http://www.southwest.com/html/air/fare-information.html#discount=
-" target=3D"_blank">Wanna Get Away</a>
-                    </div>
-                </div>
-
-            </td>
-
-        </tr>    =20
+<center>
+<center>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"801" border=3D"0">
+<tbody>
 <tr>
-
-<td colspan=3D"3">
-
-
-
-
-
+<td><a onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"htt=
+p://expediamail.com/W5RH02F7751CBD7F4BF0931AB5BEB0" target=3D"_blank"><img =
+height=3D"70" alt=3D"Expedia.com" width=3D"266" border=3D"0"></a></td>
+<td><img height=3D"70" width=3D"30" border=3D"0"></td>
+<td width=3D"100%" bgcolor=3D"#336799"><font style=3D"FONT-SIZE: 11px; COLO=
+R: #ffffff; FONT-FAMILY: arial,verdana,helvetica,sans-serif"><strong>Itiner=
+ary confirmation for your 06/28/2007 trip to Denver</strong> </font></td></=
+tr>
+</tbody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"803" border=3D"0">
+<tbody>
+<tr>
+<td><img height=3D"23" width=3D"102" border=3D"0"></td>
+<td nowrap width=3D"100%"><a onclick=3D"return top.js.OpenExtLink(window,ev=
+ent,this)" href=3D"http://expediamail.com/W5RH02F774638D7F4BF0931AB5BEB0" t=
+arget=3D"_blank"><img height=3D"23" alt=3D"flights" width=3D"54" border=3D"=
+0"></a><a onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"=
+http://expediamail.com/W5RH02F77423BD7F4BF0931AB5BEB0" target=3D"_blank">
+<img height=3D"23" alt=3D"hotels" width=3D"53" border=3D"0"></a><a onclick=
+=3D"return top.js.OpenExtLink(window,event,this)" href=3D"http://expediamai=
+l.com/W5RH02F77433AD7F4BF0931AB5BEB0" target=3D"_blank"><img height=3D"23" =
+alt=3D"cars" width=3D"39" border=3D"0">
+</a><a onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"htt=
+p://expediamail.com/W5RH02F774125D7F4BF0931AB5BEB0" target=3D"_blank"><img =
+height=3D"23" alt=3D"packages" width=3D"74" border=3D"0"></a><a onclick=3D"=
+return top.js.OpenExtLink(window,event,this)" href=3D"http://expediamail.co=
+m/W5RH02F774224D7F4BF0931AB5BEB0" target=3D"_blank">
+<img height=3D"23" alt=3D"cruises" width=3D"57" border=3D"0"></a><a onclick=
+=3D"return top.js.OpenExtLink(window,event,this)" href=3D"http://expediamai=
+l.com/W5RH02F774927D7F4BF0931AB5BEB0" target=3D"_blank"><img height=3D"23" =
+alt=3D"activities" width=3D"67" border=3D"0">
+</a></td></tr></tbody></table>
+<table cellspacing=3D"0" cellpadding=3D"1" width=3D"800" bgcolor=3D"#dee7f0=
+" border=3D"0">
+<tbody>
+<tr>
+<td>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" bgcolor=3D"#f1f5f=
+8" border=3D"0">
+<tbody>
+<tr>
+<td valign=3D"top">
+<table cellspacing=3D"0" cellpadding=3D"1" bgcolor=3D"#dee7f0" border=3D"0"=
+>
+<tbody>
+<tr>
+<td>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" bgcolor=3D"#f1f5f=
+8" border=3D"0">
+<tbody>
+<tr>
+<td valign=3D"top">
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" bgcolor=3D"#fffff=
+f" border=3D"0">
+<tbody>
+<tr>
+<td bgcolor=3D"#f1f5f8" rowspan=3D"5"><img height=3D"1" width=3D"4" border=
+=3D"0"></td>
+<td bgcolor=3D"#f1f5f8" colspan=3D"4"><img height=3D"4" width=3D"1" border=
+=3D"0"></td></tr>
+<tr>
+<td rowspan=3D"4"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td valign=3D"top" bgcolor=3D"#f1f5f8" rowspan=3D"4"><img height=3D"139" wi=
+dth=3D"39" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"5" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td><img height=3D"130" width=3D"11" border=3D"0"></td>
+<td valign=3D"top" width=3D"100%"><font style=3D"FONT-SIZE: 11px; COLOR: #0=
+00000; FONT-FAMILY: arial,verdana,helvetica,sans-serif"><strong>Dear Rachel=
+,</strong> <br><br>Here are your itinerary and confirmation numbers for you=
+r trip to Denver. All the details are confirmed as of 06/24/2007. Please re=
+view and print this e-mail for convenience while traveling.=20
+<br><br>Need to make any last-minute travel plans? Just use the helpful inf=
+o listed at the right. </font></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#f1f5f8" colspan=3D"5"><img height=3D"5" width=3D"1" border=
+=3D"0"></td></tr></tbody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td><img height=3D"25" width=3D"10" border=3D"0"></td>
+<td width=3D"100%"><font style=3D"FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR=
+: #ffffff; FONT-FAMILY: arial,verdana,helvetica,sans-serif">Your trip detai=
+ls - as of 06/24/2007</font></td>
+<td valign=3D"top"><img height=3D"7" width=3D"6" border=3D"0"></td>
+<td><img height=3D"1" width=3D"4" border=3D"0"></td></tr></tbody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tbody>
+<tr>
+<td rowspan=3D"5"><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td bgcolor=3D"#ffffff" rowspan=3D"4"><img height=3D"1" width=3D"1" border=
+=3D"0"></td>
+<td bgcolor=3D"#ffffff" rowspan=3D"4"><img height=3D"1" width=3D"10" border=
+=3D"0"></td>
+<td bgcolor=3D"#ffffff"><img height=3D"6" width=3D"1" border=3D"0"></td>
+<td bgcolor=3D"#ffffff" rowspan=3D"4">&nbsp;</td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
+<tr>
+<td width=3D"100%" bgcolor=3D"#ffffff"><font style=3D"FONT-WEIGHT: bold; FO=
+NT-SIZE: 16px; COLOR: #008000; FONT-FAMILY: arial,verdana,helvetica,sans-se=
+rif">Itinerary</font></td></tr>
+<tr>
+<td align=3D"left" bgcolor=3D"#ffffff">
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"3"><img height=3D"5" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td><img height=3D"18" width=3D"18" border=3D"0"></td>
+<td><img height=3D"1" width=3D"4" border=3D"0"></td>
+<td width=3D"100%"><font style=3D"FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR=
+: #333399; FONT-FAMILY: arial,verdana,helvetica,sans-serif"><a onclick=3D"r=
+eturn top.js.OpenExtLink(window,event,this)" href=3D"http://expediamail.com=
+/W5RH02F77720ED7F4BF0931AB5BEB0" target=3D"_blank">
+View airline rules &amp; regulations</a></font></td></tr>
+<tr>
+<td colspan=3D"3"><img height=3D"5" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"3"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif"><strong><a onclick=3D"return top.js=
+.OpenExtLink(window,event,this)" href=3D"http://expedia.com/" target=3D"_bl=
+ank">
+Expedia.com</a> itinerary number: 120280857195</strong><br>Airline ticket n=
+umber(s): 0167056251268<br>
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tbody>
+<tr>
+<td valign=3D"top"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAM=
+ILY: arial,verdana,helvetica,sans-serif">US Airways confirmation code: EDE7=
+3Z</font></td>
+<td><img height=3D"1" width=3D"7" border=3D"0"></td>
+<td valign=3D"top"><img height=3D"16" alt=3D"Travel Tip" width=3D"14" borde=
+r=3D"0"></td>
+<td width=3D"200"><font style=3D"FONT-SIZE: 11px; COLOR: #cc6600; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif"><strong>Travel tip:</strong> Use th=
+is code when you check in for your flight</font></td></tr></tbody></table>
+<br>
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tbody>
+<tr>
+<td valign=3D"top"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAM=
+ILY: arial,verdana,helvetica,sans-serif">United confirmation code: VZ5NBA</=
+font></td>
+<td><img height=3D"1" width=3D"7" border=3D"0"></td>
+<td valign=3D"top"><img height=3D"16" alt=3D"Travel Tip" width=3D"14" borde=
+r=3D"0"></td>
+<td width=3D"200"><font style=3D"FONT-SIZE: 11px; COLOR: #cc6600; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif"><strong>Travel tip:</strong> Use th=
+is code when you check in for your flight</font></td></tr></tbody></table>
+<br>
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tbody>
+<tr>
+<td valign=3D"top"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAM=
+ILY: arial,verdana,helvetica,sans-serif">Alaska Airlines confirmation code:=
+ MYIKTQ</font></td>
+<td><img height=3D"1" width=3D"7" border=3D"0"></td>
+<td valign=3D"top"><img height=3D"16" alt=3D"Travel Tip" width=3D"14" borde=
+r=3D"0"></td>
+<td width=3D"200"><font style=3D"FONT-SIZE: 11px; COLOR: #cc6600; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif"><strong>Travel tip:</strong> Use th=
+is code when you check in for your flight</font></td></tr></tbody></table>
+<br><strong>Main contact: <font style=3D"FONT-WEIGHT: bold; FONT-SIZE: 11px=
+; COLOR: #008000; FONT-FAMILY: arial,verdana,helvetica,sans-serif">Rachel T=
+aber</font></strong><br>E-mail: <a onclick=3D"return top.js.OpenExtLink(win=
+dow,event,this)" href=3D"mailto:taberrachel@gmail.com" target=3D"_blank">
+taberrachel@gmail.com</a><br>Home Phone: 1-425-2735451<br><br></font></td><=
+/tr></tbody></table></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff"><img height=3D"5" width=3D"1" border=3D"0"></td></t=
+r>
+<tr>
+<td colspan=3D"4"><img height=3D"1" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td rowspan=3D"6"><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td rowspan=3D"6"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td><img height=3D"25" width=3D"10" border=3D"0"></td>
+<td width=3D"100%"><font style=3D"FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR=
+: #ffffff; FONT-FAMILY: arial,verdana,helvetica,sans-serif">Traveler</font>=
 </td>
-
-</tr>
-    </tbody>
-</table>
-
-
-
-
-
-=20
-
-
-
-
-
-
-<table cellspacing=3D"0" cellpadding=3D"0" width=3D"476">
-    <tbody>
-        <tr>
-            <td height=3D"20">
-                <img border=3D"0" alt=3D"" width=3D"480" height=3D"2" style=
-=3D"display:block">
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-<table cellspacing=3D"0" cellpadding=3D"0" width=3D"490">
-    <tbody>
-
-
+<td rowspan=3D"5"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"6"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
 <tr>
-<td colspan=3D"3">
- <div style=3D"line-height:8px;font-size:8px;font-family:arial,verdana">
-               =20
-</div>
-</td>
-</tr>
-
-        <tr>
-            <td valign=3D"top" width=3D"75" align=3D"left">
-                <div style=3D"line-height:14px;font-size:11px;font-family:a=
-rial,verdana">
-Sun Nov 25
-
-
-
-</div>
-
-            </td>
-            <td valign=3D"top" width=3D"71" align=3D"left">
-                <div style=3D"line-height:14px;font-size:11px;font-family:a=
-rial,verdana">
-
-                    231<br>
-<div style=3D"color:#888">
-                   =20
-                    </div>
-                </div>
-            </td>
-            <td valign=3D"top" width=3D"344" align=3D"left">
-                <div style=3D"line-height:14px;font-size:11px;font-family:a=
-rial,verdana">
-                    <div>
-Depart=A0<b>DENVER CO</b>=A0(DEN)=A0at=A0<b>10:25 PM</b>
-                     </div>
-                                       =20
-                    <div>
-Arrive in <b>PORTLAND OR</b>=A0(PDX)=A0at=A0<b>12:20 AM</b>
-                    </div>
-                    <div>
-<div>
-Travel Time=A02 hrs 55 mins
-  </div>
-                    </div>
-                    <div>
-<a href=3D"http://www.southwest.com/html/air/fare-information.html#discount=
-" target=3D"_blank">Wanna Get Away</a>
-                    </div>
-                </div>
-
-            </td>
-
-        </tr>    =20
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr>
 <tr>
-
-<td colspan=3D"3">
-
-
-
-
-
-</td>
-
-</tr>
-    </tbody>
-</table>
-
-
-
-
-
-=20
-                                   =20
-           =20
-                <table cellspacing=3D"0" cellpadding=3D"0" width=3D"490">
-                    <tbody>
-                        <tr>
-                            <td height=3D"10">
-                            </td>
-                            <td align=3D"left">
-                                <img border=3D"0" alt=3D"" width=3D"480" he=
-ight=3D"2" style=3D"display:block">
-                            </td>
-                            <td height=3D"10">
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-               =20
-                <table cellspacing=3D"0" cellpadding=3D"0" width=3D"490">
-                    <tbody>
-                        <tr>
-                            <td align=3D"right">
-                                <div style=3D"line-height:14px;font-family:=
-arial,verdana;color:#666666;font-size:11px;margin-right:18px">
-                                    <b>Air Cost:</b>=20
-
-
-
-       =20
-
-
-       =20
-
-
-       =20
-
-
-       =20
-
-
-       =20
-
-
-       =20
-
-296.60
-       =20
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-               =20
-               =20
-                <table cellspacing=3D"0" cellpadding=3D"0" width=3D"490">
-                    <tbody>
-                        <tr>
-                            <td height=3D"16">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td align=3D"left">
-                                <table cellspacing=3D"0" cellpadding=3D"0">
-                                    <tbody>
-                                        <tr>
-                                            <td height=3D"4">
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-<div style=3D"line-height:14px;font-family:arial,verdana;color:#535353;font=
--size:11px;margin-right:18px">
-                                 Carry-on Items: 1 Bag + small personal ite=
-m are free <a style=3D"color:#1f6af6;text-decoration:none" href=3D"http://w=
-ww.southwest.com/html/customer-service/baggage/carryon-bags-pol.html" targe=
-t=3D"_blank">see full details</a>. Checked Items: First and second bags are=
- free, <a style=3D"color:#1f6af6;text-decoration:none" href=3D"http://www.s=
-outhwest.com/html/customer-service/baggage/checked-bags-pol.html" target=3D=
-"_blank">size and weight limits apply</a>.
-                                </div>
-                                <div style=3D"line-height:14px;font-family:=
-arial,verdana;color:#535353;font-size:11px;margin-right:18px;margin-top:10p=
-x">
-                                    Fare Rule(s):=20
-
-                                   =20
-
-
-
-
-
-
-
-=20
-
-=20
-
-
-
-=20
-
-=20
-
-
-
-
-       =20
-
-=20
-
-                                   =20
-
-                                  Valid only on Southwest Airlines. All tra=
-vel involving funds from this Confirmation Number must be completed by the =
-expiration date. Unused travel funds may only be applied toward the purchas=
-e of future travel for the individual named on the ticket. Any changes to t=
-his itinerary may result in a fare increase.
-
-                                    =20
-                                 <br><br>
-=20
-                                   =20
-
-                                 </div>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td height=3D"15">
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-               =20
-
-
-
-
-
-
-               =20
-<table cellspacing=3D"0" cellpadding=3D"0" width=3D"490">
-                    <tbody>
-                        <tr>
-                            <td height=3D"11">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td height=3D"25" align=3D"left">
-                                <div style=3D"line-height:18px;font-size:15=
-px;font-family:arial,verdana;font-weight:bold">
-                                    Important Check-In Reminder</div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td height=3D"2">
-                                <img border=3D"0" alt=3D"" width=3D"480" he=
-ight=3D"2" style=3D"display:block">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td align=3D"left">
-                                <table cellspacing=3D"0" cellpadding=3D"0">
-                                    <tbody>
-                                        <tr>
-                                            <td height=3D"4">
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <div style=3D"line-height:14px;font-family:=
-arial,verdana;color:#535353;font-size:11px;margin-right:18px">
-
-
-=20
-
-                                    Be sure to arrive at the departure gate=
- with your boarding pass at least 10 minutes
-                                    before your scheduled departure time. O=
-therwise, your reserved space may be cancelled
-                                    and you won&#39;t be eligible for denie=
-d booking compensation.</div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td height=3D"15">
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-               =20
-
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-
-<table cellspacing=3D"0" cellpadding=3D"0">
-    <tbody>
-        <tr>
-            <td height=3D"25">
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  =20
-<table cellspacing=3D"0" cellpadding=3D"0" width=3D"490">
-        <tbody>
-            <tr>
-                <td width=3D"199" align=3D"left">
-                    <table cellspacing=3D"0" cellpadding=3D"0">
-                        <tbody>
-                            <tr>
-                                <td valign=3D"bottom" align=3D"left">
-                                    <a href=3D"http://www.southwest.com/htm=
-l/customer-service/airport-experience/boarding-school/" target=3D"_blank">
-                                        <img border=3D"0" alt=3D"Go to Boar=
-ding School" width=3D"34" height=3D"43" style=3D"display:block"></a>
-                                </td>
-                                <td valign=3D"bottom" align=3D"left">
-                                    <div style=3D"line-height:14px;font-fam=
-ily:arial,verdana;color:#1f6af6;margin-left:8px;font-size:11px">
-                                        <a style=3D"color:#1f6af6;text-deco=
-ration:none" href=3D"http://www.southwest.com/html/customer-service/airport=
--experience/boarding-school/" target=3D"_blank">
-                                            Go to Boarding School<img borde=
-r=3D"0" alt=3D"" width=3D"13" height=3D"7" style=3D"display:inline"></a></d=
-iv>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-                <td width=3D"291" align=3D"left">
-                    <table cellspacing=3D"0" cellpadding=3D"0">
-                        <tbody>
-                            <tr>
-                                <td valign=3D"bottom" align=3D"left">
-                                    <a href=3D"http://luv.southwest.com/ser=
-vlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVWVLuHptV2daG11GeE06zeGxEf=
-6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">
-                                        <img border=3D"0" alt=3D"EarlyBird =
-Check-in - A More Convenient Way To Travel" width=3D"96" height=3D"41" styl=
-e=3D"display:block"></a>
-                                </td>
-                                <td valign=3D"bottom" align=3D"left">
-                                    <div style=3D"line-height:14px;font-fam=
-ily:arial,verdana;color:#1f6af6;margin-left:8px;font-size:11px">
-                                        <a style=3D"color:#1f6af6;text-deco=
-ration:none" href=3D"http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2da=
-G11GeE06zeGxEf6beQ8wfVaVWVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTY=
-BQoDhDupAgQDCCRYUVXLX" target=3D"_blank">
-                                            Get EarlyBird<br>
-                                            Check	-In<span style=3D"font-si=
-ze:8px"><sup>TM</sup></span> Details<img border=3D"0" alt=3D"" width=3D"13"=
- height=3D"7" style=3D"display:inline"></a></div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-
-
-               =20
-               =20
-               =20
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                               =20
-               =20
-               =20
-               =20
-  =20
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                         =20
-                               =20
-               =20
-               =20
-
-
-
-<table cellspacing=3D"0" cellpadding=3D"0" width=3D"500">
-    <tbody>
-        <tr>
-            <td width=3D"10">
-            </td>
-            <td align=3D"left">
-                <table cellspacing=3D"0" cellpadding=3D"0" width=3D"490">
-                    <tbody>
-                        <tr>
-                            <td height=3D"21">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td height=3D"25" align=3D"left">
-                                <div style=3D"line-height:18px;font-size:15=
-px;font-family:arial,verdana;font-weight:bold">
-                                    Cost and Payment Summary</div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td height=3D"2">
-                                <img border=3D"0" alt=3D"" width=3D"480" he=
-ight=3D"2" style=3D"display:block">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td height=3D"7">
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-               =20
-
-
-
-
-
-
-
-
-=20
-
-
-<table cellspacing=3D"0" cellpadding=3D"0" width=3D"490">
-    <tbody>
-        <tr>
-            <td width=3D"13">
-                <img border=3D"0" alt=3D"" width=3D"13" height=3D"13" style=
-=3D"display:block">
-            </td>
-            <td align=3D"left">
-                <div style=3D"line-height:14px;font-family:arial,verdana;co=
-lor:#969595;margin-left:6px;font-size:11px">
-                    <b>AIR</b> - <span style=3D"color:#fb5608;font-weight:b=
-old">
-
-
-4BHN98
-       =20
-                    </span></div>
-            </td>
-        </tr>
-        <tr>
-            <td height=3D"2" colspan=3D"2">
-            </td>
-        </tr>
-    </tbody>
-</table>
-<table cellspacing=3D"0" cellpadding=3D"0" width=3D"490">
-    <tbody>
-        <tr>
-            <td valign=3D"top" width=3D"220" align=3D"left">
-                <table cellspacing=3D"0" cellpadding=3D"0" width=3D"220">
-                    <tbody>
-
-
-
-
-
-
-
+<td bgcolor=3D"#ffffff" rowspan=3D"3">&nbsp;</td>
+<td bgcolor=3D"#ffffff"><img height=3D"6" width=3D"1" border=3D"0"></td></t=
+r>
 <tr>
-        <td valign=3D"top" width=3D"80%" align=3D"left">
-            <div style=3D"line-height:14px;font-family:arial,verdana;color:=
-#666666;font-size:11px;text-align:left">
-                Base Fare
-            </div>
-        </td>
-       <td width=3D"1%" style=3D"line-height:14px;font-family:arial,verdana=
-;color:#666666;font-size:11px;text-align:right">$</td>
-        <td width=3D"19%" align=3D"right" style=3D"line-height:14px;font-fa=
-mily:arial,verdana;color:#666666;font-size:11px;text-align:right">
-                      255.83
-        </td>
-    </tr>
-
-
-
-
-
+<td bgcolor=3D"#ffffff"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FON=
+T-FAMILY: arial,verdana,helvetica,sans-serif"><strong>Rachel Taber</strong>=
+<br>Adult<br><br></font></td></tr>
 <tr>
-        <td valign=3D"top" width=3D"80%" align=3D"left">
-            <div style=3D"line-height:14px;font-family:arial,verdana;color:=
-#666666;font-size:11px;text-align:left">
-                Excise Taxes
-            </div>
-        </td>
-       <td width=3D"1%" style=3D"line-height:14px;font-family:arial,verdana=
-;color:#666666;font-size:11px;text-align:right">$</td>
-        <td width=3D"19%" align=3D"right" style=3D"line-height:14px;font-fa=
-mily:arial,verdana;color:#666666;font-size:11px;text-align:right">
-                      19.17
-        </td>
-    </tr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                       =20
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<td bgcolor=3D"#ffffff"><img height=3D"8" width=3D"1" border=3D"0"></td></t=
+r>
 <tr>
-        <td valign=3D"top" width=3D"80%" align=3D"left">
-            <div style=3D"line-height:14px;font-family:arial,verdana;color:=
-#666666;font-size:11px;text-align:left">
-                Segment Fee
-            </div>
-        </td>
-       <td width=3D"1%" style=3D"line-height:14px;font-family:arial,verdana=
-;color:#666666;font-size:11px;text-align:right">$</td>
-        <td width=3D"19%" align=3D"right" style=3D"line-height:14px;font-fa=
-mily:arial,verdana;color:#666666;font-size:11px;text-align:right">
-                      7.60
-        </td>
-    </tr>
-
-
-
-
-
+<td colspan=3D"3"><img height=3D"1" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
 <tr>
-        <td valign=3D"top" width=3D"80%" align=3D"left">
-            <div style=3D"line-height:14px;font-family:arial,verdana;color:=
-#666666;font-size:11px;text-align:left">
-                Passenger Facility Charge
-            </div>
-        </td>
-       <td width=3D"1%" style=3D"line-height:14px;font-family:arial,verdana=
-;color:#666666;font-size:11px;text-align:right">$</td>
-        <td width=3D"19%" align=3D"right" style=3D"line-height:14px;font-fa=
-mily:arial,verdana;color:#666666;font-size:11px;text-align:right">
-                      9.00
-        </td>
-    </tr>
-
-
-
-
-
+<td rowspan=3D"4"><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td rowspan=3D"4"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td><img height=3D"25" width=3D"10" border=3D"0"></td>
+<td width=3D"100%"><font style=3D"FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR=
+: #ffffff; FONT-FAMILY: arial,verdana,helvetica,sans-serif">Flight Summary<=
+/font></td>
+<td rowspan=3D"4"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"4"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
 <tr>
-        <td valign=3D"top" width=3D"80%" align=3D"left">
-            <div style=3D"line-height:14px;font-family:arial,verdana;color:=
-#666666;font-size:11px;text-align:left">
-                September 11th Security Fee
-            </div>
-        </td>
-       <td width=3D"1%" style=3D"line-height:14px;font-family:arial,verdana=
-;color:#666666;font-size:11px;text-align:right">$</td>
-        <td width=3D"19%" align=3D"right" style=3D"line-height:14px;font-fa=
-mily:arial,verdana;color:#666666;font-size:11px;text-align:right">
-                      5.00
-        </td>
-    </tr>
-
-
-
-
-
-
-
-            =20
-
-                        <tr>
-                             <td valign=3D"top" width=3D"80%" align=3D"left=
-" style=3D"border-top:1px solid #333">
-                                  <div style=3D"line-height:14px;font-famil=
-y:arial,verdana;color:#666666;font-size:11px"><b>Total Air Cost</b></div>
-                              </td>
-                             <td width=3D"1%" style=3D"line-height:14px;fon=
-t-family:arial,verdana;color:#666666;font-size:11px;text-align:right;border=
--top:1px solid #333"><b>$</b></td>
-
-                            <td width=3D"19%" valign=3D"top" style=3D"borde=
-r-top:1px solid #333;line-height:14px;font-family:arial,verdana;color:#6666=
-66;font-size:11px;text-align:right">
-                                <b>
-
-
-       =20
-
-
-       =20
-
-
-       =20
-
-
-       =20
-
-
-       =20
-
-
-       =20
-
-296.60
-        </b>
-                            </td>                           =20
-                        </tr>                       =20
-
-
-
-
-
-=20
-
-
-
-
-
-                    </tbody>
-                </table>
-            </td>
-            <td width=3D"15">=A0</td>
-            <td valign=3D"top" width=3D"270" align=3D"left">
-                <div style=3D"line-height:14px;font-family:arial,verdana;co=
-lor:#666666;font-size:11px">
-                    <div style=3D"color:#333;font-weight:bold">
-                        Payment Information</div>
-
-
-
-
-Payment Type: Ticket Exchange <br>
-   Date: Nov 18, 2012 <br>
-   Payment Amount:=A0$296.60 <br>
-<br>
-
-
-
-
-
-Tkls funds remaining in conf#4BHN98=A0for future travel=A0$65.00 <br>
-<br>
-
-                                           =20
-                    <div style=3D"color:#000000;font-weight:bold">
-<br>
-
-
-
-
-
-
-
- =20
-Exchange Detail
-                   </div>
-
-
-
-
-
-Sep 1, 2012 From ticket # 5262465335739 to ticket # 5262481401622<br>
-
-                </div>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-
-<br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               =20
-
-<table cellspacing=3D"0" cellpadding=3D"0" width=3D"490">
-                    <tbody>
-                        <tr>
-                            <td height=3D"18">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td height=3D"2" align=3D"left">
-                                <img border=3D"0" alt=3D"" width=3D"480" he=
-ight=3D"2" style=3D"display:block">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td height=3D"12">
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-
-               =20
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               =20
-               =20
-               =20
-
-
-
-               =20
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               =20
-               =20
-            </td>
-        </tr>
-    </tbody>
-</table>
-               =20
-
-               =20
-               =20
-              =20
-
-                <table cellspacing=3D"0" cellpadding=3D"0" width=3D"500">
-                  <tbody>
-                    <tr>
-                      <td valign=3D"top" width=3D"244" align=3D"left">
-
-                     =20
-                      <table cellspacing=3D"0" cellpadding=3D"0" width=3D"2=
-44">
-                        <tbody>
-                          <tr>
-                            <td height=3D"5" colspan=3D"3"><img border=3D"0=
-" alt=3D"" width=3D"244" height=3D"5" style=3D"display:block"></td>
-                          </tr>
-                          <tr>
-                            <td bgcolor=3D"#dddddd" height=3D"153" width=3D=
-"2"></td>
-                            <td bgcolor=3D"#fafafa" valign=3D"top" width=3D=
-"240" align=3D"left">
-                            <table cellspacing=3D"0" cellpadding=3D"0" widt=
-h=3D"240">
-                              <tbody>
-                                <tr>
-                                  <td height=3D"70" valign=3D"bottom" align=
-=3D"left">
-                                  <div style=3D"margin-left:10px">
-                                  <table cellspacing=3D"0" cellpadding=3D"0=
-" width=3D"219">
-                                    <tbody>
-                                      <tr>
-                                        <td width=3D"219" colspan=3D"2" ali=
-gn=3D"left"><img border=3D"0" alt=3D"" width=3D"48" height=3D"26" style=3D"=
-display:block"></td>
-                                      </tr>
-                                      <tr>
-                                        <td rowspan=3D"3" width=3D"29" alig=
-n=3D"left"><img border=3D"0" alt=3D"" width=3D"29" height=3D"39" style=3D"d=
-isplay:block"></td>
-                                        <td height=3D"19" width=3D"190" ali=
-gn=3D"left">
-                                        <div style=3D"line-height:16px;font=
--family:arial,verdana;margin-bottom:2px;color:#1f6af6;margin-left:8px;font-=
-size:15px;font-weight:bold"><a href=3D"http://luv.southwest.com/servlet/cc6=
-?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSUVLuHptV2daG11GeE06zeGxEf6beQ8wf=
-V2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">Flight Status A=
-lerts</a></div>
-
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td bgcolor=3D"#8db2f8" height=3D"2=
-"></td>
-                                      </tr>
-                                      <tr>
-                                        <td height=3D"8"></td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                  </div>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td height=3D"55" valign=3D"middle" align=
-=3D"left">
-                                  <div style=3D"line-height:15px;font-famil=
-y:arial,verdana;color:#666666;margin-left:10px;font-size:12px;margin-right:=
-10px">Stay on your way with flight departure or arrival status via text mes=
-sage or email.</div>
-
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td height=3D"28" valign=3D"top" align=3D=
-"right">
-                                  <div style=3D"line-height:14px;font-famil=
-y:arial,verdana;color:#1f6af6;font-size:12px;margin-right:10px"><a style=3D=
-"color:#1f6af6;text-decoration:none" href=3D"http://luv.southwest.com/servl=
-et/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSUVLuHptV2daG11GeE06zeGxEf6=
-beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank"><b>Subscr=
-ibe Now</b><img border=3D"0" alt=3D"" width=3D"13" height=3D"7" style=3D"di=
-splay:inline"></a></div>
-
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                            </td>
-                            <td bgcolor=3D"#dddddd" height=3D"153" width=3D=
-"2"></td>
-                          </tr>
-                          <tr>
-                            <td height=3D"5" colspan=3D"3"><img border=3D"0=
-" alt=3D"" width=3D"244" height=3D"5" style=3D"display:block"></td>
-                          </tr>
-                        </tbody>
-                      </table>
-                     =20
-
-                      </td>
-                      <td width=3D"12"></td>
-                      <td valign=3D"top" width=3D"244" align=3D"left">
-                      <table cellspacing=3D"0" cellpadding=3D"0" width=3D"2=
-44">
-                        <tbody>
-                          <tr>
-                            <td height=3D"5" colspan=3D"3"><img border=3D"0=
-" alt=3D"" width=3D"244" height=3D"5" style=3D"display:block"></td>
-                          </tr>
-                          <tr>
-                            <td bgcolor=3D"#dddddd" height=3D"153" width=3D=
-"2"></td>
-                            <td bgcolor=3D"#fafafa" valign=3D"top" width=3D=
-"240" align=3D"left">
-                            <table cellspacing=3D"0" cellpadding=3D"0" widt=
-h=3D"240">
-                              <tbody>
-                                <tr>
-                                  <td height=3D"59" valign=3D"bottom" align=
-=3D"left">
-                                  <div style=3D"margin-left:19px"><a href=
-=3D"http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6be=
-Q8wfVaVSWVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRY=
-UVXLX" target=3D"_blank"><img border=3D"0" alt=3D"Download DING!" width=3D"=
-202" height=3D"45" style=3D"display:block"></a></div>
-
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td height=3D"66" valign=3D"top" align=3D=
-"left">
-                                  <table cellspacing=3D"0" cellpadding=3D"0=
-">
-                                    <tbody>
-                                      <tr>
-                                        <td height=3D"7"></td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                  <div style=3D"line-height:15px;font-famil=
-y:arial,verdana;color:#666666;margin-left:10px;font-size:12px;margin-right:=
-10px">Get exclusive travel deals straight to your desktop or iPhone.</div>
-
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td height=3D"28" valign=3D"top" align=3D=
-"right">
-                                  <div style=3D"line-height:14px;font-famil=
-y:arial,verdana;color:#1f6af6;font-size:12px;margin-right:10px"><a style=3D=
-"color:#1f6af6;text-decoration:none" href=3D"http://luv.southwest.com/servl=
-et/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSWVLuHptV2daG11GeE06zeGxEf6=
-beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank"><b>Downlo=
-ad DING!</b><img border=3D"0" alt=3D"" width=3D"13" height=3D"7" style=3D"d=
-isplay:inline"></a></div>
-
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                            </td>
-                            <td bgcolor=3D"#dddddd" height=3D"153" width=3D=
-"2"></td>
-                          </tr>
-                          <tr>
-                            <td height=3D"5" colspan=3D"3"><img border=3D"0=
-" alt=3D"" width=3D"244" height=3D"5" style=3D"display:block"></td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-               =20
-
-                <table cellspacing=3D"0" cellpadding=3D"0">
-                  <tbody>
-                    <tr>
-                      <td height=3D"14"></td>
-                    </tr>
-                  </tbody>
-                </table>
-
-               =20
-                <table cellspacing=3D"0" cellpadding=3D"0" width=3D"500" bg=
-color=3D"#fafafa">
-                  <tbody>
-                    <tr>
-                      <td height=3D"5" colspan=3D"3"><img border=3D"0" alt=
-=3D"" width=3D"500" height=3D"5" style=3D"display:block"></td>
-                    </tr>
-                    <tr>
-                      <td bgcolor=3D"#dddddd" width=3D"2"></td>
-                      <td height=3D"205" valign=3D"top" width=3D"496" align=
-=3D"left">
-                      <table cellspacing=3D"0" cellpadding=3D"0">
-                        <tbody>
-                          <tr>
-                            <td height=3D"8"></td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      <table cellspacing=3D"0" cellpadding=3D"0" width=3D"4=
-96">
-                        <tbody>
-                          <tr>
-                            <td valign=3D"top" width=3D"160" align=3D"left"=
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff" colspan=3D"2"><img height=3D"9" width=3D"1" border=
+=3D"0"></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td rowspan=3D"5"><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td bgcolor=3D"#fffaee"><img height=3D"25" width=3D"10" border=3D"0"></td>
+<td width=3D"100%" bgcolor=3D"#fffaee"><font style=3D"FONT-WEIGHT: bold; FO=
+NT-SIZE: 13px; COLOR: #006600; FONT-FAMILY: arial,verdana,helvetica,sans-se=
+rif">Thu 28-Jun-07</font></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff" colspan=3D"2"><img height=3D"7" width=3D"1" border=
+=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff">&nbsp;</td>
+<td bgcolor=3D"#ffffff"><font style=3D"FONT-SIZE: 10px; COLOR: #000000; FON=
+T-FAMILY: arial,verdana,helvetica,sans-serif">
+<table width=3D"100%">
+<tbody>
+<tr>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Seattle (SEA)</strong></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">to <strong>Las Vegas (McCarran Intl.)</strong></f=
+ont></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">868 mi</font></td>
+<td></td></tr></tbody></table></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">US Airways</font></td></tr>
+<tr>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #008000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Depart 7:50 PM</strong></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #008000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Arrive 10:17 PM</strong></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">(1,397 km)</font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">Flight: 193</font></td></tr>
+<tr>
+<td colspan=3D"2">&nbsp;</td>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Duration: 2h 27m</font></td></tr>
+<tr>
+<td colspan=3D"4"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif"><strong>Economy/Coach Class</strong=
+>&nbsp;20F</font></td></tr>
+<tr>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Boeing 737-300</font></td>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Total distance:&nbsp;868&nbsp;mi&nb=
+sp;(1,397&nbsp;km)</font></td></tr></tbody></table></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td rowspan=3D"5"><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td bgcolor=3D"#fffaee"><img height=3D"25" width=3D"10" border=3D"0"></td>
+<td width=3D"100%" bgcolor=3D"#fffaee"><font style=3D"FONT-WEIGHT: bold; FO=
+NT-SIZE: 13px; COLOR: #006600; FONT-FAMILY: arial,verdana,helvetica,sans-se=
+rif">Thu 28-Jun-07</font></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff" colspan=3D"2"><img height=3D"7" width=3D"1" border=
+=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff">&nbsp;</td>
+<td bgcolor=3D"#ffffff"><font style=3D"FONT-SIZE: 10px; COLOR: #000000; FON=
+T-FAMILY: arial,verdana,helvetica,sans-serif">
+<table width=3D"100%">
+<tbody>
+<tr>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Las Vegas (McCarran Intl.)</strong></font=
+></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">to <strong>Denver (Denver Intl.)</strong></font><=
+/td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">615 mi</font></td>
+<td></td></tr></tbody></table></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">US Airways</font></td></tr>
+<tr>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #008000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Depart 11:59 PM</strong></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #008000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Arrive 2:55 AM</strong></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">(990 km)</font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">Flight: 607</font></td></tr>
+<tr>
+<td colspan=3D"2">&nbsp;</td>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Duration: 1h 56m</font></td></tr>
+<tr>
+<td colspan=3D"4"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif"><strong>Economy/Coach Class</strong=
+>&nbsp;10A</font></td></tr>
+<tr>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Boeing 737-300</font></td>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Total distance:&nbsp;615&nbsp;mi&nb=
+sp;(990&nbsp;km)</font></td></tr></tbody></table></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td rowspan=3D"5"><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td bgcolor=3D"#fffaee"><img height=3D"25" width=3D"10" border=3D"0"></td>
+<td width=3D"100%" bgcolor=3D"#fffaee"><font style=3D"FONT-WEIGHT: bold; FO=
+NT-SIZE: 13px; COLOR: #006600; FONT-FAMILY: arial,verdana,helvetica,sans-se=
+rif">Wed 11-Jul-07</font></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff" colspan=3D"2"><img height=3D"7" width=3D"1" border=
+=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff">&nbsp;</td>
+<td bgcolor=3D"#ffffff"><font style=3D"FONT-SIZE: 10px; COLOR: #000000; FON=
+T-FAMILY: arial,verdana,helvetica,sans-serif">
+<table width=3D"100%">
+<tbody>
+<tr>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Denver (Denver Intl.)</strong></font></td=
 >
-                            <div style=3D"margin-left:17px">
-                            <div style=3D"line-height:15px;font-family:aria=
-l,verdana;margin-bottom:5px;color:#1f6af6;font-size:13px"><b>Useful Tools</=
-b></div>
-                            <div style=3D"margin-bottom:6px">
-                            <table cellspacing=3D"0" cellpadding=3D"0">
-                              <tbody>
-                                <tr>
-                                  <td bgcolor=3D"#e2e2e2" height=3D"1" widt=
-h=3D"136"></td>
-                                </tr>
-                              </tbody>
-                            </table>
-                            </div>
-                            <div style=3D"line-height:12px;font-family:aria=
-l,verdana;color:#666666;font-size:10px">
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://luv.southwest.com/ser=
-vlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTVLuHptV2daG11GeE06zeGxEf=
-6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">Check-In=
- Online</a></div>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">to <strong>Las Vegas (McCarran Intl.)</strong></f=
+ont></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">615 mi</font></td>
+<td></td></tr></tbody></table></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">Ted</font></td></tr>
+<tr>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #008000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Depart 8:45 PM</strong></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #008000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Arrive 9:38 PM</strong></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">(990 km)</font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">Flight: 1583</font></td></tr>
+<tr>
+<td colspan=3D"2">&nbsp;</td>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Duration: 1h 53m</font></td></tr>
+<tr>
+<td colspan=3D"4"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif"><strong>Economy/Coach Class</strong=
+>&nbsp;21A</font></td></tr>
+<tr>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Airbus A319-321</font></td>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Total distance:&nbsp;615&nbsp;mi&nb=
+sp;(990&nbsp;km)</font></td></tr></tbody></table></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td rowspan=3D"5"><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td bgcolor=3D"#fffaee"><img height=3D"25" width=3D"10" border=3D"0"></td>
+<td width=3D"100%" bgcolor=3D"#fffaee"><font style=3D"FONT-WEIGHT: bold; FO=
+NT-SIZE: 13px; COLOR: #006600; FONT-FAMILY: arial,verdana,helvetica,sans-se=
+rif">Wed 11-Jul-07</font></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"5"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff" colspan=3D"2"><img height=3D"7" width=3D"1" border=
+=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff">&nbsp;</td>
+<td bgcolor=3D"#ffffff"><font style=3D"FONT-SIZE: 10px; COLOR: #000000; FON=
+T-FAMILY: arial,verdana,helvetica,sans-serif">
+<table width=3D"100%">
+<tbody>
+<tr>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Las Vegas (McCarran Intl.)</strong></font=
+></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">to <strong>Seattle (SEA)</strong></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">868 mi</font></td>
+<td></td></tr></tbody></table></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">Alaska Airlines</font></td></tr>
+<tr>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #008000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Depart 10:35 PM</strong></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #008000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif"><strong>Arrive 12:55 AM</strong></font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">(1,397 km)</font></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">Flight: 693</font></td></tr>
+<tr>
+<td colspan=3D"2">&nbsp;</td>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Duration: 2h 20m</font></td></tr>
+<tr>
+<td colspan=3D"4"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif"><strong>Economy/Coach Class</strong=
+>&nbsp;17A</font></td></tr>
+<tr>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Boeing 737-800</font></td>
+<td colspan=3D"2"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMI=
+LY: arial,verdana,helvetica,sans-serif">Total distance:&nbsp;868&nbsp;mi&nb=
+sp;(1,397&nbsp;km)</font></td></tr></tbody></table></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td rowspan=3D"4"><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td rowspan=3D"4"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td bgcolor=3D"#d8dce8"><img height=3D"25" width=3D"10" border=3D"0"></td>
+<td width=3D"100%" bgcolor=3D"#d8dce8"><font style=3D"FONT-WEIGHT: bold; FO=
+NT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: arial,verdana,helvetica,sans-se=
+rif">More...</font></td>
+<td rowspan=3D"4"><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"4"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td bgcolor=3D"#ffffff">&nbsp;</td>
+<td bgcolor=3D"#ffffff">
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"400" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"3"><img height=3D"20" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td><img height=3D"18" width=3D"18" border=3D"0"></td>
+<td><img height=3D"1" width=3D"4" border=3D"0"></td>
+<td width=3D"100%"><a onclick=3D"return top.js.OpenExtLink(window,event,thi=
+s)" href=3D"http://expediamail.com/W5RH02F774174D7F4BF0931AB5BEB0" target=
+=3D"_blank"><font style=3D"FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #3333=
+99; FONT-FAMILY: arial,verdana,helvetica,sans-serif">
+View airline rules &amp; regulations</font></a></td></tr>
+<tr>
+<td><img height=3D"18" width=3D"18" border=3D"0"></td>
+<td><img height=3D"30" width=3D"4" border=3D"0"></td>
+<td><a onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"htt=
+p://expediamail.com/W5RH02F774877D7F4BF0931AB5BEB0" target=3D"_blank"><font=
+ style=3D"FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #333399; FONT-FAMILY: =
+arial,verdana,helvetica,sans-serif">
+Change or cancel your itinerary</font></a></td></tr>
+<tr>
+<td><img height=3D"18" width=3D"18" border=3D"0"></td>
+<td><img height=3D"1" width=3D"4" border=3D"0"></td>
+<td><a onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"htt=
+p://expediamail.com/W5RH02F774976D7F4BF0931AB5BEB0" target=3D"_blank"><font=
+ style=3D"FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #333399; FONT-FAMILY: =
+arial,verdana,helvetica,sans-serif">
+View check-in requirements for this flight</font></a></td></tr>
+<tr>
+<td colspan=3D"3"><img height=3D"20" width=3D"1" border=3D"0"></td></tr></t=
+body></table></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"1" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"6"><img height=3D"6" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table>
+<table>
+<tbody>
+<tr>
+<td valign=3D"top">
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"260" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"4"><img height=3D"4" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td width=3D"100%">&nbsp;<font style=3D"FONT-SIZE: 13px; COLOR: #000000; FO=
+NT-FAMILY: arial,verdana,helvetica,sans-serif"><strong>Enjoy your trip.</st=
+rong>=99</font></td>
+<td><img height=3D"23" width=3D"5" border=3D"0"></td>
+<td><img height=3D"1" width=3D"4" border=3D"0"></td></tr></tbody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"260" border=3D"0">
+<tbody>
+<tr>
+<td><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td width=3D"100%" bgcolor=3D"#ffffff">
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"2"><img height=3D"5" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td valign=3D"top" colspan=3D"2">&nbsp;&nbsp;<font style=3D"FONT-WEIGHT: bo=
+ld; FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: arial,verdana,helvetica,s=
+ans-serif">...with your Personal Trip Guide</font></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"5" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td><img height=3D"68" width=3D"72" border=3D"0"></td>
+<td width=3D"100%"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAM=
+ILY: arial,verdana,helvetica,sans-serif">=95&nbsp; <a onclick=3D"return top=
+.js.OpenExtLink(window,event,this)" href=3D"http://expediamail.com/W5RH02F7=
+74091D7F4BF0931AB5BEB0" target=3D"_blank">
+Maps</a><br>=95&nbsp; <a onclick=3D"return top.js.OpenExtLink(window,event,=
+this)" href=3D"http://expediamail.com/W5RH02F774190D7F4BF0931AB5BEB0" targe=
+t=3D"_blank">Weather</a><br>=95&nbsp; <a onclick=3D"return top.js.OpenExtLi=
+nk(window,event,this)" href=3D"http://expediamail.com/W5RH02F774893D7F4BF09=
+31AB5BEB0" target=3D"_blank">
+What to do in Denver</a> </font></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"6" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"2">&nbsp;&nbsp;<font style=3D"FONT-WEIGHT: bold; FONT-SIZE: =
+13px; COLOR: #000000; FONT-FAMILY: arial,verdana,helvetica,sans-serif">Plan=
+ your Activities</font></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"5" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td valign=3D"top"><img height=3D"68" width=3D"72" border=3D"0"></td>
+<td width=3D"100%"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAM=
+ILY: arial,verdana,helvetica,sans-serif"><font style=3D"FONT-SIZE: 11px; CO=
+LOR: #000000; FONT-FAMILY: arial,verdana,helvetica,sans-serif">Save time, b=
+ypass long lines, and secure tickets by=20
+<a onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"http://=
+expediamail.com/W5RH02F77479DD7F4BF0931AB5BEB0" target=3D"_blank">booking a=
+n activity</a> for your Denver trip today. </font><br><a onclick=3D"return =
+top.js.OpenExtLink(window,event,this)" href=3D"http://expediamail.com/W5RH0=
+2F77489CD7F4BF0931AB5BEB0" target=3D"_blank">
+<img height=3D"51" alt=3D"Book now" width=3D"108" border=3D"0"></a> </font>=
+</td></tr></tbody></table></td>
+<td bgcolor=3D"#ffffff"><img height=3D"1" width=3D"10" border=3D"0"></td>
+<td><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"2"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"4"><img height=3D"1" width=3D"4" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"260" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"5"><img height=3D"4" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td><img height=3D"1" width=3D"10" border=3D"0"></td>
+<td width=3D"100%"><font style=3D"FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR=
+: #ffffff; FONT-FAMILY: arial,verdana,helvetica,sans-serif">Complete your t=
+rip</font></td>
+<td><img height=3D"23" width=3D"1" border=3D"0"></td>
+<td valign=3D"top" align=3D"right"><img height=3D"4" width=3D"6" border=3D"=
+0"></td>
+<td rowspan=3D"3"><img height=3D"1" width=3D"4" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"260" border=3D"0">
+<tbody>
+<tr>
+<td><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td width=3D"100%" bgcolor=3D"#ffffff">
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"3"><img height=3D"10" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td rowspan=3D"2"><img height=3D"1" width=3D"8" border=3D"0"></td>
+<td valign=3D"top"><img height=3D"34" alt=3D"car" width=3D"63" border=3D"0"=
+></td>
+<td width=3D"100%"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAM=
+ILY: arial,verdana,helvetica,sans-serif">Roam freely in Denver.<br><a oncli=
+ck=3D"return top.js.OpenExtLink(window,event,this)" href=3D"http://expediam=
+ail.com/W5RH02F774844D7F4BF0931AB5BEB0" target=3D"_blank">
+Rent your own car.</a></font><br><a onclick=3D"return top.js.OpenExtLink(wi=
+ndow,event,this)" href=3D"http://expediamail.com/W5RH02F774547D7F4BF0931AB5=
+BEB0" target=3D"_blank"><img height=3D"26" alt=3D"Search" width=3D"94" vspa=
+ce=3D"10" border=3D"0">
+</a></td></tr>
+<tr>
+<td valign=3D"top"><img height=3D"34" alt=3D"hotel" width=3D"63" border=3D"=
+0"></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">Find your ideal <a onclick=3D"return top.js.OpenE=
+xtLink(window,event,this)" href=3D"http://expediamail.com/W5RH02F774646D7F4=
+BF0931AB5BEB0" target=3D"_blank">
+ideal hotel</a> in Denver</font><br><a onclick=3D"return top.js.OpenExtLink=
+(window,event,this)" href=3D"http://expediamail.com/W5RH02F774141D7F4BF0931=
+AB5BEB0" target=3D"_blank"><img height=3D"26" alt=3D"Search" width=3D"94" v=
+space=3D"8" border=3D"0">
+</a></td></tr>
+<tr>
+<td colspan=3D"3"><img height=3D"5" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table></td>
+<td bgcolor=3D"#ffffff"><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"2"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"4"><img height=3D"1" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"260" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"5"><img height=3D"4" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td><img height=3D"1" width=3D"10" border=3D"0"></td>
+<td width=3D"100%"><font style=3D"FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR=
+: #000000; FONT-FAMILY: arial,verdana,helvetica,sans-serif">Get personalize=
+d travel e-mail</font></td>
+<td><img height=3D"23" width=3D"1" border=3D"0"></td>
+<td valign=3D"top" align=3D"right"><img height=3D"4" width=3D"6" border=3D"=
+0"></td>
+<td rowspan=3D"3"><img height=3D"1" width=3D"4" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"260" border=3D"0">
+<tbody>
+<tr>
+<td><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td width=3D"100%" bgcolor=3D"#ffffff">
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"3"><img height=3D"10" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td rowspan=3D"2"><img height=3D"1" width=3D"3" border=3D"0"></td>
+<td valign=3D"top"><img height=3D"34" alt=3D"Get personalized travel e-mail=
+" width=3D"63" align=3D"left" border=3D"0"></td>
+<td width=3D"100%"><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAM=
+ILY: arial,verdana,helvetica,sans-serif">Easily update your travel preferen=
+ces by <a onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"=
+http://expediamail.com/W5RH02F77474ED7F4BF0931AB5BEB0" target=3D"_blank">
+accessing your account</a>. <br><br>Hear about the latest sales and promoti=
+ons on travel to your favorite destinations! Plus, get timely news about up=
+coming trips, as well as helpful travel tips and vacation ideas, just by si=
+gning up for Expedia e-mail today!=20
+</font><br><a onclick=3D"return top.js.OpenExtLink(window,event,this)" href=
+=3D"http://expediamail.com/W5RH02F774349D7F4BF0931AB5BEB0" target=3D"_blank=
+"><img height=3D"24" alt=3D"Yes, sign me up" width=3D"115" vspace=3D"10" bo=
+rder=3D"0">=20
+</a></td></tr></tbody></table></td>
+<td bgcolor=3D"#ffffff"><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"2"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"4"><img height=3D"1" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"260" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"5"><img height=3D"4" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td><img height=3D"1" width=3D"10" border=3D"0"></td>
+<td width=3D"100%"><font style=3D"FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR=
+: #000000; FONT-FAMILY: arial,verdana,helvetica,sans-serif">Helpful Links</=
+font></td>
+<td><img height=3D"23" width=3D"1" border=3D"0"></td>
+<td valign=3D"top" align=3D"right"><img height=3D"4" width=3D"6" border=3D"=
+0"></td>
+<td rowspan=3D"3"><img height=3D"1" width=3D"4" border=3D"0"></td></tr></tb=
+ody></table>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"260" border=3D"0">
+<tbody>
+<tr>
+<td><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td width=3D"100%" bgcolor=3D"#ffffff">
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"2"><img height=3D"10" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td valign=3D"top"><img height=3D"1" width=3D"52" border=3D"0"></td>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">=95 &nbsp;<a onclick=3D"return top.js.OpenExtLink=
+(window,event,this)" href=3D"http://expediamail.com/W5RH02F77452AD7F4BF0931=
+AB5BEB0" target=3D"_blank">
+View online itinerary</a><br>=95 &nbsp;<a onclick=3D"return top.js.OpenExtL=
+ink(window,event,this)" href=3D"http://expediamail.com/W5RH02F774455D7F4BF0=
+931AB5BEB0" target=3D"_blank">Contact customer support</a><br>=95 &nbsp;<a =
+onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"http://exp=
+ediamail.com/W5RH02F774554D7F4BF0931AB5BEB0" target=3D"_blank">
+Travel alerts</a><br>=95 &nbsp;<a onclick=3D"return top.js.OpenExtLink(wind=
+ow,event,this)" href=3D"http://expediamail.com/W5RH02F774257D7F4BF0931AB5BE=
+B0" target=3D"_blank">Passport information</a><br>=95 &nbsp;<a onclick=3D"r=
+eturn top.js.OpenExtLink(window,event,this)" href=3D"http://expediamail.com=
+/W5RH02F774356D7F4BF0931AB5BEB0" target=3D"_blank">
+Airline contact information</a><br>=95 &nbsp;<a onclick=3D"return top.js.Op=
+enExtLink(window,event,this)" href=3D"http://expediamail.com/W5RH02F774851D=
+7F4BF0931AB5BEB0" target=3D"_blank">Airport information</a><br>=95 &nbsp;<a=
+ onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"http://ex=
+pediamail.com/W5RH02F774950D7F4BF0931AB5BEB0" target=3D"_blank">
+Driving directions</a><br></font><br></td></tr></tbody></table></td>
+<td bgcolor=3D"#ffffff"><img height=3D"1" width=3D"5" border=3D"0"></td>
+<td><img height=3D"1" width=3D"1" border=3D"0"></td>
+<td rowspan=3D"2"><img height=3D"1" width=3D"4" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"4"><img height=3D"1" width=3D"1" border=3D"0"></td></tr>
+<tr>
+<td colspan=3D"4"><img height=3D"4" width=3D"1" border=3D"0"></td></tr></tb=
+ody></table></td></tr></tbody></table>
+<table>
+<tbody>
+<tr>
+<td bgcolor=3D"#f1f5f8" colspan=3D"2">
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"801" border=3D"0">
+<tbody>
+<tr>
+<td><img height=3D"23" width=3D"102" border=3D"0"></td>
+<td nowrap width=3D"100%"><a onclick=3D"return top.js.OpenExtLink(window,ev=
+ent,this)" href=3D"http://expediamail.com/W5RH02F774216D7F4BF0931AB5BEB0" t=
+arget=3D"_blank"><img height=3D"23" alt=3D"flights" width=3D"54" border=3D"=
+0"></a><a onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"=
+http://expediamail.com/W5RH02F774711D7F4BF0931AB5BEB0" target=3D"_blank">
+<img height=3D"23" alt=3D"hotels" width=3D"53" border=3D"0"></a><a onclick=
+=3D"return top.js.OpenExtLink(window,event,this)" href=3D"http://expediamai=
+l.com/W5RH02F774810D7F4BF0931AB5BEB0" target=3D"_blank"><img height=3D"23" =
+alt=3D"cars" width=3D"39" border=3D"0">
+</a><a onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"htt=
+p://expediamail.com/W5RH02F774513D7F4BF0931AB5BEB0" target=3D"_blank"><img =
+height=3D"23" alt=3D"packages" width=3D"74" border=3D"0"></a><a onclick=3D"=
+return top.js.OpenExtLink(window,event,this)" href=3D"http://expediamail.co=
+m/W5RH02F774612D7F4BF0931AB5BEB0" target=3D"_blank">
+<img height=3D"23" alt=3D"cruises" width=3D"57" border=3D"0"></a><a onclick=
+=3D"return top.js.OpenExtLink(window,event,this)" href=3D"http://expediamai=
+l.com/W5RH02F77441DD7F4BF0931AB5BEB0" target=3D"_blank"><img height=3D"23" =
+alt=3D"activities" width=3D"67" border=3D"0">
+</a></td></tr>
+<tr>
+<td colspan=3D"2"><img height=3D"23" width=3D"1" border=3D"0"></td></tr></t=
+body></table></td></tr></tbody></table><br>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"780" border=3D"0">
+<tbody>
+<tr>
+<td><font style=3D"FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial,verd=
+ana,helvetica,sans-serif">
+<blockquote>You are receiving this transactional email based on a recent pu=
+rchase or account-related update on <a href=3D"http://Expedia.com">Expedia.=
+com</a>. <br>This is a daily email you qualified for based on your recent p=
+urchase.=20
+<br><br>CONTACT US<br>Please do not reply to this e-mail as we are not able=
+ to respond to messages sent to this e-mail address. To contact us or send =
+feedback, please <a onclick=3D"return top.js.OpenExtLink(window,event,this)=
+" href=3D"http://expediamail.com/W5RH02F7753E6D7F4BF0931AB5BEB0" target=3D"=
+_blank">
+<font color=3D"#666666">click here</font></a> or contact us via postal mail=
+ at: Expedia, Inc., attn: EMC Team, 3150 139th Avenue SE, Bellevue, WA 9800=
+5. For additional assistance, visit the <a href=3D"http://Expedia.com">Expe=
+dia.com
+</a> <a onclick=3D"return top.js.OpenExtLink(window,event,this)" href=3D"ht=
+tp://expediamail.com/W5RH02F7758E1D7F4BF0931AB5BEB0" target=3D"_blank"><fon=
+t color=3D"#666666">Customer Support Center</font></a>, or call 1-800-Exped=
+ia.=20
+<br><br>A NOTE ABOUT PRICES<br>Prices are subject to availability and subje=
+ct to change without notice. <br><br>All prices were current at the time th=
+is e-mail was published. <br><br>Hotel, vacation package, and cruise prices=
+ on=20
+<a href=3D"http://Expedia.com">Expedia.com</a> are constantly updated. Plea=
+se refer to the site for the most current pricing. Vacation package prices =
+shown are for one adult, economy class, based on double occupancy, and vary=
+ by dates, availability, and departure city. Additional taxes, fees, and ch=
+arges may apply. Airfare is subject to, without limitation: (1) Sept. 11 Se=
+curity Fee of $2.50 for each flight segment originating at a=20
+U.S. airport, up to $5 per one way or $10 per roundtrip; (2) up to $18 per =
+roundtrip in local airport charges; (3) Federal Excise Tax of $3.20 per U.S=
+. domestic flight segment; (4) a Travel Facilities Tax of up to $14 per rou=
+ndtrip for domestic flights beginning or ending in Alaska or Hawaii; and (5=
+) for international and Puerto Rico/U.S. Virgin Islands destinations, gover=
+nment taxes and fees of up to $200 per roundtrip, depending on routing and =
+destination (may vary slightly depending on currency exchange rates at time=
+ of booking). A segment is defined as a takeoff and a landing.=20
+<br><br>CST# 2029030-40 <br><br>&copy;&nbsp;2007&nbsp; Expedia, Inc. All ri=
+ghts reserved. Expedia, <a href=3D"http://Expedia.com">Expedia.com</a> and =
+the Airplane logo are registered trademarks, or trademarks, of Expedia, Inc=
+. in the U.S. and/or other countries. Other product and company names menti=
+oned herein may be trademarks of their respective owners.=20
+<br><br>(EMID: ETM_TG_PT_01)(MD: 20070624185546)(EPID: 100853069)(BIID: 381=
+77576_192230234) </blockquote></font></td></tr></tbody></table></center><im=
+g> </center></div>
 
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://luv.southwest.com/ser=
-vlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVWVLuHptV2daG11GeE06zeGxEf=
-6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">Early Bi=
-rd Check-In</a></div>
+------=_Part_35354_256041.1182971566415--
 
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://luv.southwest.com/ser=
-vlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSVLuHptV2daG11GeE06zeGxEf=
-6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">View/Sha=
-re Itinerary</a></div>
-
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://luv.southwest.com/ser=
-vlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSYVLuHptV2daG11GeE06zeGxE=
-f6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">Change =
-Air Reservation</a></div>
-
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://www.southwest.com/tra=
-vel_center/cancelAir.html" target=3D"_blank">Cancel Air Reservation</a></di=
-v>
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://luv.southwest.com/ser=
-vlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVUVLuHptV2daG11GeE06zeGxEf=
-6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">Check Fl=
-ight Status</a></div>
-
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://luv.southwest.com/ser=
-vlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSUVLuHptV2daG11GeE06zeGxE=
-f6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">Flight =
-Status Notification</a></div>
-
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://luv.southwest.com/ser=
-vlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSAVLuHptV2daG11GeE06zeGxE=
-f6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">Book a =
-Car</a></div>
-
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://luv.southwest.com/ser=
-vlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSBVLuHptV2daG11GeE06zeGxE=
-f6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">Book a =
-Hotel</a></div>
-
-                            </div>
-                            </div>
-                            </td>
-                            <td valign=3D"top" width=3D"176" align=3D"left"=
->
-                            <div style=3D"margin-left:17px">
-                            <div style=3D"line-height:15px;font-family:aria=
-l,verdana;margin-bottom:5px;color:#1f6af6;font-size:13px"><b>Know Before Yo=
-u Go</b></div>
-                            <div style=3D"margin-bottom:6px">
-                            <table cellspacing=3D"0" cellpadding=3D"0">
-                              <tbody>
-                                <tr>
-                                  <td bgcolor=3D"#e2e2e2" height=3D"1" widt=
-h=3D"136"></td>
-                                </tr>
-                              </tbody>
-                            </table>
-                            </div>
-                            <div style=3D"line-height:12px;font-family:aria=
-l,verdana;color:#666666;font-size:10px">
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://luv.southwest.com/ser=
-vlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSCVLuHptV2daG11GeE06zeGxE=
-f6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">In the =
-Airport</a></div>
-
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://luv.southwest.com/ser=
-vlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSDVLuHptV2daG11GeE06zeGxE=
-f6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">Baggage=
- Policies</a></div>
-
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://luv.southwest.com/ser=
-vlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTRVLuHptV2daG11GeE06zeGxE=
-f6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">Suggest=
-ed Airport Arrival Times</a></div>
-
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://luv.southwest.com/ser=
-vlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTSVLuHptV2daG11GeE06zeGxE=
-f6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">Securit=
-y Procedures</a></div>
-
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://luv.southwest.com/ser=
-vlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTTVLuHptV2daG11GeE06zeGxE=
-f6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">Custome=
-rs of Size</a></div>
-
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://luv.southwest.com/ser=
-vlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTUVLuHptV2daG11GeE06zeGxE=
-f6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">In the =
-Air</a></div>
-
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://luv.southwest.com/ser=
-vlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTWVLuHptV2daG11GeE06zeGxE=
-f6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">Purchas=
-ing and Refunds</a></div>
-
-                            </div>
-                            </div>
-                            </td>
-                            <td valign=3D"top" width=3D"160" align=3D"left"=
->
-                            <div style=3D"margin-left:17px">
-                            <div style=3D"line-height:15px;font-family:aria=
-l,verdana;margin-bottom:5px;color:#1f6af6;font-size:13px"><b>Special Travel=
- Needs</b></div>
-                            <div style=3D"margin-bottom:6px">
-                            <table cellspacing=3D"0" cellpadding=3D"0">
-                              <tbody>
-                                <tr>
-                                  <td bgcolor=3D"#e2e2e2" height=3D"1" widt=
-h=3D"136"></td>
-                                </tr>
-                              </tbody>
-                            </table>
-                            </div>
-                            <div style=3D"line-height:12px;font-family:aria=
-l,verdana;color:#666666;font-size:10px">
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://luv.southwest.com/ser=
-vlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTYVLuHptV2daG11GeE06zeGxE=
-f6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">Traveli=
-ng with Children</a></div>
-
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://luv.southwest.com/ser=
-vlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTAVLuHptV2daG11GeE06zeGxE=
-f6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">Traveli=
-ng with Pets</a></div>
-
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://luv.southwest.com/ser=
-vlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTBVLuHptV2daG11GeE06zeGxE=
-f6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">Unaccom=
-panied Minors</a></div>
-
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://luv.southwest.com/ser=
-vlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTCVLuHptV2daG11GeE06zeGxE=
-f6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">Baby on=
- Board</a></div>
-
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://luv.southwest.com/ser=
-vlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTDVLuHptV2daG11GeE06zeGxE=
-f6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">Custome=
-rs with Disabilities</a></div>
-
-                            </div>
-                            </div>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      </td>
-                      <td bgcolor=3D"#dddddd" width=3D"2"></td>
-                    </tr>
-                    <tr>
-                      <td height=3D"5" colspan=3D"4"><img border=3D"0" alt=
-=3D"" width=3D"500" height=3D"5" style=3D"display:block"></td>
-                    </tr>
-                  </tbody>
-                </table>
-               =20
-
-                <table cellspacing=3D"0" cellpadding=3D"0">
-                  <tbody>
-                    <tr>
-                      <td height=3D"10"></td>
-                    </tr>
-                  </tbody>
-                </table>
-
-               =20
-                <table cellspacing=3D"0" cellpadding=3D"0" width=3D"500" bg=
-color=3D"#fafafa">
-                  <tbody>
-                    <tr>
-                      <td height=3D"5" colspan=3D"3"><img border=3D"0" alt=
-=3D"" width=3D"500" height=3D"5" style=3D"display:block"></td>
-                    </tr>
-                    <tr>
-                      <td bgcolor=3D"#dddddd" width=3D"2"></td>
-                      <td height=3D"78" valign=3D"top" width=3D"496" align=
-=3D"left">
-                      <table cellspacing=3D"0" cellpadding=3D"0">
-                        <tbody>
-                          <tr>
-                            <td height=3D"8"></td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      <table cellspacing=3D"0" cellpadding=3D"0" width=3D"4=
-96">
-                        <tbody>
-                          <tr>
-                            <td valign=3D"top" width=3D"160" colspan=3D"3" =
-align=3D"left">
-                            <div style=3D"margin-left:17px">
-                            <div style=3D"line-height:15px;font-family:aria=
-l,verdana;margin-bottom:5px;color:#1f6af6;font-size:13px"><b>Legal Policies=
- &amp; Helpful Information</b></div>
-                            <div style=3D"margin-bottom:6px">
-                            <table cellspacing=3D"0" cellpadding=3D"0">
-                              <tbody>
-                                <tr>
-                                  <td bgcolor=3D"#e2e2e2" height=3D"1" widt=
-h=3D"462"></td>
-                                </tr>
-                              </tbody>
-                            </table>
-                            </div>
-                            </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td valign=3D"top" width=3D"160" align=3D"left"=
->
-                            <div style=3D"margin-left:17px">
-                            <div style=3D"line-height:12px;font-family:aria=
-l,verdana;color:#666666;font-size:10px">
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://luv.southwest.com/ser=
-vlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVURVLuHptV2daG11GeE06zeGxE=
-f6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">Privacy=
- Policy</a></div>
-
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://www.southwest.com/htm=
-l/about-southwest/terms-and-conditions/incorporated-terms.html" target=3D"_=
-blank">Notice of Incorporated Terms</a></div>
-
-                            </div>
-                            </div>
-                            </td>
-                            <td valign=3D"top" width=3D"176" align=3D"left"=
->
-                            <div style=3D"margin-left:17px">
-                            <div style=3D"line-height:12px;font-family:aria=
-l,verdana;color:#666666;font-size:10px">
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://www.southwest.com/ass=
-ets/pdfs/corporate-commitments/customer-service-commitment.pdf" target=3D"_=
-blank">Customer Service Commitment</a></div>
-
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"http://www.southwest.com/htm=
-l/customer-service/faqs.html" target=3D"_blank">FAQs</a></div>
-                            </div>
-                            </div>
-                            </td>
-                            <td valign=3D"top" width=3D"160" align=3D"left"=
->
-                            <div style=3D"margin-left:17px">
-                            <div style=3D"line-height:12px;font-family:aria=
-l,verdana;color:#666666;font-size:10px">
-                            <div style=3D"margin-bottom:6px"><a style=3D"co=
-lor:#666666;text-decoration:underline" href=3D"https://www.southwest.com/co=
-ntact-us/contact-us.html" target=3D"_blank">Contact Us</a></div>
-                            </div>
-                            </div>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      </td>
-                      <td bgcolor=3D"#dddddd" width=3D"2"></td>
-                    </tr>
-                    <tr>
-                      <td height=3D"5" colspan=3D"4"><img border=3D"0" alt=
-=3D"" width=3D"500" height=3D"5" style=3D"display:block"></td>
-                    </tr>
-                  </tbody>
-                </table>
-             =20
-              =20
-
-         =20
-<table cellspacing=3D"0" cellpadding=3D"0" width=3D"500" bgcolor=3D"#fafafa=
-">
-      <tbody>
-        <tr>
-          <td height=3D"3" colspan=3D"3"><img border=3D"0" alt=3D"" width=
-=3D"500" height=3D"3" style=3D"display:block"></td>
-        </tr>
-        <tr>
-          <td bgcolor=3D"#dddddd" width=3D"2"></td>
-          <td height=3D"20" width=3D"496" align=3D"left">
-          <table cellspacing=3D"0" cellpadding=3D"0" width=3D"496">
-            <tbody>
-              <tr>
-                <td align=3D"left">
-                <div style=3D"line-height:12px;font-family:arial,verdana;co=
-lor:#aaaaaa;margin-left:8px;font-size:9px"><a style=3D"color:#3883f6" href=
-=3D"http://www.southwest.com/cgi-bin/buildItinerary2" target=3D"_blank">Boo=
-k Air</a>=A0|=A0<a style=3D"color:#3883f6" href=3D"http://luv.southwest.com=
-/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSBVLuHptV2daG11GeE06z=
-eGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">Boo=
-k Hotel</a>=A0|=A0<a style=3D"color:#3883f6" href=3D"http://luv.southwest.c=
-om/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSAVLuHptV2daG11GeE0=
-6zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">B=
-ook Car</a>=A0|=A0<a style=3D"color:#3883f6" href=3D"http://leisure.southwe=
-st.travelpn.com/Vacations/Cruise/Finder/0,,SWA,00.html" target=3D"_blank">B=
-ook Cruises</a>=A0|=A0<a style=3D"color:#3883f6" href=3D"http://www.southwe=
-stvacations.com" target=3D"_blank">Book Vacation Packages</a>=A0|=A0<a styl=
-e=3D"color:#3883f6" href=3D"http://travel.southwest.com/specialoffers/topOf=
-fers.html" target=3D"_blank">See Special Offers</a>=A0|=A0<a style=3D"color=
-:#3883f6" href=3D"http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11=
-GeE06zeGxEf6beQ8wfVaVRVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQo=
-DhDupAgQDCCRYUVXLX" target=3D"_blank">Manage My Account</a></div>
-
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          </td>
-          <td bgcolor=3D"#dddddd" width=3D"2"></td>
-        </tr>
-        <tr>
-          <td height=3D"3" colspan=3D"3"><img border=3D"0" alt=3D"" width=
-=3D"500" height=3D"3" style=3D"display:block"></td>
-        </tr>
-      </tbody>
-    </table>
-   =20
-    <table cellspacing=3D"0" cellpadding=3D"0">
-      <tbody>
-        <tr>
-          <td height=3D"10"></td>
-        </tr>
-      </tbody>
-    </table>
-   =20
-    <table cellspacing=3D"0" cellpadding=3D"0" width=3D"500">
-      <tbody>
-        <tr>
-          <td valign=3D"top" width=3D"500" align=3D"left">
-          <div style=3D"line-height:14px;font-family:arial,verdana;color:#9=
-99999;font-size:10px;margin-right:8px">This is a post-only mailing from Sou=
-thwest Airlines. Please do not attempt to respond to this message. Your pri=
-vacy is important to us, Please read our <a style=3D"color:#999999;text-dec=
-oration:underline" href=3D"http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQ=
-qAV2daG11GeE06zeGxEf6beQ8wfVaVURVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2=
-f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank">Privacy Policy</a>.=A0<br>
-
-          <br>
-          <sup>1</sup> All travel involving funds from this=A0Confirmation =
-Number must be completed by the expiration date.</div>
-          <div style=3D"line-height:14px;font-family:arial,verdana;color:#9=
-99999;font-size:10px;margin-right:8px"></div>
-          <div style=3D"line-height:14px;font-family:arial,verdana;color:#9=
-99999;font-size:10px;margin-right:8px"><sup>2</sup> Security Fee is the gov=
-ernment-imposed September 11th Security Fee. <br>
-          <br>
-          See <a style=3D"color:#999999;text-decoration:underline" href=3D"=
-http://www.southwest.com/html/about-southwest/terms-and-conditions/incorpor=
-ated-terms.html" target=3D"_blank">Southwest Airlines Co. Notice of Incorpo=
-ration</a> <br>
-
-          See <a href=3D"http://www.southwest.com/html/about-southwest/term=
-s-and-conditions" target=3D"_blank">Southwest Airlines Limit of Liability</=
-a></div>
-          <div style=3D"line-height:14px;font-family:arial,verdana;color:#9=
-99999;font-size:10px;margin-right:8px"><br>
-          Southwest Airlines<br>
-          P.O. Box 36647-1CR<br>
-          Dallas, TX 75235 <br>
-          <br>
-          <a style=3D"color:#999999;text-decoration:underline" href=3D"http=
-s://www.southwest.com/contact-us/contact-us.html" target=3D"_blank">Contact=
- Us</a><br>
-         <br>
-          Copyright 2011 Southwest Airlines Co. All Rights Reserved.</div>
-          </td>
-          <td valign=3D"top" width=3D"180" align=3D"left"><img border=3D"0"=
- alt=3D"Southwest Airlines - Celebrating 40 Rockin Years" width=3D"180" hei=
-ght=3D"80" style=3D"display:block"></td>
-        </tr>
-      </tbody>
-    </table>
-         =20
-
-                =20
-                </td>
-                <td width=3D"10"></td>
-                <td valign=3D"top" width=3D"180" align=3D"left">
-
-               =20
-
-
-
-<a href=3D"http://ox-d.southwest.com/e/1.0/rc?cs=3D17696" target=3D"_blank"=
-><img border=3D"0" alt=3D""></a>
-
-
-               <table cellspacing=3D"0" cellpadding=3D"0">
-                  <tbody>
-                    <tr>
-                      <td height=3D"10"></td>
-                    </tr>
-                  </tbody>
-                </table>
-
-<div><a href=3D"http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11Ge=
-E06zeGxEf6beQ8wfVaVWVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoDh=
-DupAgQDCCRYUVXLX" target=3D"_blank"><img border=3D"0" alt=3D"EarlyBird Chec=
-k-in - A More Convenient Way To Travel" width=3D"180" height=3D"170" style=
-=3D"display:block"></a></div>
-
-
-
-              =20
-<table cellspacing=3D"0" cellpadding=3D"0">
-                  <tbody>
-                    <tr>
-                      <td height=3D"10"></td>
-                    </tr>
-                  </tbody>
-                </table>
-
-                <table cellspacing=3D"0" cellpadding=3D"0">
-                  <tbody>
-                    <tr>
-                      <td height=3D"10"></td>
-                    </tr>
-                  </tbody>
-                </table>
-
-
-
-                <table cellspacing=3D"0" cellpadding=3D"0">
-                  <tbody>
-                    <tr>
-                      <td colspan=3D"3"><a href=3D"http://travel.southwest.=
-com/specialoffers/hotelOffers.html" target=3D"_blank"><img alt=3D"" width=
-=3D"182" height=3D"74" style=3D"border-bottom:0px;border-left:0px;display:b=
-lock;border-top:0px;border-right:0px"></a></td>
-
-                    </tr>
-                    <tr>
-                      <td bgcolor=3D"#d8d8d8" width=3D"2"></td>
-                      <td bgcolor=3D"#fafafa" valign=3D"top" width=3D"178">
-                      <table cellspacing=3D"0" cellpadding=3D"0">
-                        <tbody>
-                          <tr>
-                            <td height=3D"7" width=3D"1"></td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      <table cellspacing=3D"0" cellpadding=3D"0">
-                        <tbody>
-                          <tr>
-                            <td width=3D"178" align=3D"left">
-                            <div style=3D"line-height:16px;font-family:Aria=
-l,Helvetica,sans-serif;margin-left:12px;font-size:12px">
-                            <div style=3D"margin-bottom:2px;color:#1f6af6;f=
-ont-weight:bold">Find a Hotel</div>
-                            <div style=3D"margin-bottom:10px">See ratings, =
-photos and<br>
-                            rates for over 40,000 hotels.</div>
-                            </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td width=3D"178" align=3D"right">
-                            <div style=3D"line-height:16px;font-family:Aria=
-l,Helvetica,sans-serif;color:#1f6af6;font-size:12px;font-weight:bold;margin=
--right:10px"><a style=3D"color:#1f6af6;text-decoration:none" href=3D"http:/=
-/travel.southwest.com/specialoffers/hotelOffers.html" target=3D"_blank"><sp=
-an style=3D"color:#1f6af6">Book a Hotel</span><img alt=3D"" width=3D"14" he=
-ight=3D"9" style=3D"border-bottom:0px;border-left:0px;display:inline;border=
--top:0px;border-right:0px"></a></div>
-
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height=3D"10"></td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      </td>
-                      <td bgcolor=3D"#d8d8d8" width=3D"2"></td>
-                    </tr>
-                    <tr>
-                      <td height=3D"3" colspan=3D"3"><img alt=3D"" width=3D=
-"182" height=3D"3" style=3D"border-bottom:0px;border-left:0px;display:block=
-;border-top:0px;border-right:0px"></td>
-                    </tr>
-                  </tbody>
-                </table>
-
-                <table cellspacing=3D"0" cellpadding=3D"0">
-                  <tbody>
-                    <tr>
-                      <td height=3D"10"></td>
-                    </tr>
-                  </tbody>
-                </table>
-
-                <table cellspacing=3D"0" cellpadding=3D"0">
-                  <tbody>
-                    <tr>
-                      <td colspan=3D"3"><a href=3D"http://travel.southwest.=
-com/specialoffers/carOffers.html" target=3D"_blank"><img alt=3D"" width=3D"=
-182" height=3D"74" style=3D"border-bottom:0px;border-left:0px;display:block=
-;border-top:0px;border-right:0px"></a></td>
-
-                    </tr>
-                    <tr>
-                      <td bgcolor=3D"#d8d8d8" width=3D"2"></td>
-                      <td bgcolor=3D"#fafafa" valign=3D"top" width=3D"178">
-                      <table cellspacing=3D"0" cellpadding=3D"0">
-                        <tbody>
-                          <tr>
-                            <td height=3D"7" width=3D"1"></td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      <table cellspacing=3D"0" cellpadding=3D"0">
-                        <tbody>
-                          <tr>
-                            <td width=3D"178" align=3D"left">
-                            <div style=3D"line-height:16px;font-family:Aria=
-l,Helvetica,sans-serif;margin-left:12px;font-size:12px">
-                            <div style=3D"margin-bottom:2px;color:#1f6af6;f=
-ont-weight:bold">Rent Some Wheels</div>
-                            <div style=3D"margin-bottom:10px">Explore your =
-destination on<br>
-                            the perfect set of wheels.</div>
-                            </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td width=3D"178" align=3D"right">
-                            <div style=3D"line-height:16px;font-family:Aria=
-l,Helvetica,sans-serif;color:#1f6af6;font-size:12px;font-weight:bold;margin=
--right:10px"><a style=3D"color:#1f6af6;text-decoration:none" href=3D"http:/=
-/travel.southwest.com/specialoffers/carOffers.html" target=3D"_blank"><span=
- style=3D"color:#1f6af6">Rent a Car</span><img alt=3D"" width=3D"14" height=
-=3D"9" style=3D"border-bottom:0px;border-left:0px;display:inline;border-top=
-:0px;border-right:0px"></a></div>
-
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height=3D"10"></td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      </td>
-                      <td bgcolor=3D"#d8d8d8" width=3D"2"></td>
-                    </tr>
-                    <tr>
-                      <td height=3D"3" colspan=3D"3"><img alt=3D"" width=3D=
-"182" height=3D"3" style=3D"border-bottom:0px;border-left:0px;display:block=
-;border-top:0px;border-right:0px"></td>
-                    </tr>
-                  </tbody>
-                </table>
-
-                <table cellspacing=3D"0" cellpadding=3D"0">
-                  <tbody>
-                    <tr>
-                      <td height=3D"10"></td>
-                    </tr>
-                  </tbody>
-                </table>
-           =20
-         =20
-<div><a href=3D"http://luv.southwest.com/servlet/cc6?kOHpjQWDUCQqAV2daG11Ge=
-E06zeGxEf6beQ8wfVaVUSVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoD=
-hDupAgQDCCRYUVXLX" target=3D"_blank"><img border=3D"0" alt=3D"Sign Up &#39;=
-n Save" width=3D"180" height=3D"170" style=3D"display:block"></a></div>
-
-                <table cellspacing=3D"0" cellpadding=3D"0">
-                  <tbody>
-                    <tr>
-                      <td height=3D"10"></td>
-                    </tr>
-                  </tbody>
-                </table>
-                <div><a href=3D"http://luv.southwest.com/servlet/cc6?kOHpjQ=
-WDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVUTVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV=
-0bWQ2f41SQTYBQoDhDupAgQDCCRYUVXLX" target=3D"_blank"><img border=3D"0" alt=
-=3D"Join Rapid Rewards" width=3D"181" height=3D"170" style=3D"display:block=
-"></a></div>
-
-         =20
-
-=20
-
-               =20
-                  </td>
-              </tr>
-            </tbody>
-          </table>
-          <table cellspacing=3D"0" cellpadding=3D"0">
-            <tbody>
-              <tr>
-                <td height=3D"10"></td>
-              </tr>
-            </tbody>
-          </table>
-
-           =20
-           </td>
-        </tr>
-      </tbody>
-     =20
-    </table><br><img border=3D"0" width=3D"3" height=3D"3">
-
-  </div>
-
-
-
-</div><br>
-
---e0cb4e6ff537e543e404cebf405d--

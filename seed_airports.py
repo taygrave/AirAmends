@@ -39,8 +39,8 @@ def remove_tz_conflicts(session):
     """Removes any airport from db that has the same three letter code as a North American time zone"""
     #Someday would be nice to remove this and find a fix, quick fix for now to ensure that we aren't capturing time zone information from emails as a flight leg
 
-    #list of all three letter North American time zone abbreviations
-    NA_timezones = ['ADT', 'AST', 'CDT', 'CST', 'EDT', 'EGT', 'EST', 'GMT', 'MDT', 'MST', 'NDT', 'NST', 'PDT', 'PST', 'WGT']
+    #list of all three letter North American time zone abbreviations and UTC
+    NA_timezones = ['ADT', 'AST', 'CDT', 'CST', 'EDT', 'EGT', 'EST', 'GMT', 'MDT', 'MST', 'NDT', 'NST', 'PDT', 'PST', 'WGT', 'UTC']
 
     for zone in NA_timezones:
         # this also works but prints out every query to db

@@ -1,7 +1,6 @@
 import httplib2
 import base64
 import model
-import pdb
 
 from apiclient.discovery import build
 from apiclient import errors
@@ -89,26 +88,18 @@ def get_message(service, user_id, msg_id):
   """
   try:
     message = service.users().messages().get(userId=user_id, id=msg_id, format="raw").execute()
-    #call message_raw vs msg_string1
-    msg_string1 = base64.urlsafe_b64decode(message['raw'].encode('ASCII'))
 
-    message2 = service.users().messages().get(userId=user_id, id=msg_id, format="full").execute()
+    #FIXME: United emails aren't being decoded for some reason
+    str_raw_msg = base64.urlsafe_b64decode(message['raw'].encode('ASCII'))
 
-    pdb.set_trace()
-
-    # bodycoded = message2['payload']['body']['data']
-
-    # To decode base64url, replace '-' with '+' and '_' with '/' first
-    # msg_string2 = base64.b64decode(bodycoded.replace('-', '+').replace('_', '/'))
-
-    return msg_string1
+    return str_raw_msg
 
   except errors.HttpError, error:
     print 'An error occurred: %s' % error
 
 def add_msgs_to_db():
-    #added 'southwest' to query to start with managable list of results
-    query1 = "itinerary, confirmation, flight, number, departure, taxes"
+
+    query1 = "itinerary, confirmation, flight, number, departure, taxes from:-me"
     msg_list = query_messages(gmail_service,"me", query1)
     s = model.connect()
 
@@ -122,11 +113,10 @@ def add_msgs_to_db():
         #FIXME: actually add the current user to the Users table (w/ all info) and input user_id as actual user_id
         entry = model.Email(user_id=1, msg_id=msg_id, thread_id=msg_thrd_id, body_raw=msg_str1, body_full=("notworking currenlty, but I think it returns the same thing anyway"))
 
-        # s.add(entry)
+        s.add(entry)
 
-    # s.commit() 
+    s.commit() 
 
     print "Successfully added emails to the db"
 
-# add_msgs_to_db()
-# query1 = "itinerary, confirmation, flight, number, departure, taxes, southwest"
+add_msgs_to_db()

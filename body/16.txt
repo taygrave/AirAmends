@@ -1,1083 +1,2670 @@
 Delivered-To: tkhesselgrave@gmail.com
-Received: by 10.217.136.199 with SMTP id eh49csp351452web;
-        Wed, 23 Oct 2013 17:55:54 -0700 (PDT)
-X-Received: by 10.60.115.226 with SMTP id jr2mr14116oeb.95.1382576153969;
-        Wed, 23 Oct 2013 17:55:53 -0700 (PDT)
-Return-Path: <reservations@jetblue.com>
-Received: from sgcommg01-out.sabre.com (tcymg01.travelocity.com. [151.193.224.244])
-        by mx.google.com with ESMTPS id sp4si6461840oeb.111.2013.10.23.17.55.53
-        for <TKHESSELGRAVE@gmail.com>
-        (version=TLSv1 cipher=RC4-SHA bits=128/128);
-        Wed, 23 Oct 2013 17:55:53 -0700 (PDT)
-Received-SPF: neutral (google.com: 151.193.224.244 is neither permitted nor denied by best guess record for domain of reservations@jetblue.com) client-ip=151.193.224.244;
-Authentication-Results: mx.google.com;
-       spf=neutral (google.com: 151.193.224.244 is neither permitted nor denied by best guess record for domain of reservations@jetblue.com) smtp.mail=reservations@jetblue.com
-Received: from unknown (HELO infhlp008) ([10.209.4.9])
-  by sgcommg01.sabre.com with ESMTP; 23 Oct 2013 19:55:53 -0500
-Date: Wed, 23 Oct 2013 19:55:53 -0500 (CDT)
-From: JetBlue Reservations <reservations@jetblue.com>
-To: TKHESSELGRAVE@GMAIL.COM
-Message-ID: <1282825323.7630311382576153327.JavaMail.ems@infhlp008>
-Subject: Check in for your flight to Portland
+Received: by 10.216.47.75 with SMTP id s53csp309479web;
+        Fri, 7 Dec 2012 10:00:17 -0800 (PST)
+Received: by 10.42.94.8 with SMTP id z8mr5081613icm.36.1354903216755;
+        Fri, 07 Dec 2012 10:00:16 -0800 (PST)
+Return-Path: <SouthwestAirlines@luv.southwest.com>
+Received: from omptrans.luv.southwest.com (omptrans.luv.southwest.com. [12.130.138.99])
+        by mx.google.com with ESMTP id p6si12840179icv.70.2012.12.07.10.00.15;
+        Fri, 07 Dec 2012 10:00:16 -0800 (PST)
+Received-SPF: pass (google.com: domain of SouthwestAirlines@luv.southwest.com designates 12.130.138.99 as permitted sender) client-ip=12.130.138.99;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of SouthwestAirlines@luv.southwest.com designates 12.130.138.99 as permitted sender) smtp.mail=SouthwestAirlines@luv.southwest.com; dkim=pass (test mode) header.i=SouthwestAirlines@luv.southwest.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=southwest; d=luv.southwest.com;
+ h=MIME-Version:Content-Type:Content-Transfer-Encoding:Date:From:Reply-To:Subject:To:Message-ID; i=SouthwestAirlines@luv.southwest.com;
+ bh=G3pLJ6RKgKvF1V1Nu9zcijERDwo=;
+ b=JmiLg37w8tZmF4sDIXgD9/QiWH1m2tUi/+wqVybdUv6xhHcT3ZAJcR8p1DloF7LLu9guG46eMHRY
+   1mYr2lcdIpLM6eFqnjdyFxe+eKjJ7qi7fUlQqqehXVqwI/lqVzNgZgu943E+VboxfWUtx1ZRYUKw
+   iAM9K6F2lM+zi7EsyiQ=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=southwest; d=luv.southwest.com;
+ b=MYKYMZK3knENYWuJrYFAMoAouml48tUBOKlaaVoRemtq2Y5TxZebYFtMpOp9YSTfbTrKF0ssMpdT
+   YupcY7hHq471H8Qf06LJdBULQrxvscI9Uu8dsq90QhtQlPQtaAkAsYhmYDIe99u44Qbv9JxcpNBf
+   YA9OCiZOqouGyLrDZcQ=;
+Received: by omptrans.luv.southwest.com id ho8nb0160g4e for <TKHESSELGRAVE@GMAIL.COM>; Fri, 7 Dec 2012 10:00:15 -0800 (envelope-from <SouthwestAirlines@luv.southwest.com>)
 MIME-Version: 1.0
-Content-Type: text/html; charset=UTF-8
+Content-Type: text/html;
+	charset="UTF-8"
 Content-Transfer-Encoding: quoted-printable
+Date: Fri, 7 Dec 2012 10:00:15 -0800
+From: "Southwest Airlines" <SouthwestAirlines@luv.southwest.com>
+Reply-To: "Southwest Airlines" <no-reply@luv.southwest.com>
+Subject: Southwest Airlines Confirmation-HESSELGRAVE/TAYLOR-Confirmation: GCKBVK
+X-cid: swair.4938.-6
+X-sgxh1: 2daG11GeE06zeGxEf6beQ8wf
+To: TKHESSELGRAVE@GMAIL.COM
+X-valueof-_TRIGGERED_: YES
+X-valueof-TM_CAMPAIGN_ID_: 13589
+X-valueof-TM_ACCOUNT_ID_: 257
+X-valueof-TM_REQUEST_MS_: 1354903211678
+X-valueof-TM_REQUEST_DT_: 2012-12-07 10:00:11.678
+X-valueof-TMID_: RI4.TMWS1.257.hag3jb8e.1242458
+Message-ID: <0.1.0.8D.1CDD4A4B60D5EEA.0@omptrans.luv.southwest.com>
+
+<html>
+  <head>
+    <title>Southwest Airlines</title>
+  </head>
+  <body>
+
+                <=21-- Start booking builder section Section -->
+<=21--
+<Purchase>
+
+
+<AirReceipt>
+  <Email>TKHESSELGRAVE=40GMAIL=2ECOM</Email>  <ConfirmationDate>
+
+2012-12-07
+        </ConfirmationDate>
+  <ConfirmationNumber>
+
+GCKBVK
+         </ConfirmationNumber>
+
+<ItineraryType>
+
+INITIAL
+        </ItineraryType>
+
+<FareCalculations>
+
+<FareCalculation>PDX WN DEN251=2E16BLN7HNR 251=2E16 END ZPPDX XFPDX4=2E5 AY=
+2=2E50=24PDX2=2E50</FareCalculation>
+        </FareCalculations>
+
+<Passengers>
+
+<Passenger>
+      <Name>HESSELGRAVE/TAYLOR</Name>
+      <AccountNumber>00020056936616</AccountNumber>
+      <TicketNumber>5262484898012</TicketNumber>
+      <ExpirationDate>2013-09-01</ExpirationDate>
+    </Passenger>
+       =20
+
+
+         </Passengers>
+
+<Itinerary>
+
+
+<Flight>
+      <Number>3952</Number>
+      <TravelDate>2012-12-21</TravelDate>
+      <Depart>Depart PORTLAND OR (PDX) at 6:50 PM on Southwest Airlines</De=
+part>
+      <Arrive>Arrive in DENVER CO (DEN) at 10:10 PM</Arrive>
+    </Flight>
+
+
+=20
+
+
+
+
+
+   </Itinerary>
+
+</AirReceipt>
 
 
 
 
 
 
-=09
-
-=09
-<html xmlns=3D"http://www.w3.org/1999/xhtml">
-    <head>
-
-    <style type=3D"text/css" media=3D"all">
-
-    /* RESET */
-
-@media all {
-
-html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, bl=
-ockquote, pre,
-a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kb=
-d, q, s, samp,
-small, span, strike, strong, sub, tt, var, b, u, i, center, td
-dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption {
-    margin: 0; padding: 0; border: 0; outline: 0;
-    font-size: 100%; vertical-align: baseline;
-}
-body { line-height: 1; }
-ol, ul { list-style: none; }
-blockquote, q { quotes: none; }
-blockquote:before, blockquote:after,
-q:before, q:after { content: ''; content: none; }
-:focus { outline: 0; }
-ins { text-decoration: none; }
-del { text-decoration: line-through; }
 
 
-}
 
-body{
-    margin:0;
-    color:#333;
-    font:12px arial,sans-serif;
-}
-img{border-style:none;}
-a{
-    color:#4b90cd;
-    text-decoration:none;
-}
-a:hover{text-decoration:underline;}
-input,
-textarea,
-select{
-    font:100% arial,sans-serif;
-    vertical-align:middle;
-}
-form,fieldset{
-    margin:0;
-    padding:0;
-    border:none;
-}
-/*GENERAL SETTINGS*/
-.holder{
-    overflow:hidden;
-    height:1%;
-}
-.clearfix:after {
-    content:".";
-    display:block;
-    height:0;
-    clear:both;
-    visibility:hidden;
-}
 
-.clearfix, .gain-layout {*zoom:1;}
 
-/* LAYOUT */
-body{text-align:center;}
 
-/* COLORS */
-h1, h2, h3, h4{color:#004a91;}
-hr{height:5px;border:none;color:#ededed;background:#ededed;margin:0;clear:b=
-oth;}
 
-    </style>
 
-    </head>
 
-    <body>
 
-        <div align=3D"center" style=3D"margin:0 auto;text-align:left;width:=
-606px;">
-            <center><table border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
- width=3D"606" align=3D"center">
-               <tr height=3D"5"><td></td></tr>
-                <tr>
-                    <td>
 
-            <div style=3D"text-align:center;border-bottom:1px solid #ccc;">
 
-                <div id=3D"logo" class=3D"clearfix">
-                    <table border=3D"0" width=3D"606" height=3D"100" cellpa=
-dding=3D"0" cellspacing=3D"0" style=3D"border: none;">
-                        <tr>
-                              <td colspan=3D"4" align=3D"left" valign=3D"to=
-p"><img src=3D"https://jetbluereceipt.sabre.com/jb/headert.jpg"/></td>
-                        </tr>
-                        <tr>
-                              <td width=3D"311" align=3D"left"><img src=3D"=
-https://jetbluereceipt.sabre.com/jb/headerl.jpg" /></td>
-                              <td width=3D"137" align=3D"left" style=3D"fon=
-t-size:12px; font-face:arial,sans-serif;">Scan this barcode to check in at =
-any JetBlue check in kiosk.</td>
-                              <td width=3D"133" align=3D"center"><img src=
-=3D"https://www.jetblue.com/itinerarybarcode/barcode.aspx?value=3DQOUHAI" a=
-lt=3D"QOUHAI" /></td>
-                              <td width=3D"25" align=3D"right"><img src=3D"=
-https://jetbluereceipt.sabre.com/jb/headerr.jpg" /></td>
-                        </tr>
-                        <tr>
-                               <td colspan=3D"4" valign=3D"bottom"><img src=
-=3D"https://jetbluereceipt.sabre.com/jb/headerb.jpg" /></td>
-                        </tr>
-                    </table>
-                </div>
 
-                <!-- navigation-->
-                <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" sty=
-le=3D"margin:0 auto;width:565px;">
-                    <tr><td colspan=3D"5" height=3D"8"></td></tr>
+</Purchase>
+-->                               =20
+                <=21-- End booking builder section Section -->
+
+
+
+
+
+
+
+=20
+
+
+
+
+
+
+
+
+
+
+
+=20
+
+
+
+                 <=21-- set swabiz flag -->
+
+
+
+
+
+
+
+
+    <p><style type=3D=22text/css=22>=20
+	=2Eyshortcuts =7Bcolor:none;=7D
+	html =7B -webkit-text-size-adjust:none; =7D</style></p>
+    <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+      <center>
+      <tbody>
+        <tr>
+          <td align=3D=22center=22><=21-- Start Header -->
+          <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=22690=
+=22>
+            <tbody>
+              <tr>
+                <td colspan=3D=222=22 align=3D=22left=22>
+                <div style=3D=22line-height: 14px; font-family: arial,verda=
+na; color: =23999999; font-size: 10px=22>You&=2339;re all set for your trip=
+=21</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign=3D=22top=22 align=3D=22left=22>
+                <div style=3D=22line-height: 14px; font-family: arial,verda=
+na; color: =23999999; font-size: 10px=22><a style=3D=22color: =23999999=22 =
+href=3D=22=23=22></div>
+                </td>
+
+                <td valign=3D=22top=22 rowspan=3D=222=22 align=3D=22right=
+=22>
+
+
+ <=21-- Start Barcode=20
+
+
+=20
+
+=20
+
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                  <tbody>
                     <tr>
-                        <td style=3D"float:left;padding:0 24px;font-size:12=
-px;font-weight:bold;border-right:1px solid #ccc;"><a style=3D"color:#4b90cd=
-;" href=3D"https://checkin.jetblue.com/B6WebCheckIn/WebCheckIn.html">Check =
-in</a></td>
-                        <td style=3D"float:left;padding:0 24px;font-size:12=
-px;font-weight:bold;border-right:1px solid #ccc;"><a style=3D"color:#4b90cd=
-;" href=3D"http://www.jetblue.com/flightstatus/?source=3Dempreflight_flight=
-status">Flight status</a></td>
-                        <td style=3D"float:left;padding:0 24px;font-size:12=
-px;font-weight:bold;border-right:1px solid #ccc;"><a style=3D"color:#4b90cd=
-;" href=3D"http://myflights.jetblue.com/B6.myb/">Change/Cancel</a></td>
-                        <td style=3D"float:left;padding:0 24px;font-size:12=
-px;font-weight:bold;border-right:1px solid #ccc;"><a style=3D"color:#4b90cd=
-;" href=3D"http://myflights.jetblue.com/B6.myb/">Seats</a></td>
-                        <td style=3D"float:left;padding:0 24px;font-size:12=
-px;font-weight:bold;"><a style=3D"color:#4b90cd;" href=3D"http://www.jetblu=
-e.com/help/topics/help_topic_baggageinfo.html?source=3Dempreflight_changese=
-at">Baggage info</a></td>
-                    </tr>
-                    <tr><td colspan=3D"5" height=3D"12"></td></tr>
-                </table>
-            </div>
+                      <td width=3D=22110=22 align=3D=22left=22>
+                      <div style=3D=22line-height: 12px; font-family: arial=
+,verdana; color: =23535353; font-size: 10px; margin-right: 8px=22>Scan this=
+ barcode at any Southwest kiosk to check in=2E</div>
+                      </td>
+                      <td width=3D=22140=22 align=3D=22right=22>
+
+<img border=3D=220=22 alt=3D=22=22 width=3D=22140=22 height=3D=2256=22 styl=
+e=3D=22display: block=22 src=3D=22http://www=2Esouthwest=2Ecom/flight/genco=
+nbc?source=3DWN=2ECOM&confirmationNumber=3DGCKBVK&documentType=3D1=22 />
 
                     </td>
-                </tr>
-                <tr>
-                    <td>
-                    <!--content-->
-                        <div>
-
-                <div class=3D"clearfix" style=3D"padding:0px 0 0px 0px;" al=
-ign=3D"left">
-                    <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
- width=3D"100%">
-                        <tr height=3D"15"><td></td></tr>
-                        <tr>
-                            <td align=3D"left">
-                                <h1 style=3D"font-size:30px;float:left;disp=
-lay:block;">Skip the line, check in now!</h1>
-                            </td>
-                            <td height=3D"33" valign=3D"center" align=3D"ri=
-ght" style=3D"padding-right:20px;padding-top:10px;padding-left:10px" rowspa=
-n=3D"2">
-                                <a href=3D"https://checkin.jetblue.com/B6We=
-bCheckIn/WebCheckIn.html" title=3D"Check in"><img src=3D"https://jetbluerec=
-eipt.sabre.com/jb/btn-check-in.gif" width=3D"104" height=3D"33" border=3D"0=
-"></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p align=3D"left" style=3D"font-size:12px;f=
-loat:left;line-height:18px;">
-                                Check in online by printing your boarding p=
-ass now. When you get to the airport, go straight to security if you have n=
-o bags to check.=20
-                                Please use your confirmation number, not ti=
-cket number, to check in.=20
-                                </p>
-                            </td>
-                        </tr>
-                        <tr height=3D"25"><td></td></tr>
-                    </table>
-                </div>
-
-                <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" wid=
-th=3D"100%">
-                    <tr valign=3D"center">
-                        <td width=3D"9" height=3D"32"><img src=3D"https://j=
-etbluereceipt.sabre.com/jb/bg-confirmation-left.gif"></td>
-                        <td width=3D"100%" height=3D"32" bgcolor=3D"#d8e8f5=
-" align=3D"left" style=3D"padding:0px 0 0px 2px;font-size:16px;font-weight:=
-bold;color:#004a91;">
-                            Your confirmation number is QOUHAI.
-                        </td>
-                        <td width=3D"9" height=3D"32"><img src=3D"https://j=
-etbluereceipt.sabre.com/jb/bg-confirmation-right.gif"></td>
                     </tr>
-                    <tr height=3D"26"><td></td></tr>
+                  </tbody>
                 </table>
-=09=09=09=09<div style=3D"border-bottom:5px solid  #e5e5e5;">
-=09=09=09=09
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09=09=09=09=09=09<table border=3D"0">
-=09<tr>
-=09=09<td rowspan=3D"2" width=3D"150" align=3D"left" valign=3D"top"><img sr=
-c=3D"https://www.jetblue.com/email/even-more-space.gif" width=3D"132" heigh=
-t=3D"55" alt=3D"Even more space"/></td>
-=09=09<td align=3D"left"><div style=3D"color:#004A91; font-weight:bold;">Co=
-ngratulations</div></td>
-    </tr>
-    <tr>
-        <td style=3D"font-size: 11px;" align=3D"left" valign=3D"top">You ha=
-ve purchased an Even More Space seat which means you'll have extra legroom =
-to stretch in and you'll get to board early,=20
-=09=09plus have early access to overhead bins. In select cities, your purch=
-ase includes Even More Speed so you can also get to your gate faster with e=
-xpedited security.=20
-=09=09Enjoy! <a href=3D" www.jetblue.com/flying-on-jetblue/onboard/even-mor=
-e.asp" style=3D"color: #4B90CD">More&nbsp;info</a></td>
-    </tr>
+ End Barcode-->
+
+                </td>
+              </tr>
+              <tr>
+               <=21-- Start Logo -->
+<=21-- Start Logo -->
+                <td align=3D=22left=22>
+                <div><a href=3D=22www=2Esouthwest=2Ecom=22><img border=3D=
+=220=22 alt=3D=22Southwest Airlines=22 width=3D=22144=22 height=3D=2263=22 =
+style=3D=22display: block=22 src=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/=
+47562/14d/ig=2Ersys4=2Enet/responsysimages/swair/PROD_RTM_Purchase_V3/Purch=
+aseSiteLogo/header_logo=2Egif=22 /></a></div>
+                  </td>
+                <=21-- End Logo-->
+                <=21-- End Logo-->
+
+<td align=3D=22right=22 valign=3D=22bottom=22>
+<=21-- Start pre Nav -->
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                  <tbody>
+                    <tr>
+                      <td height=3D=2225=22 valign=3D=22bottom=22>
+                      <div style=3D=22line-height: 12px; font-family: arial=
+,verdana; margin-bottom: 3px; color: =231f6af6; font-size: 10px; font-weigh=
+t: bold=22><a style=3D=22color: =231f6af6=22 href=3D=22http://luv=2Esouthwe=
+st=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVRVLuHptV2daG1=
+1GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22><u>My Accou=
+nt</u></a> =7C <a style=3D=22color: =231f6af6=22 href=3D=22http://luv=2Esou=
+thwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSVLuHptV2=
+daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22><u>View=
+ My Itinerary Online</u></a>
+                      </div>
+<br>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <=21-- End pre Nav--></td>
+
+
+              </tr>
+            </tbody>
+          </table>
+          <=21-- End Header-->
+
+          <=21-- Start Navbar -->
+<=21-- Start Navbar -->
+
+<=21-- Start Navbar -->
+          <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=22690=
+=22 background=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersy=
+s4=2Enet/responsysimages/swair/PROD_RTM_Purchase_V3/AirNavHeader/nav_bg=2Eg=
+if=22 bgcolor=3D=22=230f146f=22>
+            <tbody>
+              <tr>
+                <td width=3D=225=22><img border=3D=220=22 alt=3D=22=22 widt=
+h=3D=225=22 height=3D=2244=22 style=3D=22display: block=22 src=3D=22http://=
+a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/sw=
+air/PROD_RTM_Purchase_V3/AirNavHeader/nav_left=2Egif=22 /></td>
+                <td valign=3D=22middle=22 width=3D=22680=22 align=3D=22cent=
+er=22>
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                  <tbody>
+                    <tr>
+                      <td align=3D=22right=22>
+                      <div style=3D=22line-height: 12px; font-family: arial=
+,verdana; color: =23ffffff; font-size: 11px; font-weight: bold; margin-righ=
+t: 17px=22><a style=3D=22color: =23ffffff; text-decoration: none=22 href=3D=
+=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf=
+6beQ8wfVaVTVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTW=
+TWYCVXLX=22>Check In Online</a></div>
+                      </td>
+                      <td><img border=3D=220=22 alt=3D=22=22 width=3D=222=
+=22 height=3D=2234=22 style=3D=22display: block=22 src=3D=22http://a248=2Ee=
+=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair/PROD=
+_RTM_Purchase_V3/AirNavHeader/nav_div=2Egif=22 /></td>
+                      <td align=3D=22center=22>
+                      <div style=3D=22line-height: 12px; font-family: arial=
+,verdana; color: =23ffffff; margin-left: 17px; font-size: 11px; font-weight=
+: bold; margin-right: 20px=22><a style=3D=22color: =23ffffff; text-decorati=
+on: none=22 href=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQq=
+AV2daG11GeE06zeGxEf6beQ8wfVaVUVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f4=
+1SQTYBQoHnUrICLQSTWTWYCVXLX=22>Check Flight Status</a></div>
+                      </td>
+                      <td><img border=3D=220=22 alt=3D=22=22 width=3D=222=
+=22 height=3D=2234=22 style=3D=22display: block=22 src=3D=22http://a248=2Ee=
+=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair/PROD=
+_RTM_Purchase_V3/AirNavHeader/nav_div=2Egif=22 /></td>
+                      <td align=3D=22center=22>
+                      <div style=3D=22line-height: 12px; font-family: arial=
+,verdana; color: =23ffffff; margin-left: 17px; font-size: 11px; font-weight=
+: bold; margin-right: 20px=22><a style=3D=22color: =23ffffff; text-decorati=
+on: none=22 href=3D=22http://www=2Esouthwest=2Ecom/travel_center/changeItin=
+erary=2Ehtml=22>Change Flight</a></div>
+                      </td>
+                      <td><img border=3D=220=22 alt=3D=22=22 width=3D=222=
+=22 height=3D=2234=22 style=3D=22display: block=22 src=3D=22http://a248=2Ee=
+=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair/PROD=
+_RTM_Purchase_V3/AirNavHeader/nav_div=2Egif=22 /></td>
+                      <td align=3D=22center=22>
+                      <div style=3D=22line-height: 12px; font-family: arial=
+,verdana; color: =23ffffff; margin-left: 17px; font-size: 11px; font-weight=
+: bold; margin-right: 20px=22><a style=3D=22color: =23ffffff; text-decorati=
+on: none=22 href=3D=22http://travel=2Esouthwest=2Ecom/specialoffers/topOffe=
+rs=2Ehtml=22>Special Offers</a></div>
+                      </td>
+                      <td><img border=3D=220=22 alt=3D=22=22 width=3D=222=
+=22 height=3D=2234=22 style=3D=22display: block=22 src=3D=22http://a248=2Ee=
+=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair/PROD=
+_RTM_Purchase_V3/AirNavHeader/nav_div=2Egif=22 /></td>
+                      <td align=3D=22center=22>
+                      <div style=3D=22line-height: 12px; font-family: arial=
+,verdana; color: =23ffffff; margin-left: 17px; font-size: 11px; font-weight=
+: bold; margin-right: 20px=22><a style=3D=22color: =23ffffff; text-decorati=
+on: none=22 href=3D=22http://travel=2Esouthwest=2Ecom/specialoffers/hotelOf=
+fers=2Ehtml=22>Hotel Deals</a></div>
+                      </td>
+                      <td><img border=3D=220=22 alt=3D=22=22 width=3D=222=
+=22 height=3D=2234=22 style=3D=22display: block=22 src=3D=22http://a248=2Ee=
+=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair/PROD=
+_RTM_Purchase_V3/AirNavHeader/nav_div=2Egif=22 /></td>
+                      <td align=3D=22center=22>
+                      <div style=3D=22line-height: 12px; font-family: arial=
+,verdana; color: =23ffffff; margin-left: 17px; font-size: 11px; font-weight=
+: bold=22><a style=3D=22color: =23ffffff; text-decoration: none=22 href=3D=
+=22http://travel=2Esouthwest=2Ecom/specialoffers/carOffers=2Ehtml=22>Car De=
+als</a></div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                </td>
+                <td width=3D=225=22><img border=3D=220=22 alt=3D=22=22 widt=
+h=3D=225=22 height=3D=2244=22 style=3D=22display: block=22 src=3D=22http://=
+a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/sw=
+air/PROD_RTM_Purchase_V3/AirNavHeader/nav_right=2Egif=22 /></td>
+              </tr>
+            </tbody>
+          </table>
+          <=21-- End Navbar-->
+
+          <=21-- End Navbar-->
+           <=21-- endNavbar -->
+
+          <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+            <tbody>
+              <tr>
+                <td height=3D=2220=22></td>
+              </tr>
+            </tbody>
+          </table>
+          <=21-- Start Main -->
+          <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=22690=
+=22>
+            <tbody>
+              <tr>
+                <td width=3D=22500=22 align=3D=22left=22>
+                <=21-- Start Body -->
+
+                 <=21-- Start Section 1 -->
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=
+=22500=22>
+                  <tbody>                 =20
+<tr>
+                      <td colspan=3D=222=22 align=3D=22left=22>
+                      <div style=3D=22line-height: 19px; font-family: arial=
+,verdana; margin-bottom: 5px; color: =23000000; margin-left: 10px; font-siz=
+e: 17px; font-weight: bold=22>
+
+Ready for takeoff=21
+
+                       </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height=3D=222=22 valign=3D=22top=22 colspan=3D=22=
+2=22><img border=3D=220=22 alt=3D=22=22 width=3D=22500=22 height=3D=222=22 =
+style=3D=22display: block=22 src=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/=
+47562/14d/ig=2Ersys4=2Enet/responsysimages/swair/PROD_RTM_Purchase_V3/Purch=
+aseThankyouMsg/div_solid_500px=2Egif=22 /></td>
+                    </tr>
+                    <tr>
+                      <td height=3D=2210=22 colspan=3D=222=22></td>
+                    </tr>
+                    <tr>
+                      <td>
+
+<img border=3D=220=22 alt=3D=22=22 width=3D=2268=22 height=3D=2232=22 style=
+=3D=22display: block=22 src=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562=
+/14d/ig=2Ersys4=2Enet/responsysimages/swair/PROD_RTM_Purchase_V3/PurchaseTh=
+ankyouTripImg/main_img1=2Egif=22 />
+
+                      </td>
+                      <td align=3D=22left=22>
+                      <div style=3D=22line-height: 14px; font-family: arial=
+,verdana; color: =23535353; margin-left: 5px; font-size: 11px=22>Thanks for=
+ choosing Southwest for your trip=21 You&=2339;ll find everything you need =
+to know about your reservation below=2E Happy travels=21</div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=
+=22500=22>
+                  <tbody>
+                  <=21-- trip message -->
+<tr>
+                      <td height=3D=228=22 colspan=3D=222=22></td>
+                    </tr>
+                    <tr>
+                      <td colspan=3D=222=22 align=3D=22left=22>
+                      <div style=3D=22line-height: 19px; font-family: arial=
+,verdana; color: =23000000; margin-left: 10px; font-size: 15px=22>
+                      <b>Upcoming Trip:</b>                     =20
+                      <span style=3D=22color: =23535353; font-size: 11px=22=
+>12/21/12 - Denver</span>
+                      </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height=3D=222=22 colspan=3D=222=22><img border=3D=
+=220=22 alt=3D=22=22 width=3D=22500=22 height=3D=222=22 style=3D=22display:=
+ block=22 src=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys=
+4=2Enet/responsysimages/swair/PROD_RTM_Purchase_V3/PurchaseTripMsg/div_soli=
+d_500px=2Egif=22 /></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <=21-- End Section 1-->
+
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                  <tbody>
+                    <tr>
+                      <td height=3D=2216=22></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <=21-- Start Air Section -->
+
+
+
+
+  =20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       =20
+
+
+
+       =20
+
+
+
+
+
+
+=20
+
+
+
+
+
+
+ =20
+
+
+
+
+
+
+ =20
+
+<=21-- Start Air Section -->
+<table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=22500=22>
+    <tbody>
+        <tr>
+            <td width=3D=2210=22>
+            </td>
+            <td width=3D=22490=22 align=3D=22left=22>
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=
+=22490=22>
+                    <tbody>
+                        <tr>
+                            <td height=3D=2224=22 width=3D=2224=22 align=3D=
+=22left=22>
+                                <img border=3D=220=22 alt=3D=22=22 width=3D=
+=2224=22 height=3D=2224=22 style=3D=22display: block=22 src=3D=22http://a24=
+8=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair=
+/PROD_RTM_Purchase_V3/AirReservation/air_logo_lg=2Ejpg=22 />
+                            </td>
+                            <td width=3D=227=22>
+                            </td>
+                            <td bgcolor=3D=22=23323a9f=22 background=3D=22h=
+ttp://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysima=
+ges/swair/PROD_RTM_Purchase_V3/AirReservation/air_header_bg=2Ejpg=22
+                                width=3D=22469=22>
+                                <div style=3D=22line-height: 14px; font-fam=
+ily: arial,verdana; color: =23ffffff; margin-left: 10px;
+                                    font-size: 12px; font-weight: bold=22>
+                                    AIR Itinerary</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                    <tbody>
+                        <tr>
+                            <td height=3D=223=22>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=
+=22490=22>
+                    <tbody>
+                        <tr>
+                            <td height=3D=2220=22 valign=3D=22bottom=22 ali=
+gn=3D=22left=22>
+                                <div style=3D=22line-height: 17px; font-fam=
+ily: arial,verdana; color: =23000000; font-size: 15px;
+                                    font-weight: bold=22>
+                                    AIR Confirmation: <span style=3D=22colo=
+r: =23fb5608=22>
+
+
+GCKBVK
+        </span></div>
+                            </td>
+                            <td valign=3D=22bottom=22 align=3D=22right=22>
+                                <div style=3D=22line-height: 14px; font-fam=
+ily: arial,verdana; color: =23666666; font-size: 11px=22>
+                                    Confirmation Date:=20
+
+
+12/7/2012
+       =20
+                                 </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=224=
+90=22>
+                <tbody>
+                    <tr>
+                        <td height=3D=2216=22  valign=3D=22bottom=22 align=
+=3D=22left=22>
+                            <div style=3D=22line-height: 13px; font-family:=
+ arial,verdana; color: =23000000; font-size: 11px=22>            =20
+<b>
+
+
+
+
+
+
+ =20
+
+
+</b>
+
+
+
+
+       =20
+                            </div>
+                        </td>
+                        <td valign=3D=22bottom=22 align=3D=22right=22>
+                            <div style=3D=22line-height: 13px; font-family:=
+ arial,verdana; color: =23000000; font-size: 11px=22>            =20
+<b>
+
+
+
+
+
+
+ =20
+
+</b>
+
+
+
+
+       =20
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                    <tbody>
+                        <tr>
+                            <td height=3D=2216=22>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=
+=22490=22>
+                    <tbody>
+                        <tr>
+                            <td width=3D=22125=22 align=3D=22left=22>
+                                <div style=3D=22line-height: 13px; font-fam=
+ily: arial,verdana; color: =23000000; font-size: 11px=22>
+                                    <b>Passenger(s)</b></div>
+                            </td>
+                            <td width=3D=22101=22 align=3D=22left=22>
+                                <div style=3D=22line-height: 13px; font-fam=
+ily: arial,verdana; color: =23000000; font-size: 11px=22>
+                                    <b>Rapid Rewards =23</b></div>
+                            </td>
+                            <td width=3D=22100=22 align=3D=22left=22>
+                                <div style=3D=22line-height: 13px; font-fam=
+ily: arial,verdana; color: =23000000; font-size: 11px=22>
+                                    <b>Ticket =23</b></div>
+                            </td>
+                            <td width=3D=2267=22 align=3D=22left=22>
+                                <div style=3D=22line-height: 13px; font-fam=
+ily: arial,verdana; color: =23000000; font-size: 11px=22>
+                                    <b>Expiration</b></div>
+                            </td>
+                            <td width=3D=2297=22 align=3D=22left=22>
+                                <div style=3D=22line-height: 13px; font-fam=
+ily: arial,verdana; color: =23000000; font-size: 11px=22>
+                                    <b>Est=2E Points Earned</b></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height=3D=228=22 colspan=3D=225=22>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <=21-- Start Passenger Info -->
+
+
+
+
+
+=20
+
+<=21-- Start Passenger Info -->
+<table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=22490=22>
+    <tbody>
+        <tr>
+            <td height=3D=2217=22 valign=3D=22top=22 width=3D=22125=22 alig=
+n=3D=22left=22>
+                <div style=3D=22line-height: 13px; font-family: arial,verda=
+na; color: =23000000; font-size: 11px=22>
+HESSELGRAVE/TAY<br/>LOR</div>
+            </td>
+            <td valign=3D=22top=22 width=3D=22101=22 align=3D=22left=22>
+                <div style=3D=22line-height: 13px; font-family: arial,verda=
+na; color: =23000000; font-size: 11px=22>
+00020056936616</div>
+            </td>
+            <td valign=3D=22top=22 width=3D=22100=22 align=3D=22left=22>
+                <div style=3D=22line-height: 13px; font-family: arial,verda=
+na; color: =23000000; font-size: 11px=22>
+                    5262484898012</div>
+            </td>
+            <td valign=3D=22top=22 width=3D=2267=22 align=3D=22left=22>
+                <div style=3D=22line-height: 13px; font-family: arial,verda=
+na; color: =23000000; font-size: 11px=22>
+Sep 1, 2013</div>
+            </td>
+            <td valign=3D=22top=22 width=3D=2297=22 align=3D=22left=22>
+                <div style=3D=22line-height: 13px; font-family: arial,verda=
+na; color: =23000000; font-size: 11px=22>
+                    1620</div>
+            </td>
+        </tr>
+    </tbody>
 </table>
-<br/>=09=09=09=09=09=09=09=09=09</div>
-=09=09=09=09<br/>
-                <div align=3D"left">
+<=21-- End Passenger Info-->
 
-                    <h2 style=3D"font-size:18px;margin:0px 0 0;color:#004a9=
-1">Your itinerary</h2>
 
-                    <table cellspacing=3D"0" cellpadding=3D"0" style=3D"mar=
-gin:0px 0 0 0;" border=3D"0">
-                    <tr height=3D"16"><td></td></tr>
-                    <tr style=3D"border-bottom:1px solid #e5e5e5;" align=3D=
-"left">
-                        <th align=3D"left" id=3D"date" style=3D"padding:13p=
-x 11px;background:#f2f2f2;border-bottom:1px solid #e5e5e5;width:70px;">Date=
-</th>
-                        <th align=3D"left" style=3D"padding:13px 11px;backg=
-round:#f2f2f2;border-bottom:1px solid #e5e5e5;width:70px;">Departs/<br/>Arr=
-ives</th>
-                        <th align=3D"left" style=3D"padding:13px 11px;backg=
-round:#f2f2f2;border-bottom:1px solid #e5e5e5;width:150px;" id=3D"route">Ro=
-ute</th>
-                        <th align=3D"left" style=3D"padding:13px 11px;backg=
-round:#f2f2f2;border-bottom:1px solid #e5e5e5;">Flight / Operated&nbsp;by</=
-th>
-                        <th align=3D"left" style=3D"padding:13px 11px;backg=
-round:#f2f2f2;border-bottom:1px solid #e5e5e5;width:107px;" id=3D"travelers=
-">Travelers</th>
-                        <th align=3D"left" style=3D"padding:13px 11px;backg=
-round:#f2f2f2;border-bottom:1px solid #e5e5e5;">Frequent Flyer<sup>1</sup><=
-/th>
-                        <th align=3D"left" style=3D"padding:13px 11px;backg=
-round:#f2f2f2;border-bottom:1px solid #e5e5e5;">Seats<sup>2</sup></th>
-                        <th align=3D"left" style=3D"padding:13px 11px;backg=
-round:#f2f2f2;border-bottom:1px solid #e5e5e5;">Terminal</th>
-                    </tr>
-                                       =20
-                                       =20
 
-                                        <tr>
-                        <td align=3D"left" rowspan=3D"1" style=3D"padding:1=
-3px  11px  0px  11px;vertical-align:top;font-size: 8.5pt;">Thu,&nbsp;Oct&nb=
-sp;24</td>
-                        <td align=3D"left" rowspan=3D"1" style=3D"padding:1=
-3px  11px  0px  11px;vertical-align:top;font-size: 8.5pt;">8:55&nbsp; p.m.<=
-br/>11:59&nbsp; p.m.</td>
-                        <td align=3D"left" rowspan=3D"1" style=3D"padding:1=
-3px  11px  0px  11px;vertical-align:top;font-size: 8.5pt;">
-                            <strong>New York City,&nbsp; NY&nbsp;(JFK)</str=
-ong>&nbsp;to<br>
-                            <strong>Portland,&nbsp; OR&nbsp;(PDX)</strong>
-                        </td>
-                        <td align=3D"left" rowspan=3D"1" style=3D"padding:1=
-3px  11px  0px  11px;vertical-align:top;font-size: 8.5pt;text-align:center;=
-">1205<br/><img src=3D"http://img.ed4.net/jetblue/images/IMG/INT/B6.jpg" al=
-t=3D"B6" title=3D"B6"></td>
-                        <!-- only first passenger info - start -->
-                                               =20
-                                                                           =
-                                     <td align=3D"left" style=3D"font-size:=
- 8.5pt;padding: 13px  11px  0px  11px;vertical-align:top;width:107px;">Nich=
-olas angelo&nbsp;Hesselgrave</td>
-                               =20
-                                                                <td align=
-=3D"left" style=3D"font-size: 8.5pt;color:#f15722;font-weight:bold;padding:=
- 13px  11px  0px  11px;vertical-align:top;text-align:center;"><span style=
-=3D"font-size: 8.5pt;color:#f15722;font-weight:bold;">N/A</span></td>
-                                                               =20
-                                <td align=3D"left" style=3D"font-size: 8.5p=
-t;padding:13px 11px 3px 11px ; vertical-align: top;">
-                                <span style=3D"color:#f15722;font-weight:bo=
-ld;">
-                                                                    10A
-                                    &#42;  <!-- Even More Space seat -->
-                                                                </span>
-                               </td>
-                                                                           =
-                                   <td align=3D"left" rowspan=3D"1" style=
-=3D"font-size: 8.5pt;padding:13px  11px  0px  11px;vertical-align:top;text-=
-align:center;">5 &nbsp;</td>
-                    </tr>
 
-                                                                    =20
-                                <tr>
-                        <td align=3D"left" rowspan=3D"1" style=3D"padding:1=
-3px  11px  0px  11px;vertical-align:top;font-size: 8.5pt;">Sun,&nbsp;Oct&nb=
-sp;27</td>
-                        <td align=3D"left" rowspan=3D"1" style=3D"padding:1=
-3px  11px  0px  11px;vertical-align:top;font-size: 8.5pt;">9:21&nbsp; p.m.<=
-br/>5:19&nbsp;a.m.</td>
-                        <td align=3D"left" rowspan=3D"1" style=3D"padding:1=
-3px  11px  0px  11px;vertical-align:top;font-size: 8.5pt;">
-                            <strong>Portland,&nbsp; OR&nbsp;(PDX)</strong>&=
-nbsp;to<br>
-                            <strong>New York City,&nbsp; NY&nbsp;(JFK)</str=
-ong>
-                        </td>
-                        <td align=3D"left" rowspan=3D"1" style=3D"padding:1=
-3px  11px  0px  11px;vertical-align:top;font-size: 8.5pt;text-align:center;=
-">1206<br/><img src=3D"http://img.ed4.net/jetblue/images/IMG/INT/B6.jpg" al=
-t=3D"B6" title=3D"B6"></td>
-                        <!-- only first passenger info - start -->
-                                               =20
-                                                                           =
-                                     <td align=3D"left" style=3D"font-size:=
- 8.5pt;padding: 13px  11px  0px  11px;vertical-align:top;width:107px;">Nich=
-olas angelo&nbsp;Hesselgrave</td>
-                               =20
-                                                                <td align=
-=3D"left" style=3D"font-size: 8.5pt;color:#f15722;font-weight:bold;padding:=
- 13px  11px  0px  11px;vertical-align:top;text-align:center;"><span style=
-=3D"font-size: 8.5pt;color:#f15722;font-weight:bold;">N/A</span></td>
-                                                               =20
-                                <td align=3D"left" style=3D"font-size: 8.5p=
-t;padding:13px 11px 3px 11px ; vertical-align: top;">
-                                <span style=3D"color:#f15722;font-weight:bo=
-ld;">
-                                                                    10A
-                                    &#42;  <!-- Even More Space seat -->
-                                                                </span>
-                               </td>
-                                                                           =
-                                   <td align=3D"left" rowspan=3D"1" style=
-=3D"font-size: 8.5pt;padding:13px  11px  0px  11px;vertical-align:top;text-=
-align:center;"> &nbsp;</td>
-                    </tr>
 
-                                                                    =20
-            =20
-                    <tr>
-                        <td class=3D"clearStyle" colspan=3D"8" style=3D"pad=
-ding:5px 0;border-top:1px solid #e5e5e5;" align=3D"left">
-                            <span style=3D"color:#f15722;font-weight:bold;"=
->*</span> Even More Space
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class=3D"clearStyle" colspan=3D"8" style=3D"pad=
-ding:5px 0;" align=3D"left">
-                            <span style=3D"font-weight:bold;"><sup>1</sup><=
-/span> To provide a frequent flyer number please call 1-800-JETBLUE (538-25=
-83).
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class=3D"clearStyle" colspan=3D"8" style=3D"pad=
-ding:5px 0;border-bottom:1px solid #e5e5e5;" align=3D"left">
-                            <span style=3D"font-weight:bold;"><sup>2</sup><=
-/span> Seats requests on other airlines are not guaranteed until confirmed =
-by the operating carrier.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan=3D"8" style=3D"padding: 0 0 20px 0; bor=
-der-bottom:0px solid #e5e5e5;">
-                            <p align=3D"left" style=3D"margin:10px 0;color:=
-#f15722;font-weight:bold;">
-                                 Your ticket numbers are:
-                            </p>
-                                                                           =
-             <table border=3D"0" cellspacing=3D"0" align=3D"left" style=3D"=
-margin:0;">
-                                                                <!-- LESS T=
-HAN 4 TICKETS TO DISPLAY -->
-                                <tr style=3D"color:#f15722;font-weight:bold=
-;" align=3D"left">
-                                    <td style=3D"padding:0;">
-                                                                           =
-                                                                           =
-                  Nicholas angelo&nbsp;Hesselgrave:
-                                                                           =
-                                                                           =
-                                                                           =
-               2792100902446
-                                                                           =
-                                                                           =
-                                                                      </td>
-                                </tr>
-                               =20
-                                                            </table>
-                                                    </td>
-                    </tr>
+=20
+                <=21-- End Passenger Info-->
+               =20
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=
+=22490=22>
+                    <tbody>
+                        <tr>
+                            <td height=3D=227=22>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align=3D=22left=22>
+                                <div style=3D=22line-height: 14px; font-fam=
+ily: arial,verdana; color: =23666666; font-size: 9px=22>
+                                <br>
 
+
+Rapid Rewards points earned are only estimates=2E Visit your (MySouthwest, =
+Southwest=2Ecom or Rapid Rewards) account for the most accurate totals - in=
+cluding A-List & A-List Preferred bonus points=2E
+
+
+
+
+
+
+
+
+
+
+
+
+=20
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <=21-- Div -->
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=
+=22490=22>
+                    <tbody>
+                        <tr>
+                            <td align=3D=22left=22>
+                                <img border=3D=220=22 alt=3D=22=22 width=3D=
+=22480=22 height=3D=222=22 style=3D=22display: block=22 src=3D=22http://a24=
+8=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair=
+/PROD_RTM_Purchase_V3/AirReservation/div_solid_480px=2Egif=22 />
+                            </td>
+                            <td height=3D=2210=22>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=
+=22490=22>
+                    <tbody>
+                        <tr>
+                            <td width=3D=2275=22 align=3D=22left=22>
+                                <div style=3D=22line-height: 14px; font-fam=
+ily: arial,verdana; color: =23666666; font-size: 11px;
+                                    font-weight: bold=22>
+                                    Date</div>
+                            </td>
+                            <td width=3D=2271=22 align=3D=22left=22>
+                                <div style=3D=22line-height: 14px; font-fam=
+ily: arial,verdana; color: =23666666; font-size: 11px;
+                                    font-weight: bold=22>
+                                    Flight</div>
+                            </td>
+                            <td width=3D=22344=22 align=3D=22left=22>
+                                <div style=3D=22line-height: 14px; font-fam=
+ily: arial,verdana; color: =23666666; font-size: 11px;
+                                    font-weight: bold=22>
+                                    Departure/Arrival</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                    <tbody>
+                        <tr>
+                            <td height=3D=2210=22>
+                            </td>
+                        </tr>
+                    </tbody>
                 </table>
 
+                <=21-- Start Flight Info -->
+               <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                  <tbody>
+                      <tr>
+                           <td height=3D=2210=22> </td>            =20
+                     </tr>
+                </tbody>
+               </table>
+
+
+
+
+
+
+
+=20
+
+
+=20
+
+
+
+
+
+
+=20
+
+
+
+
+
+
+
+
+
+
+
+
+<=21-- Start Flight Info -->
+<table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=22490=22>
+    <tbody>
+
+<=21-- spacing between transfer flights -->
+<tr>
+<td colspan=3D=223=22>
+ <div style=3D=22line-height: 8px; font-family: arial,verdana; color: =2300=
+0000; font-size: 8px=22>
+               =20
+</div>
+</td>
+</tr>
+
+        <tr>
+            <td valign=3D=22top=22 width=3D=2275=22 align=3D=22left=22>
+                <div style=3D=22line-height: 14px; font-family: arial,verda=
+na; color: =23000000; font-size: 11px=22>
+Fri Dec 21
+
+
+
+</div>
+
+            </td>
+            <td valign=3D=22top=22 width=3D=2271=22 align=3D=22left=22>
+                <div style=3D=22line-height: 14px; font-family: arial,verda=
+na; color: =23000000; font-size: 11px=22>
+
+                    3952<br />
+<div style=3D=22color:=23888=22>
+                   =20
+                    </div>
+                </div>
+            </td>
+            <td valign=3D=22top=22 width=3D=22344=22 align=3D=22left=22>
+                <div style=3D=22line-height: 14px; font-family: arial,verda=
+na; color: =23000000; font-size: 11px=22>
+                    <div>
+Depart&nbsp;<b>PORTLAND OR</b>&nbsp;&=2340;PDX&=2341;&nbsp;at&nbsp;<b>6:50 =
+PM</b>
+                     </div>
+                                       =20
+                    <div>
+Arrive in <b>DENVER CO</b>&nbsp;&=2340;DEN&=2341;&nbsp;at&nbsp;<b>10:10 PM<=
+/b>
+                    </div>
+                    <div>
+<div>
+Travel Time&nbsp;2 hrs 20 mins
+  </div>
+                    </div>
+                    <div>
+<a href=3D=22http://www=2Esouthwest=2Ecom/html/air/fare-information=2Ehtml=
+=23discount=22>Wanna Get Away</a>
+                    </div>
                 </div>
 
+            </td>
 
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+        </tr>    =20
+<tr>
 
-=09=09=09=09<div style=3D"text-align:left;margin:0 0 0px;border-bottom:5px =
-solid  #e5e5e5;">
-=09=09=09=09=09<div style=3D"color: #004A91; font-size: 18px; font-weight: =
-bold; padding-top: 12px;">Even More&#153; Extras</div>
-=09=09=09=09=09<br/>
-=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" bo=
-rder=3D"0">
-=09=09=09=09=09<tr>
-=09=09=09=09=09=09<td width=3D"151" align=3D"left" style=3D"padding:7px 7px=
-; font-size:12px; font-weight:bold; vertical-align:top; background:#f2f2f2;=
- border-bottom:1px solid #e5e5e5;">Even More&#153; Extras</td>
-=09=09=09=09=09=09<td width=3D"232" align=3D"left" style=3D"padding:7px 7px=
-; font-size:12px; font-weight:bold; vertical-align:top; background:#f2f2f2;=
- border-bottom:1px solid #e5e5e5;">Route</td>
-=09=09=09=09=09=09<td width=3D"51" align=3D"left" style=3D"padding:7px 7px;=
- font-size:12px; font-weight:bold; vertical-align:top; background:#f2f2f2; =
-border-bottom:1px solid #e5e5e5;">Flight</td>
-=09=09=09=09=09=09<td width=3D"152" align=3D"left" style=3D"padding:7px 7px=
-; font-size:12px; font-weight:bold; vertical-align:top; background:#f2f2f2;=
- border-bottom:1px solid #e5e5e5;">Travelers</td>
-=09=09=09=09=09</tr>
-=09=09=09=09=09
-=09=09=09
-=09=09=09
-=09=09=09=09=09=09
-=09=09=09
-=09=09=09=09=09=09
-=09=09=09
-=09=09=09 =09=09=09=09
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09=09=09=09=09=09=09=09=09=09=09<td align=3D"left" style=3D"padding:7px 7p=
-x; vertical-align:top; font-size:11px;"><strong>Even More&#153; Speed</stro=
-ng></td>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09
-=09=09=09=09=09=09=09<td align=3D"left" style=3D"padding:7px 7px; vertical-=
-align:top; font-size:11px;">
-                                <strong>New York City,&nbsp; NY&nbsp;(JFK)<=
-/strong>&nbsp;to<br>
-                                <strong>Portland,&nbsp; OR&nbsp;(PDX)</stro=
-ng>
+<td colspan=3D=223=22>
+
+
+
+
+
+</td>
+
+</tr>
+    </tbody>
+</table>
+<=21-- End Flight Info-->
+
+
+
+
+=20
+                <=21-- End Flight Info-->                   =20
+           =20
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=
+=22490=22>
+                    <tbody>
+                        <tr>
+                            <td height=3D=2210=22>
                             </td>
-=09=09=09=09=09=09=09<td align=3D"left" style=3D"padding:7px 7px; vertical-=
-align:top; font-size:11px;">1205</td>
-=09=09=09=09=09=09=09<td align=3D"left" style=3D"padding:7px 7px; vertical-=
-align:top; font-size:11px;">
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09Nicholas angelo&nbsp;Hes=
-selgrave<br/>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
-=09=09=09=09=09=09</tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09<tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09=09=09=09=09=09=09=09=09=09=09<td></td>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09
-=09=09=09=09=09=09=09<td align=3D"left" style=3D"padding:7px 7px; vertical-=
-align:top; font-size:11px;">
-                                <strong>Portland,&nbsp; OR&nbsp;(PDX)</stro=
-ng>&nbsp;to<br>
-                                <strong>New York City,&nbsp; NY&nbsp;(JFK)<=
-/strong>
+                            <td align=3D=22left=22>
+                                <img border=3D=220=22 alt=3D=22=22 width=3D=
+=22480=22 height=3D=222=22 style=3D=22display: block=22 src=3D=22http://a24=
+8=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair=
+/PROD_RTM_Purchase_V3/AirReservation/div_solid_480px=2Egif=22 />
                             </td>
-=09=09=09=09=09=09=09<td align=3D"left" style=3D"padding:7px 7px; vertical-=
-align:top; font-size:11px;">1206</td>
-=09=09=09=09=09=09=09<td align=3D"left" style=3D"padding:7px 7px; vertical-=
-align:top; font-size:11px;">
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09Nicholas angelo&nbsp;Hes=
-selgrave<br/>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
-=09=09=09=09=09=09</tr>
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09
-=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
-=09=09=09=09=09=09
-=09=09=09
-=09=09=09=09=09=09
-=09=09=09
-=09=09=09 =09=09=09=09=09<tr>
-=09=09=09=09=09=09<td colspan=3D"4">&nbsp;</td>
-=09=09=09=09=09</tr>
-        </table>
-
-=09=09=09=09</div>
-=09=09=09=09
-                <div style=3D"text-align:center;margin:0 0 0px;">
-                    <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
- height=3D"118">
-                        <tr height=3D"18"><td colspan=3D"3"></td></tr>
-                        <tr><td colspan=3D"3"><a style=3D"float:none;width:=
-100%;text-align:center;text-decoration:none" class=3D"clearfix"><h3 style=
-=3D"font-size:24px;">Before take off</h3></a></td></tr>
-                        <tr height=3D"18"><td colspan=3D"3"></td></tr>
-                        <tr valign=3D"top">
-                        <td width=3D"33%" align=3D"left" style=3D"border-ri=
-ght:1px solid #ccc;height:118px;padding-left:10px;padding-right:10px;">
-                        <a style=3D"margin-left:0;padding-left:0;line-heigh=
-t:16px;text-decoration:none;"><h3 style=3D"font-size:14px;margin:0 0 10px 0=
-;">Helpful travel tips</h3></a>
-                        <ul style=3D"display:block;float:left;text-align:le=
-ft;list-style:disc;">
-                            <li style=3D"margin-left:15px;padding-left:0;li=
-ne-height:16px;"><a href=3D"http://help.jetblue.com/SRVS/CGI-BIN/webisapi.d=
-ll?New,Kb=3DaskBlue,case=3Dobj(2327)">Special needs</a></li>
-                            <li style=3D"margin-left:15px;padding-left:0;li=
-ne-height:16px;"><a href=3D"http://help.jetblue.com/SRVS/CGI-BIN/webisapi.d=
-ll?New,Kb=3DaskBlue,case=3Dobj(1939)">Infants</a></li>
-                            <li style=3D"margin-left:15px;padding-left:0;li=
-ne-height:16px;"><a href=3D"http://help.jetblue.com/SRVS/CGI-BIN/webisapi.d=
-ll?New,Kb=3DaskBlue,case=3Dobj(675)">Unaccompanied minors</a></li>
-                            <li style=3D"margin-left:15px;padding-left:0;li=
-ne-height:16px;"><a href=3D"http://help.jetblue.com/SRVS/CGI-BIN/webisapi.d=
-ll?New,Kb=3DaskBlue,case=3Dobj(2032)">Pets</a></li>
-                        </ul>
-                        </td>
-                        <td width=3D"33%" style=3D"border-right:1px solid #=
-ccc;text-align:left;height:118px;padding-left:10px;padding-right:13px;">
-                        <a style=3D"padding:0 0px;line-height:16px;text-dec=
-oration:none;"><h3 style=3D"font-size:14px;margin:0 0 10px 0px;">Pack, drop=
-, and go!</h3></a>
-                        <p style=3D"line-height:16px;">Check in, get your b=
-oarding pass and have your bags picked up from your hotel, convention or ot=
-her select area several hours before your flight. <a href=3D"http://www.jet=
-blue.com/deals/bags/?source=3Dempreflight_bags">Learn more</a></p>
-                        </td>
-                        <td width=3D"33%" style=3D"height:118px;padding-lef=
-t:10px;padding-right:13px;" align=3D"left">
-                        <a style=3D"padding:10 0px;line-height:16px;text-de=
-coration:none;"><h3 style=3D"font-size:14px;margin:0 0 10px 0px;">We all ha=
-ve baggage</h3></a>
-                            <p style=3D"line-height:16px;">
-                                Find everything you need to know about your=
-s.<br/><a href=3D"http://www.jetblue.com/help/topics/help_topic_baggageinfo=
-.html?source=3Dempreflight_baginfo">Checked and carry-on baggage</a> inform=
-ation.
-                            </p>
-                        </td>
-                        </tr>
-                        <tr height=3D"25"><td colspan=3D"3" style=3D"border=
--bottom:5px solid  #e5e5e5;">&nbsp;</td></tr>
-                    </table>
-
-                </div>
-
-
-                <div style=3D"margin:0 0 0px 0px">
-                    <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
- width=3D"100%" style=3D"border-bottom:5px solid #e5e5e5;">
-                        <tr height=3D"30"><td></td></tr>
-                        <tr><td valign=3D"bottom" colspan=3D"2"><h2 align=
-=3D"left" style=3D"display:block;width:100%;clear:both;font-size:18px;color=
-:#004A91;">Insurance confirmation</h2></td>
-                                                    <td valign=3D"top" rows=
-pan=3D"3">
-                                <table border=3D"0" cellspacing=3D"0" cellp=
-adding=3D"0">
-                                    <tr height=3D"17"><td></td></tr>
-                                    <tr><td>
-                                    <img src=3D"https://jetbluereceipt.sabr=
-e.com/jb/allianz_logo.png" width=3D"114" height=3D"32" alt=3D"" align=3D"ri=
-ght"/>
-                                    </td></tr>
-                                </table>
+                            <td height=3D=2210=22>
                             </td>
                         </tr>
-                        <tr height=3D"8"><td></td></tr>
-                        <tr><td>
-                        <p align=3D"left">For Allianz Global Assistance fli=
-ght insurance inquiries, please call 1-800-284-8300.</p>
-                        </td>
+                    </tbody>
+                </table>
+                <=21-- Start Total -->
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=
+=22490=22>
+                    <tbody>
+                        <tr>
+                            <td align=3D=22right=22>
+                                <div style=3D=22line-height: 14px; font-fam=
+ily: arial,verdana; color: =23666666; font-size: 11px;
+                                    margin-right: 18px=22>
+                                    <b>Air Cost:</b>=20
+
+
+
+       =20
+
+
+       =20
+
+
+       =20
+
+
+       =20
+
+
+       =20
+
+
+       =20
+
+280=2E80
+       =20
+                                </div>
+                            </td>
                         </tr>
-
-                        <tr height=3D"23"><td></td><td></td></tr>
-                    </table>
-                </div>
-
-                <div align=3D"left">
-
-                    <div style=3D"margin:0 0 0px 0;padding-bottom:15px;">
-
-                            <table border=3D"0" cellspacing=3D"0" cellpaddi=
-ng=3D"0">
-                                <tr height=3D"25"><td></td><td></td></tr>
-                                <tr><td colspan=3D"2" align=3D"left"><h2 st=
-yle=3D"font-size:18px;">Special travel deals</h2></td></tr>
-                                <tr height=3D"20"><td colspan=3D"2"></td></=
-tr>
-                                <tr><td>
-                                    <table border=3D"0" width=3D"100%" styl=
-e=3D"border:none;">
+                    </tbody>
+                </table>
+                <=21-- End Total-->
+                <=21-- Start Fare Rules -->
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=
+=22490=22>
+                    <tbody>
+                        <tr>
+                            <td height=3D=2216=22>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align=3D=22left=22>
+                                <table cellspacing=3D=220=22 cellpadding=3D=
+=220=22>
+                                    <tbody>
                                         <tr>
-                                            <td width=3D"100" valign=3D"top=
-">
-                                                <a href=3D"https://www.amer=
-icanexpress.com/applyjetblue316"><img src=3D"http://www.jetblue.com/email/0=
-909/JB_bubblesCard_88x85.gif" border=3D"0"/></a>
-                                            </td>
-                                            <td align=3D"left">
-                                                <div>
-                                                    <b>Get 20,000 TrueBlue&=
-reg; points</b> after spending $1,000 with your Card in your first 3 months=
- of Cardmembership.<sup>1</sup>=20
-                                                    <a style=3D"color:#4b90=
-cd; text-decoration:none;" href=3D"https://www.americanexpress.com/applyjet=
-blue316">Apply Now</a>.
-                                                </div>
+                                            <td height=3D=224=22>
                                             </td>
                                         </tr>
-                                    </table>
-                                </td></tr>
-                                <tr><td height=3D"10" style=3D"border-botto=
-m:1px solid #ccc;">&nbsp;</td></tr>
-                                <tr><td>&nbsp;</td></tr>
-                                <tr><td align=3D"left">
-                                    <table border=3D"0" cellspacing=3D"0" c=
-ellpadding=3D"0">
-
-                                <tr valign=3D"top">
-                                    <td width=3D"106" align=3D"left" valign=
-=3D"top" style=3D"padding-left: 0px; padding-top: 0px;" ><a href=3D"http://=
-www.jetblue.com/hotels/?source=3Dempreflight_hotels"><img src=3D"https://je=
-tbluereceipt.sabre.com/jb/hotels.jpg" alt=3D"" border=3D"0" /></a></td>
-                                    <td style=3D"padding-left: 0px; padding=
--top: 5px;" align=3D"left" valign=3D"top">
-                                        <p>We've teamed up with <a href=3D"=
-http://www.jetblue.com/hotels/?source=3Dempreflight_hotels">hotels.com</a> =
-to offer you a huge selection of hotels.</p>
-                                        <ul style=3D"list-style:disc;margin=
-:10px 0 10px 25px;">
-                                            <li>Special Internet Rate Price=
- Match Guarantee <sup>2</sup></li>
-                                            <li>No Change or Cancel fee <su=
-p>3</sup></li>
-                                            <li>No phone booking fee</li>
-                                            <li>Thousands of TripAdvisor&re=
-g; customer reviews</li>
-                                        </ul>
-                                        <p><a href=3D"http://www.jetblue.co=
-m/hotels/?source=3Dempreflight_hotels">Click here</a> or call <strong>800-5=
-44-3581</strong> to book your hotel now.</p>
-                                    </td>
-                                </tr>
+                                    </tbody>
                                 </table>
-                                </td></tr>
+<div style=3D=22line-height: 14px; font-family: arial,verdana; color: =2353=
+5353; font-size: 11px; margin-right: 18px=22>
+                                 Carry-on Items: 1 Bag + small personal ite=
+m are free <a style=3D=22color: =231f6af6; text-decoration: none=22 href=3D=
+=22http://www=2Esouthwest=2Ecom/html/customer-service/baggage/carryon-bags-=
+pol=2Ehtml=22>see full details</a>=2E Checked Items: First and second bags =
+are free, <a style=3D=22color: =231f6af6; text-decoration: none=22 href=3D=
+=22http://www=2Esouthwest=2Ecom/html/customer-service/baggage/checked-bags-=
+pol=2Ehtml=22>size and weight limits apply</a>=2E
+                                </div>
+                                <div style=3D=22line-height: 14px; font-fam=
+ily: arial,verdana; color: =23535353; font-size: 11px; margin-right: 18px;m=
+argin-top:10px=22>
+                                    Fare Rule(s):=20
 
-                                <tr height=3D"15"><td></td><td></td></tr>
-                            </table>
+                                    <=21-- start Fare rules-->
 
 
-                    </div>
 
-                    <div>
-                        <table border=3D"0" cellpadding=3D"0" cellspacing=
-=3D"0">
-                            <tr height=3D"16"><td style=3D"border-top:1px s=
-olid #ccc;" colspan=3D"2">&nbsp;</td></tr>
+
+
+
+
+=20
+
+=20
+
+
+
+
+       =20
+
+
+
+5262484898012: NONREF/NONTRANSFERABLE/STANDBY REQ UPGRADE TO Y///=2E
+<br/>=20
+
+                                  <=21-- end Fare rules--> =20
+
+                                  Valid only on Southwest Airlines=2E All t=
+ravel involving funds from this Confirmation Number must be completed by th=
+e expiration date=2E Unused travel funds may only be applied toward the pur=
+chase of future travel for the individual named on the ticket=2E Any change=
+s to this itinerary may result in a fare increase=2E
+
+                                   <=21-- start Fare calc--> =20
+                                 <br/><br/>
+
+
+PDX WN DEN251=2E16BLN7HNR 251=2E16 END ZPPDX XFPDX4=2E5 AY2=2E50=24PDX2=2E50
+<br/>=20
+                                  <=21-- end Fare calc--> =20
+
+                                 </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td height=3D=2215=22>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <=21-- End Fare Rules -->
+
+
+
+
+
+
+                <=21-- Start Reminder -->
+<table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=22490=22>
+                    <tbody>
+                        <tr>
+                            <td height=3D=2211=22>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height=3D=2225=22 align=3D=22left=22>
+                                <div style=3D=22line-height: 18px; font-fam=
+ily: arial,verdana; color: =23000000; font-size: 15px;
+                                    font-weight: bold=22>
+                                    Important Check-In Reminder</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height=3D=222=22>
+                                <img border=3D=220=22 alt=3D=22=22 width=3D=
+=22480=22 height=3D=222=22 style=3D=22display: block=22 src=3D=22http://a24=
+8=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair=
+/PROD_RTM_Purchase_V3/AirCheckinReminder/div_solid_480px=2Egif=22 />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align=3D=22left=22>
+                                <table cellspacing=3D=220=22 cellpadding=3D=
+=220=22>
+                                    <tbody>
+                                        <tr>
+                                            <td height=3D=224=22>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div style=3D=22line-height: 14px; font-fam=
+ily: arial,verdana; color: =23535353; font-size: 11px;
+                                    margin-right: 18px=22>
+
+
+=20
+
+                                    Be sure to arrive at the departure gate=
+ with your boarding pass at least 10 minutes
+                                    before your scheduled departure time=2E=
+ Otherwise, your reserved space may be cancelled
+                                    and you won&=2339;t be eligible for den=
+ied booking compensation=2E</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height=3D=2215=22>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <=21-- End Reminder-->
+
+            </td>
+        </tr>
+    </tbody>
+</table>
+<=21-- End Air Section-->
+
+<table cellspacing=3D=220=22 cellpadding=3D=220=22>
+    <tbody>
+        <tr>
+            <td height=3D=2225=22>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 <=21-- air footer --> =20
+<table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=22490=22>
+        <tbody>
+            <tr>
+                <td width=3D=22199=22 align=3D=22left=22>
+                    <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                        <tbody>
                             <tr>
-                                <td width=3D"106" valign=3D"top" align=3D"l=
-eft">
-                                    <a href=3D"http://www.jetblue.com/cars/=
-?source=3DEMpreflight_cars">
-                                        <img src=3D"https://jetbluereceipt.=
-sabre.com/jb/cars.jpg" alt=3D"" border=3D"0" />
-                                    </a>
+                                <td valign=3D=22bottom=22 align=3D=22left=
+=22>
+                                    <a href=3D=22http://www=2Esouthwest=2Ec=
+om/html/customer-service/airport-experience/boarding-school/=22>
+                                        <img border=3D=220=22 alt=3D=22Go t=
+o Boarding School=22 width=3D=2234=22 height=3D=2243=22 style=3D=22display:=
+ block=22
+                                            src=3D=22http://a248=2Ee=2Eakam=
+ai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair/PROD_RTM_Pu=
+rchase_V3/AirPurchaseFooter/main_img2=2Ejpg=22 /></a>
                                 </td>
-                                <td align=3D"left">
-                                <p>Find great car rentals from Hertz, Enter=
-prise, Dollar, Avis and more <a href=3D"http://www.jetblue.com/cars/?source=
-=3DEMpreflight_cars" target=3D"_blank">right here</a> - no need to go websi=
-te hopping.</p>
+                                <td valign=3D=22bottom=22 align=3D=22left=
+=22>
+                                    <div style=3D=22line-height: 14px; font=
+-family: arial,verdana; color: =231f6af6; margin-left: 8px;
+                                        font-size: 11px=22>
+                                        <a style=3D=22color: =231f6af6; tex=
+t-decoration: none=22 href=3D=22http://www=2Esouthwest=2Ecom/html/customer-=
+service/airport-experience/boarding-school/=22>
+                                            Go to Boarding School<img borde=
+r=3D=220=22 alt=3D=22=22 width=3D=2213=22 height=3D=227=22 style=3D=22displ=
+ay: inline=22
+                                                src=3D=22http://a248=2Ee=2E=
+akamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair/PROD_RT=
+M_Purchase_V3/AirPurchaseFooter/arw1=2Egif=22 /></a></div>
                                 </td>
                             </tr>
-                            <tr height=3D"16"><td></td></tr>
-                        </table>
-                    </div>
-                    <div>
-                            <table cellspacing=3D"0" cellpadding=3D"0" styl=
-e=3D"border-top:1px solid #ccc;">
-                            <tr height=3D"16"><td></td><td></td></tr>
-                            <tr><td valign=3D"top" align=3D"left" width=3D"=
-106">
-                                <a href=3D"http://www.jetblue.com/tools/exi=
-t.asp?intcmp=3DclIMGLimores&uri=3Dhttp://limos.jetblue.com"><img src=3D"htt=
-ps://jetbluereceipt.sabre.com/jb/towncar.gif" width=3D"84" height=3D"35" al=
-t=3D"" align=3D"left" border=3D"0"/></a>
+                        </tbody>
+                    </table>
+                </td>
+                <td width=3D=22291=22 align=3D=22left=22>
+                    <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                        <tbody>
+                            <tr>
+                                <td valign=3D=22bottom=22 align=3D=22left=
+=22>
+                                    <a href=3D=22http://luv=2Esouthwest=2Ec=
+om/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVWVLuHptV2daG11GeE06=
+zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>
+                                        <img border=3D=220=22 alt=3D=22Earl=
+yBird Check&=2345;in &=2345; A More Convenient Way To Travel=22 width=3D=22=
+96=22
+                                            height=3D=2241=22 style=3D=22di=
+splay: block=22 src=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=
+=2Ersys4=2Enet/responsysimages/swair/PROD_RTM_Purchase_V3/AirPurchaseFooter=
+/main_img3=2Ejpg=22 /></a>
+                                </td>
+                                <td valign=3D=22bottom=22 align=3D=22left=
+=22>
+                                    <div style=3D=22line-height: 14px; font=
+-family: arial,verdana; color: =231f6af6; margin-left: 8px;
+                                        font-size: 11px=22>
+                                        <a style=3D=22color: =231f6af6; tex=
+t-decoration: none=22 href=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kO=
+HpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVWVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb=
+9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>
+                                            Get EarlyBird<br />
+                                            Check	&=2345;In<span style=3D=
+=22 font-size: 8px=22><sup>TM</sup></span> Details<img border=3D=220=22 alt=
+=3D=22=22 width=3D=2213=22 height=3D=227=22 style=3D=22display: inline=22
+                                                src=3D=22http://a248=2Ee=2E=
+akamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair/PROD_RT=
+M_Purchase_V3/AirPurchaseFooter/arw1=2Egif=22 /></a></div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 
+
+                <=21-- End Air Section-->
+               =20
+                <=21-- Start HOTEL Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                               =20
+                <=21-- End HOTEL Section-->
+               =20
+                <=21-- Start CAR Section -->
+  =20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                         =20
+                <=21-- End CAR Section-->               =20
+               =20
+                <=21-- Start Cost and Payment Summary -->
+
+
+<=21-- Start Cost and Payment Summary -->
+<table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=22500=22>
+    <tbody>
+        <tr>
+            <td width=3D=2210=22>
+            </td>
+            <td align=3D=22left=22>
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=
+=22490=22>
+                    <tbody>
+                        <tr>
+                            <td height=3D=2221=22>
                             </td>
-                            <td align=3D"left">
-                                <p style=3D"margin:5px 0px 0px 0px;">
-                                    Ride in style with private car service =
-to/from the airport from our new partner, LimoRes. It's a&nbsp;lot less tha=
-n you think - rates start at just $49<sup>4</sup>. <a href=3D"http://www.je=
-tblue.com/tools/exit.asp?intcmp=3DclIMGLimores&uri=3Dhttp://limos.jetblue.c=
-om">Book online now</a>.
-                                </p>
-                            </td></tr>
-                            </table>
-                    </div>
+                        </tr>
+                        <tr>
+                            <td height=3D=2225=22 align=3D=22left=22>
+                                <div style=3D=22line-height: 18px; font-fam=
+ily: arial,verdana; color: =23000000; font-size: 15px;
+                                    font-weight: bold=22>
+                                    Cost and Payment Summary</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height=3D=222=22>
+                                <img border=3D=220=22 alt=3D=22=22 width=3D=
+=22480=22 height=3D=222=22 style=3D=22display: block=22 src=3D=22http://a24=
+8=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair=
+/PROD_RTM_Purchase_V3/CostAndPayment/div_solid_480px=2Egif=22 />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height=3D=227=22>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <=21-- Start Air Summary -->
+
+
+
+
+
+
+
+
+=20
+
+<=21-- Start Air Summary -->
+<table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=22490=22>
+    <tbody>
+        <tr>
+            <td width=3D=2213=22>
+                <img border=3D=220=22 alt=3D=22=22 width=3D=2213=22 height=
+=3D=2213=22 style=3D=22display: block=22 src=3D=22http://a248=2Ee=2Eakamai=
+=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair/PROD_RTM_Purc=
+hase_V3/AirCostAndPaymentRow/air_logo_sm=2Ejpg=22 />
+            </td>
+            <td align=3D=22left=22>
+                <div style=3D=22line-height: 14px; font-family: arial,verda=
+na; color: =23969595; margin-left: 6px;
+                    font-size: 11px=22>
+                    <b>AIR</b> &=2345; <span style=3D=22color: =23fb5608; f=
+ont-weight: bold=22>
+
+
+GCKBVK
+       =20
+                    </span></div>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D=222=22 colspan=3D=222=22>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=22490=22>
+    <tbody>
+        <tr>
+            <td valign=3D=22top=22 width=3D=22220=22 align=3D=22left=22>
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=
+=22220=22>
+                    <tbody>
+
+
+
+
+
+
+
+<tr>
+        <td valign=3D=22top=22 width=3D=2280%=22 align=3D=22left=22>
+            <div style=3D=22line-height: 14px; font-family: arial,verdana; =
+color: =23666666; font-size: 11px;text-align:left=22>
+                Base Fare
+            </div>
+        </td>
+       <td width=3D=221%=22 style=3D=22line-height: 14px; font-family: aria=
+l,verdana; color: =23666666; font-size: 11px;text-align:right=22>&=2336;</t=
+d>
+        <td width=3D=2219%=22 align=3D=22right=22 style=3D=22line-height: 1=
+4px; font-family: arial,verdana; color: =23666666; font-size: 11px;text-ali=
+gn:right=22>
+                      251=2E16
+        </td>
+    </tr>
+
+
+
+
+
+<tr>
+        <td valign=3D=22top=22 width=3D=2280%=22 align=3D=22left=22>
+            <div style=3D=22line-height: 14px; font-family: arial,verdana; =
+color: =23666666; font-size: 11px;text-align:left=22>
+                Excise Taxes
+            </div>
+        </td>
+       <td width=3D=221%=22 style=3D=22line-height: 14px; font-family: aria=
+l,verdana; color: =23666666; font-size: 11px;text-align:right=22>&=2336;</t=
+d>
+        <td width=3D=2219%=22 align=3D=22right=22 style=3D=22line-height: 1=
+4px; font-family: arial,verdana; color: =23666666; font-size: 11px;text-ali=
+gn:right=22>
+                      18=2E84
+        </td>
+    </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                       =20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+        <td valign=3D=22top=22 width=3D=2280%=22 align=3D=22left=22>
+            <div style=3D=22line-height: 14px; font-family: arial,verdana; =
+color: =23666666; font-size: 11px;text-align:left=22>
+                Segment Fee
+            </div>
+        </td>
+       <td width=3D=221%=22 style=3D=22line-height: 14px; font-family: aria=
+l,verdana; color: =23666666; font-size: 11px;text-align:right=22>&=2336;</t=
+d>
+        <td width=3D=2219%=22 align=3D=22right=22 style=3D=22line-height: 1=
+4px; font-family: arial,verdana; color: =23666666; font-size: 11px;text-ali=
+gn:right=22>
+                      3=2E80
+        </td>
+    </tr>
+
+
+
+
+
+<tr>
+        <td valign=3D=22top=22 width=3D=2280%=22 align=3D=22left=22>
+            <div style=3D=22line-height: 14px; font-family: arial,verdana; =
+color: =23666666; font-size: 11px;text-align:left=22>
+                Passenger Facility Charge
+            </div>
+        </td>
+       <td width=3D=221%=22 style=3D=22line-height: 14px; font-family: aria=
+l,verdana; color: =23666666; font-size: 11px;text-align:right=22>&=2336;</t=
+d>
+        <td width=3D=2219%=22 align=3D=22right=22 style=3D=22line-height: 1=
+4px; font-family: arial,verdana; color: =23666666; font-size: 11px;text-ali=
+gn:right=22>
+                      4=2E50
+        </td>
+    </tr>
+
+
+
+
+
+<tr>
+        <td valign=3D=22top=22 width=3D=2280%=22 align=3D=22left=22>
+            <div style=3D=22line-height: 14px; font-family: arial,verdana; =
+color: =23666666; font-size: 11px;text-align:left=22>
+                September 11th Security Fee
+            </div>
+        </td>
+       <td width=3D=221%=22 style=3D=22line-height: 14px; font-family: aria=
+l,verdana; color: =23666666; font-size: 11px;text-align:right=22>&=2336;</t=
+d>
+        <td width=3D=2219%=22 align=3D=22right=22 style=3D=22line-height: 1=
+4px; font-family: arial,verdana; color: =23666666; font-size: 11px;text-ali=
+gn:right=22>
+                      2=2E50
+        </td>
+    </tr>
+
+
+
+
+
+
+
+            =20
+
+                        <tr>
+                             <td valign=3D=22top=22 width=3D=2280%=22 align=
+=3D=22left=22 style=3D=22border-top:1px solid =23333=22>
+                                  <div style=3D=22line-height: 14px; font-f=
+amily: arial,verdana; color: =23666666; font-size: 11px=22><b>Total Air Cos=
+t</b></div>
+                              </td>
+                             <td width=3D=221%=22 style=3D=22line-height: 1=
+4px; font-family: arial,verdana; color: =23666666; font-size: 11px;text-ali=
+gn:right;border-top:1px solid =23333=22><b>&=2336;</b></td>
+
+                            <td width=3D=2219%=22 valign=3D=22top=22 style=
+=3D=22border-top:1px solid =23333;line-height: 14px; font-family: arial,ver=
+dana; color: =23666666; font-size: 11px;text-align:right=22>
+                                <b>
+
+
+       =20
+
+
+       =20
+
+
+       =20
+
+
+       =20
+
+
+       =20
+
+
+       =20
+
+280=2E80
+        </b>
+                            </td>                           =20
+                        </tr>                       =20
+
+
+
+
+
+=20
+
+
+
+
+
+                    </tbody>
+                </table>
+            </td>
+            <td width=3D=2215=22>&nbsp;</td>
+            <td valign=3D=22top=22 width=3D=22270=22 align=3D=22left=22>
+                <div style=3D=22line-height: 14px; font-family: arial,verda=
+na; color: =23666666; font-size: 11px;=22>
+                    <div style=3D=22color: =23333; font-weight: bold=22>
+                        Payment Information</div>
+
+
+
+
+Payment Type: Visa XXXXXXXXXXXX4602 <br/>
+   Date: Dec 7, 2012 <br/>
+   Payment Amount:&nbsp;&=2336;215=2E80 <br/>
+<br>
+
+
+
+
+
+Tkls funds applied from Conf=234BHN98&nbsp;&=2340;&=2336;0=2E00&nbsp;remain=
+ing&=2341;&nbsp;&=2336;65=2E00 <br/>
+<br>
+
+                                           =20
+                    <div style=3D=22color: =23000000; font-weight: bold=22>
+<br/>
+
+
+
+
+
+
+
+ =20
+
+                   </div>
+
+
 
                 </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<=21-- End Air Summary-->
 
-                    <div align=3D"left" style=3D"margin:30px 0 0;">
-                        <div style=3D"margin-bottom:14px;margin-top:14px;te=
-xt-align:center;">
-                        <map name=3DInflightEntertaimentMap>
-                        <area shape=3DRect coords=3D"25, 35, 125, 165" href=
-=3D"http://www.jetblue.com/about/whyyoulllike/directv/guide/TribuneTVFront/=
-?source=3DPreflight:directv" alt=3DDIRECTV>
-                          <area shape=3DRect coords=3D"165, 35, 280, 155" h=
-ref=3D"http://www.jetblue.com/about/whyyoulllike/about_WhyXMRadio.html?sour=
-ce=3DPreflight:XMSatelilte"  alt=3D"XM radio">
-                          <area shape=3DRect coords=3D"320, 35, 440, 180"  =
- href=3D"http://www.jetblue.com/about/whyyoulllike/about_whysnacks.html?sou=
-rce=3DPreflight:dunkin" alt=3DSnacks>
-                          <area shape=3DRect coords=3D"475, 35, 590, 170" h=
-ref=3D"http://www.jetblue.com/about/whyyoulllike/about_WhyMoviesandMore.htm=
-l?source=3DPreflight:moviesnmore" alt=3D"JetBlue features">
-                          </map>
-                        <img border=3D"0" src=3D"https://jetbluereceipt.sab=
-re.com/jb/inflight-entertainment.jpg" usemap=3D"#InflightEntertaimentMap"/>=
-</div>
-                        <p style=3D"margin-bottom:15px;font-size:9pt;">&dag=
-ger;DIRECTV&reg; and XM Radio&reg; services are not available outside the c=
-ontinental U.S.; however, where applicable, movies from JetBlue Features&tr=
-ade; are offered complimentary on these routes.</p>
-                    </div>
-
-=09=09=09=09=09<div align=3D"left">
-                        ** Offer ends 8/31/2011, 11:59 PM, ET; valid for Tr=
-ueBlue members in good standing who purchase a full=20
-                        fare JetBlue ticket and who check in via <a href=3D=
-"http://jetblue.com">jetblue.com</a> or mobile check-in=20
-                        (100 TrueBlue points), or at a JetBlue airport kios=
-k (50 TrueBlue points). Offer starts 6/10/2011.
-=09=09=09=09=09</div>
-            <div align=3D"left" style=3D"margin:15px 0 0;">
-                <p style=3D"margin-bottom:20px;font-size:8pt;">
-                    1. <b>Welcome bonus offer not available to applicants w=
-ho have had this product or a Crewmember JetBlue Card account=20
-                    within the last 12 months.</b> You can earn 20,000 True=
-Blue&reg; points after you spend $1,000 on eligible purchases=20
-                    in your first three months of Cardmembership following =
-the time of Card account opening. Eligible purchases are purchases=20
-                    of goods or services minus returns and credits, and do =
-NOT include: fees or interest charges, balance transfers, cash=20
-                    advances, purchases of travelers checks, purchases or r=
-eloading of prepaid cards, or purchases of cash equivalents.=20
-                    TrueBlue points will be credited to your JetBlue TrueBl=
-ue Program account 6 to 8 weeks after the spend requirement has=20
-                    been reached. This offer is not valid for existing JetB=
-lue Cardmembers. You are eligible to receive points for only one=20
-                    Card account. Additional Cardmembers are not eligible.
-                    <br/><br/>
-                    2. Price Match Guarantee: Special Internet Rate reserva=
-tions booked through Hotels.com are guaranteed to be the lowest=20
-                    rate you can find.  If there is a lower rate available =
-for the same dates and the same hotel, you must contact Hotels.com=20
-                    prior to the property's cancellation deadline of your "=
-Special Internet Rate" reservation.  After verifying the lower rate,=20
-                    Hotels.com will, at its choice, either match the lower =
-rate or cancel the reservation without a cancellation fee. =20
-                    This Guarantee only applies to booked prepaid reservati=
-ons of rates indicated as "Special Internet Rates."=20
-                    It does not apply to special events such as New Year's,=
- the Super Bowl, Mardi Gras, JazzFest, etc. =20
-                    Other restrictions may apply. To learn more or to claim=
- a Guarantee, see=20
-                    <a href=3D"http://hotels.jetblue.com/index.jsp?pageName=
-=3Dguarantee">http://hotels.jetblue.com/index.jsp?pageName=3Dguarantee</a>.
-                    <br/><br/>
-                    3. No Change/Cancel Fees: Hotels.com does not charge a =
-change or cancel fee; however, each property has independent=20
-                    penalties for changes/cancellations. See full hotel det=
-ails and descriptions for details.
-                    <br/><br/>
-                    4. Advertised rates are based on trips between airports=
- and downtown metropolitan area locations in an economy=20
-                    class vehicle. Rates do not include additional charges =
-that may be applicable, such as charges for tolls, extra stops,=20
-                    parking fees, telephone usage, pets, extra in-car bags,=
- car seats, waiting time, or custom requests. Rates include=20
-                    local and state taxes and fees, except in NY, NJ, and C=
-T; passengers in these states are responsible for taxes and=20
-                    fees (including, in NY, a 2% NYC workmen's compensation=
- charge and 8.875% state and local sales taxes).=20
-                    Rates include gratuity, except in NY, NJ, and CT; passe=
-ngers traveling in these states are encouraged to provide=20
-                    appropriate gratuity based on the service received. Eco=
-nomy pricing may not be available at all times during the=20
-                    day or during certain weather conditions. Advertised ra=
-tes only apply for bookings made online at limos.jetblue.com=20
-                    or by calling 1-888-478-8190.
-                    <br/>
-                </p>
+<br/>
 
 
-                <p style=3D"margin-bottom:15px;font-size:10pt;">
-                    <b>CUSTOMER CONCERNS</b><br />
-                    Any customer inquiries or concerns can be addressed <a =
-href=3D"http://www.jetblue.com/help/contactus/">here</a>,=20
-                    emailed to dearjetblue@jetblue.com, or sent to JetBlue =
-Airways, 6322 South 3000 East, Suite G10, Salt Lake City, UT 84121.
-                </p>
-                <p style=3D"margin-bottom:15px;font-size:10pt;">
-                    <b>NOTICE OF INCORPORATED TERMS</b><br />
-                    All travel on JetBlue, whether it is domestic or intern=
-ational travel, is subject to JetBlue's Contract of Carriage,=20
-                    the terms of which are incorporated herein by reference=
-. International travel may also be subject to JetBlue's=20
-                    international passenger rules tariffs on file with the =
-U.S. and other governments, and, where applicable,=20
-                    the Montreal Convention or the Warsaw Convention and it=
-s amendments and special contracts. Incorporated terms include,=20
-                    but are not restricted to:
-                </p>
-                <p style=3D"margin-bottom:15px;font-size:10pt;">
-                    <b>NOTICE OF INCREASED GOVERNMENT TAX OR FEE</b><br />
-                    JetBlue reserves the right to collect additional paymen=
-t after a fare has been paid in full and tickets issued for=20
-                    any additional government taxes or fees assessed or imp=
-osed.
-                </p>
 
-                <p style=3D"margin-bottom:15px;font-size:10pt;">
-                    1. Liability limitations for baggage, including special=
- rules for fragile and perishable goods and the availability=20
-                    of excess valuation.<br />
-                    2. Liability limitations for personal injury or death. =
-<br />
-                    3. Claims restrictions, including time periods within w=
-hich passengers must file a claim or bring an action against JetBlue.<br />
-                    4. Rights of JetBlue to change the terms of contract. <=
-br />
-                    5. Rules on reservations, check-in, and refusal to carr=
-y. <br />
-                    6. JetBlue's rights and limits on its liability for del=
-ay or failure to perform service, including schedule changes,=20
-                    substitution of aircraft or alternate air carriers, and=
- rerouting.<br />
-                    7. Non-refundability of reservations.<br />
-                    8. The Contract of Carriage and tariffs may be inspecte=
-d at all JetBlue airport customer service counters,=20
-                    and upon request you have the right to receive by mail =
-a copy of the full text of the Contract of Carriage or tariffs.=20
-                    Additional information on items one through seven can b=
-e obtained on JetBlue's website at=20
-                    <a href=3D"http://www.jetblue.com/about/legal/legal.asp=
-?source=3Dempreflight_coc">www.JetBlue.com</a> or at any U.S. location wher=
-e=20
-                    JetBlue transportation is sold.
-                </p>
 
-                <p style=3D"margin-bottom:15px;font-size:10pt;">
-                    <b>CARRY-ON BAGGAGE RULES</b> <br />
-                    JetBlue flights - Each customer may bring one bag that =
-fits in the overhead bin plus one personal item (purse,=20
-                    briefcase, laptop, etc.) that fits under the seat in fr=
-ont free of charge. Any excess carry-on baggage will be=20
-                    checked baggage. Visit <a href=3D"http://www.jetblue.co=
-m/bags">http://www.jetblue.com/bags</a>=20
-                    and <a href=3D"http://www.tsa.gov">http://www.tsa.gov</=
-a> for more information. Connecting on our partner airlines=20
-                    (including Cape Air) =E2=80=93 The carry-on rules of a =
-partner airline apply when checking in to a JetBlue flight that is=20
-                    connecting to the partner. See <a href=3D"http://www.je=
-tblue.com/partners">http://www.jetblue.com/partners</a> for=20
-                    more information. While JetBlue may allow additional ca=
-rry-ons as a courtesy to customers connecting to our partner=20
-                    airline, JetBlue cannot guarantee that those bags will =
-be accepted for in-cabin travel on the partner. =20
-                    Customers are encouraged to abide by partner=E2=80=99s =
-rules for their entire journey to avoid additional checked=20
-                    baggage fees if their carry-ons do not meet size/weight=
- restrictions.
-                </p>
 
-                <p style=3D"margin-bottom:15px;font-size:10pt;">
-                    <b>CHECKED BAGGAGE ALLOWANCE/FEES</b> <br />
-                    Domestic JetBlue flights - JetBlue allows one free chec=
-ked bag, subject to size/weight restrictions. =20
-                    For flights booked on or after February 3, 2012 a $40.0=
-0 fee applies to a second checked bag ($35.00=20
-                    for flights booked before February 3, 2012), subject to=
- size/weight restrictions. A $75 fee applies for a third checked bag. =20
-                    Other fees apply for additional baggage and oversized o=
-r overweight baggage. Visit=20
-                    <a href=3D"http://www.jetblue.com/bags">http://www.jetb=
-lue.com/bags</a> for more information. International JetBlue=20
-                    flights - JetBlue allows one free checked bag, subject =
-to size/weight restrictions. For flights booked on or after=20
-                    February 3, 2012 a $40.00 fee applies to a second check=
-ed bag ($35.00 for flights booked before February 3, 2012).=20
-                    Excess baggage rules and size/weight restrictions may v=
-ary depending on load availability and country=20
-                    restrictions. See <a href=3D"www.jetblue.com/bags">www.=
-jetblue.com/bags</a> for more information. Travel on our=20
-                    partner airlines (excluding Cape Air*) =E2=80=93 Baggag=
-e rules and fees vary by partner airline and destination. JetBlue=20
-                    will follow our partner airlines' fees when customers a=
-re traveling on an itinerary including one of our partner airlines.=20
-                    Excess baggage rules and size/weight restrictions may v=
-ary depending on load availability. See=20
-                    <a href=3D"http://www.jetblue.com/partners">http://www.=
-jetblue.com/partners</a> for more information.
-                    <br/><br/>
-                    *For itineraries with a connection only to/from Cape Ai=
-r, JetBlue's standard fees apply. =20
-                </p>
 
-                <p style=3D"margin-bottom:15px;font-size:10pt;">
-                    <b>CHECK-IN TIMES</b><br />
-                    For domestic flights, customers traveling without check=
-ed baggage must obtain a boarding pass twenty (20)=20
-                    minutes prior to scheduled departure and customers trav=
-eling with checked baggage must obtain a boarding pass=20
-                    thirty minutes prior to scheduled departure.  Customers=
- must be present in the boarding gate are fifteen (15)=20
-                    minutes prior to scheduled departure or the posted airc=
-raft departure time. For international flights,=20
-                    customers traveling with or without checked bags must o=
-btain a boarding pass sixty (60) minutes prior to=20
-                    scheduled departure. Customers must be present in the b=
-oarding gate twenty (20) minutes prior to scheduled=20
-                    departure or the posted aircraft departure time.
-                </p>
 
-                <p style=3D"margin-bottom:15px;font-size:10pt;">
-                    <b>DOCUMENTATION REQUIREMENTS</b><br />
-                    For domestic travel, customers over the age of 18 will =
-be required to show a U.S. federal or state-issued photo ID=20
-                    that contains the following information: name, date of =
-birth, gender, expiration date and a tamper-resistant feature. =20
-                    Customers traveling to/from an international destinatio=
-n are required to present proper documentation at the time of=20
-                    check-in. Documents required for travel vary according =
-to citizenship, residency, country of travel, age (for minors),=20
-                    length of stay, purpose of visit, student status, etc. =
-Please check for specific requirements for the country,=20
-                    or countries, you are visiting to make sure you have th=
-e correct documents. In addition, Customers traveling to=20
-                    a country other than their country of citizenship or re=
-sidency are required to hold proof of return or onward travel.=20
-                    Failure to present proper documentation could result in=
- denied boarding.
-                </p>
 
-                <p style=3D"margin-bottom:15px;font-size:10pt;">
-                    <b>ADVICE TO INTERNATIONAL PASSENGERS ON LIMITATION OF =
-LIABILITY</b><br />
-                    Where a passenger's journey involves an ultimate destin=
-ation or a stop in a country other than the country of departure,=20
-                    either the Warsaw Convention and the Hague Protocol, th=
-eir amendments, and any special contracts of carriage embodied=20
-                    in applicable tariffs that waive Warsaw/Hague limits, o=
-r the Montreal Convention may apply to the entire journey=20
-                    including the portion within the countries of departure=
- or destination and, in some cases, may limit the liability=20
-                    of the carrier for death or personal injury, delay, and=
- for loss of or damage to baggage. The Montreal Convention,=20
-                    where applicable, does not impose, and special contract=
-s voluntarily entered into by many carriers, including JetBlue,=20
-                    waive, the Warsaw/Hague limitations for compensatory da=
-mages arising out of personal injury or wrongful death caused by=20
-                    an accident, as defined by the applicable treaty. The n=
-ames of carriers party to the special contracts are available at=20
-                    all ticket offices of such carriers and may be examined=
- upon request.
-                </p>
 
-                <p style=3D"margin-bottom:15px;font-size:10pt;">
-                    <b>NOTICE OF BAGGAGE LIABILITY LIMITS</b> <br />
-                    For international transportation (including domestic po=
-rtions) governed by the Montreal Convention,=20
-                    JetBlue's liability for baggage is limited to 1,131 SDR=
-s (see, <a href=3D"http://www.imf.org/">www.imf.org</a>=20
-                    for current value) per passenger unless a higher value =
-is declared and an extra charge is paid. For international=20
-                    transportation governed by the Warsaw Convention and th=
-e Hague Protocol and their amendments, JetBlue's liability=20
-                    for baggage is limited to $9.07 per pound for checked b=
-aggage and $400 per passenger for unchecked baggage unless=20
-                    a higher value is declared and an extra charge is paid.=
- Special rules may apply to valuable articles. For domestic=20
-                    transportation, JetBlue's liability for baggage is limi=
-ted to $3,300 per passenger. General baggage rules: As set=20
-                    forth more fully in its Contract of Carriage and intern=
-ational passenger rules tariffs, JetBlue will not be responsible=20
-                    for fragile or perishable goods. JetBlue assumes no lia=
-bility for oversized, overweight or overpacked baggage, or for=20
-                    loss of or damage to baggage parts such as wheels, stra=
-ps, pockets, pull handles, zippers, hanger hooks or other items=20
-                    attached to baggage. JetBlue will not be responsible fo=
-r the following items in checked or unchecked baggage: money,=20
-                    jewelry including watches, cameras, camcorders, any typ=
-e of electronic equipment, including computers, valuable papers=20
-                    or documents and other similar items as described in mo=
-re detail in the Contract of Carriage.=20
-                </p>
 
-                <p style=3D"margin-bottom:15px;font-size:12pt;">
-                    <b>NOTICE OF OVERBOOKING OF FLIGHTS</b><br />
-                    Although JetBlue does not intentionally overbook its fl=
-ights, there is a slight chance that a seat will not be=20
-                    available on a flight for which a person has a confirme=
-d reservation. If the flight is overbooked, no one will=20
-                    be denied a seat until airline personnel first ask for =
-volunteers willing to give up their reservation in exchange=20
-                    for compensation of the airline's choosing. If there ar=
-e not enough volunteers, JetBlue will deny boarding to other=20
-                    persons in accordance with its particular boarding prio=
-rity. With few exceptions, including failure to comply with=20
-                    JetBlue's check-in deadline (which are available upon r=
-equest from JetBlue), persons denied boarding involuntarily=20
-                    are entitled to compensation. The complete rules for th=
-e payment of compensation and JetBlue's boarding priorities=20
-                    are available at all airport ticket counters and boardi=
-ng locations. <b>Some airlines do not apply these consumer=20
-                    protections to travel from some foreign countries, alth=
-ough other consumer protections may be available.=20
-                    Check with your airline or your travel agent.
-                </b>
 
-                <p style=3D"margin-bottom:15px;font-size:10pt;">
-                    <center>JetBlue Airways, 6322 South 3000 East, Suite G1=
-0, Salt Lake City, UT 84121</center><br />
-                </p>
-            </div>
 
-            <div id=3D"footer">
-            </div>
-        </div>
-                    </td>
-                </tr>
-            </table></center>
-    </body>
+
+
+
+
+
+
+
+                <=21-- End Air Summary-->
+
+<table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=22490=22>
+                    <tbody>
+                        <tr>
+                            <td height=3D=2218=22>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height=3D=222=22 align=3D=22left=22>
+                                <img border=3D=220=22 alt=3D=22=22 width=3D=
+=22480=22 height=3D=222=22 style=3D=22display: block=22 src=3D=22http://a24=
+8=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair=
+/PROD_RTM_Purchase_V3/CostPaymentDottedSeparator/div_dotted_480px=2Egif=22 =
+/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height=3D=2212=22>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <=21-- Start Hotel Summary -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               =20
+               =20
+                <=21-- End Hotel Summary-->
+
+
+
+                <=21-- Start Car Summary -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <=21-- End Car Summary-->
+               =20
+            </td>
+        </tr>
+    </tbody>
+</table>
+<=21-- End Cost and Payment Summary-->               =20
+
+                <=21-- End Cost and Payment Summary-->
+               =20
+               <=21-- start misc modules -->
+<=21-- Start Secondary Modules -->
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=
+=22500=22>
+                  <tbody>
+                    <tr>
+                      <td valign=3D=22top=22 width=3D=22244=22 align=3D=22l=
+eft=22>
+
+                      <=21-- Start Module 1 -->
+                      <table cellspacing=3D=220=22 cellpadding=3D=220=22 wi=
+dth=3D=22244=22>
+                        <tbody>
+                          <tr>
+                            <td height=3D=225=22 colspan=3D=223=22><img bor=
+der=3D=220=22 alt=3D=22=22 width=3D=22244=22 height=3D=225=22 style=3D=22di=
+splay: block=22 src=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=
+=2Ersys4=2Enet/responsysimages/swair/PROD_RTM_Purchase_V3/PurchaseMiscModul=
+e/box_244px_top=2Egif=22 /></td>
+                          </tr>
+                          <tr>
+                            <td bgcolor=3D=22=23dddddd=22 height=3D=22153=
+=22 width=3D=222=22></td>
+                            <td bgcolor=3D=22=23fafafa=22 valign=3D=22top=
+=22 width=3D=22240=22 align=3D=22left=22><=21-- Module Content -->
+                            <table cellspacing=3D=220=22 cellpadding=3D=220=
+=22 width=3D=22240=22>
+                              <tbody>
+                                <tr>
+                                  <td height=3D=2270=22 valign=3D=22bottom=
+=22 align=3D=22left=22>
+                                  <div style=3D=22margin-left: 10px=22>
+                                  <table cellspacing=3D=220=22 cellpadding=
+=3D=220=22 width=3D=22219=22>
+                                    <tbody>
+                                      <tr>
+                                        <td width=3D=22219=22 colspan=3D=22=
+2=22 align=3D=22left=22><img border=3D=220=22 alt=3D=22=22 width=3D=2248=22=
+ height=3D=2226=22 style=3D=22display: block=22 src=3D=22http://a248=2Ee=2E=
+akamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair/PROD_RT=
+M_Purchase_V3/PurchaseMiscModule/box1_img1a=2Egif=22 /></td>
+                                      </tr>
+                                      <tr>
+                                        <td rowspan=3D=223=22 width=3D=2229=
+=22 align=3D=22left=22><img border=3D=220=22 alt=3D=22=22 width=3D=2229=22 =
+height=3D=2239=22 style=3D=22display: block=22 src=3D=22http://a248=2Ee=2Ea=
+kamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair/PROD_RTM=
+_Purchase_V3/PurchaseMiscModule/box1_img1b=2Egif=22 /></td>
+                                        <td height=3D=2219=22 width=3D=2219=
+0=22 align=3D=22left=22>
+                                        <div style=3D=22line-height: 16px; =
+font-family: arial,verdana; margin-bottom: 2px; color: =231f6af6; margin-le=
+ft: 8px; font-size: 15px; font-weight: bold=22><a href=3D=22http://luv=2Eso=
+uthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSUVLuHpt=
+V2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>Fligh=
+t Status Alerts</a></div>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td bgcolor=3D=22=238db2f8=22 heigh=
+t=3D=222=22></td>
+                                      </tr>
+                                      <tr>
+                                        <td height=3D=228=22></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td height=3D=2255=22 valign=3D=22middle=
+=22 align=3D=22left=22>
+                                  <div style=3D=22line-height: 15px; font-f=
+amily: arial,verdana; color: =23666666; margin-left: 10px; font-size: 12px;=
+ margin-right: 10px=22>Stay on your way with flight departure or arrival st=
+atus via text message or email=2E</div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td height=3D=2228=22 valign=3D=22top=22 =
+align=3D=22right=22>
+                                  <div style=3D=22line-height: 14px; font-f=
+amily: arial,verdana; color: =231f6af6; font-size: 12px; margin-right: 10px=
+=22><a style=3D=22color: =231f6af6; text-decoration: none=22 href=3D=22http=
+://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wf=
+VaVSUVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVX=
+LX=22><b>Subscribe Now</b><img border=3D=220=22 alt=3D=22=22 width=3D=2213=
+=22 height=3D=227=22 style=3D=22display: inline=22 src=3D=22http://a248=2Ee=
+=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair/PROD=
+_RTM_Purchase_V3/PurchaseMiscModule/arw1=2Egif=22 /></a></div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            </td>
+                            <td bgcolor=3D=22=23dddddd=22 height=3D=22153=
+=22 width=3D=222=22></td>
+                          </tr>
+                          <tr>
+                            <td height=3D=225=22 colspan=3D=223=22><img bor=
+der=3D=220=22 alt=3D=22=22 width=3D=22244=22 height=3D=225=22 style=3D=22di=
+splay: block=22 src=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=
+=2Ersys4=2Enet/responsysimages/swair/PROD_RTM_Purchase_V3/PurchaseMiscModul=
+e/box_244px_btm=2Egif=22 /></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <=21-- End Module 1-->
+
+                      </td>
+                      <td width=3D=2212=22></td>
+                      <td valign=3D=22top=22 width=3D=22244=22 align=3D=22l=
+eft=22><=21-- Start Module 2 -->
+                      <table cellspacing=3D=220=22 cellpadding=3D=220=22 wi=
+dth=3D=22244=22>
+                        <tbody>
+                          <tr>
+                            <td height=3D=225=22 colspan=3D=223=22><img bor=
+der=3D=220=22 alt=3D=22=22 width=3D=22244=22 height=3D=225=22 style=3D=22di=
+splay: block=22 src=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=
+=2Ersys4=2Enet/responsysimages/swair/PROD_RTM_Purchase_V3/PurchaseMiscModul=
+e/box_244px_top=2Egif=22 /></td>
+                          </tr>
+                          <tr>
+                            <td bgcolor=3D=22=23dddddd=22 height=3D=22153=
+=22 width=3D=222=22></td>
+                            <td bgcolor=3D=22=23fafafa=22 valign=3D=22top=
+=22 width=3D=22240=22 align=3D=22left=22><=21-- Module Content -->
+                            <table cellspacing=3D=220=22 cellpadding=3D=220=
+=22 width=3D=22240=22>
+                              <tbody>
+                                <tr>
+                                  <td height=3D=2259=22 valign=3D=22bottom=
+=22 align=3D=22left=22>
+                                  <div style=3D=22margin-left: 19px=22><a h=
+ref=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06=
+zeGxEf6beQ8wfVaVSWVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUr=
+ICLQSTWTWYCVXLX=22><img border=3D=220=22 alt=3D=22Download DING=21=22 width=
+=3D=22202=22 height=3D=2245=22 style=3D=22display: block=22 src=3D=22http:/=
+/a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/s=
+wair/PROD_RTM_Purchase_V3/PurchaseMiscModule/box2_img=2Egif=22 /></a></div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td height=3D=2266=22 valign=3D=22top=22 =
+align=3D=22left=22>
+                                  <table cellspacing=3D=220=22 cellpadding=
+=3D=220=22>
+                                    <tbody>
+                                      <tr>
+                                        <td height=3D=227=22></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <div style=3D=22line-height: 15px; font-f=
+amily: arial,verdana; color: =23666666; margin-left: 10px; font-size: 12px;=
+ margin-right: 10px=22>Get exclusive travel deals straight to your desktop =
+or iPhone=2E</div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td height=3D=2228=22 valign=3D=22top=22 =
+align=3D=22right=22>
+                                  <div style=3D=22line-height: 14px; font-f=
+amily: arial,verdana; color: =231f6af6; font-size: 12px; margin-right: 10px=
+=22><a style=3D=22color: =231f6af6; text-decoration: none=22 href=3D=22http=
+://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wf=
+VaVSWVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVX=
+LX=22><b>Download DING=21</b><img border=3D=220=22 alt=3D=22=22 width=3D=22=
+13=22 height=3D=227=22 style=3D=22display: inline=22 src=3D=22http://a248=
+=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair/=
+PROD_RTM_Purchase_V3/PurchaseMiscModule/arw1=2Egif=22 /></a></div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            </td>
+                            <td bgcolor=3D=22=23dddddd=22 height=3D=22153=
+=22 width=3D=222=22></td>
+                          </tr>
+                          <tr>
+                            <td height=3D=225=22 colspan=3D=223=22><img bor=
+der=3D=220=22 alt=3D=22=22 width=3D=22244=22 height=3D=225=22 style=3D=22di=
+splay: block=22 src=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=
+=2Ersys4=2Enet/responsysimages/swair/PROD_RTM_Purchase_V3/PurchaseMiscModul=
+e/box_244px_btm=2Egif=22 /></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <=21-- End Module 2--></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <=21-- End Secondary Modules-->
+
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                  <tbody>
+                    <tr>
+                      <td height=3D=2214=22></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <=21-- Start Rescue Module -->
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=
+=22500=22 bgcolor=3D=22=23fafafa=22>
+                  <tbody>
+                    <tr>
+                      <td height=3D=225=22 colspan=3D=223=22><img border=3D=
+=220=22 alt=3D=22=22 width=3D=22500=22 height=3D=225=22 style=3D=22display:=
+ block=22 src=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys=
+4=2Enet/responsysimages/swair/PROD_RTM_Purchase_V3/PurchaseMiscModule/box_5=
+00px_top=2Egif=22 /></td>
+                    </tr>
+                    <tr>
+                      <td bgcolor=3D=22=23dddddd=22 width=3D=222=22></td>
+                      <td height=3D=22205=22 valign=3D=22top=22 width=3D=22=
+496=22 align=3D=22left=22>
+                      <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                        <tbody>
+                          <tr>
+                            <td height=3D=228=22></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table cellspacing=3D=220=22 cellpadding=3D=220=22 wi=
+dth=3D=22496=22>
+                        <tbody>
+                          <tr>
+                            <td valign=3D=22top=22 width=3D=22160=22 align=
+=3D=22left=22>
+                            <div style=3D=22margin-left: 17px=22>
+                            <div style=3D=22line-height: 15px; font-family:=
+ arial,verdana; margin-bottom: 5px; color: =231f6af6; font-size: 13px=22><b=
+>Useful Tools</b></div>
+                            <div style=3D=22margin-bottom: 6px=22>
+                            <table cellspacing=3D=220=22 cellpadding=3D=220=
+=22>
+                              <tbody>
+                                <tr>
+                                  <td bgcolor=3D=22=23e2e2e2=22 height=3D=
+=221=22 width=3D=22136=22></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            </div>
+                            <div style=3D=22line-height: 12px; font-family:=
+ arial,verdana; color: =23666666; font-size: 10px=22>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTVL=
+uHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>C=
+heck-In Online</a></div>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVWVL=
+uHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>E=
+arly Bird Check-In</a></div>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSVL=
+uHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>V=
+iew/Share Itinerary</a></div>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSYV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>=
+Change Air Reservation</a></div>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://www=
+=2Esouthwest=2Ecom/travel_center/cancelAir=2Ehtml=22>Cancel Air Reservation=
+</a></div>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVUVL=
+uHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>C=
+heck Flight Status</a></div>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSUV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>=
+Flight Status Notification</a></div>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSAV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>=
+Book a Car</a></div>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSBV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>=
+Book a Hotel</a></div>
+                            </div>
+                            </div>
+                            </td>
+                            <td valign=3D=22top=22 width=3D=22176=22 align=
+=3D=22left=22>
+                            <div style=3D=22margin-left: 17px=22>
+                            <div style=3D=22line-height: 15px; font-family:=
+ arial,verdana; margin-bottom: 5px; color: =231f6af6; font-size: 13px=22><b=
+>Know Before You Go</b></div>
+                            <div style=3D=22margin-bottom: 6px=22>
+                            <table cellspacing=3D=220=22 cellpadding=3D=220=
+=22>
+                              <tbody>
+                                <tr>
+                                  <td bgcolor=3D=22=23e2e2e2=22 height=3D=
+=221=22 width=3D=22136=22></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            </div>
+                            <div style=3D=22line-height: 12px; font-family:=
+ arial,verdana; color: =23666666; font-size: 10px=22>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSCV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>=
+In the Airport</a></div>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVSDV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>=
+Baggage Policies</a></div>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTRV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>=
+Suggested Airport Arrival Times</a></div>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTSV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>=
+Security Procedures</a></div>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTTV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>=
+Customers of Size</a></div>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTUV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>=
+In the Air</a></div>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTWV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>=
+Purchasing and Refunds</a></div>
+                            </div>
+                            </div>
+                            </td>
+                            <td valign=3D=22top=22 width=3D=22160=22 align=
+=3D=22left=22>
+                            <div style=3D=22margin-left: 17px=22>
+                            <div style=3D=22line-height: 15px; font-family:=
+ arial,verdana; margin-bottom: 5px; color: =231f6af6; font-size: 13px=22><b=
+>Special Travel Needs</b></div>
+                            <div style=3D=22margin-bottom: 6px=22>
+                            <table cellspacing=3D=220=22 cellpadding=3D=220=
+=22>
+                              <tbody>
+                                <tr>
+                                  <td bgcolor=3D=22=23e2e2e2=22 height=3D=
+=221=22 width=3D=22136=22></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            </div>
+                            <div style=3D=22line-height: 12px; font-family:=
+ arial,verdana; color: =23666666; font-size: 10px=22>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTYV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>=
+Traveling with Children</a></div>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTAV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>=
+Traveling with Pets</a></div>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTBV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>=
+Unaccompanied Minors</a></div>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTCV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>=
+Baby on Board</a></div>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVTDV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>=
+Customers with Disabilities</a></div>
+                            </div>
+                            </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      </td>
+                      <td bgcolor=3D=22=23dddddd=22 width=3D=222=22></td>
+                    </tr>
+                    <tr>
+                      <td height=3D=225=22 colspan=3D=224=22><img border=3D=
+=220=22 alt=3D=22=22 width=3D=22500=22 height=3D=225=22 style=3D=22display:=
+ block=22 src=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys=
+4=2Enet/responsysimages/swair/PROD_RTM_Purchase_V3/PurchaseMiscModule/box_5=
+00px_btm=2Egif=22 /></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <=21-- End Rescue Module-->
+
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                  <tbody>
+                    <tr>
+                      <td height=3D=2210=22></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <=21-- Start Legal Module -->
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=
+=22500=22 bgcolor=3D=22=23fafafa=22>
+                  <tbody>
+                    <tr>
+                      <td height=3D=225=22 colspan=3D=223=22><img border=3D=
+=220=22 alt=3D=22=22 width=3D=22500=22 height=3D=225=22 style=3D=22display:=
+ block=22 src=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys=
+4=2Enet/responsysimages/swair/PROD_RTM_Purchase_V3/PurchaseMiscModule/box_5=
+00px_top=2Egif=22 /></td>
+                    </tr>
+                    <tr>
+                      <td bgcolor=3D=22=23dddddd=22 width=3D=222=22></td>
+                      <td height=3D=2278=22 valign=3D=22top=22 width=3D=224=
+96=22 align=3D=22left=22>
+                      <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                        <tbody>
+                          <tr>
+                            <td height=3D=228=22></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table cellspacing=3D=220=22 cellpadding=3D=220=22 wi=
+dth=3D=22496=22>
+                        <tbody>
+                          <tr>
+                            <td valign=3D=22top=22 width=3D=22160=22 colspa=
+n=3D=223=22 align=3D=22left=22>
+                            <div style=3D=22margin-left: 17px=22>
+                            <div style=3D=22line-height: 15px; font-family:=
+ arial,verdana; margin-bottom: 5px; color: =231f6af6; font-size: 13px=22><b=
+>Legal Policies &amp; Helpful Information</b></div>
+                            <div style=3D=22margin-bottom: 6px=22>
+                            <table cellspacing=3D=220=22 cellpadding=3D=220=
+=22>
+                              <tbody>
+                                <tr>
+                                  <td bgcolor=3D=22=23e2e2e2=22 height=3D=
+=221=22 width=3D=22462=22></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            </div>
+                            </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td valign=3D=22top=22 width=3D=22160=22 align=
+=3D=22left=22>
+                            <div style=3D=22margin-left: 17px=22>
+                            <div style=3D=22line-height: 12px; font-family:=
+ arial,verdana; color: =23666666; font-size: 10px=22>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://luv=
+=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVURV=
+LuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>=
+Privacy Policy</a></div>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://www=
+=2Esouthwest=2Ecom/html/about-southwest/terms-and-conditions/incorporated-t=
+erms=2Ehtml=22>Notice of Incorporated Terms</a></div>
+                            </div>
+                            </div>
+                            </td>
+                            <td valign=3D=22top=22 width=3D=22176=22 align=
+=3D=22left=22>
+                            <div style=3D=22margin-left: 17px=22>
+                            <div style=3D=22line-height: 12px; font-family:=
+ arial,verdana; color: =23666666; font-size: 10px=22>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://www=
+=2Esouthwest=2Ecom/assets/pdfs/corporate-commitments/customer-service-commi=
+tment=2Epdf=22>Customer Service Commitment</a></div>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22http://www=
+=2Esouthwest=2Ecom/html/customer-service/faqs=2Ehtml=22>FAQs</a></div>
+                            </div>
+                            </div>
+                            </td>
+                            <td valign=3D=22top=22 width=3D=22160=22 align=
+=3D=22left=22>
+                            <div style=3D=22margin-left: 17px=22>
+                            <div style=3D=22line-height: 12px; font-family:=
+ arial,verdana; color: =23666666; font-size: 10px=22>
+                            <div style=3D=22margin-bottom: 6px=22><a style=
+=3D=22color: =23666666; text-decoration: underline=22 href=3D=22https://www=
+=2Esouthwest=2Ecom/contact-us/contact-us=2Ehtml=22>Contact Us</a></div>
+                            </div>
+                            </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      </td>
+                      <td bgcolor=3D=22=23dddddd=22 width=3D=222=22></td>
+                    </tr>
+                    <tr>
+                      <td height=3D=225=22 colspan=3D=224=22><img border=3D=
+=220=22 alt=3D=22=22 width=3D=22500=22 height=3D=225=22 style=3D=22display:=
+ block=22 src=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys=
+4=2Enet/responsysimages/swair/PROD_RTM_Purchase_V3/PurchaseMiscModule/box_5=
+00px_btm=2Egif=22 /></td>
+                    </tr>
+                  </tbody>
+                </table>
+              <=21-- End Legal Module-->
+               <=21-- end misc modules -->
+
+          <=21-- Start Footer Nav -->
+<table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=22500=22 bgcolo=
+r=3D=22=23fafafa=22>
+      <tbody>
+        <tr>
+          <td height=3D=223=22 colspan=3D=223=22><img border=3D=220=22 alt=
+=3D=22=22 width=3D=22500=22 height=3D=223=22 style=3D=22display: block=22 s=
+rc=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/res=
+ponsysimages/swair/PROD_RTM_Purchase_V3/PurchaseFooterNav/box_690px_top=2Eg=
+if=22 /></td>
+        </tr>
+        <tr>
+          <td bgcolor=3D=22=23dddddd=22 width=3D=222=22></td>
+          <td height=3D=2220=22 width=3D=22496=22 align=3D=22left=22>
+          <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=22496=
+=22>
+            <tbody>
+              <tr>
+                <td align=3D=22left=22>
+                <div style=3D=22line-height: 12px; font-family: arial,verda=
+na; color: =23aaaaaa; margin-left: 8px; font-size: 9px=22><a style=3D=22col=
+or: =233883f6=22 href=3D=22http://www=2Esouthwest=2Ecom/cgi-bin/buildItiner=
+ary2=22>Book Air</a>&=23160;=7C&=23160;<a style=3D=22color: =233883f6=22 hr=
+ef=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06z=
+eGxEf6beQ8wfVaVSBVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrI=
+CLQSTWTWYCVXLX=22>Book Hotel</a>&=23160;=7C&=23160;<a style=3D=22color: =23=
+3883f6=22 href=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV=
+2daG11GeE06zeGxEf6beQ8wfVaVSAVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41=
+SQTYBQoHnUrICLQSTWTWYCVXLX=22>Book Car</a>&=23160;=7C&=23160;<a style=3D=22=
+color: =233883f6=22 href=3D=22http://leisure=2Esouthwest=2Etravelpn=2Ecom/V=
+acations/Cruise/Finder/0,,SWA,00=2Ehtml=22>Book Cruises</a>&=23160;=7C&=231=
+60;<a style=3D=22color: =233883f6=22 href=3D=22http://www=2Esouthwestvacati=
+ons=2Ecom=22>Book Vacation Packages</a>&=23160;=7C&=23160;<a style=3D=22col=
+or: =233883f6=22 href=3D=22http://travel=2Esouthwest=2Ecom/specialoffers/to=
+pOffers=2Ehtml=22>See Special Offers</a>&=23160;=7C&=23160;<a style=3D=22co=
+lor: =233883f6=22 href=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQ=
+WDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVRVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0=
+bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>Manage My Account</a></div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          </td>
+          <td bgcolor=3D=22=23dddddd=22 width=3D=222=22></td>
+        </tr>
+        <tr>
+          <td height=3D=223=22 colspan=3D=223=22><img border=3D=220=22 alt=
+=3D=22=22 width=3D=22500=22 height=3D=223=22 style=3D=22display: block=22 s=
+rc=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/res=
+ponsysimages/swair/PROD_RTM_Purchase_V3/PurchaseFooterNav/box_690px_btm=2Eg=
+if=22 /></td>
+        </tr>
+      </tbody>
+    </table>
+    <=21-- End Footer Nav-->
+    <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+      <tbody>
+        <tr>
+          <td height=3D=2210=22></td>
+        </tr>
+      </tbody>
+    </table>
+    <=21-- Start Footer Text -->
+    <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=22500=22>
+      <tbody>
+        <tr>
+          <td valign=3D=22top=22 width=3D=22500=22 align=3D=22left=22>
+          <div style=3D=22line-height: 14px; font-family: arial,verdana; co=
+lor: =23999999; font-size: 10px; margin-right: 8px=22>This is a post-only m=
+ailing from Southwest Airlines=2E Please do not attempt to respond to this =
+message=2E Your privacy is important to us, Please read our <a style=3D=22c=
+olor: =23999999; text-decoration: underline=22 href=3D=22http://luv=2Esouth=
+west=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVURVLuHptV2d=
+aG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22>Privacy =
+Policy</a>=2E&=23160;<br />
+          <br />
+          <sup>1</sup> All travel involving funds from this&=23160;Confirma=
+tion Number must be completed by the expiration date=2E</div>
+          <div style=3D=22line-height: 14px; font-family: arial,verdana; co=
+lor: =23999999; font-size: 10px; margin-right: 8px=22></div>
+          <div style=3D=22line-height: 14px; font-family: arial,verdana; co=
+lor: =23999999; font-size: 10px; margin-right: 8px=22><sup>2</sup> Security=
+ Fee is the government-imposed September 11th Security Fee=2E <br />
+          <br />
+          See <a style=3D=22color: =23999999; text-decoration: underline=22=
+ href=3D=22http://www=2Esouthwest=2Ecom/html/about-southwest/terms-and-cond=
+itions/incorporated-terms=2Ehtml=22>Southwest Airlines Co=2E Notice of Inco=
+rporation</a> <br />
+          See <a href=3D=22http://www=2Esouthwest=2Ecom/html/about-southwes=
+t/terms-and-conditions=22>Southwest Airlines Limit of Liability</a></div>
+          <div style=3D=22line-height: 14px; font-family: arial,verdana; co=
+lor: =23999999; font-size: 10px; margin-right: 8px=22><br />
+          Southwest Airlines<br />
+          P=2EO=2E Box 36647-1CR<br />
+          Dallas, TX 75235 <br />
+          <br />
+          <a style=3D=22color: =23999999; text-decoration: underline=22 hre=
+f=3D=22https://www=2Esouthwest=2Ecom/contact-us/contact-us=2Ehtml=22>Contac=
+t Us</a><br/>
+         <br/>
+          Copyright 2011 Southwest Airlines Co=2E All Rights Reserved=2E</d=
+iv>
+          </td>
+          <td valign=3D=22top=22 width=3D=22180=22 align=3D=22left=22><img =
+border=3D=220=22 alt=3D=22Southwest Airlines - Celebrating 40 Rockin Years=
+=22 width=3D=22180=22 height=3D=2280=22 style=3D=22display: block=22 src=3D=
+=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsy=
+simages/swair/PROD_RTM_Purchase_V3/PurchaseFooterNav/sw_40th_logo=2Egif=22 =
+/></td>
+        </tr>
+      </tbody>
+    </table>
+          <=21-- End Footer Nav -->
+
+                 <=21-- End Body-->
+                </td>
+                <td width=3D=2210=22></td>
+                <td valign=3D=22top=22 width=3D=22180=22 align=3D=22left=22>
+
+                <=21-- Start Right Rail -->
+
+
+
+<a href=3D=22http://ox-d=2Esouthwest=2Ecom/e/1=2E0/rc?cs=3D15044=22 ><img s=
+rc=3D=22http://ox-d=2Esouthwest=2Ecom/e/1=2E0/ai?auid=3D276365&cs=3D15044&c=
+=2Edest=3DDEN=22 border=3D=220=22 alt=3D=22=22/></a>
+
+
+               <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                  <tbody>
+                    <tr>
+                      <td height=3D=2210=22></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+<div><a href=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2d=
+aG11GeE06zeGxEf6beQ8wfVaVWVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQT=
+YBQoHnUrICLQSTWTWYCVXLX=22><img border=3D=220=22 alt=3D=22EarlyBird Check-i=
+n - A More Convenient Way To Travel=22 width=3D=22180=22 height=3D=22170=22=
+ style=3D=22display: block=22 src=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248=
+/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair/PROD_RTM_Purchase_V3/AirE=
+BAds/ad_eb_180x168=2Ejpg=22 /></a></div>
+
+
+               <=21-- car & hotel ads-->
+<table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                  <tbody>
+                    <tr>
+                      <td height=3D=2210=22></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                  <tbody>
+                    <tr>
+                      <td height=3D=2210=22></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+
+
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                  <tbody>
+                    <tr>
+                      <td colspan=3D=223=22><a href=3D=22http://travel=2Eso=
+uthwest=2Ecom/specialoffers/hotelOffers=2Ehtml=22><img alt=3D=22=22 width=
+=3D=22182=22 height=3D=2274=22 style=3D=22border-bottom: 0px; border-left: =
+0px; display: block; border-top: 0px; border-right: 0px=22 src=3D=22http://=
+a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/sw=
+air/PROD_RTM_Purchase_V3/PurchaseHotelAds/rail_ad_book_hotel_img=2Ejpg=22 /=
+></a></td>
+                    </tr>
+                    <tr>
+                      <td bgcolor=3D=22=23d8d8d8=22 width=3D=222=22></td>
+                      <td bgcolor=3D=22=23fafafa=22 valign=3D=22top=22 back=
+ground=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet=
+/responsysimages/swair/PROD_RTM_Purchase_V3/PurchaseHotelAds/rail_ad_bg=2Eg=
+if=22 width=3D=22178=22>
+                      <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                        <tbody>
+                          <tr>
+                            <td height=3D=227=22 width=3D=221=22></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                        <tbody>
+                          <tr>
+                            <td width=3D=22178=22 align=3D=22left=22>
+                            <div style=3D=22line-height: 16px; font-family:=
+ Arial, Helvetica, sans-serif; margin-left: 12px; font-size: 12px=22>
+                            <div style=3D=22margin-bottom: 2px; color: =231=
+f6af6; font-weight: bold=22>Find a Hotel</div>
+                            <div style=3D=22margin-bottom: 10px; color: =23=
+000000=22>See ratings, photos and<br />
+                            rates for over 40,000 hotels=2E</div>
+                            </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td width=3D=22178=22 align=3D=22right=22>
+                            <div style=3D=22line-height: 16px; font-family:=
+ Arial, Helvetica, sans-serif; color: =231f6af6; font-size: 12px; font-weig=
+ht: bold; margin-right: 10px=22><a style=3D=22color: =231f6af6; text-decora=
+tion: none=22 href=3D=22http://travel=2Esouthwest=2Ecom/specialoffers/hotel=
+Offers=2Ehtml=22><span style=3D=22color: =231f6af6=22>Book a Hotel</span><i=
+mg alt=3D=22=22 width=3D=2214=22 height=3D=229=22 style=3D=22border-bottom:=
+ 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px=
+=22 src=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Ene=
+t/responsysimages/swair/PROD_RTM_Purchase_V3/PurchaseHotelAds/rail_ad_arrow=
+=2Egif=22 /></a></div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td height=3D=2210=22></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      </td>
+                      <td bgcolor=3D=22=23d8d8d8=22 width=3D=222=22></td>
+                    </tr>
+                    <tr>
+                      <td height=3D=223=22 colspan=3D=223=22><img alt=3D=22=
+=22 width=3D=22182=22 height=3D=223=22 style=3D=22border-bottom: 0px; borde=
+r-left: 0px; display: block; border-top: 0px; border-right: 0px=22 src=3D=
+=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsy=
+simages/swair/PROD_RTM_Purchase_V3/PurchaseHotelAds/rail_ad_btm=2Egif=22 />=
+</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                  <tbody>
+                    <tr>
+                      <td height=3D=2210=22></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                  <tbody>
+                    <tr>
+                      <td colspan=3D=223=22><a href=3D=22http://travel=2Eso=
+uthwest=2Ecom/specialoffers/carOffers=2Ehtml=22><img alt=3D=22=22 width=3D=
+=22182=22 height=3D=2274=22 style=3D=22border-bottom: 0px; border-left: 0px=
+; display: block; border-top: 0px; border-right: 0px=22 src=3D=22http://a24=
+8=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsysimages/swair=
+/PROD_RTM_Purchase_V3/PurchaseCarHotelAds/rail_ad_rent_car_img=2Ejpg=22 /><=
+/a></td>
+                    </tr>
+                    <tr>
+                      <td bgcolor=3D=22=23d8d8d8=22 width=3D=222=22></td>
+                      <td bgcolor=3D=22=23fafafa=22 valign=3D=22top=22 back=
+ground=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet=
+/responsysimages/swair/PROD_RTM_Purchase_V3/PurchaseCarHotelAds/rail_ad_bg=
+=2Egif=22 width=3D=22178=22>
+                      <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                        <tbody>
+                          <tr>
+                            <td height=3D=227=22 width=3D=221=22></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                        <tbody>
+                          <tr>
+                            <td width=3D=22178=22 align=3D=22left=22>
+                            <div style=3D=22line-height: 16px; font-family:=
+ Arial, Helvetica, sans-serif; margin-left: 12px; font-size: 12px=22>
+                            <div style=3D=22margin-bottom: 2px; color: =231=
+f6af6; font-weight: bold=22>Rent Some Wheels</div>
+                            <div style=3D=22margin-bottom: 10px; color: =23=
+000000=22>Explore your destination on<br />
+                            the perfect set of wheels=2E</div>
+                            </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td width=3D=22178=22 align=3D=22right=22>
+                            <div style=3D=22line-height: 16px; font-family:=
+ Arial, Helvetica, sans-serif; color: =231f6af6; font-size: 12px; font-weig=
+ht: bold; margin-right: 10px=22><a style=3D=22color: =231f6af6; text-decora=
+tion: none=22 href=3D=22http://travel=2Esouthwest=2Ecom/specialoffers/carOf=
+fers=2Ehtml=22><span style=3D=22color: =231f6af6=22>Rent a Car</span><img a=
+lt=3D=22=22 width=3D=2214=22 height=3D=229=22 style=3D=22border-bottom: 0px=
+; border-left: 0px; display: inline; border-top: 0px; border-right: 0px=22 =
+src=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/re=
+sponsysimages/swair/PROD_RTM_Purchase_V3/PurchaseCarHotelAds/rail_ad_arrow=
+=2Egif=22 /></a></div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td height=3D=2210=22></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      </td>
+                      <td bgcolor=3D=22=23d8d8d8=22 width=3D=222=22></td>
+                    </tr>
+                    <tr>
+                      <td height=3D=223=22 colspan=3D=223=22><img alt=3D=22=
+=22 width=3D=22182=22 height=3D=223=22 style=3D=22border-bottom: 0px; borde=
+r-left: 0px; display: block; border-top: 0px; border-right: 0px=22 src=3D=
+=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/responsy=
+simages/swair/PROD_RTM_Purchase_V3/PurchaseCarHotelAds/rail_ad_btm=2Egif=22=
+ /></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                  <tbody>
+                    <tr>
+                      <td height=3D=2210=22></td>
+                    </tr>
+                  </tbody>
+                </table>
+           =20
+          <=21-- Start ads  -->
+<div><a href=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?kOHpjQWDUCQqAV2d=
+aG11GeE06zeGxEf6beQ8wfVaVUSVLuHptV2daG11GeE06zeGxEf6beQ8wfV2fb9XV0bWQ2f41SQ=
+TYBQoHnUrICLQSTWTWYCVXLX=22><img border=3D=220=22 alt=3D=22Sign Up 'n Save=
+=22 width=3D=22180=22 height=3D=22170=22 style=3D=22display: block=22 src=
+=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=2Enet/respo=
+nsysimages/swair/PROD_RTM_Purchase_V3/PurchaseAds/rail_ad_clicknsave=2Ejpg=
+=22 /></a></div>
+                <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                  <tbody>
+                    <tr>
+                      <td height=3D=2210=22></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div><a href=3D=22http://luv=2Esouthwest=2Ecom/servlet/cc6?=
+kOHpjQWDUCQqAV2daG11GeE06zeGxEf6beQ8wfVaVUTVLuHptV2daG11GeE06zeGxEf6beQ8wfV=
+2fb9XV0bWQ2f41SQTYBQoHnUrICLQSTWTWYCVXLX=22><img border=3D=220=22 alt=3D=22=
+Join Rapid Rewards=22 width=3D=22181=22 height=3D=22170=22 style=3D=22displ=
+ay: block=22 src=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Er=
+sys4=2Enet/responsysimages/swair/PROD_RTM_Purchase_V3/PurchaseAds/rail_ad_r=
+apidrewards=2Ejpg=22 /></a></div>
+          <=21-- End ads  -->
+
+ <=21-- misc ads=20
+<table cellspacing=3D=220=22 cellpadding=3D=220=22>
+                  <tbody>
+                    <tr>
+                      <td height=3D=2210=22></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div><a href=3D=22=23=22><img border=3D=220=22 alt=3D=22Uni=
+veral Studios=22 width=3D=22180=22 height=3D=22170=22 style=3D=22display: b=
+lock=22 src=3D=22http://a248=2Ee=2Eakamai=2Enet/f/248/47562/14d/ig=2Ersys4=
+=2Enet/responsysimages/swair/PROD_RTM_Purchase_V3/PurchaseMiscAds/rail_ad_u=
+niversal=2Ejpg=22 />
+                 </a></div>
+-->
+
+                <=21-- End Right Rail-->
+                  </td>
+              </tr>
+            </tbody>
+          </table>
+          <table cellspacing=3D=220=22 cellpadding=3D=220=22>
+            <tbody>
+              <tr>
+                <td height=3D=2210=22></td>
+              </tr>
+            </tbody>
+          </table>
+
+            <=21-- End Main-->
+           </td>
+        </tr>
+      </tbody>
+      </center>
+    </table><br><img border=3D=220=22 width=3D=223=22 height=3D=223=22 src=
+=3D=22http://luv=2Esouthwest=2Ecom/servlet/eof?lPHpkDXCWBD-ZE0da=2E26zz=2E2=
+6e=2E3dy72=2E26F=2E3df7beD9vfEaEvE0fb=2E2e_EybXD0f3zUDVYADoHnWqIBLDUVXVXYBE=
+0fb=2E2e_EybXD0f3zUDVYADoHnWqIBLDUVXVXYBE0f_y=2E26x1=2E26z0_=2E2e0_EVTUV-UV=
+-TA=2E25VTUT:TT:UUDZABE0f_y=2E26x1=2E26z0_fz_EUWYXCTWVUUZABE0f_799v1u0_b=2E=
+2e_EVYAE0f_97fw7b=2E3du_b=2E2e_EUWYBCE_0yb=2E3d=2E3d=2E26y=2E26=2E2e_E5=2E2=
+6zE_L_=22>
+
+  </body>
 </html>
+
 
 
