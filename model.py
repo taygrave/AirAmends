@@ -7,7 +7,7 @@ engine = create_engine("sqlite:///airdata.db", echo=True)
 session = scoped_session(sessionmaker(bind=engine, autocommit=False, autoflush=False))
 
 Base = declarative_base()
-Base.query = session.query_property
+Base.query = session.query_property()
 
 ####  INITIALIZING  ####
 

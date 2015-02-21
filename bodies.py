@@ -1,6 +1,5 @@
 import model
 import re
-from bs4 import BeautifulSoup
 
 
 s = model.connect()
@@ -10,14 +9,15 @@ s = model.connect()
 msg_list = s.query(model.Email).all()
 
 airport_code = r"\(([A-Z]{3})\)"
-from_field = r'From:[\w]' #\<([\w]+)\>'
+
+#set variable for confirmation code numbers 
 
 for msg in msg_list:
     result1 = re.findall(airport_code, msg.body_raw)
-    result2 = re.findall(from_field, msg.body_raw)
+
     print "message id: %d" %msg.id
     print result1
-    print result2
+
 
 
 
@@ -43,16 +43,4 @@ for msg in msg_list:
 #     fnum = fnum + 1
 
 
-# this was for back when i was only looking at southwest airlines and getting half of the flight info
-# for msg in msg_list:
-#     body = msg.body
-#     soup = BeautifulSoup(body)
-#     #import incase this is not your itinerary
-#     passenger = soup.find('name')
-#     date = soup.find('traveldate')
-#     depart = soup.find('depart')
-#     arrive = soup.find('arrive')
-
-#     print msg.id, passenger, date, depart, arrive
-#     print '*' * 10
 
