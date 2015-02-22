@@ -1,6 +1,7 @@
 import httplib2
 import base64
 import model
+import email
 
 from apiclient.discovery import build
 from apiclient import errors
@@ -99,7 +100,7 @@ def get_message(service, user_id, msg_id):
 
 def add_msgs_to_db():
 
-    query1 = "itinerary, confirmation, flight, number, departure, taxes from:-me"
+    query1 = "itinerary, confirmation, flight, number, departure, taxes from:-me subject:-fwd"
     msg_list = query_messages(gmail_service,"me", query1)
     s = model.connect()
 

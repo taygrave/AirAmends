@@ -1,1652 +1,1419 @@
 Delivered-To: tkhesselgrave@gmail.com
-Received: by 10.217.136.199 with SMTP id eh49csp356148web;
-        Wed, 4 Dec 2013 13:45:22 -0800 (PST)
-Return-Path: <n.hesselgrave@gmail.com>
-Received-SPF: pass (google.com: domain of n.hesselgrave@gmail.com designates 10.224.60.193 as permitted sender) client-ip=10.224.60.193
-Authentication-Results: mr.google.com;
-       spf=pass (google.com: domain of n.hesselgrave@gmail.com designates 10.224.60.193 as permitted sender) smtp.mail=n.hesselgrave@gmail.com;
-       dkim=pass header.i=@gmail.com
-X-Received: from mr.google.com ([10.224.60.193])
-        by 10.224.60.193 with SMTP id q1mr96660541qah.99.1386193522388 (num_hops = 1);
-        Wed, 04 Dec 2013 13:45:22 -0800 (PST)
-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
-        d=gmail.com; s=20120113;
-        h=mime-version:in-reply-to:references:from:date:message-id:subject:to
-         :content-type;
-        bh=aQyVpmT20SoudR2tYp9HPBqeY9QWpfpGg3nbrYQbVW4=;
-        b=qoRcRJQYGzP01YAuexqesmNgSGp58CADNhbY6wp1etBavG5FjX1c6QVniSCopdTcZ2
-         9L/8lnzsfvfj/mHNdWsUFkVYhKcKpdqIImbQoymeZmWT8LODBcXqKz4WJjj5qVkSDd2N
-         3mJNmoTQBdMKC0FqpYjKetzDJSMqQXlxUD4pRgRncWSb6VgNRmDvkmq7CtkOngvIkjBI
-         kMt52IyF7S3w8fY8iSnakz2jJqrD81T6l5kRApQuCkKXmywbpY/JStFz+tM0D3PVg+LA
-         FvRmQTtLtDIHOlRqjyuYORFEXDgXxc6Jmthf2mXxDtkS3p2An2+UQD00iYb7UVahkjvb
-         l2Rg==
-X-Received: by 10.224.60.193 with SMTP id q1mr96660541qah.99.1386193522368;
- Wed, 04 Dec 2013 13:45:22 -0800 (PST)
+Received: by 10.217.136.199 with SMTP id eh49csp113814web;
+        Sat, 12 Oct 2013 15:55:20 -0700 (PDT)
+X-Received: by 10.182.50.130 with SMTP id c2mr20867911obo.35.1381618519738;
+        Sat, 12 Oct 2013 15:55:19 -0700 (PDT)
+Return-Path: <reservations@jetblue.com>
+Received: from sgcommg01-out.sabre.com (tcymg01.travelocity.com. [151.193.224.244])
+        by mx.google.com with ESMTPS id kj2si5783864oeb.77.1969.12.31.16.00.00
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Sat, 12 Oct 2013 15:55:19 -0700 (PDT)
+Received-SPF: neutral (google.com: 151.193.224.244 is neither permitted nor denied by best guess record for domain of reservations@jetblue.com) client-ip=151.193.224.244;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 151.193.224.244 is neither permitted nor denied by best guess record for domain of reservations@jetblue.com) smtp.mail=reservations@jetblue.com
+Received: from unknown (HELO infhlp008) ([10.209.4.8])
+  by sgcommg01.sabre.com with ESMTP; 12 Oct 2013 17:55:18 -0500
+Date: Sat, 12 Oct 2013 22:55:18 +0000 (GMT)
+From: JetBlue Reservations <reservations@jetblue.com>
+To: tkhesselgrave@gmail.com,  <n.hesselgrave@gmail.com>
+Message-ID: <871337621.2095881381618518533.JavaMail.ems@infhlp008>
+Subject: Itinerary for your upcoming trip
 MIME-Version: 1.0
-Received: by 10.96.194.133 with HTTP; Wed, 4 Dec 2013 13:45:02 -0800 (PST)
-In-Reply-To: <NCSMCEXC150sOVtShEH004f5fa5@NCSMCEXC15.nam.coair.com>
-References: <NCSMCEXC150sOVtShEH004f5fa5@NCSMCEXC15.nam.coair.com>
-From: Nicholas Hesselgrave <n.hesselgrave@gmail.com>
-Date: Wed, 4 Dec 2013 16:45:02 -0500
-Message-ID: <CABWkPh9z75_RQ7Fe0EGKyRgXTR24DGjLLQ3HjQaOEbxrC1PoJQ@mail.gmail.com>
-Subject: Fwd: MileagePlus eTicket Itinerary and Receipt for Confirmation PYZMZ9
-To: Taylor Hesselgrave <tkhesselgrave@gmail.com>
-Content-Type: multipart/alternative; boundary=001a1133dee67dcdb004ecbc54f2
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_140032_1431060183.1381618518459"
 
---001a1133dee67dcdb004ecbc54f2
-Content-Type: text/plain; charset=windows-1252
+------=_Part_140032_1431060183.1381618518459
+Content-Type: text/html; charset=utf-8
 Content-Transfer-Encoding: quoted-printable
 
----------- Forwarded message ----------
-From: United Airlines, Inc. <unitedairlines@united.com>
-Date: Tue, Nov 12, 2013 at 10:12 PM
-Subject: MileagePlus eTicket Itinerary and Receipt for Confirmation PYZMZ9
-To: N.HESSELGRAVE@gmail.com
-
-
-         [image: United Airlines] <http://www.united.com>  Confirmation:
-PYZMZ9
-Check-In ><http://www.united.com/travel/checkin/quickstart.aspx?camp=3D2004=
-_email_ckin&irLocation=3DFLL&irPNR=3DPYZMZ9&LangCode=3Den-US>
-   Issue
-Date: November 13, 2013
-------------------------------
-    Traveler  eTicket Number  Frequent Flyer  Seats
-HESSELGRAVE/NICHOLASAMR  0162386510062  UA-HQL4XXXX  32F/48A/48K/34A
-  ------------------------------
-    FLIGHT INFORMATION  Day, Date  Flight  Class  Departure City and
-Time  Arrival
-City and Time  Aircraft  Meal   Thu, 26DEC13  UA1645  HN  FORT LAUDERDALE,
-FL
-(FLL) *6:24 PM*  SAN FRANCISCO, CA
-(SFO) *9:45 PM*  737-800  Purchase      Thu, 26DEC13  UA863  HN  SAN
-FRANCISCO, CA
-(SFO) *10:30 PM*  SYDNEY, AUSTRALIA
-(SYD) *8:10 AM (28DEC)*  747-400  Dinner      Wed, 15JAN14  UA870  X  SYDNE=
-Y,
-AUSTRALIA
-(SYD) *4:20 PM*  SAN FRANCISCO, CA
-(SFO) *10:50 AM*  747-400  Dinner      Mon, 20JAN14  UA524  X  SAN
-FRANCISCO, CA
-(SFO) *6:05 AM*  NEWARK, NJ
-(EWR - LIBERTY) *2:29 PM*  757-200  Purchase
-------------------------------
-   FARE INFORMATION      Fare Breakdown  Airfare: 0.00 USD  U.S. Customs
-User Fee:  5.50   U.S. Immigration User Fee:  7.00   U.S. APHIS User
-Fee: 5.00   September
-11th Security Fee:  7.50   Australia Passenger Movement Charge:  52.30
-  Australia
-Passenger Service Charge:  48.00   Per Person Total: 125.30
- USD
-   eTicket Total:  125.30
- USD      MileagePlus Account Debited:  HQL49493    Form of Payment:
-VISA  Last
-Four Digits 3758    MileagePlus Miles Debited/
-Award Used:  120000/ZC88-YC88     The airfare you paid on this itinerary
-totals: 0.00 USD    The taxes, fees, and surcharges paid total: 125.30
-USD     Award
-Rules: Additional charges may apply for changes in addition to any fare
-rules listed.
-RWD ZC88 YC88/NONEND/-TRAN;VALID UA;NOT VALID AFTER 11/12/2014
-All changes must be made prior to the departure date, or the ticket has no
-value.
-          ------------------------------
-
-*Baggage allowance and charges for this itinerary. Baggage fees are per
-traveler* Origin and destination for checked baggage1st bag2nd bagMax wt /
-dim per piece12/26/2013 Fort Lauderdale, FL (FLL) to Sydney, Australia
-(SYD) 0.00
-USD100.00 USD50.0lbs (23.0kg) - 62.0in (157.0cm)1/15/2014 Sydney, Australia
-(SYD) to San Francisco, CA (SFO)0.00 USD100.00 USD50.0lbs (23.0kg) - 62.0in
-(157.0cm) 1/20/2014 San Francisco, CA (SFO) to Newark, NJ (EWR - Liberty)0.=
-00
-USD100.00 USD50.0lbs (23.0kg) - 62.0in (157.0cm)
-
-  ------------------------------
-            Additional Baggage Information        *Carry-on baggage
-information*       United accepts one carry-on item of no more than 45
-linear inches or 114 linear centimeters in the aircraft cabin, along with
-one personal item (such as a shoulder or laptop bag).       Due to FAA
-regulations, operating carriers may have different carry-on
-requirements.      Please check with the operating carrier for more
-information or go to *united.com.
-<http://www.united.com/CMS/en-US/travel/Pages/ChangedBagRulesOptionalServic=
-es.aspx#allowances>*
-      *General
-Baggage Information*       First and second bag service charges do not
-apply to active-duty members of the U.S. military and their accompanying
-dependents. For additional information regarding baggage charges
-allowances,
-weight/size restrictions, exceptions or embargoes, or charges for
-overweight, oversized, excess, odd-sized baggage, special items       or
-sporting equipment, visit *united.com/baggage.
-<http://www.united.com/web/en-US/content/travel/baggage/default.aspx>*
-------------------------------
-       MileagePlus International eTicket Reminders        *Check-in
-Requirement* - Bags must be checked and boarding passes obtained at least
-60 minutes prior to scheduled departure. Baggage will not be accepted and
-advance seat assignments may be canceled if this condition is not met.
-      *Boarding
-Requirement* - Passengers must be prepared to board at the departure gate
-with their boarding pass at least 30 minutes prior to scheduled
-departure.      Failure to meet the *Boarding
-Requirements* may result in cancellation of reservations, denied boarding,
-removal of checked baggage from the aircraft and loss of eligibility for
-denied boarding compensation.       Bring your boarding pass or this
-eTicket Receipt along with photo
-identification<http://www.united.com/travel/policies/id/>to the
-airport      The FAA now restricts carry-on baggage to one bag plus
-one personal item
-(purse, briefcase, laptop computer, etc.) per passenger       For up to the
-minute flight information, sign-up for our Flight Status E-mail at
-united.com <http://www.united.com/travel/tcFlightandGate.asp> or call
-1-800-824-6200; in Spanish 1-800-426-5561       If flight segments are not
-flown in order, your reservation will be cancelled. Rebooking will be
-subject to the fare rules governing your ticket.       For the most current
-status of your reservation, flights and other important policies, go to
-united.com <http://www.united.com/>       Your eTicket is non-transferable
-and valid 1 year from date of mileage withdrawal unless otherwise provided
-in the Conditions of Contract.       Award travel is subject to the terms
-and conditions of the MileagePlus program.       Redeposit or change fees
-apply for award travel based on Premier level. Please go to *united.com
-<http://www.united.com/web/en-US/content/onepass/rules/rewards.aspx>* or
-call 1-800-UNITED-1 for details.             International taxes and fees
-may be collected at your departure airport.
-------------------------------
-       Customer Care Contact Information        We welcome your
-compliments, comments or complaints regarding United or a United travel
-experience.       You may contact us using our Customer Care contact form
-at *united.com
-<https://www.united.com/web/en-US/content/Contact/customer/default.aspx?cam=
-p=3Dvirtual_expert>*
-------------------------------
-       Proud Member of Star Alliance         We are making connections so
-you make yours. You can earn and redeem miles on 28 member airlines
-offering 21,900 daily flights and over 1100 destinations worldwide.
-  Go to *www.staralliance.com
-<http://www.staralliance.com/en/>* to find out more. You=92ve earned it.
-------------------------------
-       Food for Purchase Now Available        Satisfy your cravings with
-something tasty from our new In-Flight Menu. Snacks or freshly prepared
-selections are available for purchase on most flights between two and a
-half and six and a half hours.
-------------------------------
-       Split terminal operations        While we continue combining our
-airline, some stations will operate in multiple terminals. Be sure to check
-your flight status to ensure you arrive at the right terminal before your
-flight. You       can check flight status and gate information at *united.c=
-om
-<http://united.com/web/en-US/apps/travel/flightStatus/default.aspx>* or on
-the go with mobile.united.com or the United App.       Our operations
-locations are split in the following airports: London Heathrow, England;
-New York LaGuardia, NY and Boston, MA.       See *united.com
-<http://hub.united.com/en-us/News/Company-Operations/Pages/terminal-locatio=
-n-information.aspx>*for
-where to check in at each airport
-------------------------------
-  IMPORTANT CONSUMER NOTICES    *Incorporated Terms* - Your travel is
-subject to United=92s Contract of Carriage terms. The Contract is available
-for inspection at any UA ticketing facility,
-united.com<http://www.united.com>or by calling 1-800-UNITED-1.
-Passengers have the right to receive the full
-text of the terms incorporated by reference free of charge by mail or other
-delivery service. The Contract terms include rules about limits on
-liability for personal injury or death and for loss, damage, or delay of
-goods and baggage, check-in times, overbooking, security issues,
-reservations, denial of carriage, refunds, claims limits and restrictions,
-including time limitations for filing a claim or lawsuit, and schedule
-changes and irregularities. The Contract of
-Carriage<http://www.united.com/travel/policies/contract/default.asp>contain=
-s
-further detail of these terms.  *Additional
-Terms* - Depending on the rules applicable to the fare paid, one or more
-restrictions including, but not limited to one or more of the following,
-may apply to your travel: (1) the ticket may not be refundable but may be
-exchangeable for a fee with another restricted fare ticket meeting all the
-rules/restrictions of the original ticket (including the payment of any
-difference in fares); (2) a fee may apply for changing/canceling
-reservations; or (3) travel may be restricted to specific flights and/or
-times and minimum and/or maximum stay may be required.   *Baggage
-Liability*- On domestic flights, United=92s maximum liability limit for
-checked baggage
-is $3400 USD per passenger and United excludes liability for all unchecked
-baggage. For travel within the U.S., United excludes liability for fragile,
-valuable or perishable items carried in all baggage including jewelry,
-computers, cash, camera equipment and similar valuables. If any of these
-items are lost, damaged or delayed, you will not be entitled to any
-reimbursement. You can declare excess valuation on certain baggage at the
-airport, additional fees will apply.  *ADVICE TO INTERNATIONAL PASSENGERS
-ON CARRIER LIABILITY* =96 Passengers on a journey involving an ultimate
-destination or stop in a country other than the country of departure are
-advised that international treaties known as the Montreal Convention, or
-its predecessor, the Warsaw Convention, including its amendments, may apply
-to the entire journey, including any portion thereof within a country. For
-such passengers, the treaty, including special contracts of carriage
-embodied in applicable tariffs, governs and may limit the liability of the
-Carrier in respect of death of or injury to passengers, and for destruction
-or loss of, or damage to, baggage, and for delay of passengers and
-baggage.  *Notice=97Overbooking
-of Flights* - Airline flights may be overbooked, and there is a slight
-chance that a seat will not be available on a flight for which a person has
-a confirmed reservation. If the flight is overbooked, no one will be denied
-a seat until airline personnel first ask for volunteers willing to give up
-their reservation in exchange for compensation of the airline's choosing.
-If there are not enough volunteers, the airline will deny boarding to other
-persons in accordance with its particular boarding priority. With few
-exceptions, including failure to comply with the carrier's check-in
-deadline which are available upon request from the air carrier, persons
-denied boarding involuntarily are entitled to compensation. *The complete
-rules for the payment of compensation and each airline's boarding
-priorities are available at all airport ticket counters and boarding
-locations. Some airlines do not apply these consumer protections to travel
-from some foreign countries, although other consumer protections may be
-available. Check with your airline or your travel agent.*  *Personal
-Health*- For important health tips before your flight, including
-information on a
-serious condition called Deep Vein
-Thrombosis<http://www.united.com/travel/specialneeds/health.asp>,
-please go to united.com <http://www.united.com/>.      *Thank you for
-choosing United Airlines*
-united.com <http://www.united.com>    Legal
-Notices<http://www.united.com/web/en-US/content/legal.aspx>
-. Privacy Policy <http://www.united.com/web/en-US/content/privacy.aspx>
-Copyright =A9 {0} United Airlines, Inc. All rights reserved.
-
-*Please do not reply to this message using the " reply " address.*
-For assistance, please contact United Airlines via telephone or via
-e-mail.2013
 
 
 
---=20
-Nicholas A. Hesselgrave
-Columbia University
-USMC Veteran
-760-672-4732
 
---001a1133dee67dcdb004ecbc54f2
-Content-Type: text/html; charset=windows-1252
-Content-Transfer-Encoding: quoted-printable
 
-<div dir=3D"ltr"><br><br><div class=3D"gmail_quote">---------- Forwarded me=
-ssage ----------<br>From: <b class=3D"gmail_sendername">United Airlines, In=
-c.</b> <span dir=3D"ltr">&lt;<a href=3D"mailto:unitedairlines@united.com">u=
-nitedairlines@united.com</a>&gt;</span><br>
-
-Date: Tue, Nov 12, 2013 at 10:12 PM<br>Subject: MileagePlus eTicket Itinera=
-ry and Receipt for Confirmation PYZMZ9<br>To: <a href=3D"mailto:N.HESSELGRA=
-VE@gmail.com">N.HESSELGRAVE@gmail.com</a><br><br><br>
-
-<u></u>
+   =20
+   =20
+   =20
 
 
 
-<div>
-	<div style=3D"padding-left:5px">
-		<table width=3D"645px" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
-			<tbody><tr>
-				<td>
-				=09
-					<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
->
-						<tbody><tr>
-							<td style=3D"height:20px"></td>
-						</tr>
-						<tr>
-							<td align=3D"right" colspan=3D"2">
-<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0">
-=09
-	<tbody><tr>
-	<td>
-			<table border=3D"0" width=3D"100%">
-				<tbody><tr>
-					<td align=3D"left" valign=3D"top"><a href=3D"http://www.united.com" ta=
-rget=3D"_blank"><img alt=3D"United Airlines" border=3D"0"></a></td>
-					<td align=3D"center" valign=3D"top">
-						<table>
-							<tbody><tr>
-								<td><span>Confirmation: </span>
-							</td></tr>
-							<tr>
-								<td align=3D"center" valign=3D"top"><span>PYZMZ9</span><br>
-									<a href=3D"http://www.united.com/travel/checkin/quickstart.aspx?ca=
-mp=3D2004_email_ckin&amp;irLocation=3DFLL&amp;irPNR=3DPYZMZ9&amp;LangCode=
-=3Den-US" target=3D"_blank">Check-In &gt;</a> </td>
-							</tr>
-						</tbody></table>
-					</td>
-				</tr>
-				<tr>
-					<td align=3D"left"><span>Issue Date: November 13, 2013</span> </td>
-				</tr>
-			</tbody></table>
-		</td>
-</tr>
 
-=09
-=09
-=09
-=09
-</tbody></table>
-</td>
-						</tr>
-					=09
-						<tr>
-							<td> </td>
-						</tr>
-						<tr height=3D"1px">
-							<td colspan=3D"2" style=3D"height:1px">
-								<hr size=3D"1px" color=3D"#000000">
-							</td>
-						</tr>
-					=09
-					=09
-					=09
-						<tr>
-							<td colspan=3D"2"><div>
-=09
-<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">  =
-=20
-    <tbody><tr>
-        <td>
-            Traveler
+
+
+
+
+
+
+
+
+   =20
+       =20
+   =20
+                                                   =20
+   =20
+   =20
+       =20
+   =20
+                                                   =20
+   =20
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>JetBlue Notification</title>
+<style type=3D"text/css">
+img { display: block; border: none; }
+div, p, a, li, span, td { -webkit-text-size-adjust: none; margin: 0px; padd=
+ing: 0px; }
+</style>
+</head>
+<body>
+    <table align=3D"center" width=3D"640" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0">
+        <tr><td height=3D"10" style=3D"line-height: 0px;"></td></tr>
+        <tr>
+            <td width=3D"10" style=3D"line-height: 0px;"></td>
+            <td>
+                <table align=3D"center" width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0">
+                    <tr>
+                        <td>
+                            <table align=3D"center" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tr>
+        <td width=3D"107">
+            <a href=3D"http://www.jetblue.com/">
+                <img src=3D"http://www.jetblue.com/email/img/svt/logo.jpg" =
+width=3D"107" height=3D"38" border=3D"0" alt=3D"JetBlue">
+            </a>
         </td>
-        <td>
-            eTicket Number
+        <td align=3D"right" style=3D"font-family:Arial Bold, Helvetica, san=
+s-serif; font-size: 12px; line-height: 16px; color: #454545;">
+            <strong><span>You're set to jet.</span></strong>
+            <br>
+            <span><strong>Your confirmation number is
+                <span style=3D"color: #4D90CD; text-decoration: none;">QOUH=
+AI</span></strong>
+            </span>
+            <br>
+            <span style=3D"font-family: Arial;">
+            Scan this barcode to check in at any JetBlue kiosk
+            </span>
         </td>
-        <td>
-            Frequent Flyer
-        </td>
-        <td>
-            Seats
+        <td width=3D"123">
+            <img src=3D"https://www.jetblue.com/itinerarybarcode/barcode.as=
+px?value=3DQOUHAI"
+                 alt=3D"QOUHAI" width=3D"123" height=3D"49">
         </td>
     </tr>
-   =20
-            <tr>
-                <td>
-                    <span>HESSELGRAVE/NICHOLASAMR</span>
-                </td>
-                <td>
-                    <span>0162386510062</span>
-                </td>
-                <td>
-                    <span>UA-HQL4XXXX</span>
-                </td>
-                <td>
-                    <span>32F/48A/48K/34A</span>
-                </td>
-            </tr>
-       =20
- </tbody></table>
-=20
-</div>
- </td>
-						</tr>
-						<tr>
-							<td colspan=3D"2" style=3D"height:1px">
-								<hr size=3D"1px" color=3D"#000000">
-							</td>
-						</tr>
-					=09
-						<tr>
-							<td colspan=3D"2">
-<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
-    <tbody><tr>
-        <td colspan=3D"7">
-            FLIGHT INFORMATION</td>
+</table>                        </td>
+                    </tr>
+                    <tr><td height=3D"10" style=3D"line-height: 0px;"></td>=
+</tr>
+                    <tr>
+                        <td>
+                            <table align=3D"center" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tr>
+        <td width=3D"120">
+            <a href=3D"http://www.jetblue.com/flightstatus/?source=3Demitin=
+_flightstatus">
+                <img src=3D"http://www.jetblue.com/email/img/svt/flight_sta=
+tus.jpg" width=3D"120" height=3D"44" border=3D"0" alt=3D"Flight status">
+            </a>
+        </td>
+        <td width=3D"5" style=3D"line-height: 0px;"></td>
+        <td width=3D"120">
+            <a href=3D"http://myflights.jetblue.com/B6.myb/">
+                <img src=3D"http://www.jetblue.com/email/img/svt/change_can=
+cel.jpg" width=3D"120" height=3D"44" border=3D"0" alt=3D"Change/cancel">
+            </a>
+        </td>
+        <td width=3D"5" style=3D"line-height: 0px;"></td>
+        <td width=3D"120">
+            <a href=3D"http://myflights.jetblue.com/B6.myb/">
+                <img src=3D"http://www.jetblue.com/email/img/svt/manage_fli=
+ghts.jpg" width=3D"120" height=3D"44" border=3D"0" alt=3D"Manage flights">
+            </a>
+        </td>
+        <td width=3D"5" style=3D"line-height: 0px;"></td>
+        <td width=3D"120">
+            <a href=3D"http://myflights.jetblue.com/B6.myb/">
+                <img src=3D"http://www.jetblue.com/email/img/svt/seats.jpg"=
+ width=3D"120" height=3D"44" border=3D"0" alt=3D"Seats">
+            </a>
+        </td>
+        <td width=3D"5" style=3D"line-height: 0px;"></td>
+        <td width=3D"120">
+            <a href=3D"http://www.jetblue.com/flying-on-jetblue/first-bag-f=
+ree/">
+                <img src=3D"http://www.jetblue.com/email/img/svt/baggage_in=
+fo.jpg" width=3D"120" height=3D"44" border=3D"0" alt=3D"Baggage info">
+            </a>
+        </td>
+    </tr>
+</table>                        </td>
+                    </tr>
+                    <tr><td height=3D"10" style=3D"line-height: 0px;"></td>=
+</tr>
+                    <tr>
+                        <td>
+                            <table align=3D"center" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tr>
+        <td height=3D"275" style=3D"font-family:Arial, Helvetica, sans-seri=
+f; font-size: 11px; line-height: 18px; color: #666666; background-color: #F=
+1F5F8;">
+                                            <a href=3D"http://www.jetblue.c=
+om/flying-on-jetblue/even-more/" id=3D"promo-1-ems"><img width=3D"620" heig=
+ht=3D"275" src=3D"http://www.jetblue.com/email/img/svt/ems_promo_1.png" alt=
+=3D"" border=3D"0" style=3D"display: block;"/></a>
+                    </td>
+    </tr>
+</table>                        </td>
+                    </tr>
+                    <tr><td height=3D"10" style=3D"line-height: 0px;"></td>=
+</tr>
+                    <tr>
+                        <td>
+                            <table align=3D"center" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tr>
+        <td width=3D"620" height=3D"2" style=3D"line-height: 0px;">
+            <img width=3D"620" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/top1.jpg" border=3D"0" style=3D"display: block;">
+        </td>
     </tr>
     <tr>
-        <td>
-            <span>Day, Date</span>
+        <td style=3D"font-family:Arial, Helvetica, sans-serif; font-size: 1=
+1px; line-height: 18px; color: #666666; padding: 22px; background-color: #F=
+1F5F8;">
+            <span style=3D"font-family:Arial Bold, Helvetica Bold, sans-ser=
+if; font-size: 16px; line-height: 20px; color: #004990;"><strong>Your confi=
+rmation number is <span style=3D"color: #4D90CD; text-decoration: none;">QO=
+UHAI</span></strong></span><br>
+            <span style=3D"font-family:Arial, Helvetica, sans-serif; font-s=
+ize: 12px; line-height: 20px; color: #454545;">Scan the barcode at the top =
+of this page to check in at any JetBlue kiosk.</span>
         </td>
-        <td>
-            <span>Flight</span>
-        </td>
-        <td>
-            <span>Class</span>
-        </td>
-        <td>
-            <span>Departure City and Time</span>
-        </td>
-        <td>
-            <span>Arrival City and Time</span>
-        </td>
-        <td>
-            <span>Aircraft</span>=20
-        </td>       =20
-        <td>
-            <span>Meal</span>=20
-        </td>       =20
     </tr>
-   =20
-        <tr>
-            <td valign=3D"top">
-                <span>Thu, 26DEC13</span>
-            </td>
-            <td valign=3D"top">
-                <span>UA1645</span>
-            </td>
-            <td valign=3D"top">
-                <span>HN</span>
-            </td>
-            <td valign=3D"bottom">
-                <span>FORT LAUDERDALE, FL <br>(FLL)=A0<b>6:24 PM</b></span>
-            </td>
-            <td valign=3D"bottom">
-                <span>SAN FRANCISCO, CA <br>(SFO)=A0<b>9:45 PM</b></span>
-            </td>
-            <td valign=3D"top">
-                <span>737-800</span>
-            </td>
-            <td valign=3D"top">
-                <span>Purchase</span>
-            </td>=20
-         =20
-        </tr>           =20
-        <tr> =20
-            <td colspan=3D"7" style=3D"font-size:8pt">
-                <span></span>
-            </td>
-        </tr>
-
-        <tr><td style=3D"height:5px"></td></tr>
-       =20
-        <tr>
-            <td style=3D"background-color:LightGrey" valign=3D"top">
-                <span>Thu, 26DEC13</span>
-            </td>
-            <td style=3D"background-color:LightGrey" valign=3D"top">
-                <span>UA863</span>
-            </td>
-            <td style=3D"background-color:LightGrey" valign=3D"top">
-                <span>HN</span>
-            </td>
-            <td style=3D"background-color:LightGrey" valign=3D"bottom">
-                <span>SAN FRANCISCO, CA <br>(SFO)=A0<b>10:30 PM</b></span>
-            </td>
-            <td style=3D"background-color:LightGrey" valign=3D"bottom">
-                <span>SYDNEY, AUSTRALIA <br>(SYD)=A0<b>8:10 AM (28DEC)</b><=
-/span>
-            </td>
-            <td style=3D"background-color:LightGrey" valign=3D"top">
-                <span>747-400</span>
-            </td>
-            <td style=3D"background-color:LightGrey" valign=3D"top">
-                <span>Dinner</span>
-            </td>
-        </tr>
-        <tr> =20
-            <td style=3D"background-color:LightGrey;font-size:8pt" valign=
-=3D"top" colspan=3D"7">
-                <span></span>
-            </td>
-        </tr>
-
-        <tr><td style=3D"height:5px"></td></tr>
-       =20
-        <tr>
-            <td valign=3D"top">
-                <span>Wed, 15JAN14</span>
-            </td>
-            <td valign=3D"top">
-                <span>UA870</span>
-            </td>
-            <td valign=3D"top">
-                <span>X</span>
-            </td>
-            <td valign=3D"bottom">
-                <span>SYDNEY, AUSTRALIA <br>(SYD)=A0<b>4:20 PM</b></span>
-            </td>
-            <td valign=3D"bottom">
-                <span>SAN FRANCISCO, CA <br>(SFO)=A0<b>10:50 AM</b></span>
-            </td>
-            <td valign=3D"top">
-                <span>747-400</span>
-            </td>
-            <td valign=3D"top">
-                <span>Dinner</span>
-            </td>=20
-         =20
-        </tr>           =20
-        <tr> =20
-            <td colspan=3D"7" style=3D"font-size:8pt">
-                <span></span>
-            </td>
-        </tr>
-
-        <tr><td style=3D"height:5px"></td></tr>
-       =20
-        <tr>
-            <td style=3D"background-color:LightGrey" valign=3D"top">
-                <span>Mon, 20JAN14</span>
-            </td>
-            <td style=3D"background-color:LightGrey" valign=3D"top">
-                <span>UA524</span>
-            </td>
-            <td style=3D"background-color:LightGrey" valign=3D"top">
-                <span>X</span>
-            </td>
-            <td style=3D"background-color:LightGrey" valign=3D"bottom">
-                <span>SAN FRANCISCO, CA <br>(SFO)=A0<b>6:05 AM</b></span>
-            </td>
-            <td style=3D"background-color:LightGrey" valign=3D"bottom">
-                <span>NEWARK, NJ <br>(EWR - LIBERTY)=A0<b>2:29 PM</b></span=
->
-            </td>
-            <td style=3D"background-color:LightGrey" valign=3D"top">
-                <span>757-200</span>
-            </td>
-            <td style=3D"background-color:LightGrey" valign=3D"top">
-                <span>Purchase</span>
-            </td>
-        </tr>
-        <tr> =20
-            <td style=3D"background-color:LightGrey;font-size:8pt" valign=
-=3D"top" colspan=3D"7">
-                <span></span>
-            </td>
-        </tr>
-
-        <tr><td style=3D"height:5px"></td></tr>
+    <tr>
+        <td width=3D"620" height=3D"2" style=3D"line-height: 0px;">
+            <img width=3D"620" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/bottom1.jpg" border=3D"0" style=3D"display: block;">
+        </td>
+    </tr>
+</table>                        </td>
+                    </tr>
+                    <tr><td height=3D"10" style=3D"line-height: 0px;"></td>=
+</tr>
+                    <tr>
+                        <td>
+                            <table align=3D"center" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tr>
+        <td width=3D"620" height=3D"11" style=3D"line-height: 0px; margin:0=
+px 0 0 0; padding: 0px;background-color: #004890;" border=3D"0">
+            <img width=3D"620" height=3D"11" src=3D"http://www.jetblue.com/=
+email/img/svt/itinerary_top.png" alt=3D"" border=3D"0" style=3D"display: bl=
+ock;"/>
+        </td>
+    </tr>
+    <tr>
+        <td style=3D"background-color: #004890;" align=3D"left" border=3D"0=
+">
+            <table width=3D"100%">
+                <tr>
+                    <td width=3D"110px" border=3D"0" style=3D"font-family:A=
+rial Bold, Helvetica, sans-serif; font-size: 16px; line-height: 18px; color=
+: #FFFFFF; padding-left: 20px; padding-bottom: 9px;">
+                        <b>Your itinerary</b>
+                    </td>
+                    <td align=3D"left" height=3D"16px" style=3D"padding-rig=
+ht: 430px;padding-bottom: 9px;" border=3D"0">
+                        <img width=3D"17" height=3D"16" src=3D"http://www.j=
+etblue.com/email/img/svt/itinerary_box.png" alt=3D"" style=3D"display: bloc=
+k;" border=3D"0">
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr style=3D"background-color: #F1F5F8;" >
+        <td>
+            <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=
+=3D"margin:0px 0 0 0;" border=3D"0">
+                <tr width=3D"100%" align=3D"left" valign=3D"top">
+                    <th align=3D"left" style=3D"font-family:Arial Bold, Hel=
+vetica, sans-serif; font-size: 13px;font-weight:bold;text-align:left;line-h=
+eight: 18px; color: #024795; padding-bottom: 13px;padding-top: 13px;padding=
+-left: 20px;width: 60px;">Date</th>
+                    <th align=3D"left" style=3D"font-family:Arial Bold, Hel=
+vetica, sans-serif; font-size: 13px;font-weight:bold;text-align:left;line-h=
+eight: 18px; color: #024795; padding-bottom: 13px;padding-top: 13px;padding=
+-left: 10px;width: 70px;">Departs/<br/>arrives</th>
+                    <th align=3D"left" style=3D"font-family:Arial Bold, Hel=
+vetica, sans-serif; font-size: 13px;font-weight:bold;text-align:left;line-h=
+eight: 18px; color: #024795; padding-bottom: 13px;padding-top: 13px;padding=
+-left: 10px;width: 90px;">Route</th>
+                    <th align=3D"left" style=3D"font-family:Arial Bold, Hel=
+vetica, sans-serif; font-size: 13px;font-weight:bold;text-align:left;line-h=
+eight: 18px; color: #024795; padding-bottom: 13px;padding-top: 13px;padding=
+-left: 10px;width: 80px;">Flight/<br />operated&nbsp;by</th>
+                    <th align=3D"left" style=3D"font-family:Arial Bold, Hel=
+vetica, sans-serif; font-size: 13px;font-weight:bold;text-align:left;line-h=
+eight: 18px; color: #024795; padding-bottom: 13px;padding-top: 13px;padding=
+-left: 10px;width: 90px;">Travelers</th>
+                    <th align=3D"left" style=3D"font-family:Arial Bold, Hel=
+vetica, sans-serif; font-size: 13px;font-weight:bold;text-align:left;line-h=
+eight: 18px; color: #024795; padding-bottom: 13px;padding-top: 13px;padding=
+-left: 10px;width: 70px;">Frequent Flyer<sup>1</sup></th>
+                    <th align=3D"left" style=3D"font-family:Arial Bold, Hel=
+vetica, sans-serif; font-size: 13px;font-weight:bold;text-align:left;line-h=
+eight: 18px; color: #024795; padding-bottom: 13px;padding-top: 13px;padding=
+-left: 10px;width: 55px;">Seats<sup style=3D"line-height: 0;">2</sup></th>
+                    <th align=3D"left" style=3D"font-family:Arial Bold, Hel=
+vetica, sans-serif; font-size: 13px;font-weight:bold;text-align:left;line-h=
+eight: 18px; color: #024795; padding-bottom: 13px;padding-top: 13px;padding=
+-left: 10px;padding-right: 15px;width: 65px;">Terminal</th>
+                </tr>
                =20
-</tbody></table>
+                               =20
+                               =20
+                               =20
+                                       =20
+                                    <tr><td height=3D"1" style=3D"line-heig=
+ht: 0px;background-color: #FFFFFF;" colspan=3D"8"></td></tr>
+                <tr>
+                    <td align=3D"left" rowspan=3D"1" style=3D"font-family:A=
+rial Regular, Helvetica, sans-serif; font-size: 12px; line-height: 17px; co=
+lor: #454545;padding-left: 20px;width: 60px;vertical-align:top; padding-top=
+:10px; padding-bottom:10px;" id=3D"itinerary-1-departure-date">
+                        Thu,<br />Oct&nbsp;24
+                    </td>
+                    <td align=3D"left" rowspan=3D"1" style=3D"font-family:A=
+rial Regular, Helvetica, sans-serif; font-size: 12px; line-height: 17px; co=
+lor: #454545;padding-left: 10px;width: 70px;vertical-align:top; padding-top=
+:10px; padding-bottom:10px;" >
+                      <span id=3D"itinerary-1-departure-time">8:55&nbsp;p.m=
+.</span><br/>
+                      <span id=3D"itinerary-1-arrival-time">11:59&nbsp;p.m.=
+</span>
+                    </td>
+                    <td align=3D"left" rowspan=3D"1" style=3D"font-family:A=
+rial Bold, Helvetica, sans-serif; font-size: 12px; line-height: 17px; color=
+: #454545;font-weight:bold;padding-left: 5px;width: 90px;vertical-align:top=
+; padding-top:10px; padding-bottom:10px;">
+                       =20
+                        <span id=3D"itinerary-1-departure-city">NEW YORK CI=
+TY,  NY (<span class=3D"Iata">JFK</span>)</span>&nbsp;<span style=3D"font-f=
+amily:Arial;font-weight:normal;">to</span><br/>
+                           =20
+                        <span id=3D"itinerary-1-arrival-city">PORTLAND,  OR=
+ (<span class=3D"Iata">PDX</span>)</span>
+                           =20
+                    </td>
+                    <td align=3D"left" rowspan=3D"1" style=3D"font-family:A=
+rial Regular, Helvetica, sans-serif; font-size: 12px; line-height: 17px; co=
+lor: #454545;padding-left: 10px;vertical-align:top;text-align:left; padding=
+-top:10px; padding-bottom:10px;">
+                        <span id=3D"itinerary-1-flight-number">1205</span><=
+br/>
+                        <img src=3D"http://www.jetblue.com/email/img/svt/B6=
+.png" alt=3D"B6" title=3D"B6">
+                    </td>
+                        <!-- only first passenger info - start -->
+                                                                           =
+                                                                           =
+                                                                           =
+                                                      =20
+                                                                           =
+    =20
+                                                                           =
+             <td align=3D"left" style=3D"font-family:Arial Regular, Helveti=
+ca, sans-serif; font-size: 12px; line-height: 17px; color: #454545;padding-=
+left: 10px;vertical-align:top;width: 90px; padding-top:10px; padding-bottom=
+:10px;" id=3D"pax-1-1-name">
+                                    Nicholas Angelo&nbsp;Hesselgrave
+                                </td>
+                                                                    <td ali=
+gn=3D"left" style=3D"font-family:Arial Regular, Helvetica, sans-serif; font=
+-size: 12px; line-height: 17px; color: #454545;padding-left: 10px;vertical-=
+align:top;width: 70px;text-align:left; padding-top:10px; padding-bottom:10p=
+x;">
+                                        <span style=3D"font-family:Arial Re=
+gular, Helvetica, sans-serif; font-size: 12px; line-height: 17px; color: #4=
+54545;" id=3D"pax-1-1-ff">N/A</span>
+                                    </td>
+                                                               =20
+                                <td align=3D"left" style=3D"font-family:Ari=
+al Regular, Helvetica, sans-serif; font-size: 12px; line-height: 17px; colo=
+r: #454545;padding-left: 10px;vertical-align:top;width: 55px;text-align:lef=
+t;padding-top:10px;padding-bottom:10px;">
+                                                                    <table =
+width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" valign=3D"top" style=3D"=
+margin:0px 0 0 0;" border=3D"0">
+                                                                           =
+         <tr width=3D"100%" align=3D"left" valign=3D"top"><td style=3D"padd=
+ing-top:0;">
+                                            <img width=3D"20" height=3D"20"=
+ src=3D"http://www.jetblue.com/email/img/svt/ems_seat.png" alt=3D"" border=
+=3D"0" style=3D"display: block;"/>
+                                            </td></tr>
+                                                                           =
+     <tr width=3D"100%" align=3D"left">
+                                        <td align=3D"left" style=3D"font-fa=
+mily:Arial Regular, Helvetica, sans-serif; font-size: 12px; line-height: 17=
+px; color: #454545; vertical-align:top;width: 55px; vertical-align: top;">
+                                        <span style=3D"color:#518FCA;" id=
+=3D"pax-1-1-seat">
+                                        10A
+                                                                           =
+         &#42; <!-- Even More Space seat -->
+                                                                           =
+                                                 </span></td></tr>
+                                    </table>
+                               =20
+                               </td>
+                                                                           =
+                             <td align=3D"left" rowspan=3D"1" style=3D"font=
+-family:Arial Regular, Helvetica, sans-serif; font-size: 12px; line-height:=
+ 17px; color: #454545;padding-left: 10px;vertical-align:top;text-align:left=
+;width:65px; padding-top:10px; padding-bottom:10px;" id=3D"itinerary-1-depa=
+rture-terminal">
+                            5 &nbsp;
+                        </td>
+                </tr>
 
+                                                                     =20
+                                   =20
+                                       =20
+                                    <tr><td height=3D"1" style=3D"line-heig=
+ht: 0px;background-color: #FFFFFF;" colspan=3D"8"></td></tr>
+                <tr>
+                    <td align=3D"left" rowspan=3D"1" style=3D"font-family:A=
+rial Regular, Helvetica, sans-serif; font-size: 12px; line-height: 17px; co=
+lor: #454545;padding-left: 20px;width: 60px;vertical-align:top; padding-top=
+:10px; padding-bottom:10px;" id=3D"itinerary-2-departure-date">
+                        Sun,<br />Oct&nbsp;27
+                    </td>
+                    <td align=3D"left" rowspan=3D"1" style=3D"font-family:A=
+rial Regular, Helvetica, sans-serif; font-size: 12px; line-height: 17px; co=
+lor: #454545;padding-left: 10px;width: 70px;vertical-align:top; padding-top=
+:10px; padding-bottom:10px;" >
+                      <span id=3D"itinerary-2-departure-time">9:21&nbsp;p.m=
+.</span><br/>
+                      <span id=3D"itinerary-2-arrival-time">5:19&nbsp;a.m.<=
+/span>
+                    </td>
+                    <td align=3D"left" rowspan=3D"1" style=3D"font-family:A=
+rial Bold, Helvetica, sans-serif; font-size: 12px; line-height: 17px; color=
+: #454545;font-weight:bold;padding-left: 5px;width: 90px;vertical-align:top=
+; padding-top:10px; padding-bottom:10px;">
+                       =20
+                        <span id=3D"itinerary-2-departure-city">PORTLAND,  =
+OR (<span class=3D"Iata">PDX</span>)</span>&nbsp;<span style=3D"font-family=
+:Arial;font-weight:normal;">to</span><br/>
+                           =20
+                        <span id=3D"itinerary-2-arrival-city">NEW YORK CITY=
+,  NY (<span class=3D"Iata">JFK</span>)</span>
+                           =20
+                    </td>
+                    <td align=3D"left" rowspan=3D"1" style=3D"font-family:A=
+rial Regular, Helvetica, sans-serif; font-size: 12px; line-height: 17px; co=
+lor: #454545;padding-left: 10px;vertical-align:top;text-align:left; padding=
+-top:10px; padding-bottom:10px;">
+                        <span id=3D"itinerary-2-flight-number">1206</span><=
+br/>
+                        <img src=3D"http://www.jetblue.com/email/img/svt/B6=
+.png" alt=3D"B6" title=3D"B6">
+                    </td>
+                        <!-- only first passenger info - start -->
+                                                                           =
+                                                                           =
+                                                                           =
+                                                      =20
+                                                                           =
+    =20
+                                                                           =
+             <td align=3D"left" style=3D"font-family:Arial Regular, Helveti=
+ca, sans-serif; font-size: 12px; line-height: 17px; color: #454545;padding-=
+left: 10px;vertical-align:top;width: 90px; padding-top:10px; padding-bottom=
+:10px;" id=3D"pax-2-1-name">
+                                    Nicholas Angelo&nbsp;Hesselgrave
+                                </td>
+                                                                    <td ali=
+gn=3D"left" style=3D"font-family:Arial Regular, Helvetica, sans-serif; font=
+-size: 12px; line-height: 17px; color: #454545;padding-left: 10px;vertical-=
+align:top;width: 70px;text-align:left; padding-top:10px; padding-bottom:10p=
+x;">
+                                        <span style=3D"font-family:Arial Re=
+gular, Helvetica, sans-serif; font-size: 12px; line-height: 17px; color: #4=
+54545;" id=3D"pax-2-1-ff">N/A</span>
+                                    </td>
+                                                               =20
+                                <td align=3D"left" style=3D"font-family:Ari=
+al Regular, Helvetica, sans-serif; font-size: 12px; line-height: 17px; colo=
+r: #454545;padding-left: 10px;vertical-align:top;width: 55px;text-align:lef=
+t;padding-top:10px;padding-bottom:10px;">
+                                                                    <table =
+width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" valign=3D"top" style=3D"=
+margin:0px 0 0 0;" border=3D"0">
+                                                                           =
+         <tr width=3D"100%" align=3D"left" valign=3D"top"><td style=3D"padd=
+ing-top:0;">
+                                            <img width=3D"20" height=3D"20"=
+ src=3D"http://www.jetblue.com/email/img/svt/ems_seat.png" alt=3D"" border=
+=3D"0" style=3D"display: block;"/>
+                                            </td></tr>
+                                                                           =
+     <tr width=3D"100%" align=3D"left">
+                                        <td align=3D"left" style=3D"font-fa=
+mily:Arial Regular, Helvetica, sans-serif; font-size: 12px; line-height: 17=
+px; color: #454545; vertical-align:top;width: 55px; vertical-align: top;">
+                                        <span style=3D"color:#518FCA;" id=
+=3D"pax-2-1-seat">
+                                        10A
+                                                                           =
+         &#42; <!-- Even More Space seat -->
+                                                                           =
+                                                 </span></td></tr>
+                                    </table>
+                               =20
+                               </td>
+                                                                           =
+                             <td align=3D"left" rowspan=3D"1" style=3D"font=
+-family:Arial Regular, Helvetica, sans-serif; font-size: 12px; line-height:=
+ 17px; color: #454545;padding-left: 10px;vertical-align:top;text-align:left=
+;width:65px; padding-top:10px; padding-bottom:10px;" id=3D"itinerary-2-depa=
+rture-terminal">
+                             &nbsp;
+                        </td>
+                </tr>
 
-</td>
-						</tr>
-						<tr>
-							<td colspan=3D"2" style=3D"height:1px">
-								<hr size=3D"1px" color=3D"#000000">
-							</td>
-						</tr>
-					=09
-						<tr>
-	<td colspan=3D"2">
-<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
-	<tbody><tr>
-		<td align=3D"left"><span>FARE INFORMATION</span> </td>
-	</tr>
-	<tr>
-		<td style=3D"height:10px"></td>
-	</tr>
-</tbody></table>
-
-
-
-<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
-		<tbody><tr>
-			<td valign=3D"top" align=3D"left" width=3D"320px">
-			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
-				<tbody><tr>
-					<td valign=3D"top" align=3D"left" colspan=3D"5">Fare Breakdown </td>
-				</tr>
-				<tr valign=3D"top">
-					<td align=3D"left" width=3D"190px">Airfare:</td>
-					<td align=3D"right" width=3D"80px"><span>0.00</span></td>
-					<td align=3D"left" width=3D"10px"><span>USD</span></td>
-				</tr>
-			=09
-			=09
-						<tr valign=3D"top">
-							<td align=3D"left" width=3D"190px">
-								U.S. Customs User Fee:=20
-							</td>
-							<td align=3D"right" width=3D"80px">
-								5.50
-							</td>
-							<td style=3D"width:10px"></td>
-						</tr>
-				=09
-						<tr valign=3D"top">
-							<td align=3D"left" width=3D"190px">
-								U.S. Immigration User Fee:=20
-							</td>
-							<td align=3D"right" width=3D"80px">
-								7.00
-							</td>
-							<td style=3D"width:10px"></td>
-						</tr>
-				=09
-						<tr valign=3D"top">
-							<td align=3D"left" width=3D"190px">
-								U.S. APHIS User Fee:=20
-							</td>
-							<td align=3D"right" width=3D"80px">
-								5.00
-							</td>
-							<td style=3D"width:10px"></td>
-						</tr>
-				=09
-						<tr valign=3D"top">
-							<td align=3D"left" width=3D"190px">
-								September 11th Security Fee:=20
-							</td>
-							<td align=3D"right" width=3D"80px">
-								7.50
-							</td>
-							<td style=3D"width:10px"></td>
-						</tr>
-				=09
-						<tr valign=3D"top">
-							<td align=3D"left" width=3D"190px">
-								Australia Passenger Movement Charge:=20
-							</td>
-							<td align=3D"right" width=3D"80px">
-								52.30
-							</td>
-							<td style=3D"width:10px"></td>
-						</tr>
-				=09
-						<tr valign=3D"top">
-							<td align=3D"left" width=3D"190px">
-								Australia Passenger Service Charge:=20
-							</td>
-							<td align=3D"right" width=3D"80px">
-								48.00
-							</td>
-							<td style=3D"width:10px"></td>
-						</tr>
-				=09
-				<tr valign=3D"top">
-				<td align=3D"left" valign=3D"top" width=3D"190px">Per Person Total: </t=
-d>
-				<td align=3D"right" valign=3D"top" width=3D"80px"><span>125.30</span><b=
-r>
-					</td>
-				<td align=3D"left" valign=3D"top" width=3D"10px"><span>USD</span><br>
-					</td>
-			</tr>
-		=09
-				<tr>
-					<td colspan=3D"3" style=3D"height:10px"></td>
-				</tr>
-				<tr valign=3D"top">
-				<td width=3D"190px"><span>eTicket Total: </span> </td>
-				<td align=3D"right" width=3D"80px"><span>125.30</span><br>
-					</td>
-				<td align=3D"left" width=3D"10px"><span>USD</span></td>
-			</tr>
-		=09
-				<tr>
-					<td colspan=3D"3" style=3D"height:10px"></td>
-				</tr>
-			</tbody></table>
-		</td>
-			<td style=3D"width:10px"></td>
-			<td align=3D"left" valign=3D"top" width=3D"140px">
-			<table border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0">
-				<tbody><tr valign=3D"top">
-					<td valign=3D"top">MileagePlus Account Debited: </td>
-				</tr>
-				<tr valign=3D"top">
-					<td align=3D"left" valign=3D"top"><span>HQL49493</span> </td>
-				</tr>
-				<tr>
-					<td style=3D"height:10px"></td>
-				</tr>
-				<tr valign=3D"top">
-					<td align=3D"left" valign=3D"top">Form of Payment:</td>
-				</tr>
-				<tr>
-					<td align=3D"left"><span>VISA </span></td>
-				</tr>
-				<tr>
-					<td align=3D"left"><span>Last Four Digits 3758</span></td>
-				</tr>
-			</tbody></table>
-		=09
-		</td>
-			<td align=3D"left" valign=3D"top" width=3D"185px">
-		=09
-			<table width=3D"100%" border=3D"0">
-				<tbody><tr>
-					<td valign=3D"top">MileagePlus Miles Debited/<br>
-						Award Used:</td>
-				</tr>
-				<tr>
-					<td><span>120000/ZC88-YC88</span></td>
-				</tr>
-				<tr>
-					<td style=3D"height:10px"></td>
-				</tr>
-			</tbody></table>
-		=09
-		</td>
-		</tr>
-		<tr>
-			<td colspan=3D"3"><span>The airfare you paid on this itinerary totals:=
-=A00.00 USD</span> </td>
-		</tr>
-		<tr>
-			<td style=3D"height:10px"></td>
-		</tr>
-		<tr>
-			<td colspan=3D"3"><span>The taxes, fees, and surcharges paid total:=A012=
-5.30 USD</span> </td>
-		</tr>
-		<tr>
-			<td style=3D"height:10px"></td>
-		</tr>
-	</tbody></table>
-=09
-
-<table style=3D"width:100%">
-		<tbody><tr>
-			<td valign=3D"top" align=3D"left" style=3D"width:100px">Award Rules:</td=
->
-			<td><span>Additional charges may apply for changes in addition to any fa=
-re rules listed. <br> RWD ZC88 YC88/NONEND/-TRAN;VALID UA;NOT VALID AFTER 1=
-1/12/2014<br>All changes must be made prior to the departure date, or the t=
-icket has no value.</span><br>
-
-
-		</td>
-		</tr>
-		<tr>
-			<td style=3D"height:10px"></td>
-		</tr>
-	</tbody></table>
-=09
-<table cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%">
-=09
-=09
-=09
-	<tbody><tr>
-		<td style=3D"height:10px"></td>
-	</tr>
-=09
-=09
-=09
-=09
-=09
-	<tr>
-		<td style=3D"height:10px"></td>
-	</tr>
-</tbody></table>
-
-<table width=3D"100%">
-=09
+                                                                     =20
+                                                 </table>
+        </td>
+    </tr>
+</table>                        </td>
+                    </tr>
+                    <tr><td height=3D"1" style=3D"line-height: 0px;"></td><=
+/tr>
+                    <tr>
+                        <td>
+                            <table align=3D"center" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+       =20
+            <tr style=3D"background-color: #F1F5F8;padding-bottom: 1px; pad=
+ding-top: 20px;">
+                <td align=3D"left" style=3D"font-family:Arial, Helvetica, s=
+ans-serif; font-size: 11px; line-height: 18px; color: #666666;padding-left:=
+ 20px;vertical-align:top;text-align:left;" width=3D"100%; " nowrap>
+                    <p align=3D"left" style=3D"font-family:Arial, Helvetica=
+, sans-serif; font-size: 11px; line-height: 18px; color: #666666;white-spac=
+e: nowrap; padding-bottom: 5px;">
+                        For a detailed receipt, select a customer
+                    </p>
+                </td>
+                <td align=3D"right" style=3D"font-family:Arial, Helvetica, =
+sans-serif; font-size: 11px; line-height: 18px; color: #666666;padding-righ=
+t: 20px;vertical-align:top;text-align:right; " nowrap>
+                    <p align=3D"right" style=3D"font-family:Arial, Helvetic=
+a, sans-serif; font-size: 11px; line-height: 18px; color: #666666;white-spa=
+ce: nowrap; padding-bottom: 5px;">
+                        Ticket number(s)
+                    </p>
+                </td>
+            </tr>
+                                                            <tr style=3D"ba=
+ckground-color: #F1F5F8;">
+                        <td align=3D"left" style=3D"font-family:Arial, Helv=
+etica, sans-serif; font-size: 11px; line-height: 18px; color: #666666;paddi=
+ng-left: 20px;vertical-align:top;text-align:left;" id=3D"ticket-1-name">
+                            <a style=3D"color:#518FCA;text-decoration: none=
+;" href=3D"https://www.virtuallythere.com/new/eticketPrint.html?pnr=3DABG2H=
+298EMO9&pcc=3DR917&aaaCity=3DNIH&language=3D0&name=3DHESSELGRAVE&host=3DB6&=
+ETNBR1=3D2792100902446&ETSTC1=3Dnull&ETDTE1=3D12OCT&ETISS1=3DNIH5SSW&ETTOT=
+=3D1&SCOS=3Dfalse&action=3DprintEticket">
+                                Nicholas Angelo&nbsp;Hesselgrave
+                            </a>=20
+                        </td>
+                        <td align=3D"right" style=3D"font-family:Arial, Hel=
+vetica, sans-serif; font-size: 11px; line-height: 18px; color: #666666;padd=
+ing-right: 20px;vertical-align:top;text-align:right;" id=3D"ticket-1-number=
+">
+                            2792100902446
+                        </td>
+                    </tr>
+                                               =20
+   =20
+    <tr style=3D"background-color: #F1F5F8;padding-bottom: 10px;">
+       <td width=3D"100%" style=3D"line-height: 0px;">
+       </td>
+    </tr>
 </table>
-</td>
+                        </td>
+                    </tr>
+                    <tr><td height=3D"1" style=3D"line-height: 0px;"></td><=
+/tr>
+                    <tr>
+                        <td>
+                            <table align=3D"center" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tr>
+        <td style=3D"font-family:Arial, Helvetica, sans-serif; font-size: 1=
+1px; line-height: 18px; color: #666666; padding: 22px; background-color: #F=
+1F5F8;">
+            Please
+            <a href=3D"http://help.jetblue.com/SRVS/CGI-BIN/webisapi.dll?Ne=
+w,Kb=3DaskBlue,case=3Dobj(383871)" style=3D"color: #4D90CD; text-decoration=
+: none;">click here</a>
+            for details regarding change and cancel policies.<br>
+                            <b>&#42;</b> Even More Space seat<br>
+                        <b><sup>1</sup></b> To provide a frequent flier num=
+ber please call 1-800-JETBLUE (538-2583)<br>
+            <b><sup>2</sup></b> Seats requests on other airlines are not gu=
+aranteed until confirmed by the operating carrier.
+        </td>
+    </tr>
+    <tr>
+        <td width=3D"620" height=3D"2" style=3D"line-height: 0px;">
+            <img width=3D"620" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/bottom1.jpg" border=3D"0" style=3D"display: block;">
+        </td>
+    </tr>
+</table>                        </td>
+                    </tr>
+                    <tr><td height=3D"10" style=3D"line-height: 0px;"></td>=
 </tr>
+                                                            <tr>
+                        <td>
+                            <table align=3D"center" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tr>
+        <td width=3D"200" height=3D"2" style=3D"line-height: 0px;">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/top3.jpg" border=3D"0" style=3D"display: block;">
+        </td>
+        <td width=3D"10" style=3D"line-height: 0px;"></td>
 
-						<tr>
-	<td colspan=3D"2" style=3D"height:1px">
-								<hr size=3D"1px" color=3D"#000000">
-							</td>
+        <td width=3D"200" height=3D"2" style=3D"line-height: 0px;">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/top3.jpg" border=3D"0" style=3D"display: block;">
+        </td>
+        <td width=3D"10" style=3D"line-height: 0px;"></td>
+        <td width=3D"200" height=3D"2" style=3D"line-height: 0px;">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/top3.jpg" border=3D"0" style=3D"display: block;">
+        </td>
+    </tr>
+    <tr>
+        <td valign=3D"top" width=3D"156" style=3D"padding:16px; background-=
+color: #F1F5F8;">
+            <table align=3D"center" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+                <tr>
+                    <td height=3D"104" align=3D"center" valign=3D"middle">
+                        <a href=3Dhttp://www.carbonfund.org style=3D"text-d=
+ecoration: none;">
+                            <img src=3D"http://www.jetblue.com/email/img/sv=
+t/carbonfund.jpg" width=3D"150" height=3D"31" align=3D"Carbonfund.org">
+                        </a>
+                    </td>
+                </tr>
+                <tr><td height=3D"10" style=3D"line-height: 0px;"></td></tr=
+>
+                <tr>
+                    <td>
+                        <a href=3Dhttp://www.carbonfund.org style=3D"text-d=
+ecoration: none;">
+                            <span style=3D"font-family:Arial Bold, Helvetic=
+a Bold, sans-serif; font-size: 16px; line-height: 20px; color: #004990;font=
+-weight:bold;">
+                            Reduce what you can<br>
+                            offset what you can't
+                            </span>
+                        </a>
+                    </td>
+                </tr>
+                <tr><td height=3D"10" style=3D"line-height: 0px;"></td></tr=
+>
+                <tr>
+                    <td>
+                        <a href=3Dhttp://www.carbonfund.org style=3D"text-d=
+ecoration: none;">
+                            <span style=3D"font-family:Arial Regular, Helve=
+tica, sans-serif; font-size: 12px; line-height: 20px; color: #454545;">We'r=
+e working to protect and preserve the environment.
+                            By choosing to offset your travel, you too are =
+making a pledge to protect the environment.</span>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td width=3D"10" style=3D"line-height: 0px;"></td>
+        <td valign=3D"top" width=3D"156" style=3D"padding:16px; background-=
+color: #F1F5F8;">
+            <table align=3D"center" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+                <tr>
+                    <td height=3D"104" align=3D"center" valign=3D"middle">
+                        <a href=3Dhttp://www.etravelprotection.com/jbancill=
+aryemail style=3D"text-decoration: none;">
+                        <img src=3D"http://www.jetblue.com/email/img/svt/al=
+lianz.jpg" width=3D"112" height=3D"29" alt=3D"Allianz">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height=3D"10" style=3D"line-height: 0px;"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=3Dhttp://www.etravelprotection.com/jbancill=
+aryemail style=3D"text-decoration: none;">
+                        <span style=3D"font-family:Arial Bold, Helvetica Bo=
+ld, sans-serif; font-size: 16px; line-height: 20px; color: #004990;font-wei=
+ght:bold;">Travel insurance</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height=3D"10" style=3D"line-height: 0px;"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=3Dhttp://www.etravelprotection.com/jbancill=
+aryemail style=3D"text-decoration: none;">
+                        <span style=3D"font-family:Arial Regular, Helvetica=
+, sans-serif; font-size: 12px; line-height: 20px; color: #454545;">For Alli=
+anz Global Assistance flight insurance inquiries, please call 1-800-496-032=
+9.</span>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td width=3D"10" style=3D"line-height: 0px;"></td>
+        <td valign=3D"top" width=3D"156" style=3D"padding:14px; background-=
+color: #F1F5F8;">
+            <table align=3D"center" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+                <tr>
+                    <td height=3D"104" align=3D"center" valign=3D"middle">
+                        <a href=3Dhttps://www262.americanexpress.com/dapply=
+/web/applycard/us/personal-card/api/jal/jetblue-personal-card/jal-eml-ips s=
+tyle=3D"text-decoration: none;">
+                        <img src=3D"http://www.jetblue.com/email/img/svt/tr=
+ueblue.jpg" width=3D"88" height=3D"55" alt=3D"JetBlue">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height=3D"10" style=3D"line-height: 0px;"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=3Dhttps://www262.americanexpress.com/dapply=
+/web/applycard/us/personal-card/api/jal/jetblue-personal-card/jal-eml-ips s=
+tyle=3D"text-decoration: none;">
+                            <span style=3D"font-family:Arial Bold, Helvetic=
+a Bold, sans-serif; font-size: 16px; line-height: 20px; color: #004990;font=
+-weight:bold;">
+                            Earn 20,000 TrueBlue<sup>1</sup><br>
+                            points
+                            </span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height=3D"10" style=3D"line-height: 0px;"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=3Dhttps://www262.americanexpress.com/dapply=
+/web/applycard/us/personal-card/api/jal/jetblue-personal-card/jal-eml-ips s=
+tyle=3D"text-decoration: none;">
+                        <span style=3D"font-family:Arial Regular, Helvetica=
+, sans-serif; font-size: 12px; line-height: 20px; color: #454545;">After yo=
+u spend $1,000 with your Card in your first 3 months of Cardmembership. <sp=
+an
+                                style=3D"color: #4D90CD; text-decoration: n=
+one;">Apply now.</span></span>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td width=3D"200" height=3D"2" style=3D"line-height: 0px;">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/bottom3.jpg" border=3D"0" style=3D"display: block;">
+        </td>
+        <td width=3D"10" style=3D"line-height: 0px;"></td>
+
+        <td width=3D"200" height=3D"2" style=3D"line-height: 0px;">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/bottom3.jpg" border=3D"0" style=3D"display: block;">
+        </td>
+        <td width=3D"10" style=3D"line-height: 0px;"></td>
+        <td width=3D"200" height=3D"2" style=3D"line-height: 0px;">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/bottom3.jpg" border=3D"0" style=3D"display: block;">
+        </td>
+    </tr>
+</table>
+
+<table align=3D"center" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+    <tr><td height=3D"10" style=3D"line-height: 0px;"></td></tr>
+</table>
+
+<table align=3D"center" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+    <tr>
+        <td width=3D"200" height=3D"2" style=3D"line-height: 0px;">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/top3.jpg" border=3D"0" style=3D"display: block;">
+        </td>
+        <td width=3D"10" style=3D"line-height: 0px;"></td>
+
+        <td width=3D"200" height=3D"2" style=3D"line-height: 0px;">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/top3.jpg" border=3D"0" style=3D"display: block;">
+        </td>
+        <td width=3D"10" style=3D"line-height: 0px;"></td>
+        <td width=3D"200" height=3D"2" style=3D"line-height: 0px;">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/top3.jpg" border=3D"0" style=3D"display: block;">
+        </td>
+    </tr>
+    <tr>
+        <td valign=3D"top" width=3D"156" style=3D"padding:16px; background-=
+color: #F1F5F8;">
+            <table align=3D"center" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+                <tr>
+                    <td height=3D"104" align=3D"center" valign=3D"middle">
+                        <a href=3Dhttp://hotels.jetblue.com/templates/23312=
+4?showOptions=3Dfalse&mdpcid=3D233124.hp.hot.nav.lp style=3D"text-decoratio=
+n: none;">
+                        <img src=3D"http://www.jetblue.com/email/img/svt/ho=
+tels_com.jpg" width=3D"136" height=3D"25" alt=3D"Hotels.com">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height=3D"10" style=3D"line-height: 0px;"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=3Dhttp://hotels.jetblue.com/templates/23312=
+4?showOptions=3Dfalse&mdpcid=3D233124.hp.hot.nav.lp style=3D"text-decoratio=
+n: none;">
+                            <span style=3D"font-family:Arial Bold, Helvetic=
+a Bold, sans-serif; font-size: 16px; line-height: 20px; color: #004990;font=
+-weight:bold;">Great hotel offers<br>
+                            with our partner
+                                </span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height=3D"10" style=3D"line-height: 0px;"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=3Dhttp://hotels.jetblue.com/templates/23312=
+4?showOptions=3Dfalse&mdpcid=3D233124.hp.hot.nav.lp style=3D"text-decoratio=
+n: none;">
+                            <span style=3D"font-family:Arial Regular, Helve=
+tica, sans-serif; font-size: 12px; line-height: 20px; color: #454545;">
+                            Special Internet Rate Price Match Guarantee<sup=
+>3</sup>, no Change or Cancel fee<sup>4</sup>,
+                            no phone fee and TripAdvisor<sup>&reg;</sup> cu=
+stomer reviews.
+                            </span>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td width=3D"10" style=3D"line-height: 0px;"></td>
+        <td valign=3D"top" width=3D"156" style=3D"padding:16px; background-=
+color: #F1F5F8;">
+            <table align=3D"center" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+                <tr>
+                    <td height=3D"104" align=3D"center" valign=3D"middle">
+                        <a href=3Dhttp://www.jetblue.com/cars style=3D"text=
+-decoration: none;">
+                        <img src=3D"http://www.jetblue.com/email/img/svt/ca=
+r.jpg" width=3D"97" height=3D"39" alt=3D"Car">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height=3D"10" style=3D"line-height: 0px;"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=3Dhttp://www.jetblue.com/cars style=3D"text=
+-decoration: none;">
+                        <span style=3D"font-family:Arial Bold, Helvetica Bo=
+ld, sans-serif; font-size: 16px; line-height: 20px; color: #004990;font-wei=
+ght:bold;">Car rentals</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height=3D"10" style=3D"line-height: 0px;"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=3Dhttp://www.jetblue.com/cars style=3D"text=
+-decoration: none;">
+                        <span style=3D"font-family:Arial Regular, Helvetica=
+, sans-serif; font-size: 12px; line-height: 20px; color: #454545;">Save up =
+to 35% and earn double TrueBlue points with Hertz.<sup>1</sup></span>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td width=3D"10" style=3D"line-height: 0px;"></td>
+        <td valign=3D"top" width=3D"156" style=3D"padding:16px; background-=
+color: #F1F5F8;">
+            <table align=3D"center" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+                <tr>
+                    <td height=3D"104" align=3D"center" valign=3D"middle">
+                        <a href=3Dhttp://limos.jetblue.com/jetblue/lux-car-=
+service.html style=3D"text-decoration: none;">
+                        <img src=3D"http://www.jetblue.com/email/img/svt/gr=
+oundlink.jpg" width=3D"141" height=3D"42" alt=3D"GroundLink">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height=3D"10" style=3D"line-height: 0px;"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=3Dhttp://limos.jetblue.com/jetblue/lux-car-=
+service.html style=3D"text-decoration: none;">
+                        <span style=3D"font-family:Arial Bold, Helvetica Bo=
+ld, sans-serif; font-size: 16px; line-height: 20px; color: #004990;font-wei=
+ght:bold;">Your driver is here</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height=3D"10" style=3D"line-height: 0px;"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=3Dhttp://limos.jetblue.com/jetblue/lux-car-=
+service.html style=3D"text-decoration: none;">
+                        <span style=3D"font-family:Arial Regular, Helvetica=
+, sans-serif; font-size: 12px; line-height: 20px; color: #454545;">Guarante=
+ed on-time car service providing easy, reliable ground transportation for t=
+ravelers worldwide. Book your ride now.</span>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td width=3D"200" height=3D"2" style=3D"line-height: 0px;">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/bottom3.jpg" border=3D"0" style=3D"display: block;">
+        </td>
+        <td width=3D"10" style=3D"line-height: 0px;"></td>
+
+        <td width=3D"200" height=3D"2" style=3D"line-height: 0px;">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/bottom3.jpg" border=3D"0" style=3D"display: block;">
+        </td>
+        <td width=3D"10" style=3D"line-height: 0px;"></td>
+        <td width=3D"200" height=3D"2" style=3D"line-height: 0px;">
+            <img width=3D"200" height=3D"2" src=3D"http://www.jetblue.com/e=
+mail/img/svt/bottom3.jpg" border=3D"0" style=3D"display: block;">
+        </td>
+    </tr>
+</table>                        </td>
+                    </tr>
+                    <tr><td height=3D"10" style=3D"line-height: 0px;"></td>=
 </tr>
+                    <tr>
+                        <td>
+                            <table align=3D"center" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tr>
+        <td valign=3D"middle" height=3D"40" width=3D"31" style=3D"padding-r=
+ight: 10px;">
+            <a href=3D"http://www.facebook.com/JetBlue">
+                <img src=3D"http://www.jetblue.com/email/img/svt/fb.jpg" wi=
+dth=3D"31" height=3D"31" border=3D"0" align=3D"Facebook">
+            </a>
+        </td>
+        <td valign=3D"middle" height=3D"40" width=3D"31" style=3D"padding-r=
+ight: 10px;">
+            <a href=3D"http://twitter.com/jetblue">
+                <img src=3D"http://www.jetblue.com/email/img/svt/twitter.jp=
+g" width=3D"31" height=3D"31" border=3D"0" align=3D"Twitter">
+            </a>
+        </td>
+        <td valign=3D"middle" height=3D"40" width=3D"31" style=3D"">
+            <a href=3D"http://www.youtube.com/jetblue">
+                <img src=3D"http://www.jetblue.com/email/img/svt/youtube.jp=
+g" width=3D"31" height=3D"31" border=3D"0" align=3D"Youtube">
+            </a>
+        </td>
 
-                        <tr>
-                            <td colspan=3D"2"><span><strong>Baggage allowan=
-ce and charges for this itinerary. <p>Baggage fees are per traveler</p></st=
-rong><table width=3D"100%" border=3D"1" cellspacing=3D"0" cellpadding=3D"1"=
-><tbody><tr align=3D"center">
+        <td valign=3D"middle" height=3D"40" style=3D"padding-left: 20px; pa=
+dding-right: 20px;">
+            <table align=3D"center" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+                <tr><td height=3D"32" width=3D"1" style=3D"border-left: 1px=
+ solid #DBE8F1; line-height: 0px;"></td></tr>
+            </table>
+        </td>
 
-<td>Origin and destination for checked baggage</td><td>1<sup>st</sup> bag</=
-td><td>2<sup>nd</sup> bag</td><td>Max wt / dim per piece</td></tr><tr align=
-=3D"center"><td>12/26/2013 Fort Lauderdale, FL (FLL) to Sydney, Australia (=
-SYD)</td>
+        <td valign=3D"middle" height=3D"40" width=3D"28" style=3D"">
+            <a href=3D"http://blog.jetblue.com/">
+                <img src=3D"http://www.jetblue.com/email/img/svt/bluetails.=
+jpg" width=3D"28" height=3D"29" border=3D"0" align=3D"BlueTails">
+            </a>
+        </td>
+        <td valign=3D"middle" height=3D"40" style=3D"padding-left: 10px; fo=
+nt-family: Arial,Verdana,sans-serif; font-size: 11px;">
+            <a href=3D"http://blog.jetblue.com/" style=3D"color: #4D90CD; t=
+ext-decoration: none; font-weight: bold;">
+                BlueTales Blog
+            </a>
+        </td>
 
-<td>0.00 USD</td><td>100.00 USD</td><td>50.0lbs (23.0kg) - 62.0in (157.0cm)=
-</td></tr><tr align=3D"center"><td>1/15/2014 Sydney, Australia (SYD) to San=
- Francisco, CA (SFO)</td><td>0.00 USD</td><td>100.00 USD</td><td>50.0lbs (2=
-3.0kg) - 62.0in (157.0cm)</td>
+        <td valign=3D"middle" height=3D"40" style=3D"padding-left: 20px; pa=
+dding-right: 20px;">
+            <table align=3D"center" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+                <tr><td height=3D"32" width=3D"1" style=3D"border-left: 1px=
+ solid #DBE8F1;"></td></tr>
+            </table>
+        </td>
 
-</tr><tr align=3D"center"><td>1/20/2014 San Francisco, CA (SFO) to Newark, =
-NJ (EWR - Liberty)</td><td>0.00 USD</td><td>100.00 USD</td><td>50.0lbs (23.=
-0kg) - 62.0in (157.0cm)</td></tr></tbody></table></span><br>
-<span></span><br>
-</td>
-                        </tr>
-                        <tr>
-							<td colspan=3D"2" style=3D"height:1px">
-								<hr size=3D"1px" color=3D"#000000">
-							</td>
-						</tr>
-					=09
-						<tr>
-							<td colspan=3D"2">
-<table width=3D"100%">
-   =20
-        <tbody><tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td width=3D"100%"></td>
+        <td valign=3D"middle" height=3D"40" width=3D"37" style=3D"">
+            <a href=3D"http://www.jetblue.com/mobile">
+                <img src=3D"http://www.jetblue.com/email/img/svt/jb_mobile.=
+jpg" width=3D"37" height=3D"37" border=3D"0" align=3D"JetBlue Mobile">
+            </a>
+        </td>
+        <td valign=3D"middle" height=3D"40" style=3D"padding-left: 10px; fo=
+nt-family: Arial,Verdana,sans-serif; font-size: 10px; color: #666666;">
+            <a href=3D"http://www.jetblue.com/mobile" style=3D"font-family:=
+Arial Bold, Helvetica, sans-serif; font-size: 11px; line-height: 18px; colo=
+r: #4D8FCD; text-decoration:none;">
+                Same smart app. More smartphones.
+            </a><br />
+            <a href=3D"http://www.jetblue.com/mobile" style=3D"text-decorat=
+ion: none; font-family: Arial Regular,Verdana,sans-serif; font-size: 10px; =
+color: #999999;">
+            Download the JetBlue mobile app for iPhone
+            <br>
+            and Android now!
+            </a>
+        </td>
+    </tr>
+</table>                        </td>
                     </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%">
-	<tbody><tr>
-		<td valign=3D"top"></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td valign=3D"top"></td>
-		<td align=3D"center">
-                            <span>Additional Baggage Information</span>
-                        </td>
-		<td valign=3D"top"></td>
-		<td></td>
-	</tr>
-</tbody></table>
+                    <tr><td height=3D"10" style=3D"line-height: 0px;"></td>=
+</tr>
+                    <tr>
+                        <td>
+                            <table align=3D"center" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tr>
+        <td style=3D"padding-top: 15px; padding-bottom: 15px; border-top: 1=
+px solid #DBE8F1; border-bottom: 1px solid #DBE8F1;">
+            <table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0">
+                <tr>
+                    <td style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size: 11px; line-height: 18px; color: #666666; padding-right: 15px;">
+                        <a href=3D"http://www.jetblue.com/help/?intcmp=3Dhd=
+_help" style=3D"color: #4D90CD; text-decoration: none;">
+                            Help
+                        </a>
+                    </td>
 
+                    <td style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size: 11px; line-height: 18px; color: #666666; padding-right: 15px;">
+                        <a href=3D"http://www.jetblue.com/corporate/?intcmp=
+=3Dft_corporate" style=3D"color: #4D90CD; text-decoration: none;">
+                            Corporate Travel
+                        </a>
+                    </td>
+
+                    <td style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size: 11px; line-height: 18px; color: #666666; padding-right: 15px;">
+                        <a href=3D"http://www.jetblue.com/legal/privacy/?in=
+tcmp=3Dft_privacy" style=3D"color: #4D90CD; text-decoration: none;">
+                            Privacy
+                        </a>
+                    </td>
+
+                    <td style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size: 11px; line-height: 18px; color: #666666; padding-right: 15px;">
+                        <a href=3D"http://www.jetblue.com/about/?intcmp=3Df=
+t_aboutus" style=3D"color: #4D90CD; text-decoration: none;">
+                            About JetBlue
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>                        </td>
+                    </tr>
+                    <tr><td height=3D"10" style=3D"line-height: 0px;"></td>=
+</tr>
+                    <tr>
+                        <td>
+                            <table align=3D"center" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"color: #999999;">
+    <tr>
+        <td style=3D"font-family: arial,sans-serif; font-size:12px;">
+            <p style=3D"font-size: 11px;">&dagger;DIRECTV&reg; and XM Radio=
+&reg; services are not available outside the continental U.S.; however, whe=
+re applicable, movies from JetBlue Features&trade; are offered complimentar=
+y on these routes.</p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height: 0px;"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family: arial,sans-serif; font-size:12px;">
+            <p style=3D"font-size: 11px;">1. <strong>Welcome bonus offer no=
+t available to applicants who have had this product or a Crewmember JetBlue=
+ Card account within the last 12 months.</strong> You can earn 20,000 TrueB=
+lue points after you spend $1,000 on eligible purchases in your first three=
+ months of Cardmembership following the time of Card account opening. Eligi=
+ble purchases are purchases of goods or services minus returns and credits,=
+ and do NOT include: fees or interest charges, balance transfers, cash adva=
+nces, purchases of travelers checks, purchases or reloading of prepaid card=
+s, or purchases of cash equivalents. TrueBlue points will be credited to yo=
+ur JetBlue TrueBlue Program account 6 to 8 weeks after the spend requiremen=
+t has been reached. This offer is not valid for existing JetBlue Cardmember=
+s. You are eligible to receive points for only one Card account. Additional=
+ Cardmembers are not eligible.</p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height: 0px;"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family: arial,sans-serif; font-size:12px;">
+            <p style=3D"font-size: 11px;"><span style=3D"font-size: 8pt;">2=
+. Price Match Guarantee: If you find the same hotel and dates of stay at a =
+lower rate, Hotels.com will, at its choice, either match the lower rate or =
+cancel the reservation without a cancellation fee. See </span><a style=3D"t=
+ext-decoration:none; color: #4d8fcd; font-size: 8pt;" href=3D"http://hotels=
+.jetblue.com/index.jsp?pageName=3Dguarantee">http://hotels.jetblue.com/inde=
+x.jsp?pageName=3Dguarantee</a><span style=3D"font-size: 8pt;">.</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height: 0px;"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family: arial,sans-serif; font-size:12px;">
+            <p style=3D"font-size: 11px;">3. No Change/Cancel Fees: Hotels.=
+com does not charge a change or cancel fee; however, each property has inde=
+pendent penalties for changes/cancellations. See full hotel details and des=
+criptions for details.</p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height: 0px;"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family: arial,sans-serif; font-size:12px;">
+            <p style=3D"font-size: 11px;">4. *Advertised rates are based on=
+ trips between airports and downtown metropolitan area locations in an econ=
+omy class vehicle. Rates do not include additional charges that may be appl=
+icable, such as charges for tolls, extra stops, parking fees, telephone usa=
+ge, pets, extra in-car bags, car seats, waiting time, or custom requests. R=
+ates include local and state taxes and fees, except in NY, NJ, and CT; pass=
+engers in these states are responsible for taxes and fees (including, in NY=
+, a 2% NYC workmen&rsquo;s compensation charge and 8.875% state and local s=
+ales taxes). Rates include gratuity, except in NY, NJ, and CT; passengers t=
+raveling in these states are encouraged to provide appropriate gratuity bas=
+ed on the service received. Economy pricing may not be available at all tim=
+es during the day or during certain weather conditions. Advertised rates on=
+ly apply for bookings made online at limos.jetblue.com or by calling 1-888-=
+478-8190.</p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height: 0px;"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family: arial,sans-serif; font-size:12px;">
+            <p style=3D"font-size: 9pt;">CUSTOMER CONCERNS<br /><span style=
+=3D"font-size: 11px"> Any customer inquiries or concerns can be addressed <=
+a style=3D"text-decoration:none; color: #4d8fcd;" href=3D"http://www.jetblu=
+e.com/help/contactus/">here,</a> emailed to <a style=3D"text-decoration:non=
+e; color: #4d8fcd;" href=3D"mailto:dearjetblue@jetblue.com">dearjetblue@jet=
+blue.com</a>, or sent to JetBlue Airways, 6322 South 3000 East, Suite G10, =
+Salt Lake City, UT 84121.</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height: 0px;"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family: arial,sans-serif; font-size:12px;">
+            <p style=3D"font-size: 9pt;">NOTICE OF INCORPORATED TERMS<br />=
+<span style=3D"font-size: 11px"> All travel on JetBlue, whether it is domes=
+tic or international travel, is subject to JetBlue's Contract of Carriage, =
+the terms of which are incorporated herein by reference. International trav=
+el may also be subject to JetBlue's international passenger rules tariffs o=
+n file with the U.S. and other governments, and, where applicable, the Mont=
+real Convention or the Warsaw Convention and its amendments and special con=
+tracts. Incorporated terms include, but are not restricted to:</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height: 0px;"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family: arial,sans-serif; font-size:12px;">
+            <p style=3D"font-size: 9pt;">NOTICE OF INCREASED GOVERNMENT TAX=
+ OR FEE<br /><span style=3D"font-size: 11px"> JetBlue reserves the right to=
+ collect additional payment after a fare has been paid in full and tickets =
+issued for any additional government taxes or fees assessed or imposed.<br =
+/><br /> 1. Liability limitations for baggage, including special rules for =
+fragile and perishable goods and the availability of excess valuation.<br /=
+> 2. Liability limitations for personal injury or death.<br /> 3. Claims re=
+strictions, including time periods within which passengers must file a clai=
+m or bring an action against JetBlue.<br /> 4. Rights of JetBlue to change =
+the terms of contract.<br /> 5. Rules on reservations, check-in, and refusa=
+l to carry.<br /> 6. JetBlue's rights and limits on its liability for delay=
+ or failure to perform service, including schedule changes, substitution of=
+ aircraft or alternate air carriers, and rerouting.<br /> 7. Non-refundabil=
+ity of reservations.<br /> 8. The Contract of Carriage and tariffs may be i=
+nspected at all JetBlue airport customer service counters, and upon request=
+ you have the right to receive by mail a copy of the full text of the Contr=
+act of Carriage or tariffs. Additional information on items one through sev=
+en can be obtained on JetBlue's website at <a style=3D"color: #4b90cd; text=
+-decoration: none;" href=3D"http://www.jetblue.com/about/legal/legal.asp?so=
+urce=3Demitin_coc">www.JetBlue.com</a> or at any U.S. location where JetBlu=
+e transportation is sold.</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height: 0px;"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family: arial,sans-serif; font-size:12px;">
+            <p style=3D"font-size: 9pt;">CARRY-ON BAGGAGE RULES<br /><span =
+style=3D"font-size: 11px"> JetBlue flights - Each customer may bring one ba=
+g that fits in the overhead bin plus one personal item (purse, briefcase, l=
+aptop, etc.) that fits under the seat in front free of charge.&nbsp; Any ex=
+cess carry-on baggage will be checked baggage. Visit <a style=3D"text-decor=
+ation:none; color: #4d8fcd;" href=3D"http://www.jetblue.com/bags">http://ww=
+w.jetblue.com/bags</a>&nbsp; and <a style=3D"text-decoration:none; color: #=
+4d8fcd;" href=3D"http://www.tsa.gov">http://www.tsa.gov</a> for more inform=
+ation. Connecting on our partner airlines (including Cape Air) &ndash; The =
+carry-on rules of a partner airline apply when checking in to a JetBlue fli=
+ght that is connecting to the partner.&nbsp; See <a style=3D"text-decoratio=
+n:none; color: #4d8fcd;" href=3D"http://www.jetblue.com/partners">http://ww=
+w.jetblue.com/partners</a> for more information.&nbsp; While JetBlue may al=
+low additional carry-ons as a courtesy to customers connecting to our partn=
+er airline, JetBlue cannot guarantee that those bags will be accepted for i=
+n-cabin travel on the partner.&nbsp; Customers are encouraged to abide by p=
+artner&rsquo;s rules for their entire journey to avoid additional checked b=
+aggage fees if their carry-ons do not meet size/weight restrictions.</span>=
+</p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height: 0px;"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family: arial,sans-serif; font-size:12px;">
+            <p style=3D"font-size: 9pt;">CHECKED BAGGAGE ALLOWANCE/FEES<br =
+/><span style=3D"font-size: 11px"> Domestic JetBlue flights - JetBlue allow=
+s one free checked bag, subject to size/weight restrictions. For flights bo=
+oked on or after February 3, 2012 a $40.00 fee applies to a second checked =
+bag ($35.00 for flights booked before February 3, 2012), subject to size/we=
+ight restrictions. A $75 fee applies for a third checked bag. Other fees ap=
+ply for additional baggage and oversized or overweight baggage. Visit <a st=
+yle=3D"text-decoration:none; color: #4d8fcd;" href=3D"http://www.jetblue.co=
+m/bags">http://www.jetblue.com/bags</a> for more information. International=
+ JetBlue flights - JetBlue allows one free checked bag, subject to size/wei=
+ght restrictions. For flights booked on or after February 3, 2012 a $40.00 =
+fee applies to a second checked bag ($35.00 for flights booked before Febru=
+ary 3, 2012). Excess baggage rules and size/weight restrictions may vary de=
+pending on load availability and country restrictions. See <a style=3D"text=
+-decoration:none; color: #4d8fcd;" href=3D"http://www.jetblue.com/bags">www=
+.jetblue.com/bags</a> for more information. Travel on our partner airlines =
+(excluding Cape Air*) &ndash; Baggage rules and fees vary by partner airlin=
+e and destination. JetBlue will follow our partner airlines' fees when cust=
+omers are traveling on an itinerary including one of our partner airlines. =
+Excess baggage rules and size/weight restrictions may vary depending on loa=
+d availability. See <a style=3D"text-decoration:none; color: #4d8fcd;" href=
+=3D"http://www.jetblue.com/partners">http://www.jetblue.com/partners</a> fo=
+r more information.&nbsp;</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height: 0px;"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family: arial,sans-serif; font-size:12px;">
+            <p style=3D"font-size: 9pt;"><span style=3D"font-size: 11px">*F=
+or itineraries with a connection only to/from Cape Air, JetBlue's standard =
+fees apply.&nbsp;&nbsp;</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height: 0px;"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family: arial,sans-serif; font-size:12px;">
+            <p style=3D"font-size: 9pt;">CHECK-IN TIMES<br /><span style=3D=
+"font-size: 11px"> For domestic flights, customers traveling without checke=
+d baggage must obtain a boarding pass twenty (20) minutes prior to schedule=
+d departure and customers traveling with checked baggage must obtain a boar=
+ding pass thirty minutes prior to scheduled departure. Customers must be pr=
+esent in the boarding gate are fifteen (15) minutes prior to scheduled depa=
+rture or the posted aircraft departure time. For international flights, cus=
+tomers traveling with or without checked bags must obtain a boarding pass s=
+ixty (60) minutes prior to scheduled departure. Customers must be present i=
+n the boarding gate twenty (20) minutes prior to scheduled departure or the=
+ posted aircraft departure time.</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height: 0px;"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family: arial,sans-serif; font-size:12px;">
+            <p style=3D"font-size: 9pt;">DOCUMENTATION REQUIREMENTS<br /><s=
+pan style=3D"font-size: 11px"> For domestic travel, customers over the age =
+of 18 will be required to show a U.S. federal or state-issued photo ID that=
+ contains the following information: name, date of birth, gender, expiratio=
+n date and a tamper-resistant feature. Customers traveling to/from an inter=
+national destination are required to present proper documentation at the ti=
+me of check-in. Documents required for travel vary according to citizenship=
+, residency, country of travel, age (for minors), length of stay, purpose o=
+f visit, student status, etc. Please check for specific requirements for th=
+e country, or countries, you are visiting to make sure you have the correct=
+ documents. In addition, Customers traveling to a country other than their =
+country of citizenship or residency are required to hold proof of return or=
+ onward travel. Failure to present proper documentation could result in den=
+ied boarding.</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height: 0px;"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family: arial,sans-serif; font-size:12px;">
+            <p style=3D"font-size: 9pt;">ADVICE TO INTERNATIONAL PASSENGERS=
+ ON LIMITATION OF LIABILITY<br /><span style=3D"font-size: 11px"> Where a p=
+assenger's journey involves an ultimate destination or a stop in a country =
+other than the country of departure, either the Warsaw Convention and the H=
+ague Protocol, their amendments, and any special contracts of carriage embo=
+died in applicable tariffs that waive Warsaw/Hague limits, or the Montreal =
+Convention may apply to the entire journey including the portion within the=
+ countries of departure or destination and, in some cases, may limit the li=
+ability of the carrier for death or personal injury, delay, and for loss of=
+ or damage to baggage. The Montreal Convention, where applicable, does not =
+impose, and special contracts voluntarily entered into by many carriers, in=
+cluding JetBlue, waive, the Warsaw/Hague limitations for compensatory damag=
+es arising out of personal injury or wrongful death caused by an accident, =
+as defined by the applicable treaty. The names of carriers party to the spe=
+cial contracts are available at all ticket offices of such carriers and may=
+ be examined upon request.</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height: 0px;"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family: arial,sans-serif; font-size:12px;">
+            <p style=3D"font-size: 9pt;">NOTICE OF BAGGAGE LIABILITY LIMITS=
+<br /><span style=3D"font-size: 11px"> For international transportation (in=
+cluding domestic portions) governed by the Montreal Convention, JetBlue's l=
+iability for baggage is limited to 1,131 SDRs (see, <a style=3D"text-decora=
+tion:none; color: #4d8fcd;" href=3D"http://www.imf.org">http://www.imf.org<=
+/a> for current value) per passenger unless a higher value is declared and =
+an extra charge is paid. For international transportation governed by the W=
+arsaw Convention and the Hague Protocol and their amendments, JetBlue's lia=
+bility for baggage is limited to $9.07 per pound for checked baggage and $4=
+00 per passenger for unchecked baggage unless a higher value is declared an=
+d an extra charge is paid. Special rules may apply to valuable articles. Fo=
+r domestic transportation, JetBlue's liability for baggage is limited to $3=
+,300 per passenger. General baggage rules: As set forth more fully in its C=
+ontract of Carriage and international passenger rules tariffs, JetBlue will=
+ not be responsible for fragile or perishable goods. JetBlue assumes no lia=
+bility for oversized, overweight or overpacked baggage, or for loss of or d=
+amage to baggage parts such as wheels, straps, pockets, pull handles, zippe=
+rs, hanger hooks or other items attached to baggage. JetBlue will not be re=
+sponsible for the following items in checked or unchecked baggage: money, j=
+ewelry including watches, cameras, camcorders, any type of electronic equip=
+ment, including computers, valuable papers or documents and other similar i=
+tems as described in more detail in the Contract of Carriage.</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height: 0px;"></td>
+    </tr>
+    <tr>
+        <td style=3D"font-family: arial,sans-serif; font-size:12px;">
+            <p style=3D"font-size: 9pt;">NOTICE OF OVERBOOKING OF FLIGHTS<b=
+r /><span style=3D"font-size: 11px"> Although JetBlue does not intentionall=
+y overbook its flights, there is a slight chance that a seat will not be av=
+ailable on a flight for which a person has a confirmed reservation. If the =
+flight is overbooked, no one will be denied a seat until airline personnel =
+first ask for volunteers willing to give up their reservation in exchange f=
+or compensation of the airline's choosing. If there are not enough voluntee=
+rs, JetBlue will deny boarding to other persons in accordance with its part=
+icular boarding priority. With few exceptions, including failure to comply =
+with JetBlue's check-in deadline (which are available upon request from Jet=
+Blue), persons denied boarding involuntarily are entitled to compensation. =
+The complete rules for the payment of compensation and JetBlue's boarding p=
+riorities are available at all airport ticket counters and boarding locatio=
+ns. Some airlines do not apply these consumer protections to travel from so=
+me foreign countries, although other consumer protections may be available.=
+ Check with your airline or your travel agent.</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"20" style=3D"line-height: 0px;"></td>
+    </tr>
+</table>                        </td>
+                    </tr>
+                                    </table>
             </td>
-        </tr>       =20
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"></td>
-                        <td align=3D"left">
-                            <span></span> <b>Carry-on baggage information</=
-b>
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
+            <td width=3D"10" style=3D"line-height: 0px;"></td>
         </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"></td>
-                        <td align=3D"left">
-                            <span></span> United accepts one carry-on item =
-of no more than 45 linear inches or 114 linear centimeters in the aircraft =
-cabin, along with one personal item (such as a shoulder or laptop bag).
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"></td>
-                        <td align=3D"left">
-                            <span></span> <u></u>Due to FAA regulations, op=
-erating carriers may have different carry-on requirements.
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"></td>
-                        <td align=3D"left">
-                            <span></span> Please check with the operating c=
-arrier for more information or go to <u><a href=3D"http://www.united.com/CM=
-S/en-US/travel/Pages/ChangedBagRulesOptionalServices.aspx#allowances" targe=
-t=3D"_blank">united.com.</a></u>
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"></td>
-                        <td align=3D"left">
-                            <span></span> <b>General Baggage Information</b=
->
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"></td>
-                        <td align=3D"left">
-                            <span></span> First and second bag service char=
-ges do not apply to active-duty members of the U.S. military and their acco=
-mpanying dependents. For additional information regarding baggage charges
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"></td>
-                        <td align=3D"left">
-                            <span></span> <u></u>allowances, weight/size re=
-strictions, exceptions or embargoes, or charges for overweight, oversized, =
-excess, odd-sized baggage, special items
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"></td>
-                        <td align=3D"left">
-                            <span></span> <u></u>or sporting equipment, vis=
-it <u><a href=3D"http://www.united.com/web/en-US/content/travel/baggage/def=
-ault.aspx" target=3D"_blank">united.com/baggage.</a></u>
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-         =20
-   =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td width=3D"100%"><hr size=3D"1px" color=3D"#00000=
-0"></td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%">
-	<tbody><tr>
-		<td valign=3D"top"></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td valign=3D"top"></td>
-		<td align=3D"center">
-                            <span>MileagePlus International eTicket Reminde=
-rs</span>
-                        </td>
-		<td valign=3D"top"></td>
-		<td></td>
-	</tr>
-</tbody></table>
+        <tr><td id=3D"doc-end" height=3D"10" style=3D"line-height: 0px;"></=
+td></tr>
+    </table>
+</body>
+</html>
+------=_Part_140032_1431060183.1381618518459--
 
-            </td>
-        </tr>       =20
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"><img border=3D"0"=
-></td>
-                        <td align=3D"left">
-                            <span></span> <b>Check-in Requirement</b> - Bag=
-s must be checked and boarding passes obtained at least 60 minutes prior to=
- scheduled departure. Baggage will not be accepted and advance seat assignm=
-ents may be canceled if this condition is not met.
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"><img border=3D"0"=
-></td>
-                        <td align=3D"left">
-                            <span></span> <b>Boarding Requirement</b> - Pas=
-sengers must be prepared to board at the departure gate with their boarding=
- pass at least 30 minutes prior to scheduled departure.
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"><img border=3D"0"=
-></td>
-                        <td align=3D"left">
-                            <span></span> Failure to meet the <b>Boarding R=
-equirements</b> may result in cancellation of reservations, denied boarding=
-, removal of checked baggage from the aircraft and loss of eligibility for =
-denied boarding compensation.
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"><img border=3D"0"=
-></td>
-                        <td align=3D"left">
-                            <span></span> Bring your boarding pass or this =
-eTicket Receipt along with <a></a><a href=3D"http://www.united.com/travel/p=
-olicies/id/" target=3D"_blank">photo identification</a> to the airport
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"><img border=3D"0"=
-></td>
-                        <td align=3D"left">
-                            <span></span> The FAA now restricts carry-on ba=
-ggage to one bag plus one personal item (purse, briefcase, laptop computer,=
-  etc.) per passenger
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"><img border=3D"0"=
-></td>
-                        <td align=3D"left">
-                            <span></span> For up to the minute flight infor=
-mation, sign-up for our Flight Status E-mail at <a href=3D"http://www.unite=
-d.com/travel/tcFlightandGate.asp" target=3D"_blank">united.com</a> or call =
-1-800-824-6200; in Spanish 1-800-426-5561
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"><img border=3D"0"=
-></td>
-                        <td align=3D"left">
-                            <span></span> If flight segments are not flown =
-in order, your reservation will be cancelled. Rebooking will be subject to =
-the fare rules governing your ticket.
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"><img border=3D"0"=
-></td>
-                        <td align=3D"left">
-                            <span></span> For the most current status of yo=
-ur reservation, flights and other important policies, go to <a href=3D"http=
-://www.united.com/" target=3D"_blank">united.com</a>
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"><img border=3D"0"=
-></td>
-                        <td align=3D"left">
-                            <span></span> Your eTicket is non-transferable =
-and valid 1 year from date of mileage withdrawal unless otherwise provided =
-in the Conditions of Contract.
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"><img border=3D"0"=
-></td>
-                        <td align=3D"left">
-                            <span></span> Award travel is subject to the te=
-rms and conditions of the MileagePlus program.
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"><img border=3D"0"=
-></td>
-                        <td align=3D"left">
-                            <span></span> <u></u>Redeposit or change fees a=
-pply for award travel based on Premier level. Please go to <u><a href=3D"ht=
-tp://www.united.com/web/en-US/content/onepass/rules/rewards.aspx" target=3D=
-"_blank">united.com</a></u> or call 1-800-UNITED-1 for details.
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"></td>
-                        <td align=3D"left">
-                            <span></span>=20
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"><img border=3D"0"=
-></td>
-                        <td align=3D"left">
-                            <span></span> International taxes and fees may =
-be collected at your departure airport.
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-         =20
-   =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td width=3D"100%"><hr size=3D"1px" color=3D"#00000=
-0"></td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%">
-	<tbody><tr>
-		<td valign=3D"top"></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td valign=3D"top"></td>
-		<td align=3D"center">
-                            <span>Customer Care Contact Information</span>
-                        </td>
-		<td valign=3D"top"></td>
-		<td></td>
-	</tr>
-</tbody></table>
-
-            </td>
-        </tr>       =20
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"></td>
-                        <td align=3D"left">
-                            <span></span> <u></u>We welcome your compliment=
-s, comments or complaints regarding United or a United travel experience.
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"></td>
-                        <td align=3D"left">
-                            <span></span> You may contact us using our Cust=
-omer Care contact form at <u><a href=3D"https://www.united.com/web/en-US/co=
-ntent/Contact/customer/default.aspx?camp=3Dvirtual_expert" target=3D"_blank=
-">united.com</a></u>
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-         =20
-   =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td width=3D"100%"><hr size=3D"1px" color=3D"#00000=
-0"></td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%">
-	<tbody><tr>
-		<td valign=3D"top"></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td valign=3D"top"></td>
-		<td align=3D"center">
-                            <span>Proud Member of Star Alliance</span>
-                        </td>
-		<td valign=3D"top"></td>
-		<td></td>
-	</tr>
-</tbody></table>
-
-            </td>
-        </tr>       =20
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"></td>
-                        <td align=3D"left">
-                            <span></span> <u></u> We are making connections=
- so you make yours. You can earn and redeem miles on 28  member airlines of=
-fering 21,900 daily flights and over 1100 destinations worldwide.
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"></td>
-                        <td align=3D"left">
-                            <span></span> Go to <u><a href=3D"http://www.st=
-aralliance.com/en/" target=3D"_blank">www.staralliance.com</a></u> to find =
-out more. You=92ve earned it.
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-         =20
-   =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td width=3D"100%"><hr size=3D"1px" color=3D"#00000=
-0"></td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%">
-	<tbody><tr>
-		<td valign=3D"top"></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td valign=3D"top"></td>
-		<td align=3D"center">
-                            <span>Food for Purchase Now Available</span>
-                        </td>
-		<td valign=3D"top"></td>
-		<td></td>
-	</tr>
-</tbody></table>
-
-            </td>
-        </tr>       =20
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"></td>
-                        <td align=3D"left">
-                            <span></span> Satisfy your cravings with someth=
-ing tasty from our new In-Flight Menu. Snacks or freshly prepared selection=
-s are available for purchase on most flights between two and a half and six=
- and a half hours.
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-         =20
-   =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td width=3D"100%"><hr size=3D"1px" color=3D"#00000=
-0"></td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%">
-	<tbody><tr>
-		<td valign=3D"top"></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td valign=3D"top"></td>
-		<td align=3D"center">
-                            <span>Split terminal operations</span>
-                        </td>
-		<td valign=3D"top"></td>
-		<td></td>
-	</tr>
-</tbody></table>
-
-            </td>
-        </tr>       =20
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"></td>
-                        <td align=3D"left">
-                            <span></span> <u></u>While we continue combinin=
-g our airline, some stations will operate in multiple terminals. Be sure to=
- check your flight status to ensure you arrive at the right terminal before=
- your flight. You
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"></td>
-                        <td align=3D"left">
-                            <span></span> <u></u>can check flight status an=
-d gate information at <u><a href=3D"http://united.com/web/en-US/apps/travel=
-/flightStatus/default.aspx" target=3D"_blank">united.com</a></u> or on the =
-go with <a href=3D"http://mobile.united.com">mobile.united.com</a> or the U=
-nited App.
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"></td>
-                        <td align=3D"left">
-                            <span></span> Our operations locations are spli=
-t in the following airports: London Heathrow, England; New York LaGuardia, =
-NY and Boston, MA.
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-           =20
-        <tr>
-            <td>
-                <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellsp=
-acing=3D"0">
-                    <tbody><tr>
-                        <td valign=3D"top" width=3D"10px"></td>
-                        <td align=3D"left">
-                            <span></span> See <u><a href=3D"http://hub.unit=
-ed.com/en-us/News/Company-Operations/Pages/terminal-location-information.as=
-px" target=3D"_blank">united.com</a></u> for where to check in at each airp=
-ort
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>           =20
-        </tr>
-         =20
-        =20
-</tbody></table></td>
-						</tr>
-					</tbody></table>
-				=09
-				=09
-					<table width=3D"100%">
-	<tbody><tr>
-		<td colspan=3D"2" style=3D"height:1px">
-								<hr size=3D"1px" color=3D"#000000">
-							</td>
-	</tr>
-	<tr>
-		<td colspan=3D"2" align=3D"center">IMPORTANT CONSUMER NOTICES </td>
-	</tr>
-	<tr>
-		<td height=3D"10px"></td>
-	</tr>
-	<tr>
-		<td valign=3D"top"><img alt=3D""></td>
-		<td><b>Incorporated Terms</b> - Your travel is subject to United=92s Cont=
-ract of Carriage terms. The Contract is available for inspection at any UA =
-ticketing facility, <a href=3D"http://www.united.com" target=3D"_blank">uni=
-ted.com</a> or by calling 1-800-UNITED-1. Passengers have the right to rece=
-ive the full text of the terms incorporated by reference free of charge by =
-mail or other delivery service. The Contract terms include rules about limi=
-ts on liability for personal injury or death and for loss, damage, or delay=
- of goods and baggage, check-in times, overbooking, security issues, reserv=
-ations, denial of carriage, refunds, claims limits and restrictions, includ=
-ing time limitations for filing a claim or lawsuit, and schedule changes an=
-d irregularities.  The <a href=3D"http://www.united.com/travel/policies/con=
-tract/default.asp" target=3D"_blank">Contract of Carriage</a> contains furt=
-her detail of these terms.</td>
-
-
-	</tr>
-	<tr>
-		<td valign=3D"top"><img></td>
-		<td><b>Additional Terms</b> - Depending on the rules applicable to the fa=
-re paid, one or more restrictions including, but not limited to one or more=
- of the following, may apply to your travel: (1) the ticket may not be refu=
-ndable but may be exchangeable for a fee with another restricted fare ticke=
-t meeting all the rules/restrictions of the original ticket (including the =
-payment of any difference in fares); (2) a fee may apply for changing/cance=
-ling reservations; or (3) travel may be restricted to specific flights and/=
-or times and minimum and/or maximum stay may be required. </td>
-
-
-	</tr>
-	<tr>
-		<td valign=3D"top"><img></td>
-		<td><b>Baggage Liability</b> - On domestic flights, United=92s maximum li=
-ability limit for checked baggage is $<span>3400</span> USD per passenger a=
-nd United excludes liability for all unchecked baggage. For travel within t=
-he U.S., United excludes liability for fragile, valuable or perishable item=
-s carried in all baggage including jewelry, computers, cash, camera equipme=
-nt and similar valuables. If any of these items are lost, damaged or delaye=
-d, you will not be entitled to any reimbursement.  You can declare excess v=
-aluation on certain baggage at the airport, additional fees will apply.</td=
->
-
-
-	</tr>
-	<tr>
-		<td valign=3D"top"><img></td>
-		<td><b>ADVICE TO INTERNATIONAL PASSENGERS ON CARRIER LIABILITY</b> =96 Pa=
-ssengers on a journey involving an ultimate destination or stop in a countr=
-y other than the country of departure are advised that international treati=
-es known as the Montreal Convention, or its predecessor, the Warsaw Convent=
-ion, including its amendments, may apply to the entire journey, including a=
-ny portion thereof within a country. For such passengers, the treaty, inclu=
-ding special contracts of carriage embodied in applicable tariffs, governs =
-and may limit the liability of the Carrier in respect of death of or injury=
- to passengers, and for destruction or loss of, or damage to, baggage, and =
-for delay of passengers and baggage.</td>
-
-
-	</tr>
-	<tr>
-		<td valign=3D"top"><img></td>
-		<td><b>Notice=97Overbooking of Flights</b> - Airline flights may be overb=
-ooked, and there is a slight chance that a seat will not be available on a =
-flight for which a person has a confirmed reservation. If the flight is ove=
-rbooked, no one will be denied a seat until airline personnel first ask for=
- volunteers willing to give up their reservation in exchange for compensati=
-on of the airline&#39;s choosing. If there are not enough volunteers, the a=
-irline will deny boarding to other persons in accordance with its particula=
-r boarding priority. With few exceptions, including failure to comply with =
-the carrier&#39;s check-in deadline which are available upon request from t=
-he air carrier, persons denied boarding involuntarily are entitled to compe=
-nsation. <i>The complete rules for the payment of compensation and each air=
-line&#39;s boarding priorities are available at all airport ticket counters=
- and boarding locations. Some airlines do not apply these consumer protecti=
-ons to travel from some foreign countries, although other consumer protecti=
-ons may be available. Check with your airline or your travel agent.</i></td=
->
-
-
-	</tr>
-	<tr>
-		<td valign=3D"top"><img></td>
-		<td><b>Personal Health</b> - For important health tips before your flight=
-, including information on a serious condition called <a href=3D"http://www=
-.united.com/travel/specialneeds/health.asp" target=3D"_blank">Deep Vein Thr=
-ombosis</a>, please go to <a href=3D"http://www.united.com/" target=3D"_bla=
-nk">united.com</a>. </td>
-
-
-	</tr>
-	<tr>
-		<td height=3D"10px"></td>
-	</tr>
-</tbody></table>
-
-					<table width=3D"100%">
-	<tbody><tr>
-		<td height=3D"10px"></td>
-	</tr>
-	<tr>
-		<td align=3D"center"><span><b>Thank you for choosing United Airlines</b><=
-br><a href=3D"http://www.united.com" target=3D"_blank">united.com</a></span=
-> </td>
-	</tr>
-	<tr>
-		<td height=3D"10px"></td>
-	</tr>
-	<tr>
-		<td align=3D"center"><span><a href=3D"http://www.united.com/web/en-US/con=
-tent/legal.aspx" target=3D"_blank">Legal Notices</a>.=A0<a href=3D"http://w=
-ww.united.com/web/en-US/content/privacy.aspx" target=3D"_blank">Privacy Pol=
-icy</a><br>
-
-Copyright =A9 {0} United Airlines, Inc. All rights reserved.<br><br><b>Plea=
-se do not reply to this message using the &quot; reply &quot; address.</b><=
-br>For assistance, please contact United Airlines via telephone or via e-ma=
-il.2013</span> </td>
-
-
-	</tr>
-	<tr>
-		<td height=3D"20px"></td>
-	</tr>
-</tbody></table>
-
-				</td>
-			</tr>
-		</tbody></table>
-	</div>
-</div>
-
-</div><br><br clear=3D"all"><div><br></div>-- <br>Nicholas A. Hesselgrave<b=
-r>Columbia University<br>USMC Veteran<br>760-672-4732
-</div>
-
---001a1133dee67dcdb004ecbc54f2--
 
