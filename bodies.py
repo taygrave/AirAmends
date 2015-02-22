@@ -29,18 +29,27 @@ def find_airports():
     msg_list = query_emails()
     #tried taking out parenthesis and it was a madhouse, need parenthesis.
     aircode_str = r"\(([A-Z]{3})\)"
-    
+
     # #this works for the one jetblue email where airport codes are not in parenthesis, but on nothing else, so maybe not worth it... but noting
     # aircode_str2 = r"\>([A-Z]{3})\<"
 
+    #need another one for parenthesis that look like this: eg. &=2340;SFO&=2341
+
+
     for msg_obj in msg_list:
         list_refinds = re.findall(aircode_str, msg_obj.body_raw)
+
+        msg = email.message_from_string(msg_obj.body_raw)
+        From = msg['From']
+        Date = msg['Date']
+        Subject = msg['Subject']
+
+        print From, Date, Subject
 
         #list comprehension to ensure three letter findings are airport codes
         list_airfinds = [item for item in list_refinds if item in list_aircodes]
 
         if list_airfinds == []:
-            msg = email.message_from_string(msg_obj.body_raw)
             for part in msg.walk():
                 msg.get_payload()
                 if part.get_content_type() == 'text/html' or part.get_content_type() == 'text/plain':
@@ -71,4 +80,15 @@ def print_to_file():
 
 # find_airports()
 
-print_to_file()
+
+
+# emails = query_emails()
+# n21 = emails[20]
+
+# msg = email.message_from_string(n21.body_raw)
+
+# for part in msg.walk():
+#     msg.get_payload()
+#     if part.get_content_type() == 'text/plain':
+#         decoded = base64.urlsafe_b64decode(part.get_payload().encode('UTF-8'))
+#         print decoded
