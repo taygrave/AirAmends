@@ -15,7 +15,6 @@ def airport_codes():
     return list_aircodes
 
 #TODO set variable for confirmation code numbers 
-#TODO in initial quickstart, don't return any emails where i am not the passenger, or delete them from here if you can identify which these are
 
 def query_emails():
     """Connects to db and returns list of all email message objects"""
@@ -33,7 +32,7 @@ def find_airports():
     # #this works for the one jetblue email where airport codes are not in parenthesis, but on nothing else, so maybe not worth it... but noting
     # aircode_str2 = r"\>([A-Z]{3})\<"
 
-    #need another one for parenthesis that look like this: eg. &=2340;SFO&=2341
+    #need another one for parenthesis that look like this: eg. &=2340;SFO&=2341 (JetBlue Flight and SW)
 
 
     for msg_obj in msg_list:
@@ -43,8 +42,6 @@ def find_airports():
         From = msg['From']
         Date = msg['Date']
         Subject = msg['Subject']
-
-        print From, Date, Subject
 
         #list comprehension to ensure three letter findings are airport codes
         list_airfinds = [item for item in list_refinds if item in list_aircodes]
@@ -58,7 +55,11 @@ def find_airports():
 
                     list_airfinds = [item for item in list_refinds if item in list_aircodes]
 
+        print "*" * 20
         print "message id: %d" %msg_obj.id
+        print From
+        print Date 
+        print Subject
         print list_airfinds
 
         #TODO: Break this out into a couple different functions that can be called if and only if the returned list with the easiest thing is empty, then calling alternate functions increasing in complexity only if.
@@ -78,17 +79,6 @@ def print_to_file():
         f.close
         fnum = fnum + 1
 
-# find_airports()
 
-
-
-# emails = query_emails()
-# n21 = emails[20]
-
-# msg = email.message_from_string(n21.body_raw)
-
-# for part in msg.walk():
-#     msg.get_payload()
-#     if part.get_content_type() == 'text/plain':
-#         decoded = base64.urlsafe_b64decode(part.get_payload().encode('UTF-8'))
-#         print decoded
+# print_to_file()
+find_airports()

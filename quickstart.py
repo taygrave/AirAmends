@@ -100,24 +100,25 @@ def get_message(service, user_id, msg_id):
 
 def add_msgs_to_db():
 
-    query1 = "itinerary, confirmation, flight, number, departure, taxes from:-me subject:-fwd"
+    query1 = "itinerary, confirmation, flight, number, departure, taxes from:-me subject:-fwd subject:-re subject:-fw subject:-check"
     msg_list = query_messages(gmail_service,"me", query1)
     s = model.connect()
 
-    for i in range(len(msg_list)):
-        msg_id = msg_list[i]['id']
+    for item in msg_list:
+        msg_id = item['id']
         #only take those where msg_id = thread_id to ensure its the root email
-        msg_thrd_id = msg_list[i]['threadId'] 
+        msg_thrd_id = item['threadId'] 
         msg_str1 = get_message(gmail_service,'me', msg_id)
 
         # add to db the id and the text
         #FIXME: actually add the current user to the Users table (w/ all info) and input user_id as actual user_id
         entry = model.Email(user_id=1, msg_id=msg_id, thread_id=msg_thrd_id, body_raw=msg_str1, body_full=("notworking currenlty, but I think it returns the same thing anyway"))
 
+
         s.add(entry)
 
-    s.commit() 
+        s.commit() 
 
     print "Successfully added emails to the db"
 
-add_msgs_to_db()
+# add_msgs_to_db()
