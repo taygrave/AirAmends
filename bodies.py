@@ -27,12 +27,13 @@ def find_airports():
     list_aircodes = airport_codes()
     msg_list = query_emails()
     #tried taking out parenthesis and it was a madhouse, need parenthesis.
-    aircode_str = r"\(([A-Z]{3})"
+    # aircode_str = r"\(([A-Z]{3})"
 
-    # #this works for the one jetblue email where airport codes are not in parenthesis, but on nothing else, so maybe not worth it... but noting
-    # aircode_str2 = r"\>([A-Z]{3})\<"
+    aircode_str = r"[\(;>]([A-Z]{3})[\)&<]"
 
-    #need another one for parenthesis that look like this: eg. &=2340;SFO&=2341 (JetBlue Flight and SW)
+    # re1 = (A-Z
+    # re2 = >A-Z<
+    # re3 = ;A-Z&
 
 
     for msg_obj in msg_list:
@@ -53,11 +54,11 @@ def find_airports():
             # print >> f, decoded_str
             # f.close   
 
-        print "*" * 20
-        print "message id: %d" %msg_obj.id
-        print msg_obj.date
-        print msg_obj.sender 
-        print msg_obj.subject
+        # print "*" * 20
+        # print "message id: %d" %msg_obj.id
+        # print msg_obj.date
+        # print msg_obj.sender 
+        # print msg_obj.subject
         print list_airfinds
 
 

@@ -6,6 +6,7 @@ NEXT STEPS
     find out confirmation number (to ensure no double segments, is this trouble anyway?)
     Figure out how to get only MY itineraries:
         look at who from (domain matching airline) - or better yet, look at who to, then see if user's name appears elsewhere in the email (like as the ticketed passenger) and if not, may not be their flight
+    Make flights user-editable
     
 
 Once flights figured out:
