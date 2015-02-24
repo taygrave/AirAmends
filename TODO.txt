@@ -15,4 +15,5 @@ Once flights figured out:
 
 Non-prioritized problems:
     Where's my icelandair flight... 
+    make another file that details every single airport code that you've removed, why you removed it (with excerpt from offending email where available) and which airport it was (current list is in seed_sirports.py - mostly timezones but some other random offenses as well)
     

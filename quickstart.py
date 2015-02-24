@@ -11,6 +11,7 @@ from oauth2client.tools import run
 
 #FIXME: clean this UP! 
 #FIXME: this process takes so long, way to speed it up? 
+#TODO: actually add the current user to the Users table (w/ all info) and input user_id as actual user_id
 
 #exmaple provided by: https://developers.google.com/gmail/api/quickstart/quickstart-python
 
@@ -106,19 +107,26 @@ def add_msgs_to_db():
 
     for item in msg_list:
         msg_id = item['id']
-        #only take those where msg_id = thread_id to ensure its the root email
         msg_thrd_id = item['threadId'] 
-        msg_str1 = get_message(gmail_service,'me', msg_id)
 
-        # add to db the id and the text
-        #FIXME: actually add the current user to the Users table (w/ all info) and input user_id as actual user_id
-        entry = model.Email(user_id=1, msg_id=msg_id, thread_id=msg_thrd_id, body_raw=msg_str1, body_full=("notworking currenlty, but I think it returns the same thing anyway"))
+        #only take those where msg_id = thread_id to ensure its the root email
+        if msg_id == msg_thrd_id:
 
+          str_raw_msg = get_message(gmail_service,'me', msg_id)
+          msg_str1 = email.message_from_string(str_raw_msg)
 
-        s.add(entry)
+          msg_date = msg_str1['Date']
+          msg_sender = msg_str1['From']
+          msg_subject = msg_str1['Subject']
 
-        s.commit() 
+          # and make sure isn't in db already
+          exists = s.query(model.Email).filter(model.Email.sender == msg_sender, model.Email.subject == msg_subject).first()
+
+          if exists == None:
+            entry = model.Email(user_id=1, msg_id=msg_id, date=msg_date, sender=msg_sender, subject=msg_subject, body=str_raw_msg)
+            s.add(entry)
+            s.commit() 
 
     print "Successfully added emails to the db"
 
-# add_msgs_to_db()
+add_msgs_to_db()

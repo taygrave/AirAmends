@@ -27,7 +27,7 @@ def find_airports():
     list_aircodes = airport_codes()
     msg_list = query_emails()
     #tried taking out parenthesis and it was a madhouse, need parenthesis.
-    aircode_str = r"\(([A-Z]{3})\)"
+    aircode_str = r"\(([A-Z]{3})"
 
     # #this works for the one jetblue email where airport codes are not in parenthesis, but on nothing else, so maybe not worth it... but noting
     # aircode_str2 = r"\>([A-Z]{3})\<"
@@ -36,48 +36,51 @@ def find_airports():
 
 
     for msg_obj in msg_list:
-        list_refinds = re.findall(aircode_str, msg_obj.body_raw)
-
-        msg = email.message_from_string(msg_obj.body_raw)
-        From = msg['From']
-        Date = msg['Date']
-        Subject = msg['Subject']
+        list_refinds = re.findall(aircode_str, msg_obj.body)
 
         #list comprehension to ensure three letter findings are airport codes
         list_airfinds = [item for item in list_refinds if item in list_aircodes]
 
         if list_airfinds == []:
-            for part in msg.walk():
-                msg.get_payload()
-                if part.get_content_type() == 'text/html' or part.get_content_type() == 'text/plain':
-                    decoded = base64.urlsafe_b64decode(part.get_payload().encode('UTF-8'))
-                    list_refinds = re.findall(aircode_str, decoded)
-
-                    list_airfinds = [item for item in list_refinds if item in list_aircodes]
+            decoded_str = extra_decode(msg_obj)
+            #could put a test or something here? is it possible that decoded_str could be None?
+            list_refinds = re.findall(aircode_str, decoded_str)
+            list_airfinds = [item for item in list_refinds if item in list_aircodes]
+            
+            # #re-writes the body files so that the coded illegible ones are replaced with decoded body
+            # filename = "body/" + str(msg_obj.id) + ".txt"
+            # f = open(filename, 'w')
+            # print >> f, decoded_str
+            # f.close   
 
         print "*" * 20
         print "message id: %d" %msg_obj.id
-        print From
-        print Date 
-        print Subject
+        print msg_obj.date
+        print msg_obj.sender 
+        print msg_obj.subject
         print list_airfinds
 
-        #TODO: Break this out into a couple different functions that can be called if and only if the returned list with the easiest thing is empty, then calling alternate functions increasing in complexity only if.
 
+def extra_decode(msg_obj):
+    """Decodes message bodies from a message object from the database that is still encrypted and returns decoded string of body"""
+    msg = email.message_from_string(msg_obj.body)
+    for part in msg.walk():
+        msg.get_payload()
+        if part.get_content_type() == 'text/html' or part.get_content_type() == 'text/plain':
+                decoded_str = base64.urlsafe_b64decode(part.get_payload().encode('UTF-8'))
+                return decoded_str
 
 def print_to_file():
     """Queries the database for the body of the messages and prints out content into txt files so we can examine them ourselves """
     msg_list = query_emails()
 
-    fnum = 1
-
     for msg in msg_list:
-        body = msg.body_raw
-        filename = "body/" + str(fnum) + ".txt"
+        body = msg.body
+        filename = "body/" + str(msg.id) + ".txt"
         f = open(filename, 'w')
         print >> f, body
         f.close
-        fnum = fnum + 1
+
 
 
 # print_to_file()
