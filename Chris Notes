@@ -1,0 +1,83 @@
+first, get "full" messages
+for each m in messages:
+    if type(m.['payload']) is types.DictType:
+      handle(m['payload'])
+    elif type(m) is types.ListType:
+      for p in m['payload']:
+        handle(p)
+    else:
+      whoa what is this? error
+
+handle(payload):
+  if payload['mimeType'] is not text/html or something else you want:
+    # E.g. maybe it was an image or a zip file or something
+    return
+  body = payload['body']
+    try:
+    body = base64 decode payload['body']
+  except Exception, e:
+    pass
+  # Extra fanciness:
+  body = TextExtractor().extract(body)
+  # status quo skips extraction and just does:
+  return body
+
+
+  <img src="asdfasdf">...
+
+  <div>asdfkjasdfasdf</div>
+
+  class TextExtractor(HTMLParser.HTMLParser):
+
+     def __init__(self, ..., airport_code_matcher)
+        # ...
+        # all_text = ""
+        # airport_codes = []
+        HTMLParser.HTMLParser.__init__(self)
+
+    def handle_data(self, data):
+       # 2 choices:
+       # 1. Accumulate data in self.all_text
+       # 2. Search it right now for airport codes, and accumulate matches in self.airport_codes
+
+
+
+
+>>> import HTMLParser
+>>> help(HTMLParser)
+
+>>> import re
+>>> airport_codes = ( "SFO", "PDX", "DEN", "FLL", "ANC" )
+>>> # r"(a|b|c)"
+... 
+>>> r = "" ; for a in airport_codes:
+  File "<stdin>", line 1
+    r = "" ; for a in airport_codes:
+               ^
+SyntaxError: invalid syntax
+>>> r = ""
+>>> r = r""
+>>> for a in airport_codes:
+...  r +=  + "|"
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+TypeError: bad operand type for unary +: 'str'
+>>> for a in airport_codes:
+...  r += a + "|"
+... 
+>>> r
+'SFO|PDX|DEN|FLL|ANC|'
+>>> r = r"(" + r + ")"
+>>> r
+'(SFO|PDX|DEN|FLL|ANC|)'
+>>> for a in airport_codes:
+...  r += a + "|"
+... 
+>>> r
+'(SFO|PDX|DEN|FLL|ANC|)SFO|PDX|DEN|FLL|ANC|'
+>>> r = r[:-1]
+>>> 
+>>> r
+'(SFO|PDX|DEN|FLL|ANC|)SFO|PDX|DEN|FLL|ANC'
+>>> 
