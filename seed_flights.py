@@ -1,6 +1,6 @@
 import model
 import re
-from datetime import datetime
+from geopy.distance import great_circle
 
 def print_to_file():
     """Queries the database for the body of the messages and prints out content into txt files so we can examine them ourselves """
@@ -15,8 +15,20 @@ def print_to_file():
         print >> f, body
         f.close
 
-def find_airports():
-    """Pulls email bodies (strings) from msg objs (list) and parses them to return a list of airport codes per message"""
+def find_itinerary(list_airfinds):
+    """Takes list of all legit airport codes found in a message and returns a likely itinirary list of tuples that represent legs of a trip."""
+    #HARDFIX: this ignores last items of any odd itemed list, which works for United emails containing notes about an unrelated airports - but may not give you the results you are looking for if a non-airport code slips into anywhere but the last position of the list_airfinds
+    list_tupes = zip(list_airfinds[0::2], list_airfinds[1::2])
+    list_itin = []
+
+    for item in list_tupes:
+        if item not in list_itin:
+            list_itin.append(item)
+
+    return list_itin
+
+def find_andseed_airports():
+    """Pulls email bodies (strings) from msg objs (list) and parses them to determine a trip itneraries per message and adds each itinerary's flight legs to the db."""
     s = model.connect()
     all_airports = s.query(model.Airport).all()
     list_aircodes = [airport.id for airport in all_airports]
@@ -51,20 +63,22 @@ def find_airports():
 
     s.commit()
 
+def calc_distance():
+    depart = "PDX"
+    arrive = "DEN"
 
-def find_itinerary(list_airfinds):
-    """Takes list of all legit airport codes found in a message and returns a likely itinirary list of tuples that represent legs of a trip."""
-    #HARDFIX: this ignores last items of any odd itemed list, which works for United emails containing notes about an unrelated airports - but may not give you the results you are looking for if a non-airport code slips into anywhere but the last position of the list_airfinds
-    list_tupes = zip(list_airfinds[0::2], list_airfinds[1::2])
-    list_itin = []
+    s = model.connect()
 
-    for item in list_tupes:
-        if item not in list_itin:
-            list_itin.append(item)
+    d_airport = s.query(model.Airport).filter_by(id = depart).one()
+    a_airport = s.query(model.Airport).filter_by(id = arrive).one()
 
-    return list_itin
+    depart_city = (d_airport.latitude, d_airport.longitude)
+    arrive_city = (a_airport.latitude, a_airport.longitude)
 
+    print depart_city
+    print arrive_city
 
 
-# print_to_file()
-find_airports()
+calc_distance()
+
+
