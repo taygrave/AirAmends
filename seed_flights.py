@@ -1,5 +1,6 @@
 import model
 import re
+from geopy.distance import great_circle
 
 def print_to_file():
     """Queries the database for the body of the messages and prints out content into txt files so we can examine them ourselves """
@@ -62,6 +63,52 @@ def find_andseed_airports():
 
     s.commit()
 
+def calc_carbon((depart, arrive)):
+    s = model.connect()
+    d_airport = s.query(model.Airport).filter_by(id = depart).one()
+    a_airport = s.query(model.Airport).filter_by(id = arrive).one()
+
+    depart_city = (d_airport.latitude, d_airport.longitude)
+    arrive_city = (a_airport.latitude, a_airport.longitude)
+
+    #Conversion and Other Factors 
+    mt = 0.001 #kgs to metric tons
+    rf = 1.9 # DEFRA's recommended Radiative Forcing factor
+    uf = 1.09 #IPCC uplift factor
+
+    #calculate Some use only the great circle distance (the shortest distance between two points on the globe) between two airports * accounting for take-off, circling, non-direct routes
+    distance = great_circle(depart_city, arrive_city).miles * uf
+
+    ##EF & CO2E equation below source: http://www.epa.gov/climateleadership/documents/resources/commute_travel_product.pdf
+    flight_dict = {
+        #keys are tupes of lower and higher bound miles traveled
+        #values are CO2 Emissions factors in kg CO2 / passenger-mile
+        (0.00, 300.00) : 0.277, #Short-haul flight
+        (301.00, 700.00) : 0.229, #Medium-haul flight
+        (700.00, 15000.00) : 0.185} #Long-haul flights
+
+    for low, high in flight_dict.keys():
+        if distance > low and distance < high:
+            em_per_pass = flight_dict[(low, high)]
+
+    #Emissions of CO2E using distance, emissions factors by haul as provided by source (comment above dict) convertered into metric tons and with a radiative forcing applied
+    CO2e = distance * (em_per_pass + 0.0104 * 0.021 + 0.0085 * 0.310) * mt * rf
+
+    return CO2e
+
+#for testing diff length hauls
+pairs = [("LHR", "JFK"), ("SEA", "PDX"), ("DEN", "FLL")]
+
+def CO2_results(list_pairs):
+    
+    for pair in list_pairs:
+        results = calc_carbon(pair)
+
+        print "RESULTS FOR %s --> %s" %(pair[0], pair[1])
+        print "EPA: %.2f" % results
+        print "*" * 20
+
+CO2_results(pairs)
 
 
 
