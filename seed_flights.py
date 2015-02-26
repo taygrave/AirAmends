@@ -49,9 +49,9 @@ def find_andseed_airports():
 
         #final list of tuples representing legs of single trip per message
         itinerary = find_itinerary(list_airfinds)
+        # print CO2_results(itinerary)
         
         #now to begin adding to the db!
-
         user_id = msg_obj.user_id
         trip_id = msg_obj.id
         date = msg_obj.date #currently the date of the email, not the flight 
@@ -96,19 +96,14 @@ def calc_carbon((depart, arrive)):
 
     return CO2e
 
-#for testing diff length hauls
-pairs = [("LHR", "JFK"), ("SEA", "PDX"), ("DEN", "FLL")]
-
 def CO2_results(list_pairs):
-    
+
     for pair in list_pairs:
         results = calc_carbon(pair)
 
         print "RESULTS FOR %s --> %s" %(pair[0], pair[1])
         print "EPA: %.2f" % results
         print "*" * 20
-
-CO2_results(pairs)
 
 
 
