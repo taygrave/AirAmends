@@ -1,6 +1,5 @@
 import model
 import re
-from geopy.distance import great_circle
 
 def print_to_file():
     """Queries the database for the body of the messages and prints out content into txt files so we can examine them ourselves """
@@ -63,22 +62,17 @@ def find_andseed_airports():
 
     s.commit()
 
-def calc_distance():
-    depart = "PDX"
-    arrive = "DEN"
-
-    s = model.connect()
-
-    d_airport = s.query(model.Airport).filter_by(id = depart).one()
-    a_airport = s.query(model.Airport).filter_by(id = arrive).one()
-
-    depart_city = (d_airport.latitude, d_airport.longitude)
-    arrive_city = (a_airport.latitude, a_airport.longitude)
-
-    print depart_city
-    print arrive_city
 
 
-calc_distance()
+
+
+
+
+
+
+
+
+
+
 
 
