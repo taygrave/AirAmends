@@ -67,10 +67,11 @@ class Email(Base):
 class Flight(Base):
     __tablename__="Flights"
 
-    id = Column(Integer, primary_key=True)
+    id = Column(Integer, primary_key=True) #leg id
     user_id = Column(Integer, ForeignKey('Users.id'), nullable=False)
-    msg_id = Column(Integer, ForeignKey('Emails.id'), nullable=False)  #can this be the same as a trip id or do we need one of those too?
-    date = Column(DateTime, nullable=False)
+    trip_id = Column(Integer, ForeignKey('Emails.id'), nullable=False) #in this case, the trip_id means both the msg_id where this information came from AND ALSO which unique trip this leg is a part of
+    #TODO: make date into a datetime type
+    date = Column(String(100), nullable=False)
     depart = Column(String(3), ForeignKey("Airports.id"), nullable=False)
     arrive = Column(String(3), ForeignKey("Airports.id"), nullable=False)
     #need these for CO2 calc? not sure yet: flying time / distance
