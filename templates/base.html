@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../static/bootstrap-3.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="panel panel-info black">
+      <div class="panel-heading">
+        <h1>AirAmends</h1></div>
+          <div class="panel-body">
+            <nav class="navbar navbar-inverse">
+              <ul class="nav nav-pills">
+                <li role="presentation"><a href="/">Home</a></li>
+                <li role="presentation"><a href="/aboutcalc">Carbon Calculation</a></li>
+                <li role="presentation" class="navbar-right"><a href="/login">{{g.status}}&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+              </ul>
+            </nav>
+            {% with messages = get_flashed_messages() %}
+            {% if messages %}
+            {% for message in messages %}
+            <ul>
+                <li>{{message}}</li>
+            </ul>
+            {% endfor %}
+            {% endif %}
+            {% endwith %}
+          </div>
+        </div>
+
+        <div class="container">
+        {% block body %}{% endblock %}
+        </div>
+
+        
+  </body>
+</html>

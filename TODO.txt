@@ -1,22 +1,8 @@
 NEXT STEPS
-    find out why United airlines emails aren't being decoded
-    write out possible combinations (with a smaller sample) and find the pattern to identify distinct flights
-    remove double segments from the same email (unless a reason not to?)
     find flight date
-    find out confirmation number (to ensure no double segments, is this trouble anyway?)
-    Figure out how to get only MY itineraries:
-        look at who from (domain matching airline) - or better yet, look at who to, then see if user's name appears elsewhere in the email (like as the ticketed passenger) and if not, may not be their flight
-
-    
-
-Once flights figured out:
-    how to calculate distance
-    how to calculate carbon
     Make flights user-editable
-
 
 Non-prioritized problems:
     Where's my icelandair flight... 
-    make another file that details every single airport code that you've removed, why you removed it (with excerpt from offending email where available) and which airport it was (current list is in seed_sirports.py - mostly timezones but some other random offenses as well)
     Use Firebase's bookmarked authentication process
     

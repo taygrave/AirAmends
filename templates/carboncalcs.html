@@ -1,0 +1,28 @@
+
+{% extends 'base.html' %}
+{% block body %}
+
+
+
+Carbon Calculations were calculated using the EPA's <a href="http://www.epa.gov/climateleadership/documents/resources/commute_travel_product.pdf">Climate Leaders: Greenhouse Gas Inventory Protocol Core Module Guidance</a>.
+<br><br>
+<div class="row">
+    <div class="col-md-8">
+        <img src="../static/EPAef.png">
+    </div>
+<div class="col-md-4">
+<br>    
+<h4> E = PMT * (EFCO2 + EFCH4 * 0.021 +
+EFN2O * 0.310) </h4>
+E = Total CO2-equivalent Emissions<br>
+PMT = Passenger Miles Traveled<br>
+EFCO2 = CO2 Emission Factor<br>
+EFCH4 = CH4 Emission Factor<br>
+EFN2O = N2O Emission Factor<br>
+0.021 = Conversion Factor<br>
+0.310 = Conversion Factor <br>
+</div>
+
+<div>
+
+{% endblock %}

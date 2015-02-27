@@ -82,7 +82,7 @@ class Flight(Base):
 
 
     def __repr__(self):
-        return "<Flight: id=%r, user_id=%s, msg_id=%s, date=%r, depart=%s, arrive=%s>" %(self.id, self.user_id, self.msg_id, self.date, self.depart, self.arrive)
+        return "<Flight: id=%r, user_id=%s, trip_id=%s, date=%r, depart=%s, arrive=%s>" %(self.id, self.user_id, self.trip_id, self.date, self.depart, self.arrive)
 
 class Airport(Base):
     __tablename__="Airports"

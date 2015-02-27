@@ -9,26 +9,35 @@ from oauth2client.client import flow_from_clientsecrets
 from oauth2client.file import Storage
 from oauth2client.tools import run
 
-#exmaple provided by: https://developers.google.com/gmail/api/quickstart/quickstart-python
-CLIENT_SECRET_FILE = 'client_secret.json' # Path to the client_secret.json file downloaded from the Developer Console
-OAUTH_SCOPE = 'https://www.googleapis.com/auth/gmail.readonly'
-STORAGE = Storage('gmail.storage') #Location of the current user's credentials storage file
+def authorize():
+  """Builds the gmail api service so all other requests can be made"""
+  #exmaple provided by: https://developers.google.com/gmail/api/quickstart/quickstart-python
+  CLIENT_SECRET_FILE = 'client_secret.json' # Path to the client_secret.json file downloaded from the Developer Console
+  OAUTH_SCOPE = 'https://www.googleapis.com/auth/gmail.readonly'
+  STORAGE = Storage('gmail.storage') #Location of the current user's credentials storage file
 
-# Start the OAuth flow to retrieve credentials
-flow = flow_from_clientsecrets(CLIENT_SECRET_FILE, scope=OAUTH_SCOPE)
-http = httplib2.Http()
+  # Start the OAuth flow to retrieve credentials
+  flow = flow_from_clientsecrets(CLIENT_SECRET_FILE, scope=OAUTH_SCOPE)
+  http = httplib2.Http()
 
-# Try to retrieve credentials from storage or run the flow to generate them
-credentials = STORAGE.get()
-if credentials is None or credentials.invalid:
-  credentials = run(flow, STORAGE, http=http)
+  # Try to retrieve credentials from storage or run the flow to generate them
+  credentials = STORAGE.get()
+  if credentials is None or credentials.invalid:
+    credentials = run(flow, STORAGE, http=http)
 
-# Authorize the httplib2.Http object with our credentials
-http = credentials.authorize(http)
+  # Authorize the httplib2.Http object with our credentials
+  http = credentials.authorize(http)
 
-# Build the Gmail service from discovery - this is the part that takes very long
-gmail_service = build('gmail', 'v1', http=http)
-print "completed: service build"
+  # Build the Gmail service from discovery - this is the part that takes very long
+  gmail_service = build('gmail', 'v1', http=http)
+  print "completed: service build"
+  return gmail_service
+
+def get_user(service, user_id):
+  """Returns the user's email address"""
+  my_user = service.users().getProfile(userId=user_id).execute()
+  email_addy = my_user['emailAddress']
+  return email_addy
 
 def query_messages(service, user_id, query):
   """Returns list of ids of all user's messages matching a query string (using authorized gmail api instance and specific userId / "me")."""
@@ -63,12 +72,15 @@ def get_message(service, user_id, msg_id):
 
 def add_msgs_to_db():
   """Sets query and adds unique, parsed, and extra decoded if necessary, message components to the db """
-
+  gmail_service = authorize()
+  user_email = get_user(gmail_service, "me")
+  print user_email
   query1 = "itinerary, confirmation, flight, number, departure, taxes from:-me subject:-fwd subject:-re subject:-fw subject:-check"
   msg_list = query_messages(gmail_service,"me", query1)
+  print msg_list
   s = model.connect()
 
-  #check if message is unique, parse, perhaps decode, and add to db
+  # check if message is unique, parse, perhaps decode, and add to db
   for item in msg_list:
     #only take those where msg_id = thread_id to ensure its the root email
       if item['id'] == item['threadId']: 
@@ -91,8 +103,10 @@ def add_msgs_to_db():
         exists = s.query(model.Email).filter(model.Email.sender == msg_sender, model.Email.subject == msg_subject).first()
         if exists == None:
           entry = model.Email(user_id=1, msg_id=item['id'], date=msg_date, sender=msg_sender, subject=msg_subject, body=msg_body)
+          print item['id'], msg_sender, msg_subject
           s.add(entry)
           s.commit()
 
   print "Successfully added emails to the db"
+  return user_email
 

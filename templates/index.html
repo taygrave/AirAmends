@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% block body %}
+
+Welcome to version 1.0<br><br>
+
+
+{% if 'user' not in session %}
+
+<p> To see your flights and calculate your carbon emissions, you must <a href="/login">sign in</a> with your Google ID. </p>
+
+<!-- SHOW IMAGE OF SAMPLE ABILITIES OF TOOL -->
+
+{% else %}
+
+Okay, you ready for this?
+<form action="/getflights" class="form-signin" method="POST" id="getflights">
+    <button class="btn btn-lg btn-danger" type="submit">Get My Flights!</button>
+</form>
+<br>
+Next up:
+<ol>
+<li>Want to display flights at all (AJAX)</li>
+<li>Display flights by year</li>
+<li>Display flights by year by month</li>
+<li>Display flights by year by month by trip</li>
+<li>Display flights by year by month by trip by leg</li>
+<li>Save user in user table</li>
+</ol>
+<!-- SHOW ME MY STATS MAN! -->
+
+{% endif %}
+
+
+{% endblock %}

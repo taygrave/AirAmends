@@ -60,8 +60,8 @@ def find_andseed_airports():
             depart, arrive = tupe
             entry = model.Flight(user_id=user_id, trip_id=trip_id, date=date, depart=depart, arrive=arrive)
             s.add(entry)
-
     s.commit()
+    return s.query(model.Flight).all()
 
 def calc_carbon((depart, arrive)):
     s = model.connect()
