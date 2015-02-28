@@ -105,15 +105,8 @@ def CO2_results(list_pairs):
         print "EPA: %.2f" % results
         print "*" * 20
 
-
-
-
-
-
-
-
-
-
+def flights_by_trip():
+    pass
 
 
 

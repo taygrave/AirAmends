@@ -1,7 +1,7 @@
-from flask import Flask, render_template, request, g, flash, redirect
+from flask import Flask, render_template, request, g, flash, redirect, jsonify
 from flask import session as flask_session
-import gmailapiworks
-import seed_flights
+import gmailapiworks, model, seed_flights
+
 
 
 app = Flask(__name__)
@@ -14,18 +14,26 @@ def before():
         g.status = "Log In"
     else:
         g.status = g.user
-    #TODO: Set a session variable the keeps travk of which route we're on and sets that one's class to "active" for the navbar
+    #TODO: Set a session variable the keeps track of which route we're on and sets that one's class to "active" for the navbar
 
 @app.route("/")
 def homepage():
-    user_flights = "No flights yet"
-    return render_template("index.html", user_flights=user_flights)
+    return render_template("index.html")
 
 @app.route("/getflights", methods=["POST"])
 def getflights():
-    user_flights = seed_flights.find_andseed_airports()
-    print user_flights
-    return redirect("/")
+    s = model.connect()
+    emails_in_db = len(list(s.query(model.Email).filter(model.Email.user_id == 1).all()))
+    if emails_in_db == 0:
+        emails_in_db = gmailapiworks.add_msgs_to_db()
+
+    flights_in_db = s.query(model.Flight).filter(model.Flight.user_id == 1).all()
+    if flights_in_db == [] or None:
+        user_flights = seed_flights.find_andseed_airports()
+    else: 
+        user_flights = s.query(model.Flight).all()
+
+    return render_template("/getflights.html", emails_in_db=emails_in_db, user_flights=user_flights)
 
 @app.route("/login", methods=["GET"])
 def show_login():
@@ -35,7 +43,8 @@ def show_login():
 def process_login():
     """TODO: Receive the user's login credentials located in the 'request.form'
     dictionary, look up the user, and store them in the session."""
-    user_email = gmailapiworks.add_msgs_to_db()
+    gmailapiworks.authorize()
+    user_email = gmailapiworks.get_user()
     flask_session['user'] = user_email
     flash("Welcome you frequent flyer, you!")
     return redirect("/")

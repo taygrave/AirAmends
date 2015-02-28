@@ -1,7 +1,9 @@
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import create_engine
-from sqlalchemy import Column, Integer, String, ForeignKey, Text, DateTime, Float
+from sqlalchemy import Column, Integer, String, ForeignKey, Text, Date, Float
 from sqlalchemy.orm import sessionmaker, scoped_session, relationship, backref
+
+import seed_airports
 
 engine = create_engine("sqlite:///airdata.db", echo=True)
 session = scoped_session(sessionmaker(bind=engine, autocommit=False, autoflush=False))
@@ -14,6 +16,9 @@ Base.query = session.query_property()
 def create_db():
     """This creates a new db when called"""
     Base.metadata.create_all(engine)
+    s = connect()
+    seed_airports.seed_airports(s)
+    print "Finished created new database, airports table loaded."
 
 def connect(db="sqlite:///airdata.db"):
     global engine
@@ -53,8 +58,7 @@ class Email(Base):
     id = Column(Integer, primary_key=True)
     user_id = Column(Integer, ForeignKey('Users.id'), nullable=False)
     msg_id = Column(String(64), nullable=False)
-    #TODO: make date into a datetime type
-    date = Column(String(100), nullable=False)
+    date = Column(Date, nullable=False)
     sender = Column(String(100), nullable=False)
     subject = Column(String(100), nullable=False)
     body = Column(Text, nullable=False)
@@ -69,17 +73,16 @@ class Flight(Base):
 
     id = Column(Integer, primary_key=True) #leg id
     user_id = Column(Integer, ForeignKey('Users.id'), nullable=False)
-    trip_id = Column(Integer, ForeignKey('Emails.id'), nullable=False) #in this case, the trip_id means both the msg_id where this information came from AND ALSO which unique trip this leg is a part of
-    #TODO: make date into a datetime type
-    date = Column(String(100), nullable=False)
+    #in this case, the trip_id means both the msg_id where this information came from AND ALSO which unique trip this leg is a part of
+    trip_id = Column(Integer, ForeignKey('Emails.id'), nullable=False) 
+    date = Column(Date, nullable=False)
     depart = Column(String(3), ForeignKey("Airports.id"), nullable=False)
     arrive = Column(String(3), ForeignKey("Airports.id"), nullable=False)
-    #need these for CO2 calc? not sure yet: flying time / distance
 
     user = relationship("User", backref="flights")
     email = relationship("Email", backref="flights")
-    # airport = relationship("Airport", backref="flights")
-
+    departure = relationship("Airport", foreign_keys="Flight.depart")
+    arrival = relationship("Airport", foreign_keys="Flight.arrive")
 
     def __repr__(self):
         return "<Flight: id=%r, user_id=%s, trip_id=%s, date=%r, depart=%s, arrive=%s>" %(self.id, self.user_id, self.trip_id, self.date, self.depart, self.arrive)

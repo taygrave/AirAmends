@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block body %}
+
+You have a total of {{emails_in_db}} flight confirmation emails in our database. <br> (note: add update option?)  <br><br>
+
+
+
+{{user_flights|length}} FLIIIIIGHTSSSS!!!!  YEAH    <br>
+
+{% for flight in user_flights %}
+<ul>
+    <li>Flight found: {{flight}}</li>
+</ul>
+
+{% endfor %}
+
+
+{% endblock %}

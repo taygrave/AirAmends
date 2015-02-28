@@ -1,7 +1,7 @@
 import model
 import csv 
 
-def load_airports(session):
+def seed_airports(session):
     """Parses the airports.dat file of airport codes and associated information to add to the db, taking the live session connection as a parameter"""
     with open("data/airports.dat", 'rb') as src_file:
         reader = csv.reader(src_file)
@@ -29,6 +29,9 @@ def load_airports(session):
 
         session.commit()
         print "Successfully added airports to db."
+
+        remove_tz_conflicts(session)
+        print "Removed conflict airports."
             
 
 def has_numbers(input_str):
@@ -52,6 +55,4 @@ def remove_tz_conflicts(session):
 
         session.commit()
 
-
-s = model.connect()
 
