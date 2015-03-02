@@ -1,8 +1,14 @@
 NEXT STEPS
-    find flight date
+    print out view reports of flights by year, trip, leg
+    calc carbon for each in report
+    get monetary figure for carbon calc
     Make flights user-editable
+    Better way to query by year for flights?
+    Put in a nice thingy while waiting on gmail api
 
 Non-prioritized problems:
+    Google redirect uri to localhost/5000 vs. 8080
+    whats this note about pflags being unsupported soon - way to update api connection? "WARNING:root:This function, oauth2client.tools.run(), and the use of the gflags library are deprecated and will be removed in a future version of the library."
     Where's my icelandair flight... 
     Use Firebase's bookmarked authentication process
     

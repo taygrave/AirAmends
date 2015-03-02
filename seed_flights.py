@@ -27,7 +27,7 @@ def find_itinerary(list_airfinds):
 
     return list_itin
 
-def find_andseed_airports():
+def seed_flights():
     """Pulls email bodies (strings) from msg objs (list) and parses them to determine a trip itneraries per message and adds each itinerary's flight legs to the db."""
     s = model.connect()
     all_airports = s.query(model.Airport).all()
@@ -54,7 +54,7 @@ def find_andseed_airports():
         #now to begin adding to the db!
         user_id = msg_obj.user_id
         trip_id = msg_obj.id
-        date = msg_obj.date #currently the date of the email, not the flight 
+        date = msg_obj.date.year #currently the date of the email, not the flight 
 
         for tupe in itinerary:
             depart, arrive = tupe
@@ -64,6 +64,7 @@ def find_andseed_airports():
     return s.query(model.Flight).all()
 
 def calc_carbon((depart, arrive)):
+    """Receives a tuple pair of airports and calculates the distance from one to the second (using great circle), determines haul length, and calculate CO2e emissions accordingly (using EPA methods). Returns a float."""
     s = model.connect()
     d_airport = s.query(model.Airport).filter_by(id = depart).one()
     a_airport = s.query(model.Airport).filter_by(id = arrive).one()
@@ -96,17 +97,42 @@ def calc_carbon((depart, arrive)):
 
     return CO2e
 
-def CO2_results(list_pairs):
+def CO2e_results(list_flights):
+    sum_CO2e = 0
+    for flight in list_flights:
+        CO2e = calc_carbon((flight.depart, flight.arrive))
+        sum_CO2e = CO2e + sum_CO2e
+    return sum_CO2e
 
-    for pair in list_pairs:
-        results = calc_carbon(pair)
+def report_by_year():
+    """Returns a list of all years containing flights from user's db of flights."""
+    s = model.connect()
+    list_years = s.query(model.Flight.date).distinct().all()
+    years_list = []
 
-        print "RESULTS FOR %s --> %s" %(pair[0], pair[1])
-        print "EPA: %.2f" % results
-        print "*" * 20
+    for tupe in list_years:
+        year = tupe[0]
+        years_list.append(year)
 
-def flights_by_trip():
-    pass
+    return years_list
+
+    # for year in years_list:
+    #     return year_calc(year)
+
+def year_calc(yyyy):
+    s = model.connect()
+    total_flights = s.query(model.Flight).filter_by(date = yyyy).all()
+    num_flights = len(total_flights)
+    sum_CO2e = 0
+
+    for flight in total_flights:
+        CO2e = calc_carbon((flight.depart, flight.arrive))
+        sum_CO2e = CO2e + sum_CO2e
+
+    return (yyyy, num_flights, sum_CO2e)
+
+
+
 
 
 

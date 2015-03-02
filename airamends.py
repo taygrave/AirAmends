@@ -29,11 +29,16 @@ def getflights():
 
     flights_in_db = s.query(model.Flight).filter(model.Flight.user_id == 1).all()
     if flights_in_db == [] or None:
-        user_flights = seed_flights.find_andseed_airports()
+        user_flights = seed_flights.seed_flights()
+        CO2e = seed_flights.CO2e_results(user_flights)
+        print CO2e
     else: 
         user_flights = s.query(model.Flight).all()
+        CO2e = seed_flights.CO2e_results(user_flights)
 
-    return render_template("/getflights.html", emails_in_db=emails_in_db, user_flights=user_flights)
+    years_list = seed_flights.report_by_year()
+
+    return render_template("/getflights.html", emails_in_db=emails_in_db, user_flights=user_flights, CO2e=CO2e, years_list=years_list)
 
 @app.route("/login", methods=["GET"])
 def show_login():

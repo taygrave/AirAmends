@@ -55,4 +55,3 @@ def remove_tz_conflicts(session):
 
         session.commit()
 
-

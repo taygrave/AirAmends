@@ -5,11 +5,11 @@ You have a total of {{emails_in_db}} flight confirmation emails in our database.
 
 
 
-{{user_flights|length}} FLIIIIIGHTSSSS!!!!  YEAH    <br>
+You have a total of {{user_flights|length}} FLIIIIIGHTSSSS!!!! Total emissions of {{'%0.2f' % CO2e}}  <br>
 
-{% for flight in user_flights %}
+{% for year in years_list %}
 <ul>
-    <li>Flight found: {{flight}}</li>
+    <li>{{year}}</li>
 </ul>
 
 {% endfor %}

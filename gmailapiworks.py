@@ -117,7 +117,8 @@ def add_msgs_to_db():
   print "Successfully added emails to the db"
 
 def convert_date(date_str):
-    p = re.compile(r"[0-9]{1,2}\s[A-Z]{1}?[a-z]{2}\s\d{4}")
-    msg_date = p.search(date_str).group()
-    converted_date = datetime.strptime(msg_date, "%d %b %Y")
-    return converted_date
+  """Converts email obj date (string) into a datetime date object."""
+  p = re.compile(r"[0-9]{1,2}\s[A-Z]{1}?[a-z]{2}\s\d{4}")
+  msg_date = p.search(date_str).group()
+  converted_date = datetime.strptime(msg_date, "%d %b %Y")
+  return converted_date

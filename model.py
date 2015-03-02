@@ -1,5 +1,5 @@
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, distinct
 from sqlalchemy import Column, Integer, String, ForeignKey, Text, Date, Float
 from sqlalchemy.orm import sessionmaker, scoped_session, relationship, backref
 
@@ -21,6 +21,7 @@ def create_db():
     print "Finished created new database, airports table loaded."
 
 def connect(db="sqlite:///airdata.db"):
+    """Establishes useable connection to db"""
     global engine
     global session
     engine = create_engine(db, echo=False) 
@@ -75,7 +76,7 @@ class Flight(Base):
     user_id = Column(Integer, ForeignKey('Users.id'), nullable=False)
     #in this case, the trip_id means both the msg_id where this information came from AND ALSO which unique trip this leg is a part of
     trip_id = Column(Integer, ForeignKey('Emails.id'), nullable=False) 
-    date = Column(Date, nullable=False)
+    date = Column(String(4), nullable=False)
     depart = Column(String(3), ForeignKey("Airports.id"), nullable=False)
     arrive = Column(String(3), ForeignKey("Airports.id"), nullable=False)
 
