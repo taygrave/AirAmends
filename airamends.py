@@ -40,6 +40,23 @@ def getflights():
 
     return render_template("/getflights.html", emails_in_db=emails_in_db, user_flights=user_flights, CO2e=CO2e, years_list=years_list)
 
+@app.route("/getflights/<year>")
+def yearflights(year):
+    year = year
+    s = model.connect()
+    results_list = []
+    sum_CO2e = 0
+    user_flights = s.query(model.Flight).filter_by(date = year).all()
+    
+    for flight in user_flights:
+        CO2e = seed_flights.calc_carbon((flight.depart, flight.arrive))
+        results_list.append((flight.depart, flight.arrive, CO2e))
+        sum_CO2e = sum_CO2e + CO2e
+
+    print results_list
+
+    return render_template("/yearflights.html", year=year, results_list=results_list, sum_CO2e=sum_CO2e)
+
 @app.route("/login", methods=["GET"])
 def show_login():
     return render_template("login.html")

@@ -1,18 +1,16 @@
 {% extends 'base.html' %}
 {% block body %}
 
-You have a total of {{emails_in_db}} flight confirmation emails in our database. <br> (note: add update option?)  <br><br>
+You have a total of {{emails_in_db}} flight confirmation emails in our database.* <br><br>
 
-
-
-You have a total of {{user_flights|length}} FLIIIIIGHTSSSS!!!! Total emissions of {{'%0.2f' % CO2e}}  <br>
-
-{% for year in years_list %}
-<ul>
-    <li>{{year}}</li>
-</ul>
-
-{% endfor %}
-
-
+<table class="table table-striped">
+    <tr class="info"><th>Year</th><th># of Flights</th><th>CO2e Emissions</th><th>Emissions Value $</th>
+    </tr>
+    {% for year in years_list %}
+        <tr><td><a href="/getflights/{{year[0]}}">{{year[0]}}</td><td>{{year[1]}}</td><td>{{'%0.2f' % year[2]}}</td><td>${{'%0.2f' % (year[2]*100)}}</td></tr>
+        {% endfor %}
+        <tr class="info"><th>TOTAL</th><th>{{user_flights|length}}</th><th>{{'%0.2f' % CO2e}}</th><th>${{'%0.2f' % (CO2e*100)}}</th></tr></tr>
+</table>
+<br>
+* add option to re-search emails
 {% endblock %}

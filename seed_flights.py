@@ -112,12 +112,10 @@ def report_by_year():
 
     for tupe in list_years:
         year = tupe[0]
-        years_list.append(year)
+        CO2e = year_calc(year)
+        years_list.append(CO2e)
 
     return years_list
-
-    # for year in years_list:
-    #     return year_calc(year)
 
 def year_calc(yyyy):
     s = model.connect()
