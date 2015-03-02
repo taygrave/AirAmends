@@ -3,8 +3,8 @@
 {% block body %}
 
 
-
-Carbon Calculations were calculated using the EPA's <a href="http://www.epa.gov/climateleadership/documents/resources/commute_travel_product.pdf">Climate Leaders: Greenhouse Gas Inventory Protocol Core Module Guidance</a>.
+<h3>Estimating Emissions from Flights</h3>
+Carbon Calculations were calculated using the EPA's <a href="http://www.epa.gov/climateleadership/documents/resources/commute_travel_product.pdf" target="_blank">Climate Leaders: Greenhouse Gas Inventory Protocol Core Module Guidance</a>.
 <br><br>
 <div class="row">
     <div class="col-md-8">
@@ -21,8 +21,14 @@ EFCH4 = CH4 Emission Factor<br>
 EFN2O = N2O Emission Factor<br>
 0.021 = Conversion Factor<br>
 0.310 = Conversion Factor <br>
-</div>
+</div><br>
 
-<div>
+<div class="col-md-12">
+    <h3> Pricing Emissions </h3>
+    <p>Emissions are priced by multiplying the estimated dollar value of the Social Cost of Carbon with the total metric tons of CO2e emitted. The SCC is the estimated price of the economic damages caused by each additional ton of carbon dioxide released into the atmosphere. The SCC is meant to be a comprehensive estimate of climate change damages and includes, among other things, changes in net agricultural productivity, human health, and property damages from increased severe weather.</p>
+
+    <p>Currently, the <a href="http://www.whitehouse.gov/blog/2013/11/01/refining-estimates-social-cost-carbon" target="_blank">White House</a> uses an estimate of $37 (2015$) per metric as the social cost of carbon. Therefore, this is also the estimate we use in our calculations. It is worth noting, however, many economists find <a href="http://cleantechnica.com/2015/01/16/the-social-cost-of-carbon-is-six-times-higher-than-estimated/" target="_blank">this estimate is too low</a>.
+
+</div>
 
 {% endblock %}

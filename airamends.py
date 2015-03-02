@@ -50,7 +50,8 @@ def yearflights(year):
     
     for flight in user_flights:
         CO2e = seed_flights.calc_carbon((flight.depart, flight.arrive))
-        results_list.append((flight.depart, flight.arrive, CO2e))
+        #using a backreference here to name the cities for display instead of using their airport codes, for better user recognition
+        results_list.append((flight.departure.city, flight.arrival.city, CO2e))
         sum_CO2e = sum_CO2e + CO2e
 
     print results_list
@@ -85,8 +86,6 @@ def aboutcalc():
 def get_flights():
     var = "HELLLLLO"
     return render_template("index.html", var=var)
-
-
 
 if __name__ == "__main__":
     app.run(debug = True)
