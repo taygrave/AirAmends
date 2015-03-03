@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, g, flash, redirect, jsonify
 from flask import session as flask_session
 import gmailapiworks, model, seed_flights
+from datetime import datetime  
 
 
 
@@ -19,6 +20,11 @@ def before():
 @app.route("/")
 def homepage():
     return render_template("index.html")
+
+@app.route("/map")
+def make_map():
+    json_array = seed_flights.flights4map()
+    return render_template("map.html", jsonarray=json_array)
 
 @app.route("/getflights", methods=["POST"])
 def getflights():
@@ -51,7 +57,9 @@ def yearflights(year):
     for flight in user_flights:
         CO2e = seed_flights.calc_carbon((flight.depart, flight.arrive))
         #using a backreference here to name the cities for display instead of using their airport codes, for better user recognition
-        results_list.append((flight.departure.city, flight.arrival.city, CO2e))
+        #TODO consider returning airport codes as well
+        date = str(flight.email.date.month) + "/" + str(flight.email.date.day)
+        results_list.append((date, flight.departure.city, flight.arrival.city, CO2e))
         sum_CO2e = sum_CO2e + CO2e
 
     print results_list

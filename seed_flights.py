@@ -1,6 +1,7 @@
 import model
 import re
 from geopy.distance import great_circle
+import json
 
 def print_to_file():
     """Queries the database for the body of the messages and prints out content into txt files so we can examine them ourselves """
@@ -66,6 +67,7 @@ def seed_flights():
 def calc_carbon((depart, arrive)):
     """Receives a tuple pair of airports and calculates the distance from one to the second (using great circle), determines haul length, and calculate CO2e emissions accordingly (using EPA methods). Returns a float."""
     s = model.connect()
+    #FIXME = use backrefs intead of querying airport table
     d_airport = s.query(model.Airport).filter_by(id = depart).one()
     a_airport = s.query(model.Airport).filter_by(id = arrive).one()
 
@@ -129,7 +131,27 @@ def year_calc(yyyy):
 
     return (yyyy, num_flights, sum_CO2e)
 
+def flights4map():
+    """Queries db for all flights and turns into a json for mapbox animation"""
+    s = model.connect()
+    total_flights = s.query(model.Flight).all()
+    map_list = []
 
+    for flight in total_flights:
+        lat_D = flight.departure.latitude
+        long_D = flight.departure.longitude
+        lat_A = flight.arrival.latitude
+        long_A = flight.arrival.longitude
+        map_list.append([[lat_D,long_D],[lat_A,long_A]])
+
+    map_list_js = json.dumps(map_list)
+
+    with open("./static/flights.js", 'wb') as outfile:
+        json.dump(map_list, outfile)
+
+    return map_list_js
+
+flights4map()
 
 
 
