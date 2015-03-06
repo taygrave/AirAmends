@@ -37,21 +37,15 @@ def connect(db="sqlite:///airdata.db"):
 class User(Base):
     __tablename__ = "Users"
     id = Column(Integer, primary_key=True)
-    name = Column(String(64), nullable=False)
-    email = Column(String(64), nullable=False)
-    acess_token = Column(String(64), nullable=False)
+    email = Column(String(128), nullable=False)
+    access_token = Column(String(255), nullable=False)
 
-    def save(self):
-        session.add(self)
-        session.commit()
-
-    def save_new_token(self, access_token):
-        """Save new access token in the database."""
-        pass
+    def __init__(self, email, access_token):
+        self.email = email
+        self.access_token = access_token
 
     def __repr__(self):
-        return "<User: id=%r, name=%s>" %(self.id, self.name)
-
+        return "<User: id=%r, email=%s>" %(self.id, self.email)
 
 class Email(Base):
     __tablename__ = "Emails"

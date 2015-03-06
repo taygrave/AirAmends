@@ -1,12 +1,19 @@
-from flask import Flask, render_template, request, g, flash, redirect
+from flask import Flask, render_template, request, g, flash, redirect, url_for
 from flask import session as flask_session
+from flask.ext.login import LoginManager
+from flask.ext.login import login_user, logout_user, current_user
+
+
 import gmailapiworks, model, seed_flights
-
-
-
+from apiclient.discovery import build
+import httplib2
+from oauth2client.client import OAuth2WebServerFlow, AccessTokenCredentials
+import config 
 
 app = Flask(__name__)
-app.secret_key = '\xa7G\x83\xda\x9f\xd3\x9f\xfc\x19\xdd\x08E\x91\x9a\xbd\x9b\x00\xe4o\xe8i?\xb8\x06'
+app.config.from_pyfile('config.py')
+login_manager = LoginManager()
+login_manager.init_app(app)
 
 @app.before_request
 def before():
