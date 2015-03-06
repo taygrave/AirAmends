@@ -1,7 +1,7 @@
-from flask import Flask, render_template, request, g, flash, redirect, jsonify
+from flask import Flask, render_template, request, g, flash, redirect
 from flask import session as flask_session
 import gmailapiworks, model, seed_flights
-from datetime import datetime  
+
 
 
 

@@ -8,7 +8,8 @@
 <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
 <style>
   body { margin:0; padding:0; }
-  #map { position:absolute; top:0; bottom:0; width:100%; }
+  #info { position:absolute; top:0; bottom:0; left:0; right:30%; }
+  #map { position:absolute; top:0; bottom:0; left: 30%; right:0; }
 </style>
 </head>
 <body>
@@ -33,6 +34,7 @@
           transition:stroke-dashoffset 5s ease-in;
   }
 </style>
+<div id='info'> HI AYUMI!!! </div>
 
 <div id='map' class='dark'></div>
 
@@ -47,7 +49,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoidGF5Z3JhdmUiLCJhIjoiTC02ZVBocyJ9.v07HDiBCNqym
 
 // Show the whole world in this first view.
 map = L.mapbox.map('map', 'taygrave.lc074chc')
-    .setView([47, -100], 4);
+    .setView([47, -110], 4);
 
 var credits = L.control.attribution({
   prefix: '<a href="http://openflights.org/data.html">Flight data from Open Flights, under the ODbL license</a>'
@@ -57,7 +59,7 @@ var credits = L.control.attribution({
 // Making this effect work with zooming and panning
 // would require a different technique with different
 // tradeoffs.
-map.dragging.disable();
+// map.dragging.disable();
 map.touchZoom.disable();
 map.doubleClickZoom.disable();
 map.scrollWheelZoom.disable();

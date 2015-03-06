@@ -74,12 +74,8 @@ def calc_carbon((depart, arrive)):
     depart_city = (d_airport.latitude, d_airport.longitude)
     arrive_city = (a_airport.latitude, a_airport.longitude)
 
-    #Conversion and Other Factors 
-    mt = 0.001 #kgs to metric tons
-    rf = 1.9 # DEFRA's recommended Radiative Forcing factor
-    uf = 1.09 #IPCC uplift factor
-
     #calculate Some use only the great circle distance (the shortest distance between two points on the globe) between two airports * accounting for take-off, circling, non-direct routes
+    uf = 1.09 #IPCC uplift factor
     distance = great_circle(depart_city, arrive_city).miles * uf
 
     ##EF & CO2E equation below source: http://www.epa.gov/climateleadership/documents/resources/commute_travel_product.pdf
@@ -95,6 +91,9 @@ def calc_carbon((depart, arrive)):
             em_per_pass = flight_dict[(low, high)]
 
     #Emissions of CO2E using distance, emissions factors by haul as provided by source (comment above dict) convertered into metric tons and with a radiative forcing applied
+    mt = 0.001 #kgs to metric tons
+    rf = 1.9 # DEFRA's recommended Radiative Forcing factor
+    #TODO: turn EPA constants into named variables
     CO2e = distance * (em_per_pass + 0.0104 * 0.021 + 0.0085 * 0.310) * mt * rf
 
     return CO2e

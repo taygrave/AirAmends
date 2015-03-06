@@ -22,7 +22,7 @@ Things I want help from Mentors for:
     Tidying up code
     Making sure API call is efficient / effective
     Adding in tests
-    Figuring out how to display the data bet
+    Figuring out how to display the data best
     LOOKING GOOD - Better design
     User Table
 
