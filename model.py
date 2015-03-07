@@ -3,6 +3,8 @@ from sqlalchemy import create_engine, distinct
 from sqlalchemy import Column, Integer, String, ForeignKey, Text, Date, Float
 from sqlalchemy.orm import sessionmaker, scoped_session, relationship, backref
 
+from flask.ext.login import UserMixin
+
 import seed_airports
 
 engine = create_engine("sqlite:///airdata.db", echo=True)
@@ -34,7 +36,7 @@ def connect(db="sqlite:///airdata.db"):
 #### BUILDING THE DATABASE ####
 
 #Table to store each individual user and their authorization creds
-class User(Base):
+class User(UserMixin, Base):
     __tablename__ = "Users"
     id = Column(Integer, primary_key=True)
     email = Column(String(128), nullable=False)
@@ -43,6 +45,10 @@ class User(Base):
     def __init__(self, email, access_token):
         self.email = email
         self.access_token = access_token
+
+    def save(self):
+        session.add(self)
+        session.commit()
 
     def __repr__(self):
         return "<User: id=%r, email=%s>" %(self.id, self.email)

@@ -4,25 +4,54 @@ from flask.ext.login import LoginManager
 from flask.ext.login import login_user, logout_user, current_user
 
 
-import gmailapiworks, model, seed_flights
-from apiclient.discovery import build
+from model import *
+import gmailapiworks, seed_flights
+from apiclient.discovery import build_from_document
 import httplib2
 from oauth2client.client import OAuth2WebServerFlow, AccessTokenCredentials
 import config 
 
 app = Flask(__name__)
-app.config.from_pyfile('config.py')
+app.config.from_pyfile('./config.py')
 login_manager = LoginManager()
 login_manager.init_app(app)
 
+def get_api(credentials):
+    http_auth = credentials.authorize(httplib2.Http())
+    doc = open("discovery.json")
+    print "credentials authorized"
+    gmail_service = build_from_document(doc.read(), http = http_auth)
+    print gmail_service
+    return gmail_service
+
+def get_auth_flow():
+    auth_flow = OAuth2WebServerFlow(
+        client_id = config.GMAIL_CLIENT_ID,
+        client_secret = config.GMAIL_CLIENT_SECRET,
+        scope = config.GMAIL_AUTH_SCOPE,
+        redirect_uri = url_for('login_callback', _external = True))
+    print "auth_flow retreived"
+    return auth_flow
+
+@login_manager.user_loader
+def load_user(userid):
+    print "at user_loader"
+    return User.query.get(int(userid))
+
 @app.before_request
-def before():
-    g.user = flask_session.get('user')
-    if g.user == None :
-        g.status = "Log In"
-    else:
-        g.status = g.user
-    #TODO: Set a session variable the keeps track of which route we're on and sets that one's class to "active" for the navbar
+def before_request():
+    print flask_session.items()
+    if current_user.is_authenticated():
+        print "before request getting credentials"
+        credentials = AccessTokenCredentials(current_user.access_token, u'')
+        print "before request, retreived credentials"
+        g.gmail_api = get_api(credentials)
+        print "before request, built service"
+
+    # if current_user.anonymous == True:
+    #     g.status = "Log In"
+    # else:
+    #     g.status = current_user.email
 
 @app.route("/")
 def homepage():
@@ -73,25 +102,71 @@ def yearflights(year):
 
     return render_template("/yearflights.html", year=year, results_list=results_list, sum_CO2e=sum_CO2e)
 
-@app.route("/login", methods=["GET"])
-def show_login():
-    return render_template("login.html")
+# @app.route("/login", methods=["GET"])
+# def show_login():
+#     return render_template("login.html")
 
-@app.route("/login", methods=["POST"])
-def process_login():
-    """TODO: Receive the user's login credentials located in the 'request.form'
-    dictionary, look up the user, and store them in the session."""
-    gmailapiworks.authorize()
-    user_email = gmailapiworks.get_user()
-    flask_session['user'] = user_email
-    flash("Welcome you frequent flyer, you!")
-    return redirect("/")
+# @app.route("/login", methods=["POST"])
+# def process_login():
+#     """TODO: Receive the user's login credentials located in the 'request.form'
+#     dictionary, look up the user, and store them in the session."""
+#     gmailapiworks.authorize()
+#     user_email = gmailapiworks.get_user()
+#     flask_session['user'] = user_email
+#     flash("Welcome you frequent flyer, you!")
+#     return redirect("/")
 
-@app.route("/logout", methods=["GET"])
-def log_out():
-    flask_session.clear()
-    flash("You are successfully logged out!")
-    return redirect("/")
+# @app.route("/logout", methods=["GET"])
+# def log_out():
+#     flask_session.clear()
+#     flash("You are successfully logged out!")
+#     return redirect("/")
+
+@app.route('/login/')
+def login():
+    print current_user
+    if current_user.is_authenticated():
+        return redirect(url_for('homepage'))
+    else:
+        auth_flow = get_auth_flow()
+        auth_uri = auth_flow.step1_get_authorize_url()
+        return redirect(auth_uri)
+
+@app.route('/login/callback/')
+def login_callback():
+    code = request.args.get('code')
+    print "at login/callback"
+    print code
+    auth_flow = get_auth_flow()
+    print "got auth_flow"
+    credentials = auth_flow.step2_exchange(code)
+    print credentials
+    #this is the gmail api service object
+    gmail_api = get_api(credentials)
+    print gmail_api
+    gmail_user = gmail_api.users().getProfile(userId = 'me').execute()
+
+    email = gmail_user['emailAddress']
+    print email
+    access_token = credentials.access_token
+
+    user = User.query.filter_by(email = email).first()
+    if user:
+        user.access_token = access_token
+        session.commit()
+
+    else:
+        user = User(email=email, access_token=access_token)
+        user.save()
+    
+    login_user(user, remember = True)
+
+    return redirect(url_for('homepage'))
+
+@app.route('/logout/')
+def logout():
+    logout_user()
+    return redirect(url_for('homepage'))
 
 @app.route("/aboutcalc")
 def aboutcalc():
