@@ -3,19 +3,6 @@ import re
 from geopy.distance import great_circle
 import json
 
-def print_to_file():
-    """Queries the database for the body of the messages and prints out content into txt files so we can examine them ourselves """
-    #TODO: DELETE this function once you're done!
-    s = model.connect()
-    msg_list = s.query(model.Email).all()
-
-    for msg in msg_list:
-        body = msg.body.encode('utf-8')
-        filename = "body/" + str(msg.id) + ".txt"
-        f = open(filename, 'w')
-        print >> f, body
-        f.close
-
 def find_itinerary(list_airfinds):
     """Takes list of all legit airport codes found in a message and returns a likely itinirary list of tuples that represent legs of a trip."""
     #HARDFIX: this ignores last items of any odd itemed list, which works for United emails containing notes about an unrelated airports - but may not give you the results you are looking for if a non-airport code slips into anywhere but the last position of the list_airfinds
@@ -150,7 +137,18 @@ def flights4map():
 
     return map_list_js
 
-flights4map()
+# def print_to_file():
+#     """Queries the database for the body of the messages and prints out content into txt files so we can examine them ourselves """
+#     #TODO: DELETE this function once you're done!
+#     s = model.connect()
+#     msg_list = s.query(model.Email).all()
+
+#     for msg in msg_list:
+#         body = msg.body.encode('utf-8')
+#         filename = "body/" + str(msg.id) + ".txt"
+#         f = open(filename, 'w')
+#         print >> f, body
+#         f.close
 
 
 

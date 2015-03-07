@@ -2,21 +2,13 @@
 {% extends 'base.html' %}
 {% block body %}
 
-{% if 'user' not in session %}
+
 
 <form class="form-signin" method="POST">
     <h2 class="form-signin-heading">Please Sign In</h2>
     <button class="btn btn-lg btn-warning" type="submit">Authorize Google</button>
 </form>
 
-{% else %}
-
-<form action="/logout" method="GET">
-    <h2 class="form-signin-heading">Thanks for flying with us!</h2>
-    <input class="btn btn-lg btn-warning" type="submit" value="Log Out">
-</form>
-
-{% endif %}
 
 
 {% endblock %}

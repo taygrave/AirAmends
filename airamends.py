@@ -42,16 +42,19 @@ def load_user(userid):
 def before_request():
     print flask_session.items()
     if current_user.is_authenticated():
-        print "before request getting credentials"
+        # print "before request getting credentials"
         credentials = AccessTokenCredentials(current_user.access_token, u'')
-        print "before request, retreived credentials"
+        # print "before request, retreived credentials"
         g.gmail_api = get_api(credentials)
-        print "before request, built service"
+        # print "before request, built service"
 
-    # if current_user.anonymous == True:
-    #     g.status = "Log In"
-    # else:
-    #     g.status = current_user.email
+    if flask_session.get('user_id') == None:
+        g.status = "Log In"
+        g.link = "/login/"
+    else:
+        #TODO - directly add email to session once retrieved instead of querying db for it each time
+        g.status = current_user.email
+        g.link = "/logout/"
 
 @app.route("/")
 def homepage():
@@ -64,18 +67,17 @@ def make_map():
 
 @app.route("/getflights", methods=["POST"])
 def getflights():
-    s = model.connect()
-    emails_in_db = len(list(s.query(model.Email).filter(model.Email.user_id == 1).all()))
+    emails_in_db = len(list(Email.query.filter(Email.user_id == current_user.id).all()))
     if emails_in_db == 0:
-        emails_in_db = gmailapiworks.add_msgs_to_db()
+        emails_in_db = gmailapiworks.add_msgs_to_db(g.gmail_api, current_user.id)
 
-    flights_in_db = s.query(model.Flight).filter(model.Flight.user_id == 1).all()
+    flights_in_db = Flight.query.filter(Flight.user_id == current_user.id).all()
     if flights_in_db == [] or None:
         user_flights = seed_flights.seed_flights()
         CO2e = seed_flights.CO2e_results(user_flights)
         print CO2e
     else: 
-        user_flights = s.query(model.Flight).all()
+        user_flights = Flight.query.all()
         CO2e = seed_flights.CO2e_results(user_flights)
 
     years_list = seed_flights.report_by_year()
@@ -85,10 +87,9 @@ def getflights():
 @app.route("/getflights/<year>")
 def yearflights(year):
     year = year
-    s = model.connect()
     results_list = []
     sum_CO2e = 0
-    user_flights = s.query(model.Flight).filter_by(date = year).all()
+    user_flights = Flight.query.filter_by(date = year).all()
     
     for flight in user_flights:
         CO2e = seed_flights.calc_carbon((flight.depart, flight.arrive))
@@ -102,29 +103,12 @@ def yearflights(year):
 
     return render_template("/yearflights.html", year=year, results_list=results_list, sum_CO2e=sum_CO2e)
 
-# @app.route("/login", methods=["GET"])
-# def show_login():
-#     return render_template("login.html")
-
-# @app.route("/login", methods=["POST"])
-# def process_login():
-#     """TODO: Receive the user's login credentials located in the 'request.form'
-#     dictionary, look up the user, and store them in the session."""
-#     gmailapiworks.authorize()
-#     user_email = gmailapiworks.get_user()
-#     flask_session['user'] = user_email
-#     flash("Welcome you frequent flyer, you!")
-#     return redirect("/")
-
-# @app.route("/logout", methods=["GET"])
-# def log_out():
-#     flask_session.clear()
-#     flash("You are successfully logged out!")
-#     return redirect("/")
+@app.route("/aboutcalc")
+def aboutcalc():
+    return render_template("carboncalcs.html")
 
 @app.route('/login/')
 def login():
-    print current_user
     if current_user.is_authenticated():
         return redirect(url_for('homepage'))
     else:
@@ -141,11 +125,9 @@ def login_callback():
     print "got auth_flow"
     credentials = auth_flow.step2_exchange(code)
     print credentials
-    #this is the gmail api service object
     gmail_api = get_api(credentials)
     print gmail_api
     gmail_user = gmail_api.users().getProfile(userId = 'me').execute()
-
     email = gmail_user['emailAddress']
     print email
     access_token = credentials.access_token
@@ -167,15 +149,6 @@ def login_callback():
 def logout():
     logout_user()
     return redirect(url_for('homepage'))
-
-@app.route("/aboutcalc")
-def aboutcalc():
-    return render_template("carboncalcs.html")
-
-@app.route("/getflights", methods=['GET'])
-def get_flights():
-    var = "HELLLLLO"
-    return render_template("index.html", var=var)
 
 if __name__ == "__main__":
     app.run(debug = True)
