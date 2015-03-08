@@ -117,25 +117,7 @@ def year_calc(yyyy):
 
     return (yyyy, num_flights, sum_CO2e)
 
-def flights4map():
-    """Queries db for all flights and turns into a json for mapbox animation"""
-    s = model.connect()
-    total_flights = s.query(model.Flight).all()
-    map_list = []
 
-    for flight in total_flights:
-        lat_D = flight.departure.latitude
-        long_D = flight.departure.longitude
-        lat_A = flight.arrival.latitude
-        long_A = flight.arrival.longitude
-        map_list.append([[lat_D,long_D],[lat_A,long_A]])
-
-    map_list_js = json.dumps(map_list)
-
-    with open("./static/flights.js", 'wb') as outfile:
-        json.dump(map_list, outfile)
-
-    return map_list_js
 
 # def print_to_file():
 #     """Queries the database for the body of the messages and prints out content into txt files so we can examine them ourselves """

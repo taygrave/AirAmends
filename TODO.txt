@@ -1,6 +1,4 @@
 NEXT STEPS
-    correct oauth
-    map
     Flight buttons:
         first time ever -  search everything and add to db
         add new - search and add only after date of your last flight
@@ -8,22 +6,13 @@ NEXT STEPS
     Make flights user-editable on year reports (delete or add)
     have flight reports return order by / sort by
     Put in a nice thingy while waiting on gmail api
-    d3
 
 Non-prioritized problems:
-    Google redirect uri to localhost/5000 vs. 8080
-    whats this note about gflags being unsupported soon - way to update api connection? "WARNING:root:This function, oauth2client.tools.run(), and the use of the gflags library are deprecated and will be removed in a future version of the library."
     Where's my icelandair flight... 
-    Use Firebase's bookmarked authentication process
 
 Things I want help from Mentors for:
-    Putting lines between distinct trips
-    Finding date?
     Tidying up code
-    Making sure API call is efficient / effective
     Adding in tests
-    Figuring out how to display the data best
     LOOKING GOOD - Better design
-    User Table
 
     

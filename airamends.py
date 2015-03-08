@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, g, flash, redirect, url_for
 from flask import session as flask_session
 from flask.ext.login import LoginManager
 from flask.ext.login import login_user, logout_user, current_user
-
+import pdb
 
 from model import *
 import gmailapiworks, seed_flights
@@ -62,8 +62,33 @@ def homepage():
 
 @app.route("/map")
 def make_map():
-    json_array = seed_flights.flights4map()
+    """Provides view of animated flight paths using user's flight db info"""
+    json_array = flights4map()
     return render_template("map.html", jsonarray=json_array)
+
+@app.route("/flights.js")
+def flights4map():
+    """Queries db for all flights and turns into a json for mapbox animation"""
+    #FIXME: update language to new model import
+    s = model.connect()
+    total_flights = s.query(model.Flight).all()
+    map_list = []
+
+    for flight in total_flights:
+        lat_D = flight.departure.latitude
+        long_D = flight.departure.longitude
+        lat_A = flight.arrival.latitude
+        long_A = flight.arrival.longitude
+        map_list.append([[lat_D,long_D],[lat_A,long_A]])
+
+    map_list_str = "var pairs = " + json.dumps(map_list)
+
+    # with open("./static/flights.js", 'wb') as outfile:
+    #     outfile.write(map_list_str)
+
+    return map_list_str
+
+
 
 @app.route("/getflights", methods=["POST"])
 def getflights():
@@ -96,12 +121,22 @@ def yearflights(year):
         #using a backreference here to name the cities for display instead of using their airport codes, for better user recognition
         #TODO consider returning airport codes as well
         date = str(flight.email.date.month) + "/" + str(flight.email.date.day)
-        results_list.append((date, flight.departure.city, flight.arrival.city, CO2e))
+        results_list.append((date, flight.departure.city, flight.arrival.city, CO2e, flight.id))
         sum_CO2e = sum_CO2e + CO2e
 
     print results_list
 
     return render_template("/yearflights.html", year=year, results_list=results_list, sum_CO2e=sum_CO2e)
+
+@app.route("/delete_flight", methods=["POST"])
+def delete_flight():
+    id = int(request.values['id'])
+    print " HEREHHEREL!!!!!!!!!!!!!!"
+    print id
+    flight = Flight.query.filter_by(id = id).one()
+    session.delete(flight)
+    session.commit()
+    return "OK"
 
 @app.route("/aboutcalc")
 def aboutcalc():

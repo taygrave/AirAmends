@@ -5,24 +5,53 @@
 We found a total of {{results_list|length}} flights for you! <a href="#">Edit</a>*<br>
 <a href="javascript:history.back()">Go Back</a>
 <br><br>
+<script>
+var deleteFlight = function(id){
+    var formData = new FormData();
+    formData.append("id", id)
+
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.open("POST", "/delete_flight", true);
+    xmlhttp.onreadystatechange = function(){
+        if (xmlhttp.onreadystate == 4){
+            if (xmlhttp.responseText == "OK"){
+                // TODO: something fancy - remove table row!
+            } else {
+                // TODO: alert user didn't work
+            }
+        }
+    }
+    xmlhttp.send(formData);
+}
+</script>
+
+<!-- TODO: need to give unique id to table row - name it after the id (row-id#)
+get element by id and remove from table
+JS methods Document.getElementById and remove())-->
 
 <table class="table table-striped">
     
     <tr class="info">
-        <th>Purchased On:</th><th>Departing From:</th><th>Arriving In:</th><th>CO2e Emissions</th><th>Emissions Value (2015$)</th>
+        <th>Purchased On:</th><th>Departing From:</th><th>Arriving In:</th><th>CO2e Emissions</th><th>Emissions Value (2015$)</th><th></th>
     </tr>
         
     {% for flight in results_list %}
     <tr>
-        <td>{{flight[0]}}</td><td>{{flight[1]}}</td><td>{{flight[2]}}</td><td>{{'%0.2f' % flight[3]}}</td><td>${{'%0.2f' % (flight[3]*37)}}</td>
+        <td>{{flight[0]}}</td><td>{{flight[1]}}</td><td>{{flight[2]}}</td><td>{{'%0.2f' % flight[3]}}</td><td>${{'%0.2f' % (flight[3]*37)}}</td><td><span id="{{flight[4]}}" onclick="deleteFlight({{flight[4]}})">X</span></td>
     </tr>
     {% endfor %}
         
     <tr class="info">
-        <th>TOTALS</th><th> </th><th> </th><th>{{'%0.2f' % sum_CO2e}}</th><th>${{'%0.2f' % (sum_CO2e*37)}}</th></tr>
+        <th>TOTALS</th><th> </th><th> </th><th>{{'%0.2f' % sum_CO2e}}</th><th>${{'%0.2f' % (sum_CO2e*37)}}</th><th></th></tr>
     </tr>
 
 </table>
+
+<script>
+
+
+
+</script>
 
 *TODO: Click here to be able to delete a flight from the table or add one
 {% endblock %}
