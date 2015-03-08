@@ -1,4 +1,5 @@
 NEXT STEPS
+    Have table sums auto-adjust once flights have been removed
     Flight buttons:
         first time ever -  search everything and add to db
         add new - search and add only after date of your last flight
