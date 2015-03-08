@@ -56,12 +56,6 @@ def before_request():
 def homepage():
     return render_template("index.html")
 
-@app.route("/map")
-def make_map():
-    """Provides view of animated flight paths using user's flight db info"""
-    json_array = flights4map()
-    return render_template("map.html", jsonarray=json_array)
-
 @app.route("/flights.js")
 def flights4map():
     """Queries db for all flights and turns into a json for mapbox animation"""
@@ -82,6 +76,12 @@ def flights4map():
     #     outfile.write(str_coords)
 
     return str_coords
+
+@app.route("/map")
+def make_map():
+    """Provides view of animated flight paths using user's flight db info"""
+    json_array = flights4map()
+    return render_template("map.html", jsonarray=json_array)
 
 @app.route("/getflights", methods=["POST"])
 def getflights():
@@ -124,8 +124,6 @@ def yearflights(year):
 @app.route("/delete_flight", methods=["POST"])
 def delete_flight():
     id = int(request.values['id'])
-    print " HEREHHEREL!!!!!!!!!!!!!!"
-    print id
     flight = Flight.query.filter_by(id = id).one()
     session.delete(flight)
     session.commit()
