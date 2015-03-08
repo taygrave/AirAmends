@@ -15,10 +15,7 @@
 <body>
 <!-- We use arc.js to make our paths curved. -->
 <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/arc.js/v0.1.0/arc.js'></script>
-<!-- This is our data file - it's an array of [[lat,lng],[lat,lng]] pairs
-     that define starting and ending locations of flight paths -->
-<script src={{json_array}}></script>
-<!-- Their source: https://www.mapbox.com/mapbox.js/assets/data/flights.js -->
+
 
 <style>
 /*
@@ -68,6 +65,8 @@ if (map.tap) map.tap.disable();
 // Transform the short [lat,lng] format in our
 // data into the {x, y} expected by arc.js.
 function obj(ll) { return { y: ll[0], x: ll[1] }; }
+
+var pairs = {{jsonarray}}
 
 for (var i = 0; i < pairs.length; i++) {
     // Transform each pair of coordinates into a pretty

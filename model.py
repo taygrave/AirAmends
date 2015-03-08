@@ -7,7 +7,7 @@ from flask.ext.login import UserMixin
 
 import seed_airports
 
-engine = create_engine("sqlite:///airdata.db", echo=True)
+engine = create_engine("sqlite:///airdata.db", echo=False)
 session = scoped_session(sessionmaker(bind=engine, autocommit=False, autoflush=False))
 
 Base = declarative_base()

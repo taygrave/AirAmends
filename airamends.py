@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, g, flash, redirect, url_for
 from flask import session as flask_session
 from flask.ext.login import LoginManager
 from flask.ext.login import login_user, logout_user, current_user
-import pdb
+import pdb, json
 
 from model import *
 import gmailapiworks, seed_flights
@@ -19,7 +19,6 @@ login_manager.init_app(app)
 def get_api(credentials):
     http_auth = credentials.authorize(httplib2.Http())
     doc = open("discovery.json")
-    print "credentials authorized"
     gmail_service = build_from_document(doc.read(), http = http_auth)
     print gmail_service
     return gmail_service
@@ -30,17 +29,14 @@ def get_auth_flow():
         client_secret = config.GMAIL_CLIENT_SECRET,
         scope = config.GMAIL_AUTH_SCOPE,
         redirect_uri = url_for('login_callback', _external = True))
-    print "auth_flow retreived"
     return auth_flow
 
 @login_manager.user_loader
 def load_user(userid):
-    print "at user_loader"
     return User.query.get(int(userid))
 
 @app.before_request
 def before_request():
-    print flask_session.items()
     if current_user.is_authenticated():
         # print "before request getting credentials"
         credentials = AccessTokenCredentials(current_user.access_token, u'')
@@ -69,9 +65,7 @@ def make_map():
 @app.route("/flights.js")
 def flights4map():
     """Queries db for all flights and turns into a json for mapbox animation"""
-    #FIXME: update language to new model import
-    s = model.connect()
-    total_flights = s.query(model.Flight).all()
+    total_flights = Flight.query.all()
     map_list = []
 
     for flight in total_flights:
@@ -79,16 +73,15 @@ def flights4map():
         long_D = flight.departure.longitude
         lat_A = flight.arrival.latitude
         long_A = flight.arrival.longitude
+        
         map_list.append([[lat_D,long_D],[lat_A,long_A]])
 
-    map_list_str = "var pairs = " + json.dumps(map_list)
+    str_coords = json.dumps(map_list)
+    
+    # with open("./static/flights4.js", 'wb') as outfile:
+    #     outfile.write(str_coords)
 
-    # with open("./static/flights.js", 'wb') as outfile:
-    #     outfile.write(map_list_str)
-
-    return map_list_str
-
-
+    return str_coords
 
 @app.route("/getflights", methods=["POST"])
 def getflights():
