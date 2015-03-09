@@ -3,7 +3,8 @@
 
 <h2>{{year}}</h2>
 We found a total of {{results_list|length}} flights for you! <a href="#">Edit</a>*<br>
-<a href="javascript:history.back()">Go Back</a>
+<!-- FIXME: this doesn't reload the page when it goes back tho -->
+<a href="javascript:history.back()">Go Back</a> 
 <br><br>
 <script>
 var deleteFlight = function(id, tRow){
@@ -37,7 +38,6 @@ var deleteFlight = function(id, tRow){
                 mSum = mSum.toString()
                 cTotal.innerText = cSum;
                 mTotal.innerText = ("$" + mSum)
-                console.log("Hello" + "!")
                 });
             } else {
                 // TODO update this to be more useful

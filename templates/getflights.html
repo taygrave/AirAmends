@@ -12,5 +12,11 @@ You have a total of {{emails_in_db}} flight confirmation emails in our database.
         <tr class="info"><th>TOTALS</th><th>{{user_flights|length}}</th><th>{{'%0.2f' % CO2e}}</th><th>${{'%0.2f' % (CO2e*37)}}</th></tr></tr>
 </table>
 <br>
-* add option to re-search emails
+<form action="/flight_reset" class="form-signin" method="POST">
+    <button class="btn btn-lg btn-warning" type="submit">Reset all Flights</button>
+</form>
+<form action="/complete_reset" class="form-signin" method="POST">
+    <button class="btn btn-lg btn-danger" type="submit">Re-Query Gmail from Scratch</button>
+</form>
+
 {% endblock %}

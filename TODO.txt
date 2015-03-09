@@ -1,18 +1,19 @@
 NEXT STEPS
-    Need help getting accurate sum w Javascript editing total function - seems a little buggy, doesn't update IMMEDIATELY...
+    Need help getting accurate sum w Javascript editing total function and ensuring double digit formatting - seems a little buggy, doesn't update IMMEDIATELY (on only the first and last clicks)...
     Flight buttons:
-        first time ever -  search everything and add to db
         add new - search and add only after date of your last flight
-        reset all - one to delete and repopulate db too 
-    Make flights user-editable on year reports (delete or add)
+        turn from buttons into ajax requests auto-updating page
+    Allow user to add flights
     have flight reports return order by / sort by
-    Put in a nice thingy while waiting on gmail api
-
-Non-prioritized problems:
-    Where's my icelandair flight... 
+    HAve a dashboard of (# flight emails, # flight legs total, # deleted, # added)
+    Pop ups to let user know website is working but busy:
+        when waiitng on gmail api
+        initial query
+        reset from scratch query
 
 Things I want help from Mentors for:
     Tidying up code
+    make flight parsing faster
     Adding in tests
     LOOKING GOOD - Better design
 

@@ -83,11 +83,12 @@ def make_map():
     json_array = flights4map()
     return render_template("map.html", jsonarray=json_array)
 
-@app.route("/getflights", methods=["POST"])
+@app.route("/getflights", methods=["GET"])
 def getflights():
     emails_in_db = len(list(Email.query.filter(Email.user_id == current_user.id).all()))
     if emails_in_db == 0:
-        emails_in_db = gmailapiworks.add_msgs_to_db(g.gmail_api, current_user.id)
+        gmailapiworks.add_msgs_to_db(g.gmail_api, current_user.id)
+        emails_in_db = len(list(Email.query.filter(Email.user_id == current_user.id).all()))
 
     flights_in_db = Flight.query.filter(Flight.user_id == current_user.id).all()
     if flights_in_db == [] or None:
@@ -101,6 +102,19 @@ def getflights():
     years_list = seed_flights.report_by_year()
 
     return render_template("/getflights.html", emails_in_db=emails_in_db, user_flights=user_flights, CO2e=CO2e, years_list=years_list)
+
+@app.route("/complete_reset", methods=["POST"])
+def complete_reset():
+    Email.query.delete()
+    Flight.query.delete()
+    session.commit()
+    return redirect(url_for('getflights'))
+
+@app.route("/flight_reset", methods=["POST"])
+def reset_flights():
+    Flight.query.delete()
+    session.commit()
+    return redirect(url_for('getflights'))
 
 @app.route("/getflights/<year>")
 def yearflights(year):
