@@ -71,11 +71,24 @@ def flights4map():
         map_list.append([[lat_D,long_D],[lat_A,long_A]])
 
     str_coords = json.dumps(map_list)
-    
-    # with open("./static/flights4.js", 'wb') as outfile:
-    #     outfile.write(str_coords)
-
     return str_coords
+
+@app.route("/airports.js")
+def get_airports():
+    """Queries db for airport info and turns code and city pairs in json for user flight adding info"""
+    airports = Airport.query.all()
+    airport_list = []
+
+    for obj in airports:
+        air_str = '%s (%s)' %(obj.city, obj.id)
+        # air_str = "hello"
+        airport_list.append(air_str)
+        # airport_list.append(air_str.encode('utf-8'))
+
+    str_airports = json.dumps(airport_list)
+    return str_airports
+    # print airport_list
+    # return airport_list
 
 @app.route("/map")
 def make_map():
@@ -85,10 +98,12 @@ def make_map():
 
 @app.route("/getflights", methods=["GET"])
 def getflights():
-    emails_in_db = len(list(Email.query.filter(Email.user_id == current_user.id).all()))
-    if emails_in_db == 0:
+    emails_in_db = Email.query.filter(Email.user_id == current_user.id).all()
+    if emails_in_db == None:
         gmailapiworks.add_msgs_to_db(g.gmail_api, current_user.id)
-        emails_in_db = len(list(Email.query.filter(Email.user_id == current_user.id).all()))
+        emails_in_db = Email.query.filter(Email.user_id == current_user.id).all()
+
+    email_stats = [len(list(emails_in_db)), emails_in_db[-1].date, emails_in_db[0].date]
 
     flights_in_db = Flight.query.filter(Flight.user_id == current_user.id).all()
     if flights_in_db == [] or None:
@@ -101,7 +116,7 @@ def getflights():
 
     years_list = seed_flights.report_by_year()
 
-    return render_template("/getflights.html", emails_in_db=emails_in_db, user_flights=user_flights, CO2e=CO2e, years_list=years_list)
+    return render_template("/getflights.html", email_stats=email_stats, user_flights=user_flights, CO2e=CO2e, years_list=years_list)
 
 @app.route("/complete_reset", methods=["POST"])
 def complete_reset():
@@ -131,9 +146,9 @@ def yearflights(year):
         results_list.append((date, flight.departure.city, flight.arrival.city, CO2e, flight.id))
         sum_CO2e = sum_CO2e + CO2e
 
-    print results_list
+    airports_json = get_airports()
 
-    return render_template("/yearflights.html", year=year, results_list=results_list, sum_CO2e=sum_CO2e)
+    return render_template("/yearflights.html", year=year, results_list=results_list, sum_CO2e=sum_CO2e, airports_json=airports_json)
 
 @app.route("/delete_flight", methods=["POST"])
 def delete_flight():

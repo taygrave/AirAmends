@@ -2,9 +2,9 @@
 {% block body %}
 
 <h2>{{year}}</h2>
-We found a total of {{results_list|length}} flights for you! <a href="#">Edit</a>*<br>
+Your flights found for {{year}} are displayed below. Please confirm the report is correct. You can delete flights you never took by hovering over the row. You can add flights that were missed by XXX.<br>
 <!-- FIXME: this doesn't reload the page when it goes back tho -->
-<a href="javascript:history.back()">Go Back</a> 
+<a href="/getflights">Go Back</a> 
 <br><br>
 <script>
 var deleteFlight = function(id, tRow){
@@ -47,7 +47,9 @@ var deleteFlight = function(id, tRow){
             };
         };
         xmlhttp.send(formData);
-} else {console.log('nope')}}
+} else {
+    // Do nothing
+}}
 </script>
 
 <!-- TODO: need to give unique id to table row - name it after the id (row-id#)
@@ -59,7 +61,18 @@ JS methods Document.getElementById and remove())-->
     <tr class="info">
         <th>Purchased On:</th><th>Departing From:</th><th>Arriving In:</th><th>CO2e Emissions</th><th>Emissions Value (2015$)</th><th></th>
     </tr>
-        
+    
+    <tr id="flightadd">
+        <form>
+            <td><label for="date"></label><input type="date" value="{{year}}-06-01" name="purchase_date"></td>
+            <td><label for="depart"></label><input type="text" name="depart" id="depart"></td>
+            <td><label for="arrive"></label><input type="text" name="arrive" id="arrive"></td>
+            <td></td>
+            <td></td>
+            <td><button type="button" class="btn btn-success" id="addflight" onclick="">&nbsp;&nbsp;&nbsp;ADD&nbsp;&nbsp;&nbsp;</button></td>
+        </form>
+    </tr>
+
     {% for flight in results_list %}
     <tr id={{"row-%d" % flight[4]}}>
         <td>{{flight[0]}}</td>
@@ -76,12 +89,21 @@ JS methods Document.getElementById and remove())-->
     </tr>
 
 </table>
+<br>
 
+<br><br><br><br>
 <script>
+// ALLOW TEXT INPUT FOR ADDING FLIGHTS TO AUTOCOMPLETE
+var data = {{airports_json | safe}};
+$(document).ready(function () {
+    $("#arrive").autocomplete({source: data,autoFocus: false,});
+    $("#depart").autocomplete({source: data,autoFocus: false,});
+  });
+
 $('table').on('mouseover', 'tr', function(ev) {
-    $(this).find('button').css({'visibility': 'visible'});
+    $(this).find('.btn.btn-danger').css({'visibility': 'visible'});
 }).on('mouseout', 'tr', function(ev) {
-    $(this).find('button').css({'visibility': 'hidden'});
+    $(this).find('.btn.btn-danger').css({'visibility': 'hidden'});
 });
 
 </script>

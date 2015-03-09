@@ -117,6 +117,16 @@ def year_calc(yyyy):
 
     return (yyyy, num_flights, sum_CO2e)
 
+def get_airports():
+    s = model.connect()
+    airports = s.query(model.Airport).all()
+    airport_list = []
+
+    for obj in airports:
+        airport_list.append((obj.id, obj.city))
+
+    return airport_list
+
 
 
 # def print_to_file():

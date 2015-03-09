@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block body %}
 
-You have a total of {{emails_in_db}} flight confirmation emails in our database.* <br><br>
+Our reports are generated off of the {{email_stats[0]}} flight confirmation emails we found for you. These emails range over the period {{email_stats[1]}} to {{email_stats[2]}}.<br><br>
 
 <table class="table table-striped">
     <tr class="info"><th>Year</th><th># of Flights</th><th>CO2e Emissions</th><th>Emissions Value (2015$)</th>
