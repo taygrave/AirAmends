@@ -8,45 +8,46 @@ We found a total of {{results_list|length}} flights for you! <a href="#">Edit</a
 <br><br>
 <script>
 var deleteFlight = function(id, tRow){
-    var formData = new FormData();
-    formData.append("id", id)
+    if (confirm("Are you sure you want to delete this flight?")) {
+        var formData = new FormData();
+        formData.append("id", id)
 
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("POST", "/delete_flight", true);
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.open("POST", "/delete_flight", true);
 
-    xmlhttp.onreadystatechange = function(){
-        if (xmlhttp.readyState == 4){
-            if (xmlhttp.responseText == "OK"){
-                var row = document.getElementById(tRow);
-                row.remove();
+        xmlhttp.onreadystatechange = function(){
+            if (xmlhttp.readyState == 4){
+                if (xmlhttp.responseText == "OK"){
+                    var row = document.getElementById(tRow);
+                    row.remove();
 
-                var cTotal = document.getElementById("cTotal");
-                var mcTotal = document.getElementById("mTotal");
-                var tdEmiss = document.getElementsByClassName("emiss");
-                var tdPriced = document.getElementsByClassName("priced");
+                    var cTotal = document.getElementById("cTotal");
+                    var mcTotal = document.getElementById("mTotal");
+                    var tdEmiss = document.getElementsByClassName("emiss");
+                    var tdPriced = document.getElementsByClassName("priced");
 
-                $('tr').click(function () {
-                var cSum = 0 ; mSum = 0
-                for (var i = 0; i < tdEmiss.length; i++) {
-                    cSum += parseFloat(tdEmiss[i].innerText);
-                    var unpriced = tdPriced[i].innerText;
-                    unpriced = parseFloat(unpriced.replace(/\$/,""));
-                    mSum += unpriced;
+                    var cSum = 0 ; mSum = 0
+
+                    for (var i = 0; i < tdEmiss.length; i++) {
+                        cSum += parseFloat(tdEmiss[i].innerText);
+                        var unpriced = tdPriced[i].innerText;
+                        unpriced = parseFloat(unpriced.replace(/\$/,""));
+                        mSum += unpriced;
+                    };
+                    cSum = Math.round(cSum*100)/100;
+                    mSum = Math.round(mSum*100)/100;
+                    mSum = mSum.toString();
+                    cTotal.innerText = cSum;
+                    mTotal.innerText = ("$" + mSum);           
+
+                } else {
+                    // TODO update this to be more useful
+                    console.log("Flight cannot be removed");
                 };
-                cSum = Math.round(cSum*100)/100;
-                mSum = Math.round(mSum*100)/100;
-                mSum = mSum.toString()
-                cTotal.innerText = cSum;
-                mTotal.innerText = ("$" + mSum)
-                });
-            } else {
-                // TODO update this to be more useful
-                console.log("Flight cannot be removed");
             };
         };
-    };
-    xmlhttp.send(formData);
-}
+        xmlhttp.send(formData);
+} else {console.log('nope')}}
 </script>
 
 <!-- TODO: need to give unique id to table row - name it after the id (row-id#)
