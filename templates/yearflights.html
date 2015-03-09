@@ -12,14 +12,33 @@ var deleteFlight = function(id, tRow){
 
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.open("POST", "/delete_flight", true);
-    console.log(tRow);
 
     xmlhttp.onreadystatechange = function(){
-        console.log(xmlhttp.onreadystate)
         if (xmlhttp.readyState == 4){
             if (xmlhttp.responseText == "OK"){
                 var row = document.getElementById(tRow);
                 row.remove();
+
+                var cTotal = document.getElementById("cTotal");
+                var mcTotal = document.getElementById("mTotal");
+                var tdEmiss = document.getElementsByClassName("emiss");
+                var tdPriced = document.getElementsByClassName("priced");
+
+                $('tr').click(function () {
+                var cSum = 0 ; mSum = 0
+                for (var i = 0; i < tdEmiss.length; i++) {
+                    cSum += parseFloat(tdEmiss[i].innerText);
+                    var unpriced = tdPriced[i].innerText;
+                    unpriced = parseFloat(unpriced.replace(/\$/,""));
+                    mSum += unpriced;
+                };
+                cSum = Math.round(cSum*100)/100;
+                mSum = Math.round(mSum*100)/100;
+                mSum = mSum.toString()
+                cTotal.innerText = cSum;
+                mTotal.innerText = ("$" + mSum)
+                console.log("Hello" + "!")
+                });
             } else {
                 // TODO update this to be more useful
                 console.log("Flight cannot be removed");
@@ -45,14 +64,14 @@ JS methods Document.getElementById and remove())-->
         <td>{{flight[0]}}</td>
         <td>{{flight[1]}}</td>
         <td>{{flight[2]}}</td>
-        <td>{{'%0.2f' % flight[3]}}</td>
-        <td>${{'%0.2f' % (flight[3]*37)}}</td>
+        <td class="emiss">{{'%0.2f' % flight[3]}}</td>
+        <td class="priced">${{'%0.2f' % (flight[3]*37)}}</td>
         <td><button type="button" class="btn btn-danger" style="visibility: hidden" id="{{flight[4]}}" onclick="deleteFlight('{{flight[4]}}', '{{'row-%d' % flight[4]}}')">DELETE</button></td>
     </tr>
     {% endfor %}
         
     <tr class="info">
-        <th>TOTALS</th><th> </th><th> </th><th>{{'%0.2f' % sum_CO2e}}</th><th>${{'%0.2f' % (sum_CO2e*37)}}</th><th></th></tr>
+        <th>TOTALS</th><th> </th><th> </th><th id="cTotal">{{'%0.2f' % sum_CO2e}}</th><th id="mTotal">${{'%0.2f' % (sum_CO2e*37)}}</th><th></th></tr>
     </tr>
 
 </table>
@@ -63,6 +82,7 @@ $('table').on('mouseover', 'tr', function(ev) {
 }).on('mouseout', 'tr', function(ev) {
     $(this).find('button').css({'visibility': 'hidden'});
 });
+
 </script>
 
 {% endblock %}

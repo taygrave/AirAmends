@@ -1,5 +1,5 @@
 NEXT STEPS
-    Have table sums auto-adjust once flights have been removed
+    Need help getting accurate sum w Javascript editing total function - seems a little buggy, doesn't update IMMEDIATELY...
     Flight buttons:
         first time ever -  search everything and add to db
         add new - search and add only after date of your last flight
