@@ -27,7 +27,12 @@ var addTotals = function(){
     mSum = mSum.toString();
     cTotal.innerText = cSum;
     mTotal.innerText = ("$" + mSum); 
-}
+};
+
+var addFlight = function(e) {
+    e.preventDefault();
+    console.log("TAY!!")
+};
 
 var deleteFlight = function(id, tRow){
     if (confirm("Are you sure you want to delete this flight?")) {
@@ -67,13 +72,13 @@ JS methods Document.getElementById and remove())-->
     </tr>
     
     <tr id="flightadd">
-        <form id="flightaddform">
+        <form name="flightaddform" id="flightaddform" action="/add_flight" method="GET">
             <td><label for="date"></label><input type="date" value="{{year}}-06-01" name="purchase_date"></td>
             <td><label for="depart"></label><input type="text" name="depart" id="depart"></td>
             <td><label for="arrive"></label><input type="text" name="arrive" id="arrive"></td>
             <td></td>
             <td></td>
-            <td><button type="submit" class="btn btn-success" id="flightsubmit" onclick="addFlights()">&nbsp;&nbsp;&nbsp;ADD&nbsp;&nbsp;&nbsp;</button></td>
+            <td><button type="submit" class="btn btn-success" id="flightsubmit">&nbsp;&nbsp;&nbsp;ADD&nbsp;&nbsp;&nbsp;</button></td>
         </form>
     </tr>
 
@@ -98,11 +103,44 @@ JS methods Document.getElementById and remove())-->
 <br><br><br><br>
 <script>
 // ALLOW TEXT INPUT FOR ADDING FLIGHTS TO AUTOCOMPLETE
+// var flightAddB = document.getElementById('flightsubmit');
+// flightAddB.addEventListener('click', addFlight)
+
+var status = function(result){
+    console.log(result);
+    console.log("it worked!")
+};
+
+$('#flightaddform').submit(function(e)
+{
+    e.preventDefault(); //STOP default action
+    var data = $(this).serialize();
+    console.log(data)
+
+    $.get('/add_flight', data, status)
+    // $.ajax(
+    // {
+    //     url : formURL,
+    //     type: "POST",
+    //     data : postData,
+    //     success:function(data, textStatus, jqXHR) 
+    //     {
+    //         //data: return data from server
+    //     },
+    //     error: function(jqXHR, textStatus, errorThrown) 
+    //     {
+    //         //if fails      
+    //     }
+    // });
+});
+
+
+
 var data = {{airports_json | safe}};
 $(document).ready(function () {
     addTotals();
-    $("#arrive").autocomplete({source: data,autoFocus: false,});
-    $("#depart").autocomplete({source: data,autoFocus: false,});
+    $("#arrive").autocomplete({source: data});
+    $("#depart").autocomplete({source: data});
   });
 
 $('table').on('mouseover', 'tr', function(ev) {
@@ -112,16 +150,6 @@ $('table').on('mouseover', 'tr', function(ev) {
 });
 
 
-// var addFlight = function(evt){
-//     evt.preventDefault();
-//     console.log("Hi Tay");
-    // var formData = new FormData();
-    // formData.append("id", id)
-
-    // var xmlhttp = new XMLHttpRequest();
-    // xmlhttp.open("POST", "/delete_flight", true);
-
-// };
 
 </script>
 

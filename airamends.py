@@ -157,6 +157,12 @@ def delete_flight():
     session.commit()
     return "OK"
 
+@app.route("/add_flight", methods=["GET"])
+def add_flight():
+    date = request.values['date']
+    print date
+    return "OK"
+
 @app.route("/aboutcalc")
 def aboutcalc():
     return render_template("carboncalcs.html")
