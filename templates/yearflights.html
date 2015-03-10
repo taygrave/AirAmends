@@ -106,32 +106,19 @@ JS methods Document.getElementById and remove())-->
 // var flightAddB = document.getElementById('flightsubmit');
 // flightAddB.addEventListener('click', addFlight)
 
-var status = function(result){
+var addFlight = function(result){
+    // Want this function to, if successfully added to db, add a row on the existing table with the new flight's data and clear the add flight form should user want to add another flight
     console.log(result);
-    console.log("it worked!")
 };
 
 $('#flightaddform').submit(function(e)
 {
-    e.preventDefault(); //STOP default action
+    e.preventDefault();
     var data = $(this).serialize();
-    console.log(data)
 
-    $.get('/add_flight', data, status)
-    // $.ajax(
-    // {
-    //     url : formURL,
-    //     type: "POST",
-    //     data : postData,
-    //     success:function(data, textStatus, jqXHR) 
-    //     {
-    //         //data: return data from server
-    //     },
-    //     error: function(jqXHR, textStatus, errorThrown) 
-    //     {
-    //         //if fails      
-    //     }
-    // });
+    // want it to submit to route /add_flight which will parse out the form data and make a new flight entry in the db, then run addFlight function
+    $.get('/add_flight', data, addFlight)
+
 });
 
 
