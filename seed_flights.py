@@ -15,6 +15,21 @@ def find_itinerary(list_airfinds):
 
     return list_itin
 
+def recode(input_str):
+    """Takes airport from user input and returns it recoded into three letter airport db id"""
+    already_good = r"([A-Z]{3})"
+    status = re.search(already_good,input_str).group()
+
+    print status
+    
+    # input_str = p.search(date_str).group()
+
+    # needs_decoding = re.compile(r"\(([A-Z]{3})\)")
+
+recode("DEN")
+recode("Deer Lake (YDF)")
+
+
 def seed_flights():
     """Pulls email bodies (strings) from msg objs (list) and parses them to determine a trip itneraries per message and adds each itinerary's flight legs to the db."""
     s = model.connect()

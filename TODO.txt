@@ -11,6 +11,12 @@ NEXT STEPS
         initial query
         reset from scratch query
 
+Non-prioritized TIDYING:
+    find all FIXMEs
+    find all TODOs
+    consider changing 'trip id' to 'email id' in the flights table 
+    change 'session' in airamends.py to explicitly refer to db session
+
 Things I want help from Mentors for:
     Tidying up code
     make flight parsing faster

@@ -81,14 +81,10 @@ def get_airports():
 
     for obj in airports:
         air_str = '%s (%s)' %(obj.city, obj.id)
-        # air_str = "hello"
         airport_list.append(air_str)
-        # airport_list.append(air_str.encode('utf-8'))
 
     str_airports = json.dumps(airport_list)
     return str_airports
-    # print airport_list
-    # return airport_list
 
 @app.route("/map")
 def make_map():
@@ -159,9 +155,21 @@ def delete_flight():
 
 @app.route("/add_flight", methods=["GET"])
 def add_flight():
-    date = request.values['date']
-    print date
-    return "OK"
+    """Receives user input for flight details (date, departure, arrival) and makes a new flight entry in the db for user"""
+    date = request.args.get('purchase_date')
+    arrive = request.args.get('depart')
+    depart = request.args.get('arrive')
+    
+    if arrive and depart in get_airports():
+        user_id = flask_session.get('user_id')
+        #special trip_id code of "0" used to indicate manual user added flight
+        print arrive, depart
+        # entry = Flight(user_id=user_id, trip_id=0, date=date, depart=depart, arrive=arrive)
+        # session.add(entry)
+        # session.commit()
+        return "OK" 
+    else:
+        return "You must select airports from the list provided, please try again."
 
 @app.route("/aboutcalc")
 def aboutcalc():
