@@ -74,9 +74,8 @@ class Flight(Base):
 
     id = Column(Integer, primary_key=True) #leg id
     user_id = Column(Integer, ForeignKey('Users.id'), nullable=False)
-    #in this case, the trip_id means both the msg_id where this information came from AND ALSO which unique trip this leg is a part of
-    trip_id = Column(Integer, ForeignKey('Emails.id'), nullable=False) 
-    date = Column(String(4), nullable=False)
+    email_id = Column(Integer, ForeignKey('Emails.id'), nullable=False) 
+    date = Column(Date, nullable=False)
     depart = Column(String(3), ForeignKey("Airports.id"), nullable=False)
     arrive = Column(String(3), ForeignKey("Airports.id"), nullable=False)
 
@@ -86,7 +85,7 @@ class Flight(Base):
     arrival = relationship("Airport", foreign_keys="Flight.arrive")
 
     def __repr__(self):
-        return "<Flight: id=%r, user_id=%s, trip_id=%s, date=%r, depart=%s, arrive=%s>" %(self.id, self.user_id, self.trip_id, self.date, self.depart, self.arrive)
+        return "<Flight: id=%r, user_id=%s, email_id=%s, date=%r, depart=%s, arrive=%s>" %(self.id, self.user_id, self.email_id, self.date, self.depart, self.arrive)
 
 class Airport(Base):
     __tablename__="Airports"

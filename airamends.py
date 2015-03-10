@@ -2,8 +2,8 @@ from flask import Flask, render_template, request, g, flash, redirect, url_for
 from flask import session as flask_session
 from flask.ext.login import LoginManager
 from flask.ext.login import login_user, logout_user, current_user
-import pdb, json
-
+import pdb, json, re
+from datetime import datetime
 from model import *
 import gmailapiworks, seed_flights
 from apiclient.discovery import build_from_document
@@ -128,17 +128,18 @@ def reset_flights():
 
 @app.route("/getflights/<year>")
 def yearflights(year):
-    year = year
+    year = int(year)
     results_list = []
-    sum_CO2e = 0
-    user_flights = Flight.query.filter_by(date = year).all()
+    user_flights = Flight.query.all()
     
-    for flight in user_flights:
+    working_list = [obj for obj in user_flights if (obj.date.year == year)]
+
+    for flight in working_list:
         #rounding completed here removes some precision, and also removes precision error
         CO2e = round(seed_flights.calc_carbon((flight.depart, flight.arrive)),2)
         #using a backreference here to name the cities for display instead of using their airport codes, for better user recognition
         #TODO consider returning airport codes as well
-        date = str(flight.email.date.month) + "/" + str(flight.email.date.day)
+        date = str(flight.date.month) + "/" + str(flight.date.day)
         results_list.append((date, flight.departure.city, flight.arrival.city, CO2e, flight.id))
 
     airports_json = get_airports()
@@ -157,19 +158,22 @@ def delete_flight():
 def add_flight():
     """Receives user input for flight details (date, departure, arrival) and makes a new flight entry in the db for user"""
     date = request.args.get('purchase_date')
-    arrive = request.args.get('depart')
-    depart = request.args.get('arrive')
-    
+    depart = request.args.get('depart')
+    arrive = request.args.get('arrive')
+
+    #FIXME - some invalids still getting through (e.g. try 'ae' and 'dr')
     if arrive and depart in get_airports():
         user_id = flask_session.get('user_id')
         #special trip_id code of "0" used to indicate manual user added flight
-        print arrive, depart
-        # entry = Flight(user_id=user_id, trip_id=0, date=date, depart=depart, arrive=arrive)
-        # session.add(entry)
-        # session.commit()
+        date = datetime.strptime(date, "%Y-%m-%d")
+        depart = re.search((r"([A-Z]{3})"),depart).group()
+        arrive = re.search((r"([A-Z]{3})"),arrive).group()
+        entry = Flight(user_id=user_id, email_id=0, date=date, depart=depart, arrive=arrive)
+        session.add(entry)
+        session.commit()
         return "OK" 
     else:
-        return "You must select airports from the list provided, please try again."
+        return "Flight not added!\n\nYou must enter a valid three digit airport code or accept the input from the text box suggestions, please try again."
 
 @app.route("/aboutcalc")
 def aboutcalc():

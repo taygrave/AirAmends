@@ -12,9 +12,10 @@ NEXT STEPS
         reset from scratch query
 
 Non-prioritized TIDYING:
+    remove model.connect where possible
     find all FIXMEs
     find all TODOs
-    consider changing 'trip id' to 'email id' in the flights table 
+    why back doesn't report acurate numbers, needs to be refreshed
     change 'session' in airamends.py to explicitly refer to db session
 
 Things I want help from Mentors for:
