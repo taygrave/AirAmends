@@ -1,5 +1,5 @@
 NEXT STEPS
-    Need help getting accurate sum w Javascript editing total function and ensuring double digit formatting
+    Change emissions and $ formatting to be done behind the scences (with rounding) as early as possible and then calculate table totals onready in html 
     Flight buttons:
         add new - search and add only after date of your last flight
         turn from buttons into ajax requests auto-updating page

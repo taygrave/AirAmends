@@ -7,6 +7,28 @@ Your flights found for {{year}} are displayed below. Please confirm the report i
 <a href="/getflights">Go Back</a> 
 <br><br>
 <script>
+// TODO: move javascript into file and source file into this page, either source on bottom or wrap in .ready tag
+var addTotals = function(){
+    var cTotal = document.getElementById("cTotal");
+    var mcTotal = document.getElementById("mTotal");
+    var tdEmiss = document.getElementsByClassName("emiss");
+    var tdPriced = document.getElementsByClassName("priced");
+    var cSum = 0 ; mSum = 0
+
+    for (var i = 0; i < tdEmiss.length; i++) {
+        cSum += parseFloat(tdEmiss[i].innerText);
+        var unpriced = tdPriced[i].innerText;
+        unpriced = parseFloat(unpriced.replace(/\$/,""));
+        mSum += unpriced;
+    };
+
+    cSum = cSum.toFixed(2);
+    mSum = mSum.toFixed(2);
+    mSum = mSum.toString();
+    cTotal.innerText = cSum;
+    mTotal.innerText = ("$" + mSum); 
+}
+
 var deleteFlight = function(id, tRow){
     if (confirm("Are you sure you want to delete this flight?")) {
         var formData = new FormData();
@@ -20,25 +42,7 @@ var deleteFlight = function(id, tRow){
                 if (xmlhttp.responseText == "OK"){
                     var row = document.getElementById(tRow);
                     row.remove();
-
-                    var cTotal = document.getElementById("cTotal");
-                    var mcTotal = document.getElementById("mTotal");
-                    var tdEmiss = document.getElementsByClassName("emiss");
-                    var tdPriced = document.getElementsByClassName("priced");
-
-                    var cSum = 0 ; mSum = 0
-
-                    for (var i = 0; i < tdEmiss.length; i++) {
-                        cSum += parseFloat(tdEmiss[i].innerText);
-                        var unpriced = tdPriced[i].innerText;
-                        unpriced = parseFloat(unpriced.replace(/\$/,""));
-                        mSum += unpriced;
-                    };
-                    cSum = Math.round(cSum*100)/100;
-                    mSum = Math.round(mSum*100)/100;
-                    mSum = mSum.toString();
-                    cTotal.innerText = cSum;
-                    mTotal.innerText = ("$" + mSum);           
+                    addTotals();          
 
                 } else {
                     // TODO update this to be more useful
@@ -63,13 +67,13 @@ JS methods Document.getElementById and remove())-->
     </tr>
     
     <tr id="flightadd">
-        <form>
+        <form id="flightaddform">
             <td><label for="date"></label><input type="date" value="{{year}}-06-01" name="purchase_date"></td>
             <td><label for="depart"></label><input type="text" name="depart" id="depart"></td>
             <td><label for="arrive"></label><input type="text" name="arrive" id="arrive"></td>
             <td></td>
             <td></td>
-            <td><button type="button" class="btn btn-success" id="addflight" onclick="">&nbsp;&nbsp;&nbsp;ADD&nbsp;&nbsp;&nbsp;</button></td>
+            <td><button type="submit" class="btn btn-success" id="flightsubmit" onclick="addFlights()">&nbsp;&nbsp;&nbsp;ADD&nbsp;&nbsp;&nbsp;</button></td>
         </form>
     </tr>
 
@@ -79,13 +83,13 @@ JS methods Document.getElementById and remove())-->
         <td>{{flight[1]}}</td>
         <td>{{flight[2]}}</td>
         <td class="emiss">{{'%0.2f' % flight[3]}}</td>
-        <td class="priced">${{'%0.2f' % (flight[3]*37)}}</td>
+        <td class="priced">${{'%0.2f' % (flight[3]*g.carbon_price)}}</td>
         <td><button type="button" class="btn btn-danger" style="visibility: hidden" id="{{flight[4]}}" onclick="deleteFlight('{{flight[4]}}', '{{'row-%d' % flight[4]}}')">DELETE</button></td>
     </tr>
     {% endfor %}
         
     <tr class="info">
-        <th>TOTALS</th><th> </th><th> </th><th id="cTotal">{{'%0.2f' % sum_CO2e}}</th><th id="mTotal">${{'%0.2f' % (sum_CO2e*37)}}</th><th></th></tr>
+        <th>TOTALS</th><th> </th><th> </th><th id="cTotal"></th><th id="mTotal"></th><th></th></tr>
     </tr>
 
 </table>
@@ -96,6 +100,7 @@ JS methods Document.getElementById and remove())-->
 // ALLOW TEXT INPUT FOR ADDING FLIGHTS TO AUTOCOMPLETE
 var data = {{airports_json | safe}};
 $(document).ready(function () {
+    addTotals();
     $("#arrive").autocomplete({source: data,autoFocus: false,});
     $("#depart").autocomplete({source: data,autoFocus: false,});
   });
@@ -105,6 +110,18 @@ $('table').on('mouseover', 'tr', function(ev) {
 }).on('mouseout', 'tr', function(ev) {
     $(this).find('.btn.btn-danger').css({'visibility': 'hidden'});
 });
+
+
+// var addFlight = function(evt){
+//     evt.preventDefault();
+//     console.log("Hi Tay");
+    // var formData = new FormData();
+    // formData.append("id", id)
+
+    // var xmlhttp = new XMLHttpRequest();
+    // xmlhttp.open("POST", "/delete_flight", true);
+
+// };
 
 </script>
 

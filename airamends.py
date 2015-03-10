@@ -20,7 +20,6 @@ def get_api(credentials):
     http_auth = credentials.authorize(httplib2.Http())
     doc = open("discovery.json")
     gmail_service = build_from_document(doc.read(), http = http_auth)
-    print gmail_service
     return gmail_service
 
 def get_auth_flow():
@@ -37,6 +36,7 @@ def load_user(userid):
 
 @app.before_request
 def before_request():
+    g.carbon_price = 37.00
     if current_user.is_authenticated():
         # print "before request getting credentials"
         credentials = AccessTokenCredentials(current_user.access_token, u'')
@@ -109,7 +109,6 @@ def getflights():
     if flights_in_db == [] or None:
         user_flights = seed_flights.seed_flights()
         CO2e = seed_flights.CO2e_results(user_flights)
-        print CO2e
     else: 
         user_flights = Flight.query.all()
         CO2e = seed_flights.CO2e_results(user_flights)
@@ -139,16 +138,16 @@ def yearflights(year):
     user_flights = Flight.query.filter_by(date = year).all()
     
     for flight in user_flights:
-        CO2e = seed_flights.calc_carbon((flight.depart, flight.arrive))
+        #rounding completed here removes some precision, and also removes precision error
+        CO2e = round(seed_flights.calc_carbon((flight.depart, flight.arrive)),2)
         #using a backreference here to name the cities for display instead of using their airport codes, for better user recognition
         #TODO consider returning airport codes as well
         date = str(flight.email.date.month) + "/" + str(flight.email.date.day)
         results_list.append((date, flight.departure.city, flight.arrival.city, CO2e, flight.id))
-        sum_CO2e = sum_CO2e + CO2e
 
     airports_json = get_airports()
 
-    return render_template("/yearflights.html", year=year, results_list=results_list, sum_CO2e=sum_CO2e, airports_json=airports_json)
+    return render_template("/yearflights.html", year=year, results_list=results_list, airports_json=airports_json)
 
 @app.route("/delete_flight", methods=["POST"])
 def delete_flight():
@@ -174,17 +173,11 @@ def login():
 @app.route('/login/callback/')
 def login_callback():
     code = request.args.get('code')
-    print "at login/callback"
-    print code
     auth_flow = get_auth_flow()
-    print "got auth_flow"
     credentials = auth_flow.step2_exchange(code)
-    print credentials
     gmail_api = get_api(credentials)
-    print gmail_api
     gmail_user = gmail_api.users().getProfile(userId = 'me').execute()
     email = gmail_user['emailAddress']
-    print email
     access_token = credentials.access_token
 
     user = User.query.filter_by(email = email).first()
