@@ -9,6 +9,7 @@ import gmailapiworks, seed_flights
 from apiclient.discovery import build_from_document
 import httplib2
 from oauth2client.client import OAuth2WebServerFlow, AccessTokenCredentials
+from flask import jsonify
 import config 
 
 app = Flask(__name__)
@@ -113,15 +114,25 @@ def getflights():
 
     return render_template("/getflights.html", email_stats=email_stats, user_flights=user_flights, CO2e=CO2e, years_list=years_list)
 
-@app.route("/complete_reset", methods=["POST"])
-def complete_reset():
-    Email.query.delete()
-    Flight.query.delete()
-    session.commit()
+@app.route("/new_flights", methods=["POST"])
+def new_flights():
+    # Need something here to ensure access token is valid otherwise will throw oauth2client.client.AccessTokenCredentialsError
+    newest_flight = Flight.query.order_by(desc(Flight.date)).limit(1).all()
+    recent_date = (newest_flight[0].date).strftime('%Y/%m/%d')
+    new_query = gmailapiworks.query + " after:" + recent_date
+
+    gmailapiworks.add_msgs_to_db(g.gmail_api, current_user.id, new_query)
     return redirect(url_for('getflights'))
 
 @app.route("/flight_reset", methods=["POST"])
 def reset_flights():
+    Flight.query.delete()
+    session.commit()
+    return redirect(url_for('getflights'))
+
+@app.route("/complete_reset", methods=["POST"])
+def complete_reset():
+    Email.query.delete()
     Flight.query.delete()
     session.commit()
     return redirect(url_for('getflights'))
@@ -139,8 +150,11 @@ def yearflights(year):
         CO2e = round(seed_flights.calc_carbon((flight.depart, flight.arrive)),2)
         #using a backreference here to name the cities for display instead of using their airport codes, for better user recognition
         #TODO consider returning airport codes as well
-        date = str(flight.date.month) + "/" + str(flight.date.day)
-        results_list.append((date, flight.departure.city, flight.arrival.city, CO2e, flight.id))
+        date = str(flight.date.month) + "-" + str(flight.date.day)
+        depart = "%s (%s)" %(flight.departure.city, flight.depart)
+        arrive = "%s (%s)" %(flight.arrival.city, flight.arrive)
+
+        results_list.append((date, depart, arrive, CO2e, flight.id))
 
     airports_json = get_airports()
 
@@ -163,17 +177,28 @@ def add_flight():
 
     #FIXME - some invalids still getting through (e.g. try 'ae' and 'dr')
     if arrive and depart in get_airports():
+        #Set up flight to be added to the db
         user_id = flask_session.get('user_id')
         #special trip_id code of "0" used to indicate manual user added flight
-        date = datetime.strptime(date, "%Y-%m-%d")
-        depart = re.search((r"([A-Z]{3})"),depart).group()
-        arrive = re.search((r"([A-Z]{3})"),arrive).group()
-        entry = Flight(user_id=user_id, email_id=0, date=date, depart=depart, arrive=arrive)
+        db_date = datetime.strptime(date, "%Y-%m-%d")
+        db_depart = re.search((r"([A-Z]{3})"),depart).group()
+        db_arrive = re.search((r"([A-Z]{3})"),arrive).group()
+        entry = Flight(user_id=user_id, email_id=0, date=db_date, depart=db_depart, arrive=db_arrive)        
         session.add(entry)
         session.commit()
-        return "OK" 
+        
+        #Return info for table addition
+        CO2e = round(seed_flights.calc_carbon((db_depart,db_arrive)),2)
+        price = CO2e * g.carbon_price
+        return jsonify(date=date,
+            depart=depart,
+            arrive=arrive,
+            CO2e=CO2e,
+            price=price,
+            id=entry.id)
+
     else:
-        return "Flight not added!\n\nYou must enter a valid three digit airport code or accept the input from the text box suggestions, please try again."
+        return "Error"
 
 @app.route("/aboutcalc")
 def aboutcalc():

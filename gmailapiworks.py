@@ -5,9 +5,11 @@ import model
 import email
 from apiclient import errors
 
-def query_messages(service):
+query = "from:(-me) subject:(-fwd -re -fw -check) itinerary, confirmation, flight, number, departure, taxes"
+# after:2014/2/2
+def query_messages(service, query):
   """Returns list of ids of all user's messages matching a query string (using authorized gmail api instance and specific userId / "me")."""
-  query = "itinerary, confirmation, flight, number, departure, taxes from:-me subject:-fwd subject:-re subject:-fw subject:-check"
+
   list_msg_ids = [] #will stay empty if no messages match the query
 
   try:
@@ -37,10 +39,10 @@ def get_message(service, msg_id):
   except errors.HttpError, error:
     print 'An error occurred: %s' % error
 
-def add_msgs_to_db(service, user_id):
+def add_msgs_to_db(service, user_id, query=query):
   """Sets query and adds unique, parsed, and extra decoded if necessary, message components to the db """
   service = service
-  msg_list = query_messages(service)
+  msg_list = query_messages(service, query)
 
   s = model.connect()
 

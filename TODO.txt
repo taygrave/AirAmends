@@ -1,9 +1,9 @@
 NEXT STEPS
-    Change emissions and $ formatting to be done behind the scences (with rounding) as early as possible and then calculate table totals onready in html 
+    flight tables sort and display by date
+    turn airport list into javacript object for form validation
     Flight buttons:
         add new - search and add only after date of your last flight
         turn from buttons into ajax requests auto-updating page
-    Allow user to add flights
     have flight reports return order by / sort by
     HAve a dashboard of (# flight emails, # flight legs total, # deleted, # added)
     Pop ups to let user know website is working but busy:

@@ -24,11 +24,32 @@ var addTotals = function(){
 
 var addFlight = function(result){
     //If user's flight is successfully added to db, adds row on the existing table with the new flight's data and clear the add flight form should user want to add another flight. If flight not added, pops up invalid alert message.
-    if (result === "OK"){
-        console.log("YOU ARE THE BEST");
-        // Add row to table
+    if (result === "Error"){
+        var err_message = "Flight not added!\n\nYou must enter a valid three digit airport code or accept the input from the text box suggestions, please try again.";
+        alert(err_message);
     } else {
-        alert(result);
+        // Create an empty <tr> element and add it to the 1st position of the table:
+        var table = document.getElementById("report");
+        var row = table.insertRow(2);
+        // Insert new cells (<td> elements) at the 1st and 2nd position of the "new" <tr> element:
+        var cell1 = row.insertCell(0);
+        var cell2 = row.insertCell(1);
+        var cell3 = row.insertCell(2);
+        var cell4 = row.insertCell(3);
+        var cell5 = row.insertCell(4);
+        var cell6 = row.insertCell(5);
+        var tRow = ('row-' +result.id);
+        row.id = tRow;
+        // Add data to new cells:
+        cell1.innerHTML = result.date;
+        cell2.innerHTML = result.depart;
+        cell3.innerHTML = result.arrive;
+        cell4.innerHTML = (result.CO2e).toFixed(2);
+        cell5.innerHTML = ('$' +((result.price).toFixed(2)).toString());
+        cell6.innerHTML ='<button type="button" class="btn btn-danger" style="visibility: hidden" id="row-entry.id" onclick="deleteFlight(\''+result.id+'\', \''+tRow+'\')">DELETE</button>';
+        
+        // Clear inputs
+        // Hide add table ability
 }};
 
 var deleteFlight = function(id, tRow){
@@ -48,8 +69,7 @@ var deleteFlight = function(id, tRow){
                     addTotals();
 
                 } else {
-                    // TODO update this to be more useful
-                    console.log("Flight cannot be removed");
+                    alert("Flight cannot be removed right now.");
                 }
             }
         };
@@ -78,6 +98,9 @@ $(document).ready(function () {
         e.preventDefault();
         var data = $(this).serialize();
         $.get('/add_flight', data, addFlight);
+        this.reset();
     });
+
+    $('flightadd').hide();
 
 });

@@ -9,22 +9,22 @@
 <a href="/getflights">Go Back</a> 
 
 <br><br>
-<table class="table table-striped">
+<table class="table table-striped" name="report" id="report">
     <tr class="info">
-        <th>Purchased On:</th><th>Departing From:</th><th>Arriving In:</th><th>CO2e Emissions</th><th>Emissions Value (2015$)</th><th></th>
+        <th>Purchased On:</th><th>Departing From:</th><th>Arriving In:</th><th>CO2e Emissions (mt)</th><th>Emissions Value (2015$)</th><th></th>
     </tr>
     
     <tr id="flightadd">
     <form name="flightaddform" id="flightaddform" method="GET">
-        <td><label for="date"></label><input type="date" value="{{year}}-06-01" name="purchase_date"></td>
+        <td><label for="date"></label><input type="date" value="{{year}}-06-01" name="purchase_date" class=""></td>
         <td><label for="depart"></label><input type="text" name="depart" id="depart"></td>
         <td><label for="arrive"></label><input type="text" name="arrive" id="arrive"></td>
-        <td></td>
-        <td></td>
+        <td>-</td>
+        <td>-</td>
         <td><button type="submit" class="btn btn-success" id="flightsubmit">&nbsp;&nbsp;&nbsp;ADD&nbsp;&nbsp;&nbsp;</button></td>
     </form>
     </tr>
-
+    
     {% for flight in results_list %}
     <tr id={{"row-%d" % flight[4]}}>
         <td>{{flight[0]}}</td>
@@ -45,8 +45,6 @@
         <th></th>
     </tr>
 </table>
-<br>
-
 <br><br><br><br>
 
 {% endblock %}
