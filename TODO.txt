@@ -1,5 +1,17 @@
+FOR AJAX REDESIGN:
+    In a certain div - 
+        Bind click events on A tags
+        get their href (where they WERE going)
+        then get that yourself with ajax
+        prevent default redirection
+        instead load the rendered in div
+    if event handlers do not work:
+        need to re-bind onto the parent element so that javascript table stuff still works in new layout (delete / add flight buttons and functionality)
+
+
 NEXT STEPS
     flight tables sort and display by date
+    have it query for new flights on login?
     turn airport list into javacript object for form validation
     Flight buttons:
         add new - search and add only after date of your last flight
@@ -12,6 +24,7 @@ NEXT STEPS
         reset from scratch query
 
 Non-prioritized TIDYING:
+    have // replace all http and https sources
     remove model.connect where possible
     find all FIXMEs
     find all TODOs
@@ -23,5 +36,8 @@ Things I want help from Mentors for:
     make flight parsing faster
     Adding in tests
     LOOKING GOOD - Better design
+
+
+
 
     

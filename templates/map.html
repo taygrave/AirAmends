@@ -4,6 +4,17 @@
 <meta charset=utf-8 />
 <title>Animating flight paths</title>
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <link rel="stylesheet" href="/static/bootstrap-3.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    
+    <!-- Load jQuery, jQuery UI and jQuery ui styles from jQuery website -->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
 <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
 <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
 <style>
@@ -31,7 +42,28 @@
           transition:stroke-dashoffset 5s ease-in;
   }
 </style>
-<div id='info'> HI AYUMI!!! </div>
+
+<script>
+  // Load stuff into #info div.
+  function loadStuff(path) {
+    $.get( path, function( response ) {
+      $( "#info" ).html( response );
+    });
+  }
+
+// Intercept clicks of anchor tags
+  $(document).ready(function(){
+    $('#info').on('click', 'a', function(ev) {
+      var ogHref = ev.target.href;
+      loadStuff(ogHref);
+      ev.preventDefault();
+    });
+    loadStuff('/getflights');
+  });
+
+</script>
+<div id='info'> 
+</div>
 
 <div id='map' class='dark'></div>
 

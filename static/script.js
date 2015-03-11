@@ -101,6 +101,7 @@ $(document).ready(function () {
         this.reset();
     });
 
-    $('flightadd').hide();
 
 });
+
+
