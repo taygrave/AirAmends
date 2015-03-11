@@ -1,10 +1,9 @@
-{% extends 'base.html' %}
-{% block body %}
+
 <script>var data = {{airports_json | safe}};</script>
-<script src="/static/script.js"></script>
+<script src="/static/useredits.js"></script>
 
 <h2>{{year}}</h2>
-    Your flights found for {{year}} are displayed below. Please confirm the report is correct. You can delete flights you never took by hovering over the row. You can add flights that were missed by XXX.<br>
+    Your flights found for {{year}} are displayed below. Please confirm the report is correct. You can delete flights you never took by hovering over the row. You can add flights that were missed by entering their information at the top of the table.<br>
 <!-- FIXME: this doesn't reload the page when it goes back tho -->
 <a href="/getflights">Go Back</a> 
 
@@ -46,5 +45,3 @@
     </tr>
 </table>
 <br><br><br><br>
-
-{% endblock %}

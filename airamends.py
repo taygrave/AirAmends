@@ -37,7 +37,7 @@ def load_user(userid):
 
 @app.before_request
 def before_request():
-    g.carbon_price = 37.00
+    g.carbon_price = 37.00 #Official White House SCC as of Nov 2014
     if current_user.is_authenticated():
         # print "before request getting credentials"
         credentials = AccessTokenCredentials(current_user.access_token, u'')
@@ -75,8 +75,8 @@ def flights4map():
     return str_coords
 
 @app.route("/airports.js")
-def get_airports():
-    """Queries db for airport info and turns code and city pairs in json for user flight adding info"""
+def get_airports(format="json"):
+    """Queries db for airport info and turns code and city pairs in json (default) for user flight adding info. If any other argument passed (eg. 'python') will return python list object."""
     airports = Airport.query.all()
     airport_list = []
 
@@ -84,8 +84,12 @@ def get_airports():
         air_str = '%s (%s)' %(obj.city, obj.id)
         airport_list.append(air_str)
 
-    str_airports = json.dumps(airport_list)
-    return str_airports
+    if format == "json":
+        str_airports = json.dumps(airport_list)
+        return str_airports
+
+    else:
+        return airport_list
 
 @app.route("/map")
 def make_map():
@@ -114,16 +118,6 @@ def getflights():
 
     return render_template("/getflights.html", email_stats=email_stats, user_flights=user_flights, CO2e=CO2e, years_list=years_list)
 
-@app.route("/new_flights", methods=["POST"])
-def new_flights():
-    # Need something here to ensure access token is valid otherwise will throw oauth2client.client.AccessTokenCredentialsError
-    newest_flight = Flight.query.order_by(desc(Flight.date)).limit(1).all()
-    recent_date = (newest_flight[0].date).strftime('%Y/%m/%d')
-    new_query = gmailapiworks.query + " after:" + recent_date
-
-    gmailapiworks.add_msgs_to_db(g.gmail_api, current_user.id, new_query)
-    return redirect(url_for('getflights'))
-
 @app.route("/flight_reset", methods=["POST"])
 def reset_flights():
     Flight.query.delete()
@@ -141,7 +135,7 @@ def complete_reset():
 def yearflights(year):
     year = int(year)
     results_list = []
-    user_flights = Flight.query.all()
+    user_flights = Flight.query.order_by(asc(Flight.date)).all()
     
     working_list = [obj for obj in user_flights if (obj.date.year == year)]
 
@@ -150,7 +144,7 @@ def yearflights(year):
         CO2e = round(seed_flights.calc_carbon((flight.depart, flight.arrive)),2)
         #using a backreference here to name the cities for display instead of using their airport codes, for better user recognition
         #TODO consider returning airport codes as well
-        date = str(flight.date.month) + "-" + str(flight.date.day)
+        date = flight.date.strftime('%b-%d')
         depart = "%s (%s)" %(flight.departure.city, flight.depart)
         arrive = "%s (%s)" %(flight.arrival.city, flight.arrive)
 
@@ -174,22 +168,23 @@ def add_flight():
     date = request.args.get('purchase_date')
     depart = request.args.get('depart')
     arrive = request.args.get('arrive')
+    airport_list = get_airports(format="python")
 
-    #FIXME - some invalids still getting through (e.g. try 'ae' and 'dr')
-    if arrive and depart in get_airports():
+    if (arrive in airport_list) and (depart in airport_list):
         #Set up flight to be added to the db
         user_id = flask_session.get('user_id')
-        #special trip_id code of "0" used to indicate manual user added flight
         db_date = datetime.strptime(date, "%Y-%m-%d")
         db_depart = re.search((r"([A-Z]{3})"),depart).group()
         db_arrive = re.search((r"([A-Z]{3})"),arrive).group()
-        entry = Flight(user_id=user_id, email_id=0, date=db_date, depart=db_depart, arrive=db_arrive)        
+        entry = Flight(user_id=user_id, email_id=0, date=db_date, depart=db_depart, arrive=db_arrive) #special email_id code of "0" used to indicate manual user added flight
         session.add(entry)
         session.commit()
         
         #Return info for table addition
+        date = db_date.strftime('%b-%d')
         CO2e = round(seed_flights.calc_carbon((db_depart,db_arrive)),2)
         price = CO2e * g.carbon_price
+        
         return jsonify(date=date,
             depart=depart,
             arrive=arrive,

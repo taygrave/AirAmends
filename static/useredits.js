@@ -25,7 +25,7 @@ var addTotals = function(){
 var addFlight = function(result){
     //If user's flight is successfully added to db, adds row on the existing table with the new flight's data and clear the add flight form should user want to add another flight. If flight not added, pops up invalid alert message.
     if (result === "Error"){
-        var err_message = "Flight not added!\n\nYou must enter a valid three digit airport code or accept the input from the text box suggestions, please try again.";
+        var err_message = "Flight not added!\n\nYou must accept and submit an airport from the suggested list, please try again.";
         alert(err_message);
     } else {
         // Create an empty <tr> element and add it to the 1st position of the table:
@@ -47,9 +47,6 @@ var addFlight = function(result){
         cell4.innerHTML = (result.CO2e).toFixed(2);
         cell5.innerHTML = ('$' +((result.price).toFixed(2)).toString());
         cell6.innerHTML ='<button type="button" class="btn btn-danger" style="visibility: hidden" id="row-entry.id" onclick="deleteFlight(\''+result.id+'\', \''+tRow+'\')">DELETE</button>';
-        
-        // Clear inputs
-        // Hide add table ability
 }};
 
 var deleteFlight = function(id, tRow){

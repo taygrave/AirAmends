@@ -10,6 +10,8 @@ FOR AJAX REDESIGN:
 
 
 NEXT STEPS
+    Add donation button
+    new email query is not making new flights - need to fix
     flight tables sort and display by date
     have it query for new flights on login?
     turn airport list into javacript object for form validation
@@ -37,6 +39,8 @@ Things I want help from Mentors for:
     Adding in tests
     LOOKING GOOD - Better design
 
+TABLED:
+    Adding new flights feature
 
 
 

@@ -10,9 +10,7 @@ Our reports are generated off of the {{email_stats[0]}} flight confirmation emai
         <tr class="info"><th>TOTALS</th><th>{{user_flights|length}}</th><th>{{'%0.2f' % CO2e}}</th><th>${{'%0.2f' % (CO2e*g.carbon_price)}}</th></tr></tr>
 </table>
 <br>
-<form action="/new_flights" method="POST">
-    <button class="btn btn-lg btn-success" type="submit">Query for New Emails Only</button>
-</form>
+
 <form action="/flight_reset" method="POST">
     <button class="btn btn-lg btn-warning" type="submit">Reset all Flights</button>
 </form>
