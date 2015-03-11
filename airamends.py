@@ -168,8 +168,8 @@ def add_flight():
     date = request.args.get('purchase_date')
     depart = request.args.get('depart')
     arrive = request.args.get('arrive')
+    
     airport_list = get_airports(format="python")
-
     if (arrive in airport_list) and (depart in airport_list):
         #Set up flight to be added to the db
         user_id = flask_session.get('user_id')

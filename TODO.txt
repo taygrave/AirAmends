@@ -11,14 +11,7 @@ FOR AJAX REDESIGN:
 
 NEXT STEPS
     Add donation button
-    new email query is not making new flights - need to fix
-    flight tables sort and display by date
-    have it query for new flights on login?
     turn airport list into javacript object for form validation
-    Flight buttons:
-        add new - search and add only after date of your last flight
-        turn from buttons into ajax requests auto-updating page
-    have flight reports return order by / sort by
     HAve a dashboard of (# flight emails, # flight legs total, # deleted, # added)
     Pop ups to let user know website is working but busy:
         when waiitng on gmail api
