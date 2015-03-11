@@ -55,47 +55,9 @@ def before_request():
 
 @app.route("/")
 def homepage():
-    return render_template("index.html")
-
-@app.route("/flights.js")
-def flights4map():
-    """Queries db for all flights and turns into a json for mapbox animation"""
-    total_flights = Flight.query.all()
-    map_list = []
-
-    for flight in total_flights:
-        lat_D = flight.departure.latitude
-        long_D = flight.departure.longitude
-        lat_A = flight.arrival.latitude
-        long_A = flight.arrival.longitude
-        
-        map_list.append([[lat_D,long_D],[lat_A,long_A]])
-
-    str_coords = json.dumps(map_list)
-    return str_coords
-
-@app.route("/airports.js")
-def get_airports(format="json"):
-    """Queries db for airport info and turns code and city pairs in json (default) for user flight adding info. If any other argument passed (eg. 'python') will return python list object."""
-    airports = Airport.query.all()
-    airport_list = []
-
-    for obj in airports:
-        air_str = '%s (%s)' %(obj.city, obj.id)
-        airport_list.append(air_str)
-
-    if format == "json":
-        str_airports = json.dumps(airport_list)
-        return str_airports
-
-    else:
-        return airport_list
-
-@app.route("/map")
-def make_map():
-    """Provides view of animated flight paths using user's flight db info"""
-    json_array = flights4map()
-    return render_template("map.html", jsonarray=json_array)
+    #TODO: May need a = if current_user then call this function instead of this
+    json_array = flights4map(current_user.id)
+    return render_template("home.html", jsonarray=json_array)
 
 @app.route("/getflights", methods=["GET"])
 def getflights():
@@ -198,6 +160,45 @@ def add_flight():
 @app.route("/aboutcalc")
 def aboutcalc():
     return render_template("carboncalcs.html")
+
+@app.route("/flights.js")
+def flights4map(user_id):
+    """Queries db for all flights and turns into a json for mapbox animation"""
+    total_flights = Flight.query.filter(Flight.user_id == user_id).all()
+
+    if total_flights != None:
+        map_list = []
+
+        for flight in total_flights:
+            lat_D = flight.departure.latitude
+            long_D = flight.departure.longitude
+            lat_A = flight.arrival.latitude
+            long_A = flight.arrival.longitude
+            
+            map_list.append([[lat_D,long_D],[lat_A,long_A]])
+
+        str_coords = json.dumps(map_list)
+        return str_coords
+
+    else:
+        return
+
+@app.route("/airports.js")
+def get_airports(format="json"):
+    """Queries db for airport info and turns code and city pairs in json (default) for user flight adding info. If any other argument passed (eg. 'python') will return python list object."""
+    airports = Airport.query.all()
+    airport_list = []
+
+    for obj in airports:
+        air_str = '%s (%s)' %(obj.city, obj.id)
+        airport_list.append(air_str)
+
+    if format == "json":
+        str_airports = json.dumps(airport_list)
+        return str_airports
+
+    else:
+        return airport_list
 
 @app.route('/login/')
 def login():

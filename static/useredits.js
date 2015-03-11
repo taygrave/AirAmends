@@ -90,15 +90,17 @@ $(document).ready(function () {
         $(this).find('.btn.btn-danger').css({'visibility': 'hidden'});
     });
 
-    // Add only-valid flights to db on user's request and add to table
-    $('#flightaddform').submit(function(e){
-        e.preventDefault();
-        var data = $(this).serialize();
-        $.get('/add_flight', data, addFlight);
-        this.reset();
+    $('#flightsubmit').on('click', function(e){
+    console.log("HEREEEEE");
+    e.preventDefault();
+    var data = $(this).closest('div').find("input").serialize();
+    console.log(data);
+    $.get('/add_flight', data, addFlight);
+    $(this).closest('div').find('input[type="text"]').val("");
     });
 
-
 });
+
+
 
 

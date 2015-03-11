@@ -18,11 +18,11 @@
 #info { 
     position:absolute; 
     top:10%; bottom:0; 
-    left:0; right:35%; }
+    left:0; right:60%; }
 #map { 
     position:absolute; 
     top:10%; bottom:0; 
-    left: 35%; right:0; }
+    left: 40%; right:0; }
 
 
 /*MAP STYLE INFO*/

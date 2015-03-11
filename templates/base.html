@@ -4,11 +4,11 @@
   <meta charset=utf-8 />
   <title>Animating flight paths</title>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  <link rel="stylesheet" href="/static/bootstrap-3.3.2-dist/css/bootstrap.min.css">
+  <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+  <link rel="stylesheet" href="/static/bootstrap-3.3.2-dist/css/bootstrap.min.css"
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
   <script src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-  <script src="//code.jquery.com/jquery-1.9.1.js"></script>
   <script src='//api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
   <link href='//api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
   <script src='//api.tiles.mapbox.com/mapbox.js/plugins/arc.js/v0.1.0/arc.js'></script>
@@ -27,9 +27,37 @@
   </nav>
 </div>
 
+
+
+
+
 <!-- THE REPORTS AND INFORMATION -->
-<div id='info'></div>
+<div id='info'>
+{% if 'user_id' not in session %}
+
+<p> To see your flights and calculate your carbon emissions, you must <a href="/login">sign in</a> with your Google ID. </p>
+
+<!-- SHOW IMAGE OF SAMPLE ABILITIES OF TOOL -->
+
+{% else %}
+
+Okay, you ready for this?
+<form action="/getflights" class="form-signin" method="GET" id="getflights">
+    <button class="btn btn-lg btn-danger" type="submit">Get My Flights!</button>
+</form>
+<br>
+
+{% endif %}
+</div>
+
 {% block body %}{% endblock %}
+
+
+
+
+
+
+
 
 <!-- THE FLIGHT MAP -->
 <div id='map' class='dark'></div>
@@ -45,7 +73,8 @@ L.mapbox.accessToken = 'pk.eyJ1IjoidGF5Z3JhdmUiLCJhIjoiTC02ZVBocyJ9.v07HDiBCNqym
 
 // Show the whole world in this first view.
 map = L.mapbox.map('map', 'taygrave.lc074chc')
-    .setView([47, -110], 4);
+    .setView([42, -100], 4);
+
 
 // Disable drag and zoom handlers.
 // Making this effect work with zooming and panning

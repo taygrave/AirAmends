@@ -14,14 +14,14 @@
     </tr>
     
     <tr id="flightadd">
-    <form name="flightaddform" id="flightaddform" method="GET">
+    <div name="flightaddform" id="flightaddform">
         <td><label for="date"></label><input type="date" value="{{year}}-06-01" name="purchase_date" class=""></td>
         <td><label for="depart"></label><input type="text" name="depart" id="depart"></td>
         <td><label for="arrive"></label><input type="text" name="arrive" id="arrive"></td>
         <td>-</td>
         <td>-</td>
-        <td><button type="submit" class="btn btn-success" id="flightsubmit">&nbsp;&nbsp;&nbsp;ADD&nbsp;&nbsp;&nbsp;</button></td>
-    </form>
+        <td><button class="btn btn-success" id="flightsubmit">&nbsp;&nbsp;&nbsp;ADD&nbsp;&nbsp;&nbsp;</button></td>
+    </div>
     </tr>
     
     {% for flight in results_list %}
