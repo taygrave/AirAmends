@@ -1,4 +1,5 @@
 NEXT STEPS
+    Do not save flights where depart and arrive city are the same
     airport suggestion input box delayed
     Why not animating on sign in, how to fix
     redraw button?
@@ -7,6 +8,7 @@ NEXT STEPS
     Demo feature for those who can't/don't want to sign in
 
 Non-prioritized TIDYING:
+    alphabetize airports on drop down for add flight
     remove model.connect where possible
     find all FIXMEs
     find all TODOs

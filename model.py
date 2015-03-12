@@ -98,5 +98,5 @@ class Airport(Base):
     longitude = Column(Float, nullable=False)
 
     def __repr__(self):
-        return "<Airport: id=%r, city=%s>" %(self.id, self.city)
+        return "<Airport: id=%r, city=%s>" %(self.id, self.city.encode('utf-8'))
 

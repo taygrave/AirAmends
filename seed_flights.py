@@ -74,7 +74,7 @@ def calc_carbon((depart, arrive)):
         (700.00, 15000.00) : 0.185} #Long-haul flights
 
     for low, high in flight_dict.keys():
-        if distance > low and distance < high:
+        if distance >= low and distance <= high:
             em_per_pass = flight_dict[(low, high)]
 
     #Emissions of CO2E using distance, emissions factors by haul as provided by source (comment above dict) convertered into metric tons and with a radiative forcing applied

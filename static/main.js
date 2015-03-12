@@ -1,7 +1,6 @@
 function loadStuff(path) {
       $.get(path, function(response) {
         $("#info").html(response);
-        console.log(carbonDebt);
         $("#carbon-debt").html(carbonDebt);
         $("#carbon-price").html(carbonDebt*carbonPrice);
       });
@@ -53,23 +52,30 @@ $(document).ready(function(){
     function obj(ll) { return { y: ll[0], x: ll[1] }; }
 
     for (var i = 0; i < pairs.length; i++) {
-        // Transform each pair of coordinates into a pretty
-        // great circle using the Arc.js plugin, as included above.
-        var generator = new arc.GreatCircle(
-                obj(pairs[i][0]),
-                obj(pairs[i][1]));
-        var line = generator.Arc(100, { offset: 10 });
+        try {
+            // Transform each pair of coordinates into a pretty
+            // great circle using the Arc.js plugin, as included above.
+            var generator = new arc.GreatCircle(
+                    obj(pairs[i][0]),
+                    obj(pairs[i][1]));
+            var line = generator.Arc(100, { offset: 10 });
+
+            var newLine = L.polyline(line.geometries[0].coords.map(function(c) {
+                    return c.reverse();
+            }), {
+                color: '#66cd00',
+                weight: 2,
+                opacity: 0.5
+            })
+            .addTo(map);
+
+        } catch(e) {
+            // coordinates are bad
+            continue;
+        }
         // Leaflet expects [lat,lng] arrays, but a lot of
         // software does the opposite, including arc.js, so
         // we flip here.
-        var newLine = L.polyline(line.geometries[0].coords.map(function(c) {
-            return c.reverse();
-        }), {
-            color: '#66cd00',
-            weight: 2,
-            opacity: 0.5
-        })
-        .addTo(map);
         var totalLength = newLine._path.getTotalLength();
         newLine._path.classList.add('path-start');
         // This pair of CSS properties hides the line initially

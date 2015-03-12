@@ -36,6 +36,8 @@ def user_setup():
     """Once user is logged-in, this is called to query user's emails and seed db for flights found"""
     emails_in_db = Email.query.first()
     flights_in_db = Flight.query.first()
+    print emails_in_db, flights_in_db
+    
     if emails_in_db and flights_in_db:
         return None
     else:
