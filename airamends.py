@@ -60,10 +60,12 @@ def before_request():
     if flask_session.get('user_id') == None:
         g.status = "Log In"
         g.link = "/login/"
+        g.carbon_debt = "Not set"
     else:
         #TODO - directly add email to session once retrieved instead of querying db for it each time
         g.status = current_user.email
         g.link = "/logout/"
+
 
 @app.route("/")
 def homepage():
@@ -82,6 +84,7 @@ def getflights():
     email_stats = [len(list(emails_in_db)), emails_in_db[0].date, emails_in_db[-1].date]     
     user_flights = Flight.query.all()
     CO2e = seed_flights.CO2e_results(user_flights)
+    g.carbon_debt = CO2e
     years_list = seed_flights.report_by_year()
 
     return render_template("/getflights.html", email_stats=email_stats, user_flights=user_flights, CO2e=CO2e, years_list=years_list)

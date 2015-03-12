@@ -1,5 +1,7 @@
 NEXT STEPS
-    Take form out of table
+    airport suggestion input box delayed
+    Why not animating on sign in, how to fix
+    redraw button?
     Have a dashboard of (# flight emails, # flight legs total, # deleted, # added)
     Add donation button
     Demo feature for those who can't/don't want to sign in
@@ -18,6 +20,7 @@ Styling:
     why does it scroll right/left? eliminate this
     carbon calcs display needs to be widened
     put "how we calculate" link on the bottom, make it look nicer
+    Take form out of table?
 
 TABLED:
     Adding new flights feature

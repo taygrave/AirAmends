@@ -31,7 +31,7 @@
         <td>{{flight[2]}}</td>
         <td class="emiss">{{'%0.2f' % flight[3]}}</td>
         <td class="priced">${{'%0.2f' % (flight[3]*g.carbon_price)}}</td>
-        <td><button type="button" class="btn btn-danger" style="visibility: hidden" id="{{flight[4]}}" onclick="deleteFlight('{{flight[4]}}', '{{'row-%d' % flight[4]}}')">DELETE</button></td>
+        <td><button type="button" class="btn btn-danger" style="visibility: hidden" id="{{flight[4]}}" onclick="deleteFlight('{{flight[4]}}', '{{'row-%d' % flight[4]}}', '{{flight[3]}}')">DELETE</button></td>
     </tr>
     {% endfor %}
         

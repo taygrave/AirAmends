@@ -1,11 +1,11 @@
 Our reports are generated off of the {{email_stats[0]}} flight confirmation emails we found for you. These emails range over the period {{email_stats[1]}} to {{email_stats[2]}}.<br><br>
 
-<table>
+<table >
     <tr>
         <th>Year</th>
         <th># of Flights</th>
-        <th>CO2e Emissions (mt)</th>
-        <th>Emissions Value (2015$)</th>
+        <th>CO2e<br>Emissions<br>(mt)</th>
+        <th>Emissions<br>Value<br>(2015$)</th>
     </tr>
     
     {% for year in years_list %}
@@ -32,3 +32,5 @@ Our reports are generated off of the {{email_stats[0]}} flight confirmation emai
 <form action="/complete_reset" method="POST">
     <button class="btn btn-lg btn-danger" type="submit">Re-Query Gmail from Scratch</button>
 </form>
+<script>var carbonDebt = {{'%0.2f' % CO2e}};
+    console.log(carbonDebt)</script>

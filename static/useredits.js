@@ -47,9 +47,11 @@ var addFlight = function(result){
         cell4.innerHTML = (result.CO2e).toFixed(2);
         cell5.innerHTML = ('$' +((result.price).toFixed(2)).toString());
         cell6.innerHTML ='<button type="button" class="btn btn-danger" style="visibility: hidden" id="row-entry.id" onclick="deleteFlight(\''+result.id+'\', \''+tRow+'\')">DELETE</button>';
+        carbonDebt = carbonDebt + result.CO2e;
+        $("#carbon-debt").html(carbonDebt);
 }};
 
-var deleteFlight = function(id, tRow){
+var deleteFlight = function(id, tRow, CO2e){
     // Asks user to confirm flight deletion then deletes flight with ajax. This function is called using an 'onclick' method directly from the html.
     if (confirm("Are you sure you want to delete this flight?")) {
         var formData = new FormData();
@@ -64,6 +66,8 @@ var deleteFlight = function(id, tRow){
                     var row = document.getElementById(tRow);
                     row.remove();
                     addTotals();
+                    carbonDebt = carbonDebt - CO2e;
+                    $("#carbon-debt").html(carbonDebt);
 
                 } else {
                     alert("Flight cannot be removed right now.");
@@ -78,7 +82,7 @@ var deleteFlight = function(id, tRow){
 $(document).ready(function () {
     // Calculate and populate the totals for each results table
     addTotals();
-    
+   
     // Make airport city and code data available to input boxes for user-added flights, variable 'data' is assigned on the html page
     console.log(data);
     $("#arrive").autocomplete({source: data});
@@ -92,12 +96,11 @@ $(document).ready(function () {
     });
 
     $('#flightsubmit').on('click', function(e){
-    console.log("HEREEEEE");
-    e.preventDefault();
-    var data = $(this).closest('div').find("input").serialize();
-    console.log(data);
-    $.get('/add_flight', data, addFlight);
-    $(this).closest('div').find('input[type="text"]').val("");
+        e.preventDefault();
+        var data = $(this).closest('div').find("input").serialize();
+        console.log(data);
+        $.get('/add_flight', data, addFlight);
+        $(this).closest('div').find('input[type="text"]').val("");
     });
 
 });
