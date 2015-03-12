@@ -70,11 +70,12 @@ def before_request():
 @app.route("/")
 def homepage():
     #TODO: May need a = if current_user then call this function instead of this
+    carbon_price = g.carbon_price
     json_array = []
     if current_user.is_authenticated():
         json_array = flights4map(current_user.id)
 
-    return render_template("base.html", jsonarray=json_array)
+    return render_template("base.html", jsonarray=json_array, carbon_price=carbon_price)
 
 @app.route("/get_flights", methods=["GET"])
 def getflights():

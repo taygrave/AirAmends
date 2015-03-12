@@ -49,6 +49,7 @@ var addFlight = function(result){
         cell6.innerHTML ='<button type="button" class="btn btn-danger" style="visibility: hidden" id="row-entry.id" onclick="deleteFlight(\''+result.id+'\', \''+tRow+'\')">DELETE</button>';
         carbonDebt = carbonDebt + result.CO2e;
         $("#carbon-debt").html(carbonDebt);
+        $("#carbon-price").html(carbonDebt*carbonPrice);
 }};
 
 var deleteFlight = function(id, tRow, CO2e){
@@ -68,6 +69,7 @@ var deleteFlight = function(id, tRow, CO2e){
                     addTotals();
                     carbonDebt = carbonDebt - CO2e;
                     $("#carbon-debt").html(carbonDebt);
+                    $("#carbon-price").html(carbonDebt*carbonPrice);
 
                 } else {
                     alert("Flight cannot be removed right now.");

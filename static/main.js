@@ -3,6 +3,7 @@ function loadStuff(path) {
         $("#info").html(response);
         console.log(carbonDebt);
         $("#carbon-debt").html(carbonDebt);
+        $("#carbon-price").html(carbonDebt*carbonPrice);
       });
     }
 
@@ -22,7 +23,7 @@ $(document).ready(function(){
         ev.preventDefault();
     });
 
-    // MAP SCRIPT
+    // MAPBOX SCRIPT
       L.mapbox.accessToken = 'pk.eyJ1IjoidGF5Z3JhdmUiLCJhIjoiTC02ZVBocyJ9.v07HDiBCNqymCU6IsCF1jQ';
     // This is an advanced example that is compatible with
     // modern browsers and IE9+ - the trick it uses is animation
