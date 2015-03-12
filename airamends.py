@@ -21,6 +21,7 @@ def get_api(credentials):
     http_auth = credentials.authorize(httplib2.Http())
     doc = open("discovery.json")
     gmail_service = build_from_document(doc.read(), http = http_auth)
+    print "built service"
     return gmail_service
 
 def get_auth_flow():
@@ -43,6 +44,7 @@ def before_request():
         credentials = AccessTokenCredentials(current_user.access_token, u'')
         # print "before request, retreived credentials"
         g.gmail_api = get_api(credentials)
+        print "at before request, built"
         # print "before request, built service"
 
     if flask_session.get('user_id') == None:
@@ -56,26 +58,32 @@ def before_request():
 @app.route("/")
 def homepage():
     #TODO: May need a = if current_user then call this function instead of this
-    json_array = flights4map(current_user.id)
+    json_array = []
+    if current_user.is_authenticated():
+        json_array = flights4map(current_user.id)
+
     return render_template("home.html", jsonarray=json_array)
 
+#FIXME: change to get_flights
 @app.route("/getflights", methods=["GET"])
 def getflights():
-    emails_in_db = Email.query.filter(Email.user_id == current_user.id).all()
+    
+    #TODO: make a new function above that sets up the user so that when you get here you know you have things in the db to work with automatically - put in before request area
+    emails_in_db = Email.query.filter(Email.user_id == current_user.id).first()
     if emails_in_db == None:
         gmailapiworks.add_msgs_to_db(g.gmail_api, current_user.id)
-        emails_in_db = Email.query.filter(Email.user_id == current_user.id).all()
+    
+    #TODO: Ensure this reports out in ascending order - fix associated code
+    emails_in_db = Email.query.filter(Email.user_id == current_user.id).all()
 
-    email_stats = [len(list(emails_in_db)), emails_in_db[-1].date, emails_in_db[0].date]
+    email_stats = [len(list(emails_in_db)), emails_in_db[0].date, emails_in_db[-1].date]
 
-    flights_in_db = Flight.query.filter(Flight.user_id == current_user.id).all()
+    flights_in_db = Flight.query.filter(Flight.user_id == current_user.id).first()
     if flights_in_db == [] or None:
-        user_flights = seed_flights.seed_flights()
-        CO2e = seed_flights.CO2e_results(user_flights)
-    else: 
-        user_flights = Flight.query.all()
-        CO2e = seed_flights.CO2e_results(user_flights)
-
+        seed_flights.seed_flights()
+        
+    user_flights = Flight.query.all()
+    CO2e = seed_flights.CO2e_results(user_flights)
     years_list = seed_flights.report_by_year()
 
     return render_template("/getflights.html", email_stats=email_stats, user_flights=user_flights, CO2e=CO2e, years_list=years_list)
@@ -105,7 +113,7 @@ def yearflights(year):
         #rounding completed here removes some precision, and also removes precision error
         CO2e = round(seed_flights.calc_carbon((flight.depart, flight.arrive)),2)
         #using a backreference here to name the cities for display instead of using their airport codes, for better user recognition
-        #TODO consider returning airport codes as well
+        #TODO change it so that the formating is done in the html, not in the backend
         date = flight.date.strftime('%b-%d')
         depart = "%s (%s)" %(flight.departure.city, flight.depart)
         arrive = "%s (%s)" %(flight.arrival.city, flight.arrive)
@@ -229,6 +237,7 @@ def login_callback():
         user.save()
     
     login_user(user, remember = True)
+    print "user logged in"
 
     return redirect(url_for('homepage'))
 

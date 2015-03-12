@@ -33,28 +33,19 @@
 
 <!-- THE REPORTS AND INFORMATION -->
 <div id='info'>
-{% if 'user_id' not in session %}
-
-<p> To see your flights and calculate your carbon emissions, you must <a href="/login">sign in</a> with your Google ID. </p>
-
-<!-- SHOW IMAGE OF SAMPLE ABILITIES OF TOOL -->
-
-{% else %}
-
-Okay, you ready for this?
-<form action="/getflights" class="form-signin" method="GET" id="getflights">
-    <button class="btn btn-lg btn-danger" type="submit">Get My Flights!</button>
-</form>
-<br>
-
-{% endif %}
 </div>
 
 {% block body %}{% endblock %}
 
 
 
-<div id="dashboard">Hellllo dboard</div>
+<div id="dashboard">
+Things to display here:
+  <ul>
+    <li>Total carbon debt in MT</li>
+    <li>Total carbon debt in $$</li>
+    <li>Button to donate out</li>
+</div>
 
 
 
@@ -73,7 +64,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoidGF5Z3JhdmUiLCJhIjoiTC02ZVBocyJ9.v07HDiBCNqym
 
 // Show the whole world in this first view.
 map = L.mapbox.map('map', 'taygrave.lc074chc')
-    .setView([42, -100], 4);
+    .setView([42, -120], 4);
 
 
 // Disable drag and zoom handlers.

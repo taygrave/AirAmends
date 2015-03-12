@@ -80,6 +80,7 @@ $(document).ready(function () {
     addTotals();
     
     // Make airport city and code data available to input boxes for user-added flights, variable 'data' is assigned on the html page
+    console.log(data);
     $("#arrive").autocomplete({source: data});
     $("#depart").autocomplete({source: data});
       
