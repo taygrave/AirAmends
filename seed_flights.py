@@ -49,7 +49,7 @@ def seed_flights():
             entry = model.Flight(user_id=user_id, email_id=email_id, date=date, depart=depart, arrive=arrive)
             s.add(entry)
     s.commit()
-    return s.query(model.Flight).all()
+    print "completed: flight search and adding to db"
 
 def calc_carbon((depart, arrive)):
     """Receives a tuple pair of airports and calculates the distance from one to the second (using great circle), determines haul length, and calculate CO2e emissions accordingly (using EPA methods). Returns a float."""

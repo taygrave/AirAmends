@@ -32,6 +32,16 @@ def get_auth_flow():
         redirect_uri = url_for('login_callback', _external = True))
     return auth_flow
 
+def user_setup():
+    """Once user is logged-in, this is called to query user's emails and seed db for flights found"""
+    emails_in_db = Email.query.first()
+    flights_in_db = Flight.query.first()
+    if emails_in_db and flights_in_db:
+        return None
+    else:
+        gmailapiworks.add_msgs_to_db(g.gmail_api, current_user.id)
+        seed_flights.seed_flights()
+
 @login_manager.user_loader
 def load_user(userid):
     return User.query.get(int(userid))
@@ -62,26 +72,14 @@ def homepage():
     if current_user.is_authenticated():
         json_array = flights4map(current_user.id)
 
-    return render_template("home.html", jsonarray=json_array)
+    return render_template("base.html", jsonarray=json_array)
 
-#FIXME: change to get_flights
-@app.route("/getflights", methods=["GET"])
+@app.route("/get_flights", methods=["GET"])
 def getflights():
-    
-    #TODO: make a new function above that sets up the user so that when you get here you know you have things in the db to work with automatically - put in before request area
-    emails_in_db = Email.query.filter(Email.user_id == current_user.id).first()
-    if emails_in_db == None:
-        gmailapiworks.add_msgs_to_db(g.gmail_api, current_user.id)
-    
-    #TODO: Ensure this reports out in ascending order - fix associated code
-    emails_in_db = Email.query.filter(Email.user_id == current_user.id).all()
-
-    email_stats = [len(list(emails_in_db)), emails_in_db[0].date, emails_in_db[-1].date]
-
-    flights_in_db = Flight.query.filter(Flight.user_id == current_user.id).first()
-    if flights_in_db == [] or None:
-        seed_flights.seed_flights()
-        
+    #TODO: Ensure this reports out in ascending order - fix associated code 
+    user_setup()
+    emails_in_db = Email.query.filter(Email.user_id == current_user.id).order_by(asc(Email.date)).all()
+    email_stats = [len(list(emails_in_db)), emails_in_db[0].date, emails_in_db[-1].date]     
     user_flights = Flight.query.all()
     CO2e = seed_flights.CO2e_results(user_flights)
     years_list = seed_flights.report_by_year()
@@ -101,7 +99,7 @@ def complete_reset():
     session.commit()
     return redirect(url_for('getflights'))
 
-@app.route("/getflights/<year>")
+@app.route("/get_flights/<year>")
 def yearflights(year):
     year = int(year)
     results_list = []
@@ -223,9 +221,11 @@ def login_callback():
     auth_flow = get_auth_flow()
     credentials = auth_flow.step2_exchange(code)
     gmail_api = get_api(credentials)
+    print "gmail api accessed, getting user profile..."
     gmail_user = gmail_api.users().getProfile(userId = 'me').execute()
     email = gmail_user['emailAddress']
     access_token = credentials.access_token
+    print "got user, adding access token to db..."
 
     user = User.query.filter_by(email = email).first()
     if user:
@@ -237,13 +237,19 @@ def login_callback():
         user.save()
     
     login_user(user, remember = True)
-    print "user logged in"
+    print "user logged in, querying gmail messages..."
 
     return redirect(url_for('homepage'))
 
 @app.route('/logout/')
 def logout():
     logout_user()
+
+    #Complete Reset
+    User.query.delete()
+    Email.query.delete()
+    Flight.query.delete()
+    session.commit()
     return redirect(url_for('homepage'))
 
 if __name__ == "__main__":

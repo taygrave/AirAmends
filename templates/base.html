@@ -27,17 +27,46 @@
   </nav>
 </div>
 
-
-
-
-
 <!-- THE REPORTS AND INFORMATION -->
+<script>
+  // Load stuff into #info div.
+  var loadStuff = function(path) {
+    $.get(path, function(response) {
+      $("#info").html(response);
+    });
+  }
+</script>
+
+{% if 'user_id' not in session %}
 <div id='info'>
+<div class="not_authorized">
+<p> To see your flights and calculate your carbon emissions, you must sign in with your Google ID. </p>
+
+<form action="/login/" class="form-signin" id="getflights">
+    <button class="btn btn-lg btn-success" type="submit">Authorize Google</button>
+</form>
+</div>
 </div>
 
-{% block body %}{% endblock %}
+<!-- SHOW IMAGE OF SAMPLE ABILITIES OF TOOL -->
 
+{% else %}
+<div id="info" style="text-align:right;"> 
+Currently querying for your flights...<img src="/static/airplane.gif">
+<script>loadStuff('/get_flights');</script>
+</div>
 
+<script>
+// Intercept clicks of anchor tags
+  $(document).ready(function(){
+    $('#info').on('click', 'a', function(ev) {
+      var ogHref = ev.target.href;
+      loadStuff(ogHref);
+      ev.preventDefault();
+    });
+  });
+</script>
+{% endif %}
 
 <div id="dashboard">
 Things to display here:
@@ -63,8 +92,9 @@ L.mapbox.accessToken = 'pk.eyJ1IjoidGF5Z3JhdmUiLCJhIjoiTC02ZVBocyJ9.v07HDiBCNqym
 // amount of time regardless of trip length.
 
 // Show the whole world in this first view.
-map = L.mapbox.map('map', 'taygrave.lc074chc')
-    .setView([42, -120], 4);
+map = L.mapbox.map('map', 'taygrave.lc074chc', {
+  zoomControl: false
+}).setView([42, -100], 4);
 
 
 // Disable drag and zoom handlers.

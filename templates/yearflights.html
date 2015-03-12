@@ -5,7 +5,7 @@
 <h2>{{year}}</h2>
     Your flights found for {{year}} are displayed below. Please confirm the report is correct. You can delete flights you never took by hovering over the row. You can add flights that were missed by entering their information at the top of the table.<br>
 <!-- FIXME: this doesn't reload the page when it goes back tho -->
-<a href="/getflights">Go Back</a> 
+<a href="/get_flights">Go Back</a> 
 
 <br><br>
 <table class="table table-striped" name="report" id="report">
@@ -14,8 +14,8 @@
     </tr>
     
     <tr id="flightadd">
-    <div name="flightaddform" id="flightaddform">
-        <td><label for="date"></label><input type="date" value="{{year}}-06-01" name="purchase_date" class=""></td>
+    <div name="flightadddiv" id="flightadddiv">
+        <td><label for="date"></label><input type="date" value="{{year}}-06-01" name="purchase_date"></td>
         <td><label for="depart"></label><input type="text" name="depart" id="depart"></td>
         <td><label for="arrive"></label><input type="text" name="arrive" id="arrive"></td>
         <td>-</td>

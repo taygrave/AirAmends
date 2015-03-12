@@ -5,8 +5,9 @@ import model
 import email
 from apiclient import errors
 
+#this query remains outside as a future update will include option to modify query to search only after a certain date
 query = "from:(-me) subject:(-fwd -re -fw -check) itinerary, confirmation, flight, number, departure, taxes"
-# after:2014/2/2
+
 def query_messages(service, query):
   """Returns list of ids of all user's messages matching a query string (using authorized gmail api instance and specific userId / "me")."""
 
@@ -23,7 +24,6 @@ def query_messages(service, query):
       response = service.users().messages().list(userId="me", q=query, pageToken=page_token).execute()
       list_msg_ids.extend(response['messages'])
 
-    print "completed: got query msg list"
     return list_msg_ids
   
   except errors.HttpError, error:
@@ -43,7 +43,7 @@ def add_msgs_to_db(service, user_id, query=query):
   """Sets query and adds unique, parsed, and extra decoded if necessary, message components to the db """
   service = service
   msg_list = query_messages(service, query)
-
+  print "completed: queried gmail messages, adding to db..."
   s = model.connect()
 
   # check if message is unique, parse, perhaps decode, and add to db
