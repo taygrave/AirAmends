@@ -5,7 +5,7 @@
   <title>Animating flight paths</title>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <script src="//code.jquery.com/jquery-1.9.1.js"></script>
-  <link rel="stylesheet" href="/static/bootstrap-3.3.2-dist/css/bootstrap.min.css"
+  <link rel="stylesheet" href="/static/bootstrap-3.3.2-dist/css/bootstrap.min.css">
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
   <script src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
@@ -37,35 +37,56 @@
     }
   </script>
 
-{% if 'user_id' not in session %}
-  <div id='info'>
-    <div class="not_authorized">
-      <p> To see your flights and calculate your carbon emissions, you must sign in with your Google ID.</p>
-      <form action="/login/" class="form-signin" id="getflights">
-        <button class="btn btn-lg btn-success" type="submit">Authorize Google</button>
-      </form>
+<div id="main">
+  {% if 'user_id' not in session %}
+    <div id='info'>
+      <div class="not_authorized">
+        <p> To see your flights and calculate your carbon emissions, you must sign in with your Google ID.</p>
+        <form action="/login/" class="form-signin" id="getflights">
+          <button class="btn btn-lg btn-success" type="submit">Authorize Google</button>
+        </form>
+      </div>
     </div>
-  </div>
 
-{% else %}
-  <div id="info"> 
-    <p style="text-align:right;">
-      Currently querying for your flights...<img src="/static/airplane.gif">
-    </p>
-    <script>loadStuff('/get_flights');</script>
-  </div>
+  {% else %}
+    <div id="info"> 
+      <p style="text-align:right;">
+        Currently querying for your flights...<img src="/static/airplane.gif">
+      </p>
+      <script>loadStuff('/get_flights');</script>
+    </div>
 
-  <script>
-  // Intercept clicks of anchor tags
-    $(document).ready(function(){
-      $('#info').on('click', 'a', function(ev) {
-        var ogHref = ev.target.href;
-        loadStuff(ogHref);
-        ev.preventDefault();
+    <script>
+    // Intercept clicks of anchor tags
+      $(document).ready(function(){
+        $('#info').on('click', 'a', function(ev) {
+          var ogHref = ev.target.href;
+          loadStuff(ogHref);
+          ev.preventDefault();
+        });
       });
+    </script>
+  {% endif %}
+
+  <footer> 
+    <a href="/about_calc" id="load-methods">How we Price and Calculate</a>
+      </div>
+  </footer>
+
+  <div id="modal-wrapper"></div>
+</div>
+
+<script>
+  function loadMethods(evt) {
+    evt.preventDefault();
+    $("#modal-wrapper").load("/static/carboncalcs.html", function () {
+      $("#terms-modal").modal();
     });
-  </script>
-{% endif %}
+  }
+  $("#load-methods").on("click", loadMethods);
+
+</script>
+
 
   <div id="dashboard">Things to display here:
     <ul>

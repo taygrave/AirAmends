@@ -163,7 +163,7 @@ def add_flight():
     else:
         return "Error"
 
-@app.route("/aboutcalc")
+@app.route("/about_calc")
 def aboutcalc():
     return render_template("carboncalcs.html")
 

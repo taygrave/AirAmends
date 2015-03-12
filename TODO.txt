@@ -12,10 +12,12 @@ Non-prioritized TIDYING:
     change 'session' in airamends.py to explicitly refer to db session
 
 Things I want help from Mentors for:
-    Tidying up code
-    make flight parsing faster
-    Adding in tests
-    LOOKING GOOD - Better design
+    adding in tests?
+
+Styling:
+    why does it scroll right/left? eliminate this
+    carbon calcs display needs to be widened
+    put "how we calculate" link on the bottom, make it look nicer
 
 TABLED:
     Adding new flights feature
