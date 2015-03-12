@@ -37,7 +37,7 @@ def user_setup():
     emails_in_db = Email.query.first()
     flights_in_db = Flight.query.first()
     print emails_in_db, flights_in_db
-    
+
     if emails_in_db and flights_in_db:
         return None
     else:
@@ -75,7 +75,7 @@ def homepage():
     carbon_price = g.carbon_price
     json_array = []
     if current_user.is_authenticated():
-        json_array = flights4map(current_user.id)
+        json_array = flights4map()
 
     return render_template("base.html", jsonarray=json_array, carbon_price=carbon_price)
 
@@ -174,9 +174,9 @@ def aboutcalc():
     return render_template("carboncalcs.html")
 
 @app.route("/flights.js")
-def flights4map(user_id):
+def flights4map():
     """Queries db for all flights and turns into a json for mapbox animation"""
-    total_flights = Flight.query.filter(Flight.user_id == user_id).all()
+    total_flights = Flight.query.filter(Flight.user_id == current_user.id).all()
 
     if total_flights != None:
         map_list = []

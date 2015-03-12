@@ -3,6 +3,20 @@ function loadStuff(path) {
         $("#info").html(response);
         $("#carbon-debt").html(carbonDebt);
         $("#carbon-price").html(carbonDebt*carbonPrice);
+        if (path == '/get_flights'){
+            loadFlights();
+        }
+      });
+    }
+
+function loadFlights() {
+    // add in a try catch
+      $.get("/flights.js", function(response) {
+        try {
+            window.pairs = JSON.parse(response);
+        drawPairs();
+        } catch(e) {
+        }
       });
     }
 
@@ -13,51 +27,23 @@ function loadMethods(evt) {
     });
   }
 
-$(document).ready(function(){
-    $("#load-methods").on("click", loadMethods);
-    // Intercept clicks of anchor tags
-    $('#info').on('click', 'a', function(ev) {
-        var ogHref = ev.target.href;
-        loadStuff(ogHref);
-        ev.preventDefault();
-    });
-
-    // MAPBOX SCRIPT
-      L.mapbox.accessToken = 'pk.eyJ1IjoidGF5Z3JhdmUiLCJhIjoiTC02ZVBocyJ9.v07HDiBCNqymCU6IsCF1jQ';
-    // This is an advanced example that is compatible with
-    // modern browsers and IE9+ - the trick it uses is animation
-    // of SVG properties, which makes it relatively efficient for
-    // the effect produced. That said, the same trick means that the
-    // animation is non-geographical - lines interpolate in the same
-    // amount of time regardless of trip length.
-
-    // Show the whole world in this first view.
-    map = L.mapbox.map('map', 'taygrave.lc074chc', {
-      zoomControl: false
-    }).setView([42, -100], 4);
-
-
-    // Disable drag and zoom handlers.
-    // Making this effect work with zooming and panning
-    // would require a different technique with different
-    // tradeoffs.
-    // map.dragging.disable();
-    map.touchZoom.disable();
-    map.doubleClickZoom.disable();
-    map.scrollWheelZoom.disable();
-    if (map.tap) map.tap.disable();
-
+function drawPairs() {
     // Transform the short [lat,lng] format in our
     // data into the {x, y} expected by arc.js.
+    
+    if (! window.pairs){
+        return;
+    }
+
     function obj(ll) { return { y: ll[0], x: ll[1] }; }
 
-    for (var i = 0; i < pairs.length; i++) {
+    for (var i = 0; i < window.pairs.length; i++) {
         try {
             // Transform each pair of coordinates into a pretty
             // great circle using the Arc.js plugin, as included above.
             var generator = new arc.GreatCircle(
-                    obj(pairs[i][0]),
-                    obj(pairs[i][1]));
+                    obj(window.pairs[i][0]),
+                    obj(window.pairs[i][1]));
             var line = generator.Arc(100, { offset: 10 });
 
             var newLine = L.polyline(line.geometries[0].coords.map(function(c) {
@@ -94,6 +80,42 @@ $(document).ready(function(){
             };
         })(newLine._path), i * 100);
     }
+}
 
+$(document).ready(function(){
+    $("#load-methods").on("click", loadMethods);
+    // Intercept clicks of anchor tags
+    $('#info').on('click', 'a', function(ev) {
+        var ogHref = ev.target.href;
+        loadStuff(ogHref);
+        ev.preventDefault();
+    });
+
+    // MAPBOX SCRIPT
+      L.mapbox.accessToken = 'pk.eyJ1IjoidGF5Z3JhdmUiLCJhIjoiTC02ZVBocyJ9.v07HDiBCNqymCU6IsCF1jQ';
+    // This is an advanced example that is compatible with
+    // modern browsers and IE9+ - the trick it uses is animation
+    // of SVG properties, which makes it relatively efficient for
+    // the effect produced. That said, the same trick means that the
+    // animation is non-geographical - lines interpolate in the same
+    // amount of time regardless of trip length.
+
+    // Show the whole world in this first view.
+    map = L.mapbox.map('map', 'taygrave.lc074chc', {
+      zoomControl: false
+    }).setView([42, -100], 4);
+
+
+    // Disable drag and zoom handlers.
+    // Making this effect work with zooming and panning
+    // would require a different technique with different
+    // tradeoffs.
+    // map.dragging.disable();
+    map.touchZoom.disable();
+    map.doubleClickZoom.disable();
+    map.scrollWheelZoom.disable();
+    if (map.tap) map.tap.disable();
+
+    drawPairs();
 
 });
