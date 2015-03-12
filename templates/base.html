@@ -39,21 +39,22 @@
 
 {% if 'user_id' not in session %}
 <div id='info'>
-<div class="not_authorized">
-<p> To see your flights and calculate your carbon emissions, you must sign in with your Google ID. </p>
-
-<form action="/login/" class="form-signin" id="getflights">
-    <button class="btn btn-lg btn-success" type="submit">Authorize Google</button>
-</form>
-</div>
+  <div class="not_authorized">
+    <p> To see your flights and calculate your carbon emissions, you must sign in with your Google ID.</p>
+    <form action="/login/" class="form-signin" id="getflights">
+      <button class="btn btn-lg btn-success" type="submit">Authorize Google</button>
+    </form>
+  </div>
 </div>
 
 <!-- SHOW IMAGE OF SAMPLE ABILITIES OF TOOL -->
 
 {% else %}
-<div id="info" style="text-align:right;"> 
+<div id="info"> 
+<p style="text-align:right;">
 Currently querying for your flights...<img src="/static/airplane.gif">
 <script>loadStuff('/get_flights');</script>
+</p>
 </div>
 
 <script>

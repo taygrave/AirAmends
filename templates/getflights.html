@@ -1,13 +1,13 @@
 
 Our reports are generated off of the {{email_stats[0]}} flight confirmation emails we found for you. These emails range over the period {{email_stats[1]}} to {{email_stats[2]}}.<br><br>
 
-<table class="table table-striped">
-    <tr class="info"><th>Year</th><th># of Flights</th><th>CO2e Emissions (mt)</th><th>Emissions Value (2015$)</th>
+<table>
+    <tr><th>Year</th><th># of Flights</th><th>CO2e Emissions (mt)</th><th>Emissions Value (2015$)</th>
     </tr>
     {% for year in years_list %}
         <tr><td><a href="/get_flights/{{year[0]}}">{{year[0]}}</td><td>{{year[1]}}</td><td>{{'%0.2f' % year[2]}}</td><td>${{'%0.2f' % (year[2]*37)}}</td></tr>
         {% endfor %}
-        <tr class="info"><th>TOTALS</th><th>{{user_flights|length}}</th><th>{{'%0.2f' % CO2e}}</th><th>${{'%0.2f' % (CO2e*g.carbon_price)}}</th></tr></tr>
+        <tr><th>TOTALS</th><th>{{user_flights|length}}</th><th>{{'%0.2f' % CO2e}}</th><th>${{'%0.2f' % (CO2e*g.carbon_price)}}</th></tr></tr>
 </table>
 <br>
 

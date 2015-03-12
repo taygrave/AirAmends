@@ -1,25 +1,10 @@
-FOR AJAX REDESIGN:
-    In a certain div - 
-        Bind click events on A tags
-        get their href (where they WERE going)
-        then get that yourself with ajax
-        prevent default redirection
-        instead load the rendered in div
-    if event handlers do not work:
-        need to re-bind onto the parent element so that javascript table stuff still works in new layout (delete / add flight buttons and functionality)
-
-
 NEXT STEPS
+    Take form out of table
+    Have a dashboard of (# flight emails, # flight legs total, # deleted, # added)
     Add donation button
-    turn airport list into javacript object for form validation
-    HAve a dashboard of (# flight emails, # flight legs total, # deleted, # added)
-    Pop ups to let user know website is working but busy:
-        when waiitng on gmail api
-        initial query
-        reset from scratch query
+    Demo feature for those who can't/don't want to sign in
 
 Non-prioritized TIDYING:
-    have // replace all http and https sources
     remove model.connect where possible
     find all FIXMEs
     find all TODOs
