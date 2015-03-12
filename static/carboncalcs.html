@@ -1,0 +1,44 @@
+<div class="modal fade" id="terms-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Pricing and Emissions Estimation</h4>
+      </div>
+      <div class="modal-body" id="terms-body">
+        <div id="pricing">
+          <h3> Pricing Emissions </h3>
+          <p>
+            Emissions are priced by multiplying the estimated dollar value of the Social Cost of Carbon with the total metric tons of CO2e emitted. The SCC is the estimated price of the economic damages caused by each additional ton of carbon dioxide released into the atmosphere. The SCC is meant to be a comprehensive estimate of climate change damages and includes, among other things, changes in net agricultural productivity, human health, and property damages from increased severe weather.
+          </p>
+
+          <p>
+            Currently, the <a href="http://www.whitehouse.gov/blog/2013/11/01/refining-estimates-social-cost-carbon" target="_blank">White House</a> uses an estimate of $37 (2015$) per metric as the social cost of carbon. Therefore, this is also the estimate we use in our calculations. It is worth noting, however, many economists find <a href="http://cleantechnica.com/2015/01/16/the-social-cost-of-carbon-is-six-times-higher-than-estimated/" target="_blank">this estimate is too low</a>.
+          </p>
+        </div>
+        <div id="emissions">
+          <h3>Estimating Emissions from Flights</h3>
+            Carbon Calculations were calculated using the EPA's <a href="http://www.epa.gov/climateleadership/documents/resources/commute_travel_product.pdf" target="_blank">Climate Leaders: Greenhouse Gas Inventory Protocol Core Module Guidance</a>.
+            <br><br>
+            <div>
+              <p>
+                <img src="/static/EPAef.png"><br>
+              </p>    
+              <p>
+                <h4> E = PMT * (EFCO2 + EFCH4 * 0.021 +
+                EFN2O * 0.310) </h4>
+                E = Total CO2-equivalent Emissions<br>
+                PMT = Passenger Miles Traveled<br>
+                EFCO2 = CO2 Emission Factor<br>
+                EFCH4 = CH4 Emission Factor<br>
+                EFN2O = N2O Emission Factor<br>
+                0.021 = Conversion Factor<br>
+                0.310 = Conversion Factor <br>
+              </p>
+            </div>
+         </div><br>
+       </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
