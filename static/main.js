@@ -1,12 +1,9 @@
 function loadStuff(path) {
       $.get(path, function(response) {
         $("#info").html(response);
-        $("#carbon-debt").html(carbonDebt);
-        $("#carbon-price").html(carbonDebt*carbonPrice);
         if (path == '/get_flights'){
             loadFlights();
         }
-        $("#donate").html("DONATE!!");
       });
     }
 
@@ -20,18 +17,6 @@ function loadFlights() {
         }
       });
     }
-
-function checkOverflow(el) {
-    var curOverflow = el.style.overflow;
-    if ( !curOverflow || curOverflow === "visible" ){
-        el.style.overflow = "hidden";
-    }
-   var isOverflowing = el.clientWidth < el.scrollWidth || el.clientHeight < el.scrollHeight;
-
-   el.style.overflow = curOverflow;
-
-   return isOverflowing;
-}
 
 function loadMethods(evt) {
     evt.preventDefault();
