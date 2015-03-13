@@ -27,13 +27,37 @@ function loadMethods(evt) {
   }
 
 function setDashboard() {
-    console.log("HEEEY");
-    carbonPrice = ('$'+(carbonDebt*CO2ePrice).toFixed(2).toString());
     console.log(carbonDebt);
+    console.log(typeof(carbonDebt));
+    carbonDebt = carbonDebt.toFixed(2);
+    console.log("setting dashboard");
+    carbonPrice = ('$'+(carbonDebt*CO2ePrice).toFixed(2).toString());
     $("#carbon-debt").html(carbonDebt);
     $("#carbon-price").html(carbonPrice);
     $("#donate").html('<button class="btn btn-lg btn-success" onclick="window.location.href=\'/donate?carbon_debt='+carbonPrice+'\'">Donate!</button>');
     }
+
+function addTotals() {
+    // Calculates and recalculates with user-edits the total carbon debt in metric tons and dollars
+    var cTotal = document.getElementById("cTotal");
+    var mcTotal = document.getElementById("mTotal");
+    var tdEmiss = document.getElementsByClassName("emiss");
+    var tdPriced = document.getElementsByClassName("priced");
+    var cSum = 0 ; mSum = 0;
+    // console.log($(".emiss:eq(1)").html);
+
+    for (var i = 0; i < tdEmiss.length; i++) {
+        cSum += parseFloat(tdEmiss[i].getAttribute("data-amt"));
+        mSum += parseFloat(tdPriced[i].getAttribute("data-amt"));
+        }
+
+    carbonDebt1 = cSum;
+    cSum = cSum.toFixed(2);
+    mSum = mSum.toFixed(2);
+    mSum = mSum.toString();
+    cTotal.innerText = cSum;
+    mTotal.innerText = ("$" + mSum);
+}
 
 function drawPairs() {
     // Transform the short [lat,lng] format in our

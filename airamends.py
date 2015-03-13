@@ -34,16 +34,14 @@ def get_auth_flow():
 
 def user_setup():
     """Once user is logged-in, this is called to query user's emails and seed db for flights found"""
-    db_user_emails = Email.query.filter(Email.user_id == current_user.id).first()
-    print db_user_emails
-    print current_user.id
-    db_user_flights = Flight.query.filter(Flight.user_id == current_user.id).first()
+    db_user_emails = Email.query.filter(Email.user_id == g.my_user_id).first()
+    db_user_flights = Flight.query.filter(Flight.user_id == g.my_user_id).first()
 
     if db_user_emails and db_user_flights:
         return None
     else:
-        gmailapiworks.add_msgs_to_db(g.gmail_api, current_user.id)
-        seed_flights.seed_flights()
+        gmailapiworks.add_msgs_to_db(g.gmail_api, g.my_user_id)
+        seed_flights.seed_flights(g.my_user_id)
 
 @login_manager.user_loader
 def load_user(userid):
@@ -61,9 +59,11 @@ def before_request():
         g.status = "Log In"
         g.link = "/login/"
     else:
-        #TODO - directly add email to session once retrieved instead of querying db for it each time
         g.status = current_user.email
         g.link = "/logout/"
+
+    if flask_session.get('user_id'):
+        g.my_user_id = current_user.id
 
 
 @app.route("/")
@@ -79,34 +79,18 @@ def homepage():
 def getflights():
     #TODO: Ensure this reports out in ascending order - fix associated code 
     user_setup()
-    carbon_price = g.carbon_price
-    emails_in_db = Email.query.filter(Email.user_id == current_user.id).order_by(asc(Email.date)).all()
+    emails_in_db = Email.query.filter(Email.user_id == g.my_user_id).order_by(asc(Email.date)).all()
     email_stats = [len(list(emails_in_db)), emails_in_db[0].date, emails_in_db[-1].date]     
-    user_flights = Flight.query.all()
-    CO2e = round(seed_flights.CO2e_results(user_flights),2)
-    # g.carbon_debt = CO2e
-    years_list = seed_flights.report_by_year()
+    user_flights = Flight.query.filter(Flight.user_id == g.my_user_id).all()
+    years_list = seed_flights.report_by_year(g.my_user_id)
 
-    return render_template("/getflights.html", email_stats=email_stats, user_flights=user_flights, CO2e=CO2e, years_list=years_list, carbon_price=carbon_price)
-
-@app.route("/flight_reset", methods=["POST"])
-def reset_flights():
-    Flight.query.delete()
-    session.commit()
-    return redirect(url_for('getflights'))
-
-@app.route("/complete_reset", methods=["POST"])
-def complete_reset():
-    Email.query.delete()
-    Flight.query.delete()
-    session.commit()
-    return redirect(url_for('getflights'))
+    return render_template("/getflights.html", email_stats=email_stats, user_flights=user_flights, years_list=years_list)
 
 @app.route("/get_flights/<year>")
 def yearflights(year):
     year = int(year)
     results_list = []
-    user_flights = Flight.query.order_by(Flight.date.asc(), Flight.id.asc()).all()
+    user_flights = Flight.query.filter(Flight.user_id == g.my_user_id).order_by(Flight.date.asc(), Flight.id.asc()).all()
     
     working_list = [obj for obj in user_flights if (obj.date.year == year)]
 
@@ -114,7 +98,7 @@ def yearflights(year):
         depart_city = (flight.departure.latitude, flight.departure.longitude)
         arrive_city = (flight.arrival.latitude, flight.arrival.longitude)
         #rounding completed here removes some precision, and also removes precision error
-        CO2e = round(seed_flights.calc_carbon(depart_city, arrive_city),2)
+        CO2e = seed_flights.calc_carbon(depart_city, arrive_city)
         #using a backreference here to name the cities for display instead of using their airport codes, for better user recognition
         #TODO change it so that the formating is done in the html, not in the backend
         date = flight.date.strftime('%b-%d')
@@ -130,7 +114,7 @@ def yearflights(year):
 @app.route("/delete_flight", methods=["POST"])
 def delete_flight():
     id = int(request.values['id'])
-    flight = Flight.query.filter_by(id = id).one()
+    flight = Flight.query.filter(Flight.id == id, Flight.user_id == g.my_user_id).one()
     session.delete(flight)
     session.commit()
     return "OK"
@@ -188,7 +172,7 @@ def donate_page():
 @app.route("/flights.js")
 def flights4map():
     """Queries db for all flights and turns into a json for mapbox animation"""
-    total_flights = Flight.query.filter(Flight.user_id == current_user.id).all()
+    total_flights = Flight.query.filter(Flight.user_id == g.my_user_id).all()
 
     if total_flights != None:
         map_list = []
@@ -210,7 +194,7 @@ def flights4map():
 @app.route("/airports.js")
 def get_airports(format="json"):
     """Queries db for airport info and turns code and city pairs in json (default) for user flight adding info. If any other argument passed (eg. 'python') will return python list object."""
-    airports = Airport.query.all()
+    airports = Airport.query.order_by(asc(Airport.city)).all()
     airport_list = []
 
     for obj in airports:
@@ -262,14 +246,33 @@ def login_callback():
 @app.route('/logout/')
 def logout():
     # Complete Reset
-    Email.query.filter(Email.user_id == current_user.id).delete()
-    Flight.query.filter(Flight.user_id == current_user.id).delete()
-    User.query.filter(User.id == current_user.id).delete() 
+    Email.query.filter(Email.user_id == g.my_user_id).delete()
+    Flight.query.filter(Flight.user_id == g.my_user_id).delete()
+    User.query.filter(User.id == g.my_user_id).delete() 
     session.commit()
 
     logout_user()
 
     return redirect(url_for('homepage'))
+
+@app.route("/demo", methods=["POST"])
+def demo_site():
+    # g.my_user = 0
+    return redirect(url_for('getflights'))
+
+## Deprecated: need to be updated to query only for current user if going to use
+# @app.route("/flight_reset", methods=["POST"])
+# def reset_flights():
+#     Flight.query.delete()
+#     session.commit()
+#     return redirect(url_for('getflights'))
+
+# @app.route("/complete_reset", methods=["POST"])
+# def complete_reset():
+#     Email.query.delete()
+#     Flight.query.delete()
+#     session.commit()
+#     return redirect(url_for('getflights'))
 
 if __name__ == "__main__":
     app.run(debug = True)

@@ -1,27 +1,5 @@
 // This script provides JavaScript functionality to yearflights.html page
 
-var addTotals = function(){
-    // Calculates and recalculates with user-edits the total carbon debt in metric tons and dollars
-    var cTotal = document.getElementById("cTotal");
-    var mcTotal = document.getElementById("mTotal");
-    var tdEmiss = document.getElementsByClassName("emiss");
-    var tdPriced = document.getElementsByClassName("priced");
-    var cSum = 0 ; mSum = 0;
-
-    for (var i = 0; i < tdEmiss.length; i++) {
-        cSum += parseFloat(tdEmiss[i].innerText);
-        var unpriced = tdPriced[i].innerText;
-        unpriced = parseFloat(unpriced.replace(/\$/,""));
-        mSum += unpriced;
-        }
-
-    cSum = cSum.toFixed(2);
-    mSum = mSum.toFixed(2);
-    mSum = mSum.toString();
-    cTotal.innerText = cSum;
-    mTotal.innerText = ("$" + mSum);
-};
-
 var addFlight = function(result){
     //If user's flight is successfully added to db, adds row on the existing table with the new flight's data and clear the add flight form should user want to add another flight. If flight not added, pops up invalid alert message.
     if (result === "Error"){
@@ -67,8 +45,6 @@ var deleteFlight = function(id, tRow, CO2e){
                     row.remove();
                     addTotals();
                     carbonDebt = parseFloat(carbonDebt, 10) - CO2e;
-                    console.log(CO2e);
-                    console.log(carbonDebt);
                     setDashboard();
 
                 } else {

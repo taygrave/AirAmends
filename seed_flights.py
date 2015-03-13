@@ -15,7 +15,7 @@ def find_itinerary(list_airfinds):
 
     return list_itin
 
-def seed_flights():
+def seed_flights(user_id):
     """Pulls email bodies (strings) from msg objs (list) and parses them to determine a trip itneraries per message and adds each itinerary's flight legs to the db."""
     s = model.connect()
     
@@ -27,7 +27,7 @@ def seed_flights():
     p = re.compile(r"\(([A-Z]{3})(\)| )|\>([A-Z]{3})\<|;([A-Z]{3})\&")
 
     #querying each email msg body inividually
-    msg_list = s.query(model.Email).all()
+    msg_list = s.query(model.Email).filter(model.Email.user_id == user_id).all()
     for msg_obj in msg_list:
         #a list of all matching regex terms
         list_results = p.findall(msg_obj.body)
@@ -106,10 +106,10 @@ def CO2e_results(list_flights):
         sum_CO2e = CO2e + sum_CO2e
     return sum_CO2e
 
-def report_by_year():
+def report_by_year(user_id):
     """Returns a list of all years containing flights from user's db of flights."""
     s = model.connect()
-    flights_list = s.query(model.Flight).all()
+    flights_list = s.query(model.Flight).filter(model.Flight.user_id == user_id).all()
     list_distinct_years = []
 
     for obj in flights_list:
@@ -119,14 +119,14 @@ def report_by_year():
 
     years_list = []
     for year in list_distinct_years:
-        CO2e = year_calc(year)
+        CO2e = year_calc(year, user_id)
         years_list.append(CO2e)
 
     return years_list
 
-def year_calc(yyyy):
+def year_calc(yyyy, user_id):
     s = model.connect()
-    total_flights = s.query(model.Flight).all()
+    total_flights = s.query(model.Flight).filter(model.Flight.user_id == user_id).all()
 
     working_list = [obj for obj in total_flights if (obj.date.year == yyyy)]
 

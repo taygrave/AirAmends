@@ -12,28 +12,32 @@ Our reports are generated off of the {{email_stats[0]}} flight confirmation emai
     <tr>
         <td><a href="/get_flights/{{year[0]}}">{{year[0]}}</td>
         <td>{{year[1]}}</td>
-        <td>{{'%0.2f' % year[2]}}</td>
-        <td>${{'%0.2f' % (year[2]*37)}}</td>
+        <td class="emiss" data-amt="{{year[2]}}">{{'%0.2f' % year[2]}}</td>
+        <td class="priced" data-amt="{{year[2]*g.carbon_price}}">${{'%0.2f' % (year[2]*g.carbon_price)}}</td>
     </tr>
     {% endfor %}
 
     <tr>
         <th>TOTALS</th>
         <th>{{user_flights|length}}</th>
-        <th>{{'%0.2f' % CO2e}}</th>
-        <th>${{'%0.2f' % (CO2e*g.carbon_price)}}</th>
+        <th id="cTotal"></th>
+        <th id="mTotal"></th>
     </tr>
 </table>
 
 <br>
-<form action="/flight_reset" method="POST">
+<!-- <form action="/flight_reset" method="POST">
     <button class="btn btn-lg btn-warning" type="submit">Reset all Flights</button>
 </form>
 <form action="/complete_reset" method="POST">
     <button class="btn btn-lg btn-danger" type="submit">Re-Query Gmail from Scratch</button>
-</form>
+</form> -->
 
 <script>
-  CO2ePrice = {{carbon_price}};
-  carbonDebt = {{CO2e}};
+  $(document).ready(function (){
+    // Calculate and populate the totals for each results table
+    addTotals();
+    CO2ePrice = {{g.carbon_price}};
+    carbonDebt = carbonDebt1
+});
 </script>
