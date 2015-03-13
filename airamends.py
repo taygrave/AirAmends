@@ -58,7 +58,6 @@ def before_request():
     if flask_session.get('user_id') == None:
         g.status = "Log In"
         g.link = "/login/"
-        g.carbon_debt = "Not set"
     else:
         #TODO - directly add email to session once retrieved instead of querying db for it each time
         g.status = current_user.email
@@ -137,6 +136,7 @@ def delete_flight():
 @app.route("/add_flight", methods=["GET"])
 def add_flight():
     """Receives user input for flight details (date, departure, arrival) and makes a new flight entry in the db for user"""
+    #TODO Tidy this or break into other functions, so long
     date = request.args.get('purchase_date')
     depart = request.args.get('depart')
     arrive = request.args.get('arrive')

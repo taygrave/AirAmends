@@ -1,32 +1,29 @@
 NEXT STEPS
     javascript dashboard setup math is acting super weird >:C
-    Do not save flights where depart and arrive city are the same
-    airport suggestion input box delayed
-    Why not animating on sign in, how to fix
-    redraw button?
-    Have a dashboard of (# flight emails, # flight legs total, # deleted, # added)
-    Add donation button
-    Demo feature for those who can't/don't want to sign in
+    alphabetize airports on drop down for add flight
+    redraw button? maybe having to do with g vars if user logged in?
+    rethink reset meaning
+    demo button not requiring gmail querying (using set data in db)
 
 Non-prioritized TIDYING:
-    alphabetize airports on drop down for add flight
     remove model.connect where possible
     find all FIXMEs
     find all TODOs
-    why back doesn't report acurate numbers, needs to be refreshed
     change 'session' in airamends.py to explicitly refer to db session
 
 Things I want help from Mentors for:
     adding in tests?
 
 Styling:
+    make sure flight add / delete buttons fit in page
     why does it scroll right/left? eliminate this
-    carbon calcs display needs to be widened
-    put "how we calculate" link on the bottom, make it look nicer
-    Take form out of table?
+    modal on calc methods display needs to be widened
+    Make form look nicer
+    donation page
 
 TABLED:
-    Adding new flights feature
+    Querying for new flights beyond what you have in the db
+    Demo feature for those who can't/don't want to sign in
 
 
 
