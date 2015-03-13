@@ -92,6 +92,7 @@ pairs = [("LHR", "JFK"), ("SEA", "PDX"), ("DEN", "FLL")]
 def CO2_results(list_pairs):
     
     for pair in list_pairs:
+        #this function has been updated to accept lat long pairs and this this old calling of it will NOT WORK
         results = calc_carbon(pair)
 
         print "RESULTS FOR %s --> %s" %(pair[0], pair[1])

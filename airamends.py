@@ -36,7 +36,6 @@ def user_setup():
     """Once user is logged-in, this is called to query user's emails and seed db for flights found"""
     emails_in_db = Email.query.first()
     flights_in_db = Flight.query.first()
-    print emails_in_db, flights_in_db
 
     if emails_in_db and flights_in_db:
         return None
@@ -52,12 +51,9 @@ def load_user(userid):
 def before_request():
     g.carbon_price = 37.00 #Official White House SCC as of Nov 2014
     if current_user.is_authenticated():
-        # print "before request getting credentials"
         credentials = AccessTokenCredentials(current_user.access_token, u'')
-        # print "before request, retreived credentials"
         g.gmail_api = get_api(credentials)
         print "at before request, built"
-        # print "before request, built service"
 
     if flask_session.get('user_id') == None:
         g.status = "Log In"
@@ -114,8 +110,10 @@ def yearflights(year):
     working_list = [obj for obj in user_flights if (obj.date.year == year)]
 
     for flight in working_list:
+        depart_city = (flight.departure.latitude, flight.departure.longitude)
+        arrive_city = (flight.arrival.latitude, flight.arrival.longitude)
         #rounding completed here removes some precision, and also removes precision error
-        CO2e = round(seed_flights.calc_carbon((flight.depart, flight.arrive)),2)
+        CO2e = round(seed_flights.calc_carbon(depart_city, arrive_city),2)
         #using a backreference here to name the cities for display instead of using their airport codes, for better user recognition
         #TODO change it so that the formating is done in the html, not in the backend
         date = flight.date.strftime('%b-%d')
@@ -156,7 +154,14 @@ def add_flight():
         
         #Return info for table addition
         date = db_date.strftime('%b-%d')
-        CO2e = round(seed_flights.calc_carbon((db_depart,db_arrive)),2)
+
+        d_airport = Airport.query.filter_by(id = db_depart).one()
+        a_airport = Airport.query.filter_by(id = db_arrive).one()
+
+        depart_city = (d_airport.latitude, d_airport.longitude)
+        arrive_city = (a_airport.latitude, a_airport.longitude)
+
+        CO2e = round(seed_flights.calc_carbon(depart_city, arrive_city),2)
         price = CO2e * g.carbon_price
         
         return jsonify(date=date,
@@ -176,7 +181,6 @@ def aboutcalc():
 @app.route("/donate")
 def donate_page():
     debt = request.args.get('carbon_debt')
-    print debt
     return render_template("donate.html", debt=debt)
 
 @app.route("/flights.js")

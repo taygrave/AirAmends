@@ -71,16 +71,8 @@ def seed_flights():
     s.commit()
     print "completed: flight search and adding to db"
 
-def calc_carbon((depart, arrive)):
-    """Receives a tuple pair of airports and calculates the distance from one to the second (using great circle), determines haul length, and calculate CO2e emissions accordingly (using EPA methods). Returns a float."""
-    s = model.connect()
-    #FIXME = use backrefs intead of querying airport table
-    d_airport = s.query(model.Airport).filter_by(id = depart).one()
-    a_airport = s.query(model.Airport).filter_by(id = arrive).one()
-
-    depart_city = (d_airport.latitude, d_airport.longitude)
-    arrive_city = (a_airport.latitude, a_airport.longitude)
-
+def calc_carbon(depart_city, arrive_city):
+    """Receives two tuples of the (lat,long) of the departing and arriving airports and calculates the distance between (using great circle), determines haul length, and calculate CO2e emissions accordingly (using EPA methods). Returns a float."""
     #calculate Some use only the great circle distance (the shortest distance between two points on the globe) between two airports * accounting for take-off, circling, non-direct routes
     uf = 1.09 #IPCC uplift factor
     distance = great_circle(depart_city, arrive_city).miles * uf
@@ -108,7 +100,9 @@ def calc_carbon((depart, arrive)):
 def CO2e_results(list_flights):
     sum_CO2e = 0
     for flight in list_flights:
-        CO2e = calc_carbon((flight.depart, flight.arrive))
+        depart_city = (flight.departure.latitude, flight.departure.longitude)
+        arrive_city = (flight.arrival.latitude, flight.arrival.longitude)
+        CO2e = calc_carbon(depart_city, arrive_city)
         sum_CO2e = CO2e + sum_CO2e
     return sum_CO2e
 
@@ -140,7 +134,9 @@ def year_calc(yyyy):
     sum_CO2e = 0
 
     for flight in working_list:
-        CO2e = calc_carbon((flight.depart, flight.arrive))
+        depart_city = (flight.departure.latitude, flight.departure.longitude)
+        arrive_city = (flight.arrival.latitude, flight.arrival.longitude)
+        CO2e = calc_carbon(depart_city, arrive_city)
         sum_CO2e = CO2e + sum_CO2e
 
     return (yyyy, num_flights, sum_CO2e)
