@@ -34,10 +34,12 @@ def get_auth_flow():
 
 def user_setup():
     """Once user is logged-in, this is called to query user's emails and seed db for flights found"""
-    emails_in_db = Email.query.first()
-    flights_in_db = Flight.query.first()
+    db_user_emails = Email.query.filter(Email.user_id == current_user.id).first()
+    print db_user_emails
+    print current_user.id
+    db_user_flights = Flight.query.filter(Flight.user_id == current_user.id).first()
 
-    if emails_in_db and flights_in_db:
+    if db_user_emails and db_user_flights:
         return None
     else:
         gmailapiworks.add_msgs_to_db(g.gmail_api, current_user.id)

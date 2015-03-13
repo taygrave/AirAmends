@@ -44,6 +44,7 @@ def add_msgs_to_db(service, user_id, query=query):
   service = service
   msg_list = query_messages(service, query)
   print "completed: queried gmail messages, adding to db..."
+  print msg_list
   s = model.connect()
 
   # check if message is unique, parse, perhaps decode, and add to db
@@ -67,7 +68,7 @@ def add_msgs_to_db(service, user_id, query=query):
             msg_body = decoded_str.decode('UTF-8')
 
         #ensures only unique itinerary confirmation email message info is added to the db
-        exists = s.query(model.Email).filter(model.Email.sender == msg_sender, model.Email.subject == msg_subject).first()
+        exists = s.query(model.Email).filter(model.Email.sender == msg_sender, model.Email.subject == msg_subject, model.Email.user_id == user_id).first()
         
         if exists == None:
           entry = model.Email(user_id=user_id, msg_id=item['id'], date=msg_date, sender=msg_sender, subject=msg_subject, body=msg_body)
