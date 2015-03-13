@@ -1,5 +1,5 @@
 NEXT STEPS
-    javascript dashboard setup is acting weird >:C
+    javascript dashboard setup math is acting super weird >:C
     Do not save flights where depart and arrive city are the same
     airport suggestion input box delayed
     Why not animating on sign in, how to fix
