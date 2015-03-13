@@ -82,7 +82,7 @@ def getflights():
     email_stats = [len(list(emails_in_db)), emails_in_db[0].date, emails_in_db[-1].date]     
     user_flights = Flight.query.all()
     CO2e = round(seed_flights.CO2e_results(user_flights),2)
-    g.carbon_debt = CO2e
+    # g.carbon_debt = CO2e
     years_list = seed_flights.report_by_year()
 
     return render_template("/getflights.html", email_stats=email_stats, user_flights=user_flights, CO2e=CO2e, years_list=years_list, carbon_price=carbon_price)
@@ -104,7 +104,7 @@ def complete_reset():
 def yearflights(year):
     year = int(year)
     results_list = []
-    user_flights = Flight.query.order_by(asc(Flight.date)).all()
+    user_flights = Flight.query.order_by(Flight.date.asc(), Flight.id.asc()).all()
     
     working_list = [obj for obj in user_flights if (obj.date.year == year)]
 
@@ -259,13 +259,14 @@ def login_callback():
 
 @app.route('/logout/')
 def logout():
+    # Complete Reset
+    Email.query.filter(Email.user_id == current_user.id).delete()
+    Flight.query.filter(Flight.user_id == current_user.id).delete()
+    User.query.filter(User.id == current_user.id).delete() 
+    session.commit()
+
     logout_user()
 
-    #Complete Reset
-    User.query.delete()
-    Email.query.delete()
-    Flight.query.delete()
-    session.commit()
     return redirect(url_for('homepage'))
 
 if __name__ == "__main__":
