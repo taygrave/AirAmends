@@ -7,30 +7,43 @@
 
 .logo {
     color: #66cd00;
-
 }
 
+.donate-page {
+  background-color: white;
+  color: black;
+}
+
+.form {
+  color: black;
+}
+/*
+.leaflet-zoom-animated{
+  width: 1150px;
+}
+*/
 #header { 
   background-color: black;
   position:absolute; 
-  top:0; bottom:95%; 
+  top:0; bottom:90%; 
   left:0; right:0;
   z-index: 1000; }
 #main { 
   position:absolute; 
-  top:5%; bottom:0; 
+  top:10%; bottom:0; 
   left:0; right:60%;
   background-color: black;
   color: white;
-  padding:15px; }
+  padding:2em 1em; }
 #map { 
   position:absolute; 
-  top:5%; bottom:0; 
+  top:10%; bottom:0; 
   left:40%; right:0; }
 #dashboard {
+  color: #66cd00;
   width: 20%;
   height:8em;
-  background: rgba(255,255,255, 0.5);
+  background: rgba(255,255,255, 0.3);
   position: absolute;
   top:10%; bottom:0; 
   left:80%; right:0; 
@@ -41,9 +54,11 @@
 }
 
 footer { 
-  padding: 2em 0 5em 0; 
-  background-color: black; 
-  color: white; 
+    clear: both;
+    position:fixed;
+    bottom:0;
+    height: 3em;
+    margin-top: -3em;
 }
 
 /*footer a { 

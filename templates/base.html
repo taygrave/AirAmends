@@ -2,8 +2,8 @@
 <html>
 <head>
   <meta charset=utf-8 />
-  <title>Animating flight paths</title>
-  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <title>AirAmends</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="//code.jquery.com/jquery-1.9.1.js"></script>
   <link rel="stylesheet" href="/static/bootstrap-3.3.2-dist/css/bootstrap.min.css">
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
@@ -17,7 +17,7 @@
 </head>
 
 <body>
-
+<div class="container-fluid">
   <!-- THE HEADER -->
   <div id="header"> 
     <nav class="navbar navbar-inverse">
@@ -33,7 +33,7 @@
   {% if 'user_id' not in session %}
     <div id='logged-out'>
       <div class="not_authorized">
-        <p> To see your flights and calculate your carbon emissions, you must sign in with your Google ID.</p>
+        <p> To see your flights and calculate your carbon emissions, you must authorize us to query your Gmail Account.</p>
         <form action="/login/" class="form-signin" id="getflights">
           <button class="btn btn-lg btn-success" type="submit">Authorize Google</button>
         </form>
@@ -52,22 +52,19 @@
 
   <footer> 
     <a href="/about_calc" id="load-methods">How we Price and Calculate</a>
-      </div>
   </footer>
 
   <div id="modal-wrapper"></div>
 </div>
 
-<script>var carbonPrice = {{carbon_price}}</script>
-  <div id="dashboard">Things to display here:
-    <ul>
-      <li id="carbon-debt"></li>
-      <li id="carbon-price"></li>
-      <li>Button to donate out</li>
-    </ul>
+  <div id="dashboard">
+    <span>CO2e (mt)<h2><span id="carbon-debt"></span></h2></span>
+    <span>carbon debt<h2>$<span id="carbon-price"></span></h2></span>
+    <p id="donate"></p>
   </div>
 
   <!-- THE FLIGHT MAP -->
   <div id='map' class='dark'></div>
+  </div>
   </body>
 </html>

@@ -72,25 +72,25 @@ def before_request():
 @app.route("/")
 def homepage():
     #TODO: May need a = if current_user then call this function instead of this
-    carbon_price = g.carbon_price
     json_array = []
     if current_user.is_authenticated():
         json_array = flights4map()
 
-    return render_template("base.html", jsonarray=json_array, carbon_price=carbon_price)
+    return render_template("base.html", jsonarray=json_array)
 
 @app.route("/get_flights", methods=["GET"])
 def getflights():
     #TODO: Ensure this reports out in ascending order - fix associated code 
     user_setup()
+    carbon_price = g.carbon_price
     emails_in_db = Email.query.filter(Email.user_id == current_user.id).order_by(asc(Email.date)).all()
     email_stats = [len(list(emails_in_db)), emails_in_db[0].date, emails_in_db[-1].date]     
     user_flights = Flight.query.all()
-    CO2e = seed_flights.CO2e_results(user_flights)
+    CO2e = round(seed_flights.CO2e_results(user_flights),2)
     g.carbon_debt = CO2e
     years_list = seed_flights.report_by_year()
 
-    return render_template("/getflights.html", email_stats=email_stats, user_flights=user_flights, CO2e=CO2e, years_list=years_list)
+    return render_template("/getflights.html", email_stats=email_stats, user_flights=user_flights, CO2e=CO2e, years_list=years_list, carbon_price=carbon_price)
 
 @app.route("/flight_reset", methods=["POST"])
 def reset_flights():
@@ -172,6 +172,10 @@ def add_flight():
 @app.route("/about_calc")
 def aboutcalc():
     return render_template("carboncalcs.html")
+
+@app.route("/donate")
+def donate_page():
+    return render_template("donate.html")
 
 @app.route("/flights.js")
 def flights4map():

@@ -32,5 +32,8 @@ Our reports are generated off of the {{email_stats[0]}} flight confirmation emai
 <form action="/complete_reset" method="POST">
     <button class="btn btn-lg btn-danger" type="submit">Re-Query Gmail from Scratch</button>
 </form>
-<script>var carbonDebt = {{'%0.2f' % CO2e}};
-    console.log(carbonDebt)</script>
+
+<script>
+  var carbonPrice = {{carbon_price}}.toFixed(2);
+  var carbonDebt = {{'%0.2f' % CO2e}}.toFixed(2);
+</script>
