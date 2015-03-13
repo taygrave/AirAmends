@@ -4,6 +4,7 @@ function loadStuff(path) {
         if (path == '/get_flights'){
             loadFlights();
         }
+        console.log("i'm callling");
         setDashboard();
       });
     }
@@ -27,10 +28,10 @@ function loadMethods(evt) {
   }
 
 function setDashboard() {
+    console.log("setting dashboard");
     console.log(carbonDebt);
     console.log(typeof(carbonDebt));
     carbonDebt = carbonDebt.toFixed(2);
-    console.log("setting dashboard");
     carbonPrice = ('$'+(carbonDebt*CO2ePrice).toFixed(2).toString());
     $("#carbon-debt").html(carbonDebt);
     $("#carbon-price").html(carbonPrice);

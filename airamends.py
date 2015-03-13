@@ -34,14 +34,14 @@ def get_auth_flow():
 
 def user_setup():
     """Once user is logged-in, this is called to query user's emails and seed db for flights found"""
-    db_user_emails = Email.query.filter(Email.user_id == g.my_user_id).first()
-    db_user_flights = Flight.query.filter(Flight.user_id == g.my_user_id).first()
+    db_user_emails = Email.query.filter(Email.user_id == current_user.id).first()
+    db_user_flights = Flight.query.filter(Flight.user_id == current_user.id).first()
 
     if db_user_emails and db_user_flights:
         return None
     else:
-        gmailapiworks.add_msgs_to_db(g.gmail_api, g.my_user_id)
-        seed_flights.seed_flights(g.my_user_id)
+        gmailapiworks.add_msgs_to_db(g.gmail_api, current_user.id)
+        seed_flights.seed_flights(current_user.id)
 
 @login_manager.user_loader
 def load_user(userid):
@@ -50,7 +50,7 @@ def load_user(userid):
 @app.before_request
 def before_request():
     g.carbon_price = 37.00 #Official White House SCC as of Nov 2014
-    if current_user.is_authenticated():
+    if current_user.is_authenticated() and current_user.id > 0:
         credentials = AccessTokenCredentials(current_user.access_token, u'')
         g.gmail_api = get_api(credentials)
         print "at before request, built"
@@ -61,10 +61,6 @@ def before_request():
     else:
         g.status = current_user.email
         g.link = "/logout/"
-
-    if flask_session.get('user_id'):
-        g.my_user_id = current_user.id
-
 
 @app.route("/")
 def homepage():
@@ -79,10 +75,10 @@ def homepage():
 def getflights():
     #TODO: Ensure this reports out in ascending order - fix associated code 
     user_setup()
-    emails_in_db = Email.query.filter(Email.user_id == g.my_user_id).order_by(asc(Email.date)).all()
+    emails_in_db = Email.query.filter(Email.user_id == current_user.id).order_by(asc(Email.date)).all()
     email_stats = [len(list(emails_in_db)), emails_in_db[0].date, emails_in_db[-1].date]     
-    user_flights = Flight.query.filter(Flight.user_id == g.my_user_id).all()
-    years_list = seed_flights.report_by_year(g.my_user_id)
+    user_flights = Flight.query.filter(Flight.user_id == current_user.id).all()
+    years_list = seed_flights.report_by_year(current_user.id)
 
     return render_template("/getflights.html", email_stats=email_stats, user_flights=user_flights, years_list=years_list)
 
@@ -90,7 +86,7 @@ def getflights():
 def yearflights(year):
     year = int(year)
     results_list = []
-    user_flights = Flight.query.filter(Flight.user_id == g.my_user_id).order_by(Flight.date.asc(), Flight.id.asc()).all()
+    user_flights = Flight.query.filter(Flight.user_id == current_user.id).order_by(Flight.date.asc(), Flight.id.asc()).all()
     
     working_list = [obj for obj in user_flights if (obj.date.year == year)]
 
@@ -114,7 +110,7 @@ def yearflights(year):
 @app.route("/delete_flight", methods=["POST"])
 def delete_flight():
     id = int(request.values['id'])
-    flight = Flight.query.filter(Flight.id == id, Flight.user_id == g.my_user_id).one()
+    flight = Flight.query.filter(Flight.id == id, Flight.user_id == current_user.id).one()
     session.delete(flight)
     session.commit()
     return "OK"
@@ -172,7 +168,7 @@ def donate_page():
 @app.route("/flights.js")
 def flights4map():
     """Queries db for all flights and turns into a json for mapbox animation"""
-    total_flights = Flight.query.filter(Flight.user_id == g.my_user_id).all()
+    total_flights = Flight.query.filter(Flight.user_id == current_user.id).all()
 
     if total_flights != None:
         map_list = []
@@ -246,10 +242,11 @@ def login_callback():
 @app.route('/logout/')
 def logout():
     # Complete Reset
-    Email.query.filter(Email.user_id == g.my_user_id).delete()
-    Flight.query.filter(Flight.user_id == g.my_user_id).delete()
-    User.query.filter(User.id == g.my_user_id).delete() 
-    session.commit()
+    if current_user.id > 0:
+        Email.query.filter(Email.user_id == current_user.id).delete()
+        Flight.query.filter(Flight.user_id == current_user.id).delete()
+        User.query.filter(User.id == current_user.id).delete() 
+        session.commit()
 
     logout_user()
 
@@ -257,8 +254,9 @@ def logout():
 
 @app.route("/demo", methods=["POST"])
 def demo_site():
-    # g.my_user = 0
-    return redirect(url_for('getflights'))
+    user = User.query.filter_by(id = 0).one()
+    login_user(user, remember = True)
+    return redirect(url_for('homepage'))
 
 ## Deprecated: need to be updated to query only for current user if going to use
 # @app.route("/flight_reset", methods=["POST"])

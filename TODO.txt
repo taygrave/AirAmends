@@ -1,4 +1,5 @@
 NEXT STEPS
+    need to re-setup id 0 for demo abilities
     javascript dashboard setup math is acting super weird >:C
     alphabetize airports on drop down for add flight
     redraw button? maybe having to do with g vars if user logged in?
