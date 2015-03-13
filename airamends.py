@@ -175,7 +175,9 @@ def aboutcalc():
 
 @app.route("/donate")
 def donate_page():
-    return render_template("donate.html")
+    debt = request.args.get('carbon_debt')
+    print debt
+    return render_template("donate.html", debt=debt)
 
 @app.route("/flights.js")
 def flights4map():

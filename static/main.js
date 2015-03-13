@@ -4,6 +4,7 @@ function loadStuff(path) {
         if (path == '/get_flights'){
             loadFlights();
         }
+        setDashboard();
       });
     }
 
@@ -24,6 +25,15 @@ function loadMethods(evt) {
       $("#terms-modal").modal();
     });
   }
+
+function setDashboard() {
+    console.log("HEEEY");
+    carbonPrice = ('$'+(carbonDebt*CO2ePrice).toFixed(2).toString());
+    console.log(carbonDebt);
+    $("#carbon-debt").html(carbonDebt);
+    $("#carbon-price").html(carbonPrice);
+    $("#donate").html('<button class="btn btn-lg btn-success" onclick="window.location.href=\'/donate?carbon_debt='+carbonPrice+'\'">Donate!</button>');
+    }
 
 function drawPairs() {
     // Transform the short [lat,lng] format in our

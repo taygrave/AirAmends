@@ -67,6 +67,8 @@ var deleteFlight = function(id, tRow, CO2e){
                     row.remove();
                     addTotals();
                     carbonDebt = parseInt(carbonDebt) - CO2e;
+                    console.log(CO2e);
+                    console.log(carbonDebt);
                     setDashboard();
 
                 } else {

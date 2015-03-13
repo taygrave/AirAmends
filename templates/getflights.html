@@ -36,14 +36,4 @@ Our reports are generated off of the {{email_stats[0]}} flight confirmation emai
 <script>
   CO2ePrice = {{carbon_price}}.toFixed(2);
   carbonDebt = {{'%0.2f' % CO2e}}.toFixed(2);
-
-  function setDashboard() {
-    console.log("HEEEY");
-    carbonPrice = ('$'+(carbonDebt*CO2ePrice).toFixed(2).toString());
-    $("#carbon-debt").html(carbonDebt);
-    $("#carbon-price").html(carbonPrice);
-    $("#donate").html('<button class="btn btn-lg btn-success" onclick="window.location.href=\'/donate?carbon_debt='+carbonPrice+'\'">Donate!</button>');
-    }
-
-   setDashboard()
 </script>
