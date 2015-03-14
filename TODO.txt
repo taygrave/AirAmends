@@ -1,3 +1,6 @@
+BUGS:
+    issue with data deletion on signout
+
 CODE TIDYING:
     remove model.connect where possible
     find all FIXMEs
@@ -14,6 +17,4 @@ PAGE STYLING:
 Things I want help from Mentors with:
     adding in tests
     redrawing the map on click of a button
-
-
-    
+   

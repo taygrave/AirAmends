@@ -244,10 +244,11 @@ def login_callback():
 def logout():
     # Complete Reset, not disabling demo data
     if current_user.id > 0:
+        Flight.query.filter(Flight.user_id == current_user.id).delete()
         Email.query.filter(Email.user_id == current_user.id).delete()
         User.query.filter(User.id == current_user.id).delete() 
         session.commit()
-        Flight.query.filter(Flight.user_id == current_user.id).delete()
+        
 
     logout_user()
 
