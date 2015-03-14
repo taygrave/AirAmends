@@ -23,9 +23,14 @@ var addFlight = function(result){
         cell2.innerHTML = result.depart;
         cell3.innerHTML = result.arrive;
         cell4.innerHTML = (result.CO2e).toFixed(2);
+        $(cell4).addClass("emiss");
+        $(cell4).attr("data-amt", result.CO2e);
         cell5.innerHTML = ('$' +((result.price).toFixed(2)).toString());
+        $(cell5).addClass("priced");
+        $(cell5).attr("data-amt", result.price);
         cell6.innerHTML ='<button type="button" class="btn btn-danger" style="visibility: hidden" id="row-entry.id" onclick="deleteFlight(\''+result.id+'\', \''+tRow+'\')">DELETE</button>';
-        carbonDebt = parseFloat(carbonDebt, 10) + result.CO2e;
+        addTotals();
+        carbonDebt = carbonDebt + result.CO2e;
         setDashboard();
 }};
 
@@ -44,7 +49,7 @@ var deleteFlight = function(id, tRow, CO2e){
                     var row = document.getElementById(tRow);
                     row.remove();
                     addTotals();
-                    carbonDebt = parseFloat(carbonDebt, 10) - CO2e;
+                    carbonDebt = carbonDebt - CO2e;
                     setDashboard();
 
                 } else {

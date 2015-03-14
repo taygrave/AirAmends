@@ -4,7 +4,6 @@ function loadStuff(path) {
         if (path == '/get_flights'){
             loadFlights();
         }
-        console.log("i'm callling");
         setDashboard();
       });
     }
@@ -31,9 +30,8 @@ function setDashboard() {
     console.log("setting dashboard");
     console.log(carbonDebt);
     console.log(typeof(carbonDebt));
-    carbonDebt = carbonDebt.toFixed(2);
     carbonPrice = ('$'+(carbonDebt*CO2ePrice).toFixed(2).toString());
-    $("#carbon-debt").html(carbonDebt);
+    $("#carbon-debt").html(carbonDebt.toFixed(2));
     $("#carbon-price").html(carbonPrice);
     $("#donate").html('<button class="btn btn-lg btn-success" onclick="window.location.href=\'/donate?carbon_debt='+carbonPrice+'\'">Donate!</button>');
     }

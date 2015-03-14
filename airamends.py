@@ -143,7 +143,7 @@ def add_flight():
         depart_city = (d_airport.latitude, d_airport.longitude)
         arrive_city = (a_airport.latitude, a_airport.longitude)
 
-        CO2e = round(seed_flights.calc_carbon(depart_city, arrive_city),2)
+        CO2e = seed_flights.calc_carbon(depart_city, arrive_city)
         price = CO2e * g.carbon_price
         
         return jsonify(date=date,
