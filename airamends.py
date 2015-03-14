@@ -50,6 +50,7 @@ def load_user(userid):
 @app.before_request
 def before_request():
     g.carbon_price = 37.00 #Official White House SCC as of Nov 2014
+
     if current_user.is_authenticated() and current_user.id > 0:
         credentials = AccessTokenCredentials(current_user.access_token, u'')
         g.gmail_api = get_api(credentials)
@@ -241,12 +242,12 @@ def login_callback():
 
 @app.route('/logout/')
 def logout():
-    # Complete Reset
+    # Complete Reset, not disabling demo data
     if current_user.id > 0:
         Email.query.filter(Email.user_id == current_user.id).delete()
-        Flight.query.filter(Flight.user_id == current_user.id).delete()
         User.query.filter(User.id == current_user.id).delete() 
         session.commit()
+        Flight.query.filter(Flight.user_id == current_user.id).delete()
 
     logout_user()
 
