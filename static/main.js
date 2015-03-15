@@ -27,9 +27,9 @@ function loadMethods(evt) {
   }
 
 function setDashboard() {
-    console.log("setting dashboard");
-    console.log(carbonDebt);
-    console.log(typeof(carbonDebt));
+    // console.log("setting dashboard");
+    // console.log(carbonDebt);
+    // console.log(typeof(carbonDebt));
     carbonPrice = ('$'+(carbonDebt*CO2ePrice).toFixed(2).toString());
     $("#carbon-debt").html(carbonDebt.toFixed(2));
     $("#carbon-price").html(carbonPrice);

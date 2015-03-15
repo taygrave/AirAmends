@@ -28,7 +28,7 @@ var addFlight = function(result){
         cell5.innerHTML = ('$' +((result.price).toFixed(2)).toString());
         $(cell5).addClass("priced");
         $(cell5).attr("data-amt", result.price);
-        cell6.innerHTML ='<button type="button" class="btn btn-danger" style="visibility: hidden" id="row-entry.id" onclick="deleteFlight(\''+result.id+'\', \''+tRow+'\')">DELETE</button>';
+        cell6.innerHTML ='<button type="button" class="btn btn-danger" style="visibility: hidden" id="row-entry.id" onclick="deleteFlight(\''+result.id+'\', \''+tRow+'\',\''+result.CO2e+'\')">DELETE</button>';
         addTotals();
         carbonDebt = carbonDebt + result.CO2e;
         setDashboard();
@@ -49,6 +49,8 @@ var deleteFlight = function(id, tRow, CO2e){
                     var row = document.getElementById(tRow);
                     row.remove();
                     addTotals();
+                    console.log(CO2e);
+                    console.log(typeof(CO2e))
                     carbonDebt = carbonDebt - CO2e;
                     setDashboard();
 
