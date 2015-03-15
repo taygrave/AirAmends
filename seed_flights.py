@@ -71,11 +71,10 @@ def seed_flights(user_id):
     s.commit()
     print "completed: flight search and adding to db"
 
-def calc_carbon(depart_city, arrive_city):
+def calc_carbon(depart_city, arrive_city, uplift_factor=1.09, radiative_forcing=1.9 ):
     """Receives two tuples of the (lat,long) of the departing and arriving airports and calculates the distance between (using great circle), determines haul length, and calculate CO2e emissions accordingly (using EPA methods). Returns a float."""
-    #calculate Some use only the great circle distance (the shortest distance between two points on the globe) between two airports * accounting for take-off, circling, non-direct routes
-    uf = 1.09 #IPCC uplift factor
-    distance = great_circle(depart_city, arrive_city).miles * uf
+    #calculate Some use only the great circle distance (the shortest distance between two points on the globe) between two airports * uplift_factor (accounts for take-off, circling, non-direct routes, default sourced from IPCC)
+    distance = great_circle(depart_city, arrive_city).miles * uplift_factor
 
     ##EF & CO2E equation below source: http://www.epa.gov/climateleadership/documents/resources/commute_travel_product.pdf
     flight_dict = {
@@ -89,11 +88,14 @@ def calc_carbon(depart_city, arrive_city):
         if distance >= low and distance <= high:
             em_per_pass = flight_dict[(low, high)]
 
-    #Emissions of CO2E using distance, emissions factors by haul as provided by source (comment above dict) convertered into metric tons and with a radiative forcing applied
+    #Emissions of CO2E using distance, emissions factors by haul as provided by source (comment above dict) convertered into metric tons and with radiative forcing applied (default sourced from DEFRA)
+    
+    #Emissions variables:
     mt = 0.001 #kgs to metric tons
-    rf = 1.9 # DEFRA's recommended Radiative Forcing factor
-    #TODO: turn EPA constants into named variables
-    CO2e = distance * (em_per_pass + 0.0104 * 0.021 + 0.0085 * 0.310) * mt * rf
+    CH4 = (0.0104 * 0.021) #Methane emissions factor * conversion factor, EPA
+    N2O = (0.0085 * 0.310) #Nitrous oxide emissions factor * conversion factor, EPA
+
+    CO2e = distance * (em_per_pass + CH4 + N2O) * mt * radiative_forcing
 
     return CO2e
 

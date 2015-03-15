@@ -1,7 +1,4 @@
 BUGS:
-    deleteFlights not working NaN error
-    issue with data deletion on signout
-    address scenario where you don't have any email finds (suggest reasons why this may have happened)
     if logged out - 'authorize google' still tries to sign in the last person
 
 CODE TIDYING:
@@ -20,6 +17,3 @@ PAGE STYLING:
 Things I want help from Mentors with:
     adding in tests
     redrawing the map on click of a button
-
-New Features:
-    allow people to add in their own flights sans gmail account

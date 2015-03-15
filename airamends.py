@@ -1,8 +1,8 @@
-from flask import Flask, render_template, request, g, flash, redirect, url_for
+from flask import Flask, render_template, request, g, redirect, url_for
 from flask import session as flask_session
 from flask.ext.login import LoginManager
 from flask.ext.login import login_user, logout_user, current_user
-import pdb, json, re
+import json, re
 from datetime import datetime
 from model import *
 import gmailapiworks, seed_flights
@@ -40,8 +40,11 @@ def user_setup():
     if db_user_emails and db_user_flights:
         return None
     else:
-        gmailapiworks.add_msgs_to_db(g.gmail_api, current_user.id)
-        seed_flights.seed_flights(current_user.id)
+        query_result = gmailapiworks.add_msgs_to_db(g.gmail_api, current_user.id)
+        if query_result == "No messages found matching query.":
+            return "Error"
+        else:
+            seed_flights.seed_flights(current_user.id)
 
 @login_manager.user_loader
 def load_user(userid):
@@ -65,7 +68,6 @@ def before_request():
 
 @app.route("/")
 def homepage():
-    #TODO: May need a = if current_user then call this function instead of this
     json_array = []
     if current_user.is_authenticated():
         json_array = flights4map()
@@ -74,14 +76,15 @@ def homepage():
 
 @app.route("/get_flights", methods=["GET"])
 def getflights():
-    #TODO: Ensure this reports out in ascending order - fix associated code 
-    user_setup()
-    emails_in_db = Email.query.filter(Email.user_id == current_user.id).order_by(asc(Email.date)).all()
-    email_stats = [len(list(emails_in_db)), emails_in_db[0].date, emails_in_db[-1].date]     
-    user_flights = Flight.query.filter(Flight.user_id == current_user.id).all()
-    years_list = seed_flights.report_by_year(current_user.id)
+    if user_setup() != "Error":
+        emails_in_db = Email.query.filter(Email.user_id == current_user.id).order_by(asc(Email.date)).all()
+        email_stats = [len(list(emails_in_db)), emails_in_db[0].date, emails_in_db[-1].date]     
+        user_flights = Flight.query.filter(Flight.user_id == current_user.id).all()
+        years_list = seed_flights.report_by_year(current_user.id)
 
-    return render_template("/getflights.html", email_stats=email_stats, user_flights=user_flights, years_list=years_list)
+        return render_template("/getflights.html", email_stats=email_stats, user_flights=user_flights, years_list=years_list)
+    else:
+        return render_template("/noemails.html")
 
 @app.route("/get_flights/<year>")
 def yearflights(year):
@@ -119,7 +122,6 @@ def delete_flight():
 @app.route("/add_flight", methods=["GET"])
 def add_flight():
     """Receives user input for flight details (date, departure, arrival) and makes a new flight entry in the db for user"""
-    #TODO Tidy this or break into other functions, so long
     date = request.args.get('purchase_date')
     depart = request.args.get('depart')
     arrive = request.args.get('arrive')
