@@ -7,14 +7,14 @@
 #main { 
   position:absolute; 
   top:10%; bottom:0; 
-  left:0; right:60%;
+  left:0; right:50%;
   background-color: black;
   color: white;
   padding:1em 1em; }
 #map { 
   position:absolute; 
   top:10%; bottom:0; 
-  left:40%; right:0; }
+  left:50%; right:0; }
 #dashboard {
   color: #66cd00;
   width: 20%;
@@ -70,9 +70,11 @@ footer {
  * stroke-dashoffset css property
  */
 .path-start {
-  -webkit-transition:stroke-dashoffset 5s ease-in;
-     -moz-transition:stroke-dashoffset 5s ease-in;
-       -o-transition:stroke-dashoffset 5s ease-in;
-          transition:stroke-dashoffset 5s ease-in;
+  -webkit-transition:stroke-dashoffset 5s ease-in-out;
+     -moz-transition:stroke-dashoffset 5s ease-in-out;
+       -o-transition:stroke-dashoffset 5s ease-in-out;
+          transition:stroke-dashoffset 5s ease-in-out;
   }
+
+
 

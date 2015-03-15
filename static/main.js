@@ -99,7 +99,7 @@ function drawPairs() {
         // See http://css-tricks.com/svg-line-animation-works/
         // for details on this trick.
         newLine._path.style.strokeDashoffset = totalLength;
-        newLine._path.style.strokeDasharray = totalLength;
+        newLine._path.style.strokeDasharray = totalLength + '     ' + totalLength;
         // Offset the timeout here: setTimeout makes a function
         // run after a certain number of milliseconds - in this
         // case we want each flight path to be staggered a bit.
