@@ -72,26 +72,24 @@ def seed_flights(user_id):
     print "completed: flight search and adding to db"
 
 def calc_carbon(depart_city, arrive_city, uplift_factor=1.09, radiative_forcing=1.9 ):
-    """Receives two tuples of the (lat,long) of the departing and arriving airports and calculates the distance between (using great circle), determines haul length, and calculate CO2e emissions accordingly (using EPA methods). Returns a float."""
-    #calculate Some use only the great circle distance (the shortest distance between two points on the globe) between two airports * uplift_factor (accounts for take-off, circling, non-direct routes, default sourced from IPCC)
+    """Receives two tuples of the (lat,long) of the departing and arriving airports and defaults from the IPCC's uplift factor and DEFRA's radiative forcing. Calculates the distance between (using great circle) & determines haul length, uses emissions factor constants from EPA methods. Returns a float representing CO2e emissions per passenger-mile for input flight segment."""
+    #Great circle distance (the shortest distance between two points on the globe) between two airports * uplift_factor (accounts for take-off, circling, non-direct routes, default sourced from IPCC)
     distance = great_circle(depart_city, arrive_city).miles * uplift_factor
 
-    ##EF & CO2E equation below source: http://www.epa.gov/climateleadership/documents/resources/commute_travel_product.pdf
+    #EPA methods for haul length, conversion factors, and equation: http://www.epa.gov/climateleadership/documents/resources/commute_travel_product.pdf
     flight_dict = {
-        #keys are tupes of lower and higher bound miles traveled
-        #values are CO2 Emissions factors in kg CO2 / passenger-mile
+        #keys are tupes of lower and higher bound miles traveled, values are CO2 Emissions factors in kg CO2 / passenger-mile
         (0.00, 300.00) : 0.277, #Short-haul flight
         (301.00, 700.00) : 0.229, #Medium-haul flight
         (700.00, 15000.00) : 0.185} #Long-haul flights
 
+    #Determing haul length and associated EF for input flight
     for low, high in flight_dict.keys():
         if distance >= low and distance <= high:
             em_per_pass = flight_dict[(low, high)]
 
-    #Emissions of CO2E using distance, emissions factors by haul as provided by source (comment above dict) convertered into metric tons and with radiative forcing applied (default sourced from DEFRA)
-    
     #Emissions variables:
-    mt = 0.001 #kgs to metric tons
+    mt = 0.001 #conversion factor: kgs to metric tons
     CH4 = (0.0104 * 0.021) #Methane emissions factor * conversion factor, EPA
     N2O = (0.0085 * 0.310) #Nitrous oxide emissions factor * conversion factor, EPA
 
@@ -142,33 +140,3 @@ def year_calc(yyyy, user_id):
         sum_CO2e = CO2e + sum_CO2e
 
     return (yyyy, num_flights, sum_CO2e)
-
-def get_airports():
-    s = model.connect()
-    airports = s.query(model.Airport).all()
-    airport_list = []
-
-    for obj in airports:
-        airport_list.append((obj.id, obj.city))
-
-    return airport_list
-
-
-
-# def print_to_file():
-#     """Queries the database for the body of the messages and prints out content into txt files so we can examine them ourselves """
-#     #TODO: DELETE this function once you're done!
-#     s = model.connect()
-#     msg_list = s.query(model.Email).all()
-
-#     for msg in msg_list:
-#         body = msg.body.encode('utf-8')
-#         filename = "body/" + str(msg.id) + ".txt"
-#         f = open(filename, 'w')
-#         print >> f, body
-#         f.close
-
-
-
-
-

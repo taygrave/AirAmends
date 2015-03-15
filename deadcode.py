@@ -21,3 +21,16 @@ def new_flights():
     <button class="btn btn-lg btn-success" type="submit">Query for New Emails Only</button>
 </form>
 """
+
+#This used to live in seed_flights when I needed to examine email bodies once they were decoded
+def print_to_file():
+    """Queries the database for the body of the messages and prints out content into txt files so we can examine them ourselves """
+    s = model.connect()
+    msg_list = s.query(model.Email).all()
+
+    for msg in msg_list:
+        body = msg.body.encode('utf-8')
+        filename = "body/" + str(msg.id) + ".txt"
+        f = open(filename, 'w')
+        print >> f, body
+        f.close
