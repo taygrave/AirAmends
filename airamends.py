@@ -34,17 +34,23 @@ def get_auth_flow():
 
 def user_setup():
     """Once user is logged-in, this is called to query user's emails and seed db for flights found."""
+    #Check if user already has emails & flights in db
     db_user_emails = Email.query.filter(Email.user_id == current_user.id).first()
     db_user_flights = Flight.query.filter(Flight.user_id == current_user.id).first()
 
+    #If so, do not query Gmail API anew - currently this is only good for demo feature, allows for future option of returning users
     if db_user_emails and db_user_flights:
         return None
+    
+    #Query Gmail API
     else:
         query_result = gmailapiworks.add_msgs_to_db(g.gmail_api, current_user.id)
-        if query_result == "No messages found matching query.":
-            return "Error"
-        else:
+        if query_result == "Successfully added emails to the db":
+            print "Email query sucessful"
             seed_flights.seed_flights(current_user.id)
+        else:
+            print "Error with email query"
+            return "Error"
 
 @login_manager.user_loader
 def load_user(userid):

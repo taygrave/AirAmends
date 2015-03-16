@@ -81,7 +81,7 @@ def add_msgs_to_db(service, user_id, query=query):
             s.add(entry)
             s.commit()
 
-    print "Successfully added emails to the db"
+    return "Successfully added emails to the db"
 
 def convert_date(date_str):
   """Converts email obj date (string) into a datetime date object."""
