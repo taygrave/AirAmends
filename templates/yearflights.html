@@ -1,15 +1,24 @@
 
-<script>var data = {{airports_json | safe}};</script>
+<script>
+    //Data to feed airport names into drop-down add flights form
+    var data = {{airports_json | safe}};
+</script>
 <script src="/static/useredits.js"></script>
 
 <h2>{{year}}</h2>
+<p>
     Your flights found for {{year}} are displayed below. Please confirm the report is correct. It is possible your report is not accurate; you can delete flights you never took by hovering over the row. You can add flights that were missed by entering their information at the top of the table.<br>
-<a href="/get_flights">Back to Summary</a> 
+</p>
+<a href="/get_flights">Back to Summary</a><br><br>
 
-<br><br>
 <table name="report" id="report">
     <tr>
-        <th>Purchased On:</th><th>Departing From:</th><th>Arriving In:</th><th>CO2e Emissions (mt)</th><th>Emissions Value (2015$)</th><th></th>
+        <th>Purchased On:</th>
+        <th>Departing From:</th>
+        <th>Arriving In:</th>
+        <th>CO2e Emissions (mt)</th>
+        <th>Emissions Value (2015$)</th>
+        <th></th> <!-- Empty spot for delete buttons -->
     </tr>
     
     <tr id="flightadd">
@@ -43,4 +52,3 @@
         <th></th>
     </tr>
 </table>
-<br><br><br><br>
