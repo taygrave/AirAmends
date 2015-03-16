@@ -33,7 +33,7 @@ function setDashboard() {
     carbonPrice = ('$'+(carbonDebt*CO2ePrice).toFixed(2).toString());
     $("#carbon-debt").html(carbonDebt.toFixed(2));
     $("#carbon-price").html(carbonPrice);
-    $("#donate").html('<button class="btn btn-lg btn-success" onclick="window.location.href=\'/donate?carbon_debt='+carbonPrice+'\'">Donate!</button>');
+    $("#donate").html('<button class="btn btn-lg btn-warning" onclick="window.location.href=\'/donate?carbon_debt='+carbonPrice+'\'">Donate!</button>');
     }
 
 function flightTotal() {
