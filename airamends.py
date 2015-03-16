@@ -99,26 +99,25 @@ def get_flights():
         return render_template("/getflights.html", num_emails=num_emails, first_year=first_year, last_year=last_year, years_list=years_list)
 
 @app.route("/get_flights/<year>")
-def yearflights(year):
+def get_flights_by_year(year):
+    """When certain year is selected from get_flights, returns year-specific summary report with flight legs and emissions"""
     year = int(year)
     results_list = []
     user_flights = Flight.query.filter(Flight.user_id == current_user.id).order_by(Flight.date.asc(), Flight.id.asc()).all()
     
+    #Ensure returned flights related to year selected
     working_list = [obj for obj in user_flights if (obj.date.year == year)]
 
+    #Summary report stats for this year
     for flight in working_list:
-        depart_city = (flight.departure.latitude, flight.departure.longitude)
-        arrive_city = (flight.arrival.latitude, flight.arrival.longitude)
-        #rounding completed here removes some precision, and also removes precision error
-        CO2e = seed_flights.calc_carbon(depart_city, arrive_city)
-        #using a backreference here to name the cities for display instead of using their airport codes, for better user recognition
-        #TODO change it so that the formating is done in the html, not in the backend
         date = flight.date.strftime('%b-%d')
         depart = "%s (%s)" %(flight.departure.city, flight.depart)
         arrive = "%s (%s)" %(flight.arrival.city, flight.arrive)
+        CO2e = seed_flights.calc_carbon((flight.departure.latitude, flight.departure.longitude), (flight.arrival.latitude, flight.arrival.longitude))
 
-        results_list.append((date, depart, arrive, CO2e, flight.id))
+        results_list.append((flight.id, date, depart, arrive, CO2e))
 
+    #Data to feed airport names into JavaScript drop-down add flights form
     airports_json = get_airports()
 
     return render_template("/yearflights.html", year=year, results_list=results_list, airports_json=airports_json)

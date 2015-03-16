@@ -32,7 +32,7 @@
     </div>
     </tr>
     
-    {% for date, depart, arrive, CO2e, flight_id in results_list %}
+    {% for flight_id, date, depart, arrive, CO2e in results_list %}
     <tr id={{"row-%d" % flight_id}}>
         <td>{{date}}</td>
         <td>{{depart}}</td>

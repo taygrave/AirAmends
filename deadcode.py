@@ -34,3 +34,18 @@ def print_to_file():
         f = open(filename, 'w')
         print >> f, body
         f.close
+
+#From airamends.py, features that weren't used for final app as of now
+## Deprecated: need to be updated to query only for current user if going to use
+# @app.route("/flight_reset", methods=["POST"])
+# def reset_flights():
+#     Flight.query.delete()
+#     session.commit()
+#     return redirect(url_for('getflights'))
+
+# @app.route("/complete_reset", methods=["POST"])
+# def complete_reset():
+#     Email.query.delete()
+#     Flight.query.delete()
+#     session.commit()
+#     return redirect(url_for('getflights'))
