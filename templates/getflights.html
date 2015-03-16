@@ -1,6 +1,6 @@
-<h2>{{email_stats[1]}}-{{email_stats[2]}}</h2>
+<h2>{{first_year}}-{{last_year}}</h2>
 
-Our reports are generated off of the {{email_stats[0]}} flight confirmation emails we found for you. These emails range over the period  to .<br><br>
+Our reports are generated off of the {{num_emails}} flight confirmation emails we found for you. You can click on each year for a more detailed report, including each flight segement found for you in that year, and validate your findings.<br><br>
 
 <table >
     <tr>
@@ -29,8 +29,6 @@ Our reports are generated off of the {{email_stats[0]}} flight confirmation emai
 
 <br>
 
-{{years_list}}
-
 <script>
   $(document).ready(function (){
     // Calculate and populate the totals for each results table
@@ -38,7 +36,5 @@ Our reports are generated off of the {{email_stats[0]}} flight confirmation emai
     flightTotal();
     CO2ePrice = {{g.carbon_price}};
     carbonDebt = carbonDebt1;
-
-
 });
 </script>

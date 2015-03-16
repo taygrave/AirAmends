@@ -72,7 +72,13 @@ def homepage():
 
 @app.route("/get_flights", methods=["GET"])
 def get_flights():
-    if user_setup() != "Error":
+    """Main Homepage: Calls user_setup() and if that returns with found flight emails, produces total summary results report for each year flight emails were found."""
+    #Return page explaining what to do in case no matching emails were found
+    if user_setup() == "Error":
+        return render_template("/noemails.html")
+    
+    #Return main summary report page
+    else:
         #Query email results list from gmail query
         emails_in_db = Email.query.filter(Email.user_id == current_user.id).order_by(asc(Email.date)).all()
 
@@ -80,14 +86,11 @@ def get_flights():
         num_emails = len(list(emails_in_db))
         first_year = emails_in_db[0].date.year
         last_year = emails_in_db[-1].date.year
-        email_stats = [num_emails, first_year, last_year]
 
         #Summary results list for the year, number of flights, and total CO2e to pass into page
         years_list = seed_flights.report_by_year(current_user.id)
 
-        return render_template("/getflights.html", email_stats=email_stats, years_list=years_list)
-    else:
-        return render_template("/noemails.html")
+        return render_template("/getflights.html", num_emails=num_emails, first_year=first_year, last_year=last_year, years_list=years_list)
 
 @app.route("/get_flights/<year>")
 def yearflights(year):
