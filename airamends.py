@@ -157,7 +157,7 @@ def add_flight():
         a_airport = Airport.query.filter_by(id = db_arrive).one()
         CO2e = seed_flights.calc_carbon((d_airport.latitude, d_airport.longitude), (a_airport.latitude, a_airport.longitude))
         price = CO2e * g.carbon_price 
-        
+
         return jsonify(date=date,
             depart=depart,
             arrive=arrive,
@@ -170,10 +170,12 @@ def add_flight():
 
 @app.route("/about_calc")
 def about_calc():
+    """Renders a methods explanation page"""
     return render_template("carboncalcs.html")
 
 @app.route("/donate")
 def donate_page():
+    """Directs user with their personal carbon debt to donation page"""
     debt = request.args.get('carbon_debt')
     return render_template("donate.html", debt=debt)
 
