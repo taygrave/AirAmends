@@ -48,7 +48,7 @@ def add_msgs_to_db(service, user_id, query=query):
   print msg_list
   
   if msg_list == []:
-    return "No messages found matching query."
+    print "No messages found matching query."
 
   else: 
     s = model.connect()
