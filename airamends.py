@@ -71,20 +71,21 @@ def homepage():
     return render_template("base.html")
 
 @app.route("/get_flights", methods=["GET"])
-def getflights():
+def get_flights():
     if user_setup() != "Error":
+        #Query email results list from gmail query
         emails_in_db = Email.query.filter(Email.user_id == current_user.id).order_by(asc(Email.date)).all()
 
+        #Stats for email query results list to pass into page
         num_emails = len(list(emails_in_db))
         first_year = emails_in_db[0].date.year
         last_year = emails_in_db[-1].date.year
-
         email_stats = [num_emails, first_year, last_year]
-        
-        user_flights = Flight.query.filter(Flight.user_id == current_user.id).all()
+
+        #Summary results list for the year, number of flights, and total CO2e to pass into page
         years_list = seed_flights.report_by_year(current_user.id)
 
-        return render_template("/getflights.html", email_stats=email_stats, user_flights=user_flights, years_list=years_list)
+        return render_template("/getflights.html", email_stats=email_stats, years_list=years_list)
     else:
         return render_template("/noemails.html")
 
