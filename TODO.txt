@@ -1,15 +1,10 @@
-BUGS:
-    if logged out - 'authorize google' still tries to sign in the last person
 
 CODE TIDYING:
     remove model.connect where possible
-    find all FIXMEs
-    find all TODOs
     change 'session' in airamends.py to explicitly refer to db session
 
 PAGE STYLING:
     make sure flight add / delete buttons fit in page
-    why does it scroll right/left? eliminate this
     modal on calc methods display needs to be widened
     Make form look nicer
     donation page
@@ -17,3 +12,4 @@ PAGE STYLING:
 Things I want help from Mentors with:
     adding in tests
     redrawing the map on click of a button
+    if logged out - 'authorize google' still tries to sign in the last person

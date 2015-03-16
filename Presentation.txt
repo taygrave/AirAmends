@@ -1,0 +1,36 @@
+Presentation:
+
+My background
+
+Framework (Which tech I used)
+    Python, FLASK, SQL, Javascript, AJAX, CSS
+    GmailAPI, Mapbox
+
+Made use of this technology to Solve this problem
+
+Email scraping
+    regex
+    user validation
+    false positives, the algorithm isn't perfect
+
+Carbon estimation / pricing
+    talk more about tech of this (lat, long - great circle, dictionary of haul lengths)
+
+Map - how i load data into it
+    jsonarray / renders
+
+Donation
+
+Now you've seen it - let's talk more details aobut the challenges:
+    OAuth
+    Regex and Emails
+    JSon for map
+
+Summary Flow (How tech works together)
+    Python 
+    Flask
+    OAUTH
+    GMail API / Regex     
+    Sqlite / SQLAlchemy
+    Website built with HTML, styled with CSS
+    Added interactivity and better user experience with: Javascript / jQuery / AJAX
