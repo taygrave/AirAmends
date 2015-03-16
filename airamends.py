@@ -1,16 +1,11 @@
-from flask import Flask, render_template, request, g, redirect, url_for
-from flask import session as flask_session
-from flask.ext.login import LoginManager
-from flask.ext.login import login_user, logout_user, current_user
-import json, re
+from flask import Flask, render_template, request, g, redirect, url_for, jsonify, session as flask_session
+from flask.ext.login import LoginManager, login_user, logout_user, current_user
+import json, re, httplib2, config
 from datetime import datetime
 from model import *
 import gmailapiworks, seed_flights
 from apiclient.discovery import build_from_document
-import httplib2
 from oauth2client.client import OAuth2WebServerFlow, AccessTokenCredentials
-from flask import jsonify
-import config 
 
 app = Flask(__name__)
 app.config.from_pyfile('./config.py')
