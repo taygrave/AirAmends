@@ -3,7 +3,7 @@
 <script src="/static/useredits.js"></script>
 
 <h2>{{year}}</h2>
-    Your flights found for {{year}} are displayed below. Please confirm the report is correct. You can delete flights you never took by hovering over the row. You can add flights that were missed by entering their information at the top of the table.<br>
+    Your flights found for {{year}} are displayed below. Please confirm the report is correct. It is possible your report is not accurate; you can delete flights you never took by hovering over the row. You can add flights that were missed by entering their information at the top of the table.<br>
 <a href="/get_flights">Back to Summary</a> 
 
 <br><br>
@@ -23,14 +23,14 @@
     </div>
     </tr>
     
-    {% for flight in results_list %}
-    <tr id={{"row-%d" % flight[4]}}>
-        <td>{{flight[0]}}</td>
-        <td>{{flight[1]}}</td>
-        <td>{{flight[2]}}</td>
-        <td class="emiss" data-amt="{{flight[3]}}">{{'%0.2f' % flight[3]}}</td>
-        <td class="priced" data-amt="{{flight[3]*g.carbon_price}}">${{'%0.2f' % (flight[3]*g.carbon_price)}}</td>
-        <td><button type="button" class="btn btn-danger" style="visibility: hidden" id="{{flight[4]}}" onclick="deleteFlight('{{flight[4]}}', '{{'row-%d' % flight[4]}}', '{{flight[3]}}')">DELETE</button></td>
+    {% for date, depart, arrive, CO2e, flight_id in results_list %}
+    <tr id={{"row-%d" % flight_id}}>
+        <td>{{date}}</td>
+        <td>{{depart}}</td>
+        <td>{{arrive}}</td>
+        <td class="emiss" data-amt="{{CO2e}}">{{'%0.2f' % CO2e}}</td>
+        <td class="priced" data-amt="{{CO2e*g.carbon_price}}">${{'%0.2f' % (CO2e*g.carbon_price)}}</td>
+        <td><button type="button" class="btn btn-danger" style="visibility: hidden" id="{{flight_id}}" onclick="deleteFlight('{{flight_id}}', '{{'row-%d' % flight_id}}', '{{CO2e}}')">DELETE</button></td>
     </tr>
     {% endfor %}
         
