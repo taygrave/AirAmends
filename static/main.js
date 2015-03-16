@@ -36,10 +36,24 @@ function setDashboard() {
     $("#donate").html('<button class="btn btn-lg btn-success" onclick="window.location.href=\'/donate?carbon_debt='+carbonPrice+'\'">Donate!</button>');
     }
 
+function flightTotal() {
+    // on getflights.html sums total number of flights in second table column
+    var tdFlights = document.getElementsByClassName("flights");
+    var fTotal = document.getElementById("fTotal");
+    var fSum = 0;
+
+    for (var i = 0; i < tdFlights.length; i++) {
+        fSum += parseInt(tdFlights[i].getAttribute("data-amt"), 10);
+    }
+
+    fSum = fSum;
+    fTotal.innerText = fSum;
+}
+
 function addTotals() {
     // Calculates and recalculates with user-edits the total carbon debt in metric tons and dollars
     var cTotal = document.getElementById("cTotal");
-    var mcTotal = document.getElementById("mTotal");
+    var mTotal = document.getElementById("mTotal");
     var tdEmiss = document.getElementsByClassName("emiss");
     var tdPriced = document.getElementsByClassName("priced");
     var cSum = 0 ; mSum = 0;
@@ -80,9 +94,9 @@ function drawPairs() {
             var newLine = L.polyline(line.geometries[0].coords.map(function(c) {
                     return c.reverse();
             }), {
-                color: '#66cd00',
+                color: '#34DDDD',
                 weight: 2,
-                opacity: 0.5
+                opacity: 0.9
             })
             .addTo(map);
 
@@ -99,7 +113,7 @@ function drawPairs() {
         // See http://css-tricks.com/svg-line-animation-works/
         // for details on this trick.
         newLine._path.style.strokeDashoffset = totalLength;
-        newLine._path.style.strokeDasharray = totalLength + '     ' + totalLength;
+        newLine._path.style.strokeDasharray = totalLength;
         // Offset the timeout here: setTimeout makes a function
         // run after a certain number of milliseconds - in this
         // case we want each flight path to be staggered a bit.

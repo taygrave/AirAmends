@@ -1,4 +1,6 @@
-Our reports are generated off of the {{email_stats[0]}} flight confirmation emails we found for you. These emails range over the period {{email_stats[1]}} to {{email_stats[2]}}.<br><br>
+<h2>{{email_stats[1]}}-{{email_stats[2]}}</h2>
+
+Our reports are generated off of the {{email_stats[0]}} flight confirmation emails we found for you. These emails range over the period  to .<br><br>
 
 <table >
     <tr>
@@ -11,7 +13,7 @@ Our reports are generated off of the {{email_stats[0]}} flight confirmation emai
     {% for year in years_list %}
     <tr>
         <td><a href="/get_flights/{{year[0]}}">{{year[0]}}</td>
-        <td>{{year[1]}}</td>
+        <td class="flights" data-amt="{{year[1]}}">{{year[1]}}</td>
         <td class="emiss" data-amt="{{year[2]}}">{{'%0.2f' % year[2]}}</td>
         <td class="priced" data-amt="{{year[2]*g.carbon_price}}">${{'%0.2f' % (year[2]*g.carbon_price)}}</td>
     </tr>
@@ -19,7 +21,7 @@ Our reports are generated off of the {{email_stats[0]}} flight confirmation emai
 
     <tr>
         <th>TOTALS</th>
-        <th>{{user_flights|length}}</th>
+        <th id="fTotal"></th>
         <th id="cTotal"></th>
         <th id="mTotal"></th>
     </tr>
@@ -37,7 +39,10 @@ Our reports are generated off of the {{email_stats[0]}} flight confirmation emai
   $(document).ready(function (){
     // Calculate and populate the totals for each results table
     addTotals();
+    flightTotal();
     CO2ePrice = {{g.carbon_price}};
     carbonDebt = carbonDebt1;
+
+
 });
 </script>

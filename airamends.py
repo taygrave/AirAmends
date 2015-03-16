@@ -33,7 +33,7 @@ def get_auth_flow():
     return auth_flow
 
 def user_setup():
-    """Once user is logged-in, this is called to query user's emails and seed db for flights found"""
+    """Once user is logged-in, this is called to query user's emails and seed db for flights found."""
     db_user_emails = Email.query.filter(Email.user_id == current_user.id).first()
     db_user_flights = Flight.query.filter(Flight.user_id == current_user.id).first()
 
@@ -57,8 +57,8 @@ def before_request():
     if current_user.is_authenticated() and current_user.id > 0:
         credentials = AccessTokenCredentials(current_user.access_token, u'')
         g.gmail_api = get_api(credentials)
-        print "at before request, built"
 
+    #Set display in base.html depending on user status
     if flask_session.get('user_id') == None:
         g.status = "Log In"
         g.link = "/login/"
@@ -68,17 +68,19 @@ def before_request():
 
 @app.route("/")
 def homepage():
-    json_array = []
-    if current_user.is_authenticated():
-        json_array = flights4map()
-
-    return render_template("base.html", jsonarray=json_array)
+    return render_template("base.html")
 
 @app.route("/get_flights", methods=["GET"])
 def getflights():
     if user_setup() != "Error":
         emails_in_db = Email.query.filter(Email.user_id == current_user.id).order_by(asc(Email.date)).all()
-        email_stats = [len(list(emails_in_db)), emails_in_db[0].date, emails_in_db[-1].date]     
+
+        num_emails = len(list(emails_in_db))
+        first_year = emails_in_db[0].date.year
+        last_year = emails_in_db[-1].date.year
+
+        email_stats = [num_emails, first_year, last_year]
+        
         user_flights = Flight.query.filter(Flight.user_id == current_user.id).all()
         years_list = seed_flights.report_by_year(current_user.id)
 
