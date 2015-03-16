@@ -1,33 +1,55 @@
-<h2>{{first_year}}-{{last_year}}</h2>
+<div class="row">
+    <div class="col-lg-4">
+        <h2>{{first_year}}-{{last_year}}</h2>
+        Our reports are generated off of the {{num_emails}} flight confirmation emails we found for you. You can click on each year for a more detailed report, including each flight segement found for you in that year, and validate your findings.<br><br>
+    </div>
+    <div class="col-lg-2">
+        <div id="dashboard">
+          <table>
+            <tr>
+                <th>CO2e (mt)</th>
+                <th>carbon debt</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td id="carbon-debt"></td>
+                <td id="carbon-price"></td>
+                <td id="donate"></td>
+            </tr>
+          </table>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-6">
+        <table class="table table-hover">
+            <tr>
+                <th>Year</th>
+                <th># of Flights</th>
+                <th>CO2e<br>Emissions<br>(mt)</th>
+                <th>Emissions<br>Value<br>(2015$)</th>
+            </tr>
+            
+            {% for year, num_flights, total_CO2e in years_list %}
+            <tr>
+                <td><a href="/get_flights/{{year}}">{{year}}</td>
+                <td class="flights" data-amt="{{num_flights}}">{{num_flights}}</td>
+                <td class="emiss" data-amt="{{total_CO2e}}">{{'%0.2f' % total_CO2e}}</td>
+                <td class="priced" data-amt="{{total_CO2e*g.carbon_price}}">${{'%0.2f' % (total_CO2e*g.carbon_price)}}</td>
+            </tr>
+            {% endfor %}
 
-Our reports are generated off of the {{num_emails}} flight confirmation emails we found for you. You can click on each year for a more detailed report, including each flight segement found for you in that year, and validate your findings.<br><br>
+            <tr>
+                <th>TOTALS</th>
+                <th id="fTotal"></th>
+                <th id="cTotal"></th>
+                <th id="mTotal"></th>
+            </tr>
+        </table>
+    </div>
+</div>
 
-<table >
-    <tr>
-        <th>Year</th>
-        <th># of Flights</th>
-        <th>CO2e<br>Emissions<br>(mt)</th>
-        <th>Emissions<br>Value<br>(2015$)</th>
-    </tr>
-    
-    {% for year, num_flights, total_CO2e in years_list %}
-    <tr>
-        <td><a href="/get_flights/{{year}}">{{year}}</td>
-        <td class="flights" data-amt="{{num_flights}}">{{num_flights}}</td>
-        <td class="emiss" data-amt="{{total_CO2e}}">{{'%0.2f' % total_CO2e}}</td>
-        <td class="priced" data-amt="{{total_CO2e*g.carbon_price}}">${{'%0.2f' % (total_CO2e*g.carbon_price)}}</td>
-    </tr>
-    {% endfor %}
 
-    <tr>
-        <th>TOTALS</th>
-        <th id="fTotal"></th>
-        <th id="cTotal"></th>
-        <th id="mTotal"></th>
-    </tr>
-</table>
-
-<br>
 
 <script>
   $(document).ready(function (){

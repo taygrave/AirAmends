@@ -19,7 +19,7 @@
   <body>
     <!-- THE HEADER -->
     <div id="header"> 
-      <nav class="navbar navbar-inverse">
+      <nav class="navbar">
         <ul class="nav nav-pills">
           <li class="logo"><h2>AirAmends</h2></li>
           <li role="presentation" class="navbar-right"><a href={{g.link}}>{{g.status}}&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
@@ -27,8 +27,7 @@
         </ul>
       </nav>
     </div>
-
-    <!-- THE REPORTS AND INFORMATION -->
+      <!-- THE REPORTS AND INFORMATION -->
     <div id="main">
       {% if 'user_id' not in session %}
         <div id='logged-out'>
@@ -54,21 +53,13 @@
         </div>
 
       {% endif %}
-
-      <footer> 
-        <a href="/about_calc" id="load-methods">How we Price and Calculate</a>
-      </footer>
-
-      <div id="modal-wrapper"></div>
     </div>
+    <footer> 
+      <a href="/about_calc" id="load-methods">How we Price and Calculate</a>
+    </footer>
+    <div id="modal-wrapper"></div>
 
-    <div id="dashboard">
-      <span>CO2e (mt)<h2><span id="carbon-debt"></span></h2></span>
-      <span>carbon debt<h2><span id="carbon-price"></span></h2></span>
-      <p id="donate"></p>
-    </div>
-
-      <!-- THE FLIGHT MAP -->
-    <div id='map' class='dark'></div>
+  <!-- THE FLIGHT MAP -->
+  <div id='map' class='dark'></div> 
   </body>
 </html>
