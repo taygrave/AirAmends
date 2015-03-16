@@ -77,7 +77,7 @@ def homepage():
     return render_template("base.html")
 
 @app.route("/get_flights", methods=["GET"])
-def get_flights():
+def get_all_flights():
     """Main Homepage: Calls user_setup() and if that returns with found flight emails, produces total summary results report for each year flight emails were found."""
     #Return page explaining what to do in case no matching emails were found
     if user_setup() == "Error":
@@ -105,10 +105,10 @@ def get_flights_by_year(year):
     results_list = []
     user_flights = Flight.query.filter(Flight.user_id == current_user.id).order_by(Flight.date.asc(), Flight.id.asc()).all()
     
-    #Ensure returned flights related to year selected
+    #Ensure returned flights related to year selected (can't query by year only)
     working_list = [obj for obj in user_flights if (obj.date.year == year)]
 
-    #Summary report stats for this year
+    #Create summary report stats for this year
     for flight in working_list:
         date = flight.date.strftime('%b-%d')
         depart = "%s (%s)" %(flight.departure.city, flight.depart)
@@ -124,6 +124,7 @@ def get_flights_by_year(year):
 
 @app.route("/delete_flight", methods=["POST"])
 def delete_flight():
+    """Receives ajax data for flight user clicked to delete, deletes flight and sends back 'ok' once completed. (Will post error message on other end if error.)"""
     id = int(request.values['id'])
     flight = Flight.query.filter(Flight.id == id, Flight.user_id == current_user.id).one()
     session.delete(flight)
@@ -138,27 +139,24 @@ def add_flight():
     arrive = request.args.get('arrive')
     
     airport_list = get_airports(format="python")
+    #Will ask user to re-input cities if not sent in correct format, if in correct format, will add flight to db for user
     if (arrive in airport_list) and (depart in airport_list):
-        #Set up flight to be added to the db
         user_id = flask_session.get('user_id')
         db_date = datetime.strptime(date, "%Y-%m-%d")
+        #Find airport codes in input
         db_depart = re.search((r"([A-Z]{3})"),depart).group()
         db_arrive = re.search((r"([A-Z]{3})"),arrive).group()
-        entry = Flight(user_id=user_id, email_id=0, date=db_date, depart=db_depart, arrive=db_arrive) #special email_id code of "0" used to indicate manual user added flight
+        #Adding to db, special email_id code of "0" used to indicate manual user added flight
+        entry = Flight(user_id=user_id, email_id=0, date=db_date, depart=db_depart, arrive=db_arrive)
         session.add(entry)
         session.commit()
         
         #Return info for table addition
         date = db_date.strftime('%b-%d')
-
         d_airport = Airport.query.filter_by(id = db_depart).one()
         a_airport = Airport.query.filter_by(id = db_arrive).one()
-
-        depart_city = (d_airport.latitude, d_airport.longitude)
-        arrive_city = (a_airport.latitude, a_airport.longitude)
-
-        CO2e = seed_flights.calc_carbon(depart_city, arrive_city)
-        price = CO2e * g.carbon_price
+        CO2e = seed_flights.calc_carbon((d_airport.latitude, d_airport.longitude), (a_airport.latitude, a_airport.longitude))
+        price = CO2e * g.carbon_price 
         
         return jsonify(date=date,
             depart=depart,
@@ -171,7 +169,7 @@ def add_flight():
         return "Error"
 
 @app.route("/about_calc")
-def aboutcalc():
+def about_calc():
     return render_template("carboncalcs.html")
 
 @app.route("/donate")
@@ -255,13 +253,12 @@ def login_callback():
 
 @app.route('/logout/')
 def logout():
-    # Complete Reset, not disabling demo data
+    # Complete reset, not disabling demo data
     if current_user.id > 0:
         Flight.query.filter(Flight.user_id == current_user.id).delete()
         Email.query.filter(Email.user_id == current_user.id).delete()
         User.query.filter(User.id == current_user.id).delete() 
         session.commit()
-        
 
     logout_user()
 
@@ -272,20 +269,6 @@ def demo_site():
     user = User.query.filter_by(id = 0).one()
     login_user(user, remember = True)
     return redirect(url_for('homepage'))
-
-## Deprecated: need to be updated to query only for current user if going to use
-# @app.route("/flight_reset", methods=["POST"])
-# def reset_flights():
-#     Flight.query.delete()
-#     session.commit()
-#     return redirect(url_for('getflights'))
-
-# @app.route("/complete_reset", methods=["POST"])
-# def complete_reset():
-#     Email.query.delete()
-#     Flight.query.delete()
-#     session.commit()
-#     return redirect(url_for('getflights'))
 
 if __name__ == "__main__":
     app.run(debug = True)
