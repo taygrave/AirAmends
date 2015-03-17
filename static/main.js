@@ -94,7 +94,7 @@ function drawPairs() {
             var newLine = L.polyline(line.geometries[0].coords.map(function(c) {
                     return c.reverse();
             }), {
-                color: '#34DDDD',
+                color: '#09B78E',
                 weight: 2,
                 opacity: 0.9
             })

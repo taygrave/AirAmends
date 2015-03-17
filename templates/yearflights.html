@@ -4,72 +4,75 @@
     var data = {{airports_json | safe}};
 </script>
 <script src="/static/useredits.js"></script>
-<div class="row">
+<div class="row top">
     <div class="col-lg-8">
-        <h3>{{year}}</h3>
-        <p>Your flights found for {{year}} are displayed below. Please confirm the report is correct. It is possible your report is not accurate; you can delete flights you never took by hovering over the row. You can add flights that were missed by entering their information at the top of the table.</p>
-        <a href="/get_flights">Back to Summary</a><br><br>
+        <span class="year">{{year}}</span>
+        <p>Make sure your flights are correct, delete flights you never took by hovering over the row. Add flights we missed by entering their information at the top of the table.</p>
+        <a href="/get_flights">Back to Summary</a>
     </div>
     <div class="col-lg-4">
         <div id="dashboard">
           <table>
             <tr>
                 <th>CO2e (mt)</th>
-                <th>carbon debt</th>
+                <th>Carbon Debt</th>
             </tr>
             <tr>
-                <td id="carbon-debt"></td>
-                <td id="carbon-price"></td>
+                <td id="carbon-debt" class="dash"></td>
+                <td id="carbon-price" class="dash"></td>
             </tr>
           </table>
-        <p id="donate"></p>
+        <p id="donate" class="donate"></p>
         </div>
     </div>
 </div>
+
+<div class="wrapper"></div>
+
 <div class="row">
     <div class="col-lg-12">
         <table name="report" id="report" class="table table-hover table-condensed">
             <thead>
                 <tr>
-                    <th>Purchased:</th>
-                    <th>Departing:</th>
-                    <th>Arriving:</th>
-                    <th>Emissions<br>(CO2e mt)</th>
-                    <th>Emissions<br>(2015$)</th>
-                    <th>&nbsp;</th> <!-- Empty spot for delete buttons -->
+                    <th class="first_col">Purchased</th>
+                    <th>Departing</th>
+                    <th>Arriving</th>
+                    <th class="results">CO2e mt</th>
+                    <th class="results">2015$</th>
+                    <th class="last_col">&nbsp;</th> <!-- Empty spot for delete buttons -->
                 </tr>
             </thead>
             <tbody class="scrolly">
                 <tr id="flightadd">
                 <div name="flightadddiv" id="flightadddiv">
-                    <td><label for="date"></label><input type="date" value="{{year}}-06-01" name="purchase_date" class="form"></td>
+                    <td class="first_col"><label for="date"></label><input type="date" value="{{year}}-06-01" name="purchase_date" class="form"></td>
                     <td><label for="depart"></label><input type="text" name="depart" id="depart" class="form"></td>
                     <td><label for="arrive"></label><input type="text" name="arrive" id="arrive" class="form"></td>
-                    <td>&nbsp;&nbsp;-&nbsp;&nbsp;</td>
-                    <td>&nbsp;&nbsp;-&nbsp;&nbsp;</td>
-                    <td><button class="btn btn-success" id="flightsubmit">&nbsp;&nbsp;&nbsp;ADD&nbsp;&nbsp;&nbsp;</button></td>
+                    <td class="results">&nbsp;&nbsp;-&nbsp;&nbsp;</td>
+                    <td class="results">&nbsp;&nbsp;-&nbsp;&nbsp;</td>
+                    <td class="last_col"><button class="btn btn-sm btn-success" id="flightsubmit">&nbsp;&nbsp;&nbsp;ADD&nbsp;&nbsp;&nbsp;</button></td>
                 </div>
                 </tr>
 
                 {% for flight_id, date, depart, arrive, CO2e in results_list %}
                 <tr id={{"row-%d" % flight_id}}>
-                    <td>{{date}}</td>
+                    <td class="first_col">{{date}}</td>
                     <td>{{depart}}</td>
                     <td>{{arrive}}</td>
-                    <td class="emiss" data-amt="{{CO2e}}">{{'%0.2f' % CO2e}}</td>
-                    <td class="priced" data-amt="{{CO2e*g.carbon_price}}">${{'%0.2f' % (CO2e*g.carbon_price)}}</td>
-                    <td><button type="button" class="btn btn-danger" style="visibility: hidden" id="{{flight_id}}" onclick="deleteFlight('{{flight_id}}', '{{'row-%d' % flight_id}}', '{{CO2e}}')">DELETE</button></td>
+                    <td class="emiss results" data-amt="{{CO2e}}">{{'%0.2f' % CO2e}}</td>
+                    <td class="priced results" data-amt="{{CO2e*g.carbon_price}}">${{'%0.2f' % (CO2e*g.carbon_price)}}</td>
+                    <td class="last_col"><button type="button" class="btn btn-sm btn-danger" style="visibility: hidden" id="{{flight_id}}" onclick="deleteFlight('{{flight_id}}', '{{'row-%d' % flight_id}}', '{{CO2e}}')">DELETE</button></td>
                 </tr>
                 {% endfor %} 
             </tbody>
             <tfoot>
                 <tr>
-                    <th>TOTALS</th>
+                    <th class="first_col">TOTAL</th>
                     <th>&nbsp;</th>
                     <th>&nbsp;</th>
-                    <th id="cTotal">&nbsp;</th>
-                    <th id="mTotal">&nbsp;</th>
-                    <th>&nbsp;</th>
+                    <th id="cTotal" class="results">&nbsp;</th>
+                    <th id="mTotal" class="results">&nbsp;</th>
+                    <th class="last_col">&nbsp;</th>
                 </tr>
             </tfoot>
         </table>

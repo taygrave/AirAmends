@@ -20,15 +20,17 @@ var addFlight = function(result){
         row.id = tRow;
         // Add data to new cells:
         cell1.innerHTML = result.date;
+        $(cell1).addClass("first_col");
         cell2.innerHTML = result.depart;
         cell3.innerHTML = result.arrive;
         cell4.innerHTML = (result.CO2e).toFixed(2);
-        $(cell4).addClass("emiss");
+        $(cell4).addClass("emiss results");
         $(cell4).attr("data-amt", result.CO2e);
         cell5.innerHTML = ('$' +((result.price).toFixed(2)).toString());
-        $(cell5).addClass("priced");
+        $(cell5).addClass("priced results");
         $(cell5).attr("data-amt", result.price);
-        cell6.innerHTML ='<button type="button" class="btn btn-danger" style="visibility: hidden" id="row-entry.id" onclick="deleteFlight(\''+result.id+'\', \''+tRow+'\',\''+result.CO2e+'\')">DELETE</button>';
+        $(cell6).addClass("last_col");
+        cell6.innerHTML ='<button type="button" class="btn btn-sm btn-danger" style="visibility: hidden" id="row-entry.id" onclick="deleteFlight(\''+result.id+'\', \''+tRow+'\',\''+result.CO2e+'\')">DELETE</button>';
         addTotals();
         carbonDebt = carbonDebt + result.CO2e;
         setDashboard();
