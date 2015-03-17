@@ -1,16 +1,18 @@
 /*SET UP MAJOR SECTIONS*/
 #header { 
-  background-color: #1D5196;
-  top:0; bottom:90%;}
+  background-color: #490A3D;
+  top:0; bottom:90%;
+  height: 7em;}
 #main { 
   position:absolute; 
-  top:9%; bottom:0; 
+  top:15%; bottom:0; 
   left:0; right:45%;
   background-color: white;
-  color: black;}
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;}
 #map { 
   position:absolute; 
-  top:9%; bottom:0; 
+  top:15%; bottom:0; 
   left:55%; right:0; 
   z-index: 0}
 
@@ -20,6 +22,15 @@ a {
 }
 #header a{
   color: white;
+  opacity: 0.5;
+}
+#header a:hover{
+  opacity: 1;
+  background-color: #1D5196;
+}
+
+.navbar-right {
+  margin-top: 1.3em;
 }
   
 /*MANAGE BOOTSTRAP COLS*/
@@ -29,7 +40,7 @@ a {
 
 .top {
   padding:1em 0em 1em 1em;
-  background-color: #09B78E;
+  background-color: #E97F02;
   color: white;
   height: 11em;
 }
@@ -39,8 +50,12 @@ a {
 }
 
 .btn-lg {
-  background-color: #1D5196;
-  border-color: #1D5196; 
+  background-color: #8A9B0F;
+  border-color: #8A9B0F; 
+}
+
+.btn-lg:hover {
+  background-color: #FA6900;
 }
 
 /*OTHER STYLES*/
@@ -70,17 +85,14 @@ footer {
   font-size: 2em;
 }
 .logo {
-    color: white;
+    width: 15em;
+    margin-left: 1em;
+    margin-top: 1em
 }
 
 /*TABLE STYLE*/
-.table {
-  color: black;
-  font: 1.25em arial, sans-serif;  
-}
-
 .table-condensed {
-  font: 1.1em arial, sans-serif;  
+  font-size: 1.1em;  
 }
 
 .details {
@@ -124,7 +136,7 @@ tbody.scrolly {
 /*add-a-flight form in table*/
 input[type=date] {
   color: gray;
-  width: 5em;
+  width: 3.7em;
   height: 1.8em;}
 
 input[type=text] {
@@ -134,8 +146,13 @@ input[type=text] {
 
 /*SEPARATE PAGES*/
 .not_authorized {
-  font: 2em arial, sans-serif;
+  font-size: 2em;
   padding:1em 1em;
+}
+
+.querying {
+  text-align:right;
+  font-size: 1.5em;
 }
 
 .donate-page {

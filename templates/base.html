@@ -13,6 +13,7 @@
     <link href='//api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
     <script src='//api.tiles.mapbox.com/mapbox.js/plugins/arc.js/v0.1.0/arc.js'></script>
      <script src='/static/main.js'></script>
+     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/static/style.css">
   </head>
 
@@ -21,7 +22,7 @@
     <div id="header"> 
       <nav class="navbar">
         <ul class="nav nav-pills">
-          <li class="logo"><h2>AirAmends</h2></li>
+          <li><img src="/static/AirAmendsLogo.png" class="logo"</li>
           <li class="navbar-right"><a href={{g.link}}>{{g.status}}&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
         </ul>
       </nav>
@@ -42,7 +43,7 @@
 
       {% else %}
         <div id="info"> 
-          <p style="text-align:right;">
+          <p class="querying">
             Currently querying for your flights...<img src="/static/airplane.gif">
           </p>
           <script>loadStuff('/get_flights')</script>
