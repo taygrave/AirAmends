@@ -30,8 +30,8 @@
                 <tr>
                     <th>Year</th>
                     <th>Flights</th>
-                    <th>CO2e mt</th>
-                    <th>2015$</th>
+                    <th class="results">CO2e mt</th>
+                    <th class="results">2015$</th>
                 </tr>
             </thead>
             
@@ -40,8 +40,8 @@
                 <tr>
                     <td><a href="/get_flights/{{year}}">{{year}}</td>
                     <td class="flights" data-amt="{{num_flights}}">{{num_flights}}</td>
-                    <td class="emiss" data-amt="{{total_CO2e}}">{{'%0.2f' % total_CO2e}}</td>
-                    <td class="priced" data-amt="{{total_CO2e*g.carbon_price}}">${{'%0.2f' % (total_CO2e*g.carbon_price)}}</td>
+                    <td class="emiss results" data-amt="{{total_CO2e}}">{{'%0.2f' % total_CO2e}}</td>
+                    <td class="priced results" data-amt="{{total_CO2e*g.carbon_price}}">${{'%0.2f' % (total_CO2e*g.carbon_price)}}</td>
                 </tr>
                 {% endfor %}
             </tbody>
@@ -49,8 +49,8 @@
                 <tr>
                     <th>TOTAL</th>
                     <th id="fTotal"></th>
-                    <th id="cTotal"></th>
-                    <th id="mTotal"></th>
+                    <th id="cTotal" class="results"></th>
+                    <th id="mTotal" class="results"></th>
                 </tr>
             </tfoot>
         </table>
