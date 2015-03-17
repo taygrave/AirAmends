@@ -1,4 +1,4 @@
-/*SET UP MAJOR SECTIONS*/
+/*MAJOR SECTIONS SET UP*/
 #header { 
   background-color: #00A8C6;
   top:0; bottom:90%;
@@ -16,158 +16,121 @@
   left:55%; right:0; 
   z-index: 0}
 
-/*LINK STYLES*/
-a {
-  color: #00A8C6;
-}
-#header a{
-  color: white;
-  opacity: 0.5;
-}
-#header a:hover{
-  opacity: 1;
-  background-color: #00A8C6;
-}
-
-.navbar-right {
-  margin-top: 1.5em;
-}
-  
-/*MANAGE BOOTSTRAP COLS*/
-.row {
-  padding:0em 0em 1em 1em; 
-}
-
-.top {
-  padding:1em 0em 1em 1em;
-  background-color: #8FBE00;
-  color: white;
-  height: 11em;
-}
-
-.top a{
-  color: white;
-}
-
-.top p {
-  opacity: 0.75;
-  font-weight: 300;
-}
-
-.btn-lg {
-  background-color: #40C0CB;
-  border-color: #40C0CB; 
-}
-
-.btn-lg:hover {
-  background-color: #00A8C6;
-}
-
-.btn-success {
-  background-color: #AEE239;
-  border-color: #AEE239; 
-}
-
-.btn-success:hover {
-  background-color: #AEE239;
-}  
-
-.btn-danger {
-  background-color: #BE0060;
-  border-color: #BE0060; 
-}
-
-.btn-danger:hover {
-  background-color: #BE0060;
-}
-
-/*OTHER STYLES*/
+/*MAJOR SETTINGS*/
 body {
-  overflow-x: hidden; 
-}
-
+  overflow-x: hidden;}
 footer { 
   clear: both;
   position:fixed;
   bottom:0;
   height: 2em;
-  padding:0em 0em 1em 1em;
-}
+  padding:0 0 1em 1em;}
+p {
+  margin: 0;}
 
-
-/*SUBHEADER STYLING (intro + dashboard)*/
-.dash {
-  font-size: 2em;
-}
-
-.donate {
-  padding-right: 1.8em;
-  float: right;}
-
-.year {
-  font-size: 2em;
-}
+/*LINK STYLES & HEADER*/
+a {
+  color: #00A8C6;}
+#header a {
+  color: white;
+  opacity: 0.5;}
+#header a:hover {
+  opacity: 1;
+  background-color: #00A8C6;}
+.top a {
+  color: white;}
+.navbar-right {
+  margin-top: 1.5em;}
 .logo {
     width: 15em;
     margin-left: 1em;
-    margin-top: 1.3em
-}
+    margin-top: 1.3em}
 
-/*TABLE STYLE*/
+/*MANAGE BOOTSTRAP COLS*/
+.row {
+  padding:0 0 0 1em;}
+.top {
+  padding:0 0 1em 1em;
+  background-color: #8FBE00;
+  color: white;
+  height: 11em;}
+.top p {
+  opacity: 0.75;
+  font-weight: 300;
+  font-size: 1.1em;}
+
+/*BOOTSTRAP BUTTON OVERRIDES*/
+.btn-lg {
+  background-color: #40C0CB;
+  border-color: #40C0CB;
+  padding: 5px 15px; }
+.btn-lg:hover {
+  background-color: #00A8C6;}
+.btn-success {
+  background-color: #AEE239;
+  border-color: #AEE239; }
+.btn-success:hover {
+  background-color: #AEE239;}  
+.btn-danger {
+  background-color: #BE0060;
+  border-color: #BE0060; }
+.btn-danger:hover {
+  background-color: #BE0060;}
+.btn-sm { /*inside of last_col add/delete flights*/
+  padding: 0;
+  width: 5em;}
+
+  /*TABLE STYLES AND OVERRIDES*/
 .clickable-row:hover {
   cursor: pointer;
-  color: #00A8C6;
-}
-
+  color: #BE0060;}
 .table-condensed {
-  font-size: 1.1em;  
-}
-
+  font-size: 1.1em;}
 .details {
-  margin-top: 1.5em;
-}
+  margin-top: 1.5em;}
 .summary {
   margin-top: -0.2em;
-  font-size: 1.2em;
-}
+  font-size: 1.2em;}
 
 thead, tbody, tfoot {
-  display: block;
-}
-
+  display: block;}
 th, td {
   width: 12em;}
-
 tbody.scrolly {
   height: 17em; 
   overflow-y: auto;    /* Trigger vertical scroll    */
-  overflow-x: hidden;  /* Hide the horizontal scroll */
-}
-
-.first_col{
-  width: 6em;
-}
-.results{
+  overflow-x: hidden;}  /* Hide the horizontal scroll */
+.first_col {
+  width: 6em;}
+.results {
   width: 5.5em;
-  text-align: right;
-}
+  text-align: right;}
 .last_col {
   width: 5em;
   text-align: right;
-  font-size: 1em;
-}
+  font-size: 1em;}
 
-.btn-sm { /*inside of last_col */
-  padding: 0;
-  width: 5em;
-}
+/*SUBHEADER STYLING (intro + dashboard)*/
+#dash-table td:nth-child(1), #dash-table th:nth-child(1) {
+    width: 50em;
+    text-align: left;}
+#dash-table tr:nth-child(2) td {
+    vertical-align: top;}
+#dash-table tr:nth-child(3) td {
+    vertical-align: bottom;}
+#dash-table td, #dash-table th{
+  width: 10em;
+  text-align: center;
+  vertical-align: bottom;}
+.year {
+  font-size: 2em;
+  font-weight: 400}
 
 /*add-a-flight form in table*/
 input[type=date] {
   color: gray;
   width: 3.7em;
   height: 1.8em;}
-
 input[type=text] {
   color: gray;
   width: 90%;
@@ -176,23 +139,16 @@ input[type=text] {
 /*SEPARATE PAGES*/
 .not_authorized {
   font-size: 2em;
-  padding:1em 1em;
-}
-
+  padding:1em 1em;}
 .querying {
   text-align:right;
-  font-size: 1.5em;
-}
-
+  font-size: 1.5em;}
 .donate-page {
   background-color: white;
   color: black;}
-
 .modal-content {
   width: 110%;
-  font-family: 'Source Sans Pro', sans-serif;
-
-}
+  font-family: 'Source Sans Pro', sans-serif;}
 
 /*MAP STYLE INFO*/
 /*
@@ -205,8 +161,4 @@ input[type=text] {
   -webkit-transition:stroke-dashoffset 5s ease-in-out;
      -moz-transition:stroke-dashoffset 5s ease-in-out;
        -o-transition:stroke-dashoffset 5s ease-in-out;
-          transition:stroke-dashoffset 5s ease-in-out;
-  }
-
-
-
+          transition:stroke-dashoffset 5s ease-in-out;}

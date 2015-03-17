@@ -5,27 +5,27 @@
 </script>
 <script src="/static/useredits.js"></script>
 <div class="row top">
-    <div class="col-lg-8">
-        <span class="year">{{year}}</span>
-        <p>Make sure your flights are correct, delete flights you never took by hovering over the row. Add flights we missed by entering their information at the top of the table.</p>
-        <a href="/get_flights">Back to Summary</a>
-    </div>
-    <div class="col-lg-4">
-        <div id="dashboard">
-          <table>
+    <div class="col-lg-12">
+        <table id="dash-table">
             <tr>
+                <th class="year">{{year}}</th>
                 <th>CO2e (mt)</th>
-                <th>&nbsp;Carbon Debt</th>
+                <th>Carbon Debt</th>
             </tr>
             <tr>
-                <td id="carbon-debt" class="dash"></td>
-                <td id="carbon-price" class="dash"></td>
+                <td><p>Make sure your flights are correct. Delete flights you never took by hovering over the row. Add flights we missed by entering their information at the top of the table.</p></td>
+                <td class="year" id="carbon-debt"></td>
+                <td class="year" id="carbon-price"></td>
             </tr>
-          </table>
-        <span id="donate" class="donate"></span>
-        </div>
+            <tr>
+                <td><a href="/get_flights"> ⇐ Total Summary</a></td>
+                <td>&nbsp;</td>
+                <td id="donate"></td>
+            </tr>
+        </table>
     </div>
 </div>
+
 <div class="row">
     <div class="col-lg-12">
         <table name="report" id="report" class="table table-hover table-condensed details">

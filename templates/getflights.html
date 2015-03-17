@@ -1,4 +1,25 @@
 <div class="row top">
+    <div class="col-lg-12">
+        <table id="dash-table">
+            <tr>
+                <th class="year">{{first_year}}-{{last_year}}</th>
+                <th>CO2e (mt)</th>
+                <th>Carbon Debt</th>
+            </tr>
+            <tr>
+                <td><p>Welcome to AirAmends, where you can price your personal travel carbon emissions. We found {{num_emails}} flight confirmation emails for you. Click on each year for a more detailed report.</p></td>
+                <td class="year" id="carbon-debt"></td>
+                <td class="year" id="carbon-price"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>&nbsp;</td>
+                <td id="donate"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- 
     <div class="col-lg-8">
         <span class="year">{{first_year}}-{{last_year}}</span>
         <p>We found {{num_emails}} flight confirmation emails for you!</p>
@@ -19,7 +40,8 @@
         <span id="donate" class="donate"></span>
         </div>
     </div>
-</div>
+</div> -->
+
 <br>
 <div class="row">
     <div class="col-lg-12">
