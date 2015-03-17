@@ -64,12 +64,12 @@ a {
 }
 
 .btn-success {
-  background-color: #8FBE00;
-  border-color: #8FBE00; 
+  background-color: #AEE239;
+  border-color: #AEE239; 
 }
 
 .btn-success:hover {
-  background-color: #8FBE00;
+  background-color: #AEE239;
 }  
 
 .btn-danger {
@@ -190,6 +190,8 @@ input[type=text] {
 
 .modal-content {
   width: 110%;
+  font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 /*MAP STYLE INFO*/
