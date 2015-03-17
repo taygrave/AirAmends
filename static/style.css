@@ -1,13 +1,13 @@
 /*SET UP MAJOR SECTIONS*/
 #header { 
-  background-color: #490A3D;
+  background-color: #00A8C6;
   top:0; bottom:90%;
   height: 7em;}
 #main { 
   position:absolute; 
   top:15%; bottom:0; 
   left:0; right:45%;
-  background-color: white;
+  background-color: #F9F2E7;
   color: black;
   font-family: 'Source Sans Pro', sans-serif;}
 #map { 
@@ -18,7 +18,7 @@
 
 /*LINK STYLES*/
 a {
-  color: #499C9A;
+  color: #00A8C6;
 }
 #header a{
   color: white;
@@ -26,11 +26,11 @@ a {
 }
 #header a:hover{
   opacity: 1;
-  background-color: #1D5196;
+  background-color: #00A8C6;
 }
 
 .navbar-right {
-  margin-top: 1.3em;
+  margin-top: 1.5em;
 }
   
 /*MANAGE BOOTSTRAP COLS*/
@@ -40,22 +40,45 @@ a {
 
 .top {
   padding:1em 0em 1em 1em;
-  background-color: #E97F02;
+  background-color: #8FBE00;
   color: white;
   height: 11em;
 }
 
+.top a{
+  color: white;
+}
+
 .top p {
   opacity: 0.75;
+  font-weight: 300;
 }
 
 .btn-lg {
-  background-color: #8A9B0F;
-  border-color: #8A9B0F; 
+  background-color: #40C0CB;
+  border-color: #40C0CB; 
 }
 
 .btn-lg:hover {
-  background-color: #FA6900;
+  background-color: #00A8C6;
+}
+
+.btn-success {
+  background-color: #8FBE00;
+  border-color: #8FBE00; 
+}
+
+.btn-success:hover {
+  background-color: #8FBE00;
+}  
+
+.btn-danger {
+  background-color: #BE0060;
+  border-color: #BE0060; 
+}
+
+.btn-danger:hover {
+  background-color: #BE0060;
 }
 
 /*OTHER STYLES*/
@@ -87,7 +110,7 @@ footer {
 .logo {
     width: 15em;
     margin-left: 1em;
-    margin-top: 1em
+    margin-top: 1.3em
 }
 
 /*TABLE STYLE*/
@@ -99,7 +122,8 @@ footer {
   margin-top: 1.5em;
 }
 .summary {
-  margin-top: 0.35em;
+  margin-top: -0.2em;
+  font-size: 1.2em;
 }
 
 thead, tbody, tfoot {

@@ -94,9 +94,9 @@ function drawPairs() {
             var newLine = L.polyline(line.geometries[0].coords.map(function(c) {
                     return c.reverse();
             }), {
-                color: '#09B78E',
-                weight: 2,
-                opacity: 0.9
+                color: '#40C0CB',
+                weight: 2.5,
+                opacity: 1
             })
             .addTo(map);
 
@@ -148,7 +148,7 @@ $(document).ready(function(){
     // Show the whole world in this first view.
     map = L.mapbox.map('map', 'taygrave.lc074chc', {
       zoomControl: false
-    }).setView([42, -100], 4);
+    }).setView([42, -100], 3);
 
 
     // Disable drag and zoom handlers.
