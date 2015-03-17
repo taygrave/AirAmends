@@ -2,35 +2,24 @@
   background-color: #85E5D4;
   z-index: 1000;}
 #main { 
-/*  position:absolute;*/ 
-/*  top:10%; bottom:0; 
-  left:0; right:45%;*/
+  position:absolute; 
+  top:10%; bottom:0; 
+  left:0; right:45%;
   background-color: white;
   color: black;
-  padding:1em 1em; 
-  z-index: 1000;}
+  padding:1em 1em; }
 #map { 
   position:absolute; 
   top:10%; bottom:0; 
   left:55%; right:0; 
   z-index: 0}
-#dashboard {
-  color: black;
-/*  width: 20%;
-  height:8em;*/
-  background: rgba(255,255,255, 0);
-/*  position: absolute;
-  top:10%; bottom:0; 
-  left:57%; right:0;*/ 
-  z-index: 1000;}
 
 footer { 
     clear: both;
     position:fixed;
     bottom:0;
     height: 3em;
-    margin-top: -3em;
-}
+    margin-top: -3em;}
 
 .not_authorized {
   font: 2em arial, sans-serif;
@@ -46,43 +35,17 @@ footer {
   font: 1em arial, sans-serif;  
 }
 
-/*#table-wrapper {
-  position:relative;
-}
-#table-scroll {
-  height:20em;
-  overflow:auto;  
-  margin-top:20px;
-}
-#table-wrapper table {
-  width:100%;
-}
-
-#table-wrapper table thead th .text {
-  position:absolute;   
-  top:-15%;
-  border:1px solid red;
-}
-
-#table-wrapper table tfoot th .text {
-  position:absolute;
-  border:1px solid red;
-  color: red;
-}*/
-
 thead, tbody, tfoot {
   display: block;
 }
 
 th, td {
-  width: 10em;
+  width: 8em;
   text-align: left;
-  border: 1px solid red;
-
 }
 
 tbody.scrolly {
-  height: 20em;       /* Just for the demo          */
+  height: 17em;       /* Just for the demo          */
   overflow-y: auto;    /* Trigger vertical scroll    */
   overflow-x: hidden;  /* Hide the horizontal scroll */
 }
@@ -101,32 +64,16 @@ tbody.scrolly {
 
 .donate-page {
   background-color: white;
-  color: black;
-}
-
-.form {
-  color: black;
-}
-
-.modal-content {
-  color: black;
-}
-
+  color: black;}
 
 input[type=date] {
-/*       font-family:courier;*/
-       /*padding: 0.1em;*/
        color: gray;
-       width: 6.5em;
-   }
+       width: 6.5em;}
 
 input[type=text] {
-/*       font-family:courier;*/
        padding: 0.1em;
        color: gray;
-       width: 9em;
-
-   }
+       width: 90%;}
 
 /*MAP STYLE INFO*/
 /*

@@ -5,18 +5,17 @@
 </script>
 <script src="/static/useredits.js"></script>
 <div class="row">
-    <div class="col-lg-4">
+    <div class="col-lg-8">
         <h3>{{year}}</h3>
         <p>Your flights found for {{year}} are displayed below. Please confirm the report is correct. It is possible your report is not accurate; you can delete flights you never took by hovering over the row. You can add flights that were missed by entering their information at the top of the table.</p>
         <a href="/get_flights">Back to Summary</a><br><br>
     </div>
-    <div class="col-lg-2">
+    <div class="col-lg-4">
         <div id="dashboard">
           <table>
             <tr>
                 <th>CO2e (mt)</th>
                 <th>carbon debt</th>
-                <th></th>
             </tr>
             <tr>
                 <td id="carbon-debt"></td>
@@ -28,55 +27,51 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-lg-6">
-        <div id="table-wrapper">
-            <div id="table-scroll">
-                <table name="report" id="report" class="table table-hover table-condensed">
-                    <thead>
-                        <tr>
-                            <th>Purchased:</th>
-                            <th>Departing:</th>
-                            <th>Arriving:</th>
-                            <th>Emissions<br>(CO2e mt)</th>
-                            <th>Emissions<br>(2015$)</th>
-                            <th>&nbsp;</th> <!-- Empty spot for delete buttons -->
-                        </tr>
-                    </thead>
-                    <tbody class="scrolly">
-                        <tr id="flightadd">
-                        <div name="flightadddiv" id="flightadddiv">
-                            <td><label for="date"></label><input type="date" value="{{year}}-06-01" name="purchase_date" class="form"></td>
-                            <td><label for="depart"></label><input type="text" name="depart" id="depart" class="form"></td>
-                            <td><label for="arrive"></label><input type="text" name="arrive" id="arrive" class="form"></td>
-                            <td>&nbsp;&nbsp;-&nbsp;&nbsp;</td>
-                            <td>&nbsp;&nbsp;-&nbsp;&nbsp;</td>
-                            <td><button class="btn btn-success" id="flightsubmit">&nbsp;&nbsp;&nbsp;ADD&nbsp;&nbsp;&nbsp;</button></td>
-                        </div>
-                        </tr>
+    <div class="col-lg-12">
+        <table name="report" id="report" class="table table-hover table-condensed">
+            <thead>
+                <tr>
+                    <th>Purchased:</th>
+                    <th>Departing:</th>
+                    <th>Arriving:</th>
+                    <th>Emissions<br>(CO2e mt)</th>
+                    <th>Emissions<br>(2015$)</th>
+                    <th>&nbsp;</th> <!-- Empty spot for delete buttons -->
+                </tr>
+            </thead>
+            <tbody class="scrolly">
+                <tr id="flightadd">
+                <div name="flightadddiv" id="flightadddiv">
+                    <td><label for="date"></label><input type="date" value="{{year}}-06-01" name="purchase_date" class="form"></td>
+                    <td><label for="depart"></label><input type="text" name="depart" id="depart" class="form"></td>
+                    <td><label for="arrive"></label><input type="text" name="arrive" id="arrive" class="form"></td>
+                    <td>&nbsp;&nbsp;-&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;-&nbsp;&nbsp;</td>
+                    <td><button class="btn btn-success" id="flightsubmit">&nbsp;&nbsp;&nbsp;ADD&nbsp;&nbsp;&nbsp;</button></td>
+                </div>
+                </tr>
 
-                        {% for flight_id, date, depart, arrive, CO2e in results_list %}
-                        <tr id={{"row-%d" % flight_id}}>
-                            <td>{{date}}</td>
-                            <td>{{depart}}</td>
-                            <td>{{arrive}}</td>
-                            <td class="emiss" data-amt="{{CO2e}}">{{'%0.2f' % CO2e}}</td>
-                            <td class="priced" data-amt="{{CO2e*g.carbon_price}}">${{'%0.2f' % (CO2e*g.carbon_price)}}</td>
-                            <td><button type="button" class="btn btn-danger" style="visibility: hidden" id="{{flight_id}}" onclick="deleteFlight('{{flight_id}}', '{{'row-%d' % flight_id}}', '{{CO2e}}')">DELETE</button></td>
-                        </tr>
-                        {% endfor %} 
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            <th>TOTALS</th>
-                            <th>&nbsp;</th>
-                            <th>&nbsp;</th>
-                            <th id="cTotal">&nbsp;</th>
-                            <th id="mTotal">&nbsp;</th>
-                            <th>&nbsp;</th>
-                        </tr>
-                    </tfoot>
-                </table>
-            </div>
-        </div>
+                {% for flight_id, date, depart, arrive, CO2e in results_list %}
+                <tr id={{"row-%d" % flight_id}}>
+                    <td>{{date}}</td>
+                    <td>{{depart}}</td>
+                    <td>{{arrive}}</td>
+                    <td class="emiss" data-amt="{{CO2e}}">{{'%0.2f' % CO2e}}</td>
+                    <td class="priced" data-amt="{{CO2e*g.carbon_price}}">${{'%0.2f' % (CO2e*g.carbon_price)}}</td>
+                    <td><button type="button" class="btn btn-danger" style="visibility: hidden" id="{{flight_id}}" onclick="deleteFlight('{{flight_id}}', '{{'row-%d' % flight_id}}', '{{CO2e}}')">DELETE</button></td>
+                </tr>
+                {% endfor %} 
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>TOTALS</th>
+                    <th>&nbsp;</th>
+                    <th>&nbsp;</th>
+                    <th id="cTotal">&nbsp;</th>
+                    <th id="mTotal">&nbsp;</th>
+                    <th>&nbsp;</th>
+                </tr>
+            </tfoot>
+        </table>
     </div>
 </div>
