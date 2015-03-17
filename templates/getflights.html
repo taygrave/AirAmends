@@ -34,8 +34,8 @@
             </thead>
             <tbody>
                 {% for year, num_flights, total_CO2e in years_list %}
-                <tr>
-                    <td><a href="/get_flights/{{year}}">{{year}}</td>
+                <tr class="clickable-row" data-href="/get_flights/{{year}}">
+                    <td>{{year}}</td>
                     <td class="flights" data-amt="{{num_flights}}">{{num_flights}}</td>
                     <td class="emiss results" data-amt="{{total_CO2e}}">{{'%0.2f' % total_CO2e}}</td>
                     <td class="priced results" data-amt="{{total_CO2e*g.carbon_price}}">${{'%0.2f' % (total_CO2e*g.carbon_price)}}</td>
@@ -63,5 +63,10 @@
     flightTotal();
     CO2ePrice = {{g.carbon_price}};
     carbonDebt = carbonDebt1;
+
+    $(".clickable-row").click(function() {
+        loadStuff($(this).data("href"));
+        // window.document.location = $(this).data("href");
+    });
 });
 </script>
