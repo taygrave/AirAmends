@@ -33,12 +33,17 @@ a {
 }
 
 /*OTHER STYLES*/
+body {
+  overflow-x: hidden; 
+}
+
 footer { 
-    clear: both;
-    position:fixed;
-    bottom:0;
-    height: 2em;
-    margin-top: -2em;}
+  clear: both;
+  position:fixed;
+  bottom:0;
+  height: 2em;
+  padding:0em 0em 1em 1em;
+}
 
 .wrapper {
   background-color: #FFE45C;
@@ -52,7 +57,7 @@ footer {
 }
 
 .donate {
-  padding-right: 1.5em;
+  padding-right: 1.8em;
   float: right;
 }
 
@@ -78,8 +83,7 @@ thead, tbody, tfoot {
 }
 
 th, td {
-  width: 12em;
-  border: solid red;}
+  width: 12em;}
 
 tbody.scrolly {
   height: 17em; 
@@ -121,6 +125,9 @@ input[type=text] {
   background-color: white;
   color: black;}
 
+.modal-content {
+  width: 110%;
+}
 
 /*MAP STYLE INFO*/
 /*

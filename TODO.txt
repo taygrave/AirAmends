@@ -4,9 +4,6 @@ CODE TIDYING:
     change 'session' in airamends.py to explicitly refer to db session
 
 PAGE STYLING:
-    make sure flight add / delete buttons fit in page
-    modal on calc methods display needs to be widened
-    Make form look nicer
     donation page
 
 Things I want help from Mentors with:
