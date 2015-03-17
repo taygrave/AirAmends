@@ -26,7 +26,8 @@ footer {
   height: 2em;
   padding:0 0 1em 1em;}
 p {
-  margin: 0;}
+  margin: 0;
+  padding-top: 0.3em; }
 
 /*LINK STYLES & HEADER*/
 a {
