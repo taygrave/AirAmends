@@ -4,6 +4,7 @@ CODE TIDYING:
     change 'session' in airamends.py to explicitly refer to db session
 
 PAGE STYLING:
+    Make table header constant on each site
     donation page
 
 Things I want help from Mentors with:

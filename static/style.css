@@ -1,6 +1,6 @@
 /*SET UP MAJOR SECTIONS*/
 #header { 
-  background-color: #09B78E;
+  background-color: #1D5196;
   top:0; bottom:90%;}
 #main { 
   position:absolute; 
@@ -24,12 +24,23 @@ a {
   
 /*MANAGE BOOTSTRAP COLS*/
 .row {
-  padding:1em 0em 1em 1em; 
+  padding:0em 0em 1em 1em; 
 }
 
 .top {
   padding:1em 0em 1em 1em;
-  background-color: #CFCFCF;
+  background-color: #09B78E;
+  color: white;
+  height: 11em;
+}
+
+.top p {
+  opacity: 0.75;
+}
+
+.btn-lg {
+  background-color: #1D5196;
+  border-color: #1D5196; 
 }
 
 /*OTHER STYLES*/
@@ -45,11 +56,6 @@ footer {
   padding:0em 0em 1em 1em;
 }
 
-.wrapper {
-  background-color: #FFE45C;
-  display: block;
-  height: 0.5em;
-}
 
 /*SUBHEADER STYLING (intro + dashboard)*/
 .dash {
@@ -58,8 +64,7 @@ footer {
 
 .donate {
   padding-right: 1.8em;
-  float: right;
-}
+  float: right;}
 
 .year {
   font-size: 2em;
@@ -76,6 +81,13 @@ footer {
 
 .table-condensed {
   font: 1.1em arial, sans-serif;  
+}
+
+.details {
+  margin-top: 1.5em;
+}
+.summary {
+  margin-top: 0.35em;
 }
 
 thead, tbody, tfoot {
@@ -100,20 +112,25 @@ tbody.scrolly {
 }
 .last_col {
   width: 5em;
+  text-align: right;
+  font-size: 1em;
 }
 
 .btn-sm { /*inside of last_col */
   padding: 0;
+  width: 5em;
 }
 
 /*add-a-flight form in table*/
 input[type=date] {
-       color: gray;
-       width: 5em;}
+  color: gray;
+  width: 5em;
+  height: 1.8em;}
 
 input[type=text] {
-       color: gray;
-       width: 90%;}
+  color: gray;
+  width: 90%;
+  height: 1.8em;}
 
 /*SEPARATE PAGES*/
 .not_authorized {
