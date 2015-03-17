@@ -31,10 +31,11 @@
     <div id="main">
       {% if 'user_id' not in session %}
         <div id='logged-out' class="not_authorized">
-          <p> To see your flights and calculate your carbon emissions, you must authorize us to query your Gmail Account.</p>
+          <p>Make your travel worth it.<br><br>AirAmends produces an interactive report detailing your personal air travel and the associated social cost of the carbon emissions from each flight. To see and pay off your personal carbon debt, we'd like to search your emails:</p>
           <form action="/login/" class="form-signin" id="getflights">
-            <button class="btn btn-lg btn-success" type="submit">Authorize Google</button>
+            <button class="btn btn-lg btn-success auth" type="submit">Authorize Google!</button>
           </form><br>
+          Or, demo the site using example data:
           
           <form action="/demo" method="POST">
             <button class="btn btn-lg btn-warning" type="submit">Demo Site</button>

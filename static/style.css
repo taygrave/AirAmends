@@ -125,7 +125,7 @@ tbody.scrolly {
   vertical-align: bottom;}
 .year {
   font-size: 2em;
-  font-weight: 400}
+  font-weight: 400;}
 
 /*add-a-flight form in table*/
 input[type=date] {
@@ -141,6 +141,9 @@ input[type=text] {
 .not_authorized {
   font-size: 2em;
   padding:1em 1em;}
+.auth {
+  font-size: 1em;
+}
 .querying {
   text-align:right;
   font-size: 1.5em;}
