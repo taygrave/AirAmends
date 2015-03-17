@@ -70,7 +70,7 @@ a {
 .btn-success {
   background-color: #AEE239;
   border-color: #AEE239; }
-.btn-success:hover {
+.btn-success:active, .btn-success:focus, .btn-success:hover {
   background-color: #AEE239;}  
 .btn-danger {
   background-color: #BE0060;
