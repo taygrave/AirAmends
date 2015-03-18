@@ -147,6 +147,8 @@ input[type=text] {
 .querying {
   text-align:right;
   font-size: 1.5em;}
+.querying img{
+  margin-top: -0.4em;}
 .donate-page {
   background-color: white;
   color: black;
