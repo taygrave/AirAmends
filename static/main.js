@@ -95,7 +95,7 @@ function drawPairs() {
                     return c.reverse();
             }), {
                 color: '#40C0CB',
-                weight: 2.5,
+                weight: 2,
                 opacity: 1
             })
             .addTo(map);
