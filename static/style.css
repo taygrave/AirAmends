@@ -149,7 +149,20 @@ input[type=text] {
   font-size: 1.5em;}
 .donate-page {
   background-color: white;
-  color: black;}
+  color: black;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;}
+.donate-page p{
+  font-weight: 300;
+  padding: 1em;
+}
+#donate-table img{
+  width: 300px;}
+#donate-table td{
+  width: 50em;
+  border: 1px solid red;
+  vertical-align: top;
+}
 .modal-content {
   width: 110%;
   font-family: 'Source Sans Pro', sans-serif;}
