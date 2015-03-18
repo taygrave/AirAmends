@@ -18,7 +18,8 @@
 
 /*MAJOR SETTINGS*/
 body {
-  overflow-x: hidden;}
+  overflow-x: hidden;
+  overflow-y: hidden;}
 footer { 
   clear: both;
   position:fixed;

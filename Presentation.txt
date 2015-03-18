@@ -12,6 +12,7 @@ Email scraping
     regex
     user validation
     false positives, the algorithm isn't perfect
+    Iterations and success percentages
 
 Carbon estimation / pricing
     talk more about tech of this (lat, long - great circle, dictionary of haul lengths)
@@ -34,3 +35,6 @@ Summary Flow (How tech works together)
     Sqlite / SQLAlchemy
     Website built with HTML, styled with CSS
     Added interactivity and better user experience with: Javascript / jQuery / AJAX
+
+Questions for Companies:
+    Do you have a mentoring program at your company?
