@@ -1,5 +1,4 @@
-import model
-import csv 
+import model, csv
 
 def seed_airports(session):
     """Parses the airports.dat file of airport codes and associated information to add to the db, taking the live session connection as a parameter"""
@@ -46,12 +45,8 @@ def remove_tz_conflicts(session):
     NA_timezones = ['ADT', 'AST', 'CDT', 'CST', 'EDT', 'EGT', 'EST', 'GMT', 'MDT', 'MST', 'NDT', 'NST', 'PDT', 'PST', 'WGT', 'UTC', 'TLS', 'HEL', 'SNA']
 
     for zone in NA_timezones:
-        # this also works but prints out every query to db
-        # a = model.Airport.query.filter(id == zone).first()
-
         conflict = session.query(model.Airport).filter(model.Airport.id == zone).first()
         if conflict != None:
             session.delete(conflict)
 
-        session.commit()
-
+    session.commit()
