@@ -1,7 +1,11 @@
 /env
 airdata.db
-ReadMe.txt
 Presentation.txt
 TODO.txtx
 .DS_Store
 Archive
+config.pyc
+gmailapiworks.pyc
+model.pyc
+seed_airports.pyc
+seed_flights.pyc
