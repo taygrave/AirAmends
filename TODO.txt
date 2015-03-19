@@ -1,5 +1,6 @@
 
 CODE TIDYING:
+    remove unused stuff from env
     remove model.connect where possible
     change 'session' in airamends.py to explicitly refer to db session
 
