@@ -6,7 +6,7 @@ AIR AMENDS is a forward-thinking web app that gives air travelers visibility int
 ![Alt text](https://raw.githubusercontent.com/taygrave/AirAmends/3af35167221924019ffbd439f2eb3624c807cbf5/static/ScreenShot.png "Screen Shot")
 
 ##Tech Stack
-Application Layer: Python, Flask
+Application Layer: Python, Flask, Regular Expressions
 
 Data Layer: SQLite, SQLAlchemy
 
