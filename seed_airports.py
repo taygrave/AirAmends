@@ -1,4 +1,8 @@
 import model, csv
+from datetime import datetime
+
+#list of all three letter North American time zone abbreviations and other proven problematic three capital character email instances that do not mean to indicate an airport
+list_of_conflict_codes = ['ADT', 'AST', 'CDT', 'CST', 'EDT', 'EGT', 'EST', 'GMT', 'MDT', 'MST', 'NDT', 'NST', 'PDT', 'PST', 'WGT', 'UTC', 'TLS', 'HEL']
 
 def seed_airports(db_session):
     """Parses the airports.dat file of airport codes and associated information to add 5,000+ airports and their associated information to the db, takes the live db_session connection as a parameter"""
@@ -6,21 +10,21 @@ def seed_airports(db_session):
     with open("data/airports.dat", 'rb') as src_file:
         reader = csv.reader(src_file)
 
-        for row in reader:
-            code_to_check = row[4]
+        for col in reader:
+            code_to_check = col[4]
             #determines if there are numbers in the aiport code
             numbers_in_code = has_numbers(code_to_check)
             
             #determined to be a legit airport code and saved to db if code_to_check has 3 characters and numberless, as there are codes in the source data that do not meet this requirement
             if len(code_to_check)==3 and numbers_in_code == False:
                 #code found legit, set up for saving to db
-                id = row[4]
+                id = col[4]
                 #Translating some airport names and cities into strict unicode to avoid errors
-                name = row[1].decode('utf-8')
-                city = row[2].decode('utf-8')
-                country = row[3]
-                lati = row[6]
-                longi = row[7]
+                name = col[1].decode('utf-8')
+                city = col[2].decode('utf-8')
+                country = col[3]
+                lati = col[6]
+                longi = col[7]
                 #there is also a timezone attribute to each row that could serve as a regional indicator if need be
                 
                 entry = model.Airport(name=name, city=city, country=country, latitude=lati, longitude=longi)
@@ -39,9 +43,6 @@ def has_numbers(input_str):
     """Takes a string and returns true if that string has a number in it"""
     return any(char.isdigit() for char in input_str)
 
-#list of all three letter North American time zone abbreviations and other proven problematic three capital character email instances that do not mean to indicate an airport
-list_of_conflict_codes = ['ADT', 'AST', 'CDT', 'CST', 'EDT', 'EGT', 'EST', 'GMT', 'MDT', 'MST', 'NDT', 'NST', 'PDT', 'PST', 'WGT', 'UTC', 'TLS', 'HEL']
-
 def remove_code_conflicts(db_session, list_of_conflict_codes=list_of_conflict_codes):
     """Removes any airport from db that has the same three letter code as a North American time zone or other coincidental offense"""
     
@@ -49,5 +50,50 @@ def remove_code_conflicts(db_session, list_of_conflict_codes=list_of_conflict_co
         conflict = db_session.query(model.Airport).filter(model.Airport.id == code).first()
         if conflict != None:
             db_session.delete(conflict)
+
+    db_session.commit()
+
+def seed_demo_data(db_session):
+    """Inserts demo data into newly created db so that users can demo site functionality w/o having to provide their own gmail authorization"""
+    with open("data/demouser.csv", 'rb') as src_file1:
+        reader1 = csv.reader(src_file1)
+
+        for col in reader1:
+            email = col[1]
+            token = col[2]
+
+            user = model.User(email=email, access_token=token)
+            user.id = 0
+            db_session.add(user)
+
+    with open("data/demoemails.csv", 'rb') as src_file2:
+        reader2 = csv.reader(src_file2)
+
+        for col in reader2:
+            user_id = col[1]
+            msg_id = col[2]
+            date = col[3]
+            sender = col[4]
+            subject = col[5]
+
+            converted_date = datetime.strptime(date, "%Y-%m-%d")
+
+            email = model.Email(user_id=user_id, msg_id=msg_id, date=converted_date, sender=sender, subject=subject)
+            db_session.add(email)
+
+    with open("data/demoflights.csv", 'rb') as src_file3:
+        reader3 = csv.reader(src_file3)
+
+        for col in reader3:
+            user_id = col[1]
+            email_id = col[2]
+            date = col[3]
+            depart = col[4]
+            arrive = col[5]
+
+            converted_date = datetime.strptime(date, "%Y-%m-%d")
+
+            flight = model.Flight(user_id=user_id, email_id=email_id, date=converted_date, depart=depart, arrive=arrive)
+            db_session.add(flight)
 
     db_session.commit()
