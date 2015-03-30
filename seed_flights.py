@@ -98,6 +98,7 @@ def calc_carbon(depart_city, arrive_city, uplift_factor=1.09, radiative_forcing=
     return CO2e
 
 def CO2e_results(list_flights):
+    """Takes a list of flight objects from the db and returns the estimate (float) the sum total of carbon emissions for all flights in list together"""
     sum_CO2e = 0
     for flight in list_flights:
         depart_city = (flight.departure.latitude, flight.departure.longitude)
@@ -107,27 +108,32 @@ def CO2e_results(list_flights):
     return sum_CO2e
 
 def report_by_year(user_id):
-    """Returns a list of all years containing flights from user's db of flights."""
+    """Inputs the user id (int) and returns returns a list containing a tuple for each year there is a user flight, items represnt: (1) the year (int), (2) the total number of flights found for that year (int), (3) the sum total CO2e emissions for all flights in that year (float)."""
+    #This function is used to create a summary report for the homepage, lists details for all years
     s = model.connect()
     flights_list = s.query(model.Flight).filter(model.Flight.user_id == user_id).all()
     list_distinct_years = []
 
+    #creating a list of distinct years from flight.date.year attribute to know which years to create summary reports for
     for obj in flights_list:
         year = obj.date.year
         if year not in list_distinct_years:
             list_distinct_years.append(year)
 
-    years_list = []
+    summary_report_list = []
     for year in list_distinct_years:
         CO2e = year_calc(year, user_id)
-        years_list.append(CO2e)
+        summary_report_list.append(CO2e)
 
-    return years_list
+    return summary_report_list
 
 def year_calc(yyyy, user_id):
+    """Takes in the year (int) and user id (int) to query the db and provide a summary report for the input year only. Returns a tuple representing (1) the year (int), (2) the total number of flights found for that year (int), (3) the sum total CO2e emissions for all flights in that year (float)."""
+    #This function is used to create a summary report for the year-specific pages
     s = model.connect()
     total_flights = s.query(model.Flight).filter(model.Flight.user_id == user_id).all()
 
+    #Because can't query SQLAlchemy by date.year attribute alone, weeding out above complete flight list to look only at flights that took place in the input year
     working_list = [obj for obj in total_flights if (obj.date.year == yyyy)]
 
     num_flights = len(working_list)
