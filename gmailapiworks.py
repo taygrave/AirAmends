@@ -49,7 +49,7 @@ def populate_db(service, user_id, query=query):
     return "No messages found matching query."
 
   else: 
-    db_session = model.connect()
+    db_session = model.db_session
     #create lists of legit airport codes from db to pass later for comparison against likely airport code finds from each msg body
     all_airports_list = db_session.query(model.Airport).all()
     list_aircodes = [airport.id for airport in all_airports_list]

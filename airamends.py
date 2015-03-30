@@ -121,8 +121,8 @@ def delete_flight():
     """Receives ajax data for flight user clicked to delete, deletes flight and sends back 'ok' once completed. (Will post error message on other end if error.)"""
     id = int(request.values['id'])
     flight = Flight.query.filter(Flight.id == id, Flight.user_id == current_user.id).one()
-    session.delete(flight)
-    session.commit()
+    db_session.delete(flight)
+    db_session.commit()
     return "OK"
 
 @app.route("/add_flight", methods=["GET"])
@@ -142,8 +142,8 @@ def add_flight():
         db_arrive = re.search((r"([A-Z]{3})"),arrive).group()
         #Adding to db, special email_id code of "0" used to indicate manual user added flight
         entry = Flight(user_id=user_id, email_id=0, date=db_date, depart=db_depart, arrive=db_arrive)
-        session.add(entry)
-        session.commit()
+        db_session.add(entry)
+        db_session.commit()
         
         #Return info for table addition
         date = db_date.strftime('%b-%d')
@@ -236,7 +236,7 @@ def login_callback():
     user = User.query.filter_by(email = email).first()
     if user:
         user.access_token = access_token
-        session.commit()
+        db_session.commit()
 
     else:
         user = User(email=email, access_token=access_token)
@@ -254,7 +254,7 @@ def logout():
         Flight.query.filter(Flight.user_id == current_user.id).delete()
         Email.query.filter(Email.user_id == current_user.id).delete()
         User.query.filter(User.id == current_user.id).delete() 
-        session.commit()
+        db_session.commit()
 
     logout_user()
 

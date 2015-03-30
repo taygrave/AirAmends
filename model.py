@@ -9,24 +9,19 @@ import seed_airports
 
 db = "sqlite:///airdata.db"
 engine = create_engine(db, echo=False)
-session = scoped_session(sessionmaker(bind=engine, autocommit=False, autoflush=False))
+db_session = scoped_session(sessionmaker(bind=engine, autocommit=False, autoflush=False))
 
 Base = declarative_base()
-Base.query = session.query_property()
+Base.query = db_session.query_property()
 
 ####  INITIALIZING  ####
 
 def create_db():
     """This creates a new db when called"""
     Base.metadata.create_all(engine)
-    session = connect()
-    seed_airports.seed_airports(session)
+    global db_session
+    seed_airports.seed_airports(db_session)
     print "Finished created new database, airports table loaded."
-
-def connect():
-    """Establishes useable connection to db for use elsewhere"""
-    global session
-    return session
 
 #### BUILDING THE DATABASE ####
 
@@ -42,8 +37,8 @@ class User(UserMixin, Base):
         self.access_token = access_token
 
     def save(self):
-        session.add(self)
-        session.commit()
+        db_session.add(self)
+        db_session.commit()
 
     def __repr__(self):
         return "<User: id=%r, email=%s>" %(self.id, self.email)
