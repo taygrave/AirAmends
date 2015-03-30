@@ -1,1 +1,0 @@
-airports.dat - http://openflights.org/data.html starred two airports that were duplicate entries *BFT and *ZYA

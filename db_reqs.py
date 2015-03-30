@@ -60,16 +60,10 @@ def remove_code_conflicts(db_session, list_of_conflict_codes=list_of_conflict_co
 
 def seed_demo_data(db_session):
     """Inserts demo data into newly created db so that users can demo site functionality w/o having to provide their own gmail authorization"""
-    with open("data/demouser.csv", 'rb') as src_file1:
-        reader1 = csv.reader(src_file1)
-
-        for col in reader1:
-            email = col[1]
-            token = col[2]
-
-            user = model.User(email=email, access_token=token)
-            user.id = 0
-            db_session.add(user)
+    
+    user = model.User(email="demo@example.com", access_token="no token, demo only")
+    user.id = 0
+    db_session.add(user)
 
     with open("data/demoemails.csv", 'rb') as src_file2:
         reader2 = csv.reader(src_file2)
