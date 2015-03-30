@@ -62,9 +62,11 @@ def before_request():
     if flask_session.get('user_id') == None:
         g.status = "Log In"
         g.link = "/login/"
+        g.foot = None
     else:
         g.status = current_user.email
         g.link = "/logout/"
+        g.foot = "Emails Found"
 
 @app.route("/")
 def homepage():
@@ -172,6 +174,11 @@ def donate_page():
     """Directs user with their personal carbon debt to donation page"""
     debt = request.args.get('carbon_debt')
     return render_template("donate.html", debt=debt)
+
+@app.route("/email_summary")
+def show_emails_found():
+    """Shows user exactly which emails we are working with here"""
+    return render_template("emailsummary.html")
 
 @app.route("/flights.js")
 def flights4map():

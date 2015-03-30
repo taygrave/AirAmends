@@ -54,6 +54,10 @@
     
     <footer> 
       <a href="/about_calc" id="load-methods">How we Price and Calculate</a>
+      {% if g.foot %}
+        &nbsp;&nbsp;&#9830;&nbsp;&nbsp; 
+        <a href="/email_summary">{{g.foot}}</a>
+      {% endif %}
     </footer>
     <div id="modal-wrapper"></div>
 

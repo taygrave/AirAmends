@@ -21,6 +21,7 @@ body {
   overflow-x: hidden;
   overflow-y: hidden;}
 footer { 
+  color: #00A8C6;
   clear: both;
   position:fixed;
   bottom:0;
