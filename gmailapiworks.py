@@ -43,15 +43,16 @@ def populate_db(service, user_id, query=query):
   """Takes input of gmail api service, user id, and query to add unique, parsed, and extra decoded if necessary, message components to the db, calls for flight parser for each message and also populates flights db. Returns success message."""
   service = service
   msg_list = query_messages(service, query)
-  
   print "completed: queried gmail messages..."
-  print msg_list
   
   if msg_list == []:
-    print "No messages found matching query."
+    return "No messages found matching query."
 
   else: 
-    s = model.connect()
+    db_session = model.connect()
+    #create lists of legit airport codes from db to pass later for comparison against likely airport code finds from each msg body
+    all_airports_list = db_session.query(model.Airport).all()
+    list_aircodes = [airport.id for airport in all_airports_list]
 
     # check if message is unique, parse, perhaps decode, and add to db
     for msg_item in msg_list:
@@ -74,17 +75,17 @@ def populate_db(service, user_id, query=query):
               msg_body = decoded_str.decode('UTF-8')
 
           #ensures only unique itinerary confirmation email message info is added to the db
-          exists = s.query(model.Email).filter(model.Email.sender == msg_sender, model.Email.subject == msg_subject, model.Email.user_id == user_id).first()
+          exists = db_session.query(model.Email).filter(model.Email.sender == msg_sender, model.Email.subject == msg_subject, model.Email.user_id == user_id).first()
           
           if exists == None:
             entry = model.Email(user_id=user_id, msg_id=msg_item['id'], date=msg_date, sender=msg_sender, subject=msg_subject, body="no body!")
             
-            s.add(entry)
-            s.commit()
+            db_session.add(entry)
+            db_session.commit()
 
-            #Call on flight parsing function to comb through each message body and add to db
+            #Call on flight parsing function to comb through each message body and add found flights to db
             msg_id = entry.id
-            seed_flights.seed_flights(user_id, msg_id, msg_body, msg_date)
+            seed_flights.seed_flights(db_session, user_id, msg_id, msg_body, msg_date, list_aircodes)
 
     return "Successfully added emails and flights to the db"
 

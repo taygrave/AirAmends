@@ -43,7 +43,7 @@ def user_setup():
         if query_result == "Successfully added emails and flights to the db":
             print query_result
         else:
-            print "Error with email query"
+            print query_result
             return "Error"
 
 @login_manager.user_loader

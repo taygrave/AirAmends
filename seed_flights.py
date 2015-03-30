@@ -14,15 +14,9 @@ def find_itinerary(list_airfinds):
 
     return list_itin
 
-def seed_flights(msg_user_id, msg_id, msg_body, msg_date):
-    """Pulls email bodies (strings) from msg objs (list) and parses them to determine a trip itneraries per message and adds each itinerary's flight legs to the db."""
-    s = model.connect()
-    
-    #get legit airport codes from db for later comparison against likely airport code finds from emails by quering all emails and making comparison list consisting of their ids
-    all_airports = s.query(model.Airport).all()
-    list_aircodes = [airport.id for airport in all_airports]
-
-    #initializing the regex term to identify airports by
+def seed_flights(db_session, msg_user_id, msg_id, msg_body, msg_date, list_aircodes):
+    """Inputs: a single email's attributes to parse to determine trip itneraries and add each itinerary's flight legs to the db."""
+    #initializing the regex term by which airport codes are identifed
     p = re.compile(r"\(([A-Z]{3})(\)| )|\>([A-Z]{3})\<|;([A-Z]{3})\&")
 
     #a list of all matching regex terms
@@ -61,10 +55,10 @@ def seed_flights(msg_user_id, msg_id, msg_body, msg_date):
         for tupe in itinerary:
             depart, arrive = tupe
             entry = model.Flight(user_id=user_id, email_id=email_id, date=date, depart=depart, arrive=arrive)
-            s.add(entry)
+            db_session.add(entry)
     
     #committing additions
-    s.commit()
+    db_session.commit()
 
 def calc_carbon(depart_city, arrive_city, uplift_factor=1.09, radiative_forcing=1.9 ):
     """Receives two tuples of the (lat,long) of the departing and arriving airports and defaults from the IPCC's uplift factor and DEFRA's radiative forcing. Calculates the distance between (using great circle) & determines haul length, uses emissions factor constants from EPA methods. Returns a float representing CO2e emissions per passenger-mile for input flight segment."""
