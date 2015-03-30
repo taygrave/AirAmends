@@ -1,7 +1,6 @@
 import model
 import re
 from geopy.distance import great_circle
-import json
 
 def find_itinerary(list_airfinds):
     """Takes list of all legit airport codes found in a message and returns a likely itinirary list of tuples that represent legs of a trip by removing duplicates and odd remainders."""
