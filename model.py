@@ -3,7 +3,6 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import create_engine, distinct, update
 from sqlalchemy import Column, Integer, String, ForeignKey, Text, Date, Float, desc, asc
 from sqlalchemy.orm import sessionmaker, scoped_session, relationship, backref
-
 from flask.ext.login import UserMixin
 import seed_airports
 
@@ -14,8 +13,7 @@ db_session = scoped_session(sessionmaker(bind=engine, autocommit=False, autoflus
 Base = declarative_base()
 Base.query = db_session.query_property()
 
-####  INITIALIZING  ####
-
+#Used in config.py upon first run of app only
 def create_db():
     """This creates a new db when called"""
     Base.metadata.create_all(engine)
@@ -23,9 +21,7 @@ def create_db():
     seed_airports.seed_airports(db_session)
     print "Created a the new airdata.db database, airports table loaded."
 
-#### BUILDING THE DATABASE ####
-
-#Table to store each individual user and their authorization creds
+#### DATABASE SCHEMA ####
 class User(UserMixin, Base):
     __tablename__ = "Users"
     id = Column(Integer, primary_key=True)
