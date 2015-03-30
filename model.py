@@ -25,15 +25,9 @@ def create_db():
     seed_airports.seed_airports(session)
     print "Finished created new database, airports table loaded."
 
-def connect(db=db):
-    """Establishes useable connection to db"""
-    global engine
+def connect():
+    """Establishes useable connection to db for use elsewhere"""
     global session
-    engine = create_engine(db, echo=False) 
-    session = scoped_session(sessionmaker(bind=engine,
-                             autocommit = False,
-                             autoflush = False))
-    # Returning session for loading it elsewhere
     return session
 
 #### BUILDING THE DATABASE ####
