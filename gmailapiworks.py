@@ -39,8 +39,8 @@ def get_message(service, msg_id):
   except errors.HttpError, error:
     print 'An error occurred: %s' % error
 
-def add_msgs_to_db(service, user_id, query=query):
-  """Sets query and adds unique, parsed, and extra decoded if necessary, message components to the db """
+def populate_db(service, user_id, query=query):
+  """Takes input of gmail api service, user id, and query to add unique, parsed, and extra decoded if necessary, message components to the db, calls for flight parser for each message and also populates flights db. Returns success message."""
   service = service
   msg_list = query_messages(service, query)
   
@@ -82,11 +82,9 @@ def add_msgs_to_db(service, user_id, query=query):
             s.add(entry)
             s.commit()
 
-            print entry.id
+            #Call on flight parsing function to comb through each message body and add to db
             msg_id = entry.id
-            #parse email body for flights and add those to flights table in db per email
             seed_flights.seed_flights(user_id, msg_id, msg_body, msg_date)
-
 
     return "Successfully added emails and flights to the db"
 

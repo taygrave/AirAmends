@@ -39,7 +39,7 @@ def user_setup():
     
     #Query Gmail API
     else:
-        query_result = gmailapiworks.add_msgs_to_db(g.gmail_api, current_user.id)
+        query_result = gmailapiworks.populate_db(g.gmail_api, current_user.id)
         if query_result == "Successfully added emails and flights to the db":
             print query_result
         else:
