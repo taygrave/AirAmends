@@ -1,7 +1,7 @@
 import model, csv
 
 def seed_airports(db_session):
-    """Parses the airports.dat file of airport codes and associated information to add to the db, taking the live db_session connection as a parameter"""
+    """Parses the airports.dat file of airport codes and associated information to add 5,000+ airports and their associated information to the db, takes the live db_session connection as a parameter"""
     #source airport data from http://openflights.org/data.html
     with open("data/airports.dat", 'rb') as src_file:
         reader = csv.reader(src_file)
@@ -13,7 +13,7 @@ def seed_airports(db_session):
             
             #determined to be a legit airport code and saved to db if code_to_check has 3 characters and numberless, as there are codes in the source data that do not meet this requirement
             if len(code_to_check)==3 and numbers_in_code == False:
-                #set up for saving to db
+                #code found legit, set up for saving to db
                 id = row[4]
                 #Translating some airport names and cities into strict unicode to avoid errors
                 name = row[1].decode('utf-8')
@@ -44,7 +44,7 @@ def has_numbers(input_str):
 #list of all three letter North American time zone abbreviations and other proven problematic three capital character email instances that do not mean to indicate an airport
 list_of_conflict_codes = ['ADT', 'AST', 'CDT', 'CST', 'EDT', 'EGT', 'EST', 'GMT', 'MDT', 'MST', 'NDT', 'NST', 'PDT', 'PST', 'WGT', 'UTC', 'TLS', 'HEL']
 
-def remove_code_conflicts(db_session, list_of_conflict_codes=list_of_conflict_codes):
+def remove_code_conflicts(db_session, list_of_conflict_codes):
     """Removes any airport from db that has the same three letter code as a North American time zone or other coincidental offense"""
     
     for code in list_of_conflict_codes:
