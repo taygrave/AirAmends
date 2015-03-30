@@ -78,7 +78,7 @@ def populate_db(service, user_id, query=query):
           exists = db_session.query(model.Email).filter(model.Email.sender == msg_sender, model.Email.subject == msg_subject, model.Email.user_id == user_id).first()
           
           if exists == None:
-            entry = model.Email(user_id=user_id, msg_id=msg_item['id'], date=msg_date, sender=msg_sender, subject=msg_subject, body="no body!")
+            entry = model.Email(user_id=user_id, msg_id=msg_item['id'], date=msg_date, sender=msg_sender, subject=msg_subject)
             
             db_session.add(entry)
             db_session.commit()

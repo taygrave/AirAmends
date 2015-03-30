@@ -7,7 +7,10 @@ from flask.ext.login import UserMixin
 
 import seed_airports
 
-engine = create_engine("sqlite:///airdata.db", echo=False)
+db = "sqlite:///airdata.db"
+
+engine = create_engine(db, echo=False)
+
 session = scoped_session(sessionmaker(bind=engine, autocommit=False, autoflush=False))
 
 Base = declarative_base()
@@ -18,11 +21,11 @@ Base.query = session.query_property()
 def create_db():
     """This creates a new db when called"""
     Base.metadata.create_all(engine)
-    s = connect()
-    seed_airports.seed_airports(s)
+    session = connect()
+    seed_airports.seed_airports(session)
     print "Finished created new database, airports table loaded."
 
-def connect(db="sqlite:///airdata.db"):
+def connect(db=db):
     """Establishes useable connection to db"""
     global engine
     global session
@@ -62,7 +65,6 @@ class Email(Base):
     date = Column(Date, nullable=False)
     sender = Column(String(100), nullable=False)
     subject = Column(String(100), nullable=False)
-    body = Column(Text, nullable=False)
 
     user = relationship("User", backref="emails")
 
