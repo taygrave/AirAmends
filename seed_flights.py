@@ -14,7 +14,7 @@ def find_itinerary(list_airfinds):
 
     return list_itin
 
-def seed_flights(user_id):
+def seed_flights(msg_user_id, msg_id, msg_body, msg_date):
     """Pulls email bodies (strings) from msg objs (list) and parses them to determine a trip itneraries per message and adds each itinerary's flight legs to the db."""
     s = model.connect()
     
@@ -25,50 +25,46 @@ def seed_flights(user_id):
     #initializing the regex term to identify airports by
     p = re.compile(r"\(([A-Z]{3})(\)| )|\>([A-Z]{3})\<|;([A-Z]{3})\&")
 
-    #querying each email msg body inividually
-    msg_list = s.query(model.Email).filter(model.Email.user_id == user_id).all()
-    for msg_obj in msg_list:
-        #a list of all matching regex terms
-        list_results = p.findall(msg_obj.body)
-        #initializing empty list to put only legit airport codes from finds in
-        list_refinds = []
+    #a list of all matching regex terms
+    list_results = p.findall(msg_body)
+    #initializing empty list to put only legit airport codes from finds in
+    list_refinds = []
 
-        #list_results returns in tuples because searching for three possible different regex codes, each actual (not empty) find is added to list_refinds to get it out of tuple format (and due to varying airline msg formats, sometimes a single ')' is returned)
-        for tupe3 in list_results:
-            str_match = [m for m in tupe3 if m != '']
-            list_refinds.extend(str_match)
+    #list_results returns in tuples because searching for three possible different regex codes, each actual (not empty) find is added to list_refinds to get it out of tuple format (and due to varying airline msg formats, sometimes a single ')' is returned)
+    for tupe3 in list_results:
+        str_match = [m for m in tupe3 if m != '']
+        list_refinds.extend(str_match)
 
-        # Returns only the three letter findings that are 100% legit airport codes
-        list_airfinds = [m for m in list_refinds if m in list_aircodes]
+    # Returns only the three letter findings that are 100% legit airport codes
+    list_airfinds = [m for m in list_refinds if m in list_aircodes]
 
-        #final list of tuples representing legs of single trip per message (removes duplicates and odd remainders)
-        itinerary = find_itinerary(list_airfinds)
+    #final list of tuples representing legs of single trip per message (removes duplicates and odd remainders)
+    itinerary = find_itinerary(list_airfinds)
 
-        #making sure that no flight segment is accidentally added that is equal to itself (eg. (DEN, DEN))
+    #making sure that no flight segment is accidentally added that is equal to itself (eg. (DEN, DEN))
+    for tupe in itinerary:
+        if tupe[0] == tupe[1]:
+            itinerary.remove(tupe)
+    
+    #incase list is now empty after above catch, continue to next step in loop
+    if itinerary == []:
+        return
+
+    #otherwise add to the db (main case)
+    else:
+        #setting variables for addition to db that will be common to each flight found in this message
+        user_id = msg_user_id
+        email_id = msg_id
+        date = msg_date #currently the date of the email, not the flight 
+
+        #setting variables for addition to db that will be individual to each flight found in this msg
         for tupe in itinerary:
-            if tupe[0] == tupe[1]:
-                itinerary.remove(tupe)
-        
-        #incase list is now empty after above catch, continue to next step in loop
-        if itinerary == []:
-            continue
-
-        #otherwise add to the db (main case)
-        else:
-            #setting variables for addition to db that will be common to each flight found in this message
-            user_id = msg_obj.user_id
-            email_id = msg_obj.id
-            date = msg_obj.date #currently the date of the email, not the flight 
-
-            #setting variables for addition to db that will be individual to each flight found in this msg
-            for tupe in itinerary:
-                depart, arrive = tupe
-                entry = model.Flight(user_id=user_id, email_id=email_id, date=date, depart=depart, arrive=arrive)
-                s.add(entry)
+            depart, arrive = tupe
+            entry = model.Flight(user_id=user_id, email_id=email_id, date=date, depart=depart, arrive=arrive)
+            s.add(entry)
     
     #committing additions
     s.commit()
-    print "completed: flight search and adding to db"
 
 def calc_carbon(depart_city, arrive_city, uplift_factor=1.09, radiative_forcing=1.9 ):
     """Receives two tuples of the (lat,long) of the departing and arriving airports and defaults from the IPCC's uplift factor and DEFRA's radiative forcing. Calculates the distance between (using great circle) & determines haul length, uses emissions factor constants from EPA methods. Returns a float representing CO2e emissions per passenger-mile for input flight segment."""

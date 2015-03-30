@@ -40,9 +40,8 @@ def user_setup():
     #Query Gmail API
     else:
         query_result = gmailapiworks.add_msgs_to_db(g.gmail_api, current_user.id)
-        if query_result == "Successfully added emails to the db":
-            print "Email query sucessful"
-            seed_flights.seed_flights(current_user.id)
+        if query_result == "Successfully added emails and flights to the db":
+            print query_result
         else:
             print "Error with email query"
             return "Error"

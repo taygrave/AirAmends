@@ -1,7 +1,7 @@
 import base64
 import re
 from datetime import datetime
-import model
+import model, seed_flights
 import email
 from apiclient import errors
 
@@ -77,11 +77,18 @@ def add_msgs_to_db(service, user_id, query=query):
           exists = s.query(model.Email).filter(model.Email.sender == msg_sender, model.Email.subject == msg_subject, model.Email.user_id == user_id).first()
           
           if exists == None:
-            entry = model.Email(user_id=user_id, msg_id=msg_item['id'], date=msg_date, sender=msg_sender, subject=msg_subject, body=msg_body)
+            entry = model.Email(user_id=user_id, msg_id=msg_item['id'], date=msg_date, sender=msg_sender, subject=msg_subject, body="no body!")
+            
             s.add(entry)
             s.commit()
 
-    return "Successfully added emails to the db"
+            print entry.id
+            msg_id = entry.id
+            #parse email body for flights and add those to flights table in db per email
+            seed_flights.seed_flights(user_id, msg_id, msg_body, msg_date)
+
+
+    return "Successfully added emails and flights to the db"
 
 def convert_date(date_str):
   """Converts email obj date (string) into a datetime date object."""
