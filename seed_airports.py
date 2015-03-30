@@ -44,7 +44,7 @@ def has_numbers(input_str):
 #list of all three letter North American time zone abbreviations and other proven problematic three capital character email instances that do not mean to indicate an airport
 list_of_conflict_codes = ['ADT', 'AST', 'CDT', 'CST', 'EDT', 'EGT', 'EST', 'GMT', 'MDT', 'MST', 'NDT', 'NST', 'PDT', 'PST', 'WGT', 'UTC', 'TLS', 'HEL']
 
-def remove_code_conflicts(db_session, list_of_conflict_codes):
+def remove_code_conflicts(db_session, list_of_conflict_codes=list_of_conflict_codes):
     """Removes any airport from db that has the same three letter code as a North American time zone or other coincidental offense"""
     
     for code in list_of_conflict_codes:
