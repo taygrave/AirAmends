@@ -21,7 +21,7 @@ def create_db():
     Base.metadata.create_all(engine)
     global db_session
     seed_airports.seed_airports(db_session)
-    print "Finished created new database, airports table loaded."
+    print "Created a the new airdata.db database, airports table loaded."
 
 #### BUILDING THE DATABASE ####
 

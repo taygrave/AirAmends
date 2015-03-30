@@ -29,13 +29,11 @@ def seed_airports(db_session):
                 db_session.add(entry)
 
         db_session.commit()
-        print "Successfully added airports to db."
     
     #A quick fix that removes any airport added to the database that happens to have the same three letter code as a timezone or other email-related codes that do not actually indicate airports when they appear in email messages. 
     #Without this fix, the flight parser will mistakenly view the timezone, for example, as a flight segment.
     #Needs improvement in a more comprehensive version of this app  
     remove_code_conflicts(db_session)
-    print "Removed conflict airports."
 
 def has_numbers(input_str):
     """Takes a string and returns true if that string has a number in it"""
