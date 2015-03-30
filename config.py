@@ -12,5 +12,6 @@ GMAIL_CLIENT_ID = os.environ.get('GOOGLE_ID')
 GMAIL_CLIENT_SECRET = os.environ.get('GOOGLE_SECRET')
 GMAIL_AUTH_SCOPE = 'https://www.googleapis.com/auth/gmail.readonly'
 
+#checking if database exists yet, if not, creates it
 if os.path.isfile("airdata.db") != True:
     create_db()
