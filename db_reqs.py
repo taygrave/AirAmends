@@ -4,6 +4,11 @@ from datetime import datetime
 #list of all three letter North American time zone abbreviations and other proven problematic three capital character email instances that do not mean to indicate an airport
 list_of_conflict_codes = ['ADT', 'AST', 'CDT', 'CST', 'EDT', 'EGT', 'EST', 'GMT', 'MDT', 'MST', 'NDT', 'NST', 'PDT', 'PST', 'WGT', 'UTC', 'TLS', 'HEL']
 
+def first_db_setup(db_session):
+    """Upon the very first intialization of the db, seeds in all necessary airport codes and demo data for base user functionality"""
+    seed_airports(db_session)
+    seed_demo_data(db_session)
+
 def seed_airports(db_session):
     """Parses the airports.dat file of airport codes and associated information to add 5,000+ airports and their associated information to the db, takes the live db_session connection as a parameter"""
     #source airport data from http://openflights.org/data.html

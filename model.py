@@ -4,7 +4,7 @@ from sqlalchemy import create_engine, distinct, update
 from sqlalchemy import Column, Integer, String, ForeignKey, Text, Date, Float, desc, asc
 from sqlalchemy.orm import sessionmaker, scoped_session, relationship, backref
 from flask.ext.login import UserMixin
-import seed_airports
+from db_reqs import first_db_setup
 
 db = "sqlite:///airdata.db"
 engine = create_engine(db, echo=False)
@@ -18,9 +18,8 @@ def create_db():
     """This creates a new db when called"""
     Base.metadata.create_all(engine)
     global db_session
-    seed_airports.seed_airports(db_session)
-    seed_airports.seed_demo_data(db_session)
-    print "Created a the new airdata.db database, airports table loaded."
+    first_db_setup(db_session)
+    print "Created initial airdata.db database, airports and demo data loaded."
 
 #### DATABASE SCHEMA ####
 class User(UserMixin, Base):

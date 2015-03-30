@@ -7,6 +7,6 @@ Archive
 config.pyc
 gmailapiworks.pyc
 model.pyc
-seed_airports.pyc
+db_reqs.pyc
 seed_flights.pyc
 demo.dmp
