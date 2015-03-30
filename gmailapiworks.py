@@ -54,11 +54,11 @@ def add_msgs_to_db(service, user_id, query=query):
     s = model.connect()
 
     # check if message is unique, parse, perhaps decode, and add to db
-    for item in msg_list:
+    for msg_item in msg_list:
       #only take those where msg_id = thread_id to ensure its the root email
-        if item['id'] == item['threadId']: 
+        if msg_item['id'] == msg_item['threadId']: 
           #pull actual message from gmail api using its id
-          str_raw_msg = get_message(service, item['id'])
+          str_raw_msg = get_message(service, msg_item['id'])
           
           msg_body = str_raw_msg
           #and turn it into an email object to begin parsing
@@ -77,7 +77,7 @@ def add_msgs_to_db(service, user_id, query=query):
           exists = s.query(model.Email).filter(model.Email.sender == msg_sender, model.Email.subject == msg_subject, model.Email.user_id == user_id).first()
           
           if exists == None:
-            entry = model.Email(user_id=user_id, msg_id=item['id'], date=msg_date, sender=msg_sender, subject=msg_subject, body=msg_body)
+            entry = model.Email(user_id=user_id, msg_id=msg_item['id'], date=msg_date, sender=msg_sender, subject=msg_subject, body=msg_body)
             s.add(entry)
             s.commit()
 
