@@ -62,7 +62,8 @@ Open a web browser and navigate to: http://localhost:5050
 I really enjoyed making AIRAMENDS. Here are some of my favorite parts:
 * __Email Decoding__: To be able to support multiple airlines, I had to support multiple email formats. This was really confounding at first, but I finally was able to decode depending on content type to the point where all emails could be parsed no matter what their format.
 
-* __Regex__: Similarly, different airlines different emails means different syntax for airport codes. I used airport codes to re-create the itineraries and make the distance and CO2e calcultions. But not all airports looked the same, so I had to become a Regex boss to snatch them all up: `(r"\(([A-Z]{3})(\)| )|\>([A-Z]{3})\<|;([A-Z]{3})\&")`
+* __Regex__: Similarly, different airlines different emails means different syntax for airport codes. I used airport codes to re-create the itineraries and make the distance and CO2e calcultions. But not all airports looked the same, so I had to become a Regex boss to snatch them all up: 
+  * `r"\(([A-Z]{3})(\)| )|\>([A-Z]{3})\<|;([A-Z]{3})\&"`
 
-* __Working around OAuth__: I had a lot of difficulty connecting to OAuth, not only in the usual way ,but also the internet connection I commonly worked off of would throttle my requests. So I made a work around which I decided to convert into a permanent feature: the ability to demo the site with pre-seeded data. Now if someone doesn't want to authorize their own Gmail account but still wants to check out the site and it's functionality, they can choose to do so right on the homepage. 
+* __Working around OAuth__: I had a lot of difficulty connecting to OAuth, not only in the usual way, but also the internet connection I commonly worked off of would throttle my requests. So I made a work around which I decided to convert into a permanent feature: the ability to demo the site with pre-seeded data. Now if someone doesn't want to authorize their own Gmail account but still wants to check out the site and it's functionality, they can choose to do so right on the homepage. 
 
