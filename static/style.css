@@ -2,7 +2,7 @@
 #header { 
   background-color: #00A8C6;
   top:0; bottom:90%;
-  height: 7em;}
+  height: 12em;}
 #main { 
   position:absolute; 
   top:15%; bottom:0; 
@@ -15,6 +15,15 @@
   top:15%; bottom:0; 
   left:55%; right:0; 
   z-index: 0}
+#bodybody {
+  position: absolute;
+  top:15%; bottom:0; 
+  left:0; right:0; 
+  background: white;
+  padding-left: 1em;
+  padding-bottom: 1.5em;
+  font-family: 'Source Sans Pro', sans-serif;
+  z-index: 1000;}
 
 /*MAJOR SETTINGS*/
 body {
@@ -83,7 +92,7 @@ a {
   padding: 0;
   width: 5em;}
 
-  /*TABLE STYLES AND OVERRIDES*/
+/*TABLE STYLES AND OVERRIDES*/
 .clickable-row:hover {
   cursor: pointer;
   color: #BE0060;}
@@ -128,6 +137,14 @@ tbody.scrolly {
 .year {
   font-size: 2em;
   font-weight: 400;}
+
+/*Email summary table only*/ 
+#emails tbody.scrolly {
+height: 90%;}
+.e_col_1 {
+  width: 12em;}
+.e_col_2 {
+  width: 38em;}
 
 /*add-a-flight form in table*/
 input[type=date] {

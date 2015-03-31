@@ -178,7 +178,8 @@ def donate_page():
 @app.route("/email_summary")
 def show_emails_found():
     """Shows user exactly which emails we are working with here"""
-    return render_template("emailsummary.html")
+    all_emails = Email.query.all()
+    return render_template("emailsummary.html", all_emails=all_emails)
 
 @app.route("/flights.js")
 def flights4map():

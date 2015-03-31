@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="/static/style.css">
 </head>
 
-<body class="donate-page">
+<body>
     <div id="header"> 
       <nav class="navbar">
         <ul class="nav nav-pills">
@@ -26,7 +26,29 @@
         </ul>
       </nav>
     </div>
-    HELLLLLLO
-    </div>
+
+    <div id="bodybody">
+      <span class="year">We found the following flight confirmation emails for you:</span><br>
+      <a href="/"> &#8656; Back to Total Summary</a>
+  
+      <table id="emails" class="table table-striped table-condensed details">
+        <thead>
+          <tr>
+            <th class="e_col_1">Date</th>
+            <th class="e_col_2">Sender</th>
+            <th class="e_col_2">Subject</th>
+          </tr>
+        </thead>
+        <tbody class="scrolly emails">
+          {% for email in all_emails %}
+          <tr>
+            <td class="e_col_1">{{email.date}}</td>
+            <td class="e_col_2">{{email.sender}}</td>
+            <td class="e_col_2">{{email.subject}}</td>
+          </tr>
+          {% endfor %} 
+        </tbody>
+      </table>
+  </div>
 </body>
 </html>
