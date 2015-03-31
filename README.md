@@ -26,14 +26,14 @@ Clone or fork this repository. Then open a command line interface (terminal, she
 
 To run AIRAMENDS, you will need to create your own Google Developer account in order to request the necessary access keys.
 
-#####1. Google OAuth 2.0 credentials
+#####1. Google OAuth 2.0 Credentials
 Create a Google Developer account and take note of where to find your Client ID and Client Secret for web applications in the developer console: https://developers.google.com/accounts/docs/OAuth2
 
-#####2. Configure the web app in your Google Developer Console
+#####2. Configure App in your Google Developer Console
 Edit the web applications section to set the redirect URI to: http://localhost:5000/login/callback/
 
-#####3. Turn on Google's web services
-In your Google Developer Console, turn the Gmail API service to "on".
+#####3. Turn on Gmail API
+In your Google Developer Console, navigate to APIs under Auth & APIs in the left hand menu bar. Search for and select the Gmail API, turn 'on'.
 
 #####4. Create a Flask Secret Key
 In order to use sessions in Flask, you will need a secret key. The Flask Sessions documentation shows you how to generate one: http://flask.pocoo.org/docs/quickstart/#sessions
@@ -53,5 +53,7 @@ export SECRET_KEY="your key in quotes"
 ##Run the App
 
 In the AirAmends directory, type this command to start the server:
+
 `python airamends.py`
+
 Open a web browser and navigate to: http://localhost:5050
