@@ -178,7 +178,7 @@ def donate_page():
 @app.route("/email_summary")
 def show_emails_found():
     """Shows user exactly which emails we are working with here"""
-    all_emails = Email.query.all()
+    all_emails = Email.query.filter(Email.user_id == current_user.id).all()
     return render_template("emailsummary.html", all_emails=all_emails)
 
 @app.route("/flights.js")
