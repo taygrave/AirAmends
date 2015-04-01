@@ -16,7 +16,7 @@ Presentation Layer: HTML, CSS, JS, jQuery, AJAX, JSON, and Bootstrap
 
 ######Learn more about the developer: www.linkedin.com/in/thesselgrave
 
-##Installation Instrcutions
+##Installation Instructions
 
 Clone or fork this repository. Then open a command line interface (terminal, shell, etc.) and type:
 
