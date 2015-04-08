@@ -47,7 +47,8 @@
           <p class="querying">
             Currently querying for your flights...<img src="/static/airplane.gif">
           </p>
-          <script>loadStuff('/get_flights')</script>
+          <!-- Need to initially load info-div for first time -->
+          <script>loadInfo('/get_flights')</script>
         </div>
       {% endif %}
     </div>

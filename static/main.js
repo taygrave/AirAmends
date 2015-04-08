@@ -1,6 +1,6 @@
 // This script provides JavaScript functionality that is accesible to entire site: does map animation, keeps carbon dashboard updated, supports the modal, calculate table totals, and most importantly changes all a links in the info div to load in place
 
-function loadStuff(path) {
+function loadInfo(path) {
       $.get(path, function(response) {
         $("#info").html(response);
         if (path == '/get_flights'){
@@ -134,7 +134,7 @@ $(document).ready(function(){
     // Intercept clicks of anchor tags
     $('#info').on('click', 'a', function(ev) {
         var ogHref = ev.target.href;
-        loadStuff(ogHref);
+        loadInfo(ogHref);
         ev.preventDefault();
     });
 
