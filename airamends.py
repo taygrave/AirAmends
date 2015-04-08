@@ -222,8 +222,10 @@ def get_airports(format="json"):
 
 @app.route('/login/')
 def login():
+    #if user already logged in, redirects to homepage
     if current_user.is_authenticated():
         return redirect(url_for('homepage'))
+    #begins building gmail api service, will prompt user to google auth page and return with code to /login/callback/ for further processing
     else:
         auth_flow = get_auth_flow()
         auth_uri = auth_flow.step1_get_authorize_url()
@@ -232,28 +234,33 @@ def login():
 @app.route('/login/callback/')
 def login_callback():
     code = request.args.get('code')
-    auth_flow = get_auth_flow()
-    credentials = auth_flow.step2_exchange(code)
-    gmail_api = get_api(credentials)
-    print "gmail api accessed, getting user profile..."
-    gmail_user = gmail_api.users().getProfile(userId = 'me').execute()
-    email = gmail_user['emailAddress']
-    access_token = credentials.access_token
-    print "got user, adding access token to db..."
-
-    user = User.query.filter_by(email = email).first()
-    if user:
-        user.access_token = access_token
-        db_session.commit()
-
+    #If user declines to authorize google, returns to default homepage
+    #TODO: add a popup or something inviting user to demo site instead 
+    if code == None:
+        return redirect(url_for('homepage'))
+    #Once user has authorized, builds gmail api service and stores user and access token to db
     else:
-        user = User(email=email, access_token=access_token)
-        user.save()
-    
-    login_user(user, remember = True)
-    print "user logged in, querying gmail messages..."
+        auth_flow = get_auth_flow()
+        credentials = auth_flow.step2_exchange(code)
+        gmail_api = get_api(credentials)
+        print "gmail api accessed, getting user profile..."
+        gmail_user = gmail_api.users().getProfile(userId = 'me').execute()
+        email = gmail_user['emailAddress']
+        access_token = credentials.access_token
+        print "got user, adding access token to db..."
 
-    return redirect(url_for('homepage'))
+        #Creating new user or updating existing user access token in db depending
+        user = User.query.filter_by(email = email).first()
+        if user:
+            user.access_token = access_token
+            db_session.commit()
+        else:
+            user = User(email=email, access_token=access_token)
+            user.save()
+        
+        login_user(user, remember = True)
+
+        return redirect(url_for('homepage'))
 
 @app.route('/logout/')
 def logout():
