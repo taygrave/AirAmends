@@ -1,13 +1,10 @@
 /env
 airdata.db
-Presentation.txt
 TODO.txt
 .DS_Store
-Archive
 config.pyc
 gmailapiworks.pyc
 model.pyc
 db_reqs.pyc
 seed_flights.pyc
-demo.dmp
 static/AirAmends2.gif
