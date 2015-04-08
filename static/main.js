@@ -20,6 +20,7 @@ function loadFlights() {
             drawPairs();
         } catch(e) {
             console.log("Error creating json of flight coordinates");
+            console.log(e);
         }
       });
     }
@@ -108,6 +109,7 @@ function drawPairs() {
 
         } catch(e) {
             //if coordinates exist but are bad
+            console.log(e);
             continue;
         }
         // Leaflet expects [lat,lng] arrays, but a lot of software does the opposite, including arc.js, so we flip here.
