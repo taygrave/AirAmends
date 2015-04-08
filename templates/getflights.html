@@ -19,28 +19,6 @@
         </table>
     </div>
 </div>
-<!-- 
-    <div class="col-lg-8">
-        <span class="year">{{first_year}}-{{last_year}}</span>
-        <p>We found {{num_emails}} flight confirmation emails for you!</p>
-        <p>Click on each year for a more detailed report.</p>
-    </div>
-    <div class="col-lg-4">
-        <div id="dashboard">
-          <table>
-            <tr>
-                <th>CO2e (mt)</th>
-                <th>&nbsp;Carbon Debt</th>
-            </tr>
-            <tr>
-                <td id="carbon-debt" class="dash"></td>
-                <td id="carbon-price" class="dash"></td>
-            </tr>
-          </table>
-        <span id="donate" class="donate"></span>
-        </div>
-    </div>
-</div> -->
 
 <br>
 <div class="row">
@@ -76,8 +54,6 @@
     </div>
 </div>
 
-
-
 <script>
   $(document).ready(function (){
     // Calculate and populate the totals for each results table
@@ -87,8 +63,8 @@
     carbonDebt = carbonDebt1;
 
     $(".clickable-row").click(function() {
+    // Gives link-like functionality to table rows with clickable-row class, on click will pass the 'data-href' attribute (a path) to loadInfo to render in place
         loadStuff($(this).data("href"));
-        // window.document.location = $(this).data("href");
     });
 });
 </script>
