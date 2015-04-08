@@ -1,3 +1,5 @@
+// This script provides JavaScript functionality that is accesible to entire site: does map animation, keeps carbon dashboard updated, supports the modal, calculate table totals, and most importantly changes all a links in the info div to load in place
+
 function loadStuff(path) {
       $.get(path, function(response) {
         $("#info").html(response);
