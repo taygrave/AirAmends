@@ -19,6 +19,7 @@ function loadFlights() {
             window.pairs = JSON.parse(response);
             drawPairs();
         } catch(e) {
+            console.log("Error creating json of flight coordinates");
         }
       });
     }
