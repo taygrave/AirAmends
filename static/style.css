@@ -110,8 +110,8 @@ th, td {
   width: 12em;}
 tbody.scrolly {
   height: 17em; 
-  overflow-y: auto;    /* Trigger vertical scroll    */
-  overflow-x: hidden;}  /* Hide the horizontal scroll */
+  overflow-y: auto;    /*Trigger vertical scroll*/
+  overflow-x: hidden;}  /*Hide the horizontal scroll*/
 .first_col {
   width: 6em;}
 .results {
