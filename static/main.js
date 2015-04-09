@@ -62,7 +62,7 @@ function addTotals() {
     var mTotal = document.getElementById("mTotal");
     var tdEmiss = document.getElementsByClassName("emiss");
     var tdPriced = document.getElementsByClassName("priced");
-    var cSum = 0 ; mSum = 0;
+    var cSum = 0 , mSum = 0;
     // console.log($(".emiss:eq(1)").html);
 
     for (var i = 0; i < tdEmiss.length; i++) {
