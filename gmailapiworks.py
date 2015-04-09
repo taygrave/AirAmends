@@ -41,7 +41,6 @@ def get_message(service, msg_id):
 
 def populate_db(service, user_id, query=query):
   """Takes input of gmail api service, user id, and query to add unique, parsed, and extra decoded if necessary, message components to the db, calls for flight parser for each message and also populates flights db. Returns success message."""
-  service = service
   msg_list = query_messages(service, query)
   print "completed: queried gmail messages..."
   
