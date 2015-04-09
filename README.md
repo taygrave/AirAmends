@@ -56,7 +56,7 @@ In the AirAmends directory, type this command to start the server:
 
 `python airamends.py`
 
-Open a web browser and navigate to: http://localhost:5050
+Open a web browser and navigate to: http://localhost:5000
 
 ##My Favorite Parts
 I really enjoyed making AIR AMENDS. Here are some of my favorite parts:
